@@ -1,0 +1,25 @@
+# Reinstallable dependencies and language caches
+**/node_modules/
+**/__pycache__/
+**/*.py[cod]
+
+# Browser profiles and tool-generated session state
+**/chrome-profile*/
+**/Default/Network/
+
+# Local editor and OS metadata
+.codex/
+.agents/
+.DS_Store
+Thumbs.db
+
+# Temporary Office lock files
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# Local archive and tool-generated working files (retained locally only)
+/old/
+/outputs/current/
+/work/presentations/**/tmp/
+**/*.inspect.ndjson
