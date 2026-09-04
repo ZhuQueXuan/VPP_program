@@ -10,7 +10,7 @@ from docx.text.paragraph import Paragraph
 
 
 TEMPLATE = Path(r"D:\wechat\cunchu\xwechat_files\wxid_bwerc1yl4z4k22_d623\temp\RWTemp\2026-07\8115529b7fa47ec7594d7a371c4817cc\课题3实施方案.docx")
-FEASIBILITY = Path(r"D:\myDocu\project_postg\VPP_program\101_可研_国网山东电力-基于新型电力负荷管理系统的虚拟电厂市场化运营服务支撑技术及应用.docx")
+FEASIBILITY = Path(r"D:\myDocu\project_postg\VPP_program\01_项目依据\101_可研_国网山东电力-基于新型电力负荷管理系统的虚拟电厂市场化运营服务支撑技术及应用.docx")
 OUT = Path(r"D:\myDocu\project_postg\VPP_program\outputs\reports\课题一实施方案.docx")
 
 

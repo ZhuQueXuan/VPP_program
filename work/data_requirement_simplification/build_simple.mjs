@@ -1,5 +1,10 @@
 ﻿import { SpreadsheetFile, Workbook } from "@oai/artifact-tool";
 
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const PROJECT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
+
 const rows = [
   ["P1-01","资源基础信息","资源编号、资源类型、所属运营单位和虚拟电厂、运行状态、控制方式、是否可远程控制、调节方向、接入节点、所在区域等。","静态数据；有变化时更新","光伏、储能、充电桩（站）等资源","2026年8月中旬"],
   ["P1-02","资源额定参数和能力范围","额定功率/容量、最小最大功率、可调方向、爬坡速度、响应时间、持续时间、恢复时间和安全范围；按资源类型补充关键参数。","静态数据；参数变化时更新","资源级","2026年8月中旬"],
@@ -53,7 +58,7 @@ for (const [dept, ids, suggestedSource] of deptBlocks) {
   s.getRange(`A${startRow + 2}:F${endRow}`).format.rowHeight = 30;
   startRow = endRow + 3;
 }
-const out = await SpreadsheetFile.exportXlsx(wb); await out.save("D:/1.shuoshi/project_postg/VPP_program/数据需求_课题一_简化版.xlsx");
+const out = await SpreadsheetFile.exportXlsx(wb); await out.save(path.join(PROJECT_ROOT, "02_数据需求与口径", "数据需求_课题一_简化版.xlsx"));
 console.log("SAVED");
 
 

@@ -20,6 +20,7 @@ Thumbs.db
 
 # Local archive and tool-generated working files (retained locally only)
 /old/
+/data/
 /outputs/current/
 /work/presentations/**/tmp/
 **/*.inspect.ndjson
