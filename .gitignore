@@ -23,3 +23,11 @@ Thumbs.db
 /outputs/current/
 /work/presentations/**/tmp/
 **/*.inspect.ndjson
+
+# Local intermediate artifacts retained outside version control
+/work/data_requirement_simplification/build_simplified_data_requirement.mjs
+/work/data_requirement_simplification/build_v2.mjs
+/work/data_requirement_simplification/inspect_source.mjs
+/work/data_requirement_simplification/source_preview.png
+/resource_regulation_behavior_causal_decomposition/10_组会讲解稿.pdf
+/resource_regulation_behavior_causal_decomposition/课题一算法-第一版.pdf
