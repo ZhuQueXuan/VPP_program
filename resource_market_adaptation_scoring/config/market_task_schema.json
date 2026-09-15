@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "market_task_schema.json",
+  "title": "市场任务或标准比较场景接口",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "task_id", "calculation_mode", "market_output", "region", "valid_from", "valid_to", "evidence_status", "requirements", "source_records"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "task_id": {"type": "string", "minLength": 1},
+    "calculation_mode": {"enum": ["standard_benchmark", "specific_task"]},
+    "market_output": {"enum": ["spot_fit", "frequency_fit", "reserve_readiness", "ramping_fit", "green_supply_fit", "green_consumption_fit"]},
+    "region": {"type": "string", "minLength": 1},
+    "valid_from": {"type": ["string", "null"], "format": "date-time"},
+    "valid_to": {"type": ["string", "null"], "format": "date-time"},
+    "evidence_status": {"enum": ["official_rule", "verified_market_task", "public_dataset", "simulation_assumption", "pending_verification"]},
+    "requirements": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["direction"],
+      "properties": {
+        "direction": {"enum": ["up", "down", "bidirectional", "supply", "shift"]},
+        "required_power_mw": {"type": ["number", "null"], "minimum": 0},
+        "required_power_ratio": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "required_energy_mwh": {"type": ["number", "null"], "minimum": 0},
+        "required_energy_ratio": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "required_duration_h": {"type": ["number", "null"], "minimum": 0},
+        "max_response_time_s": {"type": ["number", "null"], "exclusiveMinimum": 0},
+        "required_ramp_mw_per_min": {"type": ["number", "null"], "minimum": 0},
+        "required_ramp_ratio_per_min": {"type": ["number", "null"], "minimum": 0},
+        "max_tracking_error_pct": {"type": ["number", "null"], "minimum": 0},
+        "contract_energy_mwh": {"type": ["number", "null"], "minimum": 0},
+        "eligible_generation_energy_mwh": {"type": ["number", "null"], "minimum": 0},
+        "user_consumption_energy_mwh": {"type": ["number", "null"], "minimum": 0}
+      }
+    },
+    "source_records": {"type": "array", "minItems": 1, "items": {"$ref": "resource_submission_schema.json#/$defs/source_record"}}
+  }
+}

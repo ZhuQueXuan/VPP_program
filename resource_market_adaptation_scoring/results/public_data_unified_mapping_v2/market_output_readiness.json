@@ -1,0 +1,200 @@
+[
+  {
+    "dataset_id": "m5bat_manifest_2017",
+    "candidate_resource_type": "储能",
+    "market_output": "spot_fit",
+    "market_status": "operational",
+    "physical_relevance": true,
+    "interface_readiness": "pending_entity_and_task_evidence",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "公开记录不足以同时形成完整实体、山东准入证据和明确市场任务"
+  },
+  {
+    "dataset_id": "m5bat_manifest_2017",
+    "candidate_resource_type": "储能",
+    "market_output": "frequency_fit",
+    "market_status": "operational",
+    "physical_relevance": true,
+    "interface_readiness": "pending_entity_and_task_evidence",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "公开记录不足以同时形成完整实体、山东准入证据和明确市场任务"
+  },
+  {
+    "dataset_id": "m5bat_manifest_2017",
+    "candidate_resource_type": "储能",
+    "market_output": "reserve_readiness",
+    "market_status": "planned",
+    "physical_relevance": true,
+    "interface_readiness": "not_open",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "公开记录不足以同时形成完整实体、山东准入证据和明确市场任务"
+  },
+  {
+    "dataset_id": "m5bat_manifest_2017",
+    "candidate_resource_type": "储能",
+    "market_output": "ramping_fit",
+    "market_status": "operational",
+    "physical_relevance": true,
+    "interface_readiness": "pending_entity_and_task_evidence",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "公开记录不足以同时形成完整实体、山东准入证据和明确市场任务"
+  },
+  {
+    "dataset_id": "m5bat_manifest_2017",
+    "candidate_resource_type": "储能",
+    "market_output": "green_supply_fit",
+    "market_status": "operational",
+    "physical_relevance": false,
+    "interface_readiness": "not_applicable",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "数据对象或字段不支持该输出"
+  },
+  {
+    "dataset_id": "m5bat_manifest_2017",
+    "candidate_resource_type": "储能",
+    "market_output": "green_consumption_fit",
+    "market_status": "operational",
+    "physical_relevance": true,
+    "interface_readiness": "pending_entity_and_task_evidence",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "公开记录不足以同时形成完整实体、山东准入证据和明确市场任务"
+  },
+  {
+    "dataset_id": "epfl_level3_ev",
+    "candidate_resource_type": "充电桩（充电站）",
+    "market_output": "spot_fit",
+    "market_status": "operational",
+    "physical_relevance": true,
+    "interface_readiness": "pending_entity_and_task_evidence",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "公开记录不足以同时形成完整实体、山东准入证据和明确市场任务"
+  },
+  {
+    "dataset_id": "epfl_level3_ev",
+    "candidate_resource_type": "充电桩（充电站）",
+    "market_output": "frequency_fit",
+    "market_status": "operational",
+    "physical_relevance": true,
+    "interface_readiness": "pending_entity_and_task_evidence",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "公开记录不足以同时形成完整实体、山东准入证据和明确市场任务"
+  },
+  {
+    "dataset_id": "epfl_level3_ev",
+    "candidate_resource_type": "充电桩（充电站）",
+    "market_output": "reserve_readiness",
+    "market_status": "planned",
+    "physical_relevance": true,
+    "interface_readiness": "not_open",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "公开记录不足以同时形成完整实体、山东准入证据和明确市场任务"
+  },
+  {
+    "dataset_id": "epfl_level3_ev",
+    "candidate_resource_type": "充电桩（充电站）",
+    "market_output": "ramping_fit",
+    "market_status": "operational",
+    "physical_relevance": true,
+    "interface_readiness": "pending_entity_and_task_evidence",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "公开记录不足以同时形成完整实体、山东准入证据和明确市场任务"
+  },
+  {
+    "dataset_id": "epfl_level3_ev",
+    "candidate_resource_type": "充电桩（充电站）",
+    "market_output": "green_supply_fit",
+    "market_status": "operational",
+    "physical_relevance": false,
+    "interface_readiness": "not_applicable",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "数据对象或字段不支持该输出"
+  },
+  {
+    "dataset_id": "epfl_level3_ev",
+    "candidate_resource_type": "充电桩（充电站）",
+    "market_output": "green_consumption_fit",
+    "market_status": "operational",
+    "physical_relevance": true,
+    "interface_readiness": "pending_entity_and_task_evidence",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "公开记录不足以同时形成完整实体、山东准入证据和明确市场任务"
+  },
+  {
+    "dataset_id": "australia_sgsc",
+    "candidate_resource_type": null,
+    "market_output": "spot_fit",
+    "market_status": "operational",
+    "physical_relevance": true,
+    "interface_readiness": "pending_entity_and_task_evidence",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "公开记录不足以同时形成完整实体、山东准入证据和明确市场任务"
+  },
+  {
+    "dataset_id": "australia_sgsc",
+    "candidate_resource_type": null,
+    "market_output": "frequency_fit",
+    "market_status": "operational",
+    "physical_relevance": false,
+    "interface_readiness": "not_applicable",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "数据对象或字段不支持该输出"
+  },
+  {
+    "dataset_id": "australia_sgsc",
+    "candidate_resource_type": null,
+    "market_output": "reserve_readiness",
+    "market_status": "planned",
+    "physical_relevance": true,
+    "interface_readiness": "not_open",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "公开记录不足以同时形成完整实体、山东准入证据和明确市场任务"
+  },
+  {
+    "dataset_id": "australia_sgsc",
+    "candidate_resource_type": null,
+    "market_output": "ramping_fit",
+    "market_status": "operational",
+    "physical_relevance": false,
+    "interface_readiness": "not_applicable",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "数据对象或字段不支持该输出"
+  },
+  {
+    "dataset_id": "australia_sgsc",
+    "candidate_resource_type": null,
+    "market_output": "green_supply_fit",
+    "market_status": "operational",
+    "physical_relevance": false,
+    "interface_readiness": "not_applicable",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "数据对象或字段不支持该输出"
+  },
+  {
+    "dataset_id": "australia_sgsc",
+    "candidate_resource_type": null,
+    "market_output": "green_consumption_fit",
+    "market_status": "operational",
+    "physical_relevance": true,
+    "interface_readiness": "pending_entity_and_task_evidence",
+    "diagnostic_scenario_fit_index": "not_computable",
+    "formal_scenario_fit_index": "not_computable",
+    "reason": "公开记录不足以同时形成完整实体、山东准入证据和明确市场任务"
+  }
+]

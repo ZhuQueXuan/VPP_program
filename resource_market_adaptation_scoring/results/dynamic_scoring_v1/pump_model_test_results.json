@@ -1,0 +1,47 @@
+{
+  "case_count": 5,
+  "all_passed": true,
+  "details": [
+    {
+      "resource_type": "辅助泵类",
+      "test": "reduced_process_buffer",
+      "baseline_index": 100.0,
+      "changed_index": 9.09,
+      "correct": true
+    },
+    {
+      "resource_type": "辅助泵类",
+      "test": "liquid_level_outside_boundary",
+      "constraint_status": "fail",
+      "diagnostic_index": "not_computable",
+      "failed_rule_ids": [
+        "resource_constraint.liquid_level_boundary"
+      ],
+      "correct": true
+    },
+    {
+      "resource_type": "高压电机泵",
+      "test": "reduced_process_buffer",
+      "baseline_index": 100.0,
+      "changed_index": 2.22,
+      "correct": true
+    },
+    {
+      "resource_type": "高压电机泵",
+      "test": "liquid_level_outside_boundary",
+      "constraint_status": "fail",
+      "diagnostic_index": "not_computable",
+      "failed_rule_ids": [
+        "resource_constraint.liquid_level_boundary"
+      ],
+      "correct": true
+    },
+    {
+      "resource_type": "高压电机泵",
+      "test": "remove_discrete_shutdown_and_spare_unit",
+      "available_up_power_mw": 0.0,
+      "admission_status": "fail",
+      "correct": true
+    }
+  ]
+}

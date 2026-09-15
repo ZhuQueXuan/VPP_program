@@ -1,0 +1,4 @@
+﻿portfolio_id,portfolio_name,functional_tags,main_constraints,grade,evidence_status
+pv_only_demo,模拟分布式光伏单体,绿色电源;连续限功率,预测与可用出力约束,not_graded,simulation_only
+pv_storage_demo,模拟光储联合体,绿色电源;连续限功率;储能;连续双向调节;组合履约协同,能量/SOC约束,not_graded,simulation_only
+pv_storage_ev_demo,模拟光储充聚合组合,绿色电源;连续限功率;储能;连续双向调节;组合履约协同;柔性负荷;时段平移;绿电消纳协同,能量/SOC约束;用户行为/充电需求约束,not_graded,simulation_only

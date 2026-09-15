@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "portfolio_id": "VPP-DEMO-01",
+  "evidence_status": "simulation_assumption",
+  "note": "构造的同时任务和资源分配方案，用于验证多市场容量不能重复承诺。",
+  "tasks": [
+    {"task_id":"PORT-SPOT-UP","market_output":"spot_fit","direction":"up","required_power_mw":2.0,"duration_h":1.0},
+    {"task_id":"PORT-FREQ-BI","market_output":"frequency_fit","direction":"bidirectional","required_power_mw":1.0,"duration_h":0.25},
+    {"task_id":"PORT-RAMP-BI","market_output":"ramping_fit","direction":"bidirectional","required_power_mw":0.8,"duration_h":0.25}
+  ],
+  "base_assignments": [
+    {"task_id":"PORT-SPOT-UP","entity_id":"BESS-DEMO-01","committed_up_power_mw":1.0,"committed_down_power_mw":0.0},
+    {"task_id":"PORT-SPOT-UP","entity_id":"EV-DEMO-01","committed_up_power_mw":0.7,"committed_down_power_mw":0.0},
+    {"task_id":"PORT-SPOT-UP","entity_id":"AC-DEMO-01","committed_up_power_mw":0.3,"committed_down_power_mw":0.0},
+    {"task_id":"PORT-FREQ-BI","entity_id":"BESS-DEMO-01","committed_up_power_mw":0.5,"committed_down_power_mw":0.5},
+    {"task_id":"PORT-FREQ-BI","entity_id":"EV-DEMO-01","committed_up_power_mw":0.3,"committed_down_power_mw":0.3},
+    {"task_id":"PORT-FREQ-BI","entity_id":"AC-DEMO-01","committed_up_power_mw":0.2,"committed_down_power_mw":0.2},
+    {"task_id":"PORT-RAMP-BI","entity_id":"BESS-DEMO-01","committed_up_power_mw":0.3,"committed_down_power_mw":0.3},
+    {"task_id":"PORT-RAMP-BI","entity_id":"EV-DEMO-01","committed_up_power_mw":0.1,"committed_down_power_mw":0.1},
+    {"task_id":"PORT-RAMP-BI","entity_id":"AC-DEMO-01","committed_up_power_mw":0.4,"committed_down_power_mw":0.4}
+  ],
+  "conflict_overrides": [
+    {"task_id":"PORT-SPOT-UP","entity_id":"BESS-DEMO-01","committed_up_power_mw":1.5,"committed_down_power_mw":0.0}
+  ]
+}

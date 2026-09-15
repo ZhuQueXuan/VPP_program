@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "scenario_set_id": "standard_benchmark_v1",
+  "note": "可更新的标准比较场景，仅用于动态画像和程序测试，不代表山东统一市场任务或正式准入阈值。",
+  "tasks": [
+    {
+      "schema_version": "1.0",
+      "task_id": "STD-SPOT-UP-V1",
+      "calculation_mode": "standard_benchmark",
+      "market_output": "spot_fit",
+      "region": "CN-SD",
+      "valid_from": null,
+      "valid_to": null,
+      "evidence_status": "simulation_assumption",
+      "requirements": {"direction": "up", "required_power_ratio": 0.20, "required_duration_h": 1.0},
+      "source_records": [{"source_id":"STD-SCENE-V1","source_type":"simulation_assumption","description":"按额定功率20%、持续1小时设置的可更新比较场景","url_or_path":null,"verified_at":null}]
+    },
+    {
+      "schema_version": "1.0",
+      "task_id": "STD-FREQUENCY-BI-V1",
+      "calculation_mode": "standard_benchmark",
+      "market_output": "frequency_fit",
+      "region": "CN-SD",
+      "valid_from": null,
+      "valid_to": null,
+      "evidence_status": "simulation_assumption",
+      "requirements": {"direction":"bidirectional","required_power_ratio":0.10,"required_duration_h":0.25,"max_response_time_s":60,"required_ramp_ratio_per_min":0.10,"max_tracking_error_pct":5},
+      "source_records": [{"source_id":"STD-SCENE-V1","source_type":"simulation_assumption","description":"按额定功率10%的双向调节设置的可更新比较场景","url_or_path":null,"verified_at":null}]
+    },
+    {
+      "schema_version": "1.0",
+      "task_id": "STD-RESERVE-UP-V1",
+      "calculation_mode": "standard_benchmark",
+      "market_output": "reserve_readiness",
+      "region": "CN-SD",
+      "valid_from": null,
+      "valid_to": null,
+      "evidence_status": "simulation_assumption",
+      "requirements": {"direction":"up","required_power_ratio":0.20,"required_duration_h":2.0,"max_response_time_s":900},
+      "source_records": [{"source_id":"STD-SCENE-V1-SX-REF","source_type":"simulation_assumption","description":"功率比例为比较假设；2小时和15分钟仅参考山西正备用规则，不替代山东待发布规则","url_or_path":"https://sxb.nea.gov.cn/xxgk/zcjd/202401/P020240119400749251760.pdf","verified_at":null}]
+    },
+    {
+      "schema_version": "1.0",
+      "task_id": "STD-RAMPING-BI-V1",
+      "calculation_mode": "standard_benchmark",
+      "market_output": "ramping_fit",
+      "region": "CN-SD",
+      "valid_from": null,
+      "valid_to": null,
+      "evidence_status": "simulation_assumption",
+      "requirements": {"direction":"bidirectional","required_power_ratio":0.20,"required_duration_h":0.25,"max_response_time_s":300,"required_ramp_ratio_per_min":0.04},
+      "source_records": [{"source_id":"STD-SCENE-V1","source_type":"simulation_assumption","description":"按额定功率20%的双向调节设置的可更新比较场景","url_or_path":null,"verified_at":null}]
+    },
+    {
+      "schema_version": "1.0",
+      "task_id": "STD-GREEN-SUPPLY-V1",
+      "calculation_mode": "standard_benchmark",
+      "market_output": "green_supply_fit",
+      "region": "CN-SD",
+      "valid_from": null,
+      "valid_to": null,
+      "evidence_status": "simulation_assumption",
+      "requirements": {"direction":"supply","required_energy_ratio":0.20,"required_duration_h":1.0},
+      "source_records": [{"source_id":"STD-SCENE-V1","source_type":"simulation_assumption","description":"按额定功率等效20%、持续1小时设置的绿电供给比较场景","url_or_path":null,"verified_at":null}]
+    },
+    {
+      "schema_version": "1.0",
+      "task_id": "STD-GREEN-CONSUMPTION-V1",
+      "calculation_mode": "standard_benchmark",
+      "market_output": "green_consumption_fit",
+      "region": "CN-SD",
+      "valid_from": null,
+      "valid_to": null,
+      "evidence_status": "simulation_assumption",
+      "requirements": {"direction":"shift","required_power_ratio":0.20,"required_duration_h":1.0},
+      "source_records": [{"source_id":"STD-SCENE-V1","source_type":"simulation_assumption","description":"按额定功率20%、持续1小时设置的负荷转移比较场景","url_or_path":null,"verified_at":null}]
+    }
+  ]
+}

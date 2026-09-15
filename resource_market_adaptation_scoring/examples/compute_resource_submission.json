@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "compute_resource_constructed_submission_v1",
+  "note": "算力实体为构造数据，用于验证任务调度能力、SLA和截止期约束。",
+  "submissions": [
+    {
+      "schema_version":"1.0","submission_id":"SUB-COMPUTE-DEMO-01","submitted_at":"2026-09-15T10:40:00+08:00","calculation_purpose":"standard_profile","evidence_status":"simulation_assumption",
+      "entity":{"entity_id":"COMPUTE-DEMO-01","entity_name":"构造算力中心实体","resource_type":"算力","aggregation_id":"AGG-COMPUTE-DEMO-01","region":"CN-SD","data_timestamp":"2026-09-15T10:40:00+08:00","rated_power_mw":12.0,"availability_pct":93,"response_time_s":60,"ramp_rate_mw_per_min":1.2,"tracking_error_pct":6.0,"specific_constraint_pass":true,"model_parameters":{"facility_power_mw":9.0,"it_power_mw":6.5,"pue":1.38,"deferrable_workload_share":0.22,"upward_absorption_share":0.15,"deferrable_energy_mwh":3.0,"additional_schedulable_energy_mwh":2.0,"max_deferral_window_h":2.0,"deadline_slack_h":3.0,"minimum_deadline_slack_h":1.0,"sla_headroom_pct":20.0,"minimum_sla_headroom_pct":10.0,"migration_required":false,"migration_bandwidth_ok":true,"control_authorized":true,"real_time_workload_share":0.55},"market_qualification":{"registered":true,"metering":true,"communication":true,"direct_control":true,"performance_test":true,"green_project_eligible":false,"traceable":false,"consumer_relation":true,"green_contract":true,"consumer_metered":true}},
+      "source_records":[{"source_id":"SIM-COMPUTE-01","source_type":"simulation_assumption","description":"验证可延迟任务、截止期、SLA和负荷恢复的构造数据","url_or_path":null,"verified_at":null}]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "dataset_count": 3,
+  "metric_count": 29,
+  "flow_result_count": 18,
+  "market_status_source": "config/market_rule_parameters.csv",
+  "formal_scores_emitted": 0,
+  "cross_dataset_horizontal_join": false,
+  "dataset_checks": {
+    "m5bat_manifest_2017": {
+      "records": 2656,
+      "files": 2
+    },
+    "epfl_level3_ev": {
+      "records": 1293360,
+      "controlled_records": 46578,
+      "sessions": 1006
+    },
+    "australia_sgsc": {
+      "records": 12024,
+      "resources": 1256,
+      "events": 13
+    }
+  },
+  "checks": {
+    "all_dataset_ids_present": true,
+    "all_metric_values_present": true,
+    "six_outputs_per_dataset": true,
+    "reserve_is_not_open": true,
+    "no_unjustified_formal_score": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "comparison_count": 7,
+  "formal_market_scores_emitted": 0,
+  "shandong_active_rules_used": [
+    "frequency.reserve.storage_power_ratio_each_direction",
+    "vpp.adjustable_load.min_adjustable_capacity",
+    "vpp.adjustable_load.min_continuous_duration",
+    "vpp.storage.aux.min_continuous_duration",
+    "vpp.storage.min_aggregate_capacity",
+    "vpp.storage.spot.min_continuous_duration"
+  ],
+  "sgsc_events_total": 13,
+  "sgsc_events_at_or_above_1mw": 4,
+  "boundary": "Official thresholds were applied as gates; no dispatch completion score was fabricated."
+}

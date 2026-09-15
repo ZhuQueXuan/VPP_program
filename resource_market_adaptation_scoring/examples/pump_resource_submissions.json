@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "pump_resource_constructed_submissions_v1",
+  "note": "两类泵负荷均为构造数据，用于区分变频连续调节和工频离散启停。",
+  "submissions": [
+    {
+      "schema_version":"1.0","submission_id":"SUB-PUMP-DEMO-01","submitted_at":"2026-09-15T10:20:00+08:00","calculation_purpose":"standard_profile","evidence_status":"simulation_assumption",
+      "entity":{"entity_id":"PUMP-DEMO-01","entity_name":"构造辅助泵聚合实体","resource_type":"辅助泵类","aggregation_id":"AGG-PUMP-DEMO-01","region":"CN-SD","data_timestamp":"2026-09-15T10:20:00+08:00","rated_power_mw":2.0,"availability_pct":95,"response_time_s":20,"ramp_rate_mw_per_min":0.5,"tracking_error_pct":4.0,"specific_constraint_pass":true,"model_parameters":{"current_power_mw":1.6,"min_stable_power_mw":0.5,"max_power_mw":2.0,"process_buffer_up_mwh":1.5,"process_buffer_down_mwh":0.8,"max_control_window_h":1.5,"vfd_enabled":true,"discrete_shutdown_allowed":false,"parallel_spare_power_mw":0.0,"liquid_level_pct":60.0,"liquid_level_min_pct":30.0,"liquid_level_max_pct":90.0,"flow_value":110.0,"minimum_flow_value":70.0,"pressure_value":0.55,"pressure_min":0.40,"pressure_max":0.75,"interlock_clear":true,"control_authorized":true},"market_qualification":{"registered":true,"metering":true,"communication":true,"direct_control":true,"performance_test":true,"green_project_eligible":false,"traceable":false,"consumer_relation":true,"green_contract":true,"consumer_metered":true}},
+      "source_records":[{"source_id":"SIM-PUMP-01","source_type":"simulation_assumption","description":"验证变频泵、液位和工艺缓冲的构造数据","url_or_path":null,"verified_at":null}]
+    },
+    {
+      "schema_version":"1.0","submission_id":"SUB-HVPUMP-DEMO-01","submitted_at":"2026-09-15T10:20:00+08:00","calculation_purpose":"standard_profile","evidence_status":"simulation_assumption",
+      "entity":{"entity_id":"HVPUMP-DEMO-01","entity_name":"构造高压电机泵实体","resource_type":"高压电机泵","aggregation_id":"AGG-PUMP-DEMO-02","region":"CN-SD","data_timestamp":"2026-09-15T10:20:00+08:00","rated_power_mw":6.0,"availability_pct":90,"response_time_s":180,"ramp_rate_mw_per_min":0.4,"tracking_error_pct":10.0,"specific_constraint_pass":true,"model_parameters":{"current_power_mw":4.5,"min_stable_power_mw":2.5,"max_power_mw":6.0,"process_buffer_up_mwh":5.0,"process_buffer_down_mwh":2.0,"max_control_window_h":2.0,"vfd_enabled":false,"discrete_shutdown_allowed":true,"parallel_spare_power_mw":1.5,"liquid_level_pct":65.0,"liquid_level_min_pct":35.0,"liquid_level_max_pct":90.0,"flow_value":320.0,"minimum_flow_value":220.0,"pressure_value":0.62,"pressure_min":0.48,"pressure_max":0.80,"interlock_clear":true,"control_authorized":true},"market_qualification":{"registered":true,"metering":true,"communication":true,"direct_control":true,"performance_test":true,"green_project_eligible":false,"traceable":false,"consumer_relation":true,"green_contract":true,"consumer_metered":true}},
+      "source_records":[{"source_id":"SIM-HVPUMP-01","source_type":"simulation_assumption","description":"验证工频离散启停、并联备用泵和再启动约束的构造数据","url_or_path":null,"verified_at":null}]
+    }
+  ]
+}

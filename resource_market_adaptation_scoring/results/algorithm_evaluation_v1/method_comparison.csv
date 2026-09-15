@@ -1,0 +1,4 @@
+﻿evaluated_cases,tp,tn,fp,fn,accuracy,precision,recall,f1,false_commitment_rate,missed_opportunity_rate,method,status_accuracy,bottleneck_accuracy,evaluation_scope
+256,64,65,127,0,0.50390625,0.33507853403141363,1.0,0.5019607843137256,0.6649214659685864,0.0,capacity_only,0.6190476190476191,not_evaluated,constructed_rule_benchmark
+256,64,64,128,0,0.5,0.3333333333333333,1.0,0.5,0.6666666666666666,0.0,equal_weight_average,0.6190476190476191,not_evaluated,constructed_rule_benchmark
+256,64,192,0,0,1.0,1.0,1.0,1.0,0.0,0.0,rule_gated_shortest_board,1.0,1.0,constructed_rule_benchmark

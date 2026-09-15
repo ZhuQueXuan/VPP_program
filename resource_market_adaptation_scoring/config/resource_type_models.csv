@@ -1,0 +1,17 @@
+resource_id,resource_type,model_family,specific_constraint,green_role,notes
+1,分布式光伏,pv,forecast_and_grid_connection,supply,用预测下界和预留出力计算可承诺发电能力
+2,蓄热锅炉,thermal_load,thermal_supply_and_storage,consumption,用热负荷与蓄热缓冲约束升降负荷
+3,冷水机组,thermal_load,temperature_and_rebound,consumption,用温度边界和蓄冷缓冲约束调节
+4,冷库,thermal_load,product_temperature,consumption,用库温产品温度和蓄冷缓冲约束调节
+5,辅助泵类,pump,liquid_level_and_process,consumption,用液位或工艺库存约束调节
+6,高压电机泵,pump,vfd_restart_and_process,consumption,连续调节取决于变频配置
+7,空调,thermal_load,comfort_opt_out_and_rebound,consumption,用舒适边界退出率和反弹约束调节
+8,充电桩（充电站）,ev,connection_authorization_and_target_soc,consumption,用连接车辆离站时间目标SOC和授权计算
+9,水泥（球磨机）,batch,inventory_and_minimum_on_off,consumption,离散启停能力受料仓和生产计划约束
+10,中频电炉,batch,batch_stage_temperature_and_quality,consumption,只在允许炉次阶段调节
+11,电窑炉,batch,thermal_process_and_quality,consumption,核心热工过程和辅助设备需分开约束
+12,储能,storage,soc_soh_energy_and_cycle,consumption,用SOC安全区间效率和额定功率计算双向能力
+13,算力,compute,sla_deadline_and_backlog,consumption,用可延迟任务比例和SLA余量计算
+14,搅拌机,batch,batch_interruptibility_and_inventory,consumption,不可中断批次只允许开批前移时
+15,烘干机（热泵）,thermal_load,moisture_deadline_and_rebound,consumption,用含水率期限和热缓冲约束调节
+16,压机（液压/油压/水压）,batch,cycle_stage_interlock_and_deadline,consumption,只在安全允许的循环阶段和作业间调节

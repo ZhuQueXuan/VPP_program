@@ -1,0 +1,31 @@
+{
+  "resource_types": [
+    "中频电炉",
+    "储能",
+    "充电桩（充电站）",
+    "冷库",
+    "冷水机组",
+    "分布式光伏",
+    "压机（液压/油压/水压）",
+    "搅拌机",
+    "水泥（球磨机）",
+    "烘干机（热泵）",
+    "电窑炉",
+    "空调",
+    "算力",
+    "蓄热锅炉",
+    "辅助泵类",
+    "高压电机泵"
+  ],
+  "resource_type_count": 16,
+  "market_output_count": 6,
+  "checks": {
+    "sixteen_resource_types_present": true,
+    "six_market_outputs_present": true,
+    "six_rows_per_entity": true,
+    "no_fixed_total_score_field": true,
+    "all_formal_indices_non_numeric_for_simulation": true,
+    "every_applicable_row_has_capability_or_missing_reason": true
+  },
+  "all_passed": true
+}

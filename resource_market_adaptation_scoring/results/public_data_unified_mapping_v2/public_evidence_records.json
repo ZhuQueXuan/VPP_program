@@ -1,0 +1,120 @@
+[
+  {
+    "dataset_id": "m5bat_manifest_2017",
+    "candidate_resource_type": "储能",
+    "mapping_status": "partial_evidence_only",
+    "valid_resource_submission": false,
+    "record_granularity": "second_level_operating_records",
+    "mapped_evidence": {
+      "source_nameplate_power_mw": 0.24,
+      "source_energy_capacity_mwh": 0.18,
+      "observed_power_abs_p95_mw": 0.235925,
+      "observed_ramp_abs_p95_mw_per_min": 0.006,
+      "observed_soc_min": 0.6225,
+      "observed_soc_max": 0.8,
+      "observed_duration_h": 0.733333
+    },
+    "missing_for_resource_submission": [
+      "entity_id对应的山东主体身份",
+      "单一计算时点SOC",
+      "SOC安全上下限",
+      "SOH",
+      "充放电效率",
+      "端到端响应时间",
+      "跟踪误差",
+      "山东注册计量通信控制和测试证据"
+    ],
+    "usable_layer": [
+      "储能能力先验证据",
+      "秒级功率与SOC范围检查",
+      "爬坡率计算流程"
+    ],
+    "not_usable_for": [
+      "当前实体正式可用能量",
+      "山东市场准入",
+      "正式场景适配指数"
+    ],
+    "source_url": "https://ukerc.rl.ac.uk/cgi-bin/dataDiscover.pl?Action=detail&dataid=4bd6e2eb-1417-4c8c-a9f0-6587fae2c0c5"
+  },
+  {
+    "dataset_id": "epfl_level3_ev",
+    "candidate_resource_type": "充电桩（充电站）",
+    "mapping_status": "partial_evidence_only",
+    "valid_resource_submission": false,
+    "record_granularity": "minute_level_charging_records",
+    "mapped_evidence": {
+      "controlled_record_count": 46578,
+      "controlled_session_count": 1006,
+      "observed_power_max_mw": 0.174846,
+      "tracking_abs_error_median_mw": 0.004956,
+      "tracking_abs_error_p90_mw": 0.016618,
+      "tracking_abs_pct_error_median": 7.552724,
+      "observed_ramp_abs_p95_mw_per_min": 0.010437,
+      "observed_soc_min": 0.0,
+      "observed_soc_max": 1.0
+    },
+    "missing_for_resource_submission": [
+      "山东聚合实体身份",
+      "站级额定和连接容量",
+      "统一计算时点的连接车辆",
+      "到离站时间",
+      "目标剩余电量",
+      "可移动电量",
+      "用户授权",
+      "V2G资格",
+      "秒级响应证据",
+      "山东准入证据"
+    ],
+    "usable_layer": [
+      "充电功率跟踪证据",
+      "会话级SOC范围",
+      "分钟级变化率流程"
+    ],
+    "not_usable_for": [
+      "10秒级调频响应",
+      "当前站级可调能量",
+      "山东市场准入",
+      "正式场景适配指数"
+    ],
+    "source_url": "https://github.com/DESL-EPFL/Level-3-EV-charging-dataset"
+  },
+  {
+    "dataset_id": "australia_sgsc",
+    "candidate_resource_type": null,
+    "mapping_status": "not_mappable_to_single_resource_type",
+    "valid_resource_submission": false,
+    "record_granularity": "customer_event_records",
+    "mapped_evidence": {
+      "resource_count": 1256,
+      "event_count": 13,
+      "positive_response_rate_pct": 72.205589,
+      "event_aggregate_reduction_median_mw": 0.764412,
+      "event_duration_median_h": 4.0,
+      "response_ratio_median_pct": 40.391439
+    },
+    "missing_for_resource_submission": [
+      "16类资源组成",
+      "设备级实体参数",
+      "当前状态和专属物理约束",
+      "稳定聚合单元身份",
+      "山东准入证据"
+    ],
+    "missing_for_market_task": [
+      "每个客户事前要求功率",
+      "任务方向的完整定义",
+      "响应时间和爬坡要求",
+      "跟踪精度要求"
+    ],
+    "usable_layer": [
+      "历史聚合削减行为证据",
+      "事件持续时间分布",
+      "行为响应率验证"
+    ],
+    "not_usable_for": [
+      "强制归类为空调或其他单一资源",
+      "事前任务完成率",
+      "山东正式适配指数"
+    ],
+    "source_url": "https://www.data.gov.au/data/dataset/smart-grid-smart-city-customer-trial-data"
+  }
+]

@@ -1,0 +1,174 @@
+{
+  "case_count": 24,
+  "all_passed": true,
+  "details": [
+    {
+      "rule_id": "vpp.storage.min_aggregate_capacity",
+      "observed": 0.99,
+      "expected_pass": false,
+      "actual_pass": false,
+      "correct": true
+    },
+    {
+      "rule_id": "vpp.storage.min_aggregate_capacity",
+      "observed": 1.0,
+      "expected_pass": true,
+      "actual_pass": true,
+      "correct": true
+    },
+    {
+      "rule_id": "vpp.storage.min_aggregate_capacity",
+      "observed": 1.01,
+      "expected_pass": true,
+      "actual_pass": true,
+      "correct": true
+    },
+    {
+      "rule_id": "vpp.storage.spot.min_continuous_duration",
+      "observed": 1.99,
+      "expected_pass": false,
+      "actual_pass": false,
+      "correct": true
+    },
+    {
+      "rule_id": "vpp.storage.spot.min_continuous_duration",
+      "observed": 2.0,
+      "expected_pass": true,
+      "actual_pass": true,
+      "correct": true
+    },
+    {
+      "rule_id": "vpp.storage.spot.min_continuous_duration",
+      "observed": 2.01,
+      "expected_pass": true,
+      "actual_pass": true,
+      "correct": true
+    },
+    {
+      "rule_id": "vpp.storage.aux.min_continuous_duration",
+      "observed": 14.9,
+      "expected_pass": false,
+      "actual_pass": false,
+      "correct": true
+    },
+    {
+      "rule_id": "vpp.storage.aux.min_continuous_duration",
+      "observed": 15.0,
+      "expected_pass": true,
+      "actual_pass": true,
+      "correct": true
+    },
+    {
+      "rule_id": "vpp.storage.aux.min_continuous_duration",
+      "observed": 15.1,
+      "expected_pass": true,
+      "actual_pass": true,
+      "correct": true
+    },
+    {
+      "rule_id": "vpp.adjustable_load.min_adjustable_capacity",
+      "observed": 0.99,
+      "expected_pass": false,
+      "actual_pass": false,
+      "correct": true
+    },
+    {
+      "rule_id": "vpp.adjustable_load.min_adjustable_capacity",
+      "observed": 1.0,
+      "expected_pass": true,
+      "actual_pass": true,
+      "correct": true
+    },
+    {
+      "rule_id": "vpp.adjustable_load.min_adjustable_capacity",
+      "observed": 1.01,
+      "expected_pass": true,
+      "actual_pass": true,
+      "correct": true
+    },
+    {
+      "rule_id": "vpp.adjustable_load.min_continuous_duration",
+      "observed": 0.99,
+      "expected_pass": false,
+      "actual_pass": false,
+      "correct": true
+    },
+    {
+      "rule_id": "vpp.adjustable_load.min_continuous_duration",
+      "observed": 1.0,
+      "expected_pass": true,
+      "actual_pass": true,
+      "correct": true
+    },
+    {
+      "rule_id": "vpp.adjustable_load.min_continuous_duration",
+      "observed": 1.01,
+      "expected_pass": true,
+      "actual_pass": true,
+      "correct": true
+    },
+    {
+      "rule_id": "frequency.agc.thermal_response_time",
+      "observed": 59.9,
+      "expected_pass": true,
+      "actual_pass": true,
+      "correct": true
+    },
+    {
+      "rule_id": "frequency.agc.thermal_response_time",
+      "observed": 60.0,
+      "expected_pass": false,
+      "actual_pass": false,
+      "correct": true
+    },
+    {
+      "rule_id": "frequency.agc.thermal_response_time",
+      "observed": 60.1,
+      "expected_pass": false,
+      "actual_pass": false,
+      "correct": true
+    },
+    {
+      "rule_id": "frequency.agc.hydro_response_time",
+      "observed": 19.9,
+      "expected_pass": true,
+      "actual_pass": true,
+      "correct": true
+    },
+    {
+      "rule_id": "frequency.agc.hydro_response_time",
+      "observed": 20.0,
+      "expected_pass": false,
+      "actual_pass": false,
+      "correct": true
+    },
+    {
+      "rule_id": "frequency.agc.hydro_response_time",
+      "observed": 20.1,
+      "expected_pass": false,
+      "actual_pass": false,
+      "correct": true
+    },
+    {
+      "rule_id": "frequency.agc.allowed_deviation_ratio",
+      "observed": 0.99,
+      "expected_pass": true,
+      "actual_pass": true,
+      "correct": true
+    },
+    {
+      "rule_id": "frequency.agc.allowed_deviation_ratio",
+      "observed": 1.0,
+      "expected_pass": true,
+      "actual_pass": true,
+      "correct": true
+    },
+    {
+      "rule_id": "frequency.agc.allowed_deviation_ratio",
+      "observed": 1.01,
+      "expected_pass": false,
+      "actual_pass": false,
+      "correct": true
+    }
+  ]
+}
