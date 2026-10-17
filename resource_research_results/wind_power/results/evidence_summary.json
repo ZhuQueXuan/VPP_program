@@ -1,0 +1,82 @@
+{
+  "version": "1.0.0",
+  "decision": "D065",
+  "date": "2026-10-16",
+  "scope": "First finite component only: contemporaneous 10-minute published mean wind to active power of six studied units in mixed observed operation.",
+  "resource_basic_package_complete": false,
+  "six_criterion_resource_review_complete": false,
+  "source_rows": 315360,
+  "admitted_rows": 303987,
+  "training_rows": 234751,
+  "test_rows": 69236,
+  "excluded_core_rows": 11373,
+  "per_unit_training_rows": {
+    "1": 39126,
+    "2": 39130,
+    "3": 39127,
+    "4": 39119,
+    "5": 39126,
+    "6": 39123
+  },
+  "training_knots_total": 280,
+  "training_months": "2018-01 through 2018-09",
+  "held_out_months": "2018-10 through 2018-12",
+  "gate_passed": true,
+  "six_units_both_metrics_vs_both_baselines_passed": true,
+  "three_test_months_both_metrics_vs_both_baselines_passed": true,
+  "independent_verification": {
+    "status": "passed",
+    "scope": "Independent parsing/clock/sample/centred-moment coefficients/bin statistics/all test predictions/metrics/gate and exact two-run replay. Same physical source, not new measurement or external validation.",
+    "source_rows": 315360,
+    "training_rows": 234751,
+    "test_rows": 69236,
+    "checks": {
+      "source_flags": 1576800,
+      "source_wind_mps": 315360,
+      "source_power_kW": 315360,
+      "range_mps": 12,
+      "coefficient": 24,
+      "knot_mps": 280,
+      "knot_kW": 280,
+      "prediction_keys_flags": 415416,
+      "prediction_wind_mps": 69236,
+      "prediction_power_kW": 69236,
+      "prediction_B_LINEAR": 69236,
+      "prediction_B_CUBIC": 69236,
+      "prediction_M_CURVE": 69236,
+      "metric_kW": 180
+    },
+    "max_difference": {
+      "source_wind_mps": 0.0,
+      "source_power_kW": 0.0,
+      "range_mps": 8.326672684688674e-17,
+      "coefficient": 4.092726157978177e-12,
+      "knot_mps": 3.552713678800501e-15,
+      "knot_kW": 4.440892098500626e-16,
+      "prediction_wind_mps": 0.0,
+      "prediction_power_kW": 0.0,
+      "prediction_B_LINEAR": 8.185452315956354e-12,
+      "prediction_B_CUBIC": 1.4551915228366852e-11,
+      "prediction_M_CURVE": 7.048583938740194e-12,
+      "metric_kW": 1.3642420526593924e-11
+    },
+    "protocol_sha256": "6dd7e842d6b4da7d6332526021f30bdfbbeaee73d8e8d03eac012cf99343a475",
+    "admission_sha256": "5787ad36b02a4b3574a3f8630a8d80815cd67d6f2bb2587ac01621f861eebb20",
+    "run_receipt_sha256": "6d374043843e925ed007f83c16369a1a5a655c4da5a036a97ae61895f011a917",
+    "repeat_receipt_sha256": "6d374043843e925ed007f83c16369a1a5a655c4da5a036a97ae61895f011a917",
+    "verifier_sha256": "2b51699d5dbee9440f4006e57a4a4f02645945da01ebff3792f676dd9cfc5487",
+    "environment": {
+      "python": "3.12.14",
+      "pandas": "3.0.1",
+      "numpy": "2.3.5"
+    }
+  },
+  "not_verified": [
+    "healthy/certified manufacturer curve",
+    "physicalCp/guaranteed bound or rated/cutin/cutout thresholds",
+    "independent availablewindpower/curtailment dispatch or headroom",
+    "future forecast/real online leadtime/control success",
+    "newsites/devices or allseasons beyond heldoutmonths",
+    "P1or10390percent"
+  ]
+}

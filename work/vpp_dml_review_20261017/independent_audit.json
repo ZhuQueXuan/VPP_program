@@ -1,0 +1,119 @@
+{
+  "archive": {
+    "sha256": "17d45d81bf1427d61f7e8dbcd3ca599b83fa2a49f989457b63d3cee3671cc109",
+    "crc_bad_member": null,
+    "file_count": 23,
+    "all_extracted_bytes_equal": true
+  },
+  "full_data": {
+    "raw_rows": 94080,
+    "usable_rows": 86360,
+    "resources": 40,
+    "hours": 2159,
+    "types": {
+      "ev": 8,
+      "hvac": 12,
+      "industrial": 12,
+      "storage": 8
+    }
+  },
+  "readme_minimum_columns": {
+    "builds": false,
+    "error": "KeyError('rtp')"
+  },
+  "missing_clock_test": {
+    "removed_time": 100,
+    "next_time": 101,
+    "lag1_equals_time99_two_hours_ago": true,
+    "raises": false
+  },
+  "fold_audit": {
+    "outer_cut": 1727.0,
+    "folds": [
+      {
+        "fold": 0,
+        "train_rows": 61400,
+        "test_rows": 20160,
+        "outer_future_rows_in_nuisance_train": 11480,
+        "outer_training_rows_residualized_with_future_outcomes": 15320,
+        "training_rows_with_lag168_power_from_test_time": 17280
+      },
+      {
+        "fold": 1,
+        "train_rows": 60440,
+        "test_rows": 20160,
+        "outer_future_rows_in_nuisance_train": 8640,
+        "outer_training_rows_residualized_with_future_outcomes": 13440,
+        "training_rows_with_lag168_power_from_test_time": 16280
+      },
+      {
+        "fold": 2,
+        "train_rows": 62400,
+        "test_rows": 19160,
+        "outer_future_rows_in_nuisance_train": 10600,
+        "outer_training_rows_residualized_with_future_outcomes": 13440,
+        "training_rows_with_lag168_power_from_test_time": 11520
+      },
+      {
+        "fold": 3,
+        "train_rows": 69080,
+        "test_rows": 13440,
+        "outer_future_rows_in_nuisance_train": 17280,
+        "outer_training_rows_residualized_with_future_outcomes": 13440,
+        "training_rows_with_lag168_power_from_test_time": 11520
+      },
+      {
+        "fold": 4,
+        "train_rows": 69080,
+        "test_rows": 13440,
+        "outer_future_rows_in_nuisance_train": 17280,
+        "outer_training_rows_residualized_with_future_outcomes": 13440,
+        "training_rows_with_lag168_power_from_test_time": 11520
+      }
+    ],
+    "interpretation": "Interleaved cross-fitting is retrospective. Final-stage-only holdout does not isolate the complete pipeline. Lagged outcomes also cross the 24-hour buffer."
+  },
+  "coverage_summary_recalculation": {
+    "rows_supplied": 150,
+    "new_training_repetitions": 0,
+    "numeric_cells": 65,
+    "allclose": true,
+    "max_abs_diff": 2.220446049250313e-16,
+    "Ep_centered_coverage": 0.9333333333333333,
+    "Ep_truth_coverage": 0.3333333333333333
+  },
+  "existing_resource_receipt_paths": {
+    "air_conditioning": [
+      "resource_research_results/air_conditioning/results/release_validation_v1_0.json",
+      "resource_research_results/air_conditioning/results/release_validation_v1_1.json",
+      "resource_research_results/air_conditioning/results/validation_metrics.json",
+      "resource_research_results/air_conditioning/results/basic_research_acceptance_v1_1.json"
+    ],
+    "distributed_photovoltaic": [
+      "resource_research_results/distributed_photovoltaic/results/release_validation.json",
+      "resource_research_results/distributed_photovoltaic/results/release_validation_v1_1.json",
+      "resource_research_results/distributed_photovoltaic/results/release_validation_v1_2.json",
+      "resource_research_results/distributed_photovoltaic/results/validation_summary.json",
+      "resource_research_results/distributed_photovoltaic/results/basic_research_acceptance.json"
+    ],
+    "electric_water_heating": [
+      "resource_research_results/electric_water_heating/results/release_validation.json",
+      "resource_research_results/electric_water_heating/results/basic_research_acceptance.json"
+    ],
+    "ev_charging": [
+      "resource_research_results/ev_charging/results/release_validation.json",
+      "resource_research_results/ev_charging/results/release_validation_v1_1.json",
+      "resource_research_results/ev_charging/results/basic_research_acceptance_v1_1.json"
+    ],
+    "lithium_ion_storage": [
+      "resource_research_results/lithium_ion_storage/results/release_validation.json",
+      "resource_research_results/lithium_ion_storage/results/validation_summary.json"
+    ],
+    "wind_power": [
+      "resource_research_results/wind_power/results/release_validation.json",
+      "resource_research_results/wind_power/results/release_validation_v1_1.json",
+      "resource_research_results/wind_power/results/validation_metrics.json",
+      "resource_research_results/wind_power/results/basic_research_acceptance_v1_1.json"
+    ]
+  }
+}

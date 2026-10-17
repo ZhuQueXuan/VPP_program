@@ -1,0 +1,75 @@
+{
+  "id": "KIT_RECORDED_PHASE_STEP_V1",
+  "decision": "D058",
+  "date": "2026-10-16",
+  "frozen_utc": "2026-10-16T04:26:36.902445+00:00",
+  "question": "Characterise recorded phase-current changes following published current-limit changes in new KIT LF traces; no new predictive model, fitting or control-capacity claim.",
+  "object": "All18 original LF recording sets/16 brand-model combinations,12 brands in Zenodo17866847v1.0.0; do not merge with Dortmund/EPFL devices or inherit their parameters.",
+  "sources": {
+    "LF": {
+      "path": "work/ev_charging_research_20261016/downloads/KIT_LF_SOURCE_01/ev-charging_lf.parquet",
+      "sha256": "6156dc885ffd3066d5e2229c51dd49a5ceadf4e9c3c2c25adf0168d6583b2df1"
+    },
+    "index": {
+      "path": "work/ev_charging_research_20261016/downloads/KIT_LF_SOURCE_01/charging.csv",
+      "sha256": "d5766134531a7b339e33a6a35b993f60c9cc215b2a587f52661c755db1cc5d2a"
+    },
+    "metadata": {
+      "path": "work/ev_charging_research_20261016/downloads/EV_NEXT_SOURCE_01/kit_zenodo_record.json",
+      "sha256": "9b82eaac751461fa6b93b9ea99d2180b19ec5f62b22262fb31a865c4d262874c"
+    },
+    "catalog": {
+      "path": "work/ev_charging_research_20261016/downloads/EV_NEXT_SOURCE_01/kit_dataset_page.html",
+      "sha256": "22477b7f94dd6175db6a16133515e125fbaa3e0a48d5e6a7c19c71f6e9abc228"
+    },
+    "QA": {
+      "path": "work/ev_charging_research_20261016/runs/KIT_SOURCE_QA_01/summary.json",
+      "sha256": "4fb27c6824cc037e0158bf855ddaf0a6606b747a222dd4445459ac4c6de70095"
+    },
+    "trace_quality": {
+      "path": "work/ev_charging_research_20261016/runs/KIT_SOURCE_QA_01/trace_quality.json",
+      "sha256": "b5d5cd738ee1fcad4d50ebc9f167774da5b56a4107576ea25691ff5268c621d1"
+    }
+  },
+  "evidence": "Dataset officialCC-BY4.0 metadata and full-file MD5 checked. Author preprint abstract describes50Hz phase measurements and current-limit changes; full SSRN PDF403 not bypassed. Not exact full-paper reproduction or standards compliance.",
+  "time": "timestamp_ns physical/logical TIMESTAMP_MICROS(isAdjustedToUTC=false). Decode integer microseconds and use within-trace relative differences; retain original Parquet row order, never sort/interpolate. No physical microsecond precision or timezone/network timestamp claim.",
+  "candidate": "Every adjacent change in the raw setpoint_a becomes an event; first row is not a change. Report every candidate and all3 phases, not just successful responses.",
+  "admission": {
+    "command": "Both previous and new commands>=6A and absolute change>=2A. These are prespecified study operating filters, not claims of current IEC compliance.",
+    "pre": "Complete[-5s,0) window with constant previous command, first/last observations within50ms of its edges.",
+    "post": "Complete[0,15s) window with constant new command, first/last observations within50ms of edges; this is retrospective complete-held-command conditioning, not an availability prediction.",
+    "continuity": "Strictly increasing finite timestamps, all adjacent gaps within entire[-5,15) window<=50ms; otherwise exclude window, keep status. All finite phase current and command, no target/error clipping.",
+    "phase": "For each L1/L2/L3 independently require PRE-window observed median>=1A. Label preceding measured-load condition, not a confirmed connection/charging state. Report excluded inactive/start/stop cases separately; do not infer phase activity from future maximum.",
+    "intent": "No output/response-residual based deletion; slow, limited, overshooting or unreached eligible responses remain."
+  },
+  "features": {
+    "baseline": "PRE observed phase-current median I0, input change du=u_new-u_old. Normalised progress=sign(du)*(I(t)-I0)/abs(du), not normalised by future observed final response.",
+    "crossings": "First original sample with progress>=0.1 or>=0.9 and all subsequent original samples remaining above that threshold for at least100000us; search crossing starts in[0,10s], confirmation can extend to10.1s. Return original sample interval bounds, no interpolated crossing or asserted sub-sample precision.",
+    "censoring": "No qualifying crossing means not observed within10s at requested command-step magnitude; return null/censored, never0 or artificial10s delay. It may reflect limited draw, timing, physical dynamics or other unknowns; not proof of a particular fault or infinite latency.",
+    "transition_duration": "t90_sample-t10_sample only when both observed; not a count of90percent accurate predictions.",
+    "steady": "Observed current median in[10,15s) minus NEW command, unitsA; report signed/absolute errors without using it to select phases/events.",
+    "ideal_comparison": "Instantaneous exact tracking is an interpretive ideal only. No fit/no claimed error reduction versus earlier baselines; no90percent model-accuracy conversion."
+  },
+  "aggregation": [
+    "all candidates/phase admissions and exclusion flags",
+    "up/down separately",
+    "each recording and brand/model/date",
+    "L1/L2/L3 separately",
+    "observed10/90 crossings and censored counts",
+    "median/p95/max conditional crossing times",
+    "steady error/bias and worst event retained",
+    "event counts distinct from recording sets, vehicles and correlated phase observations"
+  ],
+  "reproducibility": "Before features bind all candidate windows and statuses with hashes; one calculation plus deterministic replay; independently reconstruct counts/window semantics and scalar threshold/statistics; preserve source order/limits.",
+  "not_verified": [
+    "hardware/network dispatch-to-response delay",
+    "physical sensor clock/accuracy calibration",
+    "all startups/stops/inactive phases",
+    "cause of limited response",
+    "available maximum/firm capacity",
+    "user demand/departure/authorization",
+    "full IEC compliance",
+    "independent site/vehicle generalisation",
+    "103 formal90percent"
+  ]
+}

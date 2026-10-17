@@ -1,0 +1,76 @@
+{
+  "decision": "D062",
+  "frozen_utc": "2026-10-16T12:07:12.809409+00:00",
+  "question": "Can a fixed simple temperature-increment statistical model improve the next published5min room-temperature label over BOTH temperature persistence and last-increment continuation in two new measured experimental rooms?",
+  "object": "Same dual-zone test bed,8days of Aug2025,2rooms with per-room reported smart-meter power and measured indoor temperatures. Not field comfort/dispatch/independent-site generalisation.",
+  "sources": {
+    "Validation_Day1(2025.08.08).csv": {
+      "path": "work/air_conditioning_research_20261016/downloads/DUAL_ZONE_DATA_01/Validation_Day1(2025.08.08).csv",
+      "sha256": "3582039ebab36a25e131bf5a3d99b631ac28a6c529c78ad1a626086b5f1ae972"
+    },
+    "Validation_Day2(2025.08.09).csv": {
+      "path": "work/air_conditioning_research_20261016/downloads/DUAL_ZONE_DATA_01/Validation_Day2(2025.08.09).csv",
+      "sha256": "35f0e184b9c36613c92d73d47a52687ebe63ddf9a89c89180f1087df20bbfd06"
+    },
+    "Validation_Day3(2025.08.10).csv": {
+      "path": "work/air_conditioning_research_20261016/downloads/DUAL_ZONE_DATA_01/Validation_Day3(2025.08.10).csv",
+      "sha256": "6317b5748c8a80edcbb3a7a296e6f8ae34919c0c177783f316d5f1867b06b2c3"
+    },
+    "Validation_Day4(2025.08.11).csv": {
+      "path": "work/air_conditioning_research_20261016/downloads/DUAL_ZONE_DATA_01/Validation_Day4(2025.08.11).csv",
+      "sha256": "f11311b6ddbc7f00863c045541302a7b7f07250bb1877f776ca58c828c7f2623"
+    },
+    "Validation_Day5(2025.08.12).csv": {
+      "path": "work/air_conditioning_research_20261016/downloads/DUAL_ZONE_DATA_01/Validation_Day5(2025.08.12).csv",
+      "sha256": "7e8d0d9b0e2b6208f089da56326b0deff50e55b66ff43e8fcef4aed6a23de753"
+    },
+    "Validation_Day6(2025.08.13).csv": {
+      "path": "work/air_conditioning_research_20261016/downloads/DUAL_ZONE_DATA_01/Validation_Day6(2025.08.13).csv",
+      "sha256": "a6d2b49e12d49476f52101aa957fb42900b3ba3634fb41d10052912f525a92b6"
+    },
+    "Validation_Day7(2025.08.19).csv": {
+      "path": "work/air_conditioning_research_20261016/downloads/DUAL_ZONE_DATA_01/Validation_Day7(2025.08.19).csv",
+      "sha256": "a251922750ea80c644f8f160872048b635da28ab6a4ff36de832918fb99515af"
+    },
+    "Validation_Day8(2025.08.20).csv": {
+      "path": "work/air_conditioning_research_20261016/downloads/DUAL_ZONE_DATA_01/Validation_Day8(2025.08.20).csv",
+      "sha256": "4c0e68a02277d4b6a1332e5f3b1f5fdacb30216c710a04bbf9be33454792ea88"
+    }
+  },
+  "metadata_sha256": "f767bb0ea81191451193272d2c98ffd99b5f32c0e57146e91abaaa632f7c2ab8",
+  "qa_sha256": "81b0907c3edb839a399a54bd25b87892534baf1a778fc47ec4af54721c0e7d60",
+  "paper_basis": "Crossref10.1016/j.enbuild.2026.118112 registers a measured-data RC-network study; SSRN10.2139/ssrn.6828065 abstract supports mechanism direction. Full methods/parameters unavailable, abstract fetch403. This is OUR simplified heat-balance/temperature-increment statistical baseline, NOT full-paper parameter/results or MPC reproduction.",
+  "inputs": [
+    "previous raw adjacent room temperature",
+    "current raw room temperature",
+    "current outdoor temperature",
+    "current same-room electric power W divided by1000",
+    "current other-room temperature"
+  ],
+  "information_time": "Conditional offline prediction assuming ALL CURRENT PUBLISHED ROW inputs available at its label. Power averaging interval/publication delay/control time not established, hence not verified online lead time. Never use next-row power/weather/other-room temperature, commands, future schedules or future differences as inputs.",
+  "solar": "Excluded: released labelMJ/m2 is an energy-per-area quantity with unspecified accumulation period, not instantaneous irradiance. Do not convert or infer future radiation.",
+  "sample": "All8files*allrows*2rooms are candidates in ORIGINAL file order, no inter-file windows. Require previous/current/next original rows and both adjacent time gaps exactly300s, parseable naive source minute clock; all5inputs and next own-room target finite, all involved temperatures in broad0..60C QC. No threshold on target change,power sign,error or control/on/off state. Preserve every exclusion reason; no filling,sorting,smoothing,clipping or combining across dates. First/last per-file rows cannot form3point window.",
+  "split": {
+    "training_files": "Validation_Day1..Day4,dates2025-08-08..11",
+    "test_files": "Validation_Day5..Day8,dates2025-08-12,13,19,20",
+    "method": "Fixed first4complete chronological days train, later4complete days test. Same2rooms, new time periods; no random row split, no crossing missing dates, no selection after errors."
+  },
+  "models": {
+    "B_P": "T_now",
+    "B_TREND": "T_now+(T_now-T_previous)",
+    "M_HEAT5": "T_now+beta dot [1,T_now-T_previous,T_out_now-T_now,P_now_W/1000,T_other_now-T_now]",
+    "fit": "Separate5coefficients/room,total10,OLSnumpy.linalg.lstsq rcond1e-12,each whole training file equal total weight. No hyperparameter search/regularisation/physical constraints/clipping/route selection. Coefficients statistical, not separately identified R,C,COP or causal power-to-temperature effects."
+  },
+  "gate": "M_HEAT5 MAE and RMSE strictly below BOTH B_P and B_TREND for pooled test,each of2rooms,and pooled CURRENT source-P>0 subgroup; additionally at least2of4complete test days improve both metrics over BOTH baselines. No new formal90% target, no point accuracy=1-MAE conversion. All daily/room/on-positive/off-zero groups and worst values reported even on failure.",
+  "support": "Report training ranks/coefficients and input range; out-of-domain test inputs retained/flagged; no excluding a room/period by fit rank or score.",
+  "preserve": "D059/D060/D061 protocol,models,predictions and failures unchanged; this new dataset was not used for their model selection. New holdout inspected for provenance/QA only, no new fitting/forecast errors before this freeze.",
+  "not_verified": [
+    "online availability and true lead time",
+    "setpoint/command or true compressor/stage state",
+    "counterfactual curtailment/causal response",
+    "actual comfortable allowable capacity or authorisation",
+    "other devices/sites/seasons or statistical independence of adjacent labels",
+    "paper MPC/peak/cost results",
+    "P1/103formal acceptance"
+  ]
+}

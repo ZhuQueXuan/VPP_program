@@ -1,0 +1,10 @@
+{
+  "id":"PVDAQ_SMART_LAYOUT_01",
+  "purpose":"Preselect next full August2019 before any new forecast errors; retain official model docs for a frozen clear-sky irradiance ratio persistence proxy.",
+  "files":[
+    {"name":"system1239_august_keys.xml","url":"https://oedi-data-lake.s3.amazonaws.com/?list-type=2&prefix=pvdaq%2Fcsv%2Fpvdata%2Fsystem_id%3D1239%2Fyear%3D2019%2Fmonth%3D8%2F&max-keys=100","limit_bytes":200000},
+    {"name":"clearsky_ineichen.html","url":"https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.clearsky.ineichen.html","limit_bytes":500000},
+    {"name":"get_total_irradiance.html","url":"https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.irradiance.get_total_irradiance.html","limit_bytes":500000},
+    {"name":"spa_python.html","url":"https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.solarposition.spa_python.html","limit_bytes":500000}
+  ]
+}

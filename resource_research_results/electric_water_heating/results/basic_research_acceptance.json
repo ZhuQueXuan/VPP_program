@@ -1,0 +1,51 @@
+{
+  "decision": "D067",
+  "version": "1.0.0",
+  "status": "bounded_pass",
+  "date": "2026-10-16",
+  "scope": "Original150Lhorizontalresistive water tank,source-minute temperature/stratification observations andconditional5published-minute localthermostat temperature label estimator. No industrialboiler/capacity/control claim.",
+  "criteria": [
+    {
+      "id": 1,
+      "passed": true,
+      "evidence": "One150L/3kWKwikotSuperline. Sevenoriginalexperimentfiles, measuredlocalNTCtemperature target andcurrent/pastpublishedinputs defined. Minuteclosureavailability andlabelhorizon explicitly conditional."
+    },
+    {
+      "id": 2,
+      "passed": true,
+      "evidence": "Original localthermostat/sensor map,all3testfilecurves and7fileprofile summaries,thermalbalance/nodecoupling/OLS basis,6statisticalcoefficients andtrainingranges,sourceclock/energy limitations disclosed."
+    },
+    {
+      "id": 3,
+      "passed": true,
+      "evidence": "OfficialpublisherSHA256+size match all downloaded listedfiles;130438sourceJSONrows/16751minuteanchors checked. Native localtemperature valid reference for this limitedoutput.0energycolumns not used for physicalpower/efficiency truth."
+    },
+    {
+      "id": 4,
+      "passed": true,
+      "evidence": "Frozen M_LAYER6 MAE+RMSE belowBOTHpersistence/trend pooled,all3heldoutfiles andcurrentheatingflag1. No changes aftertest."
+    },
+    {
+      "id": 5,
+      "passed": true,
+      "evidence": "All3files,all7331testpoints,quietflag0MAEandRMSEdeterioration,316featureoutsidepoints and2.295133Cworst retained. Datedfileoverlapsgrouped,testnotchronological/independentphysicalevents. No targeterrorfilter/state route."
+    },
+    {
+      "id": 6,
+      "passed": true,
+      "evidence": "Independentvectorclock/anchor/completecases/explicitSVD/allpredictions/96metrics and5scientificexactrerun passed. Independentdescription/plot-targetalignment passed;finalruntime/fullreplay checked in release receipt. Source/decoder independence limits stated."
+    }
+  ],
+  "checks_passed": 6,
+  "bounded_basic_package_complete": true,
+  "not_validated": [
+    "true energy/power/efficiency or physicalheatcapacity",
+    "storage/adjustable or guaranteed capacity",
+    "industrial boiler plus water tank transfer",
+    "futureactualcontrol/comfort/latency/physical300s horizon",
+    "independent devices/sites/events/healthyyear"
+  ],
+  "all_six_resource_packages_have_bounded_scopes": true,
+  "cross_resource_integration_authorized": false,
+  "wholeP1_or103passed": false
+}

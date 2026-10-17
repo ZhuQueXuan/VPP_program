@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-16",
+  "decision": "D063",
+  "version": "1.1.0",
+  "status": "limited_basic_package_complete",
+  "scope": "First air-conditioning basic package: observed operation characteristics and conditional next5min temperature-label predictor of original2experimental rooms, plus fair failed alternatives. Resource-wide capabilities/real control or capacity are not complete.",
+  "criterion_basis": "Existing ROADMAP D046 six bounded basic criteria, unchanged. No new or relaxed prediction gate. Measurements required depend on declared output; delivered command/comfort truth needed for those later outputs,not substituted by temperature-prediction validation.",
+  "six_checks": [
+    {
+      "id": 1,
+      "criterion": "固定对象、输入输出和时域",
+      "passed_in_scope": true,
+      "evidence": [
+        "README.md",
+        "source_manifest.json",
+        "parameters/dual_zone_temperature_v1.json"
+      ],
+      "finding": "Original2room test bed, current/previous5min roomT,current outsideT/current same-room publishedW/current other-roomT -> next published5min roomT. Conditional current-row availability only; same object parameters,not arbitrary devices."
+    },
+    {
+      "id": 2,
+      "criterion": "曲线、主公式、参数与约束依据",
+      "passed_in_scope": true,
+      "evidence": [
+        "results/characteristic_summary_v1_1.json",
+        "results/test_temperature_curves_v1_1.svg",
+        "parameters/dual_zone_temperature_v1.json",
+        "README.md"
+      ],
+      "finding": "All8days*2rooms original-value and287within-file neighbouring-pair summaries; all4testdays*2rooms curves, no smoothing/best-case selection. Fixed5term temperature-increment formula,10training-only coefficients/ranges,300s source windows,finite inputs. Heat balance/temperature memory motivates statistical baseline; no identifiedR/C/COP or physical capacity constraints claimed."
+    },
+    {
+      "id": 3,
+      "criterion": "实际数据和适合该输出的参照",
+      "passed_in_scope": true,
+      "evidence": [
+        "source_manifest.json",
+        "results/evidence_summary.json"
+      ],
+      "finding": "8originalCSV,2304time rows,publisherSHA256/size match; indoor temperature observed by source sensors and source-reported smart-meterW. Actual next temperature labels valid for conditional offline comparison, not truth for commands/comfort/capacity. Raw clock naive and data-availability timing unknown."
+    },
+    {
+      "id": 4,
+      "criterion": "至少一个有正向证据的简单组件",
+      "passed_in_scope": true,
+      "evidence": [
+        "code/room_temperature.py",
+        "results/validation_metrics.json"
+      ],
+      "finding": "D062frozen gate unchanged; first4days train2288/later4days test2288. M_HEAT5beats BOTH persistence and trend MAE/RMSE pooled,each2rooms,positiveP425points,and4/4days. No new fitting or prediction experiment inD063."
+    },
+    {
+      "id": 5,
+      "criterion": "公平对照、误差、覆盖、最差及失败",
+      "passed_in_scope": true,
+      "evidence": [
+        "results/validation_metrics.json",
+        "results/evidence_summary.json",
+        "README.md"
+      ],
+      "finding": "ZeroP1863rows MAE worsens thoughRMSEimproves;154outside-training-range rows retained;overall worst3.566679918C,day8worst exceeds persistence. D059PLEIA ARX andD060HILpower mapping failed gates, kept as failures,not included as usable models. Every held-out room/day visible, no state route/threshold changes."
+    },
+    {
+      "id": 6,
+      "criterion": "固定版本复现、适用范围与后续接口",
+      "passed_in_scope": true,
+      "evidence": [
+        "results/release_validation_v1_0.json",
+        "code/room_temperature.py",
+        "examples/constructed_inputs.json",
+        "run_example.py",
+        "README.md"
+      ],
+      "finding": "Five scientific artifacts deterministic; independent raw/window/SVD2288forecasts/204metrics passed. Original final2288row replay0difference,7invalid cases rejected and outside-directory constructed example executed; exact runtime/coefficients unchanged. New descriptive4592pairs/2304curve labels/2288target-time predictions independently checked. No cross-resource integration/interface assumed."
+    }
+  ],
+  "model_and_gate_unchanged": true,
+  "new_fitted_parameters": 0,
+  "new_forecast_validation_points": 0,
+  "new_observational_description_only": true,
+  "mandatory_for_this_scope": {
+    "object_input_output_horizon": true,
+    "temperature_truth_and_source_identity": true,
+    "pre_frozen_fair_baselines_and_holdout": true,
+    "positive_component": true,
+    "failure_coverage_and_full_reproduction": true
+  },
+  "deferred_research_tasks_not_removed": [
+    "Original power aggregation/publication timing and true online lead time",
+    "Actual delivered control/stage/actuation and physical sensor-clock calibration",
+    "PhysicalR/C/COPidentification and robust power conversion",
+    "Comfort constraints,occupancy,user authorisation/willingness and available/firm capacity",
+    "Device/site/season generalisation and source-conditioned negative results",
+    "Cross-resource integration and all further formal tasks"
+  ],
+  "not_claimed": [
+    "Independent physical test or new blind test from retrospective curves",
+    "Command success,latency,actual compressor on/off from reported zero/positiveP",
+    "Energy integration/real on-duration or counterfactual load shedding",
+    "Exact full-paper MPC reproduction/peak or cost gains",
+    "All-typeP1or10390percent acceptance"
+  ],
+  "SHIFDR": {
+    "purpose": "Candidate independent control/power evidence only",
+    "raw_data_or_readme_obtained": false,
+    "admitted": false,
+    "source_subset_doi": "10.7302/vmwh-ek70",
+    "metadata_findings": "Official subset description says fanpower computed from current;2021BAS interpolated1min. Need actual measurement/calculation dictionary,reference time and licence before use.",
+    "access": "Collection earlier403; exact subset and author publication page each403,stopped. DataCiteandCrossref registry obtained,not full paper or raw files.",
+    "license": "DataCite rightsList empty; ORNL ODbL not inherited into unopened subset."
+  },
+  "source_protocol_sha256": "32dc0d8a57e4dad8ce84eface039daff5226eb4ca3671d1608e151dd7533cca4",
+  "descriptive_protocol_sha256": "c94587cf4bcc38fdfe3ed2aa07869ca49baa25494e8034a301d10d0e8a5f9a7c",
+  "independent_description_verification_sha256": "1f35c0087aa6a55f16a65531967b45fe22694bf7f7f1fd16dbad0d260b3e9e23",
+  "all_type_P1_passed": false,
+  "formal103_passed": false,
+  "next": "Stop this bounded basic-resource stage. Next resource or specialised capability study chosen with user; no automatic new type,integration,advanced methods,handoff or report."
+}

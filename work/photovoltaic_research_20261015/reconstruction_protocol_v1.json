@@ -1,0 +1,243 @@
+{
+  "id": "PVDAQ_RECONSTRUCTION_V1",
+  "decision": "D051",
+  "frozen_utc": "2026-10-15T12:44:30.307505+00:00",
+  "scope": "Retrospective same-published-label AC power reconstruction, system 1239 June 2019",
+  "not_validated": [
+    "future prediction",
+    "maximum available power",
+    "control response",
+    "independent site transfer",
+    "103 accuracy"
+  ],
+  "prior_exposure": "Whole-month source quality/ranges and development day seen; no model errors computed before this freeze. Chronological retrospective holdout, not blind independent confirmation.",
+  "sources": [
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_CANDIDATE_FILES_01/system_1239_2019_06_15.csv",
+      "sha256": "f2989d6c8dbcb364df5d7fb1ea2861fe77867202ed756b5876fa888b0c25944e",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=15/system_1239__date_2019_06_15.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_01.csv",
+      "sha256": "3ae4ba2ca580bbde42becb32c4c9cb76408ebd95404fc643029005b257a4f819",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=1/system_1239__date_2019_06_01.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_02.csv",
+      "sha256": "af82a801e24acf75134c1cf6d7437e89495757da1e646d3633ec70a7e1eb622b",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=2/system_1239__date_2019_06_02.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_03.csv",
+      "sha256": "6441b22a3bfcd28143d86b467451aa8765b4b6a203fc88ab2f87ad067146c690",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=3/system_1239__date_2019_06_03.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_04.csv",
+      "sha256": "cab923f43edf3d72005a07997fde74a0df72dcddd4498a6235c31d1336f74618",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=4/system_1239__date_2019_06_04.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_05.csv",
+      "sha256": "fa11c5f206b2c28f08ff7ea266738894b9ee81a54a1ab86183d2a8e2603c99ac",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=5/system_1239__date_2019_06_05.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_06.csv",
+      "sha256": "7cba9aa3d08a89914bd2e05bc25f757308d7181a0b21d58f3f9c2866b9cbf7bd",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=6/system_1239__date_2019_06_06.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_07.csv",
+      "sha256": "b80228510addf9ce8d48c4057e16bfc95600e1bb59f0ad40ecfde6ee27ecd3e5",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=7/system_1239__date_2019_06_07.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_08.csv",
+      "sha256": "011c81b951f6e6491051d697e56637fffc3b3570bfb94a9c37c3e4ad80a451a9",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=8/system_1239__date_2019_06_08.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_09.csv",
+      "sha256": "6db800fc28418bd14cb7bda62be97c26ceee7f2502b62c88f364995461b940bb",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=9/system_1239__date_2019_06_09.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_10.csv",
+      "sha256": "857a329a3a297e476d19638ce6a11b369c55c9b3d8e183b11d92d43df2a33d32",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=10/system_1239__date_2019_06_10.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_11.csv",
+      "sha256": "a3f3e4ad5e457a34c3ec55e2a35020b1dc9fdf433cbe9adc5b08436aa35ed146",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=11/system_1239__date_2019_06_11.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_12.csv",
+      "sha256": "d47fdd6be48a24ae980c49fa370c5855d364a880e325f6ef13cd82efd0f984f6",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=12/system_1239__date_2019_06_12.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_13.csv",
+      "sha256": "5080485e6590623d524308be07cabcdeb867a74f8b4dcc52f189738633b1994f",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=13/system_1239__date_2019_06_13.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_14.csv",
+      "sha256": "6038f10d0a4364b9eecc24613d385de70c7b091bb328c558d0ccc8fb5521c044",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=14/system_1239__date_2019_06_14.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_16.csv",
+      "sha256": "d3ad4aca955dfad772052e4a6e17e6a4ac499daef88943ea0e7a49d6c6ec6776",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=16/system_1239__date_2019_06_16.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_17.csv",
+      "sha256": "280b98506f3f3a7f2afc4c4d0f4f84553b07d2a9ec96bc546b2476c51823082b",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=17/system_1239__date_2019_06_17.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_18.csv",
+      "sha256": "4ba846c4a659f49efd36cdff4a059d42466c37fd03803482c684f284b002b99b",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=18/system_1239__date_2019_06_18.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_19.csv",
+      "sha256": "e5267cc378b387ef1a86b913edca57189de1dc80d166fd29de417d0dd649721a",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=19/system_1239__date_2019_06_19.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_20.csv",
+      "sha256": "1de6bf61ff0a8aa80ac20b356e5dcd13db7dc9db886a064003b9e903c352b2b4",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=20/system_1239__date_2019_06_20.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_21.csv",
+      "sha256": "7ea675143df4a59a1233038f5508fb507af9d376c68992bd97277d863b15e386",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=21/system_1239__date_2019_06_21.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_22.csv",
+      "sha256": "50a1802586b2b3d64ab9359b8bb8ca74fb50c56bdf31b4fff3269255e7a6a708",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=22/system_1239__date_2019_06_22.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_23.csv",
+      "sha256": "855eff07608e1c69dff1450f87b3f21f2a7ae294c3d082eb637e56d91ba1f338",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=23/system_1239__date_2019_06_23.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_24.csv",
+      "sha256": "aa779e0cc76937930cfa38ad9dfc6db5627dd6a8394d0ecb3e87ca7b4687ed98",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=24/system_1239__date_2019_06_24.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_25.csv",
+      "sha256": "33e17728502ba34b5ec6fdffbceecf20e205e497163a462b6516be3b31864acf",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=25/system_1239__date_2019_06_25.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_26.csv",
+      "sha256": "1124753bc972a4d9f8baa6382b6459b8289ad41d2fb1c7e4787a6f2168e646a4",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=26/system_1239__date_2019_06_26.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_27.csv",
+      "sha256": "a3b0f0d2066da0b6a02abf5e4776b7963ed0399b202f2e381844a5d876ff0c9f",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=27/system_1239__date_2019_06_27.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_28.csv",
+      "sha256": "c71cec725d7d0a19ca54ebd7baccfc6208a71840728220d86cec4f1dd3840050",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=28/system_1239__date_2019_06_28.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_29.csv",
+      "sha256": "4d920f569401a43f4fbee7760bfc9d652fb961b854a31ad454f89d1641b45c7e",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=29/system_1239__date_2019_06_29.csv"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_JUNE_FILES_01/system_1239__date_2019_06_30.csv",
+      "sha256": "e2b8e30a6cb4c15400af6a326636838e8cd2d7e4aeff0df599536337cd981b3b",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=30/system_1239__date_2019_06_30.csv"
+    }
+  ],
+  "parameter_evidence": [
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_MODEL_SOURCES_01/sharp_ND224UC1_spec.pdf",
+      "sha256": "c152428540ed985ebb1270055cd583f31b2461e46e694df269bf9eaa34193913",
+      "url": "https://www.solarelectricsupply.com/media/sparsh/product_attachment/custom/upload/sharp-ND-224UC1-spec.pdf"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_MODEL_SOURCES_01/pvwatts_dc.html",
+      "sha256": "6d78e7392bbce0327c9e8745431007524d882e14603fa61dc0350a70b94e270c",
+      "url": "https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.pvsystem.pvwatts_dc.html"
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/downloads/PVDAQ_MODEL_SOURCES_01/sapm_cell_from_module.html",
+      "sha256": "1b091d8658df7cc38d27f16ef0a53cea6d2b8c9b77d76498f080b816727ca556",
+      "url": "https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.temperature.sapm_cell_from_module.html"
+    }
+  ],
+  "fields": {
+    "time": "measured_on",
+    "power_W": "ac_power_metered_kw__3015",
+    "poa_W_m2": "poa_irradiance__3018",
+    "module_C": "module_temp_f__3019"
+  },
+  "time": {
+    "timezone": "America/New_York",
+    "start": "2019-06-01 00:00:00",
+    "end_exclusive": "2019-07-01 00:00:00",
+    "step_minutes": 15,
+    "alignment": "Exact published labels only; no shifts, rounding, interpolation, or averaging window inference. Actual interval start/center/end unknown."
+  },
+  "split": {
+    "fit_end_exclusive": "2019-06-21 00:00:00",
+    "fit_days": 20,
+    "evaluation_days": 10,
+    "selection": "No hyperparameter/model selection on holdout; all three candidates reported."
+  },
+  "admission": "Exact quarter label; all three core fields finite; G>=0; 1+gamma*(Tmodule-25)>0. All raw rows and missing labels retained in audit. Negative target power retained. Same mask for all methods.",
+  "parameters": {
+    "pdc0_W": 20160.0,
+    "module_W": 224.0,
+    "modules": 90,
+    "gamma_per_C": -0.00485,
+    "reference_C": 25.0,
+    "temperature_proxy": "Tcell approximately Tmodule (DeltaT=0); sensor location and mounting gradient unverified. No claim of measured cell temperature.",
+    "irradiance_proxy": "Measured total POA approximates effective irradiance; no independent spectral/IAM/soiling correction.",
+    "ac_boundary": "No verified AC clipping limit; no inverter clipping imposed. Fit scale is empirical combined AC gain, not identified inverter efficiency or degradation."
+  },
+  "models": {
+    "B_G": "x=Pdc0*G/1000; P=k*x. k=sum(x*y)/sum(x*x) on admitted fit rows, through origin, one parameter.",
+    "M_T": "z=Pdc0*G/1000*(1+gamma*(Tmodule-25)); P=k*z. Same one-parameter fit, manufacturer gamma fixed.",
+    "B_GT": "x=Pdc0*G/1000; w=x*(Tmodule-25); P=a*x+b*w; two-parameter unconstrained least squares on same fit rows. Same G,T information comparator; no physical coefficient interpretation."
+  },
+  "failure_policy": "Nonpositive denominator/rank failure or any nonfinite admitted prediction is a failed experiment, never silently dropped. Negative predictions retained. No residual-based filtering, tuning, refitting on holdout, or replacement by nameplate.",
+  "metrics": {
+    "units": "W",
+    "groups": [
+      "all",
+      "G>=20 W/m2",
+      "G<20 W/m2"
+    ],
+    "primary": [
+      "MAE",
+      "RMSE"
+    ],
+    "secondary": [
+      "mean(pred-target)",
+      "nearest-rank p95 absolute error",
+      "max absolute error with timestamp",
+      "per-day MAE/RMSE",
+      "negative prediction count"
+    ],
+    "group_note": "Irradiance groups are reporting bins, not verified daylight/night or sensor quality flags.",
+    "normalisation": "MAE/RMSE divided by 20160 W DC nameplate, diagnostic only, not accuracy or verified AC rating.",
+    "energy": "Not scored: averaging window semantics unknown.",
+    "interpretation": "Positive component evidence requires M_T improves both holdout MAE and RMSE over B_G; also report B_GT without hiding superiority/failure. No absolute operational accuracy threshold inferred."
+  },
+  "stop_rule": "One frozen comparison, independent source/fit/metric arithmetic verification and deterministic replay. No automatic tuning from these scores. Decide limited component scope and next evidence need."
+}

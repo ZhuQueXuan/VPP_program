@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "source_and_colleague_core_unchanged": true,
+  "run_repeat": {
+    "predictions.csv": {
+      "rows": 25920,
+      "byte_equal": false,
+      "unequal_numeric_cells": 1321,
+      "max_abs_diff": 1.0130785099704553e-15
+    },
+    "metrics_by_group.csv": {
+      "rows": 615,
+      "byte_equal": false,
+      "unequal_numeric_cells": 42,
+      "max_abs_diff": 9.947598300641403e-14
+    },
+    "summary.csv": {
+      "rows": 30,
+      "byte_equal": false,
+      "unequal_numeric_cells": 1,
+      "max_abs_diff": 9.992007221626409e-16
+    },
+    "fold_membership.csv": {
+      "rows": 5184,
+      "byte_equal": true,
+      "unequal_numeric_cells": 0,
+      "max_abs_diff": 0.0
+    },
+    "prepared_model_rows.csv": {
+      "rows": 3456,
+      "byte_equal": true,
+      "unequal_numeric_cells": 0,
+      "max_abs_diff": 0.0
+    }
+  },
+  "factual_potential_matches": 3456,
+  "reserved_prediction_rows": 25920,
+  "metric_cells_independently_checked": 3690,
+  "metric_max_abs_diff": 7.105427357601002e-14,
+  "series_svd_predictions_checked": 5184,
+  "series_svd_max_abs_diff": 1.2212453270876722e-15,
+  "aggregation_folds_disjoint": true,
+  "outside_train_feature_box": {
+    "validation": 1,
+    "test": 36
+  },
+  "interpretation": "Computational reproducibility only, not a new physical dataset or independent real causal identification"
+}

@@ -1,0 +1,314 @@
+{
+  "object": "PVDAQ1239 next15-minute published AC label, new full August2019 holdout. No new power fitting.",
+  "samples": 2931,
+  "new_fitted_power_parameters": 0,
+  "all": {
+    "B_P": {
+      "n": 2931,
+      "mae_W": 980.014329580348,
+      "rmse_W": 2442.1514931279835,
+      "bias_W": -3.548277038553395,
+      "p95_abs_W": 5660.0,
+      "max_abs_W": 17720.0,
+      "worst_target_time": "2019-08-31 13:00:00",
+      "worst_origin_time": "2019-08-31 12:45:00",
+      "worst_target_W": 21460.0,
+      "worst_prediction_W": 3740.0,
+      "negative_predictions": 48,
+      "mae_div_DC_nameplate": 0.0486118219037871,
+      "rmse_div_DC_nameplate": 0.12113846692103093
+    },
+    "M_SP": {
+      "n": 2931,
+      "mae_W": 892.473512754319,
+      "rmse_W": 2392.9118930621944,
+      "bias_W": -16.252523424637065,
+      "p95_abs_W": 5585.4178046256075,
+      "max_abs_W": 17760.523101005565,
+      "worst_target_time": "2019-08-31 13:00:00",
+      "worst_origin_time": "2019-08-31 12:45:00",
+      "worst_target_W": 21460.0,
+      "worst_prediction_W": 3699.476898994437,
+      "negative_predictions": 48,
+      "mae_div_DC_nameplate": 0.044269519481861065,
+      "rmse_div_DC_nameplate": 0.1186960264415771
+    },
+    "F_AR2": {
+      "n": 2931,
+      "mae_W": 1153.408996258535,
+      "rmse_W": 2204.969121845121,
+      "bias_W": 38.138527260543576,
+      "p95_abs_W": 5219.333349115723,
+      "max_abs_W": 16651.538279550306,
+      "worst_target_time": "2019-08-31 13:00:00",
+      "worst_origin_time": "2019-08-31 12:45:00",
+      "worst_target_W": 21460.0,
+      "worst_prediction_W": 4808.4617204496935,
+      "negative_predictions": 0,
+      "mae_div_DC_nameplate": 0.05721274783028447,
+      "rmse_div_DC_nameplate": 0.10937346834549212
+    }
+  },
+  "origin_ge1000W": {
+    "B_P": {
+      "n": 1344,
+      "mae_W": 2056.058035714286,
+      "rmse_W": 3596.9528619887483,
+      "bias_W": 23.273809523809526,
+      "p95_abs_W": 9720.0,
+      "max_abs_W": 17720.0,
+      "worst_target_time": "2019-08-31 13:00:00",
+      "worst_origin_time": "2019-08-31 12:45:00",
+      "worst_target_W": 21460.0,
+      "worst_prediction_W": 3740.0,
+      "negative_predictions": 0,
+      "mae_div_DC_nameplate": 0.10198700573979592,
+      "rmse_div_DC_nameplate": 0.1784202808526165
+    },
+    "M_SP": {
+      "n": 1344,
+      "mae_W": 1880.542836331634,
+      "rmse_W": 3525.919733860279,
+      "bias_W": -2.824966765909595,
+      "p95_abs_W": 9682.872159422503,
+      "max_abs_W": 17760.523101005565,
+      "worst_target_time": "2019-08-31 13:00:00",
+      "worst_origin_time": "2019-08-31 12:45:00",
+      "worst_target_W": 21460.0,
+      "worst_prediction_W": 3699.476898994437,
+      "negative_predictions": 0,
+      "mae_div_DC_nameplate": 0.09328089465930724,
+      "rmse_div_DC_nameplate": 0.17489681219545034
+    },
+    "F_AR2": {
+      "n": 1344,
+      "mae_W": 2097.1558586824794,
+      "rmse_W": 3225.0106738752575,
+      "bias_W": -273.54323053354136,
+      "p95_abs_W": 7524.256243853044,
+      "max_abs_W": 16651.538279550306,
+      "worst_target_time": "2019-08-31 13:00:00",
+      "worst_origin_time": "2019-08-31 12:45:00",
+      "worst_target_W": 21460.0,
+      "worst_prediction_W": 4808.4617204496935,
+      "negative_predictions": 0,
+      "mae_div_DC_nameplate": 0.10402558822829759,
+      "rmse_div_DC_nameplate": 0.1599707675533362
+    }
+  },
+  "M_SP_skill_vs_B_P": {
+    "mae_W": 0.08932605798071835,
+    "rmse_W": 0.02016238558678496
+  },
+  "positive_candidate_criterion": true,
+  "scaled_samples": 1569,
+  "fallback_samples": 1362,
+  "ratio_min": 0.37360815350172966,
+  "ratio_max": 2.497968015473813,
+  "daily_comparison": [
+    {
+      "date": "2019-08-01",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-02",
+      "n": 90,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-03",
+      "n": 93,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-04",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-05",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-06",
+      "n": 87,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-07",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-08",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-09",
+      "n": 93,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-10",
+      "n": 93,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-11",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-12",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-13",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-14",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-15",
+      "n": 93,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-16",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-17",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-18",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-19",
+      "n": 90,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-20",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-21",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-22",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-23",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-24",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-25",
+      "n": 93,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-26",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-27",
+      "n": 93,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-28",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-29",
+      "n": 93,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-30",
+      "n": 93,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    },
+    {
+      "date": "2019-08-31",
+      "n": 96,
+      "MAE_improves": true,
+      "RMSE_improves": true
+    }
+  ],
+  "not_validated": [
+    "real-time measurement availability",
+    "independent site/season",
+    "true future weather",
+    "maximum available AC power",
+    "dispatchable capacity",
+    "103 official accuracy"
+  ],
+  "protocol_sha256": "e1464d977dfd5157d57063c38491d95556e4326bc6e4a10f80cce2581abc66dc",
+  "limits": [
+    "real-time measurement availability",
+    "independent site/season",
+    "true future weather",
+    "maximum available AC power",
+    "dispatchable capacity",
+    "103 official accuracy"
+  ],
+  "comparison_note": "Meets dual-metric comparison against persistence, not superior to frozen AR2 on RMSE; full branch/daily/worst results retained."
+}

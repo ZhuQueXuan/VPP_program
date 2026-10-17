@@ -1,0 +1,98 @@
+[
+  {
+    "unit_id": "lmo1",
+    "direction": "charge",
+    "fit_test_id": "test_1",
+    "fit_window_count": 201,
+    "status": "ok",
+    "eta": 0.9764761556853804,
+    "ac_mean_sum_kw": -81532.7833333356,
+    "dc_mean_sum_kw": -79614.8188316646,
+    "fit_min_abs_ac_kw": 80.8833333333,
+    "fit_max_abs_ac_kw": 630.15
+  },
+  {
+    "unit_id": "lmo1",
+    "direction": "discharge",
+    "fit_test_id": "test_1",
+    "fit_window_count": 73,
+    "status": "ok",
+    "eta": 0.9723623433555703,
+    "ac_mean_sum_kw": 35389.933333338,
+    "dc_mean_sum_kw": 36395.828751666006,
+    "fit_min_abs_ac_kw": 250.1,
+    "fit_max_abs_ac_kw": 630.2
+  },
+  {
+    "unit_id": "lmo2",
+    "direction": "charge",
+    "fit_test_id": "test_1",
+    "fit_window_count": 168,
+    "status": "ok",
+    "eta": 0.9714003354598421,
+    "ac_mean_sum_kw": -75110.833333332,
+    "dc_mean_sum_kw": -72962.688696667,
+    "fit_min_abs_ac_kw": 241.066666667,
+    "fit_max_abs_ac_kw": 630.166666667
+  },
+  {
+    "unit_id": "lmo2",
+    "direction": "discharge",
+    "fit_test_id": "test_1",
+    "fit_window_count": 66,
+    "status": "ok",
+    "eta": 0.9780930785897543,
+    "ac_mean_sum_kw": 30981.599999995997,
+    "dc_mean_sum_kw": 31675.512973332,
+    "fit_min_abs_ac_kw": 249.8,
+    "fit_max_abs_ac_kw": 630.15
+  },
+  {
+    "unit_id": "lmo3",
+    "direction": "charge",
+    "fit_test_id": "test_1",
+    "fit_window_count": 212,
+    "status": "ok",
+    "eta": 0.9726242859490738,
+    "ac_mean_sum_kw": -87333.283333332,
+    "dc_mean_sum_kw": -84942.47234167019,
+    "fit_min_abs_ac_kw": 76.1333333333,
+    "fit_max_abs_ac_kw": 630.2
+  },
+  {
+    "unit_id": "lmo3",
+    "direction": "discharge",
+    "fit_test_id": "test_1",
+    "fit_window_count": 85,
+    "status": "ok",
+    "eta": 0.9754045506688579,
+    "ac_mean_sum_kw": 42634.233333334,
+    "dc_mean_sum_kw": 43709.282783332004,
+    "fit_min_abs_ac_kw": 245.616666667,
+    "fit_max_abs_ac_kw": 630.133333333
+  },
+  {
+    "unit_id": "lmo4",
+    "direction": "charge",
+    "fit_test_id": "test_1",
+    "fit_window_count": 234,
+    "status": "ok",
+    "eta": 0.9825839034827016,
+    "ac_mean_sum_kw": -104940.81666666851,
+    "dc_mean_sum_kw": -103113.1572749977,
+    "fit_min_abs_ac_kw": 92.9333333333,
+    "fit_max_abs_ac_kw": 630.283333333
+  },
+  {
+    "unit_id": "lmo4",
+    "direction": "discharge",
+    "fit_test_id": "test_1",
+    "fit_window_count": 94,
+    "status": "ok",
+    "eta": 0.971073717401165,
+    "ac_mean_sum_kw": 49520.766666665,
+    "dc_mean_sum_kw": 50995.88813833299,
+    "fit_min_abs_ac_kw": 240.55,
+    "fit_max_abs_ac_kw": 630.25
+  }
+]

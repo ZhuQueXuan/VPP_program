@@ -1,0 +1,32 @@
+{
+  "id": "DML-PROJECT-TASKS-V1-20261017",
+  "status": "fixed_before_model_fitting",
+  "authorization": "User explicitly asks to feed existing project simulated data into colleague program",
+  "data": "data/驱动因素解耦模拟数据集_v2, internal 2.4",
+  "scope": "Independent factorial tasks, not a fabricated hourly history; colleague DML core reused without source modification",
+  "sample": "All 3456 tasks, including unauthorized, declined, zero/failed delivery",
+  "outcome": "Observed completion_ratio, in fraction units; reported effects multiplied by 100 as percentage points",
+  "treatment": {"reference_price": 0.4, "contrasts": [0.8, 1.2, 1.6], "encoding": "three treatment indicators; no synthetic green/AGC/reference-price/survey fields"},
+  "predictor_numeric_whitelist": ["rated_power_mw", "scenario_difficulty", "required_duration_minutes", "predecision_state_index_pct", "prior_accepted_tasks_7d", "ambient_temperature_c", "production_factor", "execution_authorized"],
+  "predictor_categorical_whitelist": ["resource_type_id"],
+  "encoding": "Train-derived sorted resource vocabulary, drop-first onehot; continuous fields retained; scaling fit on training only; no missing input admitted",
+  "excluded_predictors": ["case/entity/aggregation ids", "split", "episode/time shortcuts", "postdecision acceptance/opening/execution", "latent profiles", "potential outcomes", "truth flags", "assignment probability as an effect predictor"],
+  "outer_split": {"train": ["SYN-AGG-01", "SYN-AGG-02", "SYN-AGG-03"], "validation": ["SYN-AGG-04"], "test": ["SYN-AGG-05", "SYN-AGG-06"]},
+  "inner_split": "GroupKFold 3 on training aggregation_id; no validation/test rows in nuisance/final/preprocessing fitting",
+  "nuisance": {"learner": "colleague default_learner LightGBM", "n_estimators": 300, "seed": 2026, "treatment_model": "learned m(X); 0.25 is marginal factorial allocation, not asserted conditional propensity"},
+  "final_stage": {"series": {"group_col": null, "ridge": 0.0001}, "forest": {"n_estimators": 200, "min_samples_leaf": 40, "max_samples": 0.3, "n_jobs": 2, "seed": 2026}},
+  "baselines": ["B_ZERO: zero effects", "B_CONSTANT: training observed arm mean minus training reference arm mean", "B_OLS: same train-scaled features, treatment indicators and their interactions, least squares"],
+  "identification_gate": "Colleague identification_report must be ok before any final-stage DML fit; also check each train-type/arm and fold train/test counts",
+  "prediction_policy": "No clipping, price monotonicity enforcement, zeroing known-null types, test-driven tuning or selection; all prespecified models reported",
+  "evaluation": {
+    "reference": "03_counterfactual_truth_evaluation_only: potential_completion_ratio(price) minus potential_completion_ratio(0.4), joined only after predictions saved",
+    "primary": "overall, 16 type, and aggregation mean-effect bias by contrast; equal-type mean absolute bias, in percentage points",
+    "secondary": "individual realized potential contrast MAE/RMSE; this includes latent threshold/cost heterogeneity and is not pure conditional-mean estimation error",
+    "negative_control": "PV and storage: true price contrast zero; report absolute error and fraction with abs(predicted effect)>0.05 (5 percentage points), no significance claim",
+    "confidence_intervals": "not reported: train only 3 and test only 2 aggregation clusters",
+    "validation_usage": "report only; no tuning or model selection"
+  },
+  "excluded_scope": ["original hourly baseline and future price features", "green preference or AGC", "real price elasticity", "physical capacity validation", "P1/103 acceptance", "cross-resource portfolio integration"],
+  "reproduction_tolerance": {"atol": 1e-8, "rtol": 1e-6},
+  "source_qa_note": "File schema and factual-potential correspondence inspected before fitting. Reserved test is an entity/aggregation fitting holdout, not claimed entirely unseen source data."
+}

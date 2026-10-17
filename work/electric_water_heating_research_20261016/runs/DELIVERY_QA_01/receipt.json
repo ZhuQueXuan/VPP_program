@@ -1,0 +1,19 @@
+{
+  "checked_markdown": 10,
+  "broken_links_all_history_included": [],
+  "original_release_files_unchanged": 104,
+  "verification_status": "passed_independent_arithmetic_with_disclosed_unit_conflict",
+  "current_admission": "limited_descriptive_admission_with_source_conflicts",
+  "current_document_sha256": {
+    "AGENTS.md": "c705e1e042a11005729d42430ba5e237b0ef927cabba7b4addfa1de4f232aa87",
+    "项目文件索引.md": "2d7471398485b23082e178cbb230cae461135d4427fbcfb89a45b5c56ea6aae7",
+    "docs\\DECISION_LOG.md": "dea290bd3a6040530a6fec173bfeddacee9c42797dd861262386c912f026a78f",
+    "docs\\DATA_CARD.md": "c09312cf298c8355b1c5b1b6026cdcf1a8e987b5a96b1276cd56f0d5bbf02db9",
+    "docs\\EXPERIMENT_LOG.md": "d1ed0b79560c7983a28e8cec2062a10c034d5337d891639ba318263ac1ebd319",
+    "outputs\\ROADMAP_v2.md": "767f4c9a12af77554e0da7a7ed9f9de64eca37d2f1ebb70bce9b1476e0a2ccc1",
+    "outputs\\第一阶段两周执行计划_v2_20261013.md": "c3c720d8d0a3fbe5364d6669576085d2fb33677649a82c3d7e3473f47ee229f1",
+    "work\\process_notes\\2026-10-17_六类资源四层证据矩阵.md": "05b0a51d15ca290b6d85b94e5e07ffee946719ab6759ad20671df216a8a559e9",
+    "work\\process_notes\\2026-10-17_六类资源调研与数据核验要求.md": "e6cc2ec12e661c19f68870a6871af062560fb5571ed771e8cba397a11fdb492f",
+    "work\\process_notes\\2026-10-16_储热式电热水器研究.md": "973ddc833d4a755a73c00ca601515f67f8a63366c3f5ec131493e423fc68b41d"
+  }
+}

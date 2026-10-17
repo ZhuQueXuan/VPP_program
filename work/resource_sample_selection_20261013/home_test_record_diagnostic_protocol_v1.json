@@ -1,0 +1,48 @@
+{
+  "protocol_id": "RWTH-HOME-ID01-TEST-RECORD-DIAGNOSTIC-v1",
+  "frozen_at_utc": "2026-10-14T14:08:02.546853+00:00",
+  "decision": "D037",
+  "data_card_version": "DC-20261014-15",
+  "purpose": "read-only record semantics diagnostic around third controlled test; not a capacity prediction or label reconstruction",
+  "design_usage": "retrospective; published labels and prior monthly row/interpolation counts/start match known; first July CSV header/prefix seen; reuse v3 original 24h diagnostic window before targeted channel analysis",
+  "source": {
+    "path": "downloads/rwth_home_third_test_20261014/2019_07_System_ID_01.csv",
+    "bytes": 29729490,
+    "crc32": "e25c62c9",
+    "sha256": "a5d49b3f528db5306f1158bafd44519c84701b0a34fecfa23e4bbfbafb744e4d"
+  },
+  "test_start_native": "2019-07-01 13:55:06",
+  "window_start_inclusive": "2019-07-01 01:55:06",
+  "window_end_exclusive": "2019-07-02 01:55:06",
+  "timezone": "unchanged native strings, no absolute timezone conversion",
+  "fields": [
+    "Time",
+    "P_in_W",
+    "V_in_V",
+    "I_in_A",
+    "T_Bat_in_C",
+    "T_Room_in_C",
+    "Interpolated"
+  ],
+  "partitions": "entire fixed window; before published test start; at/after published test start; all native 1-second continuous blocks, retaining quality flags",
+  "diagnostics": [
+    "coverage, duplicates/order/gaps and interpolation runs",
+    "per scope ranges, zero I/nonzero P, P-UI mean/max absolute residual",
+    "within-block successive value-change intervals for U/I/P, all rows and noninterpolated finite rows separately",
+    "original test-start row and fixed plus/minus 5-second context",
+    "all current-state runs using unchanged abs I <=0.15 rest, I >0.15 charge, I <-0.15 discharge; reset at time gaps, invalid values or interpolation boundaries; no capacity integration",
+    "raw plot preserving gaps and interpolation flags, no resampling or channel correction"
+  ],
+  "not_allowed": [
+    "new model scores",
+    "refitting thresholds, lag or time multiplier",
+    "integrating across gaps",
+    "new endpoint or label matching to published capacities",
+    "claiming sample rate or failure cause from value holds",
+    "treating published start as proven end or full/empty SOC"
+  ],
+  "numeric_tolerance": 1e-09,
+  "prior_failure_verification_sha256": "b1ed68e9cdc67912cde29c297e19b0c4da75e9123e437c1934908921d45bdad4",
+  "source_pdf_sha256": "062c57fa945a3eb3b64844d6fe127f7cb245fbfc26e47f841a2d61573f010bfd",
+  "publisher_code_zip_sha256": "f33616e7594036a029f03382b840214c2d2b9170203c7cd28e2972ceb8863ef3"
+}

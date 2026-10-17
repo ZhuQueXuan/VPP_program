@@ -1,0 +1,597 @@
+{
+  "tolerance": {
+    "atol": 1e-08,
+    "rtol": 1e-06
+  },
+  "excluded": [
+    "runtime_s"
+  ],
+  "csv": [
+    {
+      "file": "ate_series.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numeric": [
+        {
+          "column": "estimate",
+          "allclose": false,
+          "max_abs_diff": 0.006085552238888903
+        },
+        {
+          "column": "se_cluster",
+          "allclose": false,
+          "max_abs_diff": 0.0009938955937856993
+        },
+        {
+          "column": "se_hc0",
+          "allclose": false,
+          "max_abs_diff": 4.0051758521399486e-05
+        },
+        {
+          "column": "ci_lo",
+          "allclose": false,
+          "max_abs_diff": 0.007524679622560204
+        },
+        {
+          "column": "ci_hi",
+          "allclose": false,
+          "max_abs_diff": 0.007420140854886403
+        },
+        {
+          "column": "t_crit",
+          "allclose": true,
+          "max_abs_diff": 3.810729509723387e-12
+        },
+        {
+          "column": "truth_mean",
+          "allclose": true,
+          "max_abs_diff": 1.1102230246251565e-16
+        }
+      ],
+      "other": [
+        {
+          "column": "feature",
+          "equal": true
+        }
+      ],
+      "allclose": false
+    },
+    {
+      "file": "benchmark.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numeric": [
+        {
+          "column": "nrmse_tau_up",
+          "allclose": false,
+          "max_abs_diff": 0.013610606557380334
+        },
+        {
+          "column": "nrmse_tau_down",
+          "allclose": false,
+          "max_abs_diff": 0.03373594086918552
+        },
+        {
+          "column": "nrmse_th_C",
+          "allclose": false,
+          "max_abs_diff": 0.012096573843191516
+        },
+        {
+          "column": "nrmse_th_lag",
+          "allclose": false,
+          "max_abs_diff": 0.06421041466653632
+        },
+        {
+          "column": "nrmse_th_lead",
+          "allclose": false,
+          "max_abs_diff": 0.015875819365145705
+        },
+        {
+          "column": "ate_bias_up_pct",
+          "allclose": false,
+          "max_abs_diff": 1.0161300988813373
+        },
+        {
+          "column": "ate_bias_down_pct",
+          "allclose": false,
+          "max_abs_diff": 2.119223139330633
+        },
+        {
+          "column": "ate_bias_up_event_pct",
+          "allclose": false,
+          "max_abs_diff": 0.6063500973293081
+        },
+        {
+          "column": "ate_bias_C_pct",
+          "allclose": false,
+          "max_abs_diff": 4.118795987136445
+        },
+        {
+          "column": "resource_corr_up",
+          "allclose": false,
+          "max_abs_diff": 0.01368633781058648
+        },
+        {
+          "column": "top25_precision",
+          "allclose": false,
+          "max_abs_diff": 0.09999999999999998
+        },
+        {
+          "column": "lossaversion_spearman",
+          "allclose": false,
+          "max_abs_diff": 0.0923753665689151
+        },
+        {
+          "column": "cluster_ari",
+          "allclose": false,
+          "max_abs_diff": 0.060183956380777004
+        },
+        {
+          "column": "baseline_rmse_all",
+          "allclose": false,
+          "max_abs_diff": 0.0002678160375651911
+        },
+        {
+          "column": "baseline_bias_event",
+          "allclose": false,
+          "max_abs_diff": 0.0034124838856975995
+        },
+        {
+          "column": "baseline_rmse_event",
+          "allclose": false,
+          "max_abs_diff": 0.001371734235718708
+        },
+        {
+          "column": "response_bias_event_pct",
+          "allclose": false,
+          "max_abs_diff": 2.2955255162923436
+        },
+        {
+          "column": "r2_l",
+          "allclose": false,
+          "max_abs_diff": 0.0008856648993436078
+        },
+        {
+          "column": "r2_m_max",
+          "allclose": false,
+          "max_abs_diff": 0.0014068887983481604
+        },
+        {
+          "column": "cond",
+          "allclose": false,
+          "max_abs_diff": 0.005160465872046993
+        },
+        {
+          "column": "theta_agc_on_power",
+          "allclose": false,
+          "max_abs_diff": 0.0007384045324902999
+        }
+      ],
+      "other": [
+        {
+          "column": "method",
+          "equal": true
+        },
+        {
+          "column": "group",
+          "equal": true
+        }
+      ],
+      "allclose": false
+    },
+    {
+      "file": "feature_library.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numeric": [
+        {
+          "column": "id",
+          "allclose": true,
+          "max_abs_diff": 0.0
+        },
+        {
+          "column": "theta_phi_Ep",
+          "allclose": false,
+          "max_abs_diff": 0.015916209249813906
+        },
+        {
+          "column": "theta_phi_Em",
+          "allclose": false,
+          "max_abs_diff": 0.018039242392265287
+        },
+        {
+          "column": "theta_phi_lag",
+          "allclose": false,
+          "max_abs_diff": 0.017117479019609583
+        },
+        {
+          "column": "theta_phi_lead",
+          "allclose": false,
+          "max_abs_diff": 0.007522927169734295
+        },
+        {
+          "column": "theta_phi_C",
+          "allclose": false,
+          "max_abs_diff": 0.0073748407225643076
+        },
+        {
+          "column": "std_phi_Ep",
+          "allclose": false,
+          "max_abs_diff": 0.0018365728592929995
+        },
+        {
+          "column": "std_phi_Em",
+          "allclose": false,
+          "max_abs_diff": 0.0012237902082971996
+        },
+        {
+          "column": "std_phi_lag",
+          "allclose": false,
+          "max_abs_diff": 0.0016513455643232013
+        },
+        {
+          "column": "std_phi_lead",
+          "allclose": false,
+          "max_abs_diff": 0.0009459790260133993
+        },
+        {
+          "column": "std_phi_C",
+          "allclose": false,
+          "max_abs_diff": 0.0007997979313192991
+        },
+        {
+          "column": "baseline_mean",
+          "allclose": false,
+          "max_abs_diff": 0.0012290257569675944
+        }
+      ],
+      "other": [
+        {
+          "column": "type",
+          "equal": true
+        }
+      ],
+      "allclose": false
+    },
+    {
+      "file": "final_stage_holdout.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numeric": [
+        {
+          "column": "rscore",
+          "allclose": false,
+          "max_abs_diff": 0.0009507355861815975
+        },
+        {
+          "column": "calib_slope",
+          "allclose": false,
+          "max_abs_diff": 0.0021145277685012953
+        }
+      ],
+      "other": [
+        {
+          "column": "final",
+          "equal": true
+        }
+      ],
+      "allclose": false
+    },
+    {
+      "file": "identification.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numeric": [
+        {
+          "column": "r2_m",
+          "allclose": false,
+          "max_abs_diff": 0.005800185834814453
+        },
+        {
+          "column": "resid_sd",
+          "allclose": false,
+          "max_abs_diff": 0.0017636534824506944
+        },
+        {
+          "column": "flag_weak",
+          "allclose": true,
+          "max_abs_diff": 0.0
+        }
+      ],
+      "other": [
+        {
+          "column": "feature",
+          "equal": true
+        },
+        {
+          "column": "method",
+          "equal": true
+        }
+      ],
+      "allclose": false
+    },
+    {
+      "file": "placebo.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numeric": [
+        {
+          "column": "estimate",
+          "allclose": false,
+          "max_abs_diff": 0.002548807766249203
+        },
+        {
+          "column": "se",
+          "allclose": false,
+          "max_abs_diff": 0.00046897178995169986
+        },
+        {
+          "column": "t_crit",
+          "allclose": true,
+          "max_abs_diff": 8.689937658346025e-12
+        },
+        {
+          "column": "ci_lo",
+          "allclose": false,
+          "max_abs_diff": 0.0035810077167202996
+        },
+        {
+          "column": "ci_hi",
+          "allclose": false,
+          "max_abs_diff": 0.0026191564324485987
+        },
+        {
+          "column": "covers_zero",
+          "allclose": true,
+          "max_abs_diff": 0.0
+        }
+      ],
+      "other": [
+        {
+          "column": "feature",
+          "equal": true
+        }
+      ],
+      "allclose": false
+    },
+    {
+      "file": "sensitivity_by_type.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numeric": [
+        {
+          "column": "theta_phi_Ep",
+          "allclose": false,
+          "max_abs_diff": 0.005976540612685932
+        },
+        {
+          "column": "theta_phi_Em",
+          "allclose": false,
+          "max_abs_diff": 0.006883847345468819
+        },
+        {
+          "column": "theta_phi_lag",
+          "allclose": false,
+          "max_abs_diff": 0.004703387220702598
+        },
+        {
+          "column": "theta_phi_lead",
+          "allclose": false,
+          "max_abs_diff": 0.001879704486578402
+        },
+        {
+          "column": "theta_phi_C",
+          "allclose": false,
+          "max_abs_diff": 0.0025602954621745944
+        },
+        {
+          "column": "true_th_Ep",
+          "allclose": true,
+          "max_abs_diff": 0.0
+        },
+        {
+          "column": "true_th_Em",
+          "allclose": true,
+          "max_abs_diff": 0.0
+        },
+        {
+          "column": "true_th_lag",
+          "allclose": true,
+          "max_abs_diff": 0.0
+        },
+        {
+          "column": "true_th_lead",
+          "allclose": true,
+          "max_abs_diff": 0.0
+        },
+        {
+          "column": "true_th_C",
+          "allclose": true,
+          "max_abs_diff": 0.0
+        }
+      ],
+      "other": [
+        {
+          "column": "type",
+          "equal": true
+        }
+      ],
+      "allclose": false
+    }
+  ],
+  "summary_json": [
+    {
+      "path": "/n_rows",
+      "equal": true,
+      "original": 86360,
+      "rerun": 86360
+    },
+    {
+      "path": "/n_resources",
+      "equal": true,
+      "original": 40,
+      "rerun": 40
+    },
+    {
+      "path": "/n_hours",
+      "equal": true,
+      "original": 2159,
+      "rerun": 2159
+    },
+    {
+      "path": "/tou_scenario/r2_m/0",
+      "equal": true,
+      "original": 0.9999691825730447,
+      "rerun": 0.9999690342882195
+    },
+    {
+      "path": "/tou_scenario/r2_m/1",
+      "equal": false,
+      "original": 0.2239965615894729,
+      "rerun": 0.2250449154222368
+    },
+    {
+      "path": "/tou_scenario/resid_sd/0",
+      "equal": false,
+      "original": 0.0007277118789759122,
+      "rerun": 0.0007294730653263019
+    },
+    {
+      "path": "/tou_scenario/resid_sd/1",
+      "equal": false,
+      "original": 0.10650989073610592,
+      "rerun": 0.10643764180639709
+    },
+    {
+      "path": "/tou_scenario/ok",
+      "equal": true,
+      "original": false,
+      "rerun": false
+    },
+    {
+      "path": "/agc/dml_nrmse",
+      "equal": false,
+      "original": 0.08178035115450528,
+      "rerun": 0.07854778591377214
+    },
+    {
+      "path": "/agc/dml_ate_bias_pct",
+      "equal": false,
+      "original": -0.2540096688185741,
+      "rerun": 0.4320823547773431
+    },
+    {
+      "path": "/agc/naive_ate_bias_pct",
+      "equal": true,
+      "original": 244.0905516378354,
+      "rerun": 244.09055163783566
+    },
+    {
+      "path": "/agc/true_mean",
+      "equal": true,
+      "original": 0.15553697770905572,
+      "rerun": 0.15553697770905572
+    },
+    {
+      "path": "/agc/dml_mean",
+      "equal": false,
+      "original": 0.15514189874708653,
+      "rerun": 0.15620902554489052
+    },
+    {
+      "path": "/agc/naive_slope",
+      "equal": true,
+      "original": 0.5351880445999069,
+      "rerun": 0.5351880445999073
+    },
+    {
+      "path": "/agc/r2_m",
+      "equal": false,
+      "original": 0.6864348748219959,
+      "rerun": 0.6884506914072459
+    },
+    {
+      "path": "/agc/by_type/est/ev",
+      "equal": false,
+      "original": 0.1762659274955324,
+      "rerun": 0.1774856508222645
+    },
+    {
+      "path": "/agc/by_type/est/hvac",
+      "equal": false,
+      "original": 0.09393589530205777,
+      "rerun": 0.09495571012432075
+    },
+    {
+      "path": "/agc/by_type/est/industrial",
+      "equal": false,
+      "original": 0.04447365824358337,
+      "rerun": 0.04512985806335928
+    },
+    {
+      "path": "/agc/by_type/est/storage",
+      "equal": false,
+      "original": 0.3918292359214385,
+      "rerun": 0.3934311246206681
+    },
+    {
+      "path": "/agc/by_type/true/ev",
+      "equal": true,
+      "original": 0.17341940713293189,
+      "rerun": 0.17341940713293189
+    },
+    {
+      "path": "/agc/by_type/true/hvac",
+      "equal": true,
+      "original": 0.09393450366785622,
+      "rerun": 0.09393450366785622
+    },
+    {
+      "path": "/agc/by_type/true/industrial",
+      "equal": true,
+      "original": 0.04,
+      "rerun": 0.04
+    },
+    {
+      "path": "/agc/by_type/true/storage",
+      "equal": true,
+      "original": 0.4033637259105624,
+      "rerun": 0.4033637259105624
+    },
+    {
+      "path": "/true_means/phi_Ep",
+      "equal": true,
+      "original": -0.5171216155907664,
+      "rerun": -0.5171216155907665
+    },
+    {
+      "path": "/true_means/phi_Em",
+      "equal": true,
+      "original": -0.2871595787129337,
+      "rerun": -0.28715957871293374
+    },
+    {
+      "path": "/true_means/phi_lag",
+      "equal": true,
+      "original": 0.18032688630735721,
+      "rerun": 0.18032688630735724
+    },
+    {
+      "path": "/true_means/phi_lead",
+      "equal": true,
+      "original": 0.08451401510497321,
+      "rerun": 0.08451401510497321
+    },
+    {
+      "path": "/true_means/phi_C",
+      "equal": true,
+      "original": 0.05359586659842287,
+      "rerun": 0.05359586659842286
+    }
+  ],
+  "all_csv_within_tolerance": false,
+  "summary_within_tolerance": false,
+  "coverage_new_repetitions": 0,
+  "repair": "Only degenerate profile standard deviation is replaced by 1 for evaluation; no fitting/data/split changes",
+  "elapsed_s": 225.96897411346436
+}

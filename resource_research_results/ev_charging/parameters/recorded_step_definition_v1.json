@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-16",
+  "definition_only": "Fixed settings described here are implemented in the code; editing this file does not change the verified algorithm.",
+  "input_units": {
+    "relative_time": "integer microseconds representing source elapsed times, not microsecond instrument accuracy",
+    "current": "A"
+  },
+  "command_conditions": {
+    "old_and_new_min_A": 6,
+    "minimum_absolute_step_A": 2,
+    "preceding_observed_phase_median_min_A": 1
+  },
+  "windows_s": {
+    "pre": [
+      -5,
+      0
+    ],
+    "post": [
+      0,
+      15
+    ],
+    "steady": [
+      10,
+      15
+    ],
+    "crossing_start_max": 10,
+    "crossing_confirmation_max": 10.1
+  },
+  "maximum_adjacent_gap_s": 0.05,
+  "minimum_persistent_crossing_s": 0.1,
+  "levels": [
+    0.1,
+    0.9
+  ],
+  "crossing_reference": "sign(du)*(I-I_pre_median)/abs(du), requested command step, not future measured final response",
+  "missing_crossing": "null/censored, not substituted with0/10s",
+  "protocol_sha256": "ad7b9f2dc4a99f7808c61e124394d3766ff6e0cb0b07bb782934d51f5862f9e8",
+  "source": {
+    "doi": "10.5281/zenodo.17866847",
+    "version": "1.0.0",
+    "license": "CC-BY-4.0",
+    "LF_sha256": "6156dc885ffd3066d5e2229c51dd49a5ceadf4e9c3c2c25adf0168d6583b2df1"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "decision": "D065",
+  "frozen_utc": "2026-10-16T12:57:11.204014+00:00",
+  "question": "Does a fixed0.5m/s training-bin mean/linear-interpolation statistical curve improve SAME-ROW published mean active power over linear-wind and cubic-wind regressions on later whole months of ALL6original turbines?",
+  "archive": {
+    "path": "work/wind_power_research_20261016/downloads/KELMARSH_2018_01/Kelmarsh_SCADA_2018_3084.zip",
+    "sha256": "38be7dd50b7f5dfe5642df33117482b06c12602153af7566a9acaa2cfcf85cd7",
+    "publisher_md5": "972e5280172216a5fe76dcab19c741b0"
+  },
+  "members": {
+    "Turbine_Data_Kelmarsh_1_2018-01-01_-_2019-01-01_228.csv": {
+      "unit": 1,
+      "rows": 52560
+    },
+    "Turbine_Data_Kelmarsh_2_2018-01-01_-_2019-01-01_229.csv": {
+      "unit": 2,
+      "rows": 52560
+    },
+    "Turbine_Data_Kelmarsh_3_2018-01-01_-_2019-01-01_230.csv": {
+      "unit": 3,
+      "rows": 52560
+    },
+    "Turbine_Data_Kelmarsh_4_2018-01-01_-_2019-01-01_231.csv": {
+      "unit": 4,
+      "rows": 52560
+    },
+    "Turbine_Data_Kelmarsh_5_2018-01-01_-_2019-01-01_232.csv": {
+      "unit": 5,
+      "rows": 52560
+    },
+    "Turbine_Data_Kelmarsh_6_2018-01-01_-_2019-01-01_233.csv": {
+      "unit": 6,
+      "rows": 52560
+    }
+  },
+  "source_QA_sha256": "b77fad6fbc2fa18cd783e183da489eb78348d4d1a731dbfab88695447e1724c7",
+  "metadata_sha256": "e19cfb43fb9962a76329136f25009d64f04689441aab49ca7a5edf97ccdc7e70",
+  "object": "6SenvionMM92 units,oneUKfarm2018,2050kWnominal each. Original static table rotor92m,papers mayquote92.5m; geometry not used. Same units in train/test,not independent site/device or Shandong validation.",
+  "time": "Source header explicitlyUTC,10min summary labels. Actual aggregation boundary,sensor/command latency not established; both SAME published row wind and active power used,not future forecasting. Turbine-measured wind not independently undisturbed wind.",
+  "state_scope": "ALL observed operating conditions with valid core fields.69963event records,60301no-end markers; no event->sampled healthy/state reconstruction or target/residual based cleaning. No assuming no eventmeanshealthy. Setpoint and provider potential-power estimates never model inputs or truth for available capacity.",
+  "admission": "All315360original turbine rows candidates. Finite wind>=0 and finite publishedPower(kW),parseable sourceUTC time,firstroworstrict+600s from previous original row,unique original time. No sorting,filling,smoothing,sign/rated-power/residual/operating/curtailment filters. Negativepower and source-power>2050retained. Firstrow allowed for static problem. Report all overlapping exclusions.",
+  "split": {
+    "train": "2018-01-01T00:00Z <= source label <2018-10-01T00:00Z",
+    "test": "2018-10-01T00:00Z <= source label <2019-01-01T00:00Z",
+    "method": "All6units first9complete calendar months train,later3test. No adjacent random split,no selecting turbine/year/binwidth by scores."
+  },
+  "models": {
+    "B_LINEAR": "a+b*v,perunitOLS rcond1e-12,2parameters",
+    "B_CUBIC": "a+b*v^3,perunitOLS rcond1e-12,2parameters; statistical comparator,not full physically valid power law across all speeds",
+    "M_CURVE": "Perunit training bins floor(v/0.5),leftinclusive/rightopen; every nonemptybin kept. Each knot x=arithmeticmean(v),y=arithmeticmean(P) of training rows inbin; predict by linearinterpolation between knots,constant edge outside knotcentres. No mincount filtering,smoothing,monotonic/physical clipping,search or state routes. Rarebins count<20diagnostic only,retained."
+  },
+  "weights": "Each original admitted training record equal weight within its turbine; no farm aggregation/transfer of parameters among turbines.",
+  "basis": "Wind power curve nonlinear shape and predefined piecewise-linear benchmark class supported by Kolumban etal arxiv1707.06497v2,III-A4(primaryHTMLread viaweb; localfetchSSLfailed). Our training-bin knot rule0.5m/s is prespecified research resolution,notIECcertification or full exact-paper reproduction. PaperdataVestasV80 and3.5/15/25msthresholds NOT transferred toMM92. Wiley10.1002/we.70012 supports source/event context,not our state filtering or neural model.",
+  "gate": "M_CURVE strictly lower MAEandRMSE than BOTH baselines on pooledtest,each6turbines,and pooled currentpublishedP>0subgroup; at least2of3testmonths bothmetrics below BOTH baselines. P>0only retrospective report subgroup,NEVER input/filter/route. Allmonths/units/nonpositiveP/worst/outoftrainingwind and rare-bin support reported on failure too.",
+  "not_verified": [
+    "healthy/certified manufacturer curve",
+    "physicalCp/guaranteed bound or rated/cutin/cutout thresholds",
+    "independent availablewindpower/curtailment dispatch or headroom",
+    "future forecast/real online leadtime/control success",
+    "newsites/devices or allseasons beyond heldoutmonths",
+    "P1or10390percent"
+  ],
+  "output": "Only promote final code if actual independent source/sample/algebra/replay checks pass; firstcomponentnot automatic entire wind resource acceptance."
+}

@@ -1,0 +1,27 @@
+{
+  "purpose": "All6turbines2018 complete first calendar year after source-paper wind-summary recording start2017-09-25; choose before modelling/errors, not selected by performance. No2023/24 repair inherited.",
+  "metadata_sha256": "e19cfb43fb9962a76329136f25009d64f04689441aab49ca7a5edf97ccdc7e70",
+  "files": [
+    {
+      "name": "Kelmarsh_WT_static.csv",
+      "url": "https://zenodo.org/api/records/16807551/files/Kelmarsh_WT_static.csv/content",
+      "expected_bytes": 807,
+      "expected_md5": "af3a038f0f7fddfc1608ad0bfc8cf5ba",
+      "limit_bytes": 1807
+    },
+    {
+      "name": "Kelmarsh_WT_dataSignalMapping.csv",
+      "url": "https://zenodo.org/api/records/16807551/files/Kelmarsh_WT_dataSignalMapping.csv/content",
+      "expected_bytes": 3150,
+      "expected_md5": "ca8fe399ab15ae7111d3214c632efd36",
+      "limit_bytes": 4150
+    },
+    {
+      "name": "Kelmarsh_SCADA_2018_3084.zip",
+      "url": "https://zenodo.org/api/records/16807551/files/Kelmarsh_SCADA_2018_3084.zip/content",
+      "expected_bytes": 262157463,
+      "expected_md5": "972e5280172216a5fe76dcab19c741b0",
+      "limit_bytes": 262158463
+    }
+  ]
+}

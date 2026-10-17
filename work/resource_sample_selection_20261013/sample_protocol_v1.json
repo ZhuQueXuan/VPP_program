@@ -1,0 +1,44 @@
+{
+  "protocol_id": "BESS-CONV-SAMPLE-v1",
+  "split_id": "M5BAT-CONV-T1FIT-T2EVAL-v1",
+  "data_card_version": "DC-20261013-05",
+  "scope": "retrospective steady AC-to-DC conversion, same site across periods",
+  "source_doi": "10.18154/RWTH-2025-06555",
+  "license": "CC BY 4.0",
+  "zip_path_from_project_root": "work/resource_sample_selection_20261013/downloads/rwth_m5bat_2025/Dataset_verified_download.zip",
+  "zip_sha256": "2a451586777c148b1925cce27ee14c2be423a0b1f429e300d59d81366ad728b4",
+  "tests": {
+    "test_1": {
+      "member": "test_1_measurement_data.csv",
+      "member_sha256": "538025b06a20ae6c4131cc968b05fceb24e4d5eff2aa0634a42cc6c8241e6f06",
+      "partition": "fit",
+      "rows": 259201,
+      "start_raw": "2023-08-14 12:00:00",
+      "end_raw": "2023-08-17 12:00:00",
+      "expected_eligible_by_unit": {"lmo1": 274, "lmo2": 234, "lmo3": 297, "lmo4": 328}
+    },
+    "test_2": {
+      "member": "test_2_measurement_data.csv",
+      "member_sha256": "a9551d7be2abf37b208debb5b356e6a664958f14f9695ec7a17d1df9141ea4cc",
+      "partition": "evaluation",
+      "rows": 259201,
+      "start_raw": "2024-05-28 12:00:00",
+      "end_raw": "2024-05-31 12:00:00",
+      "expected_eligible_by_unit": {"lmo1": 508, "lmo2": 425, "lmo3": 443, "lmo4": 402}
+    }
+  },
+  "units": ["lmo1", "lmo2", "lmo3", "lmo4"],
+  "window_seconds": 60,
+  "measurement_step_seconds": 1,
+  "strict_ac_min_abs_kw": 50.0,
+  "strict_ac_max_range_kw": 10.0,
+  "threshold_status": "engineering protocol, quality data inspected, not blind preregistration or physical limits",
+  "time_policy": "native timestamp strings retained; measurement UTC+2 is source declaration only; no inferred correction or schedule join",
+  "availability_policy": "window_end is a conservative protocol availability bound, not measured arrival time",
+  "endpoint_policy": "half-open windows; final terminal row stays in original source and is not reused",
+  "model_inputs": ["unit_id", "direction", "ac_mean_kw"],
+  "reference_fields": ["dc_reference_mean_kw"],
+  "diagnostic_fields_not_model_inputs": ["paired_loss_mean_kw", "negative_loss_flag", "dc_sign_mismatch_flag"],
+  "test_usage": "Test2 already inspected for quality and inventory; retrospective holdout, no model score yet",
+  "not_supported": ["capacity prediction", "SOC dynamics validation", "task tracking", "cross-site generalization"]
+}

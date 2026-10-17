@@ -1,0 +1,7 @@
+{
+  "purpose":"Two primary source catalogs only, candidate leads, no data admission or MPC/control implementation.",
+  "files":[
+    {"name":"shifdr_catalog.html","url":"https://openenergyhub.ornl.gov/explore/dataset/shifdr-sub-metered-hvac-implemented-for-demand-response/","limit_bytes":2000000},
+    {"name":"mpc_experiment_catalog.html","url":"https://data.mendeley.com/datasets/7tzkdhgpfs/1","limit_bytes":2000000}
+  ]
+}

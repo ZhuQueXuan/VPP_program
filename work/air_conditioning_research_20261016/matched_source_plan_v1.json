@@ -1,0 +1,10 @@
+{
+ "date":"2026-10-16",
+ "purpose":"D060 inspect source-specific HVAC power/temperature/control references, no inherited PLEIA admission or scores.",
+ "files":[
+  {"name":"six_buildings_page.html","url":"https://data.mendeley.com/datasets/xztfbtsgys/3","limit_bytes":3000000},
+  {"name":"six_buildings_paper.pdf","url":"https://eta-publications.lbl.gov/sites/default/files/2025-05/sub-hourly_measurement_datasets.pdf","limit_bytes":10000000},
+  {"name":"hil_catalog.html","url":"https://data.nlr.gov/submissions/246","limit_bytes":2000000},
+  {"name":"hil_license.html","url":"https://data.nlr.gov/node/246/license","limit_bytes":1000000}
+ ]
+}

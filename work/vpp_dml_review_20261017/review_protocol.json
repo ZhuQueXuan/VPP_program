@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-17",
+  "scope": "Read and reproduce the colleague's delivery; synthetic method audit only, no integration or admission of real causal data",
+  "archive": "vpp_dml_framework/vpp_dml_framework.zip",
+  "archive_sha256": "17d45d81bf1427d61f7e8dbcd3ca599b83fa2a49f989457b63d3cee3671cc109",
+  "source_policy": "Unchanged extraction; separate quick/full/coverage copies; preserve supplied results",
+  "sequence": ["quick benchmark", "full benchmark if quick completes locally", "recompute supplied 30-repetition coverage summary", "small targeted diagnostics of data interface and fold isolation"],
+  "comparability": "Quick run differs from supplied 40-resource/90-day benchmark; only full run can reproduce supplied benchmark. Dependencies were not pinned by author; record actual versions.",
+  "numeric_tolerance": {"atol": 1e-8, "rtol": 1e-6},
+  "exclude_comparison_columns": ["runtime_s"],
+  "limitations": ["No new physical evidence", "Synthetic truth only", "No claim of full future holdout", "No new model selection or tuning based on supplied results", "No server/GPU/data upload needed"],
+  "coverage_policy": "First independently recompute all summary values from supplied 150 repetition-feature rows; fresh 30-fit repetition is optional and must be clearly distinguished."
+}

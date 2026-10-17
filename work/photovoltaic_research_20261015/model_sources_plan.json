@@ -1,0 +1,9 @@
+{
+  "id": "PVDAQ_MODEL_SOURCES_01",
+  "purpose": "Retain manufacturer-authored exact module datasheet hosted by distributor, and official model equations; no software execution",
+  "files": [
+    {"name": "sharp_ND224UC1_spec.pdf", "url": "https://www.solarelectricsupply.com/media/sparsh/product_attachment/custom/upload/sharp-ND-224UC1-spec.pdf", "limit_bytes": 2000000},
+    {"name": "pvwatts_dc.html", "url": "https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.pvsystem.pvwatts_dc.html", "limit_bytes": 500000},
+    {"name": "sapm_cell_from_module.html", "url": "https://pvlib-python.readthedocs.io/en/stable/reference/generated/pvlib.temperature.sapm_cell_from_module.html", "limit_bytes": 500000}
+  ]
+}

@@ -1,0 +1,47 @@
+"""Maintain bounded first basic-package completion and unresolved formal tasks."""
+from common import *
+pkg=ROOT/'resource_research_results/air_conditioning';rel=load(pkg/'results/release_validation_v1_1.json');assert rel['status']=='passed' and rel['six_checks_passed']==6
+assert all(sha(pkg/n)==h for n,h in rel['verified_files'].items())
+accept=load(pkg/'results/basic_research_acceptance_v1_1.json');char=load(pkg/'results/characteristic_summary_v1_1.json');assert char['total_adjacent_room_pairs']==4592
+protocol=sha(BASE/'air_characteristic_protocol_v1.json')
+status=load(BASE/'control_candidate_status_v2.json');status['decision']='D063';status['supersedes']='v1/v2 retained as D061/D062 historical snapshots';status['source_metadata_only']=False
+status['SHIFDR'].update({'primary_subset_url':'https://deepblue.lib.umich.edu/data/concern/data_sets/j6731449j','primary_subset_doi':'10.7302/vmwh-ek70','primary_subset_request':'one403; stopped','author_publication_request':'403; stopped','metadata':'DataCite confirms14buildings,current-to-fanpower calculation,and2021BASinterpolated1min; rightsListempty. No rawfiles/README obtained.','paper_crossref_doi':'10.1115/1.4064348','paper_evidence':'registry/abstract only, not full method or local raw measurement proof','license_boundary':'Do not inherit ORNL ODbL into unopened subset; actual licence/calculation/calibration pending','raw_downloaded':False,'admitted':False})
+status['dual_zone_experimental']['next']='Original two-room conditional-temperature/observational-characteristic basic package bounded complete; control/actual lead time/comfort/capacity remain specialised research tasks.'
+status['air_basic_package']={'version':'1.1.0','status':'limited_basic_package_complete','six_existing_D046_checks_passed':6,'not_new_fitting_or_forecast_validation':True,'next':'Next resource or specialised study by user choice, no automatic integration or report/handoff.'}
+f=BASE/'control_candidate_status_v3.json';assert not f.exists();dump(f,status)
+source='''继续核查SHIFDR控制/功率来源，实际取得DataCite集合10.7302/15pv-zt79与Michigan子集10.7302/vmwh-ek70、配套论文Crossref10.1115/1.4064348。子集官方说明为14楼，风机P由电流换算，2021预处理BAS插值至1分钟；原说明不是本地取得原数据/仪器校验或控制真值。具体子集目录及作者论文页各一次403停止（先前集合403不重试），未取原README/运行文件；DataCite rightsList空，不能把ORNL目录ODbL直接转给未开的子集。Crossref只有登记/摘要，不称论文全文复现。SHIFDR当前用途未准入；未按网络拒绝或无来源假设补造指令、状态、功率或时延。'''
+description=f'''在D062误差已见后，固定[air_characteristic_protocol_v1.json](../work/air_conditioning_research_20261016/air_characteristic_protocol_v1.json)，SHA256 `{protocol}`，只做回顾描述/基础验收检查，0新拟合/0新增预测盲测，不把它称事前独立科学验证。原双区域8文件×2房间完整4608标签/4592组文件内相邻5分钟温差；发布正P931/零P3677。相邻零→正480、正→零480、正→正451、零→零3181仅为读数模式，不认定真实压缩机启停、控制送达或成功事件；ΔT/5min是观察斜率，不推因果冷却速度。未跨缺日期拼接/平滑、算电量或物理开机时长，也未求真实容量/COP。'''
+curves='''补全全部4个原评价日×2原房间共8面板曲线，不挑最好片段。2304原房间温度/功率标签及D062固定2288预测按**目标时刻**对齐，功率仍在原发布标签；图中蓝实测/黑虚线预测/灰发布功率，明确非指令。PNG实际渲染目检，无文字/图例重叠和曲线裁切；同图另存可编辑SVG（未另行浏览器渲染）。计算/绘图过程脚本和逐点轨迹仍留work；最终目录仅加聚合特征/PNG/SVG/验收与收据。绘图库仅在work/python_packages/hvac_plots_20261016过程环境安装并记录版本，不给最终标准库计算增加依赖。'''
+verify='''CHAR_AIR_01/02两科研产物逐字节一致；独立pandas/NumPy与stdlib计数/排序分位计算对照，核16房间日摘要、全4592相邻对、2304绘图原标签和2288目标时刻预测，11890数值检查通过，最大差3.56e-15。D062预测代码/10系数/范围/例子/两基线门槛和五科学产物均不改，原2288最终代码回放差0/7类非法输入及目录外构造例证据按精确指纹复用，没有为文档变更重复拟合/调参。v1.0 README修改前的副本及原收据身份保留在PACKAGE_AIR_V1_1_01，v1.0收据为历史，现用v1.1重核新文档和结果身份。'''
+decision='''按D046原定六项标准逐项检查：①原双区、已知输入/下一发布5min温度和时域明确；②完整曲线、五项公式/10统计系数、训练范围及采样/输入约束有据；③8原CSV身份/源观测温度适合限定预测参照；④D062原相对标准已通过；⑤两基线、全部房间/日期/域外/零P退步/最差及D059/D060失败保留；⑥原始样本/SVD复算、固定计算回放/使用例及适用边界齐备。故**空调首轮基础包在“原双区发布运行特征＋条件下一5min室温标签预测”范围内有限收口**，成果v1.1。不是放宽预测门槛或将曲线展示当新增益；控制指令/舒适参照不是该预测输出所需的真值，它们仍是控制/容量专项开展前必需数据。未删除正式任务或把有限验收等同于完整资源调节能力。'''
+limits='''原总体MAE0.320326923→0.285883291℃、RMSE0.631909295→0.528019323℃及2房间/4评价日正向保持；零P1863点MAE退步、154域外/最差3.566680℃、D059温度ARX和D060高温用电映射失败全保留，不按状态改路由。实际在线提前量、设备/传感器同步、真指令/档位及物理时延、R/C/COP/可承诺容量、舒适/用户授权、跨站季节等均待后续专项，非已验证接口。首轮基础阶段到此停止新增实验；下一类型或专项由用户选，跨资源整合仍须明确授权，全体P1/103未通过。不更新handoff/教师稿、不另建outputs报告，不启动高级模型/GPU/上传提交。'''
+body='\n\n'.join('- '+x for x in [source,description,curves,verify,decision,limits])
+short='''2026-10-16现用D063：空调首轮基础包按D046原六项标准在“原双区发布运行特征＋当前行可得条件下下一5min室温预测”范围内有限收口，现用成果v1.1。新增8天×2房间4608标签/4592原相邻对描述、全4评价日×2房间8面板曲线；正P931/零P3677，零/正转变只是读数模式，不作真实启停/指令时延。独立11890数值/全4592对/2304图源/2288目标对齐通过，PNG目检、SVG同图导出；0新拟合/0新预测盲测。D062代码/10系数/原成绩及零P退步/154域外/最差、D059/60失败不变，原2288回放证据按指纹复用。SHIFDR官方子集元数据明示电流换P及BAS分钟插值；具体子集/作者页403，原数据/许可/控制真值未准入。卡DC-20261016-09、六项验收/现用发布收据v1.1；真实在线、控制/容量/舒适授权及P1/103未验。到此停止本轮新增实验，下一资源或专项由用户选，不自动整合/高级分支/GPU/handoff/教师稿或新报告。'''
+changes={}
+def edit(name,fn):
+    q=ROOT/name;t=q.read_text(encoding='utf-8');assert 'D063' not in t,name;changes[q]=fn(t)
+edit('docs/DECISION_LOG.md',lambda t:t+'\n\n## D063｜空调运行特征、控制证据边界及首轮基础包六项有限收口\n\n- 日期：2026-10-16；状态：实做描述/曲线/独立核验/既定六项审查与v1.1归集完成；停止本轮新增实验。\n\n'+body+'\n\n- [空调成果v1.1](../resource_research_results/air_conditioning/README.md)、[六项验收](../resource_research_results/air_conditioning/results/basic_research_acceptance_v1_1.json)、[过程入口](../work/air_conditioning_research_20261016/README.md)。\n')
+card='## 空调：发布运行特征的回顾描述与SHIFDR暂不准入（D063）\n\n'+'\n\n'.join('- '+x for x in [source,description,curves])+'\n\n- 卡09只新增回顾特征/图与候选元数据用途状态，D062原4576/2288训练评价协议不变，未新增预测数据/控制准入。按用途区分参照；基础验收不使控制/容量或后续模型自动准入。候选状态v3现用，v1/v2历史保留。\n\n'
+edit('docs/DATA_CARD.md',lambda t:t.replace('卡版本：DC-20261016-08','卡版本：DC-20261016-09',1).replace('## 空调：双区域下一5分钟发布室温标签限定准入（D062）',card+'## 空调：双区域下一5分钟发布室温标签限定准入（D062）',1))
+entry='## CHAR-HVAC-20261016｜回顾特征、完整曲线与六项基础审查（D063）\n\n'+'\n\n'.join('- '+x for x in [description,curves,verify,decision,limits])+'\n\n- 实际运行：SHIFDR_METADATA_01两DataCite成功/作者页403，SHIFDR_SUBSET_01子集403/论文Crossref成功→freeze_air_characteristics.py→CHAR_AIR_01/02→AIR_CURVES_01→PNG目检→verify_air_characteristics.py→close_air_basic_package.py→release_air_v1_1.py。曾发现本机无matplotlib，只向work过程环境安装并保存plot_install_receipt_v1.json，未改系统环境或最终算法依赖。没有新模型训练或控制实验。\n\n'
+edit('docs/EXPERIMENT_LOG.md',lambda t:t.replace('## BL-HVAC-DUAL-ZONE-20261016',entry+'## BL-HVAC-DUAL-ZONE-20261016',1))
+for name in ['outputs/ROADMAP_v2.md','outputs/第一阶段两周执行计划_v2_20261013.md']:
+    edit(name,lambda t:t.replace('最新执行（D062）：','最新执行（D063）：'+short+'[空调成果v1.1](../resource_research_results/air_conditioning/README.md)。\n\n前序执行（D062）：',1).replace('现用D062：','现用D063：空调首轮基础包六项限定收口，原代码/成绩与失败不变，容量/控制仍专项；本轮停止新增实验，下一类型/专项由用户选择，不整合。\n\n前序D062：',1).replace('当前按D062完成新双区室温对照和首个有限组件归集，接续补控制/档位—功率独立证据与基础覆盖','当前按D063完成空调首轮基础包的既定六项限定收口并停止本轮新增实验，下一资源或专项由用户选择；真控制/容量等仍需独立准入',1))
+edit('AGENTS.md',lambda t:t.replace('先读D062新双区','先读D063空调六项限定收口/v1.1与控制容量缺口，再读D062新双区',1).replace('- 2026-10-16现用D062：','- '+short+'\n- 2026-10-16前序D062：',1).replace('空调仅首个有限室温预测组件，整体仍进行中','空调首轮基础包在原双区运行特征/条件室温预测范围限定收口，完整调节能力仍待专项',1))
+edit('项目文件索引.md',lambda t:t.replace('\n\n','\n\n- '+short+'[空调成果v1.1](resource_research_results/air_conditioning/README.md)、[六项验收](resource_research_results/air_conditioning/results/basic_research_acceptance_v1_1.json)、[曲线PNG](resource_research_results/air_conditioning/results/test_temperature_curves_v1_1.png)。\n\n',1).replace('2026-10-16现用D062','2026-10-16前序D062',1))
+edit('resource_research_results/README.md',lambda t:t.replace('v1.0首个有限组件，原双区试验当前行可得条件下下一5分钟室温标签预测；2房间/4留出日双改善，零功率组MAE退步保留；整体基础包、真实在线提前量/控制/容量未验','v1.1首轮基础包六项限定收口：原双区发布运行特征与当前行可得条件下下一5分钟室温标签预测；2房间/4留出日双改善，零功率组MAE退步保留；完整调节能力、真实在线提前量/控制/容量未验',1)+'\n2026-10-16 D063：空调v1.1完成原定六项有限基础验收，新增聚合特征/全部评价曲线及验收收据，计算代码/参数与旧成绩不改。本轮停止新增实验，下一类型或专项由用户选，跨资源整合仍待明确授权；四类基础包均有各自有限范围，完整能力/P1/103未通过。\n')
+edit('work/process_notes/2026-10-16_空调资源研究.md',lambda t:t.replace('现用D062（D061/060/059前序保留）','现用D063（D062/061/060/059前序保留）',1)+'\n\n## D063｜运行特征/曲线、证据缺口与首轮基础包有限收口\n\n'+body+'\n')
+intro='''## 当前D063：首轮基础包六项限定收口，成果v1.1
+
+- 按既定D046六项标准完成审查，范围为原双区试验的发布运行特征和当前行可得条件下下一5min室温标签预测。对象/输入输出、曲线公式参数、按用途参照、D062正向简单组件、公平失败覆盖、固定复现均有对应证据。[现用成果v1.1](../../resource_research_results/air_conditioning/README.md)、[六项有限验收](../../resource_research_results/air_conditioning/results/basic_research_acceptance_v1_1.json)、[现用发布收据](../../resource_research_results/air_conditioning/results/release_validation_v1_1.json)。这不是完整空调调节能力或P1/103验收。
+- [回顾描述协议](air_characteristic_protocol_v1.json)SHA256 `'''+protocol+'''`；D062误差已见后固定，只作描述，不作新增独立预测检验。8天×2房间4608原标签/4592原相邻对，正P931/零P3677，零→正480/正→零480只是读数模式，不作真实启停/指令/时延；不积分电量/算物理运行时长或容量。
+- [全部评价曲线PNG](../../resource_research_results/air_conditioning/results/test_temperature_curves_v1_1.png)和[可编辑SVG](../../resource_research_results/air_conditioning/results/test_temperature_curves_v1_1.svg)为4日×2房间全部8面板。2304源房间标签/2288预测均按目标时刻核对，无最好片段选择/平滑。PNG实际目检，SVG同图导出、未另行浏览器渲染。
+- CHAR_AIR_01/02两产物相同；[独立核验](runs/CHAR_AIR_01/verification.json)全16房间日/4592相邻对/2304绘图源/2288目标对齐、11890数值通过。绘图依赖仅work过程环境，最终计算仍标准库。原D062代码/10系数/门槛/成绩及原2288最终回放证据按相同指纹保持；零P退步/154域外/最差、D059/D060失败全保留，0新拟合/0新预测盲测。
+- SHIFDR仅新取得官方DataCite子集/集合及论文Crossref元数据：14楼、风机P由电流换算、2021BAS分钟插值。具体子集/作者页403后停止，无原数据/README，DataCite rightsList空，不继承ORNL ODbL，不准入新控制响应/功率真值。见[候选用途状态v3](control_candidate_status_v3.json)，v1/v2历史保持。
+
+现用卡DC-20261016-09。真实在线提前量、仪器同步、指令/档位/物理响应、舒适授权和可用/可承诺容量、物理参数及跨站季节迁移仍待专项，不因基础完成而删除。本轮在此停止新增实验，下一资源或专项由用户决定；不整合/高级模型/GPU/handoff/教师稿/新正式报告，原三类最终包保持。以下D062及更早为历史时点。
+
+'''
+edit('work/air_conditioning_research_20261016/README.md',lambda t:t.replace('现用决定D062','现用决定D063',1).replace('## 当前D062：双区域实测室温标签对照与首个有限组件',intro+'## 前序D062：双区域实测室温标签对照与首个有限组件',1))
+for q,t in changes.items():q.write_text(t,encoding='utf-8')
+print('Maintained',len(changes),'existing records. D063bounded basic package complete, formal capabilities/P1not complete; no handoff/report.')

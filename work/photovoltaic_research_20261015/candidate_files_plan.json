@@ -1,0 +1,22 @@
+{
+  "id": "PVDAQ_CANDIDATE_FILES_01",
+  "purpose": "Actual two-roof metadata and predetermined development-day checks; no fitting/scoring",
+  "files": [
+    {
+      "name": "system_1277_metadata.json",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/system_metadata/1277_system_metadata.json"
+    },
+    {
+      "name": "system_1277_2019_06_15.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1277/year=2019/month=6/day=15/system_1277__date_2019_06_15.csv"
+    },
+    {
+      "name": "system_1239_metadata.json",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/system_metadata/1239_system_metadata.json"
+    },
+    {
+      "name": "system_1239_2019_06_15.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=6/day=15/system_1239__date_2019_06_15.csv"
+    }
+  ]
+}

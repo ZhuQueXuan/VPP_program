@@ -1,0 +1,232 @@
+{
+  "scope": "Publisher anonymous mono-crystalline silicon module, SUPSI PVLab lab matrix and outdoor I-V observations, 2018-07 through 2019-06. Not PVDAQ1239 or Sharp module.",
+  "counts": {
+    "raw_rows": 36449,
+    "finite_prediction_rows": 34763,
+    "main_rows": 34751,
+    "raw_status": {
+      "admitted": 34751,
+      "core_nonfinite": 1686,
+      "iv_inconsistent": 12
+    },
+    "outside_lab_GT_range_main": 6465,
+    "observed_dates": 356,
+    "fitted_outdoor_parameters": 0
+  },
+  "main_all": {
+    "B_G": {
+      "n": 34751,
+      "mae_W": 15.447978269672655,
+      "rmse_W": 23.55193921175725,
+      "bias_W": 10.592831461587705,
+      "p95_abs_W": 42.14653695314496,
+      "max_abs_W": 204.8218483332272,
+      "worst_time": "2019-05-07 12:05:00",
+      "worst_target_W": 69.504,
+      "worst_prediction_W": 274.3258483332272,
+      "mae_div_lab_P0": 0.05407329282592002,
+      "rmse_div_lab_P0": 0.08243997262190635
+    },
+    "M_T0": {
+      "n": 34751,
+      "mae_W": 7.5750811979066555,
+      "rmse_W": 17.047254021201912,
+      "bias_W": 0.13710582118539066,
+      "p95_abs_W": 33.29055201343775,
+      "max_abs_W": 185.84334887922904,
+      "worst_time": "2019-05-10 11:00:00",
+      "worst_target_W": 297.338,
+      "worst_prediction_W": 111.49465112077098,
+      "mae_div_lab_P0": 0.026515416881357855,
+      "rmse_div_lab_P0": 0.05967131377806027
+    },
+    "M_T3": {
+      "n": 34751,
+      "mae_W": 7.94282334396012,
+      "rmse_W": 17.118284351049557,
+      "bias_W": -1.208992600128576,
+      "p95_abs_W": 33.288293238217676,
+      "max_abs_W": 186.4798969033916,
+      "worst_time": "2019-05-10 11:00:00",
+      "worst_target_W": 297.338,
+      "worst_prediction_W": 110.85810309660842,
+      "mae_div_lab_P0": 0.027802642199833305,
+      "rmse_div_lab_P0": 0.0599199446188295
+    }
+  },
+  "main_G_ge200": {
+    "B_G": {
+      "n": 26243,
+      "mae_W": 19.507143086366508,
+      "rmse_W": 26.923095228825982,
+      "bias_W": 14.249918984247197,
+      "p95_abs_W": 45.767234649880294,
+      "max_abs_W": 204.8218483332272,
+      "worst_time": "2019-05-07 12:05:00",
+      "worst_target_W": 69.504,
+      "worst_prediction_W": 274.3258483332272,
+      "mae_div_lab_P0": 0.06828178043058376,
+      "rmse_div_lab_P0": 0.09424019031321997
+    },
+    "M_T0": {
+      "n": 26243,
+      "mae_W": 9.124374692740659,
+      "rmse_W": 19.375258059476927,
+      "bias_W": 0.22570477611895745,
+      "p95_abs_W": 40.90554012789593,
+      "max_abs_W": 185.84334887922904,
+      "worst_time": "2019-05-10 11:00:00",
+      "worst_target_W": 297.338,
+      "worst_prediction_W": 111.49465112077098,
+      "mae_div_lab_P0": 0.031938482563934535,
+      "rmse_div_lab_P0": 0.06782013700036513
+    },
+    "M_T3": {
+      "n": 26243,
+      "mae_W": 9.612136729540563,
+      "rmse_W": 19.45816701748386,
+      "bias_W": -1.544903638036278,
+      "p95_abs_W": 41.10151153452398,
+      "max_abs_W": 186.4798969033916,
+      "worst_time": "2019-05-10 11:00:00",
+      "worst_target_W": 297.338,
+      "worst_prediction_W": 110.85810309660842,
+      "mae_div_lab_P0": 0.03364581921244778,
+      "rmse_div_lab_P0": 0.06811034716806079
+    }
+  },
+  "M_T0_vs_B_G_reduction": {
+    "mae_W": 0.509639315535678,
+    "rmse_W": 0.27618469681291324
+  },
+  "positive_component_criterion": true,
+  "monthly_primary_improvement": [
+    {
+      "month": "2018-07",
+      "n": 3048,
+      "mae_improves": true,
+      "rmse_improves": true
+    },
+    {
+      "month": "2018-08",
+      "n": 3528,
+      "mae_improves": true,
+      "rmse_improves": true
+    },
+    {
+      "month": "2018-09",
+      "n": 3224,
+      "mae_improves": true,
+      "rmse_improves": true
+    },
+    {
+      "month": "2018-10",
+      "n": 2540,
+      "mae_improves": true,
+      "rmse_improves": true
+    },
+    {
+      "month": "2018-11",
+      "n": 2278,
+      "mae_improves": true,
+      "rmse_improves": false
+    },
+    {
+      "month": "2018-12",
+      "n": 2111,
+      "mae_improves": false,
+      "rmse_improves": false
+    },
+    {
+      "month": "2019-01",
+      "n": 2265,
+      "mae_improves": false,
+      "rmse_improves": false
+    },
+    {
+      "month": "2019-02",
+      "n": 2426,
+      "mae_improves": true,
+      "rmse_improves": true
+    },
+    {
+      "month": "2019-03",
+      "n": 3103,
+      "mae_improves": true,
+      "rmse_improves": true
+    },
+    {
+      "month": "2019-04",
+      "n": 3422,
+      "mae_improves": true,
+      "rmse_improves": true
+    },
+    {
+      "month": "2019-05",
+      "n": 3635,
+      "mae_improves": true,
+      "rmse_improves": true
+    },
+    {
+      "month": "2019-06",
+      "n": 3171,
+      "mae_improves": true,
+      "rmse_improves": true
+    }
+  ],
+  "not_validated": [
+    "distributed system AC output",
+    "future forecast",
+    "maximum available AC power",
+    "curtailment/upward reserve",
+    "response delay",
+    "independent module/site transfer",
+    "annual yield",
+    "103 official accuracy"
+  ],
+  "sensitivity_is_not_model_selection": "M_T3 and IV-flagged sensitivity retained, never substituted for primary result.",
+  "protocol_sha256": "ef3217f6ad28f3b2f4c8cdc86aff99e7a93aae603b3c2ab95d73e2206e9a51c3",
+  "all_finite_reference_sensitivity": {
+    "B_G": {
+      "n": 34763,
+      "mae_W": 15.475940064734809,
+      "rmse_W": 23.77409254440063,
+      "bias_W": 10.576319416878189,
+      "p95_abs_W": 42.166526243470486,
+      "max_abs_W": 455.02122159673826,
+      "worst_time": "2018-07-05 09:10:00",
+      "worst_target_W": 491.77,
+      "worst_prediction_W": 36.74877840326174,
+      "mae_div_lab_P0": 0.0541711688266458,
+      "rmse_div_lab_P0": 0.08321758649464608
+    },
+    "M_T0": {
+      "n": 34763,
+      "mae_W": 7.604390335026124,
+      "rmse_W": 17.346479051585366,
+      "bias_W": 0.12187786426172702,
+      "p95_abs_W": 33.33631361097018,
+      "max_abs_W": 455.15130368552946,
+      "worst_time": "2018-07-05 09:10:00",
+      "worst_target_W": 491.77,
+      "worst_prediction_W": 36.618696314470505,
+      "mae_div_lab_P0": 0.026618009047547485,
+      "rmse_div_lab_P0": 0.0607187053788456
+    },
+    "M_T3": {
+      "n": 34763,
+      "mae_W": 7.971893494337645,
+      "rmse_W": 17.415575081930545,
+      "bias_W": -1.2239500733495055,
+      "p95_abs_W": 33.340299428991045,
+      "max_abs_W": 455.2087382403163,
+      "worst_time": "2018-07-05 09:10:00",
+      "worst_target_W": 491.77,
+      "worst_prediction_W": 36.5612617596837,
+      "mae_div_lab_P0": 0.027904397829367263,
+      "rmse_div_lab_P0": 0.06096056549909826
+    }
+  },
+  "reference": "IEA-PVPS T13-20:2020 Annex1; fixed laboratory parameters, all12 source months",
+  "status": "Component positive evidence only; resource-wide abilities not validated"
+}

@@ -1,0 +1,162 @@
+{
+  "id": "PVDAQ_SMART_AUGUST_01",
+  "purpose": "Preselected full new month before smart-persistence errors, no date selection",
+  "listed_bytes": 327631,
+  "files": [
+    {
+      "name": "system_1239__date_2019_08_01.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=1/system_1239__date_2019_08_01.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_10.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=10/system_1239__date_2019_08_10.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_11.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=11/system_1239__date_2019_08_11.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_12.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=12/system_1239__date_2019_08_12.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_13.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=13/system_1239__date_2019_08_13.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_14.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=14/system_1239__date_2019_08_14.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_15.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=15/system_1239__date_2019_08_15.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_16.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=16/system_1239__date_2019_08_16.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_17.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=17/system_1239__date_2019_08_17.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_18.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=18/system_1239__date_2019_08_18.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_19.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=19/system_1239__date_2019_08_19.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_02.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=2/system_1239__date_2019_08_02.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_20.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=20/system_1239__date_2019_08_20.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_21.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=21/system_1239__date_2019_08_21.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_22.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=22/system_1239__date_2019_08_22.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_23.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=23/system_1239__date_2019_08_23.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_24.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=24/system_1239__date_2019_08_24.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_25.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=25/system_1239__date_2019_08_25.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_26.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=26/system_1239__date_2019_08_26.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_27.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=27/system_1239__date_2019_08_27.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_28.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=28/system_1239__date_2019_08_28.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_29.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=29/system_1239__date_2019_08_29.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_03.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=3/system_1239__date_2019_08_03.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_30.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=30/system_1239__date_2019_08_30.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_31.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=31/system_1239__date_2019_08_31.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_04.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=4/system_1239__date_2019_08_04.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_05.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=5/system_1239__date_2019_08_05.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_06.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=6/system_1239__date_2019_08_06.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_07.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=7/system_1239__date_2019_08_07.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_08.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=8/system_1239__date_2019_08_08.csv",
+      "limit_bytes": 200000
+    },
+    {
+      "name": "system_1239__date_2019_08_09.csv",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/pvdaq/csv/pvdata/system_id=1239/year=2019/month=8/day=9/system_1239__date_2019_08_09.csv",
+      "limit_bytes": 200000
+    }
+  ]
+}

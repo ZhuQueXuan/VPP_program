@@ -1,0 +1,5 @@
+[
+  {"group":"Fiat_500e|AC|Type 2","commands_kW":[6,6,6]},
+  {"group":"Honda_e|DC|CCS","commands_kW":[12,12,12]},
+  {"group":"VW_ID4|AC|Type 2","commands_kW":[0,0,0]}
+]

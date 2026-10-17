@@ -1,0 +1,5 @@
+[
+  {"name":"reference_conditions_constructed","poa_W_m2":1000.0,"back_temperature_C":25.0},
+  {"name":"hot_module_constructed","poa_W_m2":800.0,"back_temperature_C":50.0},
+  {"name":"low_irradiance_constructed","poa_W_m2":50.0,"back_temperature_C":15.0}
+]

@@ -1,0 +1,636 @@
+[
+  {
+    "member": "Fiat 500e/Fiat_500e_individual_ts_unidir_arbitrary_1_AC_kW_1_202308170945_e.csv",
+    "group": "Fiat_500e|AC|Type 2",
+    "split": "train",
+    "mode": "AC",
+    "raw_rows": 5702,
+    "samples": 5571,
+    "fraction": 0.9770256050508593,
+    "flags": {
+      "clock_warmup": 20,
+      "commands_not_common": 117,
+      "epoch_step_not_continuous": 1
+    }
+  },
+  {
+    "member": "Fiat 500e/Fiat_500e_individual_ts_unidir_arbitrary_1_AC_kW_2_202308171303_e.csv",
+    "group": "Fiat_500e|AC|Type 2",
+    "split": "train",
+    "mode": "AC",
+    "raw_rows": 5189,
+    "samples": 5178,
+    "fraction": 0.9978801310464444,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 1
+    }
+  },
+  {
+    "member": "Fiat 500e/Fiat_500e_individual_ts_unidir_arbitrary_1_AC_kW_3_202308171543_e.csv",
+    "group": "Fiat_500e|AC|Type 2",
+    "split": "test",
+    "mode": "AC",
+    "raw_rows": 5191,
+    "samples": 5175,
+    "fraction": 0.9969177422461953,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 6
+    }
+  },
+  {
+    "member": "Fiat 500e/Fiat_500e_individual_ts_unidir_arbitrary_1_AC_kW_7_202308231609_e.csv",
+    "group": "Fiat_500e|AC|Type 2",
+    "split": "test",
+    "mode": "AC",
+    "raw_rows": 5174,
+    "samples": 5052,
+    "fraction": 0.9764205643602628,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 118
+    }
+  },
+  {
+    "member": "Fiat 500e/Fiat_500e_individual_ts_unidir_arbitrary_1_DC_kW_1_202308170852_e.csv",
+    "group": "Fiat_500e|DC|CCS",
+    "split": "train",
+    "mode": "DC",
+    "raw_rows": 5181,
+    "samples": 5163,
+    "fraction": 0.9965257672264042,
+    "flags": {
+      "clock_warmup": 14,
+      "commands_not_common": 4,
+      "epoch_step_not_continuous": 1
+    }
+  },
+  {
+    "member": "Fiat 500e/Fiat_500e_individual_ts_unidir_arbitrary_1_DC_kW_2_202308171215_e.csv",
+    "group": "Fiat_500e|DC|CCS",
+    "split": "train",
+    "mode": "DC",
+    "raw_rows": 5177,
+    "samples": 5163,
+    "fraction": 0.9972957311184083,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 4
+    }
+  },
+  {
+    "member": "Fiat 500e/Fiat_500e_individual_ts_unidir_arbitrary_1_DC_kW_3_202308171457_e.csv",
+    "group": "Fiat_500e|DC|CCS",
+    "split": "test",
+    "mode": "DC",
+    "raw_rows": 5190,
+    "samples": 5174,
+    "fraction": 0.9969171483622351,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 6
+    }
+  },
+  {
+    "member": "Fiat 500e/Fiat_500e_individual_ts_unidir_arbitrary_1_DC_kW_4_202308221128_e.csv",
+    "group": "Fiat_500e|DC|CCS",
+    "split": "test",
+    "mode": "DC",
+    "raw_rows": 21716,
+    "samples": 21630,
+    "fraction": 0.996039786332658,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 76
+    }
+  },
+  {
+    "member": "Honda-e/Honda_e_individual_ts_unidir_arbitrary_1_AC_kW_1_202307271600_e.csv",
+    "group": "Honda_e|AC|Type 2",
+    "split": "train",
+    "mode": "AC",
+    "raw_rows": 4602,
+    "samples": 4586,
+    "fraction": 0.9965232507605389,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 6
+    }
+  },
+  {
+    "member": "Honda-e/Honda_e_individual_ts_unidir_arbitrary_1_AC_kW_2_202307271708_e.csv",
+    "group": "Honda_e|AC|Type 2",
+    "split": "test",
+    "mode": "AC",
+    "raw_rows": 4968,
+    "samples": 4899,
+    "fraction": 0.9861111111111112,
+    "flags": {
+      "clock_warmup": 64,
+      "commands_not_common": 5,
+      "epoch_step_not_continuous": 20,
+      "epoch_not_new_high": 12
+    }
+  },
+  {
+    "member": "Honda-e/Honda_e_individual_ts_unidir_arbitrary_1_DC_kW_1_202307271447_e.csv",
+    "group": "Honda_e|DC|CCS",
+    "split": "train",
+    "mode": "DC",
+    "raw_rows": 5087,
+    "samples": 5068,
+    "fraction": 0.9962649891881266,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 9
+    }
+  },
+  {
+    "member": "Honda-e/Honda_e_individual_ts_unidir_arbitrary_1_DC_kW_2_202307281510_e.csv",
+    "group": "Honda_e|DC|CCS",
+    "split": "test",
+    "mode": "DC",
+    "raw_rows": 5361,
+    "samples": 5347,
+    "fraction": 0.9973885469128894,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 4
+    }
+  },
+  {
+    "member": "Hyundai Ioniq 5/Hyundai_Ioniq5_individual_ts_unidir_arbitrary_1_AC_kW_1_202309051012_e.csv",
+    "group": "Hyundai_IONIQ5|AC|Type 2",
+    "split": "train",
+    "mode": "AC",
+    "raw_rows": 5225,
+    "samples": 5210,
+    "fraction": 0.9971291866028709,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 5
+    }
+  },
+  {
+    "member": "Hyundai Ioniq 5/Hyundai_Ioniq5_individual_ts_unidir_arbitrary_1_AC_kW_2_202309051320_e.csv",
+    "group": "Hyundai_IONIQ5|AC|Type 2",
+    "split": "test",
+    "mode": "AC",
+    "raw_rows": 5222,
+    "samples": 5208,
+    "fraction": 0.9973190348525469,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 4
+    }
+  },
+  {
+    "member": "Hyundai Ioniq 5/Hyundai_Ioniq5_individual_ts_unidir_arbitrary_1_AC_kW_3_202309051535_e.csv",
+    "group": "Hyundai_IONIQ5|AC|Type 2",
+    "split": "test",
+    "mode": "AC",
+    "raw_rows": 5224,
+    "samples": 5211,
+    "fraction": 0.997511485451761,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 3
+    }
+  },
+  {
+    "member": "Hyundai Ioniq 5/Hyundai_Ioniq5_individual_ts_unidir_arbitrary_1_DC_kW_1_202309050926_e.csv",
+    "group": "Hyundai_IONIQ5|DC|CCS",
+    "split": "train",
+    "mode": "DC",
+    "raw_rows": 5222,
+    "samples": 5208,
+    "fraction": 0.9973190348525469,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 4
+    }
+  },
+  {
+    "member": "Hyundai Ioniq 5/Hyundai_Ioniq5_individual_ts_unidir_arbitrary_1_DC_kW_2_202309051223_e.csv",
+    "group": "Hyundai_IONIQ5|DC|CCS",
+    "split": "test",
+    "mode": "DC",
+    "raw_rows": 5225,
+    "samples": 5211,
+    "fraction": 0.9973205741626794,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 4
+    }
+  },
+  {
+    "member": "Hyundai Ioniq 5/Hyundai_Ioniq5_individual_ts_unidir_arbitrary_1_DC_kW_3_202309051447_e.csv",
+    "group": "Hyundai_IONIQ5|DC|CCS",
+    "split": "test",
+    "mode": "DC",
+    "raw_rows": 4566,
+    "samples": 4541,
+    "fraction": 0.9945247481384144,
+    "flags": {
+      "clock_warmup": 20,
+      "commands_not_common": 5,
+      "epoch_step_not_continuous": 1
+    }
+  },
+  {
+    "member": "Mitsubishi Eclipse Cross/Mitsubishi_EC_individual_ts_unidir_arbitrary_1_AC_kW_1_202311081106_e.csv",
+    "group": "Mitsubishi_EC|AC|Type 2",
+    "split": "train",
+    "mode": "AC",
+    "raw_rows": 5216,
+    "samples": 5203,
+    "fraction": 0.9975076687116564,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 4
+    }
+  },
+  {
+    "member": "Mitsubishi Eclipse Cross/Mitsubishi_EC_individual_ts_unidir_arbitrary_1_AC_kW_2_202311081228_e.csv",
+    "group": "Mitsubishi_EC|AC|Type 2",
+    "split": "test",
+    "mode": "AC",
+    "raw_rows": 5216,
+    "samples": 5201,
+    "fraction": 0.9971242331288344,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 5
+    }
+  },
+  {
+    "member": "Mitsubishi Eclipse Cross/Mitsubishi_EC_individual_ts_unidir_arbitrary_1_AC_kW_3_202311081628_e.csv",
+    "group": "Mitsubishi_EC|AC|Type 2",
+    "split": "test",
+    "mode": "AC",
+    "raw_rows": 5212,
+    "samples": 5197,
+    "fraction": 0.9971220260936301,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 6
+    }
+  },
+  {
+    "member": "Mitsubishi Eclipse Cross/Mitsubishi_EC_individual_ts_unidir_arbitrary_1_DC_kW_1_202311021527_e.csv",
+    "group": "Mitsubishi_EC|DC|CHAdeMO",
+    "split": "train",
+    "mode": "DC",
+    "raw_rows": 5219,
+    "samples": 5206,
+    "fraction": 0.9975091013604138,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 3
+    }
+  },
+  {
+    "member": "Mitsubishi Eclipse Cross/Mitsubishi_EC_individual_ts_unidir_arbitrary_1_DC_kW_2_202311081432_e.csv",
+    "group": "Mitsubishi_EC|DC|CHAdeMO",
+    "split": "test",
+    "mode": "DC",
+    "raw_rows": 5215,
+    "samples": 5201,
+    "fraction": 0.9973154362416108,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 5
+    }
+  },
+  {
+    "member": "Mitsubishi Eclipse Cross/Mitsubishi_EC_individual_ts_unidir_arbitrary_1_DC_kW_3_202311081527_e.csv",
+    "group": "Mitsubishi_EC|DC|CHAdeMO",
+    "split": "test",
+    "mode": "DC",
+    "raw_rows": 5204,
+    "samples": 5173,
+    "fraction": 0.994043043812452,
+    "flags": {
+      "clock_warmup": 26,
+      "commands_not_common": 6,
+      "epoch_step_not_continuous": 4,
+      "epoch_not_new_high": 3
+    }
+  },
+  {
+    "member": "Nissan Leaf/Nissan_Leaf_individual_ts_unidir_arbitrary_1_AC_kW_1_202308311026_e.csv",
+    "group": "Nissan_Leaf|AC|Type 2",
+    "split": "train",
+    "mode": "AC",
+    "raw_rows": 5232,
+    "samples": 5218,
+    "fraction": 0.9973241590214067,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 4
+    }
+  },
+  {
+    "member": "Nissan Leaf/Nissan_Leaf_individual_ts_unidir_arbitrary_1_AC_kW_2_202308311327_e.csv",
+    "group": "Nissan_Leaf|AC|Type 2",
+    "split": "test",
+    "mode": "AC",
+    "raw_rows": 5233,
+    "samples": 5219,
+    "fraction": 0.9973246703611695,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 4
+    }
+  },
+  {
+    "member": "Opel Corsa-e/OpelCorsa_e_individual_ts_unidir_arbitrary_1_AC_kW_1_202308151029_e.csv",
+    "group": "OpelCorsa_e|AC|Type 2",
+    "split": "train",
+    "mode": "AC",
+    "raw_rows": 5212,
+    "samples": 5202,
+    "fraction": 0.9980813507290868,
+    "flags": {
+      "clock_warmup": 10
+    }
+  },
+  {
+    "member": "Opel Corsa-e/OpelCorsa_e_individual_ts_unidir_arbitrary_1_AC_kW_2_202308151306_e.csv",
+    "group": "OpelCorsa_e|AC|Type 2",
+    "split": "train",
+    "mode": "AC",
+    "raw_rows": 5213,
+    "samples": 5201,
+    "fraction": 0.9976980625359678,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 2
+    }
+  },
+  {
+    "member": "Opel Corsa-e/OpelCorsa_e_individual_ts_unidir_arbitrary_1_AC_kW_3_202308151542_e.csv",
+    "group": "OpelCorsa_e|AC|Type 2",
+    "split": "test",
+    "mode": "AC",
+    "raw_rows": 4420,
+    "samples": 4394,
+    "fraction": 0.9941176470588236,
+    "flags": {
+      "clock_warmup": 22,
+      "commands_not_common": 11,
+      "epoch_step_not_continuous": 3,
+      "epoch_not_new_high": 1
+    }
+  },
+  {
+    "member": "Opel Corsa-e/OpelCorsa_e_individual_ts_unidir_arbitrary_1_AC_kW_4_202308251524_e.csv",
+    "group": "OpelCorsa_e|AC|Type 2",
+    "split": "test",
+    "mode": "AC",
+    "raw_rows": 5127,
+    "samples": 5113,
+    "fraction": 0.9972693582992003,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 4
+    }
+  },
+  {
+    "member": "Opel Corsa-e/OpelCorsa_e_individual_ts_unidir_arbitrary_1_DC_kW_1_202308150942_e.csv",
+    "group": "OpelCorsa_e|DC|CCS",
+    "split": "train",
+    "mode": "DC",
+    "raw_rows": 5196,
+    "samples": 5185,
+    "fraction": 0.99788298691301,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 1
+    }
+  },
+  {
+    "member": "Opel Corsa-e/OpelCorsa_e_individual_ts_unidir_arbitrary_1_DC_kW_2_202308151217_e.csv",
+    "group": "OpelCorsa_e|DC|CCS",
+    "split": "train",
+    "mode": "DC",
+    "raw_rows": 5208,
+    "samples": 5195,
+    "fraction": 0.9975038402457758,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 3
+    }
+  },
+  {
+    "member": "Opel Corsa-e/OpelCorsa_e_individual_ts_unidir_arbitrary_1_DC_kW_3_202308151455_e.csv",
+    "group": "OpelCorsa_e|DC|CCS",
+    "split": "test",
+    "mode": "DC",
+    "raw_rows": 5210,
+    "samples": 5199,
+    "fraction": 0.9978886756238003,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 1
+    }
+  },
+  {
+    "member": "Opel Corsa-e/OpelCorsa_e_individual_ts_unidir_arbitrary_1_DC_kW_4_202308251006_e.csv",
+    "group": "OpelCorsa_e|DC|CCS",
+    "split": "test",
+    "mode": "DC",
+    "raw_rows": 4929,
+    "samples": 4914,
+    "fraction": 0.996956786366403,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 5
+    }
+  },
+  {
+    "member": "Opel Corsa-e/OpelCorsa_e_individual_ts_unidir_arbitrary_1_DC_kW_5_202308251358_e.csv",
+    "group": "OpelCorsa_e|DC|CCS",
+    "split": "test",
+    "mode": "DC",
+    "raw_rows": 4795,
+    "samples": 4782,
+    "fraction": 0.997288842544317,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 3
+    }
+  },
+  {
+    "member": "Tesla Model Y/TeslaModel_Y_individual_ts_unidir_arbitrary_1_AC_kW_1_202309200852_e.csv",
+    "group": "TeslaModel_Y|AC|Type 2",
+    "split": "train",
+    "mode": "AC",
+    "raw_rows": 5201,
+    "samples": 5186,
+    "fraction": 0.9971159392424533,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 5
+    }
+  },
+  {
+    "member": "Tesla Model Y/TeslaModel_Y_individual_ts_unidir_arbitrary_1_AC_kW_2_202309191439_e.csv",
+    "group": "TeslaModel_Y|AC|Type 2",
+    "split": "train",
+    "mode": "AC",
+    "raw_rows": 5182,
+    "samples": 5170,
+    "fraction": 0.9976842917792358,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 2
+    }
+  },
+  {
+    "member": "Tesla Model Y/TeslaModel_Y_individual_ts_unidir_arbitrary_1_AC_kW_2_202309201319_e.csv",
+    "group": "TeslaModel_Y|AC|Type 2",
+    "split": "test",
+    "mode": "AC",
+    "raw_rows": 5215,
+    "samples": 5199,
+    "fraction": 0.9969319271332694,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 6
+    }
+  },
+  {
+    "member": "Tesla Model Y/TeslaModel_Y_individual_ts_unidir_arbitrary_1_AC_kW_3_202309201629_e.csv",
+    "group": "TeslaModel_Y|AC|Type 2",
+    "split": "test",
+    "mode": "AC",
+    "raw_rows": 5208,
+    "samples": 5193,
+    "fraction": 0.9971198156682027,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 5
+    }
+  },
+  {
+    "member": "Tesla Model Y/TeslaModel_Y_individual_ts_unidir_arbitrary_1_DC_kW_1_202309200805_e.csv",
+    "group": "TeslaModel_Y|DC|CCS",
+    "split": "train",
+    "mode": "DC",
+    "raw_rows": 5201,
+    "samples": 5184,
+    "fraction": 0.9967313978081138,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 7
+    }
+  },
+  {
+    "member": "Tesla Model Y/TeslaModel_Y_individual_ts_unidir_arbitrary_1_DC_kW_2_202309201230_e.csv",
+    "group": "TeslaModel_Y|DC|CCS",
+    "split": "test",
+    "mode": "DC",
+    "raw_rows": 5206,
+    "samples": 5191,
+    "fraction": 0.9971187091817134,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 5
+    }
+  },
+  {
+    "member": "Tesla Model Y/TeslaModel_Y_individual_ts_unidir_arbitrary_1_DC_kW_3_202309201544_e.csv",
+    "group": "TeslaModel_Y|DC|CCS",
+    "split": "test",
+    "mode": "DC",
+    "raw_rows": 5210,
+    "samples": 5197,
+    "fraction": 0.9975047984644914,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 3
+    }
+  },
+  {
+    "member": "VW ID4/VW_ID4_individual_ts_unidir_arbitrary_1_AC_kW_1_202307280915_e.csv",
+    "group": "VW_ID4|AC|Type 2",
+    "split": "train",
+    "mode": "AC",
+    "raw_rows": 4985,
+    "samples": 4972,
+    "fraction": 0.9973921765295888,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 3
+    }
+  },
+  {
+    "member": "VW ID4/VW_ID4_individual_ts_unidir_arbitrary_1_AC_kW_2_202307281106_e.csv",
+    "group": "VW_ID4|AC|Type 2",
+    "split": "test",
+    "mode": "AC",
+    "raw_rows": 4912,
+    "samples": 4843,
+    "fraction": 0.9859527687296417,
+    "flags": {
+      "clock_warmup": 63,
+      "commands_not_common": 6,
+      "epoch_step_not_continuous": 12,
+      "epoch_not_new_high": 4
+    }
+  },
+  {
+    "member": "VW ID4/VW_ID4_individual_ts_unidir_arbitrary_1_AC_kW_3_202307281243_e.csv",
+    "group": "VW_ID4|AC|Type 2",
+    "split": "test",
+    "mode": "AC",
+    "raw_rows": 5478,
+    "samples": 5465,
+    "fraction": 0.997626871120847,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 3
+    }
+  },
+  {
+    "member": "VW ID4/VW_ID4_individual_ts_unidir_arbitrary_1_DC_kW_1_202307280828_e.csv",
+    "group": "VW_ID4|DC|CCS",
+    "split": "train",
+    "mode": "DC",
+    "raw_rows": 5099,
+    "samples": 5082,
+    "fraction": 0.9966660129437145,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 7
+    }
+  },
+  {
+    "member": "VW ID4/VW_ID4_individual_ts_unidir_arbitrary_1_DC_kW_2_202307281005_e.csv",
+    "group": "VW_ID4|DC|CCS",
+    "split": "test",
+    "mode": "DC",
+    "raw_rows": 5074,
+    "samples": 5057,
+    "fraction": 0.9966495861253449,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 7
+    }
+  },
+  {
+    "member": "VW ID4/VW_ID4_individual_ts_unidir_arbitrary_1_DC_kW_3_202307281156_e.csv",
+    "group": "VW_ID4|DC|CCS",
+    "split": "test",
+    "mode": "DC",
+    "raw_rows": 5033,
+    "samples": 5017,
+    "fraction": 0.9968209815219551,
+    "flags": {
+      "clock_warmup": 10,
+      "commands_not_common": 6
+    }
+  }
+]

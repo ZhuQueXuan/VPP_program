@@ -1,0 +1,236 @@
+{
+  "scope": "Post-evaluation description of ALL admitted original2018 six-unit mixed-operation records and ALL held-out observations. Not new blind test or benefit. No new fits/predictions/tuning.",
+  "units": {
+    "1": {
+      "n": 50755,
+      "training_rows": 39126,
+      "test_rows": 11629,
+      "wind_mps": {
+        "mean": 6.0793901189029915,
+        "quantiles": {
+          "min": 0.1500003337860107,
+          "q25": 4.119712591171265,
+          "median": 5.794384002685547,
+          "q75": 7.653149366378784,
+          "max": 23.96478271484375
+        }
+      },
+      "power_kW": {
+        "mean": 602.3731160428539,
+        "quantiles": {
+          "min": -16.335311889648438,
+          "q25": 114.7182388305664,
+          "median": 371.2492065429688,
+          "q75": 913.3651428222656,
+          "max": 2079.998779296875
+        }
+      },
+      "negative_power_rows": 5293,
+      "zero_power_rows": 0,
+      "positive_power_rows": 45462,
+      "above_nominal_2050kW_rows": 660,
+      "adjacent_valid_600s_pairs": {
+        "n": 50736,
+        "mean_delta_power_kW": 0.047457113225810074,
+        "min_delta_power_kW": -1628.4728393554688,
+        "max_delta_power_kW": 1749.9546480178833,
+        "p95_absolute_delta_power_kW": 327.1499710083008,
+        "p95_absolute_delta_wind_mps": 1.4063787460327153,
+        "interpretation": "Difference between successive published10min means; not physical instantaneous ramp or commanded response."
+      }
+    },
+    "2": {
+      "n": 50745,
+      "training_rows": 39130,
+      "test_rows": 11615,
+      "wind_mps": {
+        "mean": 6.314800768137472,
+        "quantiles": {
+          "min": 0.0612189844250679,
+          "q25": 4.360616683959961,
+          "median": 6.055853366851807,
+          "q75": 7.975793361663818,
+          "max": 26.389881134033203
+        }
+      },
+      "power_kW": {
+        "mean": 668.7539229535886,
+        "quantiles": {
+          "min": -17.413705825805664,
+          "q25": 143.61386108398438,
+          "median": 446.3184814453125,
+          "q75": 1051.802978515625,
+          "max": 2078.033935546875
+        }
+      },
+      "negative_power_rows": 4626,
+      "zero_power_rows": 0,
+      "positive_power_rows": 46119,
+      "above_nominal_2050kW_rows": 736,
+      "adjacent_valid_600s_pairs": {
+        "n": 50728,
+        "mean_delta_power_kW": 0.027145067222523432,
+        "min_delta_power_kW": -1746.417983531952,
+        "max_delta_power_kW": 1940.062728881836,
+        "p95_absolute_delta_power_kW": 335.89381103515626,
+        "p95_absolute_delta_wind_mps": 1.3711193323135376,
+        "interpretation": "Difference between successive published10min means; not physical instantaneous ramp or commanded response."
+      }
+    },
+    "3": {
+      "n": 50424,
+      "training_rows": 39127,
+      "test_rows": 11297,
+      "wind_mps": {
+        "mean": 6.000494564803178,
+        "quantiles": {
+          "min": 0.1947564929723739,
+          "q25": 4.077672958374023,
+          "median": 5.69469428062439,
+          "q75": 7.566948771476746,
+          "max": 23.32754135131836
+        }
+      },
+      "power_kW": {
+        "mean": 586.3485650418518,
+        "quantiles": {
+          "min": -16.573291778564453,
+          "q25": 110.41805076599121,
+          "median": 359.10386657714844,
+          "q75": 893.2738494873047,
+          "max": 2074.749267578125
+        }
+      },
+      "negative_power_rows": 5370,
+      "zero_power_rows": 0,
+      "positive_power_rows": 45054,
+      "above_nominal_2050kW_rows": 641,
+      "adjacent_valid_600s_pairs": {
+        "n": 50405,
+        "mean_delta_power_kW": 0.08673440545764827,
+        "min_delta_power_kW": -1922.33447265625,
+        "max_delta_power_kW": 1814.8914983272552,
+        "p95_absolute_delta_power_kW": 338.9347473144527,
+        "p95_absolute_delta_wind_mps": 1.44134874343872,
+        "interpretation": "Difference between successive published10min means; not physical instantaneous ramp or commanded response."
+      }
+    },
+    "4": {
+      "n": 50743,
+      "training_rows": 39119,
+      "test_rows": 11624,
+      "wind_mps": {
+        "mean": 6.2034253548428655,
+        "quantiles": {
+          "min": 0.1300691068172454,
+          "q25": 4.24824070930481,
+          "median": 5.936257362365723,
+          "q75": 7.7978997230529785,
+          "max": 24.538780212402344
+        }
+      },
+      "power_kW": {
+        "mean": 626.0226444649314,
+        "quantiles": {
+          "min": -18.45469665527344,
+          "q25": 123.47306823730469,
+          "median": 402.7511596679688,
+          "q75": 966.7273254394531,
+          "max": 2079.47900390625
+        }
+      },
+      "negative_power_rows": 4863,
+      "zero_power_rows": 0,
+      "positive_power_rows": 45880,
+      "above_nominal_2050kW_rows": 711,
+      "adjacent_valid_600s_pairs": {
+        "n": 50720,
+        "mean_delta_power_kW": 0.0961298798494429,
+        "min_delta_power_kW": -2062.461369037628,
+        "max_delta_power_kW": 1975.9247341156006,
+        "p95_absolute_delta_power_kW": 332.3992431640624,
+        "p95_absolute_delta_wind_mps": 1.3995700955390935,
+        "interpretation": "Difference between successive published10min means; not physical instantaneous ramp or commanded response."
+      }
+    },
+    "5": {
+      "n": 50570,
+      "training_rows": 39126,
+      "test_rows": 11444,
+      "wind_mps": {
+        "mean": 5.912147311717184,
+        "quantiles": {
+          "min": 0.1720264256000518,
+          "q25": 4.001365065574646,
+          "median": 5.575083494186401,
+          "q75": 7.444389820098877,
+          "max": 24.884069442749023
+        }
+      },
+      "power_kW": {
+        "mean": 573.1479239003284,
+        "quantiles": {
+          "min": -20.69013023376465,
+          "q25": 108.63104820251465,
+          "median": 340.8839416503906,
+          "q75": 860.6732788085938,
+          "max": 2084.06787109375
+        }
+      },
+      "negative_power_rows": 4994,
+      "zero_power_rows": 0,
+      "positive_power_rows": 45576,
+      "above_nominal_2050kW_rows": 416,
+      "adjacent_valid_600s_pairs": {
+        "n": 50549,
+        "mean_delta_power_kW": 0.06212839847568584,
+        "min_delta_power_kW": -1912.8375244140625,
+        "max_delta_power_kW": 1788.147192955017,
+        "p95_absolute_delta_power_kW": 344.77345581054686,
+        "p95_absolute_delta_wind_mps": 1.4968350410461424,
+        "interpretation": "Difference between successive published10min means; not physical instantaneous ramp or commanded response."
+      }
+    },
+    "6": {
+      "n": 50750,
+      "training_rows": 39123,
+      "test_rows": 11627,
+      "wind_mps": {
+        "mean": 5.635772578077657,
+        "quantiles": {
+          "min": 0.1703532338142395,
+          "q25": 3.7954951524734493,
+          "median": 5.3235461711883545,
+          "q75": 7.069233179092407,
+          "max": 22.297332763671875
+        }
+      },
+      "power_kW": {
+        "mean": 506.97380189350895,
+        "quantiles": {
+          "min": -16.873207092285156,
+          "q25": 76.82758903503418,
+          "median": 286.0550994873047,
+          "q75": 733.2222137451172,
+          "max": 2079.380859375
+        }
+      },
+      "negative_power_rows": 6571,
+      "zero_power_rows": 0,
+      "positive_power_rows": 44179,
+      "above_nominal_2050kW_rows": 296,
+      "adjacent_valid_600s_pairs": {
+        "n": 50727,
+        "mean_delta_power_kW": 0.013833701019535974,
+        "min_delta_power_kW": -1991.3666892051697,
+        "max_delta_power_kW": 1948.8836212158203,
+        "p95_absolute_delta_power_kW": 322.21338806152295,
+        "p95_absolute_delta_wind_mps": 1.3860519647598257,
+        "interpretation": "Difference between successive published10min means; not physical instantaneous ramp or commanded response."
+      }
+    }
+  },
+  "admitted_rows": 303987,
+  "all_adjacent_valid_pairs": 303865,
+  "quantile_method": "Linear interpolation, same as numpy quantile default. Full admitted original-year records, post-evaluation descriptive only."
+}

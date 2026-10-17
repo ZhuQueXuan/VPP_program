@@ -1,0 +1,18 @@
+{
+  "protocol_id": "APR2023-LMO1-LOGGED-1S-BL-v1",
+  "sample_protocol": "apr2023_response_sample_protocol_v1.json",
+  "status_at_creation": "frozen specification; models not yet implemented or fitted",
+  "B0": "persistence: predicted AC(t+1)=observed AC(t)",
+  "B_SET": "Mode_PQ(t)=1: predicted AC(t+1)=setpoint(t); otherwise persistence",
+  "B1": "Mode_PQ(t)=1: predicted AC(t+1)=AC(t)+beta*(setpoint(t)-AC(t)); otherwise persistence",
+  "beta_fit": "fit-partition origins with Mode_PQ(t)=1 only; x=setpoint(t)-AC(t), d=AC(t+1)-AC(t); beta_unconstrained=sum(x*d)/sum(x*x); beta=min(1,max(0,beta_unconstrained)); no intercept or other fitted parameters",
+  "beta_constraint_basis": "declared simple blend between persistence and current setpoint, not a hardware time-constant claim; report unconstrained value and boundary hit",
+  "zero_denominator": "B1 is unidentifiable and fails; do not invent beta or select another subset",
+  "training_boundary": "fit only; validation/evaluation do not fit beta, scalers, lag, thresholds or choose models",
+  "validation_role": "fixed-protocol diagnostic run and code checks; no tuning planned; any later method change needs a new protocol and test-use disclosure",
+  "main_metric": "evaluation current-PQ MAE in kW, equal-weighted over UTC origin dates with PQ samples; all modes and pooled PQ metrics separately reported",
+  "additional_reporting": ["per-date paired B0/B_SET/B1 MAE and signed bias", "all current modes and coverage", "origin charge/discharge/zero", "post-origin setpoint/mode change strata retained as diagnostics, never inputs or filters", "largest residuals and failed predictions"],
+  "failed_predictions": "retain sample and failure table; report coverage, do not silently drop or count a failed prediction as zero",
+  "reproducibility": "repeat unchanged source/sample/protocol; beta and predictions atol=1e-10 kW, metrics atol=1e-9 kW; output fingerprints where byte-stable",
+  "interpretation": "no presumed improvement; one-second logged forecast MAE does not estimate delay, max capacity, independence, cross-site performance or 90% project accuracy"
+}

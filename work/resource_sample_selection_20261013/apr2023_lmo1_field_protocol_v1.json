@@ -1,0 +1,31 @@
+{
+  "protocol_id": "APR2023-LMO1-FIELDS-v1",
+  "source_id": "BESS-RWTH-M5BAT-APR2023",
+  "source_doi": "10.18154/RWTH-2024-04895",
+  "source_url": "https://publications.rwth-aachen.de/record/985923/files/M5BAT_04-2023_RAW.zip?version=1",
+  "archive_relative_path": "downloads/rwth_m5bat_apr2023/M5BAT_04-2023_RAW_downloaded.zip",
+  "archive_sha256": "10605d674dc84ea88af6f19f90da6b5dcedd011f1b158bdcfdb1344f7b41a2b2",
+  "member": "Batt5.csv",
+  "selected_resource": "LMO1",
+  "member_mapping_source": "Report_04-2023.pdf technical battery table, unit 5",
+  "csv_relative_path": "downloads/rwth_m5bat_apr2023/Batt5_LMO1_original.csv",
+  "csv_sha256": "aa0a8de4c83c26ea964ece8752939be28cb7f51c67e7d3c43f390ab2d05d572a",
+  "csv_crc32": 3316552925,
+  "rows": 2592000,
+  "start_raw": "2023-04-01 00:00:00",
+  "end_raw": "2023-04-30 23:59:59",
+  "timezone_declared": "UTC",
+  "separator": ";",
+  "field_multipliers": {
+    "P_AC_Set": 1.0, "P_AC": 1.0, "Q_AC_Set": 1.0, "Q_AC": 1.0,
+    "SOC": 0.1, "I_DC_Batt": 0.1, "U_DC_Batt": 0.1
+  },
+  "units": {"P_AC_Set": "kW", "P_AC": "kW", "Q_AC_Set": "kVAr", "Q_AC": "kVAr", "SOC": "%", "I_DC_Batt": "A", "U_DC_Batt": "V"},
+  "derived_dc_power": "(I_DC_Batt * 0.1) * (U_DC_Batt * 0.1) / 1000 kW; reconstruction, not separately metered DC power",
+  "sign": "positive discharge, negative charge; native transient mismatches retained",
+  "quality_flag": "interpolated=1 means publisher linear interpolation, not original observation; zero flag does not prove every sensor updated each second",
+  "mode_flags": ["Mode_PQ", "Mode_Stop", "Mode_Silent", "Mode_Wait"],
+  "availability": "logged same-clock observations; command receipt/network availability not recorded",
+  "not_supported": ["independent SOC truth", "maximum capacity truth", "battery temperature", "causal driver identification", "cross-site generalization"],
+  "cross_source_policy": "keep April unit identity/parameter/time provenance distinct from August2023/May2024 trials"
+}

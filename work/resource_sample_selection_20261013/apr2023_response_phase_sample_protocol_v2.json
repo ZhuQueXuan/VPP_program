@@ -1,0 +1,32 @@
+{
+  "protocol_id": "APR2023-LMO1-LOGGED-1S-PHASE-SAMPLE-v2",
+  "data_card_version": "DC-20261013-12",
+  "parent_sample_protocol": "apr2023_response_sample_protocol_v1.json",
+  "parent_sample_protocol_sha256": "bbdd8717f5cb3fc23b887278a6b88877e44c686e0a7c7cdecfee8702f98cbe29",
+  "parent_sample_run": "PREP_APR_RESPONSE_20261013_01",
+  "parent_whitelist_policy": "v1 remains immutable; v2 adds history-derived phase_state only; sample IDs, target, qualification, horizon, partitions and primary metric unchanged",
+  "split_id": "APR2023-LMO1-18D-6D-6D-PURGED-v1",
+  "input_columns": ["ac_t_kw", "set_t_kw", "mode_pq_t", "mode_stop_t", "mode_silent_t", "mode_wait_t", "phase_state"],
+  "additional_diagnostics": ["observed_pq_age_lower_bound_s", "exact_pq_age_s", "pq_age_left_censored", "phase_history_start_native_row"],
+  "mode_observation_known": "four flags finite/binary, exactly one active, interpolated=0; other combinations retained as mode_unknown",
+  "historical_information": "only mode flags/quality from the same frozen partition up to and including origin t; no pre-partition modes or future rows",
+  "observed_run": "current uninterrupted known Mode_PQ=1 sequence; any unknown observation ends the provable prefix, not necessarily actual device operation",
+  "exact_age": "known only when observed PQ run is immediately preceded by a known non-PQ row in the same partition; exact_pq_age_s otherwise null, never zero-filled",
+  "lower_bound": "zero-based elapsed logged seconds from beginning of current observed PQ sequence; null for non-PQ or unknown mode",
+  "left_censoring": "PQ run begins at partition start or after unknown mode/quality; exact age remains unknown throughout the run, lower bound retained",
+  "phase_rules": {
+    "non_pq": "current mode known and non-PQ",
+    "mode_unknown": "current flags/quality cannot establish a single mode",
+    "pq_first": "exact age known and equals 0",
+    "pq_second": "exact age known and equals 1",
+    "pq_sustained_observed": "at least three consecutive known PQ rows observed (lower bound>=2), even if exact start remains left-censored",
+    "pq_start_unknown": "current PQ known, exact age unknown and fewer than three consecutive known PQ rows observed"
+  },
+  "prefix_provenance": "phase_history_start_native_row through t contains needed modes; known start includes preceding non-PQ row; unknown start includes available ambiguity/boundary evidence; never crosses partition",
+  "availability_assumption": "same log-row joint-availability assumption as v1, expanded to the stated historical prefix; actual delivery/sample-update timestamps unknown",
+  "output": "phase_features.csv.gz sidecar keyed to every immutable v1 sample; no target/future values in the feature file",
+  "keep": "every v1 sample including non-PQ, unknown modes, left-censored phases, future changes and large errors; no target-based exclusion",
+  "existing_data_use": "phase categories inspired by already-seen evaluation residuals; all April partitions stage-inspected; exploratory retrospective comparisons only",
+  "not_supported": ["physical receipt-to-response latency", "hardware state truth", "causal mode effects", "maximum capacity", "independent confirmation on already-used evaluation"],
+  "change_policy": "new prefix/whitelist version is explicit; no overwrite of v1 source, samples, labels, baseline parameters or results"
+}

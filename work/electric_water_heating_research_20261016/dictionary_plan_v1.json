@@ -1,0 +1,38 @@
+{
+  "purpose": "Dictionary,sensor mapping,oneoriginalschema and independent primary fulltext repository; no fitting",
+  "files": [
+    {
+      "name": "Dataset descriptions.xlsx",
+      "url": "https://data.mendeley.com/public-files/datasets/ddmv4w434g/files/ccdbf39a-60e9-42a1-b9ef-c0012d3d3027/file_downloaded",
+      "limit_bytes": 13444,
+      "expected_bytes": 12444,
+      "expected_sha256": "a06635fc7eca5674ef091afbddbc2100c8690e14a6faf7045af73aae2298472e"
+    },
+    {
+      "name": "Exp2_1-HeatingReg_Amb20_Init20_Set40.csv",
+      "url": "https://data.mendeley.com/public-files/datasets/ddmv4w434g/files/15d5e913-15a1-4dc4-a36b-9be1d6395831/file_downloaded",
+      "limit_bytes": 9856623,
+      "expected_bytes": 9855623,
+      "expected_sha256": "05e501d9d7546a0f82a26755992a8bbafcb5af6fcf69a3549f73ef025b6dbded"
+    },
+    {
+      "name": "Sensor referencesV2.png",
+      "url": "https://data.mendeley.com/public-files/datasets/ddmv4w434g/files/b4c1134f-e72a-425d-8052-461e5f06c99e/file_downloaded",
+      "limit_bytes": 3086499,
+      "expected_bytes": 3085499,
+      "expected_sha256": "587601be3b185376d675002c2cfd9bb5d7a752f4b8301e1c85fae537fe6cc527"
+    },
+    {
+      "name": "Test bench system diagram.png",
+      "url": "https://data.mendeley.com/public-files/datasets/ddmv4w434g/files/48be8866-b00c-4991-9115-9d20d4231e40/file_downloaded",
+      "limit_bytes": 2477648,
+      "expected_bytes": 2476648,
+      "expected_sha256": "68838601d5545e38248ec43dd917b6e72f945992e9cd309ea69c0d1cf6447ae4"
+    },
+    {
+      "name": "data_paper.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10838709/fullTextXML",
+      "limit_bytes": 1000000
+    }
+  ]
+}

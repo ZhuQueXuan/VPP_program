@@ -1,0 +1,16 @@
+{
+  "id":"IEA_MODULE_YEAR_01",
+  "purpose":"Complete the publisher-defined 2018-07 through 2019-06 year before any model errors; retain all months rather than select by fit. July and June already retained in initial sources.",
+  "files":[
+    {"name":"2018_08.csv","url":"https://pvpmc.sandia.gov/download/3978/","limit_bytes":2000000},
+    {"name":"2018_09.csv","url":"https://pvpmc.sandia.gov/download/3980/","limit_bytes":2000000},
+    {"name":"2018_10.csv","url":"https://pvpmc.sandia.gov/download/3983/","limit_bytes":2000000},
+    {"name":"2018_11.csv","url":"https://pvpmc.sandia.gov/download/4014/","limit_bytes":2000000},
+    {"name":"2018_12.csv","url":"https://pvpmc.sandia.gov/download/4018/","limit_bytes":2000000},
+    {"name":"2019_01.csv","url":"https://pvpmc.sandia.gov/download/4022/","limit_bytes":2000000},
+    {"name":"2019_02.csv","url":"https://pvpmc.sandia.gov/download/4025/","limit_bytes":2000000},
+    {"name":"2019_03.csv","url":"https://pvpmc.sandia.gov/download/4029/","limit_bytes":2000000},
+    {"name":"2019_04.csv","url":"https://pvpmc.sandia.gov/download/4033/","limit_bytes":2000000},
+    {"name":"2019_05.csv","url":"https://pvpmc.sandia.gov/download/4037/","limit_bytes":2000000}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "rows_replayed": 34763,
+  "max_difference_W": {
+    "B_G": 0.0,
+    "M_T0": 0.0,
+    "M_T3": 0.0
+  },
+  "invalid_inputs_rejected": 5,
+  "example_run_from_other_cwd": true,
+  "python": "3.12.14",
+  "protocol_sha256": "ef3217f6ad28f3b2f4c8cdc86aff99e7a93aae603b3c2ab95d73e2206e9a51c3",
+  "scientific_scope": "Packaging parity only, not another independent accuracy validation.",
+  "verified_files": {
+    "README.md": "823b47534f58d434efae894e60c4d3148fd7e44afcb7d0228796de25db432942",
+    "run_example.py": "3807d3ba34b61b12a0c632b61daf7599202e337839e0f427584b89a65c6e0c9a",
+    "code/dc_power.py": "699726a771e5b531115ef98d1451386f3847c2fd46cba69207d5df341d4eab3d",
+    "examples/constructed_inputs.json": "11dd74f3e24ff285410de4427385c2b4b9b145a15f64baa73a80dc2656fdd132",
+    "parameters/iea_supsi_mono_si.json": "1807a384e8d14a4f9cd1faa3b8736b913bc3db9a93ca1c4cf91fe06ba0c029a4",
+    "results/monthly_metrics.csv": "ae733069e47ce18b91f7f57c12f902e3bd577d7c8398d2e9aa73e56a7e3015b3",
+    "results/validation_summary.json": "ef38c2749c502ec38536552e44421b7d0a975221cb27743d614a8ee90715b37b"
+  }
+}

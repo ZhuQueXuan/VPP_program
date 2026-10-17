@@ -1,0 +1,287 @@
+{
+  "scope": "Post-score description of all16751source-minute anchors across7whole files, localthermostat/top/bottom observedtemperature andgap. All3testfiles andall7331originalpredictions atTARGETlabel plusobservedB0upper/lowerband. Not new blind test, no newfit/prediction or energy/capacity inference.",
+  "files": [
+    {
+      "file_id": "E01",
+      "name": "Exp2_1-HeatingReg_Amb20_Init20_Set40.json",
+      "split": "training",
+      "minute_anchors": 3311,
+      "values": {
+        "temperature_C": {
+          "n": 3311,
+          "mean": 40.12755723346421,
+          "min": 19.002,
+          "median": 40.324,
+          "q95": 41.25,
+          "max": 42.045
+        },
+        "upper_C": {
+          "n": 3311,
+          "mean": 42.29892781636968,
+          "min": 22.75,
+          "median": 42.375,
+          "q95": 45.0,
+          "max": 45.875
+        },
+        "lower_C": {
+          "n": 3311,
+          "mean": 36.25188764723649,
+          "min": 19.625,
+          "median": 38.0,
+          "q95": 38.375,
+          "max": 38.375
+        },
+        "upper_minus_lower_C": {
+          "n": 3311,
+          "mean": 6.047040169133193,
+          "min": 1.75,
+          "median": 4.75,
+          "q95": 17.75,
+          "max": 25.125
+        }
+      }
+    },
+    {
+      "file_id": "E02",
+      "name": "Exp-HeatingRegulating_AmbNA_Init30_Set60.json",
+      "split": "training",
+      "minute_anchors": 1007,
+      "values": {
+        "temperature_C": {
+          "n": 1007,
+          "mean": 58.2561956305859,
+          "min": 28.342,
+          "median": 59.96,
+          "q95": 60.916,
+          "max": 61.637
+        },
+        "upper_C": {
+          "n": 1007,
+          "mean": 60.656156901688185,
+          "min": 28.75,
+          "median": 62.125,
+          "q95": 63.25,
+          "max": 70.75
+        },
+        "lower_C": {
+          "n": 1007,
+          "mean": 48.465491559086395,
+          "min": 28.125,
+          "median": 52.75,
+          "q95": 56.25,
+          "max": 56.5
+        },
+        "upper_minus_lower_C": {
+          "n": 1007,
+          "mean": 12.190665342601788,
+          "min": 0.625,
+          "median": 9.375,
+          "q95": 27.71249999999999,
+          "max": 31.375
+        }
+      }
+    },
+    {
+      "file_id": "E03",
+      "name": "Exp2_2-HeatingRegulating_Amb20_Init15_Set50.json",
+      "split": "training",
+      "minute_anchors": 3608,
+      "values": {
+        "temperature_C": {
+          "n": 3608,
+          "mean": 49.5503240022173,
+          "min": 13.327,
+          "median": 50.052,
+          "q95": 51.184,
+          "max": 51.897
+        },
+        "upper_C": {
+          "n": 3608,
+          "mean": 51.65486419068736,
+          "min": 18.375,
+          "median": 52.125,
+          "q95": 55.0,
+          "max": 56.0
+        },
+        "lower_C": {
+          "n": 3608,
+          "mean": 43.54940410199556,
+          "min": 14.25,
+          "median": 46.25,
+          "q95": 46.5,
+          "max": 46.5
+        },
+        "upper_minus_lower_C": {
+          "n": 3608,
+          "mean": 8.105460088691796,
+          "min": 3.25,
+          "median": 6.125,
+          "q95": 24.75,
+          "max": 36.125
+        }
+      }
+    },
+    {
+      "file_id": "E04",
+      "name": "Exp2_3-HeatingRegulating_Amb20_Init15_Set60.json",
+      "split": "training",
+      "minute_anchors": 1449,
+      "values": {
+        "temperature_C": {
+          "n": 1449,
+          "mean": 57.46480952380952,
+          "min": 15.25,
+          "median": 59.551,
+          "q95": 61.084,
+          "max": 61.938
+        },
+        "upper_C": {
+          "n": 1449,
+          "mean": 60.36324361628709,
+          "min": 18.0,
+          "median": 62.5,
+          "q95": 65.38,
+          "max": 65.88
+        },
+        "lower_C": {
+          "n": 1449,
+          "mean": 46.47002070393375,
+          "min": 16.13,
+          "median": 52.75,
+          "q95": 54.75,
+          "max": 54.88
+        },
+        "upper_minus_lower_C": {
+          "n": 1449,
+          "mean": 13.893222912353346,
+          "min": 1.75,
+          "median": 9.880000000000003,
+          "q95": 36.25,
+          "max": 41.129999999999995
+        }
+      }
+    },
+    {
+      "file_id": "E05",
+      "name": "Exp2_6-HeatingReg_Amb30_Init15_Set60.json",
+      "split": "test",
+      "minute_anchors": 1363,
+      "values": {
+        "temperature_C": {
+          "n": 1363,
+          "mean": 57.6960667644901,
+          "min": 14.931,
+          "median": 59.837,
+          "q95": 61.169,
+          "max": 61.895
+        },
+        "upper_C": {
+          "n": 1363,
+          "mean": 60.78475788701394,
+          "min": 17.5,
+          "median": 62.875,
+          "q95": 65.5,
+          "max": 65.875
+        },
+        "lower_C": {
+          "n": 1363,
+          "mean": 46.543011738811444,
+          "min": 15.875,
+          "median": 52.875,
+          "q95": 55.875,
+          "max": 56.0
+        },
+        "upper_minus_lower_C": {
+          "n": 1363,
+          "mean": 14.241746148202495,
+          "min": 1.5,
+          "median": 9.875,
+          "q95": 36.61249999999998,
+          "max": 41.25
+        }
+      }
+    },
+    {
+      "file_id": "E06",
+      "name": "Exp2_9-HeatingRegulating_Amb40_Init10_Set60.json",
+      "split": "test",
+      "minute_anchors": 3376,
+      "values": {
+        "temperature_C": {
+          "n": 3376,
+          "mean": 59.07569460900474,
+          "min": 10.976,
+          "median": 60.083,
+          "q95": 61.169,
+          "max": 61.852
+        },
+        "upper_C": {
+          "n": 3373,
+          "mean": 61.14567892084198,
+          "min": 14.75,
+          "median": 62.0,
+          "q95": 65.625,
+          "max": 66.375
+        },
+        "lower_C": {
+          "n": 3372,
+          "mean": 52.97253113879004,
+          "min": 12.125,
+          "median": 57.25,
+          "q95": 57.625,
+          "max": 57.75
+        },
+        "upper_minus_lower_C": {
+          "n": 3369,
+          "mean": 8.165776194716534,
+          "min": 1.75,
+          "median": 5.0,
+          "q95": 31.125,
+          "max": 43.375
+        }
+      }
+    },
+    {
+      "file_id": "E07",
+      "name": "Exp2_9-HeatingRegulating_Amb40_Init20_Set60.json",
+      "split": "test",
+      "minute_anchors": 2637,
+      "values": {
+        "temperature_C": {
+          "n": 2637,
+          "mean": 59.177413348502085,
+          "min": 20.551,
+          "median": 60.042,
+          "q95": 61.127,
+          "max": 61.981
+        },
+        "upper_C": {
+          "n": 2636,
+          "mean": 61.299174886191196,
+          "min": 21.5,
+          "median": 61.875,
+          "q95": 65.5,
+          "max": 66.125
+        },
+        "lower_C": {
+          "n": 2632,
+          "mean": 52.76733472644377,
+          "min": 20.375,
+          "median": 57.0,
+          "q95": 57.5,
+          "max": 57.625
+        },
+        "upper_minus_lower_C": {
+          "n": 2632,
+          "mean": 8.534004559270517,
+          "min": 1.125,
+          "median": 5.375,
+          "q95": 29.681249999999977,
+          "max": 38.75
+        }
+      }
+    }
+  ],
+  "total_minute_anchors": 16751,
+  "temperature_profile": "Original B0-T0 upper andB0-T8 lower only,not volume-weightedmean or tankenergy. All source-temperature-invalid points omitted only from their own descriptive statistic/left gap on plot."
+}

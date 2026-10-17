@@ -1,0 +1,29 @@
+{
+  "versions": {
+    "pvlib": "0.16.1",
+    "h5py": "3.14.0",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.16.2",
+    "requests": "2.32.5",
+    "pytz": "2025.2",
+    "urllib3": "2.8.0",
+    "idna": "3.20",
+    "certifi": "2026.7.22",
+    "charset-normalizer": "3.5.2",
+    "tzdata": "2026.5"
+  },
+  "climatology_sha256": "34c7e4c0bf865416ecbbfc32b0c3e9b56039a6aadff6997cc3c9ccae8c63e931",
+  "pvlib_license": "BSD-3-Clause",
+  "setup_check": "Known-time library import and nonnegative clear-sky output only; no actual-power forecast scoring.",
+  "core_module_sha256": {
+    "solarposition.py": "4a564432547e2b04de82bd77e1b93a7d8926e9b49016b902789be9027dfaad81",
+    "spa.py": "207ec1c731fe01767945770d2ca5c3c38c23647c6c34052f343c72bc39a1dabf",
+    "clearsky.py": "18d42cd85781695f27b7d03f2176139192a1774b6b4652cd264b8beefeeda468",
+    "irradiance.py": "e607fa36bd6d279385bdbf1d71b7793630cd4e7e67c6ccc70ef29052f578391c",
+    "atmosphere.py": "c275478b8f09bcc055d6c86f0db775f9161933a89e526cffeb162f2af6033287",
+    "location.py": "c17ba1924c545493814121816aabb88198ea8a9a306f3bdcb431ca47ac49f572",
+    "tools.py": "cf1d6f33270835d80677112bfdae281777f4aab2a1e74d6ac9fb324a783ec926"
+  },
+  "setup_note": "First import reported missing urllib3; isolated requests dependencies then installed; no forecasts/errors before setup passed."
+}

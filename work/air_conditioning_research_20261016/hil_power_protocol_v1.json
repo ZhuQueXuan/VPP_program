@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-16",
+  "decision": "D060",
+  "frozen_utc": "2026-10-16T06:43:16.922611+00:00",
+  "question": "Does a temperature-dependent inverse-COP statistical mapping improve same-record indoor+outdoor electric power reconstruction over a constant-slope mapping on two held-out ambient-condition experiments?",
+  "object": "One two-stage SEER21 2-ton central AC cooling device, five whole laboratory/HIL tests. Not field-room behaviour, not five independent devices. Different object from PLEIA.",
+  "sources": {
+    "AC_OAT75F_SP72F68F.csv": {
+      "path": "work/air_conditioning_research_20261016/downloads/HIL_AC_SOURCE_01/AC_OAT75F_SP72F68F.csv",
+      "sha256": "2ec0a06d55a7f5c6fccc7fc869498bda565e68f1f8cbc1f4175c1fdf84c43775"
+    },
+    "AC_OAT85F_SP76F72F68F.csv": {
+      "path": "work/air_conditioning_research_20261016/downloads/HIL_AC_SOURCE_01/AC_OAT85F_SP76F72F68F.csv",
+      "sha256": "ad6c4439beef79c56e25734d064cc7f0b4fad86af640fbba4919a749ee8a8d91"
+    },
+    "AC_OAT95F_SP76F72F68F.csv": {
+      "path": "work/air_conditioning_research_20261016/downloads/HIL_AC_SOURCE_01/AC_OAT95F_SP76F72F68F.csv",
+      "sha256": "31bae379f0fd647c98305f84fedd3e6aa25af94a9b5674e75852b7ce1d14466d"
+    },
+    "AC_OAT105F_SP76F72F68F.csv": {
+      "path": "work/air_conditioning_research_20261016/downloads/HIL_AC_SOURCE_01/AC_OAT105F_SP76F72F68F.csv",
+      "sha256": "2448820579cba7ef7522a3331e6faefa37c105c581a68ca5e2585e05a5f66f0e"
+    },
+    "AC_OAT115F_SP76F72F68F.csv": {
+      "path": "work/air_conditioning_research_20261016/downloads/HIL_AC_SOURCE_01/AC_OAT115F_SP76F72F68F.csv",
+      "sha256": "31a523fe9a06a4f3fa0db0a659f9e5b52267939dde6ff10fa767d9bea5cdbd5d"
+    }
+  },
+  "documents": {
+    "Test_Matrix.xlsx": {
+      "path": "work/air_conditioning_research_20261016/downloads/HIL_AC_SOURCE_01/Test_Matrix.xlsx",
+      "sha256": "75067b2891394b998ac8cf73a8eac1b32c3501cf8fc79ba5bf1ab54f441949c9"
+    },
+    "hil_validation.pdf": {
+      "path": "work/air_conditioning_research_20261016/downloads/HIL_AC_SOURCE_01/hil_validation.pdf",
+      "sha256": "8cc2c9ff9a6f5911ef873bf5f43e90635ba6bd33316b37d48bc20f28414df0bf"
+    },
+    "hil_catalog.html": {
+      "path": "work/air_conditioning_research_20261016/downloads/MATCHED_SOURCE_01/hil_catalog.html",
+      "sha256": "34c066a43d58450055df455fa9aa665e7a6fd3c9ede296bbfd105c47c88cdb16"
+    },
+    "hil_license.html": {
+      "path": "work/air_conditioning_research_20261016/downloads/MATCHED_SOURCE_01/hil_license.html",
+      "sha256": "58a88ffe8d7cdd237b7650c25ce4e0fe5acc3c30b32a565f8be1327d26c2d623"
+    },
+    "summary.json": {
+      "path": "work/air_conditioning_research_20261016/runs/HIL_AC_QA_01/summary.json",
+      "sha256": "15973ca76c4858a271961f442ab334e71e97fdce7aefaf8ea3ec90675d736543"
+    }
+  },
+  "input": "Same published row source-calculated air-side Cooling Capacity(kW) and measured T_Outdoor(C). No electric power, thermostat, future record, virtual room state or control-inferred-from-target as model inputs.",
+  "reference": "Same row measured Outdoor Unit Power(W)+Indoor Unit Power(W). Sum is target only, never a predictor. Q is thermal, not electrical kW; source-calculated from air-side measurements, not independent calorimeter truth.",
+  "sample": "Every original row of all5explicit AC files; preserve original row order. Inputs and both reference powers finite. Naive clocks must parse and be strictly1s adjacent per file; reject any affected current row and flag without reordering/filling. First row may enter static mapping if finite/parseable. No threshold on Q/P/sign/residual/steady/transient/thermostat state; negative published values retained.",
+  "split": {
+    "training_OAT_F": [
+      75,
+      95,
+      115
+    ],
+    "test_OAT_F": [
+      85,
+      105
+    ],
+    "method": "Prespecified alternating design-temperature whole-file interpolation split: span low/middle/high in training and evaluate interior conditions. Not chronological forecasting: some training experiments occur after test experiments. No same-test adjacent-row random split, no claims of future time/site/device generalisation."
+  },
+  "models": {
+    "B_MEAN": "Each training experiment equal weight mean electric power, diagnostic only",
+    "B_COP": "beta0+beta1*Q_kW,2fitted parameters, constant inverse-COP slope plus fixed power intercept",
+    "M_TEMP": "beta0+beta1*Q_kW+beta2*Q_kW*(T_Outdoor_C-35),3fitted parameters; first-order inverse-COP ambient correction motivated by cooling efficiency dependence on conditions",
+    "fit": "OLS rcond1e-12 with each training file equal total weight. No regularisation/clipping/physical coefficient constraints/parameter search/selection on test errors. Intercept and slopes statistical, not manufacturer COP/guaranteed upper bound. SEER21 is not an instantaneous COP21."
+  },
+  "success": "M_TEMP versus B_COP pooled and each of2testfiles MAE/RMSE strictly lower, and pooled source-Q>=1kW subset both lower. Q>=1 is predeclared input-based diagnostic group, not training/admission filter. B_MEAN diagnostic only, not swapped to make success.",
+  "report": [
+    "all rows/quality and sign counts",
+    "both complete test experiments and equal-file means",
+    "Q>=1 and Q<1 groups",
+    "all training rank/coefficients/ranges",
+    "outside training Q/T ranges flagged but retained",
+    "worst errors, negative estimates, no fitted clipping",
+    "deterministic replay and independent raw parser/algebra verification"
+  ],
+  "not_verified": [
+    "future online forecasting",
+    "command-to-power timing",
+    "physical capacity/firm curtailment/field-room comfort",
+    "generalisation beyond same hardware HIL conditions",
+    "causal COP/heat-parameter identification",
+    "P1/103formal90percent"
+  ],
+  "no_old_holdout_tuning": "PLEIA failed ARX unchanged; no transfer of those coefficients or already-seen test residuals."
+}

@@ -1,0 +1,103 @@
+{
+  "status": "passed",
+  "release_version": "1.2.0",
+  "date": "2026-10-16",
+  "compute_code_and_parameters_unchanged_since_v1_1": true,
+  "v1_1_files_except_README_unchanged": {
+    "requirements_forecast.txt": true,
+    "run_example.py": true,
+    "run_forecast_example.py": true,
+    "code/clear_sky_forecast.py": true,
+    "code/dc_power.py": true,
+    "examples/constructed_forecast_inputs.json": true,
+    "examples/constructed_inputs.json": true,
+    "parameters/iea_supsi_mono_si.json": true,
+    "parameters/pvdaq1239_smart_geometry_v1.json": true,
+    "results/monthly_metrics.csv": true,
+    "results/release_validation.json": true,
+    "results/smart_forecast_daily_metrics.csv": true,
+    "results/smart_forecast_summary.json": true,
+    "results/validation_summary.json": true
+  },
+  "conditional_crossseason_rows_verified": 23286,
+  "independent_verification": {
+    "status": "passed",
+    "protocol_sha256": "f202ee39e8b62ff8340067b3c090e84a8a8256a52b7edc803a30cbe804f11c56",
+    "admission_sha256": "693a0f1f0f2537781d8a3cd37f82bff8a25f8bb8a261242bcf0aae4cfc9b5de2",
+    "sources": 252,
+    "expected_targets": 26304,
+    "common_samples": 23286,
+    "pair_samples": 23503,
+    "independent_parser": "pandas original CSV vs stdlib preparation",
+    "independent_clock": "ZoneInfo two-fold roundtrip vs pandas NaT localization",
+    "clock_all_expected_masks_equal": true,
+    "scalar_poa_max_difference_W_m2": 3.410605131648481e-13,
+    "prediction_max_difference_W": {
+      "B_P": 0.0,
+      "M_SP": 9.094947017729282e-12,
+      "F_AR2": 3.637978807091713e-12
+    },
+    "metric_numeric_checks": 7209,
+    "metric_max_difference_W": 1.8189894035458565e-12,
+    "replay_artifacts_equal": {
+      "comparisons.json": true,
+      "group_metrics.csv": true,
+      "metrics.json": true,
+      "predictions.csv": true,
+      "summary.json": true
+    },
+    "verifier_sha256": "ee396a05387879ef611e951cfe500e085483215064ae873a118205db7cf562c7",
+    "post_score_profile": "Descriptive only; no cohort selection or cause inference",
+    "limits": "Solar astronomy and climatology shared library inputs, not physical calibration. Sparse low-output observations do not establish normal all-season generation."
+  },
+  "flat_months_finite_unique_W": {
+    "2020-01": [
+      0.0,
+      20.0
+    ],
+    "2020-02": [
+      0.0,
+      20.0
+    ],
+    "2020-04": [
+      0.0,
+      20.0
+    ],
+    "2020-05": [
+      0.0,
+      20.0
+    ]
+  },
+  "aggregate_consistency_passed": true,
+  "constructed_examples_from_outside_package": {
+    "run_example.py": true,
+    "run_forecast_example.py": true
+  },
+  "previous_releases": "release_validation.json and release_validation_v1_1.json retained as historical receipts; their README fingerprints are historical.",
+  "verified_files": {
+    "code/clear_sky_forecast.py": "1a42eed0449c8e82e8813367ae65632d705e5dbbca2e16051e60962c8f934028",
+    "code/dc_power.py": "699726a771e5b531115ef98d1451386f3847c2fd46cba69207d5df341d4eab3d",
+    "examples/constructed_forecast_inputs.json": "9bb0df1ea01c9e1340426b98dafa7c93c515e1a2b7b85bb53e8ca3d2fa4b04a5",
+    "examples/constructed_inputs.json": "11dd74f3e24ff285410de4427385c2b4b9b145a15f64baa73a80dc2656fdd132",
+    "parameters/iea_supsi_mono_si.json": "1807a384e8d14a4f9cd1faa3b8736b913bc3db9a93ca1c4cf91fe06ba0c029a4",
+    "parameters/pvdaq1239_smart_geometry_v1.json": "47d845e4c22be5559e384d1470faea39ee6acb7d83a971f6101b9a0644a238f3",
+    "README.md": "2cac741af91c37fe7063a72dbfbf0006b5412da751bb0c98022f2d011484d391",
+    "requirements_forecast.txt": "314ebb70b225fdf769325aa602558ef8182ae4dc03f49919353073d832ce937b",
+    "results/basic_research_acceptance.json": "7d6f27ce204addd876827b309a4734ab2bce3ac5af7f67569ae304b4d0084eb6",
+    "results/crossseason_coverage.json": "1909adafb33da78c528e91a84b5a9cea70957aade3e9c1ae107e510b1b3c339b",
+    "results/crossseason_forecast_bins.json": "8f6d00045aedc664f9a508cd5c1988abbffe3f3cb100a54be5d473eef6a00d5f",
+    "results/crossseason_forecast_group_metrics.csv": "78ecf2d59263cd8ba9bfcd45af1a019cc285b72fcaa5f035711b33bff90572b9",
+    "results/crossseason_forecast_summary.json": "3d043f541e784479597e68002e4b5777b0c694927757d0670ca46d3a8396c667",
+    "results/crossseason_source_profile.csv": "585448b06fc29cab4b62ad0b41d2e40cf2501417ce03de5029b4f9a49be769ae",
+    "results/monthly_metrics.csv": "ae733069e47ce18b91f7f57c12f902e3bd577d7c8398d2e9aa73e56a7e3015b3",
+    "results/release_validation.json": "997d29a46baa8a5f1d682fd68f3423a8e158ef9b0b9194aaa4ae619d88c697d5",
+    "results/release_validation_v1_1.json": "04c70368db84640da957f871a3bce52a37bc8cbd621ee01b973a80acd9a6fbc1",
+    "results/smart_forecast_daily_metrics.csv": "37ec82a0de30045d1a5375d2311afbef9f5d5ed687f97142150e47a94c58df27",
+    "results/smart_forecast_summary.json": "e2432567bd8193110759821f2b1266834c65831868bf38a29b25d3b787d1705a",
+    "results/validation_summary.json": "ef38c2749c502ec38536552e44421b7d0a975221cb27743d614a8ee90715b37b",
+    "run_example.py": "3807d3ba34b61b12a0c632b61daf7599202e337839e0f427584b89a65c6e0c9a",
+    "run_forecast_example.py": "8953bd0b68c950d60131876d123ce8ba6ab3bd596418ef8c18b92fd49c97cf78"
+  },
+  "verifier_sha256": "e7fefb2a5b3fbcb41005bc33bac8da390e7355093983e1f126e4b6348bf664ca",
+  "limit": "Engineering parity and scoped research acceptance only; not healthy all-season/online/control or official103 validation."
+}

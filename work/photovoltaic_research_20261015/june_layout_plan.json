@@ -1,0 +1,14 @@
+{
+  "id": "PVDAQ_JUNE_LAYOUT_01",
+  "purpose": "Expand predetermined June2019 development audit for preferred roof; cross-check calibration format",
+  "files": [
+    {
+      "name": "system1239_june_keys.xml",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/?list-type=2&prefix=pvdaq%2Fcsv%2Fpvdata%2Fsystem_id%3D1239%2Fyear%3D2019%2Fmonth%3D6%2F&max-keys=100"
+    },
+    {
+      "name": "system1239_parquet_day_keys.xml",
+      "url": "https://oedi-data-lake.s3.amazonaws.com/?list-type=2&prefix=pvdaq%2Fparquet%2Fpvdata%2Fsystem_id%3D1239%2Fyear%3D2019%2Fmonth%3D6%2Fday%3D15%2F&max-keys=5"
+    }
+  ]
+}

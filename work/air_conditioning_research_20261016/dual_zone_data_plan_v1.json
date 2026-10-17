@@ -1,0 +1,62 @@
+{
+  "purpose": "All8original CSV, bounded, publisher SHA256+size validation, no score or selection",
+  "metadata_sha256": "f767bb0ea81191451193272d2c98ffd99b5f32c0e57146e91abaaa632f7c2ab8",
+  "files": [
+    {
+      "name": "Validation_Day1(2025.08.08).csv",
+      "url": "https://data.mendeley.com/public-files/datasets/7tzkdhgpfs/files/356e548b-fc53-4029-8483-fa4231efeb8a/file_downloaded",
+      "limit_bytes": 100000,
+      "expected_bytes": 11870,
+      "expected_sha256": "3582039ebab36a25e131bf5a3d99b631ac28a6c529c78ad1a626086b5f1ae972"
+    },
+    {
+      "name": "Validation_Day2(2025.08.09).csv",
+      "url": "https://data.mendeley.com/public-files/datasets/7tzkdhgpfs/files/8bf0db8a-4a50-4dbf-8a84-fca7f56ee77f/file_downloaded",
+      "limit_bytes": 100000,
+      "expected_bytes": 11824,
+      "expected_sha256": "35f0e184b9c36613c92d73d47a52687ebe63ddf9a89c89180f1087df20bbfd06"
+    },
+    {
+      "name": "Validation_Day3(2025.08.10).csv",
+      "url": "https://data.mendeley.com/public-files/datasets/7tzkdhgpfs/files/b6feac09-8f10-4d6e-90ec-1a5334bd51d5/file_downloaded",
+      "limit_bytes": 100000,
+      "expected_bytes": 11871,
+      "expected_sha256": "6317b5748c8a80edcbb3a7a296e6f8ae34919c0c177783f316d5f1867b06b2c3"
+    },
+    {
+      "name": "Validation_Day4(2025.08.11).csv",
+      "url": "https://data.mendeley.com/public-files/datasets/7tzkdhgpfs/files/33afdc1d-9bca-4097-a58f-23c300854619/file_downloaded",
+      "limit_bytes": 100000,
+      "expected_bytes": 11769,
+      "expected_sha256": "f11311b6ddbc7f00863c045541302a7b7f07250bb1877f776ca58c828c7f2623"
+    },
+    {
+      "name": "Validation_Day5(2025.08.12).csv",
+      "url": "https://data.mendeley.com/public-files/datasets/7tzkdhgpfs/files/1ad41530-a5f0-430e-8d30-236f2f34bd82/file_downloaded",
+      "limit_bytes": 100000,
+      "expected_bytes": 11824,
+      "expected_sha256": "7e8d0d9b0e2b6208f089da56326b0deff50e55b66ff43e8fcef4aed6a23de753"
+    },
+    {
+      "name": "Validation_Day6(2025.08.13).csv",
+      "url": "https://data.mendeley.com/public-files/datasets/7tzkdhgpfs/files/babbea50-5311-41c7-9393-5cba1fd355f6/file_downloaded",
+      "limit_bytes": 100000,
+      "expected_bytes": 11595,
+      "expected_sha256": "a6d2b49e12d49476f52101aa957fb42900b3ba3634fb41d10052912f525a92b6"
+    },
+    {
+      "name": "Validation_Day7(2025.08.19).csv",
+      "url": "https://data.mendeley.com/public-files/datasets/7tzkdhgpfs/files/f12fa5b7-efcc-4715-94ff-ff9731843767/file_downloaded",
+      "limit_bytes": 100000,
+      "expected_bytes": 11798,
+      "expected_sha256": "a251922750ea80c644f8f160872048b635da28ab6a4ff36de832918fb99515af"
+    },
+    {
+      "name": "Validation_Day8(2025.08.20).csv",
+      "url": "https://data.mendeley.com/public-files/datasets/7tzkdhgpfs/files/08c72057-ce99-4a0f-8182-d171a8ce2540/file_downloaded",
+      "limit_bytes": 100000,
+      "expected_bytes": 11775,
+      "expected_sha256": "4c0e68a02277d4b6a1332e5f3b1f5fdacb30216c710a04bbf9be33454792ea88"
+    }
+  ]
+}

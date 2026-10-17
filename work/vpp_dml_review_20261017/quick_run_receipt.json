@@ -1,0 +1,52 @@
+{
+  "mode": "quick",
+  "command": [
+    "D:\\myDocu\\project_postg\\VPP_program\\work\\vpp_dml_review_20261017\\env\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "D:\\myDocu\\project_postg\\VPP_program\\work\\vpp_dml_review_20261017\\run_quick\\experiments\\run_benchmark.py",
+    "--quick"
+  ],
+  "source_sha256": {
+    "experiments/run_benchmark.py": "17f909cbeca8af91dc0674efb86ee7041346cb74df9052084fdb357e69576672",
+    "experiments/run_coverage.py": "fcb48eb71daef95f3e38e194a899c9b8a05df4c7dc09ee31dd78c5fb711c36bd",
+    "README.md": "15079db91a6c62a0a3dfdc065e2469a4f4531f9bf8aa493eb0c9fccb28a91345",
+    "results/ate_series.csv": "47d89b2d6c9210a7f4b59b1b4f3dcc8da92fa3dae623ec8abf63e322bc189d28",
+    "results/benchmark.csv": "57cd9abcbe8f9889047cc3edfd8de42dd16c8e961c9f427d8fa50ed6d0695bbc",
+    "results/coverage_reps.csv": "f61b43c4220f86c1d793289bf4c986b98902f5c7e2b706ebcc3ffe5de8df9462",
+    "results/coverage_summary.csv": "ea7e7553d1ee2e00c206930f4bbff63f1448d45eed171ea4f1e39584e494e5d2",
+    "results/feature_library.csv": "afc233be269f4b5e02aaaafde525d085675467c5775f2af02b4fdfef50615b43",
+    "results/final_stage_holdout.csv": "e240bb42d5804e8f6cd5711ccf0f52a17addf3ca53ebff24bef31b2f38f0e61e",
+    "results/identification.csv": "ddadbdabd3634ae221ac07b7165c274fd8bbb160da68a0e7580aa368afc38c56",
+    "results/placebo.csv": "5e797c3389e5a057e51127bc0ecfe2eef74efa8a10bf39dc5cbb63d33cc7ac52",
+    "results/sensitivity_by_type.csv": "b0700f0e589a8e5fdf1a1945b3dcf1aaa8ee1f84d7609896525234f9ab56e248",
+    "results/summary.json": "00e513f05afb5232b821f90b9a60c29ea35b656f9ad70fc8f3e41a08c3dc37f5",
+    "vpp_dml/__init__.py": "878b71ac5b2b59d582de4350c434522df92bba969665343e0055ebf9bed0b162",
+    "vpp_dml/baselines.py": "5e814e882109933afdf3b063c174ed456b69b0598688e3cbb7561806b009b201",
+    "vpp_dml/diagnostics.py": "e68041e866ca4f3ed35b9ebbaa7562e5eb810d5f12a61ab241f804d0cb80bd64",
+    "vpp_dml/evaluate.py": "23aeb78694df949f79e9063566fc0102bc0cf5e5e5005f08d29c8b62f7e93306",
+    "vpp_dml/features.py": "5e910dac6aa25358041a64444ba10733497b2781e573d80a2eff06fe3e5f9e12",
+    "vpp_dml/final_stage.py": "1c8d8b6901002f1c57bff185a1c314f5ff350286df657d696c403228be47127b",
+    "vpp_dml/nuisance.py": "622951b1e9dbaa7a2a44d6ecad884c33c0f54f243603a6ebcb5cdc757d7783b1",
+    "vpp_dml/pipeline.py": "6f0ea7811839dd68e608f0e7b90b64a99b1367625e953e881a09b68cba6854ce",
+    "vpp_dml/simulate.py": "5687fbc49e25a4402bc6c9071dc113960cca59d76b76cb0937d39f9cbb80c09f",
+    "vpp_dml/splitting.py": "a9f4c8ac78f397d882a7496bb703033a0cb7e780d30718e853049a3e7ae1e507"
+  },
+  "started_epoch": 1792218700.1275423,
+  "interpretation": "synthetic reproduction only; no project data",
+  "returncode": 1,
+  "elapsed_s": 2.829249382019043,
+  "outputs_sha256": {
+    "ate_series.csv": "47d89b2d6c9210a7f4b59b1b4f3dcc8da92fa3dae623ec8abf63e322bc189d28",
+    "benchmark.csv": "57cd9abcbe8f9889047cc3edfd8de42dd16c8e961c9f427d8fa50ed6d0695bbc",
+    "coverage_reps.csv": "f61b43c4220f86c1d793289bf4c986b98902f5c7e2b706ebcc3ffe5de8df9462",
+    "coverage_summary.csv": "ea7e7553d1ee2e00c206930f4bbff63f1448d45eed171ea4f1e39584e494e5d2",
+    "feature_library.csv": "afc233be269f4b5e02aaaafde525d085675467c5775f2af02b4fdfef50615b43",
+    "final_stage_holdout.csv": "e240bb42d5804e8f6cd5711ccf0f52a17addf3ca53ebff24bef31b2f38f0e61e",
+    "identification.csv": "ddadbdabd3634ae221ac07b7165c274fd8bbb160da68a0e7580aa368afc38c56",
+    "placebo.csv": "5e797c3389e5a057e51127bc0ecfe2eef74efa8a10bf39dc5cbb63d33cc7ac52",
+    "sensitivity_by_type.csv": "b0700f0e589a8e5fdf1a1945b3dcf1aaa8ee1f84d7609896525234f9ab56e248",
+    "summary.json": "00e513f05afb5232b821f90b9a60c29ea35b656f9ad70fc8f3e41a08c3dc37f5"
+  },
+  "source_unchanged": true
+}

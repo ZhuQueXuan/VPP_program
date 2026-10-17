@@ -1,0 +1,15 @@
+{
+  "date":"2026-10-16",
+  "decision":"D065",
+  "user_choice":"Wind power as fifth resource class; target at least six bounded resource studies. Existing four packages unchanged; no cross-resource integration.",
+  "formal_task_link":"Task1 resource behaviour/influences and time-series characteristics; partial basis forTask2 capability. No claim that existing power curve equals dispatchable reserve or market adaptation.",
+  "first_question":"Can a transparent single-turbine statistical power curve reconstruct the same-period published mean electric power from published wind measurements, and under exactly which observed quality/operation scope?",
+  "data_candidate":"Cubico original Kelmarsh record16807551(v4publication2025-08-12),CC-BY-4.0; all6turbines2018file for source admission. Not a China/Shandong distributed-wind field validation.",
+  "year_selection_before_scores":"First full calendar year after literature-reported wind-summary recording start2017-09-25. All2018machines checked, no choosing by model performance; no inherited2023/24third-party reconstruction.",
+  "static_metadata_checked":"Original807byteCSV:6SenvionMM92,2050kWrated each,rotor diameter92m,hub78.5or68.5m. Different papers may quote92.5m; preserve source-specific discrepancy, no geometry assumption used yet.",
+  "candidate_methods_not_frozen_for_experiment":"Published physical relationP~0.5*rho*A*Cp*v^3 motivates nonlinear shape; no published same-objectcutin/ratedwind/cutout thresholds yet. Candidate transparent polynomial/piecewise-linear curves and linear baseline; fix actual model/samples/split/gate only after source QA, BEFORE fitting/errors. No advanced neural model or GPU requirement for this baseline.",
+  "timing":"Same10minmean relationship is reconstruction,not future forecast. Wind measured at turbine/nacelle and aggregated signals may differ from undisturbed wind; unit/averaging/clock/state labels must be checked from original archive before admitting specific use.",
+  "state":"Do not equate no recorded event with proven healthy operation or infer normal state from output power/residuals. No current-target-based anomaly cleanup, no future-outage-week removal inherited from papers. If state dictionary/timing insufficient, explicitly narrow to mixed observed operating conditions rather than claiming normal performance.",
+  "not_verified":["wind-source file identity/fields/quality before QA","physicalCOPorCpidentification or manufacturer guaranteed power curve","true curtailment command/response,available reserve/headroom","future online forecast/lead time","independent turbines/sites/seasons outside actual holdout","globalP1or10390percent"],
+  "completion":"ExistingD046sixbounded criteria,positive simple component plus fair failures and reproducibility. Curate final code only after actual independent validation; no empty final wind directory or handoff/teacher report."
+}

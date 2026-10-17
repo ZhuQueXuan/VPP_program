@@ -1,0 +1,26 @@
+{
+  "purpose": "Source clock and energy semantics alternative original experiments; no fit or score selection",
+  "files": [
+    {
+      "name": "2022_1_18T16_38_36_HeatingAndCoolingData.csv",
+      "url": "https://data.mendeley.com/public-files/datasets/ddmv4w434g/files/da32f53a-f922-4888-a2d5-36c0c50e6ff5/file_downloaded",
+      "limit_bytes": 5848861,
+      "expected_bytes": 5847861,
+      "expected_sha256": "8cde59b2a15fdba7bb1d2db052f2e2cb93d3b3f2a3f6427ac0027864a2b654de"
+    },
+    {
+      "name": "Exp1_4-FullTankDIscharge_60_4LPerMin_NoHeating.json",
+      "url": "https://data.mendeley.com/public-files/datasets/ddmv4w434g/files/74f8649a-e9f1-41e0-87c1-db23594a62c7/file_downloaded",
+      "limit_bytes": 679509,
+      "expected_bytes": 678509,
+      "expected_sha256": "b2eeb1a8b9519a665bd366ca01566fe681ab29af3d542771a160340be3d7c31f"
+    },
+    {
+      "name": "Exp1_4-FullTankDIscharge_60_4LPerMin_WithHeating.json",
+      "url": "https://data.mendeley.com/public-files/datasets/ddmv4w434g/files/cd0ed660-6b10-4118-aabd-588436fe4486/file_downloaded",
+      "limit_bytes": 730336,
+      "expected_bytes": 729336,
+      "expected_sha256": "29ac629b783a69ad64e131504dafab88a4a6c887f97297b3fcd16bc543dac313"
+    }
+  ]
+}

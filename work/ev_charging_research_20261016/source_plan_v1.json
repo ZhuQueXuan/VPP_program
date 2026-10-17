@@ -1,0 +1,11 @@
+{
+  "date":"2026-10-16",
+  "purpose":"D056 EV charging route selected by user; verify official source identity, fields, units, clocks and suitable technical response use before data admission or modelling. Old data/results remain unadmitted clues.",
+  "files":[
+    {"name":"zenodo_record_14065331.json","url":"https://zenodo.org/api/records/14065331","limit_bytes":1000000},
+    {"name":"parameters.csv","url":"https://zenodo.org/records/14065331/files/parameters.csv?download=1","limit_bytes":300000},
+    {"name":"measurements.csv","url":"https://zenodo.org/records/14065331/files/measurements.csv?download=1","limit_bytes":200000},
+    {"name":"esser_2025_paper.pdf","url":"https://eldorado.tu-dortmund.de/server/api/core/bitstreams/62811138-8df5-49fd-8da9-a065cd4e2f98/content","limit_bytes":10000000},
+    {"name":"acn_official_dataset.html","url":"https://ev.caltech.edu/dataset","limit_bytes":1000000}
+  ]
+}

@@ -19,16 +19,129 @@ Thumbs.db
 ~$*.xlsx
 
 # Local archive and tool-generated working files (retained locally only)
-/old/
+/work/old/
 /data/
 /outputs/current/
 /work/presentations/**/tmp/
+/work/resource_static_classification_baseline/
 **/*.inspect.ndjson
 
+# Large reproducible public-data derivatives (keep local; regenerate with algorithm scripts)
+/resource_regulation_behavior_causal_decomposition/data/standardized/瑞士住宅_价格控制小时标准化.csv.gz
+/resource_regulation_behavior_causal_decomposition/data/standardized/瑞士住宅_价格控制小时模型就绪.csv.gz
+
 # Local intermediate artifacts retained outside version control
+/work/resource_market_adaptation_scoring/data_accuracy_revision_20261007/
+/work/resource_regulation_behavior_causal_decomposition/data_accuracy_revision_20261007/
+/work/data_accuracy_revision_20261007/verification_summary.json
+/work/resource_market_adaptation_scoring/empirical_dataset_enhancement_20261007/
+/work/resource_regulation_behavior_causal_decomposition/empirical_dataset_enhancement_20261007/
+/work/empirical_dataset_enhancement_20261007/reference_checks/
+/work/empirical_dataset_enhancement_20261007/backup_receipt.json
+/work/empirical_dataset_enhancement_20261007/publication_receipt.json
+/work/resource_market_adaptation_scoring/synthetic_data_deep_review_20261008/
+/work/resource_regulation_behavior_causal_decomposition/synthetic_data_deep_review_20261008/
+/work/synthetic_data_deep_review_20261008/overview.json
+/work/synthetic_data_deep_review_20261008/heldout_summary.json
 /work/data_requirement_simplification/build_simplified_data_requirement.mjs
 /work/data_requirement_simplification/build_v2.mjs
 /work/data_requirement_simplification/inspect_source.mjs
 /work/data_requirement_simplification/source_preview.png
 /resource_regulation_behavior_causal_decomposition/10_组会讲解稿.pdf
 /resource_regulation_behavior_causal_decomposition/课题一算法-第一版.pdf
+
+# Local full data backups and verified generation candidates (2026-10-08)
+/work/resource_market_adaptation_scoring/data_coherence_revision_20261008/
+/work/resource_regulation_behavior_causal_decomposition/data_coherence_revision_20261008/
+/work/data_coherence_revision_20261008/backup_receipt.json
+/work/data_coherence_revision_20261008/verification_overview.json
+/work/data_coherence_revision_20261008/publication_receipt.json
+
+# Local simulated-data backups, candidates and receipts; generation scripts retained
+/work/resource_market_adaptation_scoring/mechanistic_dataset_revision_20261008/
+/work/resource_regulation_behavior_causal_decomposition/mechanistic_dataset_revision_20261008/
+/work/mechanistic_dataset_revision_20261008/*.json
+
+# Centralized process artifacts (2026-10-08); keep reusable scripts trackable
+/work/python_packages/
+/work/python_caches/
+/work/tmp/
+/work/folder_organization_20261008/before_files/
+/work/folder_organization_20261008/followup/before_files/
+/work/folder_organization_20261008/project_grouping/before_files/
+/work/folder_organization_20261008/relocation_manifest.json
+/work/resource_market_adaptation_scoring/report_exports/
+/work/resource_regulation_behavior_causal_decomposition/report_exports/
+/work/resource_regulation_behavior_causal_decomposition/iflex_workbook/qa/
+
+# Isolated scoring archive verification; retain the reusable verification script
+/work/resource_market_adaptation_scoring/archive_and_verify_20261008/*.json
+/work/resource_market_adaptation_scoring/archive_and_verify_20261008/runs/
+/work/resource_market_adaptation_scoring/archive_and_verify_20261008/initial_environment_errors/
+
+# Local process-note relocation receipts
+/work/folder_organization_20261008/process_notes/*.json
+
+# Stage-one public component derivatives remain local; reusable scripts remain trackable
+/work/resource_regulation_behavior_causal_decomposition/stage1_20261012/behavior/*.csv
+/work/resource_regulation_behavior_causal_decomposition/stage1_20261012/behavior/*.json
+/work/resource_market_adaptation_scoring/stage1_20261012/device/*.csv
+/work/resource_market_adaptation_scoring/stage1_20261012/device/*.json
+/work/stage1_20261012/103_source_text.txt
+/work/stage1_20261012/component_event_index.csv
+/work/stage1_20261012/component_validation.json
+
+# Raw online candidate downloads for the first resource sample; retain locally
+/work/resource_sample_selection_20261013/downloads/
+
+# Local BESS sample derivatives; keep preparation code and protocol trackable
+/work/resource_sample_selection_20261013/sample_runs/
+/work/resource_sample_selection_20261013/baseline_runs/
+/work/resource_sample_selection_20261013/state_audit_runs/
+/work/resource_sample_selection_20261013/apr2023_audit_runs/
+/work/resource_sample_selection_20261013/apr2023_response_sample_runs/
+/work/resource_sample_selection_20261013/apr2023_response_baseline_runs/
+/work/resource_sample_selection_20261013/apr2023_response_residual_runs/
+/work/resource_sample_selection_20261013/apr2023_response_phase_sample_runs/
+/work/resource_sample_selection_20261013/apr2023_response_phase_baseline_runs/
+/work/resource_sample_selection_20261013/home_capacity_sample_runs/
+/work/resource_sample_selection_20261013/home_capacity_baseline_runs/
+/work/teacher_storage_brief_20261014/plot_dependencies/
+/work/teacher_storage_brief_20261014/qa/
+
+# Generated usage examples/caches in the curated resource research result collection
+/resource_research_results/**/outputs/
+/resource_research_results/**/__pycache__/
+
+# Raw photovoltaic source files and local admission/experiment products
+/work/photovoltaic_research_20261015/downloads/
+/work/photovoltaic_research_20261015/runs/
+
+# EV source admission and experiment derivatives remain local
+/work/ev_charging_research_20261016/downloads/
+/work/ev_charging_research_20261016/runs/
+
+# HVAC original sources and local quality/experiment derivatives
+/work/air_conditioning_research_20261016/downloads/
+/work/air_conditioning_research_20261016/runs/
+
+# Wind original public sources and local admission/experiment derivatives
+/work/wind_power_research_20261016/downloads/
+/work/wind_power_research_20261016/runs/
+
+# Electric storage water heating original sources and local research products
+/work/electric_water_heating_research_20261016/downloads/
+/work/electric_water_heating_research_20261016/runs/
+
+# Colleague DML review: local runtime, original delivery and generated runs
+/work/vpp_dml_review_20261017/env/
+/work/vpp_dml_review_20261017/vpp_dml_framework/
+/work/vpp_dml_review_20261017/run_quick/
+/work/vpp_dml_review_20261017/run_full/
+/work/vpp_dml_review_20261017/run_coverage/
+/work/vpp_dml_review_20261017/run_quick_repaired/
+/work/vpp_dml_review_20261017/run_full_repaired/
+/work/vpp_dml_review_20261017/taskbook_text.txt
+
+# Project simulated task data adaptation to colleague DML core
+/work/vpp_dml_project_trial_20261017/runs/

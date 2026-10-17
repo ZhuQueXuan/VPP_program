@@ -1,0 +1,17 @@
+{
+  "object": "IEA PVPS Task13 / SUPSI anonymous mono-Si validation module",
+  "model_parameters": {
+    "p0_W": 285.68591743441357,
+    "gamma_per_C": -0.004050000000000001,
+    "reference_C": 25.0
+  },
+  "source": {
+    "publisher": "https://pvpmc.sandia.gov/datasets/iea-pvps-task-13-module-validation-dataset/",
+    "workbook_url": "https://pvpmc.sandia.gov/download/3973/",
+    "workbook_sha256": "22a6ae417ebda8738be107013aa0859fbda7f34d0e77ad9373a60d1a58c0780d",
+    "sheet": "61853-1 & 2",
+    "P0_cell": "C10",
+    "gamma_percent_per_C_cell": "K9"
+  },
+  "limit": "Measured lab parameter example, not Sharp/PVDAQ1239 or universal distributed-PV parameters."
+}

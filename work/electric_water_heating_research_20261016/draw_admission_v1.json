@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-17",
+  "decision": "D071",
+  "data_card_version": "DC-20261017-04",
+  "thread_id": "01a148f8-f7dc-7ab0-86a7-a118640b615f",
+  "source": "10.17632/ddmv4w434g.1",
+  "license": "CC-BY-4.0",
+  "status": "limited_descriptive_admission_with_source_conflicts",
+  "protocol_sha256": "bd5b1ffc67e41345c9703639741ba8264a9881758facbaca0d13d53a9c25966b",
+  "current_audit_runs": [
+    "DRAW_SOURCE_04",
+    "DRAW_SOURCE_05"
+  ],
+  "verifier_status": "passed_independent_arithmetic_with_disclosed_unit_conflict",
+  "verification_receipt_sha256": "dd4b17a5f1c1318406365870ea08da0f036206af167107b1c9a6c19dd855a298",
+  "data_rows": 968,
+  "allowed": [
+    "per-file published interval WaterConsumed in mL and PowerConsumed in Wh sums including first sample; published temperature at valid sensors with -127 flags retained",
+    "original date-second label ordering and relative times, unknown timezone and measurement interval boundaries",
+    "conditional nominal5s equivalent W/Lmin normalization only; no calibrated instantaneous claim"
+  ],
+  "excluded": [
+    "valve control or command delivery/latency inference",
+    "TotalWaterConsumed cumulative water closure or confirmed unit: NoHeating unit row mL conflicts with dictionary L; WithHeating has no unit row",
+    "same-row physical heat balance, efficiency, available/max thermal capacity or full recovery",
+    "causal WithHeating minus NoHeating comparison: different dates and initial/environmental conditions",
+    "human use demand, actual economic incentives, contracts, selection or market-control authorization"
+  ],
+  "counter_diagnostics_note": "counter_*_L and differences x1000 in source_summary follow dictionary L conditionally; all source counters zero; actual counter unit and closure are not admitted.",
+  "no_model_fitted": true,
+  "old_D067_temperature_result_changed": false,
+  "six_published_packages_changed": false,
+  "whole_P1_or103_passed": false,
+  "next_required_evidence": [
+    "actual valve/setpoint logs with send/receive/effective/measurement clocks and sensor calibration",
+    "resolved water counter unit/recording semantics and thermal measurement boundary",
+    "complete recovery and independent boundary reference before capacity claim"
+  ]
+}

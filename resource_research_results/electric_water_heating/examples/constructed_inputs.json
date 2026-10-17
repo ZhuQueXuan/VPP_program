@@ -1,0 +1,23 @@
+{
+  "purpose": "Constructed input examples, not new measured evaluation or industrial boiler data. History is five published minute labels earlier, current inputs available at minute closure.",
+  "cases": [
+    {
+      "temperature_C": 30.0,
+      "previous_temperature_C": 29.8,
+      "heating_flag": 1,
+      "chamber_temperature_1_C": 20.0,
+      "chamber_temperature_2_C": 20.5,
+      "upper_sensor_C": 32.0,
+      "lower_sensor_C": 28.0
+    },
+    {
+      "temperature_C": 60.0,
+      "previous_temperature_C": 60.2,
+      "heating_flag": 0,
+      "chamber_temperature_1_C": 30.0,
+      "chamber_temperature_2_C": 30.0,
+      "upper_sensor_C": 63.0,
+      "lower_sensor_C": 54.0
+    }
+  ]
+}

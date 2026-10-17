@@ -1,0 +1,53 @@
+{
+  "decision": "D066",
+  "version": "1.1.0",
+  "date": "2026-10-16",
+  "status": "bounded_pass",
+  "scope": "First wind basic package: original six-unit published wind/power characteristics and fixed SAME-ROW mixed-operation statistical power curve. Not full wind resource capability.",
+  "criteria": [
+    {
+      "id": 1,
+      "passed": true,
+      "evidence": "Original six MM92 units, wind m/s input, contemporaneous published10min activePower kW output, sourceUTC labels and no online/future claim defined. Fixed train/test months."
+    },
+    {
+      "id": 2,
+      "passed": true,
+      "evidence": "Full six-panel/all-test observations and all280training knots; source static/nameplate, curve formula and support/range flags documented; turbine source and method paper distinct. No importing manufacturer thresholds."
+    },
+    {
+      "id": 3,
+      "passed": true,
+      "evidence": "Original official2018 archive MD5/CRC/static/mapping and315360raw rows checked. Published measuredPower is appropriate target for bounded same-row problem. Event/state/independent physical calibration and availability truth gaps disclosed, not needed to claim those unvalidated uses."
+    },
+    {
+      "id": 4,
+      "passed": true,
+      "evidence": "Frozen original protocol passed lowerMAE+RMSE than BOTH linear/cubic baselines pooled,each6units,positiveP and3of3heldoutmonths. No post-score tuning."
+    },
+    {
+      "id": 5,
+      "passed": true,
+      "evidence": "All admitted negatives,over-nominal,rare-bin groups,worst and allmonths retained.81rarebins errors high,0out-of-trainingwind observations null. No inference of cause or healthy curve. Descriptive high-wind irregularity remains."
+    },
+    {
+      "id": 6,
+      "passed": true,
+      "evidence": "Source/sample/algebra/all69236predictions/180metrics independent checks,5science-file exact rerun and final69236replay;9invalid/298constructedboundaries/twooutside-cwdexamples; independent303865pairs/1678description checks and3science-file exact rerun. Final stdlib code/parameters unchanged."
+    }
+  ],
+  "checks_passed": 6,
+  "bounded_basic_package_complete": true,
+  "runtime_or_parameters_changed": false,
+  "new_fit": 0,
+  "new_independent_forecast_points": 0,
+  "not_validated": [
+    "healthy/certified manufacturer curve or physical cutin/cutout/Cp",
+    "independent available/adjustable wind capacity",
+    "causal or commanded response/physical ramp/latency",
+    "future wind forecast/online lead time",
+    "new sites/devices/full-year holdout",
+    "wholeP1 or10390percent"
+  ],
+  "next": "Stop first wind basic stage. Sixth resource or specialised work selected by user. No automatic integration/advanced branch."
+}

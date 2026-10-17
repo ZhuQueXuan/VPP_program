@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-16",
+  "recording_sets": 18,
+  "raw_rows": 24474687,
+  "command_edges": 9547,
+  "phase_candidates": 28641,
+  "eligible_phase_events": 4928,
+  "eligible_command_edges": 1875,
+  "eligible_up_down": {
+    "up": 2446,
+    "down": 2482
+  },
+  "eligible_phases": {
+    "L1": 1875,
+    "L2": 1708,
+    "L3": 1345
+  },
+  "exclusion_flags": {
+    "command_step_lt2A": 11178,
+    "pre_phase_median_lt1A": 9324,
+    "outside_study_operating_commands": 11322,
+    "post_command_not_constant": 2547,
+    "post_window_incomplete": 3,
+    "pre_command_not_constant": 2145
+  },
+  "limit": "Retrospective complete held-command windows and preceding measured-load phases only, not startup/stop/all operating availability."
+}

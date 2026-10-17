@@ -1,0 +1,36 @@
+{
+  "data": {
+    "title": "Kelmarsh wind farm data",
+    "creators": [
+      "Plumley, Charlie",
+      "Takeuchi, Roberta"
+    ],
+    "publisher": "Cubico / Zenodo",
+    "url": "https://zenodo.org/records/16807551",
+    "doi": "10.5281/zenodo.16807551",
+    "publication_date": "2025-08-12",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "archive_sha256": "38be7dd50b7f5dfe5642df33117482b06c12602153af7566a9acaa2cfcf85cd7",
+    "archive_publisher_md5": "972e5280172216a5fe76dcab19c741b0",
+    "static_sha256": "a249919471580244d41a547e407ef371d45f2d5347a59bc23cf3c980f607ee93",
+    "mapping_sha256": "2dad8552ba4d45d59b9a778c68025b8c3614179d48dfb938c3af07c90ebd06af",
+    "modifications": "Derived training-bin means, statistical coefficients and evaluation aggregates from original 2018 wind/power rows; source raw records are not redistributed here."
+  },
+  "methods": [
+    {
+      "url": "https://arxiv.org/html/1707.06497v2",
+      "basis": "Static nonlinear and predefined piecewise-linear power-curve benchmark family. Primary HTML read via web, local retrieval failed SSL validation; different Vestas V80 data. Our 0.5m/s training-mean knots are our prespecified design, not exact paper replication or imported thresholds."
+    },
+    {
+      "url": "https://doi.org/10.1002/we.70012",
+      "basis": "Kelmarsh source/SCADA/event context, primary HTML read via web. No paper neural method or outage-week filter reproduced. Local Crossref metadata only; local publisher HTML 403."
+    }
+  ],
+  "evidence": {
+    "protocol_sha256": "6dd7e842d6b4da7d6332526021f30bdfbbeaee73d8e8d03eac012cf99343a475",
+    "admission_sha256": "5787ad36b02a4b3574a3f8630a8d80815cd67d6f2bb2587ac01621f861eebb20",
+    "independent_verification_sha256": "fd19d7a05c00b34505858f42ae0c430d008a98809be67a23a8764ad272d89e9f",
+    "independent_verification_path": "work/wind_power_research_20261016/runs/VERIFY_CURVE_01/receipt.json"
+  }
+}

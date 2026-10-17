@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-16",
+  "purpose": "Exact original five two-stage central AC cooling tests plus official experiment matrix. No HP or heating mix, no inheritance of PLEIA labels. Real equipment/HIL boundary explicit.",
+  "files": [
+    {
+      "name": "Test_Matrix.xlsx",
+      "url": "https://data.nlr.gov/system/files/246/1725922071-Test_Matrix.xlsx",
+      "limit_bytes": 1000000
+    },
+    {
+      "name": "AC_OAT75F_SP72F68F.csv",
+      "url": "https://data.nlr.gov/system/files/246/1725922071-AC_OAT75F_SP72F68F.csv",
+      "limit_bytes": 16000000
+    },
+    {
+      "name": "AC_OAT85F_SP76F72F68F.csv",
+      "url": "https://data.nlr.gov/system/files/246/1725922071-AC_OAT85F_SP76F72F68F.csv",
+      "limit_bytes": 16000000
+    },
+    {
+      "name": "AC_OAT95F_SP76F72F68F.csv",
+      "url": "https://data.nlr.gov/system/files/246/1725922071-AC_OAT95F_SP76F72F68F.csv",
+      "limit_bytes": 16000000
+    },
+    {
+      "name": "AC_OAT105F_SP76F72F68F.csv",
+      "url": "https://data.nlr.gov/system/files/246/1725922071-AC_OAT105F_SP76F72F68F.csv",
+      "limit_bytes": 16000000
+    },
+    {
+      "name": "AC_OAT115F_SP76F72F68F.csv",
+      "url": "https://data.nlr.gov/system/files/246/1725922071-AC_OAT115F_SP76F72F68F.csv",
+      "limit_bytes": 16000000
+    },
+    {
+      "name": "hil_validation.pdf",
+      "url": "https://www.nlr.gov/docs/fy22osti/82562.pdf",
+      "limit_bytes": 10000000
+    }
+  ]
+}

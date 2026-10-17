@@ -1,0 +1,11 @@
+{
+  "date":"2026-10-16",
+  "purpose":"D058 inspect independent candidate sources for chronological dynamics; no bulk download, modelling or inherited admission.",
+  "files":[
+    {"name":"epfl_contents.json","url":"https://api.github.com/repos/DESL-EPFL/Level-3-EV-charging-dataset/contents","limit_bytes":1000000},
+    {"name":"epfl_README.md","url":"https://raw.githubusercontent.com/DESL-EPFL/Level-3-EV-charging-dataset/main/README.md","limit_bytes":100000},
+    {"name":"epfl_LICENSE","url":"https://raw.githubusercontent.com/DESL-EPFL/Level-3-EV-charging-dataset/main/LICENSE","limit_bytes":100000},
+    {"name":"kit_dataset_page.html","url":"https://publikationen.bibliothek.kit.edu/1000190660","limit_bytes":2000000},
+    {"name":"kit_zenodo_record.json","url":"https://zenodo.org/api/records/17866847","limit_bytes":2000000}
+  ]
+}

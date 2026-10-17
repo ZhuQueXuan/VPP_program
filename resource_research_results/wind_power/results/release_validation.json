@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-16",
+  "decision": "D065",
+  "version": "1.0.0",
+  "status": "passed",
+  "scope": "First bounded SAME-ROW mixed-operation statistical curve only. Wind resource basic package not yet accepted.",
+  "resource_basic_package_complete": false,
+  "test_rows_replayed": 69236,
+  "maximum_replay_difference_kW": 0.0,
+  "invalid_cases_rejected": 9,
+  "constructed_boundary_checks": 298,
+  "examples_outside_package_cwd": [
+    {
+      "arguments": [],
+      "rows": 6,
+      "exit_code": 0
+    },
+    {
+      "arguments": [
+        "--unit",
+        "1",
+        "--wind-mps",
+        "8"
+      ],
+      "rows": 1,
+      "exit_code": 0
+    }
+  ],
+  "cmd_launcher_interactively_double_clicked": false,
+  "python_entry_points_actually_executed": true,
+  "independent_source_and_algebra_receipt_sha256": "fd19d7a05c00b34505858f42ae0c430d008a98809be67a23a8764ad272d89e9f",
+  "verifier_sha256": "0ff2cc4366fb776a00ce9003050fba5fe908fba9aee33d190d0055e37775075c",
+  "prior_four_packages": [
+    {
+      "resource": "lithium_ion_storage",
+      "files": 15,
+      "status": "unchanged"
+    },
+    {
+      "resource": "distributed_photovoltaic",
+      "files": 22,
+      "status": "unchanged"
+    },
+    {
+      "resource": "ev_charging",
+      "files": 18,
+      "status": "unchanged"
+    },
+    {
+      "resource": "air_conditioning",
+      "files": 14,
+      "status": "unchanged"
+    }
+  ],
+  "verified_files": {
+    "code/wind_curve.py": "00dfd41024a00d98db0fb80ece103bd89860968b9a22cdf93d1b1d5840a51f23",
+    "examples/constructed_inputs.json": "1cc825b60b2869f0514a7ec5b28ad942a7fafbb13e56463426f4184f2261eff5",
+    "parameters/kelmarsh_mixed_curve_v1.json": "fbf6caa321979ef6e192f2072bd83b819391d3c1256469cd7902fb372d040288",
+    "README.md": "bc6867292746f7851c4a24add3ab771d25d5ba8b6d5d5ef65ce3c0699e56c4b8",
+    "results/diagnostics_summary.json": "0596235c20ba3a3af66e00b3cfab8df074a42f0d013c8ae189b9e2f3a5fe4b43",
+    "results/evidence_summary.json": "b30634f3400cf545ebea2c955223742bc18ffc30164e04bfdbdb3c0c6eb3f6bb",
+    "results/frozen_protocol.json": "6dd7e842d6b4da7d6332526021f30bdfbbeaee73d8e8d03eac012cf99343a475",
+    "results/validation_metrics.json": "ed2f62dabc4286934c8b3e9485249cd194d0ac845c62f9d7f3e06d17fa55cffe",
+    "run_example.py": "c6d2861b7b12ac997e1d8ee3a9a622fe5e367770cf78926a31542974f167d78f",
+    "source_manifest.json": "6aae60650999c58c75742b0fda748022b8937d0a282c47e0f3d06c28b208e5fc",
+    "运行示例.cmd": "fcf396638a7e1c6d3ef58c96ece41ced4835595227e35578609f9e8a44d0272a"
+  }
+}

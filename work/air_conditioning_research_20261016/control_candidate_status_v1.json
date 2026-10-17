@@ -1,0 +1,28 @@
+{
+  "decision": "D061",
+  "source_metadata_only": true,
+  "SHIFDR": {
+    "catalog_url": "https://openenergyhub.ornl.gov/explore/dataset/shifdr-sub-metered-hvac-implemented-for-demand-response/",
+    "saved_catalog_sha256": "969b45c39c501567bf7cb5d9fc89aef88772c3088f0d3a62b1f2e98eff0de23d",
+    "catalog_has_records": false,
+    "catalog_attachments": [],
+    "primary_collection_url": "https://deepblue.lib.umich.edu/data/collections/vh53ww273?locale=en",
+    "primary_collection_web_access": "one403; stopped, no access bypass",
+    "license_boundary": "ORNL catalog labels Open Database License; underlying subset license and files unverified, not inherited automatically",
+    "raw_downloaded": false,
+    "admitted": false
+  },
+  "dual_zone_experimental": {
+    "catalog_url": "https://data.mendeley.com/datasets/7tzkdhgpfs/1",
+    "doi": "10.17632/7tzkdhgpfs.1",
+    "published": "2026-08-18",
+    "saved_catalog_sha256": "b16d499cf1755bbc378b186d100b5ba657af1f22b3ed6f4d814416c3bc6bd275",
+    "catalog_claim": "dual-zone experimental chamber,5min indoor/outdoor temperature/solar/HVAC smart-meter power",
+    "license_catalog": "CC-BY-4.0",
+    "raw_downloaded": false,
+    "paired_paper_verified": false,
+    "admitted": false,
+    "next": "Inspect primary file list/dictionary/paired manuscript and clock/electric-meter object first; if suitable, freeze simple thermal baseline before errors. Do not start distributed MPC or infer second-level response from5min data."
+  },
+  "not_implemented": "No advanced control, no downloaded source code execution or fitted new model."
+}

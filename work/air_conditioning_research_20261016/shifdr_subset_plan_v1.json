@@ -1,0 +1,4 @@
+{"purpose":"New specific subset resource explicitly identified by official DataCite DOI, not retrying403collection or changing identity/access controls. One bounded metadata request only.","files":[
+{"name":"subset_catalog.html","url":"https://deepblue.lib.umich.edu/data/concern/data_sets/j6731449j","limit_bytes":2000000},
+{"name":"paper_crossref.json","url":"https://api.crossref.org/works/10.1115/1.4064348","limit_bytes":1000000}
+]}

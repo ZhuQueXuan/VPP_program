@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-16",
+  "release_version": "1.0.0",
+  "kind": "Statistically fitted mapping breakpoints, not physical maxima or capacity guarantees",
+  "source_protocol_sha256": "8b3fb1bd4f4aa6fa2ca6cc2e53ec53d77c020d46bc07f07eb5b09aecf56e4c0b",
+  "groups": {
+    "Fiat_500e|AC|Type 2": {
+      "calibration": {
+        "fitted_breakpoint_kW": 6.88200523739788,
+        "minimum_training_command_kW": 0.0,
+        "maximum_training_command_kW": 12.0
+      },
+      "training_trials": 2,
+      "training_rows": 10749,
+      "heldout_both_errors_improved": false,
+      "use": "Only the named laboratory vehicle/mode/plug calibration; no substitution for other physical instances."
+    },
+    "Fiat_500e|DC|CCS": {
+      "calibration": {
+        "fitted_breakpoint_kW": 0.9731307726139862,
+        "minimum_training_command_kW": 0.0,
+        "maximum_training_command_kW": 12.0
+      },
+      "training_trials": 2,
+      "training_rows": 10326,
+      "heldout_both_errors_improved": true,
+      "use": "Only the named laboratory vehicle/mode/plug calibration; no substitution for other physical instances."
+    },
+    "Honda_e|AC|Type 2": {
+      "calibration": {
+        "fitted_breakpoint_kW": 3.4145516055045873,
+        "minimum_training_command_kW": 0.0,
+        "maximum_training_command_kW": 12.0
+      },
+      "training_trials": 1,
+      "training_rows": 4586,
+      "heldout_both_errors_improved": false,
+      "use": "Only the named laboratory vehicle/mode/plug calibration; no substitution for other physical instances."
+    },
+    "Honda_e|DC|CCS": {
+      "calibration": {
+        "fitted_breakpoint_kW": 10.829035714285714,
+        "minimum_training_command_kW": 0.0,
+        "maximum_training_command_kW": 12.0
+      },
+      "training_trials": 1,
+      "training_rows": 5068,
+      "heldout_both_errors_improved": true,
+      "use": "Only the named laboratory vehicle/mode/plug calibration; no substitution for other physical instances."
+    },
+    "Hyundai_IONIQ5|AC|Type 2": {
+      "calibration": {
+        "fitted_breakpoint_kW": 10.780947257383966,
+        "minimum_training_command_kW": 0.0,
+        "maximum_training_command_kW": 12.0
+      },
+      "training_trials": 1,
+      "training_rows": 5210,
+      "heldout_both_errors_improved": true,
+      "use": "Only the named laboratory vehicle/mode/plug calibration; no substitution for other physical instances."
+    },
+    "Hyundai_IONIQ5|DC|CCS": {
+      "calibration": {
+        "fitted_breakpoint_kW": 9.163820265379975,
+        "minimum_training_command_kW": 0.0,
+        "maximum_training_command_kW": 12.0
+      },
+      "training_trials": 1,
+      "training_rows": 5208,
+      "heldout_both_errors_improved": false,
+      "use": "Only the named laboratory vehicle/mode/plug calibration; no substitution for other physical instances."
+    },
+    "Mitsubishi_EC|AC|Type 2": {
+      "calibration": {
+        "fitted_breakpoint_kW": 3.252304414587332,
+        "minimum_training_command_kW": 0.0,
+        "maximum_training_command_kW": 12.0
+      },
+      "training_trials": 1,
+      "training_rows": 5203,
+      "heldout_both_errors_improved": true,
+      "use": "Only the named laboratory vehicle/mode/plug calibration; no substitution for other physical instances."
+    },
+    "Mitsubishi_EC|DC|CHAdeMO": {
+      "calibration": {
+        "fitted_breakpoint_kW": 9.420689987937273,
+        "minimum_training_command_kW": 0.0,
+        "maximum_training_command_kW": 12.0
+      },
+      "training_trials": 1,
+      "training_rows": 5206,
+      "heldout_both_errors_improved": true,
+      "use": "Only the named laboratory vehicle/mode/plug calibration; no substitution for other physical instances."
+    },
+    "Nissan_Leaf|AC|Type 2": {
+      "calibration": {
+        "fitted_breakpoint_kW": 6.477998194945847,
+        "minimum_training_command_kW": 0.0,
+        "maximum_training_command_kW": 12.0
+      },
+      "training_trials": 1,
+      "training_rows": 5218,
+      "heldout_both_errors_improved": true,
+      "use": "Only the named laboratory vehicle/mode/plug calibration; no substitution for other physical instances."
+    },
+    "OpelCorsa_e|AC|Type 2": {
+      "calibration": {
+        "fitted_breakpoint_kW": 9.22074791920864,
+        "minimum_training_command_kW": 0.0,
+        "maximum_training_command_kW": 12.0
+      },
+      "training_trials": 2,
+      "training_rows": 10403,
+      "heldout_both_errors_improved": true,
+      "use": "Only the named laboratory vehicle/mode/plug calibration; no substitution for other physical instances."
+    },
+    "OpelCorsa_e|DC|CCS": {
+      "calibration": {
+        "fitted_breakpoint_kW": 9.136335500430407,
+        "minimum_training_command_kW": 0.0,
+        "maximum_training_command_kW": 12.0
+      },
+      "training_trials": 2,
+      "training_rows": 10380,
+      "heldout_both_errors_improved": false,
+      "use": "Only the named laboratory vehicle/mode/plug calibration; no substitution for other physical instances."
+    },
+    "TeslaModel_Y|AC|Type 2": {
+      "calibration": {
+        "fitted_breakpoint_kW": 9.583698047829959,
+        "minimum_training_command_kW": 0.0,
+        "maximum_training_command_kW": 12.0
+      },
+      "training_trials": 2,
+      "training_rows": 10356,
+      "heldout_both_errors_improved": false,
+      "use": "Only the named laboratory vehicle/mode/plug calibration; no substitution for other physical instances."
+    },
+    "TeslaModel_Y|DC|CCS": {
+      "calibration": {
+        "fitted_breakpoint_kW": 8.371530631479736,
+        "minimum_training_command_kW": 0.0,
+        "maximum_training_command_kW": 12.0
+      },
+      "training_trials": 1,
+      "training_rows": 5184,
+      "heldout_both_errors_improved": false,
+      "use": "Only the named laboratory vehicle/mode/plug calibration; no substitution for other physical instances."
+    },
+    "VW_ID4|AC|Type 2": {
+      "calibration": {
+        "fitted_breakpoint_kW": 10.776031512605043,
+        "minimum_training_command_kW": 0.0,
+        "maximum_training_command_kW": 12.0
+      },
+      "training_trials": 1,
+      "training_rows": 4972,
+      "heldout_both_errors_improved": true,
+      "use": "Only the named laboratory vehicle/mode/plug calibration; no substitution for other physical instances."
+    },
+    "VW_ID4|DC|CCS": {
+      "calibration": {
+        "fitted_breakpoint_kW": 9.50582112845138,
+        "minimum_training_command_kW": 0.0,
+        "maximum_training_command_kW": 12.0
+      },
+      "training_trials": 1,
+      "training_rows": 5082,
+      "heldout_both_errors_improved": false,
+      "use": "Only the named laboratory vehicle/mode/plug calibration; no substitution for other physical instances."
+    }
+  }
+}

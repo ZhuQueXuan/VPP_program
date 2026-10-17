@@ -1,0 +1,15 @@
+{
+  "date":"2026-10-16",
+  "decision":"D059",
+  "user_selected_resource":"空调",
+  "formal_tasks":"P1 foundation for task1 operating factors/time features and task2 temperature-constrained response; no market integration or self-supervised branch.",
+  "first_question":"In a verified room/air-conditioning zone, can a simple model improve short-horizon recorded indoor-temperature prediction over persistence under explicitly historical input availability?",
+  "candidate_source":"PLEIAData Zenodo7620136, peer-reviewed Scientific Data2023",
+  "entity_rule":"Room sensors/control terminals and block-level metering are different entities. Toshiba VRF terminals share systems; no per-room electricity invented from block meter.",
+  "physics_reference":"Room heat balance C*dT/dt=H*(Tout-T)+internal/solar heat-HVAC cooling, with separate heating mode. Generic model relationship, not already identified physical parameters.",
+  "candidate_simple_models":["temperature persistence","previous-slope extrapolation if historical cadence supports it","small linear autoregression with strictly preceding outdoor/state/setpoint values; fit training only"],
+  "not_frozen_yet":"Exact entity, time horizon, quality rules, split, predictors and success threshold await original field/time QA before any model/error computation.",
+  "not_claimed":["single-unit kW from block kWh","causal effect from observational control status","state observations equal dispatch commands","firm curtailment capacity","end-to-end latency","unobserved user comfort/authorization","full P1/10390percent acceptance"],
+  "completion_direction":"Source/object and parameter evidence, actual data per use, frozen samples/reference, simple fair baseline comparison including failures, independent reproduction; only validated final components curated after closure.",
+  "preserve":"Prior storage/PV/EV packages and teacher/handoff remain; no cross-resource integration, no new formal report, no GPU required for source QA and simple baselines."
+}

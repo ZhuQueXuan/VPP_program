@@ -1,0 +1,80 @@
+{
+  "decision": "D067",
+  "created_utc": "2026-10-16T13:23:31.114856+00:00",
+  "question": "Conditional5published-clock-minute thermostat temperature label prediction of original150L horizontal resistive water tank. No energy efficiency/capacity/control claim.",
+  "source": "10.17632/ddmv4w434g.1 /CC-BY4.0,oneKwikotSuperline150L/nominal3kW laboratory device,not industrial boiler",
+  "source_QA_sha256": "5a1be26245692cc5139ad103a0f721eaf63aee2b1b122ce4bbd7c5b02e63a9c0",
+  "files": [
+    {
+      "name": "Exp2_1-HeatingReg_Amb20_Init20_Set40.json",
+      "path": "work/electric_water_heating_research_20261016/downloads/NATIVE_CLOCK_01/Exp2_1-HeatingReg_Amb20_Init20_Set40.json",
+      "sha256": "792a923ae93750a8debf0a398ad1fc4fc596377659232efa29ff644a4baf4abd",
+      "source_format": "minute_truncated",
+      "sample_period_metadata_s": 10
+    },
+    {
+      "name": "Exp-HeatingRegulating_AmbNA_Init30_Set60.json",
+      "path": "work/electric_water_heating_research_20261016/downloads/REGULATION_01/Exp-HeatingRegulating_AmbNA_Init30_Set60.json",
+      "sha256": "f6370da902d27772166c5e10aa26d50ecb738de11d93ce00fc27b94881a461fe",
+      "source_format": "date_seconds",
+      "sample_period_metadata_s": 10
+    },
+    {
+      "name": "Exp2_2-HeatingRegulating_Amb20_Init15_Set50.json",
+      "path": "work/electric_water_heating_research_20261016/downloads/REGULATION_01/Exp2_2-HeatingRegulating_Amb20_Init15_Set50.json",
+      "sha256": "35e3798a10a81c42fedf684ba33f2e7e1f280746a7f76d0d46507a0aa96ed48d",
+      "source_format": "time_only_seconds",
+      "sample_period_metadata_s": 10
+    },
+    {
+      "name": "Exp2_3-HeatingRegulating_Amb20_Init15_Set60.json",
+      "path": "work/electric_water_heating_research_20261016/downloads/REGULATION_01/Exp2_3-HeatingRegulating_Amb20_Init15_Set60.json",
+      "sha256": "1365284429b2884bf3f9b1303533955f0e3229bb0b0cfcecd294a879a225c829",
+      "source_format": "time_only_seconds",
+      "sample_period_metadata_s": 10
+    },
+    {
+      "name": "Exp2_6-HeatingReg_Amb30_Init15_Set60.json",
+      "path": "work/electric_water_heating_research_20261016/downloads/REGULATION_01/Exp2_6-HeatingReg_Amb30_Init15_Set60.json",
+      "sha256": "dd0f077521c2f565a137d8acaf292226548a5cc71069fa39cc718b56e2c17518",
+      "source_format": "minute_truncated",
+      "sample_period_metadata_s": 5
+    },
+    {
+      "name": "Exp2_9-HeatingRegulating_Amb40_Init10_Set60.json",
+      "path": "work/electric_water_heating_research_20261016/downloads/REGULATION_01/Exp2_9-HeatingRegulating_Amb40_Init10_Set60.json",
+      "sha256": "c9c190e6deb3276518d5c493d20fc64d27d450154dd3ec2eb9a943e91bc6bc9c",
+      "source_format": "date_seconds",
+      "sample_period_metadata_s": 10
+    },
+    {
+      "name": "Exp2_9-HeatingRegulating_Amb40_Init20_Set60.json",
+      "path": "work/electric_water_heating_research_20261016/downloads/REGULATION_01/Exp2_9-HeatingRegulating_Amb40_Init20_Set60.json",
+      "sha256": "4ba92365fddf1f6a1d05eb015ba1cdcea9a2c46559dfaa1d0d607fe9e0ad1c93",
+      "source_format": "date_seconds",
+      "sample_period_metadata_s": 10
+    }
+  ],
+  "split": {
+    "training": "All4 JSON heatingreg files except Exp2_6 or Exp2_9 prefixes",
+    "test": "All3JSON files with Exp2_6 or Exp2_9prefixes (30/40C nominal ambient). Full datedAug18overlap stays together in test, not called chronologically later or independent site/events. Train includesSept andtime-only2files."
+  },
+  "time": "Preserve original file order. Parse declared datetime variants literally, no timezone inferred. For time-only labels,reset block on backwards clock (includingmidnight),do not inventdates. Reset block on unparsable row or any backwardstep. Minute floor of explicit source label. Retain LAST original row per consecutive file/block/minute,even if its sensorsinvalid;no selectinglastvalid. Inputs conditional on completed current-minute records available; outcome is last observed thermostat in minute+5,not exact300s physicalleadtime. No invented seconds for truncated clocks.",
+  "samples": "Everyminute-last anchor candidate. Previous5 and next5 minute anchor plus ALL11intermediate minute labels must exist in samefile/block. Current,prev5,target thermostat finite in0..100C;current B0-T0/B0-T8 andbothChamberTemp1/2 finite0..100;current heatingflag exactly0or1. Range is wide sensor quality,not comfort. No other operating/water/targetchange/residual/tankregulation filtering. Header/unit/missing/-127 fail relevantconditions. No imputation/smoothing/crossfile windows.",
+  "models": {
+    "B_P": "Tcurrent",
+    "B_TREND": "Tcurrent+(Tcurrent-Tprevious5minute)",
+    "M_LAYER6": "Tcurrent+OLSbeta dot[1,Tcurrent-Tprevious5minute,heatingflag_current,((chamber1+chamber2)/2-Tcurrent),(B0T0-Tcurrent),(B0T8-Tcurrent)]. Oneglobal6coefficients; eachwholetrainingfileequalweight,rowweight1/n_file; rcond1e-12. No clipping,regularization,hyperparametersearch,state routes or physical parameter interpretations."
+  },
+  "information": "No future heatingflag/power/water/setpoint/temperature supplied to predictor. Current flag is published observation,not verified command/physical power. Current energy not input because3heldoutfilecolumns arezero. No assumptionfutureheatingcontinues. TargetP/thermostat filtering never model input.",
+  "basis": "Original DataBrief110082/source sensor mapping supplies localNTCthermostat at0.175m plusvertical B0top/bottom; simple thermal balance/stratification and OLS model class supported by Buechleretal arxiv2312.04102v1 Eq4/11 andnodecoupling; their verticaltwoelementRheem parameters/control not copied. Our6coefficient statistical surrogate is not exact paperMPC/state-space reproduction or trueR/C/energybalance identification.",
+  "gate": "M_LAYER6 MAEandRMSE strictly lower than BOTH persistence andtrend: pooledALLheldout,eachof3heldoutfiles,andpooledcurrentheatingflag1. ReportALLfiles/flag0/worst/coverage/inputoutsideTRAINminmax onfailtoo. No absolute90percentclaim.",
+  "not_verified": [
+    "true energy/power/efficiency or physicalheatcapacity",
+    "storage/adjustable or guaranteed capacity",
+    "industrial boiler plus water tank transfer",
+    "futureactualcontrol/comfort/latency/physical300s horizon",
+    "independent devices/sites/events/healthyyear"
+  ],
+  "promotion": "Only actual positive independently verified finalcomponent may be curated. Failurestayswork,not automatic sixthresourceacceptance."
+}

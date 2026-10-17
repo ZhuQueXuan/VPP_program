@@ -1,0 +1,55 @@
+{
+  "status": "plotted_all_968_source_labels_no_model",
+  "source_sha256": "170fd56d0ee64ab2c0f9169c99821022e84b74945b7495f34c93bf4eb9f7796c",
+  "summary_sha256": "e6559ea42aed3c59c5e139a9dee0b94a85145993c03e3243b04d08dabad7ddc6",
+  "plot_script_sha256": "5d511fa315085d9ea96bf40a55ab6f5266712cc90820f31299404bf14b7ec93b",
+  "matplotlib_version": "3.11.2",
+  "plot_sources": [
+    {
+      "file": "Exp1_4-FullTankDIscharge_60_4LPerMin_NoHeating.json",
+      "rows": 468,
+      "temperature_plot": {
+        "GeyserWaterThermostatTemp": {
+          "raw_rows": 468,
+          "sentinel_gaps": 0
+        },
+        "InletWaterTemp": {
+          "raw_rows": 468,
+          "sentinel_gaps": 29
+        },
+        "OutletWaterTemp": {
+          "raw_rows": 468,
+          "sentinel_gaps": 14
+        }
+      },
+      "water_points": 468,
+      "energy_points": 468
+    },
+    {
+      "file": "Exp1_4-FullTankDIscharge_60_4LPerMin_WithHeating.json",
+      "rows": 500,
+      "temperature_plot": {
+        "GeyserWaterThermostatTemp": {
+          "raw_rows": 500,
+          "sentinel_gaps": 0
+        },
+        "InletWaterTemp": {
+          "raw_rows": 500,
+          "sentinel_gaps": 0
+        },
+        "OutletWaterTemp": {
+          "raw_rows": 500,
+          "sentinel_gaps": 0
+        }
+      },
+      "water_points": 500,
+      "energy_points": 500
+    }
+  ],
+  "png_visually_reviewed": false,
+  "svg_separately_rendered": false,
+  "outputs": {
+    "draw_observations.png": "d8fd56141e51631255a4ce2a1701f7b9ec912e3f77db2314c0cb4e967c615737",
+    "draw_observations.svg": "93bf855218d5d60fb85bc50bccc69f6451a9d5ed9d99990e13668e2a542843b5"
+  }
+}

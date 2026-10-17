@@ -1,0 +1,3167 @@
+{
+  "purpose": "Research snapshot through D071, not all historical workspace edits",
+  "branch_before": "main",
+  "head_before": "8680c0ab80250215d4c1b4afbc3b340ad9088492",
+  "private_remote": "https://github.com/ZhuQueXuan/VPP_program",
+  "exclusions": [
+    "unrelated historical moves/deletions",
+    "original downloaded data and raw/point-level traces",
+    "runtime environments",
+    "third-party colleague original bundle without redistribution license",
+    "103 original PDF (reviewed locally)"
+  ],
+  "selected_count": 525,
+  "selected_bytes": 9165688,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 490,
+      "sha256": "7b3a19a5e6dbb122fc8eba749472e3875e77e9f18ff0a4ce7d3a51de26d0e4bc",
+      "force_selected_summary": false
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 7078,
+      "sha256": "c834a80d2993f4a738268e099e8eea3db2cb6ce15b0e05e6009a643d90ee1862",
+      "force_selected_summary": false
+    },
+    {
+      "path": "01_项目依据/课题一技术路线与模型设计方案_v1_20261011.md",
+      "bytes": 54772,
+      "sha256": "79311e075fe6bf06b741c454b882be2b3de475f485cfd9900110a1c216603919",
+      "force_selected_summary": false
+    },
+    {
+      "path": "01_项目依据/课题一需求分析与研究框架_整合修订版_v1_20261011.md",
+      "bytes": 46336,
+      "sha256": "72a545f8758bf7566d2410ec7e112595e06a4e9479dcb60550205ba69c802840",
+      "force_selected_summary": false
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 48857,
+      "sha256": "c705e1e042a11005729d42430ba5e237b0ef927cabba7b4addfa1de4f232aa87",
+      "force_selected_summary": false
+    },
+    {
+      "path": "docs/DATA_CARD.md",
+      "bytes": 126957,
+      "sha256": "c09312cf298c8355b1c5b1b6026cdcf1a8e987b5a96b1276cd56f0d5bbf02db9",
+      "force_selected_summary": false
+    },
+    {
+      "path": "docs/DECISION_LOG.md",
+      "bytes": 165688,
+      "sha256": "dea290bd3a6040530a6fec173bfeddacee9c42797dd861262386c912f026a78f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "docs/EXPERIMENT_LOG.md",
+      "bytes": 131078,
+      "sha256": "d1ed0b79560c7983a28e8cec2062a10c034d5337d891639ba318263ac1ebd319",
+      "force_selected_summary": false
+    },
+    {
+      "path": "outputs/ROADMAP_v2.md",
+      "bytes": 44687,
+      "sha256": "767f4c9a12af77554e0da7a7ed9f9de64eca37d2f1ebb70bce9b1476e0a2ccc1",
+      "force_selected_summary": false
+    },
+    {
+      "path": "outputs/第一阶段两周执行计划_v2_20261013.md",
+      "bytes": 40073,
+      "sha256": "c3c720d8d0a3fbe5364d6669576085d2fb33677649a82c3d7e3473f47ee229f1",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/README.md",
+      "bytes": 6431,
+      "sha256": "4dfeee78cd54222a52302aca9bdc10dc9e41d84c68beed7985e46fcf54464964",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/air_conditioning/README.md",
+      "bytes": 7132,
+      "sha256": "4526da81881784333d41fcb262384aadfe7d5360e081cb211ef2a5a882db54cd",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/air_conditioning/code/room_temperature.py",
+      "bytes": 2030,
+      "sha256": "497dbcabae20d0b0cfbf4774bbc98e31665699531e6afe4e854b6adb17638805",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/air_conditioning/examples/constructed_inputs.json",
+      "bytes": 555,
+      "sha256": "676c54fb03e469849117366e3551979b5a12ee278a03d37c27ce6aa5da267267",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/air_conditioning/parameters/dual_zone_temperature_v1.json",
+      "bytes": 1808,
+      "sha256": "e33ea60c50a2ef02bb304647d5df9f4b91ffbd5cc75b93ca27ea111081ebc34f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/air_conditioning/results/basic_research_acceptance_v1_1.json",
+      "bytes": 6908,
+      "sha256": "8d8caadeac9c700da31068af1bad745cbb8d26e21fed1a2d7de21b248441f4b7",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/air_conditioning/results/characteristic_summary_v1_1.json",
+      "bytes": 18893,
+      "sha256": "fccad030c0179135969a545c710ac52acc47f8cf95e2ddcac62bbcc2a77f374d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/air_conditioning/results/evidence_summary.json",
+      "bytes": 1626,
+      "sha256": "bc485d725fb1556d3bf8c75a748254c0b522daa91109a2960550113b27d40ecc",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/air_conditioning/results/release_validation_v1_0.json",
+      "bytes": 1967,
+      "sha256": "c9fee8b0dc9d961abe3bbb7b9c587809aed3c6e2b5d380c0cc2e4548bbc0ed1d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/air_conditioning/results/release_validation_v1_1.json",
+      "bytes": 4059,
+      "sha256": "769308c0a5e821e3b8ce6cba98d76d53a5c0c6453cd7e6c5d40368b92511b468",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/air_conditioning/results/test_temperature_curves_v1_1.png",
+      "bytes": 603190,
+      "sha256": "4f6f23dd818e9183dc8f7177d49e62e658e4bb46a768a539556c670bd1d31441",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/air_conditioning/results/test_temperature_curves_v1_1.svg",
+      "bytes": 283686,
+      "sha256": "c0e0626b4888abcfa0e9e441b3841a29ebc216490bbd00875d7d9a2eb0b78236",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/air_conditioning/results/validation_metrics.json",
+      "bytes": 11192,
+      "sha256": "6fe94e7a88002cfff01c9f0fc079b9bc35118d8e1a15047e7a1b84ee51cc85d3",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/air_conditioning/run_example.py",
+      "bytes": 628,
+      "sha256": "92b14f81e7a2d84691bf2acff5884e812eec637ef5580ed852798d4378043125",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/air_conditioning/source_manifest.json",
+      "bytes": 2375,
+      "sha256": "06713c48a5cd15a12124f41afc4d05f1f493c2f44c5dd486216cd38463e7e8d4",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/air_conditioning/运行示例.cmd",
+      "bytes": 251,
+      "sha256": "1a85b213ef42d40cbd8c17f3e1b740f7770b8a2b2bd7ff7a0fa4048a3ea854f6",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/README.md",
+      "bytes": 10407,
+      "sha256": "2cac741af91c37fe7063a72dbfbf0006b5412da751bb0c98022f2d011484d391",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/code/clear_sky_forecast.py",
+      "bytes": 4117,
+      "sha256": "1a42eed0449c8e82e8813367ae65632d705e5dbbca2e16051e60962c8f934028",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/code/dc_power.py",
+      "bytes": 2395,
+      "sha256": "699726a771e5b531115ef98d1451386f3847c2fd46cba69207d5df341d4eab3d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/examples/constructed_forecast_inputs.json",
+      "bytes": 200,
+      "sha256": "9bb0df1ea01c9e1340426b98dafa7c93c515e1a2b7b85bb53e8ca3d2fa4b04a5",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/examples/constructed_inputs.json",
+      "bytes": 257,
+      "sha256": "11dd74f3e24ff285410de4427385c2b4b9b145a15f64baa73a80dc2656fdd132",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/parameters/iea_supsi_mono_si.json",
+      "bytes": 686,
+      "sha256": "1807a384e8d14a4f9cd1faa3b8736b913bc3db9a93ca1c4cf91fe06ba0c029a4",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/parameters/pvdaq1239_smart_geometry_v1.json",
+      "bytes": 1085,
+      "sha256": "47d845e4c22be5559e384d1470faea39ee6acb7d83a971f6101b9a0644a238f3",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/requirements_forecast.txt",
+      "bytes": 196,
+      "sha256": "314ebb70b225fdf769325aa602558ef8182ae4dc03f49919353073d832ce937b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/results/basic_research_acceptance.json",
+      "bytes": 4857,
+      "sha256": "7d6f27ce204addd876827b309a4734ab2bce3ac5af7f67569ae304b4d0084eb6",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/results/crossseason_coverage.json",
+      "bytes": 4035,
+      "sha256": "1909adafb33da78c528e91a84b5a9cea70957aade3e9c1ae107e510b1b3c339b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/results/crossseason_forecast_bins.json",
+      "bytes": 6601,
+      "sha256": "8f6d00045aedc664f9a508cd5c1988abbffe3f3cb100a54be5d473eef6a00d5f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/results/crossseason_forecast_group_metrics.csv",
+      "bytes": 7835,
+      "sha256": "78ecf2d59263cd8ba9bfcd45af1a019cc285b72fcaa5f035711b33bff90572b9",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/results/crossseason_forecast_summary.json",
+      "bytes": 8596,
+      "sha256": "3d043f541e784479597e68002e4b5777b0c694927757d0670ca46d3a8396c667",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/results/crossseason_source_profile.csv",
+      "bytes": 543,
+      "sha256": "585448b06fc29cab4b62ad0b41d2e40cf2501417ce03de5029b4f9a49be769ae",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/results/monthly_metrics.csv",
+      "bytes": 15768,
+      "sha256": "ae733069e47ce18b91f7f57c12f902e3bd577d7c8398d2e9aa73e56a7e3015b3",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/results/release_validation.json",
+      "bytes": 1147,
+      "sha256": "997d29a46baa8a5f1d682fd68f3423a8e158ef9b0b9194aaa4ae619d88c697d5",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/results/release_validation_v1_1.json",
+      "bytes": 2625,
+      "sha256": "04c70368db84640da957f871a3bce52a37bc8cbd621ee01b973a80acd9a6fbc1",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/results/release_validation_v1_2.json",
+      "bytes": 5486,
+      "sha256": "4f8f05faca530b3f0ce99e402e8d86d7f506039589d9d830dc8a31d1c7446604",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/results/smart_forecast_daily_metrics.csv",
+      "bytes": 19298,
+      "sha256": "37ec82a0de30045d1a5375d2311afbef9f5d5ed687f97142150e47a94c58df27",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/results/smart_forecast_summary.json",
+      "bytes": 8104,
+      "sha256": "e2432567bd8193110759821f2b1266834c65831868bf38a29b25d3b787d1705a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/results/validation_summary.json",
+      "bytes": 6915,
+      "sha256": "ef38c2749c502ec38536552e44421b7d0a975221cb27743d614a8ee90715b37b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/run_example.py",
+      "bytes": 833,
+      "sha256": "3807d3ba34b61b12a0c632b61daf7599202e337839e0f427584b89a65c6e0c9a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/distributed_photovoltaic/run_forecast_example.py",
+      "bytes": 885,
+      "sha256": "8953bd0b68c950d60131876d123ce8ba6ab3bd596418ef8c18b92fd49c97cf78",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/electric_water_heating/README.md",
+      "bytes": 8644,
+      "sha256": "cf7f8a586c701b3fe65befa1cbc39b977c0d551b979c9cb16cbc14b696631c1c",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/electric_water_heating/code/water_temperature.py",
+      "bytes": 1557,
+      "sha256": "28b585dbe4873850d862b0aa80b329a35fee6b337a452d82efdc5bfa1f7c3f7a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/electric_water_heating/examples/constructed_inputs.json",
+      "bytes": 719,
+      "sha256": "4f21657909c7190038b99782fe0e88361323bee818ee51ffa9d0ccccc510fddd",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/electric_water_heating/parameters/horizontal_150L_temperature_v1.json",
+      "bytes": 866,
+      "sha256": "ba8b66101a08f1f220ba91630a6d9b88f383cb13fb6fd09682b0deba74f4fa4b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/electric_water_heating/results/basic_research_acceptance.json",
+      "bytes": 2565,
+      "sha256": "4eefe4a1de986e2ebcb06a50adb317ff49b4d74efd6ec6c432e6122d7702e0c3",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/electric_water_heating/results/diagnostics.json",
+      "bytes": 2221,
+      "sha256": "4d564f6fc8bf5832be276cee1b20b6e8f8433edcf39db73efb3720311ccd86d6",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/electric_water_heating/results/evidence_summary.json",
+      "bytes": 3822,
+      "sha256": "8d5be4cfb1ed5f9bc14eca95961569fcf27f11f073f7b5e7fc373ec7bc02c44c",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/electric_water_heating/results/metrics.json",
+      "bytes": 5033,
+      "sha256": "d2a8a0f3af321a6c9a8fb55befbebe25b05edac320485a09c5b795888c2b60bc",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/electric_water_heating/results/observed_characteristics.json",
+      "bytes": 7608,
+      "sha256": "30664667d6d9df6a970743cfbedf103a7701a50dff32f6dee3e0e9a16717b282",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/electric_water_heating/results/release_validation.json",
+      "bytes": 3438,
+      "sha256": "fff2dbe4c436b268e5939b6d1f432ee253c8635cca65468768ad777bf06f12f1",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/electric_water_heating/results/temperature_characteristic_protocol_v1.json",
+      "bytes": 666,
+      "sha256": "8f5b3e0995bc9a4e58eb45f35889068df8993dc736b0d64f18a69ac26e68464a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/electric_water_heating/results/temperature_protocol_v1.json",
+      "bytes": 6485,
+      "sha256": "5f75213a7d757989ee3f73e47194a4098827bc80bb5bf6aa5d240776e131bfa0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/electric_water_heating/results/test_temperature_curves.png",
+      "bytes": 257905,
+      "sha256": "10f20e06616f5dca8cffc90235b6bba04c57cae9760aef52cef8c9c818b01cb4",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/electric_water_heating/results/test_temperature_curves.svg",
+      "bytes": 735339,
+      "sha256": "dafce18a6bdf60defe62ad8840f8e5c433e3c99eb008449bbdd94e88c4613e13",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/electric_water_heating/run_example.py",
+      "bytes": 839,
+      "sha256": "79ff5f5728ee2eda1a49287e8ce1a0cdd168812efbe352e09f43345b752402f0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/electric_water_heating/source_manifest.json",
+      "bytes": 4706,
+      "sha256": "1ee691aa8b02514ad1c38b43657700e6a82c0c9895cb49220c001af0f222fde6",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/electric_water_heating/运行示例.cmd",
+      "bytes": 265,
+      "sha256": "e7f68ead2d32b21187eaecf3e81d18f93f20376c9dacf570b210ad8ee529cac0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/README.md",
+      "bytes": 12050,
+      "sha256": "dfaa224e9414630a9f0028a089fe6d4dc0146c3d85d69353d9c4f2a072cb31e2",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/code/common_command_mapping.py",
+      "bytes": 1798,
+      "sha256": "d928819a8dd88f6499eec0a5abc9c32560a565a59ef5b13c761be62561476c44",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/code/recorded_step_response.py",
+      "bytes": 3062,
+      "sha256": "87e79d727d404d349d3f088c4146f09f7d74887bcc10fbb8a347f5169f8bcda7",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/examples/constructed_inputs.json",
+      "bytes": 169,
+      "sha256": "e29df1c0b8da24bf1ed5fe192aeed936ccbfee0c0529e5b0cdaff001016eacf7",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/parameters/evtec_common_command_v1.json",
+      "bytes": 6849,
+      "sha256": "e2ea3eea8576f612b9c3c5bd4ad41639606ce5437cc288dbf907e0413ef5669c",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/parameters/recorded_step_definition_v1.json",
+      "bytes": 1299,
+      "sha256": "02fc38007ae31378e41a83c153651b9dc21835ae239cf61e7564ad0a8197b73a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/results/basic_research_acceptance_v1_1.json",
+      "bytes": 3970,
+      "sha256": "949b52625f2a62566a974773d9c7261c2cf9781893650ec590d480a560df8804",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/results/coverage.json",
+      "bytes": 17488,
+      "sha256": "297175f6f8a0512f895aa864106189d5677175c2b354305b67841468e16aa42d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/results/group_metrics.csv",
+      "bytes": 23794,
+      "sha256": "81081cdbfcc40dce44d4fdc5a5743bc792395fdcd371c71e5ad4af3aa43dac49",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/results/mapping_summary.json",
+      "bytes": 6771,
+      "sha256": "53a6c8252993e08367bf39c7cbea58ce0f125fa78993ec2a0ae40c8cf3abbdd4",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/results/metrics.json",
+      "bytes": 5521,
+      "sha256": "c2ab8b8d32a5b9f4f65c756e5a98c10092c5f8c43ccee8b4cb5f508e79b358f0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/results/recorded_step_coverage.json",
+      "bytes": 755,
+      "sha256": "b8714beb98aa1fe57320818ef56a70e9b41f37c11106e6a0980533a9a8447e5b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/results/recorded_step_phase_features.csv",
+      "bytes": 1449775,
+      "sha256": "ab46b2d204a9d651f6a9adb747ec9693492e22af1f408f0bcaf3e4e51f339879",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/results/recorded_step_recording_metrics.json",
+      "bytes": 58065,
+      "sha256": "9f802512c244015b7485fcd0666602e6822f039357a7cb3decb19b3eaf5c7c3a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/results/recorded_step_summary.json",
+      "bytes": 4353,
+      "sha256": "87b6d658849b6a2a8b9ec54fa8efb9de1f8debf6c8bc61843b1c17eab38118ba",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/results/release_validation.json",
+      "bytes": 3153,
+      "sha256": "1bb1abb121accab9cbf527526d92919765ef0e90b2c77da09521b83b6144e2a7",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/results/release_validation_v1_1.json",
+      "bytes": 4468,
+      "sha256": "c082c4626797951920abbde7a10963e0b9ff229ba445fa29df42cab159a98b28",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/run_example.py",
+      "bytes": 659,
+      "sha256": "1becf22acc2acf5d631f70c9d3a15ed617f272974e13a9b5696754b16bcf755a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/ev_charging/run_step_example.py",
+      "bytes": 500,
+      "sha256": "bd224c896575f4c8c806c792abad84ea59f8380baf2175298b78a741e3242f39",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/README.md",
+      "bytes": 5093,
+      "sha256": "bf33ca3719571864bd5e9fc44e8794e1c791377e9b8b0b172fc425cff83388cc",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/code/conversion.py",
+      "bytes": 3229,
+      "sha256": "7a140629bdafcc81f7b2e34d65419fb192fa3e4c5128544291986f0de2e76d77",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/code/log_power_forecast.py",
+      "bytes": 2001,
+      "sha256": "48015d75a4da204b3f093c2e61b435b0162cedc265358b489d27252c2719a05b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/code/third_party/LICENSE",
+      "bytes": 32005,
+      "sha256": "a97cc05d4a8fbab25d855209ccc7a34b4420b3cce531af4b59ef17c9304ef4c0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/code/third_party/NOTICE.md",
+      "bytes": 1101,
+      "sha256": "7ec7f7919d4fb1ac159232fef9eeac532de58c46e63b0584dce01c12606e69a9",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/code/third_party/__init__.py",
+      "bytes": 72,
+      "sha256": "9acac222a1c59b3bd41c07baaf4c10aaa2b66a698d28521096e1b06f8e75e32d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/code/third_party/thevenin_model.py",
+      "bytes": 4283,
+      "sha256": "06ebe5e59786b185b5010f0ebdac47217e14d37790e8bcf657e621201059d1fe",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/code/voltage_model.py",
+      "bytes": 4115,
+      "sha256": "246df043c3a7dc19a7dd56b69d85c0d49b87846b82cc33792997c00ab33ec312",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/examples/conversion_input.csv",
+      "bytes": 144,
+      "sha256": "69e97bfee7cc87c4d3ea02bd9f16de43a04b795f3ffc27a5991ac77f67dfa019",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/examples/log_power_input.csv",
+      "bytes": 69,
+      "sha256": "b2e9d9da7721bf73779a9d2472c79dbd18c13b45492fb410595aee98e504cec2",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/examples/voltage_current.csv",
+      "bytes": 91,
+      "sha256": "7eae88aee2ef53580cbfae02e695511fc56199a70937642dfbccbc01610bd2f8",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/parameters/conversion_m5bat.json",
+      "bytes": 2676,
+      "sha256": "604ee2e0f69ba02f08b305fa2d89b2090b5df519bb6493f87a280a0a97ae863a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/parameters/log_power_lmo1.json",
+      "bytes": 314,
+      "sha256": "89b35d66e1409bc1925f92659ec55bd91d8f25f813d58b99879384015265d6db",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/parameters/voltage_25c_ocv.csv",
+      "bytes": 795,
+      "sha256": "4611501ea0811c1ce038aaba655f71f491dd058c93e8a83aab9daf5772b20f65",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/parameters/voltage_25c_params.csv",
+      "bytes": 2804,
+      "sha256": "407629242ed04cbcf6d1b234552689ddbe976138af64b82463440300b980a401",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/requirements.txt",
+      "bytes": 41,
+      "sha256": "1a5e68f1803f5485b53e9242310eb2f3df009ed3cac6c1ed808ac9d688fe3551",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/results/release_validation.json",
+      "bytes": 2646,
+      "sha256": "14485f8be63d8ef5665aba6901d7d15a656c87d4f7379c05de6a2d3a9e777c32",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/results/validation_summary.json",
+      "bytes": 4191,
+      "sha256": "2cd3c4c206a8dd069def283e846bc05bd49d017133e00549c9eb733b9748594d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/lithium_ion_storage/run_examples.py",
+      "bytes": 1057,
+      "sha256": "ad4dafcdfade8817db395b04720c3136e5443936bb59658396355478a64f6b5a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/README.md",
+      "bytes": 8489,
+      "sha256": "0865e65741d9820cebe20f05a78aae77efaf46f2f88a1546e11eea3b592063fc",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/code/wind_curve.py",
+      "bytes": 1623,
+      "sha256": "00dfd41024a00d98db0fb80ece103bd89860968b9a22cdf93d1b1d5840a51f23",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/examples/constructed_inputs.json",
+      "bytes": 508,
+      "sha256": "1cc825b60b2869f0514a7ec5b28ad942a7fafbb13e56463426f4184f2261eff5",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/parameters/kelmarsh_mixed_curve_v1.json",
+      "bytes": 26329,
+      "sha256": "fbf6caa321979ef6e192f2072bd83b819391d3c1256469cd7902fb372d040288",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/results/basic_research_acceptance_v1_1.json",
+      "bytes": 2755,
+      "sha256": "3a26ec3884d0b4136e30c84318fe88dd90a5fdc76a58ee7d6818651e0aad1f37",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/results/characteristic_protocol_v1.json",
+      "bytes": 1559,
+      "sha256": "4669fd757f3a7c2c73be665a18c46236933ea0b7c4aa039da3a25995b713ebf0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/results/diagnostics_summary.json",
+      "bytes": 1941,
+      "sha256": "0596235c20ba3a3af66e00b3cfab8df074a42f0d013c8ae189b9e2f3a5fe4b43",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/results/evidence_summary.json",
+      "bytes": 3193,
+      "sha256": "b30634f3400cf545ebea2c955223742bc18ffc30164e04bfdbdb3c0c6eb3f6bb",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/results/evidence_summary_v1_1.json",
+      "bytes": 1608,
+      "sha256": "02144278340059a27383f22489584bb8877da5ba8edafd0e702a30e7fe3100b8",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/results/frozen_protocol.json",
+      "bytes": 5097,
+      "sha256": "6dd7e842d6b4da7d6332526021f30bdfbbeaee73d8e8d03eac012cf99343a475",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/results/observed_characteristics.json",
+      "bytes": 8243,
+      "sha256": "744d4fc4c107ecdd3210aacb0cb93527e1c70b14e03a12d030e2f71e9823489d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/results/power_curve_bins.json",
+      "bytes": 77001,
+      "sha256": "d4db66b38d7c7a7a0e2f9232db1e3d66a1adaf1a4bf1e6b61d4ad770c6ca3bfa",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/results/power_curves.png",
+      "bytes": 447328,
+      "sha256": "6c5877ea5a618a35f853114133863b973da038db08393b029e12ff3f5d820444",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/results/power_curves.svg",
+      "bytes": 246326,
+      "sha256": "4fcc6f195ceaab3a10b832e190c99116c1fa89de24ce7d2547e383b13c298705",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/results/release_validation.json",
+      "bytes": 2597,
+      "sha256": "e6c394d017baa0018d28cd3e9f2c9876c94f591b27ac241be50c0fb1f73d058e",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/results/release_validation_v1_1.json",
+      "bytes": 4331,
+      "sha256": "e2bb5cb0924aab66b600dc318aed4df443a2d8ae022f4b34b2bc0b502493a2a5",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/results/validation_metrics.json",
+      "bytes": 10535,
+      "sha256": "ed2f62dabc4286934c8b3e9485249cd194d0ac845c62f9d7f3e06d17fa55cffe",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/run_example.py",
+      "bytes": 1041,
+      "sha256": "c6d2861b7b12ac997e1d8ee3a9a622fe5e367770cf78926a31542974f167d78f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/source_manifest.json",
+      "bytes": 2008,
+      "sha256": "6aae60650999c58c75742b0fda748022b8937d0a282c47e0f3d06c28b208e5fc",
+      "force_selected_summary": false
+    },
+    {
+      "path": "resource_research_results/wind_power/运行示例.cmd",
+      "bytes": 262,
+      "sha256": "fcf396638a7e1c6d3ef58c96ece41ced4835595227e35578609f9e8a44d0272a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/README.md",
+      "bytes": 2658,
+      "sha256": "e21b1ea6171117103cdbe6440a4ccfd808ad38cdea4ded60213abc4e2c4acd17",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/README.md",
+      "bytes": 17100,
+      "sha256": "828c0cf67ed884524c0738da93f7a109eef73464f093b531e19edacc7c30179c",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/air_characteristic_freeze_v1.json",
+      "bytes": 149,
+      "sha256": "ee38f3e4ae607be67a5179b967e819bda83c467275f865f6899cbe06807b3a14",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/air_characteristic_protocol_v1.json",
+      "bytes": 4632,
+      "sha256": "c94587cf4bcc38fdfe3ed2aa07869ca49baa25494e8034a301d10d0e8a5f9a7c",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/audit_d059_delivery.py",
+      "bytes": 3304,
+      "sha256": "054777432e0492b5d83ec93242bc1d16cf31e182a6af53202326c2df749dfbad",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/audit_d060_delivery.py",
+      "bytes": 3719,
+      "sha256": "2840bed29f37d7f016ac660bf2581b0c32d92437f78fe0c02f47f2ee51301d9c",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/audit_d061_delivery.py",
+      "bytes": 4299,
+      "sha256": "5093d5bcfbf56baf0f44225cbbdf8e9421f36719f2e457b68cb9c054ef1eab0d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/audit_d062_delivery.py",
+      "bytes": 5004,
+      "sha256": "e935a0f423c6d41274ac15b68979f43fc59eedefbdf575910f9a04431bffdbb5",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/audit_d063_delivery.py",
+      "bytes": 5458,
+      "sha256": "5cf89e0156e205da8b19c047c17a4b3bf97d1beaaefb1db93619460dc27358e9",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/audit_dual_zone.py",
+      "bytes": 3531,
+      "sha256": "156919f72bb385061ff3432a0c6c7c335bb2009330d3a85c9b266dac6207fa21",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/audit_hil_ac.py",
+      "bytes": 4544,
+      "sha256": "f4c0ac3eced29b849d85f88fa9b069a7a58c89cdc4d04c681f35f36771ee5771",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/audit_pleia.py",
+      "bytes": 7383,
+      "sha256": "43f134631d99154bcb10bcb9f4211019349bfaafa8754d06dbd841b3adbfac1d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/audit_splitsmart_preview.py",
+      "bytes": 4362,
+      "sha256": "92bdc948fbd8743cd08f2d49089768eb588f32eea5eaf28af76c3cffb1afd921",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/characterize_air.py",
+      "bytes": 3674,
+      "sha256": "930156b33ceb9750ebde8bd3e1db1e987702b2ac153718bbfb96b2c5ad6cedda",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/check_hil_documents.py",
+      "bytes": 1851,
+      "sha256": "49c8289bf77cd2081255787a41c7ddb295bb861236afd393bd181eeb5cd62bdf",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/close_air_basic_package.py",
+      "bytes": 10483,
+      "sha256": "d8e3bc4c61a8c36acee60c86bc07c929ae06b204f75ddfe3117fa1dcf5a5fbff",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/common.py",
+      "bytes": 607,
+      "sha256": "629806394830222ba10f90db0e086d9893c8558ac6c1add2ac129bc68b8fbf47",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/control_candidate_plan_v1.json",
+      "bytes": 426,
+      "sha256": "f1bf8f0897ba62d73604b9266bd84a8d0bc3adbccd099f42ef39558c11c999a4",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/control_candidate_status_v1.json",
+      "bytes": 1615,
+      "sha256": "838721626048bba86ed112662cacbc7b0846c3f2320dece1612c0a804f0929af",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/control_candidate_status_v2.json",
+      "bytes": 1976,
+      "sha256": "dbb57a4a086e8cea0053ee9176c8a12a651891535086556a2c5a2abf4226559a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/control_candidate_status_v3.json",
+      "bytes": 2846,
+      "sha256": "3c9644a4f9f0b7534429f948709babdf44fd32dc84b74da5c1f8456f736acc84",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/data_plan_v1.json",
+      "bytes": 396,
+      "sha256": "7212cf88c2f80b7503ba9fc36ce0cf39f745d95f288d4edd766d4e0f55b61703",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/diagnose_temperature_support.py",
+      "bytes": 1643,
+      "sha256": "fcaf930ecec30f1e4d3621cce5704271bb6b625d7f38b0b1d6f07df3b98f1a8f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/dual_zone_data_plan_v1.json",
+      "bytes": 3052,
+      "sha256": "37b767391b47b50e36bc2486d568a2dc82e8ccb5fcf57a5ac4f1f140bed20088",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/dual_zone_freeze_v1.json",
+      "bytes": 148,
+      "sha256": "b3a739afa0b17187abc2a9422926237d905c66894325489b461211723f5891bd",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/dual_zone_kernel.py",
+      "bytes": 1037,
+      "sha256": "cd86e5ad3c364140b20297faf2a74010909b26777d169a1656631b2f9d8de9bf",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/dual_zone_metadata_plan_v1.json",
+      "bytes": 351,
+      "sha256": "1b4d10823d5f6461c8bde5b2b112dc5d66dff1287b3ad5f551beb768bb7764d8",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/dual_zone_paper_plan_v1.json",
+      "bytes": 586,
+      "sha256": "f9821b0c321979ada96dfb314d4caa7bb8dc01e40603fdbb9c6ec7e7ae272d00",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/dual_zone_protocol_v1.json",
+      "bytes": 6416,
+      "sha256": "32dc0d8a57e4dad8ce84eface039daff5226eb4ca3671d1608e151dd7533cca4",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/fetch_matched_sources.py",
+      "bytes": 2497,
+      "sha256": "6447f71a9f275659a67065fa56b6f80da5cbf5918a008ace46a6794308ccc298",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/fetch_sources.py",
+      "bytes": 1955,
+      "sha256": "d7afc3d3cb044a13c254cd06cf942912e2fbec947d9b3ee40d6bee0ee3210ed4",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/freeze_air_characteristics.py",
+      "bytes": 2924,
+      "sha256": "ba0b938fdf49dc42104a16e7546206ee97e2c616fdad71d2d02a28072c878658",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/freeze_dual_zone.py",
+      "bytes": 4793,
+      "sha256": "6803174237274d9faac58fd0df60fbe0454e613d9f6d983f17b616633c7d7aa7",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/freeze_hil_diagnostic.py",
+      "bytes": 2613,
+      "sha256": "7c0c0d69b47a22544714999abead27ceadfad47a40123ba4df589d767968e4fc",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/freeze_hil_power.py",
+      "bytes": 4326,
+      "sha256": "6ff4bc4ec1612130127e92307cfaceddda099706b9911d8423862178cfb91373",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/freeze_temperature_baseline.py",
+      "bytes": 4201,
+      "sha256": "78cfd19239717c7da99ffe94a9de27471670abd6fd236eb7a80ed974a188fc5b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/hil_data_plan_v1.json",
+      "bytes": 1459,
+      "sha256": "caf2ec138254a7a0b7d937117b242898d549c57bde3506cc4afbc5ff54b09c6f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/hil_diagnostic_freeze_v1.json",
+      "bytes": 149,
+      "sha256": "e107c56ea4d2f8f925ade9077ae3f29cefa78e423e611d89f8180188360037e7",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/hil_diagnostic_protocol_v1.json",
+      "bytes": 3544,
+      "sha256": "bb06fc5d7cc3b5a257bed44ef041c7bfaae46e959aed87387e3a40c1295e954f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/hil_power_freeze_v1.json",
+      "bytes": 238,
+      "sha256": "c10ade575cdf6c9c7dad15dc1fd708eeabfb0a8595ea9505daf106fd66679f88",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/hil_power_kernel.py",
+      "bytes": 789,
+      "sha256": "0aa1c3c2897fb3852525b6961d2b2d54c86dabe4644f602b4159978ffd238fcd",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/hil_power_protocol_v1.json",
+      "bytes": 5976,
+      "sha256": "fec13b94cf0db70579a8f3a335bfc8cb0c06c6dd1c7246668ecedc5458f3d6f7",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/inspect_archive.py",
+      "bytes": 1880,
+      "sha256": "f07a553c9741dc229544d994151ded204459362c26877b8cb0ad0106798b8a64",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/matched_source_plan_v1.json",
+      "bytes": 644,
+      "sha256": "b2db62494edfd2c9e1e0e3e9cf0ed0d52650b073ace0ffe4a869c62c10311765",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/package_dual_zone.py",
+      "bytes": 3678,
+      "sha256": "4f7048dc6cf83303367fee0d6a3c7a8d9a105f16cfa9dfb8291511052e298980",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/plot_air_curves.py",
+      "bytes": 5526,
+      "sha256": "3e689760250c6dd7b1943b5c814c3303f4bdedee646dae7d2a84798884930fea",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/plot_install_receipt_v1.json",
+      "bytes": 240300,
+      "sha256": "85407ba44628051254a123bc94a50130fbdac8b909fe4d64f6ece2be4a3df681",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/prepare_dual_zone.py",
+      "bytes": 2951,
+      "sha256": "67d56feb0f6562f19cdd16105418dfbb6f32a25d992aafcc87c31b77c67836d9",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/prepare_hil_power.py",
+      "bytes": 2540,
+      "sha256": "700c8061414d07fefc9d35919235cc0e929ab6e2274fa30006ec4cd7c60b4a92",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/prepare_temperature.py",
+      "bytes": 5597,
+      "sha256": "66868b3b01e6eb308ca3ae92efc66554983e00d056a515f2a25485c6d66b0ab3",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/preview_splitsmart_headers.py",
+      "bytes": 1881,
+      "sha256": "d5c7c62da2151f49162e77b5bb7765cecb6502fe1eb9f625c39261d9abb26d63",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/release_air_v1_1.py",
+      "bytes": 3793,
+      "sha256": "76afe89d0177baefb1556d6d4f71322e047e9a81af04b11324dfecc78d712fc6",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/research_scope_v1.json",
+      "bytes": 2016,
+      "sha256": "9a3f01dc9b152305d2340d60779de3db7b40b5106449877cf79c602494b128b4",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/run_dual_zone.py",
+      "bytes": 4519,
+      "sha256": "84e19e78a3bed0601def4a1ba7cd6cf02f12d2bdb5dde398c2631d71d95a9b62",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/run_hil_diagnostic.py",
+      "bytes": 4368,
+      "sha256": "81d185958f68969d8bd3d423dbe321c72a3e2481498c263a29c5a6d427a2cfc0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/run_hil_power.py",
+      "bytes": 4780,
+      "sha256": "f554963057223b7a44c41963986a5f6e973b49aacc70ff9d08b5bf6f657d0cb3",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/run_temperature.py",
+      "bytes": 5693,
+      "sha256": "1be571657fe49438609993289e3f0dbf93c0d4cb3247df8426ccb15948aaa8be",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/shifdr_metadata_plan_v1.json",
+      "bytes": 503,
+      "sha256": "62145199db82920daa39d9d2a124b1d22ca43b94f15a31af7f6da05139689ba2",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/shifdr_subset_plan_v1.json",
+      "bytes": 438,
+      "sha256": "6c02400e8e9ccac19761c962f529280d7d4ecab548ca8dcf974994d2ef8e9d6b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/source_plan_v1.json",
+      "bytes": 431,
+      "sha256": "5f6d6060a5a931cb385a2dfeba70863d257e78d1d7e0fa0cb43d74b99e70fad2",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/splitsmart_preview_plan_v1.json",
+      "bytes": 967,
+      "sha256": "8d9e9340821167e838558a5eb1f3e5c5d95d677fed8f816e579f38db30c14561",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/temperature_freeze_v1.json",
+      "bytes": 223,
+      "sha256": "55e9a537c380257de8a515f1b5a4410bdc3b31964f5153f28048264d73554e0e",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/temperature_protocol_v1.json",
+      "bytes": 5588,
+      "sha256": "adc0deb406665804b7e87955a41b2869216d637c7c220cf00ed2544ff1a6016a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/update_d059_records.py",
+      "bytes": 17731,
+      "sha256": "24d5afc4e209d516e63dd6d7ba21bb3169afc2fbd612068f8a062f2dae618918",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/update_d060_records.py",
+      "bytes": 18372,
+      "sha256": "9aa174cbae7453f37483c72693d63eb8f64eeadcd8cafc23844b2128a8acd301",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/update_d061_records.py",
+      "bytes": 13402,
+      "sha256": "a72cfe1d396375f6c184eddb205b50684b6c2808e4d2ced7815b43feb7201c17",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/update_d062_records.py",
+      "bytes": 15704,
+      "sha256": "5d6210ca6de0a9f472cd1ae0dbcca25d209e55844d87bd8ed49d63e029225f2e",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/update_d063_records.py",
+      "bytes": 15441,
+      "sha256": "02939d3367b398926c81210556711946364634e5fe0d1d021eb11e0e8021d610",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/verify_air_characteristics.py",
+      "bytes": 4795,
+      "sha256": "c7d0637ef418cf18962b01c57e9d9bee0d1d798f34e170e01d40b8c33457436a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/verify_dual_zone.py",
+      "bytes": 6763,
+      "sha256": "ac8a8dbc35863c2f0040debf0b2ca14cac169cf6da22b9b7be21c4338ad3b4c2",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/verify_hil_diagnostic.py",
+      "bytes": 6351,
+      "sha256": "5f8462c320bebb430d86581617d342c392b6c13aa7c35fcd6a24047ac70f4112",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/verify_hil_power.py",
+      "bytes": 6378,
+      "sha256": "588e98027aaef96c422ba617dbd85ba3f00be3fb53581d893bb21bbf559954d0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/verify_packaged_dual_zone.py",
+      "bytes": 3486,
+      "sha256": "17fda139dcbec0eb60abff3ea91b6e60582ab0d7e07c657a6c134d113e4bddc8",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/verify_pleia_sources.py",
+      "bytes": 3396,
+      "sha256": "faa1759f3e13dd4b796a5961807147fd1c8a22cb96328a3f52761a85eabf1a38",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/air_conditioning_research_20261016/verify_temperature.py",
+      "bytes": 8737,
+      "sha256": "230ac0bca7e1a363345bbc4b823d88604c0cba163b6fd1d7b33d4f4f5713f990",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/README.md",
+      "bytes": 9012,
+      "sha256": "a4aca400818361b26e61a9a9cc40e8caa182d0b8d29bb0ae14bd835c51f7e59c",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/audit_draw_evidence.py",
+      "bytes": 13046,
+      "sha256": "f5fe53d178ff276a66e8f3435bd1955ed02602641b095d120199b06c20762b5d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/audit_final_state.py",
+      "bytes": 3293,
+      "sha256": "ab6235c2b31e109a6a12686ab56a15aefab0dac2c9a1d809f3360ce1549a90bb",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/audit_sources.py",
+      "bytes": 5240,
+      "sha256": "3d384bf22e51bb418dcb47fd90c1f4831e7af0b2ad5c7ae35f866d6a20dd7b2b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/clock_candidates_plan_v1.json",
+      "bytes": 1258,
+      "sha256": "d4dc9e2ee509271bc4dd189fd3f925827f1b559e0e6c9fbd544254ddbcad07a0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/common.py",
+      "bytes": 524,
+      "sha256": "40f8f6b5fb97ec65a0ed43f6692c9dee6cadc85be58cc416e5e5e6fd0a6f78c9",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/describe_temperature.py",
+      "bytes": 4529,
+      "sha256": "4981d0925a42386ffdf31b9efd5f1356cf4caf64a5d2da7c246c2fef3d7bd0bb",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/dictionary_plan_v1.json",
+      "bytes": 1728,
+      "sha256": "507d703d8258e9adb37eebece678326208cbaa1e41c811c56161fa592660e80a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/draw_admission_v1.json",
+      "bytes": 2285,
+      "sha256": "6cadc8545d2ced8bf8cee15a0b7ad2cf7c1ed4c9ee4e2610093e40d5142338a7",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/draw_evidence_protocol_v1.json",
+      "bytes": 3739,
+      "sha256": "bd5b1ffc67e41345c9703639741ba8264a9881758facbaca0d13d53a9c25966b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/fetch_sources.py",
+      "bytes": 1922,
+      "sha256": "a99080f7a2d0e011db43d689f46ea03dec3897f90557c70a06a179773810a63f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/freeze_temperature.py",
+      "bytes": 4120,
+      "sha256": "573c15f08187bbee8910a4f52b0121bc2025392a0604712ea288725e705e34a6",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/package_temperature.py",
+      "bytes": 7390,
+      "sha256": "b522102e92487edb829e876aa687f5b4d2ca5aabaceecc506cab592bd55b493e",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/plot_draw_evidence.py",
+      "bytes": 3314,
+      "sha256": "5d511fa315085d9ea96bf40a55ab6f5266712cc90820f31299404bf14b7ec93b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/prepare_temperature.py",
+      "bytes": 3923,
+      "sha256": "8499d8f3a405ce80300e520322bfbcf86bf0ab3ccb60317f8e127a14934f6c32",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/raw_clock_plan_v1.json",
+      "bytes": 494,
+      "sha256": "647b936ea8a7d2066895c00d7b1673b272d65eddb132f67bbbc16ab01ea368c3",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/regulation_plan_v1.json",
+      "bytes": 2834,
+      "sha256": "beb66eceb4add6aaf2faf75e53505acb4592a496b4c2569e38073bf8f7c8c278",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/run_temperature.py",
+      "bytes": 3902,
+      "sha256": "555fc7e3cbc28eabef018fa2aca38bd3403f92f5e83d09d8d4d962567227c5a0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/runs/DELIVERY_QA_01/receipt.json",
+      "bytes": 1463,
+      "sha256": "d6bc87dd8f58315c44c9a8b6279bf334495e5f5ecbdbe40f4e7a7131a3f461ef",
+      "force_selected_summary": true
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/runs/DRAW_DESCRIPTION_01/draw_observations.png",
+      "bytes": 323715,
+      "sha256": "d8fd56141e51631255a4ce2a1701f7b9ec912e3f77db2314c0cb4e967c615737",
+      "force_selected_summary": true
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/runs/DRAW_DESCRIPTION_01/draw_observations.svg",
+      "bytes": 237169,
+      "sha256": "93bf855218d5d60fb85bc50bccc69f6451a9d5ed9d99990e13668e2a542843b5",
+      "force_selected_summary": true
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/runs/DRAW_DESCRIPTION_01/receipt.json",
+      "bytes": 1700,
+      "sha256": "192c5bda2c5d02d11da3bbda74bcde245d2e781b87447832a7b4d0996bdb9c1d",
+      "force_selected_summary": true
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/runs/DRAW_DESCRIPTION_01/visual_review.json",
+      "bytes": 537,
+      "sha256": "75442e83dc024e0c827df7ed0a8033b1e9fddc8ad148663abb1763b3a6c3f2e2",
+      "force_selected_summary": true
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/runs/DRAW_SOURCE_04/dictionary_readonly.json",
+      "bytes": 3449,
+      "sha256": "9a073c370c327af9551b6cd6226edbf5e2522130d477334709feec31f188f96e",
+      "force_selected_summary": true
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/runs/DRAW_SOURCE_04/protocol_snapshot.json",
+      "bytes": 3739,
+      "sha256": "bd5b1ffc67e41345c9703639741ba8264a9881758facbaca0d13d53a9c25966b",
+      "force_selected_summary": true
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/runs/DRAW_SOURCE_04/receipt.json",
+      "bytes": 17685,
+      "sha256": "fccb0e5fe0957951f77c7f4ca89c4e05721c20590b3bf35cb72d2603c4a04921",
+      "force_selected_summary": true
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/runs/DRAW_SOURCE_04/source_summary.json",
+      "bytes": 99405,
+      "sha256": "e6559ea42aed3c59c5e139a9dee0b94a85145993c03e3243b04d08dabad7ddc6",
+      "force_selected_summary": true
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/runs/DRAW_SOURCE_05/dictionary_readonly.json",
+      "bytes": 3449,
+      "sha256": "9a073c370c327af9551b6cd6226edbf5e2522130d477334709feec31f188f96e",
+      "force_selected_summary": true
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/runs/DRAW_SOURCE_05/protocol_snapshot.json",
+      "bytes": 3739,
+      "sha256": "bd5b1ffc67e41345c9703639741ba8264a9881758facbaca0d13d53a9c25966b",
+      "force_selected_summary": true
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/runs/DRAW_SOURCE_05/receipt.json",
+      "bytes": 17685,
+      "sha256": "55a999949485d743b4266ab1843131f2ae37c11b740d71a50038251a514354b8",
+      "force_selected_summary": true
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/runs/DRAW_SOURCE_05/source_summary.json",
+      "bytes": 99405,
+      "sha256": "e6559ea42aed3c59c5e139a9dee0b94a85145993c03e3243b04d08dabad7ddc6",
+      "force_selected_summary": true
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/runs/VERIFY_DRAW_SOURCE_01/receipt.json",
+      "bytes": 25144,
+      "sha256": "dd4b17a5f1c1318406365870ea08da0f036206af167107b1c9a6c19dd855a298",
+      "force_selected_summary": true
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/source_plan_v1.json",
+      "bytes": 555,
+      "sha256": "ee454da200297987e54ec604ce03556ee74316e4d2ae2e5ce11a552f9b1f35d9",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/temperature_characteristic_protocol_v1.json",
+      "bytes": 666,
+      "sha256": "8f5b3e0995bc9a4e58eb45f35889068df8993dc736b0d64f18a69ac26e68464a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/temperature_freeze_v1.json",
+      "bytes": 135,
+      "sha256": "64dcbe783264694801013ae261653dc4b06be98d47c22edfb4163a444537f7e5",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/temperature_kernel.py",
+      "bytes": 1557,
+      "sha256": "28b585dbe4873850d862b0aa80b329a35fee6b337a452d82efdc5bfa1f7c3f7a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/temperature_protocol_v1.json",
+      "bytes": 6485,
+      "sha256": "5f75213a7d757989ee3f73e47194a4098827bc80bb5bf6aa5d240776e131bfa0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/update_records.py",
+      "bytes": 16218,
+      "sha256": "f973c1b76464822072c7e0844c3708391631154d122eba9c62eaef1643f8791e",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/verify_description.py",
+      "bytes": 3637,
+      "sha256": "c0a2935882a3f3fc44236d0d653774e2b283e2635e0590671890be81a0d1b097",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/verify_draw_evidence.py",
+      "bytes": 22846,
+      "sha256": "5134a6e7166731ee7f98e1dbaa6529ed3b701afb0635d83d8b622e047fe3dc8e",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/verify_package.py",
+      "bytes": 4349,
+      "sha256": "1b8d3ca0239615ef9b54359984448afc06155eeb07868e228bd258ac99c3dce9",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/electric_water_heating_research_20261016/verify_temperature.py",
+      "bytes": 8113,
+      "sha256": "50916b1036af47ebadb3402d9f18fd908e3cb972187b3d490e5b13f2cf5cbae6",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/README.md",
+      "bytes": 10256,
+      "sha256": "d39dcd3864ed4b6146ac26ce080d0d5a2a3819e4a81aeac02d357a688a9f0120",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/audit_d058_delivery.py",
+      "bytes": 3081,
+      "sha256": "012d6078cca469aad122639c9eeab2d10beff5f0fa17e7c6d52e3191a7c85fd0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/audit_ev_sources.py",
+      "bytes": 9575,
+      "sha256": "f6f9a7027096103b1a02764b06e28dd355e917efe9f02d860a804ae10fa47655",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/audit_kit_sources.py",
+      "bytes": 4247,
+      "sha256": "41659960c873355c819b250fd6ed622593fcffea9dec311ddf392598051a9664",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/collect_kit_results.py",
+      "bytes": 5041,
+      "sha256": "2290d0c6a7fe656be89c32686b3c8f1926456ef70ec3357d866ba82a607b1a40",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/collect_mapping_results.py",
+      "bytes": 1785,
+      "sha256": "149fb84b2430beef3a5a55e490265464eff516b314fc34749cc223ec8959179b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/common_command_kernel.py",
+      "bytes": 640,
+      "sha256": "40cd68bf23b442eb5f2b526e2cfedd6c113daa1fea601543e7ee95ad55adc920",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/common_command_mapping_freeze_v1.json",
+      "bytes": 162,
+      "sha256": "22d45847ec98bdadbb8cce9a1a5261a5093db51021f085e5645dd5aa5807b3dc",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/common_command_mapping_protocol_v1.json",
+      "bytes": 6477,
+      "sha256": "8b3fb1bd4f4aa6fa2ca6cc2e53ec53d77c020d46bc07f07eb5b09aecf56e4c0b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/fetch_dictionary.py",
+      "bytes": 1503,
+      "sha256": "930ba7f8d700f975c44bc3f295077a8426bcb5844552786524afe4c07f637f7e",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/fetch_kit_data.py",
+      "bytes": 2030,
+      "sha256": "ee0226a23b2e205d2df3d1b30f504bb974922c4d341823f7b5409610b708f8da",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/fetch_kit_paper.py",
+      "bytes": 1022,
+      "sha256": "43202d52905ddc3486355cc9a4e2b5dde7317898cbb18d688f6add458f3c6619",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/fetch_next_sources.py",
+      "bytes": 1335,
+      "sha256": "14bfb38ae8c559b5911fdefcb183a6bbf9fc93740acb35ccc7162b60cb828771",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/fetch_sources.py",
+      "bytes": 1908,
+      "sha256": "43b4b76ffcd8f5560f906a270dd959bfa2dce12654aa087c88b7d5f07d74261f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/freeze_kit_steps.py",
+      "bytes": 5316,
+      "sha256": "92b9fb366c4d18ee559d20fe8ae748135f0e70b97750f102d728bfa547d2940c",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/freeze_mapping.py",
+      "bytes": 5942,
+      "sha256": "201f5a9ecf405a5d77a4a0faccea7e1fe83016cf8acc345933b799bd12e060e9",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/kit_common.py",
+      "bytes": 757,
+      "sha256": "0369caac3bea0a27a6d6f3d1dcc735f4dee696104f677ee035ef64ecf23e2fe4",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/kit_step_freeze_v1.json",
+      "bytes": 153,
+      "sha256": "98b0e829bbb78870c19f3dd8064d25f292b1c1c482e9276df9c8ba44fc5b1a17",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/kit_step_protocol_v1.json",
+      "bytes": 5983,
+      "sha256": "ad7b9f2dc4a99f7808c61e124394d3766ff6e0cb0b07bb782934d51f5862f9e8",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/mapping_common.py",
+      "bytes": 668,
+      "sha256": "3a57024b7e1039c1757f1d19fe25db61ab9f5dafbd224995bba5554653e63513",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/next_source_plan_v1.json",
+      "bytes": 840,
+      "sha256": "df80934067d117b940566902c6595de0a50109ac7a0716aa6dba90ff35f4844c",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/prepare_kit_steps.py",
+      "bytes": 4002,
+      "sha256": "356d43c8409690aa91c3dd7b286be795b5201a19124ad835c17ab02b72077630",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/prepare_mapping.py",
+      "bytes": 5549,
+      "sha256": "06cf358d8b39d944dff67fd6100424519034581b63d3a11036b18b0e0cfa0e2c",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/recorded_step_kernel.py",
+      "bytes": 3062,
+      "sha256": "87e79d727d404d349d3f088c4146f09f7d74887bcc10fbb8a347f5169f8bcda7",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/retry_zenodo.py",
+      "bytes": 1487,
+      "sha256": "cc9734b395bedd6f525867888b0b0fd52a695ef6daab3e82aa2c132371dba723",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/run_kit_steps.py",
+      "bytes": 4572,
+      "sha256": "62eebaf594f5f6e7bd98a6e19501cadef6a2020261b67ae4390546e5c8724de4",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/run_mapping.py",
+      "bytes": 6181,
+      "sha256": "d897a6baf21ffd3959877b995652624ecdcb5df7dc1cdb4e534f19d7c4dc5d34",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/source_plan_v1.json",
+      "bytes": 916,
+      "sha256": "199ffd4991f071d814975cc90cfd31305f2df47d9cff6b6e94fdab1cacd98a77",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/update_d056_records.py",
+      "bytes": 12386,
+      "sha256": "c3e1ab4727c5900429b185f9a7b4a0256be6096db216498a84e3805f9ee79fa8",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/update_d057_records.py",
+      "bytes": 22475,
+      "sha256": "e6e50aeede9462c78280dcba49645c74c76e554786311d187542efbc24152520",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/update_d058_records.py",
+      "bytes": 20255,
+      "sha256": "f4db15b7a6f06fef8545bfc499586b3871d3fad188f8791bb39b1d14c37e104e",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/verify_ev_source_qa.py",
+      "bytes": 4385,
+      "sha256": "82b9747258a6f27ee7c00ad65430e6c2a5965b1ac81c7b65805af8a2c397253f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/verify_kit_steps.py",
+      "bytes": 7699,
+      "sha256": "336ad9843e391016663c6d0e409c3527fcb02c9fe87504e8407bad036d1277e1",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/verify_mapping.py",
+      "bytes": 7651,
+      "sha256": "e973ae9a68635aebf1b9051faa99ea6797ca84803421da133ca5cac49d6c8f78",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/verify_packaged_mapping.py",
+      "bytes": 3093,
+      "sha256": "f5020f6c21a6fc7486fb0ee94868db2aaf43c87bfab9225cd78983383985bbbc",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/ev_charging_research_20261016/verify_packaged_steps.py",
+      "bytes": 4636,
+      "sha256": "1ac9bb3f09911b1b134a0163dce43874846724839b9001bc9c728884d611c563",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/README.md",
+      "bytes": 14942,
+      "sha256": "8bf3699f5c6f80deac6cc48da858e029e6f06558cc2eae66dfd195d6a2fbd059",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/audit_iea_sources.py",
+      "bytes": 6378,
+      "sha256": "f6c6ad3c526feeb08a7ec0299fc2c6e60c1a7abcd86de9f8855ff94a91a405e4",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/audit_pvdaq_sources.py",
+      "bytes": 9430,
+      "sha256": "516630183724b68fb76ee40cb48006ffc53c7f239b7e1ef4bd699d37822ba978",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/candidate_files_plan.json",
+      "bytes": 908,
+      "sha256": "8ada7ec1055315a63dbfbce54ed593d5c560a8e8b71c2a7d968b0b4e6833385b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/candidate_layout_plan.json",
+      "bytes": 819,
+      "sha256": "5c9a70fcf2dc63153cb1b4d000b82c340c01d948a1295a0dec8e4652c8b5c28b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/collect_crossseason_results.py",
+      "bytes": 4375,
+      "sha256": "2a733918393aa35acf68defb2e73b700d6242af44011afed0762cea23682dd19",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/crossseason_common.py",
+      "bytes": 1141,
+      "sha256": "5d6dba571027363dadb0abd10152610042b48121afb9f2336902073188baec55",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/crossseason_files_plan.json",
+      "bytes": 62442,
+      "sha256": "29cc39372ce8fd2b984a3f351b4a365ec3e0e8f59ef04f69f5f482e186803af0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/crossseason_freeze_receipt_v1.json",
+      "bytes": 283,
+      "sha256": "d5ae51b6032b0d2201ccdf3b18c38676b6875fa02b0d258330f4bc841ebd6a2a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/crossseason_layout_plan.json",
+      "bytes": 3582,
+      "sha256": "b5a8b9cbb28b2d2684cba69de0652b723e49a8357bd1ce3af111715776179f19",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/crossseason_protocol_v1.json",
+      "bytes": 6880,
+      "sha256": "f202ee39e8b62ff8340067b3c090e84a8a8256a52b7edc803a30cbe804f11c56",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/fetch_source_plan.py",
+      "bytes": 2203,
+      "sha256": "bf360459ac85508a610ad9d74924000d1c82a6c0c98827437cb0f3eaec72d847",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/forecast_freeze_receipt_v1.json",
+      "bytes": 241,
+      "sha256": "9417fb02635ac2e14ce2ba1b966aa2732ec0044ae9394198593a86a8d6c24af4",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/forecast_july_files_plan.json",
+      "bytes": 7672,
+      "sha256": "db10592e0b97ba3263280e6cfa8c2a42f4d7770c77f1af611386d12e67bb4795",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/forecast_protocol_v1.json",
+      "bytes": 26690,
+      "sha256": "3f0b60affc96d04b066477c29fd79ed7652021d163c525dbb4874972f9447298",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/forecast_source_layout_plan.json",
+      "bytes": 659,
+      "sha256": "24ad8ccc39e387746edf5bac605fac3ecbbc980ac82b22ba582fa29a5b0c7980",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/freeze_crossseason_protocol.py",
+      "bytes": 6288,
+      "sha256": "eea1d1aade72906bfc87e9abce890e8c979346b62d1d6f41b74850a2d63878dc",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/freeze_iea_protocol.py",
+      "bytes": 5269,
+      "sha256": "8b88d28655a7c5f8181f377c4abf70fd0737c144715b5b683f4a1e468c79d197",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/freeze_reconstruction_protocol.py",
+      "bytes": 5606,
+      "sha256": "1305b23ac98a39fb71cd48602688ef52e50954aa6e93b6b010fe382377682058",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/iea_component_freeze_receipt_v1.json",
+      "bytes": 326,
+      "sha256": "380e42610633c3cb43cf959ea67336cedd9b7a501781c3e937deae2bc6028026",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/iea_component_protocol_v1.json",
+      "bytes": 8985,
+      "sha256": "ef3217f6ad28f3b2f4c8cdc86aff99e7a93aae603b3c2ab95d73e2206e9a51c3",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/iea_initial_sources_plan.json",
+      "bytes": 769,
+      "sha256": "887891ae1eb6b8905dff791fef05ad2363ea6ee25fcae89253dbfaceeea14e1f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/iea_year_sources_plan.json",
+      "bytes": 1224,
+      "sha256": "3566d32d1ab8d6b64562d110699e92bacbcbf4dafa1056511f2766c0620f5027",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/inspect_pvdaq_index.py",
+      "bytes": 2676,
+      "sha256": "acd8aee9e007ecb40aa84e705102dd6f89fde3981785a91913abef8492717186",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/june_files_plan.json",
+      "bytes": 7480,
+      "sha256": "3bd12333d7801dd6ed30f0ed7f39e259b5fb80b0746769e5525df52d50eddf81",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/june_layout_plan.json",
+      "bytes": 623,
+      "sha256": "9f4a6b613a9c6e108d95196e836794e67fd8ca0f495c67d349d9858fe001b5ad",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/metrics_layout_plan.json",
+      "bytes": 225,
+      "sha256": "c4995f402e0f46904966a8f4f84452791355a3050545fdfb844b00eff13cc101",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/model_sources_plan.json",
+      "bytes": 730,
+      "sha256": "028e63f3e36cc28b6727324dac6c9eec15117d41b090bfa9525c068af5c1ff20",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/prepare_crossseason.py",
+      "bytes": 7143,
+      "sha256": "3a608f0b946a5347cd8c726a7d0122e8ebd608e2fc5c282526530166e1ee83e0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/prepare_forecast.py",
+      "bytes": 9268,
+      "sha256": "6e40907317e0e12d97d07490e610e8bbdd0be911d8f667fbb16912c820a21999",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/prepare_smart_forecast.py",
+      "bytes": 10678,
+      "sha256": "75e2512c1ffc07b77ae7c0ad0c21a336f2f804d60b69c42fd9849c3d9c2c6e38",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/reconstruction_freeze_receipt_v1.json",
+      "bytes": 262,
+      "sha256": "3fd08c424fdd103e29b9ea43007954300d37fff44b237233d5b1ef8d9cd14f10",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/reconstruction_protocol_v1.json",
+      "bytes": 15845,
+      "sha256": "3bed3910c2cc93574483cec1c4aa4236993712935c502a42c971b04e588e352e",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/run_crossseason.py",
+      "bytes": 5615,
+      "sha256": "dcdde09b37e2d6e2f17ce32a5656f32d3e195b1efc51f8c73432f33857f37820",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/run_forecast.py",
+      "bytes": 5711,
+      "sha256": "97695bb919ca455278828f35871d00606e8d67d908a5546fd6f91c03500343db",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/run_iea_component.py",
+      "bytes": 6481,
+      "sha256": "cc0f6fedfb2102725d3ca7a52f89d7377a08fb8d9b2550a67534632863942331",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/run_reconstruction.py",
+      "bytes": 8483,
+      "sha256": "c3c9e986f54df07fd6e79d7a0077d201139f1025e300aee731efadd2079b3c7d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/run_smart_forecast.py",
+      "bytes": 7976,
+      "sha256": "35866e431df0269544c6c11a0b6ddfab172accd2acf8251e89321ffec3d1a820",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/sensor_metrics_plan.json",
+      "bytes": 550,
+      "sha256": "04c6cbb5fd21ffd6ffcf3cf3f481b1dbd5cd423265fa5447820aa95982dbcecc",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/smart_forecast_august_files_plan.json",
+      "bytes": 7673,
+      "sha256": "0d7c18115353149bf585b139b34182cc6184b1c450567844b0646b47bd712b6b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/smart_forecast_environment.json",
+      "bytes": 1376,
+      "sha256": "f82566aea726d50c836407c8d2ff3ab7d24a36f4dc2b5b43440d9f89780c1c59",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/smart_forecast_freeze_receipt_v1.json",
+      "bytes": 241,
+      "sha256": "ee2830fe8cb66d1b085e9e2c05d8c6fd86e3c55a8ce8f35a5e7bc64da7d7271a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/smart_forecast_layout_plan.json",
+      "bytes": 935,
+      "sha256": "9776881eb7bbeba7568edfb0b9345cbb811cfbc5f8fe5f3c06e0e31158384d67",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/smart_forecast_protocol_v1.json",
+      "bytes": 17795,
+      "sha256": "e1464d977dfd5157d57063c38491d95556e4326bc6e4a10f80cce2581abc66dc",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/smart_geometry_config_v1.json",
+      "bytes": 466,
+      "sha256": "4b7653cc39c355c6bfb5c8c568c359e5d6a1167728d835c149fdaeed450afa3d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/source_layout_plan.json",
+      "bytes": 671,
+      "sha256": "decadd2d7abb9d24cba6e35b20be4351ed3ca8d0663b949ee285a7231ef45496",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/units_layout_plan.json",
+      "bytes": 665,
+      "sha256": "35d1ada207da73c8ca51ee5f82353759b00dbb551b20f1a0370030d28385a94c",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/update_d055_records.py",
+      "bytes": 23767,
+      "sha256": "bcc18f3b581a9cb7de5e2eef8d9e07ec951a954725c8fc457e8d47d7da54112f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/verify_crossseason.py",
+      "bytes": 8102,
+      "sha256": "ee396a05387879ef611e951cfe500e085483215064ae873a118205db7cf562c7",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/verify_forecast.py",
+      "bytes": 7616,
+      "sha256": "2faebd0ec999ceae47552b5a54198dbadb075bd4df5ae0e33c30cb055639f56a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/verify_iea_component.py",
+      "bytes": 6119,
+      "sha256": "d62f5ed7a1ba0d9520a9d906616b606bb926513d427e6c14969dfe11c25975f3",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/verify_packaged_pv.py",
+      "bytes": 3061,
+      "sha256": "ec953fd08ad8d22c3ee64a057a93b96936055b967a3e152679ea732af616c1ed",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/verify_packaged_smart_forecast.py",
+      "bytes": 4096,
+      "sha256": "bfc8d4e54f43de158fd96de64ca5fe265e94dd970158fab376d32e28cfe74e7e",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/verify_reconstruction.py",
+      "bytes": 6540,
+      "sha256": "e36eb2602cc8657a501666e8c6785675dd3979bd9a61161391eb8943c7ee7b44",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/verify_release_v1_2.py",
+      "bytes": 4182,
+      "sha256": "e7fefb2a5b3fbcb41005bc33bac8da390e7355093983e1f126e4b6348bf664ca",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/photovoltaic_research_20261015/verify_smart_forecast.py",
+      "bytes": 8648,
+      "sha256": "05d0c0e584940064800538e4989e8d29c2c57e7abdc7b4aa3a4a582e768ab0e8",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-13_APR2023_LMO1数据准入核查.md",
+      "bytes": 5495,
+      "sha256": "8c3b3806d01dcaad2cb4a7f5909286eecfec327970df8a3c3163938c05027636",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-13_B_SET大残差与模式切入核查.md",
+      "bytes": 4723,
+      "sha256": "03c18b86e03d8a9c41fe75b99982bfbc3129c022d6ecfe512124cb7f5b44b661",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-13_LMO1日志功率预测样本与baseline核查.md",
+      "bytes": 6254,
+      "sha256": "f547ef9f3648d473759ea5de896a847a03a44177017182f3aa9e75bf7aaecffe",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-13_M5BAT原始数据准入核查.md",
+      "bytes": 10333,
+      "sha256": "995afa3699470b692ac5bdc76e6438a16a6175112d656d395b59a07ea2b7c2ac",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-13_储能SOC与容量依据核查.md",
+      "bytes": 6501,
+      "sha256": "11f2f3c20361e3df3bf2983dd466bad37443c4170fbcaaed4381a447ffea026c",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-13_分阶段baseline回顾比较与复现核查.md",
+      "bytes": 5101,
+      "sha256": "acc5a15d8b6e06af229d183c1c8300870b23dc02b0b1f0505c1591f7e02bf058",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-13_历史模式阶段特征与分阶段baseline协议.md",
+      "bytes": 6195,
+      "sha256": "62e0a5f0905a2306b7fe30972881c6666562f9dc02f7bf63dc646cc585862520",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-13_独立储能数据候选与容量测试线索核查.md",
+      "bytes": 5858,
+      "sha256": "2b4191086b3f270db8b8708795ae7379db6f4bbe1f27ba247e56b0523efed204",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-13_研究推进规划核查.md",
+      "bytes": 1814,
+      "sha256": "1a3b6ef783e3590f2fa08dcb82b77b86aa3a7164f3ad5233fac8ae30ab064e9f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-13_首个资源样板选择与网上数据核查.md",
+      "bytes": 9969,
+      "sha256": "1ee4cf0f4dab7ac51f2c7e6002930bb182ceed856a5a02be1b16eb9e74114bc7",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-14_RWTH单系统容量参照与原始窗口准入核查.md",
+      "bytes": 7593,
+      "sha256": "0f9080b4d86804baa2fdca90cb6259a2f7cd4b229fd597859eac2a74ce22a425",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-14_系统01容量代理跨期复核.md",
+      "bytes": 60149,
+      "sha256": "53ac40737b66dba31e5cd925f380235324940bfbde17d2bbf01a3950a5cfffed",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-14_首轮储能样板阶段总结与handoff.md",
+      "bytes": 14114,
+      "sha256": "06f552283b3b0b648bcf92b2dad7acdea75ec870754ba322bd1c372504810e76",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-15_下一类资源候选建议.md",
+      "bytes": 4220,
+      "sha256": "8c09c6028a614219712be8466f3d3a8b8b73b961d57eeebe75a9529e7ae31c97",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-15_储能论文代码复现路线候选核查.md",
+      "bytes": 9534,
+      "sha256": "bfc37329952820b8e2d7e0000a3642979a94d7f8137abc3e4102cd9fd04d2298",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-15_分布式光伏研究可行性调研.md",
+      "bytes": 43464,
+      "sha256": "e54f0982429e91d98500e024ff78234da7dd6842cd2dd8e648fc88cdcb3412bd",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-15_单类资源验收边界与储能论文复现.md",
+      "bytes": 12371,
+      "sha256": "101fd7bb2e090d4dd828eb46fd1dd10e80497259ab7fb03e559f85d915c67825",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-15_资源成果目录整理.md",
+      "bytes": 4487,
+      "sha256": "1e1c7da3471681d5ea0a07d51a893fd7f64f52a8f76c0047a5b5bc3aa97cae20",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-16_储热式电热水器研究.md",
+      "bytes": 14639,
+      "sha256": "973ddc833d4a755a73c00ca601515f67f8a63366c3f5ec131493e423fc68b41d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-16_后续资源候选调研.md",
+      "bytes": 4998,
+      "sha256": "a1b3a3d6f52b59c79aefb8fd945c0f412c4d3859b011fb411daaef94cfbcca25",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-16_电动汽车充电设施研究.md",
+      "bytes": 22087,
+      "sha256": "81f3b318a612f0b96c02ae571498781adde522d060731ff2875ce7b22d678758",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-16_空调资源研究.md",
+      "bytes": 25998,
+      "sha256": "4d9393f67a25bebabcba09b611eb6f24a7b0e6f743f8776ab3f48ce4cf996ff2",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-16_风电资源研究.md",
+      "bytes": 9997,
+      "sha256": "b9090ed2868d2e821cd2c7df81e4bbaf08a3798c5897e87a450804aa024bc2b6",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-17_DML代码功能与资源调研衔接说明.md",
+      "bytes": 15650,
+      "sha256": "d97004895f3c9d675c4801f32b84799fd0ff824934d58b65664d8c8894a519d4",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-17_EV空调热水箱四层证据核对_分项.md",
+      "bytes": 17105,
+      "sha256": "3db4d7f76cf9d43f82417d4108770dfabb1de1a74a1fb8ef747b4c83bfcb38c7",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-17_储能光伏风电四层证据核对_分项.md",
+      "bytes": 15632,
+      "sha256": "7778cbd02223eec48b293ff180b678774cefb2e8bd7bc138386c12941e27ab8c",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-17_六类资源四层证据矩阵.md",
+      "bytes": 17917,
+      "sha256": "05b0a51d15ca290b6d85b94e5e07ffee946719ab6759ad20671df216a8a559e9",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-17_六类资源调研与数据核验要求.md",
+      "bytes": 10309,
+      "sha256": "e6cc2ec12e661c19f68870a6871af062560fb5571ed771e8cba397a11fdb492f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-17_同事DML成果运行与适用性检查.md",
+      "bytes": 13566,
+      "sha256": "baf4a48faef9901eed8f4f0c6f9e64756d25972c223b25f7d73b2f93acbbbabf",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-17_同事DML资源清单与下一轮资源候选.md",
+      "bytes": 17300,
+      "sha256": "ae541c70f5c362484143354ff39d2a521b4136beddfbe0ab7fea9b70470c1611",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/2026-10-17_已有模拟数据接入DML.md",
+      "bytes": 9483,
+      "sha256": "b549f67c0b629888efd1aa74160910ca6f0d0202705ce554008e1146112b1556",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/两套模拟数据公开实测校准说明_20261007.md",
+      "bytes": 12254,
+      "sha256": "9c48d50dff141dde4c92958cdfbee49d02dc0ca74b30cc1da931fec8dc619edb",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/两套模拟数据准确性修订说明_20261007.md",
+      "bytes": 3290,
+      "sha256": "8923acf636731368cebb18782ceb6c6001e9e21b46747310e7ef46b89dbc1f03",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/两套模拟数据机制与连续运行优化说明_20261008.md",
+      "bytes": 7466,
+      "sha256": "ff1fdd853e76b5e6edeade32541190c9078518d890b89c6b72a2f17ce43550c7",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/两套模拟数据深度复查与升级优先级_20261008.md",
+      "bytes": 11778,
+      "sha256": "e39e70bc9a1d634fbef322e01bb4f7a2145d36c922ba83a1991f49c5f9f159bb",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/process_notes/两套模拟数据过程一致性优化说明_20261008.md",
+      "bytes": 7726,
+      "sha256": "34186f0d6e901899fed2235c446519cf8beb0bd0d923699ab583ad590a5b1577",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/README.md",
+      "bytes": 38325,
+      "sha256": "0637438944c2dd4b7bbaaa335d7411c2a6bd80ae56a2cc38b4f9e9af8767d38d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/acquire_audit_home_crossperiod.py",
+      "bytes": 7697,
+      "sha256": "33a078d377304d52b07a5408cf2d0b9726d2d3ba770889170205dbf6ac3a2d85",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/acquire_audit_home_fourth_test.py",
+      "bytes": 8251,
+      "sha256": "26646715781b601dd45565cb3d4815451b60a3e6006719e0308352c3e47227a1",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/acquire_audit_home_third_test.py",
+      "bytes": 8251,
+      "sha256": "5a111d6c3e958e4cd97e02810716861c105a4dc35869922f1818a1f77adad86f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/acquire_home_endpoint_sources.py",
+      "bytes": 2269,
+      "sha256": "3d7faae17dbccc89ec6a8673f874b50af6ebcb4dc290f654673fb94a4cccf250",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/acquire_home_system01_month.py",
+      "bytes": 4150,
+      "sha256": "860c67a16159ae39c7acf4e8fbc2a0bd6f9b36ec68a9d3a23fbe9e180831ee54",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/apr2023_lmo1_field_protocol_v1.json",
+      "bytes": 1978,
+      "sha256": "d2c175b5e9f8318d2a621a2e72b482c0b108b4225328216ef6b013ad12ec9308",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/apr2023_lmo1_raw_audit.json",
+      "bytes": 1907,
+      "sha256": "e521dc2d24cc2f7d4756a41ea73f8b7be2e3896f34a4a1b197bc76d0a148bd67",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/apr2023_response_baseline_protocol_v1.json",
+      "bytes": 2122,
+      "sha256": "39860f126fc000d8bddc9a9df12a1e564610dcb397eb34f53e2ffc1f4d77e5fd",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/apr2023_response_phase_baseline_protocol_v2.json",
+      "bytes": 2889,
+      "sha256": "dcad62e61ef64183c8e0cedf9ea9588d5d2ecec39062450f42d764c14244d214",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/apr2023_response_phase_sample_protocol_v2.json",
+      "bytes": 3385,
+      "sha256": "33cc82bed92a9610aff4bb035d9122bee3e558dc3318a8015a05ebacb4e35bac",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/apr2023_response_residual_protocol_v1.json",
+      "bytes": 2085,
+      "sha256": "7f45d0935d4f4f1fb47bf6281d20d8b375b8415f9ab32efb0f1b6b55c039a70d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/apr2023_response_sample_protocol_v1.json",
+      "bytes": 2919,
+      "sha256": "bbdd8717f5cb3fc23b887278a6b88877e44c686e0a7c7cdecfee8702f98cbe29",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/audit_apr2023_lmo1.py",
+      "bytes": 6874,
+      "sha256": "0e187f13c05df09dbf300c581bbe128776ae0874fef94246de7f8ea0aa6a51dc",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/audit_apr2023_lmo1_followup.py",
+      "bytes": 3954,
+      "sha256": "a54ac5b71bf9f9b77df7da331a527ed1f4a21b6a5dd76bb28df255908a05012d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/audit_apr2023_response_residuals.py",
+      "bytes": 9584,
+      "sha256": "2a31ce3f90cf7d3ef433fb44f773017001ab6e91a54c6c18c2c5225d093db81d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/audit_bess_soc.py",
+      "bytes": 6924,
+      "sha256": "aa23c3b58184865a3d1b2cd72dce0255451b082a765043e06aa413d7b5bf1708",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/audit_blyth_wltp.py",
+      "bytes": 2798,
+      "sha256": "0bb3f56fba81b43ad20fd3996617ab842f08a107e7a97c700ab5bf3f43e96ac8",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/audit_external_bess_candidates.py",
+      "bytes": 4161,
+      "sha256": "96e63422bdae6e40a159f78fcf1b781fbc38bd41d2740695dfd430d272c8e9af",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/audit_home_2019_failed_span.py",
+      "bytes": 6579,
+      "sha256": "2371eb4d610440975e37b8421025f9ab3e8c45e103cca1aeba7aeb4119ae08bb",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/audit_home_endpoint_contexts.py",
+      "bytes": 7974,
+      "sha256": "437c8c8eaf7a9a9d404b73616fdab875368495a074e1c585bb476f6bb3043f56",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/audit_home_endpoint_sources.py",
+      "bytes": 8283,
+      "sha256": "4a565eff6382a0d5ca30d40c1a39dc220fe633b03465c640670aab501f5d8c2d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/audit_home_system01_month.py",
+      "bytes": 4858,
+      "sha256": "9e38c49bc56df8296a9c14945f036f48bd9a9066f9194b017129abfaacb9b7a1",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/audit_home_test_records.py",
+      "bytes": 8415,
+      "sha256": "17e8a062f947353ab7be0525a46d544b980f2dc6e03071021dccfe1df8c07e41",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/audit_home_third_history_gaps.py",
+      "bytes": 9462,
+      "sha256": "1df16630e16362e5ab07bad702ef7659ed945a4f5cf5a37e95f86d77c344041f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/baseline_protocol_v1.json",
+      "bytes": 2047,
+      "sha256": "d8f6ff5cdb33f1352b4a4695b5e936bf6e1b9b199cb9d1a066efa6e2898acb2f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/blyth_voltage_protocol_v1.json",
+      "bytes": 4288,
+      "sha256": "a7406f173cd0539f8f0875526c899c303427e72722445eadae7c34573837646f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/build_home_crossperiod_runners.py",
+      "bytes": 5752,
+      "sha256": "7ad81f8f144c81de8b0e6fa029aa36cf973fd01f1406af8554f72f4b809bf118",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/build_home_fourth_test_tools.py",
+      "bytes": 2333,
+      "sha256": "556c566d5148887b3567ffc262c19fff49e5822fb768c5ae9ca1752f15c1c8b6",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/build_home_third_test_tools.py",
+      "bytes": 6403,
+      "sha256": "9b47f05d4b0f568f559ffae2394546b8a60b9f1261a453e8f358d15a43f9f0a9",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/component_quality_audit.json",
+      "bytes": 5476,
+      "sha256": "5e9c3b1b6d282a2d621c0337a288ec8d986ae09a55e81c838af0331223a13318",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/download_blyth_minimal.py",
+      "bytes": 2050,
+      "sha256": "5a2c9fcf4e4832229fb493a82bbd178879c7f689cf3430c428189c5d226a645f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/download_blyth_validation.py",
+      "bytes": 1443,
+      "sha256": "12741cc70af8e9beaf6b5af5cafc9942bae15ad343bcea062c415daed948b854",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/freeze_home_crossperiod_protocol.py",
+      "bytes": 7532,
+      "sha256": "adefe4b220219a022bac2c1853d178f41132a23f17cd01ade85e51994c97bfe6",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/freeze_home_fourth_test_protocol.py",
+      "bytes": 8860,
+      "sha256": "448eb1e6333afe9249b4afe633a23425d215fb515af1d2d35aab7c1a788d7cd2",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/freeze_home_local_span_protocol.py",
+      "bytes": 6172,
+      "sha256": "73b90d91bb715226fd065449ef443f0129086120f6dd75a194a72ffb58c1c8f0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/freeze_home_third_test_protocol.py",
+      "bytes": 8873,
+      "sha256": "1db2576c583d7a3550a971365c593a2073d6ec9d3163ef01f15eee5748be6390",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/home_capacity_baseline_protocol_v1.json",
+      "bytes": 2313,
+      "sha256": "5e4f02f2b67431936e1d7f4b04a36ae31516653640a7a6ec4a7a1324d3ac39a4",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/home_capacity_crossperiod_protocol_v2.json",
+      "bytes": 9980,
+      "sha256": "a028be269a00e40b9b6934af0beb3ecbf150191f7a0f375edbb5ca4ffb8ef82c",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/home_capacity_crossperiod_protocol_v2_clarification.json",
+      "bytes": 1083,
+      "sha256": "0b34b7ed84a53446502a48468a067867a98f108fbc9b3333d3f81deba85c283b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/home_capacity_crossperiod_protocol_v3.json",
+      "bytes": 10747,
+      "sha256": "8d3d36aab27d5498f07bc5d883de8237f97ac3a72ee3188c099d7b3a5457cc34",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/home_capacity_crossperiod_protocol_v4.json",
+      "bytes": 10546,
+      "sha256": "d6953f9671bd33dfb198cff3558f0670cae4f1f7228a00fc9fcc8fd5a82c3628",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/home_capacity_local_span_protocol_v1.json",
+      "bytes": 15921,
+      "sha256": "02148afee749fdb50ae0d9c547b650d7508b6cb27b2bcc04e24e3c8c710e19b8",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/home_capacity_sample_protocol_v1.json",
+      "bytes": 5409,
+      "sha256": "c996eed05299b0fc52dc0fc6eb3e2e03394866632f6c5dd8cf58bc6b2731390d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/home_endpoint_context_diagnostic_protocol_v1.json",
+      "bytes": 13987,
+      "sha256": "d94ee1ba95b0d7b06a5f8c0095cb406ffc4a0bf174acf4f1358b8fdb61d4c034",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/home_test_record_diagnostic_protocol_v1.json",
+      "bytes": 2599,
+      "sha256": "60462625d216276c13acb2663f524399601c99d23a77e9764339491d06ee4e91",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/inspect_blyth_source.py",
+      "bytes": 1612,
+      "sha256": "010dd62a20c005876ed06fcac4233da29b1a98bc7306a94b4a533ad82209f7b8",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/inspect_external_bess_candidates.py",
+      "bytes": 3787,
+      "sha256": "8b30d7c9ba0bd95bd5275a3c6c6b40d33472d8738cd56529c73baae425e1d016",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/package_storage_results.py",
+      "bytes": 4214,
+      "sha256": "3e1aacb5b8f9f0aaf6bb5605509117fddf908b41eba6d94cfcf97f55dd26fb2b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/plot_home_2019_failure.py",
+      "bytes": 3193,
+      "sha256": "556bd3d3d03c2894b411e364ae256a412af0b787d6223f5e836c7ce50e401fc1",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/plot_home_test_records.py",
+      "bytes": 3652,
+      "sha256": "0df5560ee6219ab6240ef778c1c6a9fd264074c26df025b4eeae46cc5f2b87ef",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/prepare_apr2023_phase_features.py",
+      "bytes": 8336,
+      "sha256": "b5aeac414a38ff601ceeed2f12a483c2c9f5489aab2fd040046289a3cbdfd431",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/prepare_apr2023_response_samples.py",
+      "bytes": 9104,
+      "sha256": "3a97947b68d7f108c203f7fbd0d2eded5c0dfa599d1e96110ba621cd29828915",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/prepare_bess_samples.py",
+      "bytes": 12726,
+      "sha256": "a9b003e36917b93c1aacf54ddf468c8cb9e9ed5f916224884fff6c64b0356e95",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/prepare_blyth_validation.py",
+      "bytes": 5056,
+      "sha256": "ddd526c7117de06ba82de84d0afd5b233b6e98c948f697b85a8b5e6f7c744f8a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/prepare_home_capacity_evidence.py",
+      "bytes": 6752,
+      "sha256": "5f8daf25fb16d23cb1af30d74edfa5940b22286e6219e1a8e47b65e36a7c26ef",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/prepare_home_capacity_samples.py",
+      "bytes": 9573,
+      "sha256": "40ec509f1cb550f4173c206b3fb2fcb83e9b9e1f7239a5dd8e4cbab3e651131f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/prepare_home_crossperiod_samples.py",
+      "bytes": 10245,
+      "sha256": "7daf40ba0dbf1e13a7d3d774c0fc7a7041f7f27c7dc799aff7e12bfe3491fcbc",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/prepare_home_fourth_test_samples.py",
+      "bytes": 10812,
+      "sha256": "9c217f92593d3d2249a9231bf9198b5346db7e8e9d0bcd829e92e4c442de9a45",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/prepare_home_local_span_samples.py",
+      "bytes": 7999,
+      "sha256": "ce4796b2c2153268edae35d4d50b3b0dc5afe2d2fdb4ef8f93b5166d9041c8ff",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/prepare_home_third_test_samples.py",
+      "bytes": 10812,
+      "sha256": "74a613e3d966b7b15f26b6a8e26d285f23607dedbd3e8ea98dd2c464b1368803",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/raw_file_audit.json",
+      "bytes": 10347,
+      "sha256": "8acd4ce9fd916937940adac4d6ce9f3687c2eaf0048c7a46b39fa1c00b1e0b96",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/run_apr2023_phase_baselines.py",
+      "bytes": 13803,
+      "sha256": "283a7872b5e2ecd99d3f78fbbce3d80496a568703daf854505191a60c68804f0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/run_apr2023_response_baselines.py",
+      "bytes": 8923,
+      "sha256": "cbb47a2a850ea97a63b8f6cfce848bbca367235de4ed31f94c33c6c5c28ab7ff",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/run_bess_baselines.py",
+      "bytes": 13650,
+      "sha256": "464c2cb7e257628475dcda02fd1f83ae1ddf1d811934da9431b343a45f8ecbdf",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/run_blyth_voltage.py",
+      "bytes": 5750,
+      "sha256": "c284b87da94984ec1a8bdbfee02a8ef9642f187ba568fbb976fe83bc69345bce",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/run_home_capacity_baselines.py",
+      "bytes": 5526,
+      "sha256": "93117927ea5b08609a69678918bb5c69258b34ee16ecbbf8a82c9f1000a4b785",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/run_home_crossperiod_baselines.py",
+      "bytes": 5776,
+      "sha256": "e07b41dfb6adf3b95f711c89ba4e0f047fee8d46ea7d3ddfc8cd9294cb6e886f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/run_home_fourth_test_baselines.py",
+      "bytes": 5818,
+      "sha256": "098389ee9c680770302f326a1a077712b07839f4b1fc28ca2511e93df298de3a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/run_home_local_span_baselines.py",
+      "bytes": 5542,
+      "sha256": "3e28cb03f102f1cb4a925a07c7c5d119ab8faeb5483d70105482420c35037986",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/run_home_third_test_baselines.py",
+      "bytes": 5818,
+      "sha256": "092c0adb60a44ba037a97f244928797d785d11551fb354c0be25bf8f7fb495fb",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/sample_protocol_v1.json",
+      "bytes": 2365,
+      "sha256": "24dfe675e9ddd76942fc258cb9aae0019e754ae599b21969d09b6ba8de4b1564",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/summarize_home_four_test_checks.py",
+      "bytes": 2171,
+      "sha256": "731f5da260eff8270594f80349469ae3942b88cbd9f383d30acf68325c77d307",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/update_candidate_handoff_20261014.py",
+      "bytes": 13504,
+      "sha256": "94f058aedca18c77bcfa0841ab7a001c23f417a787a104a5aabf4ef836324a43",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/update_capacity_handoff_20261014.py",
+      "bytes": 14409,
+      "sha256": "a4075bb60bffd440814a77260c056e85108f17e234d33288440c022fa9f01711",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/update_capacity_stage_handoff_20261014.py",
+      "bytes": 16036,
+      "sha256": "f1420d2b9980a671ec1c25ff415c0753230496fb1255d6118a3148fbbf625c7e",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/update_meeting_alignment_20261014.py",
+      "bytes": 6173,
+      "sha256": "f216cb9778b187fc25a24144aaa330ce0e1cf0fe9eee12c5fe50f482580917ca",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_apr2023_phase_baselines.py",
+      "bytes": 9230,
+      "sha256": "39ea945015f49c7dcab6ba737f659be2eb786588add08d174081f945aa20bf93",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_apr2023_phase_features.py",
+      "bytes": 6020,
+      "sha256": "6bee54a8a614ac124b2c57c2c8b1d331308f2294883d76eeb3a83c864898a419",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_apr2023_response_baselines.py",
+      "bytes": 6811,
+      "sha256": "105fe06bfe280e1de47adf089885c40a470580247cc0348c59437a9bd194d6ec",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_apr2023_response_residuals.py",
+      "bytes": 5044,
+      "sha256": "0c3a7a979dd19dfd922d1c1b5950405270e33c04a978dc5c4b0338c41dececb0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_apr2023_response_samples.py",
+      "bytes": 7374,
+      "sha256": "0e0ed2a1f76ed797e1b90ebfb65e33e4d0074283d08dbe3fc6061ac062067df1",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_bess_baselines.py",
+      "bytes": 8067,
+      "sha256": "b07c66b61658f28238532d0948d93668cab3104e7615ffe982916f4a0f09064a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_bess_samples.py",
+      "bytes": 6288,
+      "sha256": "85351b8b81cd17be45adc75f04fed18f3bdbc9026af467a59dda40a8ede86b44",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_blyth_voltage.py",
+      "bytes": 4789,
+      "sha256": "985c51f6b4a3091e70de77e9b803dafefd8719a5607413b71638dad285cd9f59",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_home_2019_failed_span.py",
+      "bytes": 6887,
+      "sha256": "f53732edaa1eff4137be7e03e5bf26af28957302fd27af36a9653a8aa59bc6c4",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_home_capacity_baselines.py",
+      "bytes": 7142,
+      "sha256": "1d6f0ab21bec996f1b5ff79267a862fbf84c5ce8663bb57f438a718071175d5e",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_home_capacity_samples.py",
+      "bytes": 8056,
+      "sha256": "7117a1e2866cab1730243e0ea23a2afc210e5938647b4fcd3281bc6c410e7697",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_home_crossperiod_baselines.py",
+      "bytes": 7531,
+      "sha256": "0506fcb273ecdcd964aeb530b6ea1d0919489c66b3211ef75d6e3f5d5ca1bd49",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_home_crossperiod_samples.py",
+      "bytes": 8756,
+      "sha256": "21ef544a91fe35275f6d6280a87bee386150821055112a7992c7cfbb4be542d1",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_home_endpoint_contexts.py",
+      "bytes": 9389,
+      "sha256": "a6b9a0b173a7ae7c35c16acf2be952d2794fd85163524e26c094b0edb00ac402",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_home_endpoint_sources.py",
+      "bytes": 4801,
+      "sha256": "11e744f9d7e24036e85fb19dd14dc9206aeda3c0dc7274f674a0a92b1412ef2e",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_home_fourth_test_baselines.py",
+      "bytes": 7573,
+      "sha256": "bc9b314efaa96ca1cf97718d4e082646962420aeac05906ed7c5a035d4c5173b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_home_fourth_test_samples.py",
+      "bytes": 11855,
+      "sha256": "a8b7c41c4d27d712a2c414a68c5954ceeb3bdb3b4d97637ee62b99e68fdf2c43",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_home_local_span_baselines.py",
+      "bytes": 13876,
+      "sha256": "29ea079068733c8d1654d8734fae99e1339f2114b2365749bf80188eb280ee73",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_home_test_records.py",
+      "bytes": 9098,
+      "sha256": "71e4bc93e11dd5bfb9972ba23edead36d76b8ab03ae99456f3e23f83c3c6446d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_home_third_history_gaps.py",
+      "bytes": 8938,
+      "sha256": "0d1be71153a4b4064b000347e36fcb80a124e40a03f3fc4a02be9d04d3c84794",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_home_third_test_baselines.py",
+      "bytes": 7573,
+      "sha256": "bc9b314efaa96ca1cf97718d4e082646962420aeac05906ed7c5a035d4c5173b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_home_third_test_samples.py",
+      "bytes": 11855,
+      "sha256": "a8b7c41c4d27d712a2c414a68c5954ceeb3bdb3b4d97637ee62b99e68fdf2c43",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/resource_sample_selection_20261013/verify_packaged_storage.py",
+      "bytes": 5077,
+      "sha256": "0a0b92cb81a36171438b7ea3d326c800eff98fb3741ee734046cad479c77ec95",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_project_trial_20261017/README.md",
+      "bytes": 2436,
+      "sha256": "9b1cbbfa91172ce35c6739ca4e39976c544b4047fea7cacf77064bc01ef6a822",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_project_trial_20261017/final_checks.json",
+      "bytes": 234,
+      "sha256": "e3467f661465256c65b2c0f0550ad072ff5e1413e1f81f697ba27cb96d14fcb1",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_project_trial_20261017/heldout_type_effects.png",
+      "bytes": 152528,
+      "sha256": "45d7c7eacafc3d031ac143177d53967486b71f651e7edd68b912b8529dd5dcc1",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_project_trial_20261017/heldout_type_effects.svg",
+      "bytes": 152863,
+      "sha256": "cce6dfcba31bc9a751bc743eff4279821059bc814142581dd73368a8a8b34b05",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_project_trial_20261017/maintain_records.py",
+      "bytes": 9127,
+      "sha256": "e1f846db5716c153f81048e2575fa0f59f84c1a46472309b4f2bc960d054679d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_project_trial_20261017/plot_results.py",
+      "bytes": 2401,
+      "sha256": "6b2c8427189294ad2aa11396ae2ad015d3402f58b0cd1e5c6d23c5a48c23d6ce",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_project_trial_20261017/protocol.json",
+      "bytes": 3958,
+      "sha256": "3389c20cf3d350b6a4903e19e7eac22a805a1545d771361deff6e891efce1979",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_project_trial_20261017/run.cmd",
+      "bytes": 128,
+      "sha256": "d7739cef0252b3c7e69b2e33d654cb701fed891c598b28fc0f1298670840b386",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_project_trial_20261017/run_experiment.py",
+      "bytes": 13752,
+      "sha256": "50974bb96a57ecfb72733c865afd579198627a44949f72dac47260555995a4ef",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_project_trial_20261017/verification.json",
+      "bytes": 1406,
+      "sha256": "d6b14b757b86b1c9e0c1216d5eba9736fd29a0bcf1a6b3469b888961c761a5d2",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_project_trial_20261017/verify_experiment.py",
+      "bytes": 6465,
+      "sha256": "d1d492974e354c79ee6fc1360c63dc416e9ee7a333602a7e081c6ceb57a8bef6",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/README.md",
+      "bytes": 3420,
+      "sha256": "914e203118f1c44e766e02ae21b1855dd58c6dddc209710b703e5089b0e234de",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/audit_delivery.py",
+      "bytes": 5086,
+      "sha256": "3c64c6f133ffb19a70f72c7afd8f10f3df2e8cbfa0b8063d7d15417857d9fb71",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/compare_results.py",
+      "bytes": 3523,
+      "sha256": "04c2b5cfac307c2c0b6c409fcf947e311c1a75a32d3b90df9dfe8fca91943f7a",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/comparison.json",
+      "bytes": 14725,
+      "sha256": "030fa98b541563bd092124194c7be373aaeebb9ff0bbb5ee5f74aa6a4da9b4e2",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/comparison_key_metrics.csv",
+      "bytes": 1453,
+      "sha256": "29e0a31961bcb09260fed60115be9ce63ad8172285036e22041fdba4d0a629ef",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/coverage_independent.csv",
+      "bytes": 1321,
+      "sha256": "c0f5adaca18a42a9c91ea886821bc15ec6a6770c852ed6970c43b0528139973c",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/environment.json",
+      "bytes": 321,
+      "sha256": "af7308d60cb4801b5bea614d9a830118018ec9f44bf1a5133a9fb5709b93e637",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/final_checks.json",
+      "bytes": 194,
+      "sha256": "103bf1eb7a731940bc21597b5891779f63f45621422968e546a8729b94dfdc3c",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/full_repaired_run_receipt.json",
+      "bytes": 6214,
+      "sha256": "bb7ecd7fe76c28add4a57c0ecebc380017f60615027b865411e51f7e0a2689ab",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/full_run_receipt.json",
+      "bytes": 3761,
+      "sha256": "e7c3bb322502136a00c70fdfcd856c1a730502fad1993729f33cf8bf3306f13b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/independent_audit.json",
+      "bytes": 4718,
+      "sha256": "32d3d3e7ba6fa46643702693c53c44c6d28ac39598ee6be7debec189bed52c24",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/maintain_records.py",
+      "bytes": 10277,
+      "sha256": "98088acb42ad1f1cf2781dd10c47acf800d0d69ee44d730542c4f556b441a96d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/quick_repaired_run_receipt.json",
+      "bytes": 6231,
+      "sha256": "d522cfa1440116262f8d0985ade490c194e0921e5dfd412e424b10b84982745e",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/quick_run_receipt.json",
+      "bytes": 3779,
+      "sha256": "d4e8c132c6d4c4bb0bbe06b210b4818ac6b5dee842f4f337dd272ccdd9e09d37",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/record_direction_split.py",
+      "bytes": 5349,
+      "sha256": "784265dc7fb01621ee268d3e986a2ca122c28c8174748f8ca7c8e5133132e650",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/resource_research_thread_prompt_20261017.md",
+      "bytes": 3762,
+      "sha256": "39b8663dc3ff1a0904187d7e1ccc436f70a7b2d6cffd795d747b4f4c30e83a7f",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/review_protocol.json",
+      "bytes": 1301,
+      "sha256": "fdd23e384216bbce5226d0fcac79d35557eddd503d13680ba7c5481a78a554f4",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/vpp_dml_review_20261017/run_review.py",
+      "bytes": 2988,
+      "sha256": "a626697c1421646fd762bb36afe692f5a891f7a10afc3067dc98cba8ae9018cc",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/README.md",
+      "bytes": 7356,
+      "sha256": "7dce30d4483e3ac70ef82de6921650ff92408a205ec8fa645283dba38354bcff",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/audit_final_state.py",
+      "bytes": 3181,
+      "sha256": "dba4248131d47d170ce8d6e1797bffb0c69595896f34a5ebf24c66b0443d34b8",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/audit_wind_sources.py",
+      "bytes": 5396,
+      "sha256": "1169b0e4441220f92f5673de5586eff426103202553c99955f3cfeec6a47e076",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/characteristic_protocol_v1.json",
+      "bytes": 1559,
+      "sha256": "4669fd757f3a7c2c73be665a18c46236933ea0b7c4aa039da3a25995b713ebf0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/common.py",
+      "bytes": 604,
+      "sha256": "3c699c8f93b426abc1843bf13988c92cbf37b8e6f713b6c91dc64b8287f79192",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/curve_freeze_v1.json",
+      "bytes": 148,
+      "sha256": "32195b1a9aa7f73bc2a9de120553a041b90d55b144bd2f7ac748830216dfc7fa",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/curve_kernel.py",
+      "bytes": 1623,
+      "sha256": "00dfd41024a00d98db0fb80ece103bd89860968b9a22cdf93d1b1d5840a51f23",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/curve_protocol_v1.json",
+      "bytes": 5097,
+      "sha256": "6dd7e842d6b4da7d6332526021f30bdfbbeaee73d8e8d03eac012cf99343a475",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/data_plan_v1.json",
+      "bytes": 1167,
+      "sha256": "06f300ef34fe465c95407609284f18d575c3e746d7cd2e7ad11085204676a864",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/describe_curve.py",
+      "bytes": 5227,
+      "sha256": "9dfff83f520430a6646100932cfb8afdc0549943b180608756da9a30c664576e",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/fetch_sources.py",
+      "bytes": 2109,
+      "sha256": "b22f7c4c2d41b0ff64241cfa341e3fc36c38daa31917b3cfac7472d8d140d03e",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/finalize_basic.py",
+      "bytes": 8976,
+      "sha256": "56fc8fa41b202ebc9d97ed38d22362186389e52076325bfbfea45027334f62a1",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/freeze_characteristics.py",
+      "bytes": 1642,
+      "sha256": "e4dd70ddddd572a1cf719c6e61205b4914a0d68ebb8d42bde95dea78a2d2feef",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/freeze_curve.py",
+      "bytes": 4670,
+      "sha256": "b40d66202ea0d5743bd18af224ddf376853b1032b999fcd99ca0dfc84b024d33",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/inspect_archive.py",
+      "bytes": 1713,
+      "sha256": "a8007edf0568f55e53dbcd2249bb48f86f022b895b2bbf6c7498ed717ddaff6d",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/package_curve.py",
+      "bytes": 5146,
+      "sha256": "88604ce4f080d300328e17cf622f7a675210fbbe410e963552bd623f6dbeaa4b",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/paper_html_plan_v1.json",
+      "bytes": 458,
+      "sha256": "7b0e1eb52c974272496fcc9bc1881a44f086a577a832a305bffc65ee7293f498",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/prepare_curve.py",
+      "bytes": 2953,
+      "sha256": "93bb1ca4518e63e128f10a6379a27d16e07f7523a9dd97eecba9ff2b095f8770",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/research_scope_v1.json",
+      "bytes": 2904,
+      "sha256": "114c2f8aff1154ce7f807f7f5402895aa74c968f5bbf82735eb5bef1436611ad",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/run_curve.py",
+      "bytes": 5210,
+      "sha256": "7d3981ca37eec5ca686ef872a3ccdd753c3a72764f550751d70b25a6f1371a72",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/source_plan_v1.json",
+      "bytes": 454,
+      "sha256": "e8e156bcbeb8840169093fc747afe6d59381ee5d1debf41d148f6c0d7c6fa9ae",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/update_basic_records.py",
+      "bytes": 16328,
+      "sha256": "80b255aa75544f9049a9183c05041a842f558008ab246cc3c903f11c6b13cdd0",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/update_records.py",
+      "bytes": 13320,
+      "sha256": "6a057ac47f51e1dd198964948fccf47acd6242aa654923aa28cc8b28fdba6c51",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/verify_curve.py",
+      "bytes": 8196,
+      "sha256": "2b51699d5dbee9440f4006e57a4a4f02645945da01ebff3792f676dd9cfc5487",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/verify_description.py",
+      "bytes": 4885,
+      "sha256": "057a6c639d187f5c5fc7c79a7ea737e5caa5c6db6f79d8e05c6331bae3d08675",
+      "force_selected_summary": false
+    },
+    {
+      "path": "work/wind_power_research_20261016/verify_package.py",
+      "bytes": 4088,
+      "sha256": "0ff2cc4366fb776a00ce9003050fba5fe908fba9aee33d190d0055e37775075c",
+      "force_selected_summary": false
+    },
+    {
+      "path": "项目文件索引.md",
+      "bytes": 69604,
+      "sha256": "2d7471398485b23082e178cbb230cae461135d4427fbcfb89a45b5c56ea6aae7",
+      "force_selected_summary": false
+    }
+  ]
+}

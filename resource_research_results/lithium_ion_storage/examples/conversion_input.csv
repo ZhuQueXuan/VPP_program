@@ -1,0 +1,5 @@
+unit_id,direction,ac_mean_kw,steady_state_confirmed
+lmo1,charge,-300,true
+lmo1,discharge,300,true
+lmo2,charge,-400,true
+lmo2,discharge,400,true

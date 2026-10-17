@@ -1,0 +1,7 @@
+{
+  "date":"2026-10-16",
+  "purpose":"Retrieve exact raw/processed publication archive for original-file QA, without adopting author's cleaning, merging or modelling.",
+  "files":[
+    {"name":"Data_Nature.zip","url":"https://zenodo.org/api/records/7620136/files/Data_Nature.zip/content","limit_bytes":283086145,"expected_bytes":283086145,"expected_md5":"3a65b744ce960c0bced4285c7cc6d3d4"}
+  ]
+}
