@@ -145,3 +145,6 @@ Thumbs.db
 
 # Project simulated task data adaptation to colleague DML core
 /work/vpp_dml_project_trial_20261017/runs/
+
+# Local explicit Git staging list; snapshot manifest and validation remain tracked.
+/work/git_delivery_20261017/stage_paths.nul

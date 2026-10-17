@@ -1,0 +1,17 @@
+{
+  "status": "passed_local_review_delivery_checks",
+  "review_documents": 5,
+  "broken_local_links": [],
+  "original_published_artifacts_unchanged": 104,
+  "new_data_admission": false,
+  "new_model_experiment": false,
+  "stage_upgraded": false,
+  "review_scope": "local current files and research snapshot1a88be0, not complete mirror",
+  "document_sha256": {
+    "README.md": "13e8f8aa8bc4ce10e22455240d8aa3089c82c85da5299fd2aebc4f23c25118e0",
+    "执行进展综合review.md": "444f0bcfbaad42584a4d0523e493f9260f2235359df749ec8fde9cabb738cf6f",
+    "既有算法与正式交付_审查.md": "dca359572a193af3dd30c074abef9a7a1b442539aa60c3df1b06d9af0c952526",
+    "正式任务与执行进展_审查.md": "1e10d1e6e87e04db1b9984a131016ac8139e880ac3489af86123b987f4eb11dc",
+    "证据阶段门与下一步_审查.md": "8bcde67fb186c40ce7a15ebbbee54ab02bd7811600c9c059760db8b5131f2b07"
+  }
+}

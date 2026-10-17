@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "committed_files": 527,
+  "released_artifacts_commit_exact_bytes": 104,
+  "contains_original_source_data": false,
+  "contains_historical_deletions": false,
+  "snapshot_commit": "1a88be029707646c9f46625fb2f3aec1c3031490"
+}
