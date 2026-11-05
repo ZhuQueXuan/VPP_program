@@ -8,3 +8,8 @@
 /work/electric_water_heating_research_20261016/** -text
 /work/vpp_dml_review_20261017/** -text
 /work/vpp_dml_project_trial_20261017/** -text
+
+# Formal research v1: source freezes and audit receipts refer to exact bytes.
+/B1算法/** -text
+/work/b1_*/** -text
+/releases/research-v1/** -text

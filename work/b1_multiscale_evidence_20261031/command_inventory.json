@@ -1,0 +1,15 @@
+{
+  "recordings": 18,
+  "edges": 9547,
+  "holds": 9529,
+  "duration_us_min_median_max": [
+    16001,
+    30018999,
+    55737003000
+  ],
+  "holds_le10s": 823,
+  "selected_short_returns": 17,
+  "selected_recordings": 4,
+  "selection_before_loading_current": true,
+  "source_csv_sha256": "39ea2703a82b43d2a9ea2787d8a682d43aba9e813d6f5ac52c24d9ca10899673"
+}

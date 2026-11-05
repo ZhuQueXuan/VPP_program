@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-11-02T17:54:14.555297+00:00",
+  "before_labels_and_inference": true,
+  "files": {
+    "selection.json": "d9affb76e4b603ed77357ac7fa52ec250d9a8b9feed9b6f0629d99e601e92ece",
+    "samples.json": "6af68e9e137d68898fc220fd6d564870cc7f94a997fc9cfee1e8c55e823fb367"
+  },
+  "evaluation_freeze_sha256": "924eb521f644c91e1103ff4191587164589d60d1cf17fc90237d30c68a6e2c20"
+}

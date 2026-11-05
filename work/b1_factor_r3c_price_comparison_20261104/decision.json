@@ -1,0 +1,98 @@
+{
+  "protocol_sha256": "f5b033f62101e89741e8b02753de73d85ab6ad2f5f627231efa58c5b659e9011",
+  "input_hashes_verified": 8,
+  "tariff_rows": 17520,
+  "cm_dates": 21,
+  "cm_exact_matches": {
+    "local_start": 19,
+    "gmt_start": 14,
+    "local_end": 0,
+    "gmt_end": 0
+  },
+  "cm_conflicts": [
+    "2013-03-29",
+    "2013-05-03"
+  ],
+  "unlisted_cm_shapes": [
+    "2013-11-19",
+    "2013-12-06",
+    "2013-12-08",
+    "2013-12-10",
+    "2013-12-21",
+    "2013-12-27"
+  ],
+  "dst_excluded": {
+    "2013-03-30": 46,
+    "2013-10-26": 50
+  },
+  "partial_excluded": {
+    "2012-12-31": 10,
+    "2013-12-31": 38
+  },
+  "date_denominator": {
+    "raw_shape": {
+      "High": 2,
+      "Low": 2,
+      "Normal": 174
+    },
+    "ordinary_workday": {
+      "High": 2,
+      "Low": 2,
+      "Normal": 168
+    },
+    "ordinary_and_adjacent_normal": {
+      "High": 1,
+      "Low": 2,
+      "Normal": 67
+    },
+    "ordinary_and_adjacent_normal_by_season": {
+      "DJF": {
+        "High": 1,
+        "Low": 0,
+        "Normal": 8
+      },
+      "MAM": {
+        "High": 0,
+        "Low": 0,
+        "Normal": 18
+      },
+      "JJA": {
+        "High": 0,
+        "Low": 1,
+        "Normal": 16
+      },
+      "SON": {
+        "High": 0,
+        "Low": 1,
+        "Normal": 25
+      }
+    },
+    "verified_SF_dates": 0,
+    "same_season_triplets_optimistic_bound": 0,
+    "assigned_triplets": 0,
+    "assigned_normal_dates": 0,
+    "assigned_normal": []
+  },
+  "precision": {
+    "minimum_triplets": 12,
+    "half_width_kwh_at_11": 0.1588221208121268,
+    "half_width_kwh_at_12": 0.14971227582980046
+  },
+  "household_denominator": {
+    "status": "not_opened_after_calendar_gate",
+    "eligible": null,
+    "complete_event": null,
+    "complete_trial_day": null,
+    "complete_common_panel": null
+  },
+  "gates": {
+    "same_release_clock": false,
+    "verified_SF_labels": false,
+    "shape_only_date_support": false,
+    "meter_acquisition_authorized_by_gate": false
+  },
+  "meter_download_bytes": 0,
+  "meter_rows_read": 0,
+  "outcome_comparisons": 0,
+  "decision": "stop_before_meter_acquisition"
+}

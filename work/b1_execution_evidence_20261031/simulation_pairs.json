@@ -1,0 +1,338 @@
+[
+  {
+    "pair_id": "7653100-pulse100ms",
+    "shape": "pulse100ms",
+    "amplitude_kw": 1.1379360443742657,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653100-pulse100ms-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653100-pulse100ms-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653100-pulse100ms-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 1.1379360443742659,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 0.1
+  },
+  {
+    "pair_id": "7653100-pulse500ms",
+    "shape": "pulse500ms",
+    "amplitude_kw": 0.7560066455656829,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653100-pulse500ms-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653100-pulse500ms-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653100-pulse500ms-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 0.7560066455656829,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 0.5
+  },
+  {
+    "pair_id": "7653100-pulse2s",
+    "shape": "pulse2s",
+    "amplitude_kw": 1.0561017782229518,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653100-pulse2s-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653100-pulse2s-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653100-pulse2s-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 1.0561017782229518,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 2.0
+  },
+  {
+    "pair_id": "7653100-pulse5s",
+    "shape": "pulse5s",
+    "amplitude_kw": 0.4515032738932492,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653100-pulse5s-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653100-pulse5s-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653100-pulse5s-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 0.4515032738932492,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 5.0
+  },
+  {
+    "pair_id": "7653100-ramp_hold",
+    "shape": "ramp_hold",
+    "amplitude_kw": 0.5502521000822951,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653100-ramp_hold-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653100-ramp_hold-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653100-ramp_hold-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 0.5502521000822949,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 4.4
+  },
+  {
+    "pair_id": "7653100-slow_drift",
+    "shape": "slow_drift",
+    "amplitude_kw": 0.8789663111718149,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653100-slow_drift-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653100-slow_drift-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653100-slow_drift-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 0.870176648060097,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 4.1000000000000005
+  },
+  {
+    "pair_id": "7653101-pulse100ms",
+    "shape": "pulse100ms",
+    "amplitude_kw": 1.0002072232870016,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653101-pulse100ms-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653101-pulse100ms-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653101-pulse100ms-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 1.0002072232870018,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 0.1
+  },
+  {
+    "pair_id": "7653101-pulse500ms",
+    "shape": "pulse500ms",
+    "amplitude_kw": 0.994019834440601,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653101-pulse500ms-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653101-pulse500ms-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653101-pulse500ms-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 0.9940198344406013,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 0.5
+  },
+  {
+    "pair_id": "7653101-pulse2s",
+    "shape": "pulse2s",
+    "amplitude_kw": 1.0759516847122614,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653101-pulse2s-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653101-pulse2s-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653101-pulse2s-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 1.0759516847122619,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 2.0
+  },
+  {
+    "pair_id": "7653101-pulse5s",
+    "shape": "pulse5s",
+    "amplitude_kw": 1.0741577043038035,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653101-pulse5s-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653101-pulse5s-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653101-pulse5s-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 1.0741577043038033,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 5.0
+  },
+  {
+    "pair_id": "7653101-ramp_hold",
+    "shape": "ramp_hold",
+    "amplitude_kw": 1.14433174777564,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653101-ramp_hold-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653101-ramp_hold-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653101-ramp_hold-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 1.1443317477756398,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 4.800000000000001
+  },
+  {
+    "pair_id": "7653101-slow_drift",
+    "shape": "slow_drift",
+    "amplitude_kw": 0.574888444146758,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653101-slow_drift-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653101-slow_drift-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653101-slow_drift-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 0.5691395597052904,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 3.7
+  },
+  {
+    "pair_id": "7653102-pulse100ms",
+    "shape": "pulse100ms",
+    "amplitude_kw": 0.602318017667619,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653102-pulse100ms-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653102-pulse100ms-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653102-pulse100ms-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 0.6023180176676188,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 0.1
+  },
+  {
+    "pair_id": "7653102-pulse500ms",
+    "shape": "pulse500ms",
+    "amplitude_kw": 0.5321009622140294,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653102-pulse500ms-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653102-pulse500ms-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653102-pulse500ms-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 0.5321009622140291,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 0.5
+  },
+  {
+    "pair_id": "7653102-pulse2s",
+    "shape": "pulse2s",
+    "amplitude_kw": 1.1677129334155525,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653102-pulse2s-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653102-pulse2s-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653102-pulse2s-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 1.1677129334155527,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 2.0
+  },
+  {
+    "pair_id": "7653102-pulse5s",
+    "shape": "pulse5s",
+    "amplitude_kw": 0.8403511926498699,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653102-pulse5s-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653102-pulse5s-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653102-pulse5s-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 0.8403511926498699,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 5.0
+  },
+  {
+    "pair_id": "7653102-ramp_hold",
+    "shape": "ramp_hold",
+    "amplitude_kw": 0.6607258041144931,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653102-ramp_hold-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653102-ramp_hold-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653102-ramp_hold-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 0.6607258041144934,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 4.6000000000000005
+  },
+  {
+    "pair_id": "7653102-slow_drift",
+    "shape": "slow_drift",
+    "amplitude_kw": 1.0222902144059811,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653102-slow_drift-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653102-slow_drift-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653102-slow_drift-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 1.0120673122619213,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 4.3
+  },
+  {
+    "pair_id": "7653103-pulse100ms",
+    "shape": "pulse100ms",
+    "amplitude_kw": 0.7268679420969786,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653103-pulse100ms-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653103-pulse100ms-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653103-pulse100ms-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 0.7268679420969786,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 0.1
+  },
+  {
+    "pair_id": "7653103-pulse500ms",
+    "shape": "pulse500ms",
+    "amplitude_kw": 0.4568845444229719,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653103-pulse500ms-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653103-pulse500ms-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653103-pulse500ms-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 0.4568845444229721,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 0.5
+  },
+  {
+    "pair_id": "7653103-pulse2s",
+    "shape": "pulse2s",
+    "amplitude_kw": 0.9754900829061444,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653103-pulse2s-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653103-pulse2s-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653103-pulse2s-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 0.9754900829061448,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 2.0
+  },
+  {
+    "pair_id": "7653103-pulse5s",
+    "shape": "pulse5s",
+    "amplitude_kw": 0.8789890263856,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653103-pulse5s-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653103-pulse5s-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653103-pulse5s-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 0.8789890263855997,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 5.0
+  },
+  {
+    "pair_id": "7653103-ramp_hold",
+    "shape": "ramp_hold",
+    "amplitude_kw": 0.8017458663965138,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653103-ramp_hold-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653103-ramp_hold-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653103-ramp_hold-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 0.801745866396514,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 4.6000000000000005
+  },
+  {
+    "pair_id": "7653103-slow_drift",
+    "shape": "slow_drift",
+    "amplitude_kw": 1.045681713824598,
+    "samples": {
+      "actual_response": "work/b1_execution_evidence_20261031/simulation/7653103-slow_drift-actual_response.npz",
+      "primary_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653103-slow_drift-primary_meter_fault.npz",
+      "common_mode_meter_fault": "work/b1_execution_evidence_20261031/simulation/7653103-slow_drift-common_mode_meter_fault.npz"
+    },
+    "primary_and_command_identical_for_different_causes": true,
+    "optional_independent_meter_observation_max_difference_kw": 1.0352248966863522,
+    "common_mode_all_observations_identical": true,
+    "true_action_duration_s": 4.3
+  }
+]

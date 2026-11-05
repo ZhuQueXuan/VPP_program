@@ -1,0 +1,158 @@
+{
+  "Session_data.xlsx": {
+    "sha256": "b886943bf86520f24f5a53870886c4c43709d265cbebdd65e1345321e22cc192",
+    "sheets": {
+      "Session_data": {
+        "rows": 1878,
+        "columns": [
+          "Session",
+          "CCS",
+          "Arrival",
+          "Departure",
+          "Stay (min)",
+          "Energy (Wh)",
+          "Pmax (W)",
+          "Preq_max (W)",
+          "Controlled session (0=False, 1=True)",
+          "TotalCapacity",
+          "BulkCapacity",
+          "SOC arrival",
+          "SOC departure",
+          "Energy capacity (Wh)"
+        ],
+        "nonnull": {
+          "Session": 1878,
+          "CCS": 1878,
+          "Arrival": 1878,
+          "Departure": 1878,
+          "Stay (min)": 1878,
+          "Energy (Wh)": 1878,
+          "Pmax (W)": 1878,
+          "Preq_max (W)": 1878,
+          "Controlled session (0=False, 1=True)": 1878,
+          "TotalCapacity": 1878,
+          "BulkCapacity": 1878,
+          "SOC arrival": 1878,
+          "SOC departure": 1878,
+          "Energy capacity (Wh)": 1878
+        },
+        "group_fields": {
+          "Session": {
+            "unique": 1878,
+            "counts": {
+              "278": 1,
+              "897": 1,
+              "958": 1,
+              "1046": 1,
+              "1095": 1,
+              "1342": 1,
+              "1352": 1,
+              "1450": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "Measurement_data.xlsx": {
+    "sha256": "a0a489e2897ec79235ed914376ab7751ab21c68418543234a60042eaee73a89c",
+    "sheets": {
+      "CCS1": {
+        "rows": 646680,
+        "columns": [
+          "Date and time",
+          "CCS",
+          "Session",
+          "P (W)",
+          "Pset (W)",
+          "Preq (W)",
+          "TotalCapacity",
+          "RemainingCapacity",
+          "BulkCapacity",
+          "Energy (Wh)",
+          "SOC (%)",
+          "Ctrl_t (0 = False, 1 = True)",
+          "Ctrl_s (0 = False, 1 = True)"
+        ],
+        "nonnull": {
+          "Date and time": 646680,
+          "CCS": 646680,
+          "Session": 36184,
+          "P (W)": 36184,
+          "Pset (W)": 36184,
+          "Preq (W)": 36184,
+          "TotalCapacity": 36184,
+          "RemainingCapacity": 36184,
+          "BulkCapacity": 36184,
+          "Energy (Wh)": 36184,
+          "SOC (%)": 36184,
+          "Ctrl_t (0 = False, 1 = True)": 36184,
+          "Ctrl_s (0 = False, 1 = True)": 36184
+        },
+        "group_fields": {
+          "Session": {
+            "unique": 1129,
+            "counts": {
+              "743.0": 141,
+              "61.0": 137,
+              "668.0": 134,
+              "778.0": 134,
+              "368.0": 128,
+              "265.0": 110,
+              "783.0": 109,
+              "657.0": 107
+            }
+          }
+        }
+      },
+      "CCS2": {
+        "rows": 646680,
+        "columns": [
+          "Date and time",
+          "CCS",
+          "Session",
+          "P (W)",
+          "Pset (W)",
+          "Preq (W)",
+          "TotalCapacity",
+          "RemainingCapacity",
+          "BulkCapacity",
+          "Energy (Wh)",
+          "SOC (%)",
+          "Ctrl_t (0 = False, 1 = True)",
+          "Ctrl_s (0 = False, 1 = True)"
+        ],
+        "nonnull": {
+          "Date and time": 646680,
+          "CCS": 646680,
+          "Session": 25632,
+          "P (W)": 25632,
+          "Pset (W)": 25632,
+          "Preq (W)": 25632,
+          "TotalCapacity": 25632,
+          "RemainingCapacity": 25632,
+          "BulkCapacity": 25632,
+          "Energy (Wh)": 25632,
+          "SOC (%)": 25632,
+          "Ctrl_t (0 = False, 1 = True)": 25632,
+          "Ctrl_s (0 = False, 1 = True)": 25632
+        },
+        "group_fields": {
+          "Session": {
+            "unique": 749,
+            "counts": {
+              "621.0": 144,
+              "199.0": 96,
+              "684.0": 96,
+              "116.0": 92,
+              "379.0": 90,
+              "220.0": 88,
+              "185.0": 87,
+              "344.0": 86
+            }
+          }
+        }
+      }
+    }
+  }
+}

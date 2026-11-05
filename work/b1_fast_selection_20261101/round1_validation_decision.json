@@ -1,0 +1,4 @@
+{
+  "status": "continue_exploration_no_adoption",
+  "reason": "Fresh validation safety intact but balanced duration improvement about6percent, below desired10percent. No final test generated. New loss family to be explored in a separate version; old frozen source/results retained."
+}

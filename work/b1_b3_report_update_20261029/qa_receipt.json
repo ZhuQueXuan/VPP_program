@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "pages": 11,
+  "font": "all headings/captions/table headers SimHei all scripts",
+  "heading_header_runs": 73,
+  "original_math_equations_preserved": 7,
+  "native_equations_total": 12,
+  "original_media_preserved": 4,
+  "old_protected_files_unchanged": 369,
+  "prior_release_snapshot_files_unchanged": 51,
+  "formal_impersonal_voice_checked": true,
+  "pdf_from_exact_word": true,
+  "docx_sha": "12efe9ab1b80b16a39538156872a83a0879975a018246ef4c473193a8f1ad7af",
+  "pdf_sha": "bbdc6854fb2ceac4a74d81c8f6ea803a62d780109d319d197f8c1f80f91b1ca0",
+  "page_bounds": [
+    {
+      "page": 1,
+      "blocks": 16,
+      "bottom": 756.1046142578125,
+      "characters": 685
+    },
+    {
+      "page": 2,
+      "blocks": 15,
+      "bottom": 756.1046142578125,
+      "characters": 697
+    },
+    {
+      "page": 3,
+      "blocks": 26,
+      "bottom": 756.1046142578125,
+      "characters": 812
+    },
+    {
+      "page": 4,
+      "blocks": 24,
+      "bottom": 756.1046142578125,
+      "characters": 1076
+    },
+    {
+      "page": 5,
+      "blocks": 23,
+      "bottom": 756.1046142578125,
+      "characters": 750
+    },
+    {
+      "page": 6,
+      "blocks": 27,
+      "bottom": 756.1046142578125,
+      "characters": 976
+    },
+    {
+      "page": 7,
+      "blocks": 14,
+      "bottom": 756.1046142578125,
+      "characters": 724
+    },
+    {
+      "page": 8,
+      "blocks": 24,
+      "bottom": 756.1046142578125,
+      "characters": 943
+    },
+    {
+      "page": 9,
+      "blocks": 16,
+      "bottom": 756.1046142578125,
+      "characters": 696
+    },
+    {
+      "page": 10,
+      "blocks": 24,
+      "bottom": 756.1046142578125,
+      "characters": 1021
+    },
+    {
+      "page": 11,
+      "blocks": 27,
+      "bottom": 756.1046142578125,
+      "characters": 1143
+    }
+  ],
+  "visual_signoff": true,
+  "pages_visually_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "final_render": "render_final",
+  "final_changed_page7_reviewed": true,
+  "remaining10_pages_pixel_identical_to_reviewed_v2": true,
+  "skills": [
+    "humanizer-zh",
+    "lin-rongheng-report",
+    "documents",
+    "pdf"
+  ],
+  "report_scope": "B1 through B3, formal teacher-facing voice; no research experiment or model changes"
+}

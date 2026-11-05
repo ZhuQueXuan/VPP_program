@@ -1,0 +1,19 @@
+{
+  "status": "finite_research_package_complete_no_default_adoption",
+  "B1_to_B2_optional_connection": "implemented_and_tested",
+  "default_model": "D122 unchanged",
+  "stable_history_predictive_increment": false,
+  "nonlinear_representation_predictive_increment": false,
+  "validation_selection_counts": {
+    "C0": 14,
+    "C1": 6,
+    "C2": 0,
+    "C3": 0
+  },
+  "old_files_unchanged": 313,
+  "committed_kw": null,
+  "formal_temporal_deep_requirement_complete": false,
+  "formal_90_percent_pass": false,
+  "real_world_validation": false,
+  "next_new_experiment_started": false
+}

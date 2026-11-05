@@ -1,0 +1,1 @@
+[{"label":"calibration_tf_standard","method":"tf_standard","n_events":96,"seconds":0.42955649999930756,"status_counts":{"ok":96}},{"label":"calibration_tf_gls","method":"tf_gls","n_events":96,"seconds":0.4526043000005302,"status_counts":{"ok":96}},{"label":"calibration_cpop","method":"cpop","n_events":96,"seconds":2.3707989000031375,"status_counts":{"ok":96}}]

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "phase": "after",
+  "imported_api": "D:\\myDocu\\project_postg\\VPP_program\\B1算法\\b1_api.py",
+  "imported_package": "D:\\myDocu\\project_postg\\VPP_program\\B1算法\\b1_algorithm\\__init__.py",
+  "native_method": "CPOP",
+  "eta": 0.2986380750450729,
+  "reference_intervals": 210,
+  "unchanged_numerical_results": true,
+  "scope": "path relocation and execution regression only; no new performance claims"
+}

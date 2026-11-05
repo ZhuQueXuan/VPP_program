@@ -1,0 +1,472 @@
+{
+  "scope": "Frozen already-seen test, descriptive decomposition only; no new fit, selection or independent performance claim",
+  "summaries": [
+    {
+      "condition": "all",
+      "n": 480,
+      "identical_threshold_mask": 426,
+      "changed_bins": 80,
+      "cumulative_changed": 52,
+      "longest_changed": 47,
+      "improved_primary": 21,
+      "worsened_primary": 29,
+      "changed_bin_nearest_fit_distance_within_025kw": 52,
+      "changed_bin_nearest_fit_distance_within_05kw": 74,
+      "changed_bin_distance_median_kw": 0.014300076596934747,
+      "cpop_primary_mae_seconds": 44.875,
+      "cpop_cumulative_mae_seconds": 33.75,
+      "cpop_longest_mae_seconds": 56.0,
+      "cpop_task_curve_pooled_rmse_kw": 0.12780239630425452,
+      "v2_primary_mae_seconds": 47.8125,
+      "v2_cumulative_mae_seconds": 35.25,
+      "v2_longest_mae_seconds": 60.375,
+      "v2_task_curve_pooled_rmse_kw": 0.12792063903897627
+    },
+    {
+      "condition": "gaussian",
+      "n": 240,
+      "identical_threshold_mask": 206,
+      "changed_bins": 47,
+      "cumulative_changed": 32,
+      "longest_changed": 32,
+      "improved_primary": 16,
+      "worsened_primary": 15,
+      "changed_bin_nearest_fit_distance_within_025kw": 29,
+      "changed_bin_nearest_fit_distance_within_05kw": 42,
+      "changed_bin_distance_median_kw": 0.015739055552308368,
+      "cpop_primary_mae_seconds": 25.875,
+      "cpop_cumulative_mae_seconds": 22.5,
+      "cpop_longest_mae_seconds": 29.25,
+      "cpop_task_curve_pooled_rmse_kw": 0.03323756332913312,
+      "v2_primary_mae_seconds": 28.5,
+      "v2_cumulative_mae_seconds": 23.25,
+      "v2_longest_mae_seconds": 33.75,
+      "v2_task_curve_pooled_rmse_kw": 0.03345726966731856
+    },
+    {
+      "condition": "gaussian_plus_spikes",
+      "n": 240,
+      "identical_threshold_mask": 220,
+      "changed_bins": 33,
+      "cumulative_changed": 20,
+      "longest_changed": 15,
+      "improved_primary": 5,
+      "worsened_primary": 14,
+      "changed_bin_nearest_fit_distance_within_025kw": 23,
+      "changed_bin_nearest_fit_distance_within_05kw": 32,
+      "changed_bin_distance_median_kw": 0.01263737761417938,
+      "cpop_primary_mae_seconds": 63.875,
+      "cpop_cumulative_mae_seconds": 45.0,
+      "cpop_longest_mae_seconds": 82.75,
+      "cpop_task_curve_pooled_rmse_kw": 0.17765744956562143,
+      "v2_primary_mae_seconds": 67.125,
+      "v2_cumulative_mae_seconds": 47.25,
+      "v2_longest_mae_seconds": 87.0,
+      "v2_task_curve_pooled_rmse_kw": 0.17778636306164894
+    }
+  ],
+  "null_summary": [
+    {
+      "condition": "gaussian",
+      "n": 24,
+      "original_positive": 0,
+      "v2_positive": 0,
+      "positive_spike_count": 0,
+      "exactly_same_cp_v2_positive_masks": 24,
+      "cp_mask_equals_raw": 24,
+      "v2_mask_equals_raw": 24,
+      "cp_positive_iff_positive_injected_spike": true,
+      "cp_positive_minutes_equal_positive_injected_spikes": true,
+      "v2_positive_minutes_equal_positive_injected_spikes": true
+    },
+    {
+      "condition": "gaussian_plus_spikes",
+      "n": 24,
+      "original_positive": 17,
+      "v2_positive": 17,
+      "positive_spike_count": 17,
+      "exactly_same_cp_v2_positive_masks": 24,
+      "cp_mask_equals_raw": 24,
+      "v2_mask_equals_raw": 24,
+      "cp_positive_iff_positive_injected_spike": true,
+      "cp_positive_minutes_equal_positive_injected_spikes": true,
+      "v2_positive_minutes_equal_positive_injected_spikes": true
+    }
+  ],
+  "kind_primary_deltas": [
+    {
+      "kind": "brief_weak",
+      "n": 48,
+      "primary_total_delta_seconds": -90.0
+    },
+    {
+      "kind": "delayed_rebound",
+      "n": 48,
+      "primary_total_delta_seconds": -60.0
+    },
+    {
+      "kind": "early_exit",
+      "n": 48,
+      "primary_total_delta_seconds": -60.0
+    },
+    {
+      "kind": "interrupted",
+      "n": 48,
+      "primary_total_delta_seconds": 930.0
+    },
+    {
+      "kind": "null",
+      "n": 48,
+      "primary_total_delta_seconds": 0.0
+    },
+    {
+      "kind": "one_bin_gap",
+      "n": 48,
+      "primary_total_delta_seconds": 0.0
+    },
+    {
+      "kind": "one_bin_response",
+      "n": 48,
+      "primary_total_delta_seconds": 0.0
+    },
+    {
+      "kind": "oscillatory",
+      "n": 48,
+      "primary_total_delta_seconds": 0.0
+    },
+    {
+      "kind": "smooth_strong",
+      "n": 48,
+      "primary_total_delta_seconds": -120.0
+    },
+    {
+      "kind": "smooth_weak",
+      "n": 48,
+      "primary_total_delta_seconds": 810.0
+    }
+  ],
+  "largest_worsenings": [
+    {
+      "task_id": "command-sim-7641201-interrupted-1-gaussian",
+      "kind": "interrupted",
+      "condition": "gaussian",
+      "changed_minutes": [
+        13
+      ],
+      "cpop_changed_kw": [
+        0.15703051833720405
+      ],
+      "v2_changed_kw": [
+        0.12988347695751523
+      ],
+      "true_changed_kw": [
+        0.1675419308949289
+      ],
+      "true_duration": [
+        1680,
+        1680
+      ],
+      "cpop_duration": [
+        1680,
+        1680
+      ],
+      "v2_duration": [
+        1620,
+        960
+      ],
+      "primary_delta": 390.0
+    },
+    {
+      "task_id": "command-sim-7641201-interrupted-1-gaussian_plus_spikes",
+      "kind": "interrupted",
+      "condition": "gaussian_plus_spikes",
+      "changed_minutes": [
+        13
+      ],
+      "cpop_changed_kw": [
+        0.1570305183370424
+      ],
+      "v2_changed_kw": [
+        0.12988347695751523
+      ],
+      "true_changed_kw": [
+        0.1675419308949289
+      ],
+      "true_duration": [
+        1680,
+        1680
+      ],
+      "cpop_duration": [
+        1680,
+        1680
+      ],
+      "v2_duration": [
+        1620,
+        960
+      ],
+      "primary_delta": 390.0
+    },
+    {
+      "task_id": "command-sim-7641204-smooth_weak-0-gaussian",
+      "kind": "smooth_weak",
+      "condition": "gaussian",
+      "changed_minutes": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "cpop_changed_kw": [
+        0.163738189552862,
+        0.16423565872273857,
+        0.16473312789261513,
+        0.16523059706249166,
+        0.16572806623236822
+      ],
+      "v2_changed_kw": [
+        0.14205525738389704,
+        0.14388148678362941,
+        0.14570771618336179,
+        0.14753394558309416,
+        0.14936017498282653
+      ],
+      "true_changed_kw": [
+        0.15306496173214323,
+        0.1616646976132613,
+        0.16640166003506648,
+        0.16901090446952197,
+        0.17044814545066161
+      ],
+      "true_duration": [
+        1500,
+        1500
+      ],
+      "cpop_duration": [
+        1500,
+        1500
+      ],
+      "v2_duration": [
+        1200,
+        1200
+      ],
+      "primary_delta": 300.0
+    },
+    {
+      "task_id": "command-sim-7641203-smooth_weak-2-gaussian",
+      "kind": "smooth_weak",
+      "condition": "gaussian",
+      "changed_minutes": [
+        5,
+        6
+      ],
+      "cpop_changed_kw": [
+        0.18637910608909752,
+        0.18870298348487816
+      ],
+      "v2_changed_kw": [
+        0.07103047504508572,
+        0.12154061244687711
+      ],
+      "true_changed_kw": [
+        0.19094740144567673,
+        0.19481124758518156
+      ],
+      "true_duration": [
+        1620,
+        1620
+      ],
+      "cpop_duration": [
+        1620,
+        1620
+      ],
+      "v2_duration": [
+        1500,
+        1380
+      ],
+      "primary_delta": 180.0
+    },
+    {
+      "task_id": "command-sim-7641205-smooth_weak-1-gaussian",
+      "kind": "smooth_weak",
+      "condition": "gaussian",
+      "changed_minutes": [
+        27,
+        29
+      ],
+      "cpop_changed_kw": [
+        0.17882639466322361,
+        0.17930603356826857
+      ],
+      "v2_changed_kw": [
+        0.14866732985242054,
+        0.13736262238582064
+      ],
+      "true_changed_kw": [
+        0.16794738042536886,
+        0.16794738042716106
+      ],
+      "true_duration": [
+        1560,
+        1560
+      ],
+      "cpop_duration": [
+        1500,
+        1500
+      ],
+      "v2_duration": [
+        1380,
+        1320
+      ],
+      "primary_delta": 150.0
+    }
+  ],
+  "largest_improvements": [
+    {
+      "task_id": "command-sim-7641200-brief_weak-0-gaussian",
+      "kind": "brief_weak",
+      "condition": "gaussian",
+      "changed_minutes": [
+        3,
+        4
+      ],
+      "cpop_changed_kw": [
+        0.08631302640211268,
+        0.1227445463421095
+      ],
+      "v2_changed_kw": [
+        0.17628945064964743,
+        0.17569869686980355
+      ],
+      "true_changed_kw": [
+        0.17514734905551374,
+        0.1851238669473208
+      ],
+      "true_duration": [
+        240,
+        240
+      ],
+      "cpop_duration": [
+        120,
+        120
+      ],
+      "v2_duration": [
+        240,
+        240
+      ],
+      "primary_delta": -120.0
+    },
+    {
+      "task_id": "command-sim-7641202-smooth_weak-3-gaussian",
+      "kind": "smooth_weak",
+      "condition": "gaussian",
+      "changed_minutes": [
+        2,
+        3
+      ],
+      "cpop_changed_kw": [
+        0.092632937699998,
+        0.13406801622470083
+      ],
+      "v2_changed_kw": [
+        0.16267891079065486,
+        0.1638024829225404
+      ],
+      "true_changed_kw": [
+        0.15160230547524325,
+        0.16698696721337217
+      ],
+      "true_duration": [
+        1680,
+        1680
+      ],
+      "cpop_duration": [
+        1560,
+        1560
+      ],
+      "v2_duration": [
+        1680,
+        1680
+      ],
+      "primary_delta": -120.0
+    },
+    {
+      "task_id": "command-sim-7641200-smooth_weak-1-gaussian",
+      "kind": "smooth_weak",
+      "condition": "gaussian",
+      "changed_minutes": [
+        3
+      ],
+      "cpop_changed_kw": [
+        0.14863066386978904
+      ],
+      "v2_changed_kw": [
+        0.15153936494863052
+      ],
+      "true_changed_kw": [
+        0.19168541747125287
+      ],
+      "true_duration": [
+        1680,
+        1680
+      ],
+      "cpop_duration": [
+        1560,
+        1560
+      ],
+      "v2_duration": [
+        1620,
+        1620
+      ],
+      "primary_delta": -60.0
+    }
+  ],
+  "checks": 7200,
+  "scientific_sources_unchanged": true,
+  "input_sha256": {
+    "work/b1_cpop_jump_v2_20261031/facts/test.json": "be6f50e3497ea5bc7d137a43a3300823cfcd201472a7e034003cda81c138b2d2",
+    "work/b1_cpop_jump_v2_20261031/evaluator/test.json": "1d59cb604e1a7e5a26e2b22ad53319614ae5f208cf8788a927d76513af81ba03",
+    "work/b1_cpop_jump_v2_20261031/outputs/test_curves.json": "be883a6ffb0af9a5e78d2a4bc44a26190620132d843965148fd91e5028e0ba09",
+    "work/b1_cpop_jump_v2_20261031/outputs/test_metrics.json": "c63f54c4544e8ae50bd97d3a60eabcdffb6b7df7008cf2b47080a4ff8f7d05a8",
+    "work/b1_cpop_jump_v2_20261031/validation_freeze.json": "cba86a057e59b892612b289212a12635ede436045c36297c40df13e303681939",
+    "work/b1_cpop_jump_v2_20261031/candidate.py": "a08a0ea2167ecfae01bbb6844c77374e8a5d521e27131f03980c013577397cdb",
+    "work/b1_cpop_jump_v2_20261031/adoption_decision.json": "27e24ca9c48f21860d91534cc83d8977d14f9dd4b5ed6563dfc2d91462ed190e",
+    "B1算法/b1_api.py": "a90e5f8a27b233361cdc5c669415f5eabd6d164c41edf5b618bcdd220468ea11",
+    "B1算法/README.md": "0aa19dd56a6305014b80683942b6c00ce33d7da538d2b977e11a9f8460f34bd2",
+    "B1算法/requirements.txt": "8449a7aa230a31d8af15be515d5d6ffb9fdccb8c8b9cc0b5206aa86dc76ff8d5",
+    "B1算法/b1_algorithm/api.py": "59621e2c462b4152de24eac05a33252e40f57d4a40ebeefc6ea715e3427cd820",
+    "B1算法/b1_algorithm/contracts.py": "e113d0b3ae9b8850491945aa9a7c1675b39fcd5c9788fc73c9eeacd7e9eb86cd",
+    "B1算法/b1_algorithm/factors.py": "58167a731987750d41cfc8c81d2f4e4fc13b3a7ac7e91c02d79fd8b2f7fc5868",
+    "B1算法/b1_algorithm/history.py": "8ee282e9f4edbe322baa0f79f1dbebafb3a8495e2a63a0e48b8fee796aaf5173",
+    "B1算法/b1_algorithm/metered_effects.py": "d74adf2aafc5c984ae152fb86038310c99136a3fad00ecec61dd034becac9e65",
+    "B1算法/b1_algorithm/response_evidence.py": "447e76891b4aa8ec4c3dea27c6b81e9f22ac1356acb337d7e42d6986fba49d4f",
+    "B1算法/b1_algorithm/runtime.json": "55faf66314e0773a1b24f4d06a57e7b2402df0034965af366b04c0594c8af54a",
+    "B1算法/b1_algorithm/__init__.py": "17821d408c459c019a338c911dbceceb9dbbf7472b31d9374509ca43b422ea5d",
+    "B1算法/b1_algorithm/effects/api.py": "c6f04e8afbd9f5c70a7014a22c6c89f4ff7806fd5fbd72b5780b6c7885f2417b",
+    "B1算法/b1_algorithm/effects/continuous.py": "230a2047337ab03e8414169c3827dc3a23eaa495830143c1fb9d65883870d98d",
+    "B1算法/b1_algorithm/effects/core.py": "1c7266f42ae37f2db3f5cc03f1ee0b0c756fe0909bb5e7aeb84eaf9ae0e01b71",
+    "B1算法/b1_algorithm/effects/frozen.py": "e0b7511cd81fb9266737a0f18390a59b1f4a56ac2d9dfe722c19f6d1daf43ff3",
+    "B1算法/b1_algorithm/effects/plotting.py": "d2ca704f5888e69672fc447c1cd56ea9db2a42da70317736aa055d4611af06a2",
+    "B1算法/b1_algorithm/effects/tuning.py": "6fddf4e3a44bad3cde55e7f9c6c2199b38a208958e6a50a08a731e3a4bb2cf4c",
+    "B1算法/b1_algorithm/effects/validation.py": "eade90f215ebb211569d7b1fa975e1e90b541b666a2393aab9565f24148d4add",
+    "B1算法/b1_algorithm/effects/__init__.py": "b66c86172da900ea38f7819db5df0e4015f341aaff19d8e054c0a9fbb9ff045b",
+    "B1算法/b1_algorithm/process/api.py": "f2f9787d223e36c707df3d016381de369f9c78aa2e001fe211ce8bc118d5b4b2",
+    "B1算法/b1_algorithm/process/batch.py": "90fa94396df6f9ad5fd558a461c361f3b4d5f5d84a3777e8341deaa97376321b",
+    "B1算法/b1_algorithm/process/cpop_batch.R": "88fb0417c700516a5933e2fd846b04902a547c01d7bedd89c4fb14d2f3a812cc",
+    "B1算法/b1_algorithm/process/_cpop.py": "c0226499016f6a47d79167f7ef4d659950ad331c15520595ec614e5f3f901437",
+    "B1算法/b1_algorithm/process/_frozen_f0.py": "c722dc3d03510e847be48d50f4a5dbce62f8f8cc11ae1d8ef1de05a126c8f0b7",
+    "B1算法/b1_algorithm/process/_policy.json": "f6f96651fa280871ae9103a5a47125698107d0561ce8348cca12daf4a0374958",
+    "B1算法/b1_algorithm/process/_ride_fit.py": "528ae9de746da1482f98fa8e7724c18cb693d5054305fac6c02bd846a791741a",
+    "B1算法/b1_algorithm/process/_ride_identify.py": "bfe42ada7e5bde42e5a6ca762c60117221fd98407ad94478f7fd6e294096fe3c",
+    "B1算法/b1_algorithm/process/_ride_revised.py": "28f95bf2cc41ad75f6c73e955c38f5046c44aa0a7e72e49775ccba2d7bbe3b3d",
+    "B1算法/b1_algorithm/process/_ride_template.py": "876265fd1e36dfb62378a71b8ef7a439e3c3ec516e92f40480f5220980ba186d",
+    "B1算法/b1_algorithm/process/_template_fit.py": "d5504942e1c40fe6ffe2d2dc0d69fb7cde7ad315d25ccba5255d6f4b6218e5f2",
+    "B1算法/b1_algorithm/process/__init__.py": "a070c518802de12803870c994352573d60d51f98ba995dba0a0e769b501c52f2",
+    "B1算法/b1_algorithm/reference/core.py": "ded90af81a3d4fd8d5f92793c000e2a85e2e9246251a101f6d06cd6d8b828309",
+    "B1算法/b1_algorithm/reference/ev_selection.py": "7e9da694d4b47bd7ed8ee27bab86b7c4d4d965448e32a826df7200b20294c341",
+    "B1算法/b1_algorithm/reference/reliable.py": "bf5078ac31d5fbb3965e9ef1a2e318e5089eec0503edff59789dacace7889a89",
+    "B1算法/b1_algorithm/reference/__init__.py": "2e3ff9375b4a688dddaa638f5656221ac612dd255bff3b34b130eed0d644e45e",
+    "B1算法/b1_algorithm/resources/ev.py": "e87f9243d4915163d581d23c9bd33c53c63ff6374bbf50f35f9c3dbc995ae3b5",
+    "B1算法/b1_algorithm/resources/__init__.py": "5ce3b8fc84261a8ac206cc0acc1ede07275e63c2ed995d4a56661257bce38412"
+  }
+}

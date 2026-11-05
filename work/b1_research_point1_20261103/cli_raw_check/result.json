@@ -1,0 +1,2210 @@
+{
+  "schema": "b1.research-point-one-query.v1",
+  "status": "causal",
+  "mean_curve": {
+    "schema": "b1.frozen-query.v1",
+    "status": "causal",
+    "model_id": "3ffb5755dbae68fec4942097287a53841713486357b3978e1d968bb0fe8a49d2",
+    "refitted": false,
+    "task": {
+      "outcome_name": "cumulative_response_seconds",
+      "outcome_unit": "seconds",
+      "q_kw": 1.5,
+      "reference_status": "provided",
+      "reference_uncertainty": "not_propagated",
+      "target_population": "all_supplied_invited_EV_events",
+      "task_id": "research-point-one-raw-example",
+      "task_pre_treatment": true,
+      "window_minutes": [
+        0.0,
+        30.0
+      ]
+    },
+    "incentive_unit": "元/千瓦时",
+    "metadata": {
+      "factor_pipeline": {
+        "events": 240,
+        "factor_time_checks": "state and availability no later than treatment formation; offered signal available by notice",
+        "failed_events_dropped": 0,
+        "post_treatment_covariates_used": false,
+        "raw_eta_definition_unchanged": true,
+        "schema_version": "b1.ev-factor-pipeline.v1",
+        "users": 120
+      },
+      "outcome_measurement": {
+        "criterion": "published direct duration estimate with recorded provenance",
+        "direct_duration_sources": [
+          "adopted_direct_duration_calibration",
+          "gap_aware_direct_duration_calibration"
+        ],
+        "effect_interpretation": "effect on the declared estimated/observed outcome, conditional on supplied identification assumptions",
+        "fallback_events": 0,
+        "latent_response_effect_identified": false,
+        "methods": {
+          "B1_effective_response_refined": 240
+        },
+        "model_fit_used": true,
+        "name": "cumulative_response_seconds",
+        "physical_timing_identified": false,
+        "reference_process_uncertainty_propagated": false,
+        "source": "duration_estimates"
+      },
+      "study_design": {
+        "assignment": "observational",
+        "covariates": [
+          "deadline_slack",
+          "demand_urgency",
+          "negative_control"
+        ],
+        "graph_edges": [
+          [
+            "incentive",
+            "participation"
+          ],
+          [
+            "participation",
+            "response"
+          ],
+          [
+            "incentive",
+            "response"
+          ],
+          [
+            "deadline_slack",
+            "participation"
+          ],
+          [
+            "deadline_slack",
+            "response"
+          ],
+          [
+            "deadline_slack",
+            "incentive"
+          ],
+          [
+            "demand_urgency",
+            "participation"
+          ],
+          [
+            "demand_urgency",
+            "response"
+          ],
+          [
+            "demand_urgency",
+            "incentive"
+          ],
+          [
+            "negative_control",
+            "participation"
+          ],
+          [
+            "negative_control",
+            "response"
+          ],
+          [
+            "negative_control",
+            "incentive"
+          ]
+        ],
+        "identification": {
+          "graph_is_assumed": true,
+          "hidden_confounding_ruled_out_by_data": false,
+          "learned_screen_can_change_adjustment": false,
+          "method": "backdoor_on_declared_DAG",
+          "minimal_sets": [
+            [
+              "deadline_slack",
+              "demand_urgency",
+              "negative_control"
+            ]
+          ],
+          "used_covariates": [
+            "deadline_slack",
+            "demand_urgency",
+            "negative_control"
+          ],
+          "valid_sets": [
+            [
+              "deadline_slack",
+              "demand_urgency",
+              "negative_control"
+            ]
+          ]
+        },
+        "incentive_unit": "元/千瓦时",
+        "outcome_name": "cumulative_response_seconds",
+        "outcome_source": "duration_estimates",
+        "schema_version": "b1.ev-study.v1",
+        "study_id": "research-point-one-raw-example",
+        "target_population": "all_supplied_invited_EV_events",
+        "variable_roles": {
+          "deadline_slack": "pre_treatment",
+          "demand_urgency": "pre_treatment",
+          "incentive": "treatment",
+          "negative_control": "pre_treatment",
+          "participation": "post_treatment_mediator",
+          "response": "outcome"
+        }
+      }
+    },
+    "population_scope": "fixed fitted cohort; event equal weight; no individual or new-population prediction",
+    "uncertainty": "conditional sampling only; smoothing, nuisance, reference and process uncertainty not propagated",
+    "diagnostics": {
+      "by_dose": [
+        {
+          "dose": 0.4,
+          "local_events": 47,
+          "local_users": 41,
+          "effective_events": 67.68654307595101,
+          "max_weighted_smd": 0.2873812087319829
+        },
+        {
+          "dose": 0.5,
+          "local_events": 55,
+          "local_users": 48,
+          "effective_events": 79.71712887318435,
+          "max_weighted_smd": 0.22395783155165266
+        },
+        {
+          "dose": 0.6,
+          "local_events": 54,
+          "local_users": 47,
+          "effective_events": 89.64909438148781,
+          "max_weighted_smd": 0.13766867173130068
+        },
+        {
+          "dose": 0.7,
+          "local_events": 53,
+          "local_users": 48,
+          "effective_events": 94.27961699267718,
+          "max_weighted_smd": 0.10475307879496323
+        },
+        {
+          "dose": 0.8,
+          "local_events": 57,
+          "local_users": 52,
+          "effective_events": 95.53552673131574,
+          "max_weighted_smd": 0.0956527702773174
+        },
+        {
+          "dose": 0.9,
+          "local_events": 64,
+          "local_users": 57,
+          "effective_events": 97.05247263369202,
+          "max_weighted_smd": 0.13913906138150456
+        },
+        {
+          "dose": 1.0,
+          "local_events": 60,
+          "local_users": 54,
+          "effective_events": 99.86629985462353,
+          "max_weighted_smd": 0.1842118501394622
+        },
+        {
+          "dose": 1.1,
+          "local_events": 55,
+          "local_users": 49,
+          "effective_events": 102.99092361144442,
+          "max_weighted_smd": 0.19243117285698969
+        },
+        {
+          "dose": 1.2,
+          "local_events": 54,
+          "local_users": 48,
+          "effective_events": 104.8149828402502,
+          "max_weighted_smd": 0.16901692413829705
+        },
+        {
+          "dose": 1.3,
+          "local_events": 65,
+          "local_users": 57,
+          "effective_events": 104.03947426920044,
+          "max_weighted_smd": 0.12885832211218126
+        },
+        {
+          "dose": 1.4,
+          "local_events": 55,
+          "local_users": 50,
+          "effective_events": 101.48064861843075,
+          "max_weighted_smd": 0.12749291860390785
+        },
+        {
+          "dose": 1.5,
+          "local_events": 56,
+          "local_users": 51,
+          "effective_events": 99.660811286409,
+          "max_weighted_smd": 0.12057067430084606
+        },
+        {
+          "dose": 1.6,
+          "local_events": 62,
+          "local_users": 53,
+          "effective_events": 99.29488117315601,
+          "max_weighted_smd": 0.09667446959601105
+        },
+        {
+          "dose": 1.7,
+          "local_events": 61,
+          "local_users": 51,
+          "effective_events": 98.14018675376559,
+          "max_weighted_smd": 0.059829998372323154
+        },
+        {
+          "dose": 1.8,
+          "local_events": 50,
+          "local_users": 47,
+          "effective_events": 93.23403806135823,
+          "max_weighted_smd": 0.0328855300139589
+        },
+        {
+          "dose": 1.9,
+          "local_events": 51,
+          "local_users": 48,
+          "effective_events": 82.57308132671965,
+          "max_weighted_smd": 0.04575763347449959
+        },
+        {
+          "dose": 2.0,
+          "local_events": 51,
+          "local_users": 48,
+          "effective_events": 66.2413550781337,
+          "max_weighted_smd": 0.08974647317317877
+        }
+      ],
+      "unsupported_doses": []
+    },
+    "curve": {
+      "incentive_values": [
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.2,
+        1.3,
+        1.4,
+        1.5,
+        1.6,
+        1.7,
+        1.8,
+        1.9,
+        2.0
+      ],
+      "reference_incentive": 0.4,
+      "mean_outcomes": [
+        180.08939074897995,
+        253.82099801810682,
+        334.0112231822711,
+        408.00393164287254,
+        470.927649734203,
+        523.916996936624,
+        570.7757114218987,
+        612.0046724010688,
+        644.2790943716774,
+        664.4364267316026,
+        671.8838639415283,
+        670.0796520257989,
+        666.5289801186223,
+        668.5590214419433,
+        677.5528026412035,
+        685.1711472824368,
+        670.7669387175089
+      ],
+      "contrasts": [
+        0.0,
+        73.73160726912687,
+        153.92183243329117,
+        227.9145408938926,
+        290.83825898522304,
+        343.827606187644,
+        390.6863206729187,
+        431.9152816520888,
+        464.18970362269744,
+        484.3470359826227,
+        491.7944731925483,
+        489.9902612768189,
+        486.4395893696423,
+        488.46963069296334,
+        497.4634118922235,
+        505.0817565334568,
+        490.6775479685289
+      ],
+      "outcome_unit": "seconds",
+      "shape_constraint": "none",
+      "incentive_unit": "元/千瓦时",
+      "task_duration_min": 30.0,
+      "request_kw": 1.5,
+      "interpretation": "causal conditional on declarations"
+    },
+    "sensitivity": {
+      "incentive_values": [
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.2,
+        1.3,
+        1.4,
+        1.5,
+        1.6,
+        1.7,
+        1.8,
+        1.9,
+        2.0
+      ],
+      "values": [
+        636.5674022430505,
+        798.8245074803081,
+        784.5898750576143,
+        687.3229259045704,
+        573.4836445455717,
+        493.9993869271259,
+        444.01508865046304,
+        374.1369332269742,
+        265.76719960128844,
+        136.13399058977947,
+        18.453012199494076,
+        -41.22312818389861,
+        -16.49810392320991,
+        59.96954043927059,
+        106.4414197693277,
+        11.818221817398182,
+        -357.689569526849
+      ],
+      "unit": "seconds/元/千瓦时",
+      "estimand": "derivative of frozen smoothed mean",
+      "inference": {
+        "estimate": [
+          636.5674022430505,
+          798.8245074803081,
+          784.5898750576143,
+          687.3229259045704,
+          573.4836445455717,
+          493.9993869271259,
+          444.01508865046304,
+          374.1369332269742,
+          265.76719960128844,
+          136.13399058977947,
+          18.453012199494076,
+          -41.22312818389861,
+          -16.49810392320991,
+          59.96954043927059,
+          106.4414197693277,
+          11.818221817398182,
+          -357.689569526849
+        ],
+        "standard_errors": [
+          270.1195666264708,
+          244.19536988636122,
+          237.1222096468052,
+          231.75471252478798,
+          227.33543331755254,
+          227.05174942115798,
+          221.85771316701627,
+          206.26445375446662,
+          194.81152006236647,
+          199.4542719561678,
+          217.790353340245,
+          242.49583568622413,
+          266.368008811134,
+          297.82752899637796,
+          381.6121267599667,
+          576.810976435892,
+          954.4383023762526
+        ],
+        "lower": [
+          -47.83482340587648,
+          180.10644595425117,
+          183.79308695421832,
+          100.12577081684799,
+          -2.5163782389643075,
+          -81.28186567538296,
+          -118.10602891691343,
+          -148.475526821239,
+          -227.82695049264396,
+          -369.22350478467956,
+          -533.3626315633627,
+          -655.635078147335,
+          -691.3950036509767,
+          -694.6363781556927,
+          -860.449620931562,
+          -1449.648346420347,
+          -2775.9508845029018
+        ],
+        "upper": [
+          1320.9696278919776,
+          1417.5425690063648,
+          1385.3866631610103,
+          1274.5200809922928,
+          1149.4836673301077,
+          1069.2806395296348,
+          1006.1362062178396,
+          896.7493932751873,
+          759.3613496952208,
+          641.4914859642384,
+          570.2686559623509,
+          573.1888217795376,
+          658.3987958045569,
+          814.575459034234,
+          1073.3324604702175,
+          1473.2847900551433,
+          2060.5717454492037
+        ],
+        "critical": 2.5337010354208744,
+        "nominal_level": 0.95,
+        "kind": "conditional_sampling_band_on_requested_finite_grid",
+        "cluster_count": 120,
+        "bootstrap_draws": 99,
+        "full_chain_uncertainty_propagated": false,
+        "unsmoothed_causal_coverage_validated": false
+      }
+    },
+    "inference": {
+      "estimate": [
+        0.0,
+        73.73160726912688,
+        153.92183243329117,
+        227.9145408938926,
+        290.8382589852231,
+        343.8276061876438,
+        390.68632067291855,
+        431.9152816520889,
+        464.1897036226975,
+        484.3470359826227,
+        491.7944731925485,
+        489.99026127681896,
+        486.43958936964236,
+        488.4696306929631,
+        497.46341189222346,
+        505.08175653345694,
+        490.67754796852887
+      ],
+      "standard_errors": [
+        0.0,
+        25.151836597173105,
+        47.71027070204866,
+        68.01363497419221,
+        85.37740379452883,
+        99.06291095155191,
+        109.10042902636424,
+        115.81869677338514,
+        119.11743439019789,
+        118.85340906922211,
+        115.40736382312761,
+        110.27997603590089,
+        106.62685188718159,
+        108.33153553483262,
+        118.78620052931666,
+        143.29533944995487,
+        194.08930732982276
+      ],
+      "lower": [
+        0.0,
+        14.614635397846342,
+        41.783431717806465,
+        68.05503599854154,
+        90.16688617853913,
+        110.98976559558656,
+        134.25625963232181,
+        159.69457868799122,
+        184.21563528703206,
+        204.99353376001733,
+        220.54056875054522,
+        230.7877884835366,
+        235.82343339293823,
+        233.84677982309378,
+        218.26787687601876,
+        168.27984869581292,
+        34.48930590500288
+      ],
+      "upper": [
+        0.0,
+        132.84857914040742,
+        266.06023314877586,
+        387.77404578924364,
+        491.50963179190705,
+        576.6654467797011,
+        647.1163817135152,
+        704.1359846161865,
+        744.163771958363,
+        763.700538205228,
+        763.0483776345518,
+        749.1927340701013,
+        737.0557453463465,
+        743.0924815628324,
+        776.6589469084281,
+        841.883664371101,
+        946.8657900320549
+      ],
+      "critical": 2.350403782359372,
+      "nominal_level": 0.95,
+      "kind": "conditional_sampling_band_on_requested_finite_grid",
+      "cluster_count": 120,
+      "bootstrap_draws": 99,
+      "full_chain_uncertainty_propagated": false,
+      "unsmoothed_causal_coverage_validated": false
+    }
+  },
+  "direct_marginal_effect": {
+    "schema": "b1.direct-derivative-query.v1",
+    "status": "ok",
+    "incentive_values": [
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.5,
+      1.6,
+      1.7,
+      1.8,
+      1.9,
+      2.0
+    ],
+    "bandwidth": 0.25052308222473113,
+    "diagnostics": [
+      {
+        "amount": 0.4,
+        "local_events": 47,
+        "local_users": 41,
+        "ess": 39.11129328287194,
+        "supported": true,
+        "reasons": []
+      },
+      {
+        "amount": 0.5,
+        "local_events": 55,
+        "local_users": 48,
+        "ess": 42.371636900642976,
+        "supported": true,
+        "reasons": []
+      },
+      {
+        "amount": 0.6,
+        "local_events": 54,
+        "local_users": 47,
+        "ess": 39.748766098225744,
+        "supported": true,
+        "reasons": []
+      },
+      {
+        "amount": 0.7,
+        "local_events": 53,
+        "local_users": 48,
+        "ess": 43.16884023609351,
+        "supported": true,
+        "reasons": []
+      },
+      {
+        "amount": 0.8,
+        "local_events": 57,
+        "local_users": 52,
+        "ess": 48.26805420985092,
+        "supported": true,
+        "reasons": []
+      },
+      {
+        "amount": 0.9,
+        "local_events": 64,
+        "local_users": 57,
+        "ess": 50.74057398526673,
+        "supported": true,
+        "reasons": []
+      },
+      {
+        "amount": 1.0,
+        "local_events": 60,
+        "local_users": 54,
+        "ess": 50.86483919266165,
+        "supported": true,
+        "reasons": []
+      },
+      {
+        "amount": 1.1,
+        "local_events": 55,
+        "local_users": 49,
+        "ess": 46.91011617737191,
+        "supported": true,
+        "reasons": []
+      },
+      {
+        "amount": 1.2,
+        "local_events": 54,
+        "local_users": 48,
+        "ess": 41.81474876377275,
+        "supported": true,
+        "reasons": []
+      },
+      {
+        "amount": 1.3,
+        "local_events": 65,
+        "local_users": 57,
+        "ess": 51.30433920266671,
+        "supported": true,
+        "reasons": []
+      },
+      {
+        "amount": 1.4,
+        "local_events": 55,
+        "local_users": 50,
+        "ess": 48.854494824563645,
+        "supported": true,
+        "reasons": []
+      },
+      {
+        "amount": 1.5,
+        "local_events": 56,
+        "local_users": 51,
+        "ess": 47.501154378482596,
+        "supported": true,
+        "reasons": []
+      },
+      {
+        "amount": 1.6,
+        "local_events": 62,
+        "local_users": 53,
+        "ess": 52.13481348961379,
+        "supported": true,
+        "reasons": []
+      },
+      {
+        "amount": 1.7,
+        "local_events": 61,
+        "local_users": 51,
+        "ess": 47.04641530777327,
+        "supported": true,
+        "reasons": []
+      },
+      {
+        "amount": 1.8,
+        "local_events": 50,
+        "local_users": 47,
+        "ess": 43.01238316492554,
+        "supported": true,
+        "reasons": []
+      },
+      {
+        "amount": 1.9,
+        "local_events": 51,
+        "local_users": 48,
+        "ess": 42.923942698191055,
+        "supported": true,
+        "reasons": []
+      },
+      {
+        "amount": 2.0,
+        "local_events": 51,
+        "local_users": 48,
+        "ess": 39.267527533782584,
+        "supported": true,
+        "reasons": []
+      }
+    ],
+    "unsupported_amounts": [],
+    "estimates": [
+      1050.983602449841,
+      2340.814684776843,
+      2341.5317255892355,
+      207.56881763080054,
+      -1044.3988446479393,
+      -528.7551716847281,
+      1254.601841741998,
+      2166.655452736228,
+      302.45256089044864,
+      -822.0125112016849,
+      -484.8534297118501,
+      787.0246713383056,
+      13.682278176076943,
+      -542.1063499046893,
+      1259.9761931769929,
+      1519.8041741831812,
+      1135.510303968191
+    ],
+    "refitted": false,
+    "events": 240,
+    "users": 120,
+    "estimand": "fixed-cohort mean derivative; subgroup mask fixed across amounts",
+    "uncertainty_scope": "conditional_user_score_variation; smoothing and nuisance uncertainty not propagated",
+    "standard_errors": [
+      688.8613605152578,
+      921.1882357167834,
+      1005.1961973506593,
+      885.1740297567717,
+      810.5104088946741,
+      811.4403943591615,
+      955.4323253843936,
+      1095.2469465248569,
+      888.6398793738547,
+      1122.2513371975124,
+      1104.6746153316685,
+      781.0226378331041,
+      1160.2468273370189,
+      816.834612501515,
+      939.025747297774,
+      1205.4178799719746,
+      1338.5240002066114
+    ],
+    "inference_unit": "original_user",
+    "signs": [
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      -1,
+      1,
+      1,
+      1
+    ]
+  },
+  "retained_smoothed_derivative": {
+    "incentive_values": [
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.5,
+      1.6,
+      1.7,
+      1.8,
+      1.9,
+      2.0
+    ],
+    "values": [
+      636.5674022430505,
+      798.8245074803081,
+      784.5898750576143,
+      687.3229259045704,
+      573.4836445455717,
+      493.9993869271259,
+      444.01508865046304,
+      374.1369332269742,
+      265.76719960128844,
+      136.13399058977947,
+      18.453012199494076,
+      -41.22312818389861,
+      -16.49810392320991,
+      59.96954043927059,
+      106.4414197693277,
+      11.818221817398182,
+      -357.689569526849
+    ],
+    "unit": "seconds/元/千瓦时",
+    "estimand": "derivative of frozen smoothed mean",
+    "inference": {
+      "estimate": [
+        636.5674022430505,
+        798.8245074803081,
+        784.5898750576143,
+        687.3229259045704,
+        573.4836445455717,
+        493.9993869271259,
+        444.01508865046304,
+        374.1369332269742,
+        265.76719960128844,
+        136.13399058977947,
+        18.453012199494076,
+        -41.22312818389861,
+        -16.49810392320991,
+        59.96954043927059,
+        106.4414197693277,
+        11.818221817398182,
+        -357.689569526849
+      ],
+      "standard_errors": [
+        270.1195666264708,
+        244.19536988636122,
+        237.1222096468052,
+        231.75471252478798,
+        227.33543331755254,
+        227.05174942115798,
+        221.85771316701627,
+        206.26445375446662,
+        194.81152006236647,
+        199.4542719561678,
+        217.790353340245,
+        242.49583568622413,
+        266.368008811134,
+        297.82752899637796,
+        381.6121267599667,
+        576.810976435892,
+        954.4383023762526
+      ],
+      "lower": [
+        -47.83482340587648,
+        180.10644595425117,
+        183.79308695421832,
+        100.12577081684799,
+        -2.5163782389643075,
+        -81.28186567538296,
+        -118.10602891691343,
+        -148.475526821239,
+        -227.82695049264396,
+        -369.22350478467956,
+        -533.3626315633627,
+        -655.635078147335,
+        -691.3950036509767,
+        -694.6363781556927,
+        -860.449620931562,
+        -1449.648346420347,
+        -2775.9508845029018
+      ],
+      "upper": [
+        1320.9696278919776,
+        1417.5425690063648,
+        1385.3866631610103,
+        1274.5200809922928,
+        1149.4836673301077,
+        1069.2806395296348,
+        1006.1362062178396,
+        896.7493932751873,
+        759.3613496952208,
+        641.4914859642384,
+        570.2686559623509,
+        573.1888217795376,
+        658.3987958045569,
+        814.575459034234,
+        1073.3324604702175,
+        1473.2847900551433,
+        2060.5717454492037
+      ],
+      "critical": 2.5337010354208744,
+      "nominal_level": 0.95,
+      "kind": "conditional_sampling_band_on_requested_finite_grid",
+      "cluster_count": 120,
+      "bootstrap_draws": 99,
+      "full_chain_uncertainty_propagated": false,
+      "unsmoothed_causal_coverage_validated": false
+    }
+  },
+  "target_threshold": {
+    "schema": "b1.threshold.v1",
+    "status": "point_reached",
+    "model_id": "3ffb5755dbae68fec4942097287a53841713486357b3978e1d968bb0fe8a49d2",
+    "target_contrast": 120.0,
+    "search_domain": [
+      0.4,
+      2.0
+    ],
+    "mesh_max_width": 0.09411764705882364,
+    "point_crossings": [
+      {
+        "dose": 0.55740673948014,
+        "bracket": [
+          0.49411764705882355,
+          0.5882352941176471
+        ]
+      }
+    ],
+    "candidate_cells": [
+      [
+        0.4,
+        0.49411764705882355
+      ],
+      [
+        0.49411764705882355,
+        0.5882352941176471
+      ],
+      [
+        0.5882352941176471,
+        0.6823529411764706
+      ],
+      [
+        0.6823529411764706,
+        0.7764705882352941
+      ],
+      [
+        0.7764705882352941,
+        0.8705882352941177
+      ],
+      [
+        0.8705882352941177,
+        0.9647058823529412
+      ]
+    ],
+    "first_point_crossing": 0.55740673948014,
+    "not_reached_possible": false,
+    "continuous_threshold_coverage_validated": false,
+    "optimal_price": false,
+    "interpretation": "frozen smoothed contrast; crossings/candidates resolved only on declared mesh",
+    "uncertainty": "conditional sampling only; smoothing, nuisance, reference and process uncertainty not propagated",
+    "query_status": "causal",
+    "candidate_kind": "conditional finite-grid first-hit candidates, not continuous-threshold CI"
+  },
+  "structure": {
+    "fci_kci": {
+      "schema_version": "b1.structure.v1",
+      "method": "fci_kci",
+      "requested_nodes": [
+        "deadline_slack",
+        "demand_urgency",
+        "negative_control",
+        "offered_incentive",
+        "cumulative_response_seconds"
+      ],
+      "nodes": [
+        "deadline_slack",
+        "demand_urgency",
+        "negative_control",
+        "offered_incentive",
+        "cumulative_response_seconds"
+      ],
+      "input_events": 240,
+      "independent_users": 120,
+      "selected_users": 120,
+      "selected_event_indices": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114,
+        116,
+        118,
+        120,
+        122,
+        124,
+        126,
+        128,
+        130,
+        132,
+        134,
+        136,
+        138,
+        140,
+        142,
+        144,
+        146,
+        148,
+        150,
+        152,
+        154,
+        156,
+        158,
+        160,
+        162,
+        164,
+        166,
+        168,
+        170,
+        172,
+        174,
+        176,
+        178,
+        180,
+        182,
+        184,
+        186,
+        188,
+        190,
+        192,
+        194,
+        196,
+        198,
+        200,
+        202,
+        204,
+        206,
+        208,
+        210,
+        212,
+        214,
+        216,
+        218,
+        220,
+        222,
+        224,
+        226,
+        228,
+        230,
+        232,
+        234,
+        236,
+        238
+      ],
+      "independent_row_policy": "first supplied event per user; optional fixed seeded user subset",
+      "conditional_independence_test": "kernel KCI",
+      "alpha": 0.05,
+      "time_tiers": [
+        [
+          "deadline_slack",
+          "demand_urgency",
+          "negative_control"
+        ],
+        [
+          "offered_incentive"
+        ],
+        [
+          "cumulative_response_seconds"
+        ]
+      ],
+      "temporal_constraints_applied": false,
+      "automatic_adjustment_selection": false,
+      "graph_truth_identified": false,
+      "causal_sufficiency_assumed": false,
+      "status": "ok",
+      "graph_type": "PAG",
+      "backend_version": "0.1.4.8",
+      "edges": [
+        {
+          "node1": "deadline_slack",
+          "node2": "cumulative_response_seconds",
+          "endpoint1": "circle",
+          "endpoint2": "circle"
+        },
+        {
+          "node1": "offered_incentive",
+          "node2": "cumulative_response_seconds",
+          "endpoint1": "circle",
+          "endpoint2": "circle"
+        }
+      ],
+      "endpoint_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "backend_log": "",
+      "interpretation": "observational equivalence-class structure under CI/Markov/faithfulness assumptions; unresolved endpoints retained"
+    },
+    "pc_kci": {
+      "schema_version": "b1.structure.v1",
+      "method": "pc_kci",
+      "requested_nodes": [
+        "deadline_slack",
+        "demand_urgency",
+        "negative_control",
+        "offered_incentive",
+        "cumulative_response_seconds"
+      ],
+      "nodes": [
+        "deadline_slack",
+        "demand_urgency",
+        "negative_control",
+        "offered_incentive",
+        "cumulative_response_seconds"
+      ],
+      "input_events": 240,
+      "independent_users": 120,
+      "selected_users": 120,
+      "selected_event_indices": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114,
+        116,
+        118,
+        120,
+        122,
+        124,
+        126,
+        128,
+        130,
+        132,
+        134,
+        136,
+        138,
+        140,
+        142,
+        144,
+        146,
+        148,
+        150,
+        152,
+        154,
+        156,
+        158,
+        160,
+        162,
+        164,
+        166,
+        168,
+        170,
+        172,
+        174,
+        176,
+        178,
+        180,
+        182,
+        184,
+        186,
+        188,
+        190,
+        192,
+        194,
+        196,
+        198,
+        200,
+        202,
+        204,
+        206,
+        208,
+        210,
+        212,
+        214,
+        216,
+        218,
+        220,
+        222,
+        224,
+        226,
+        228,
+        230,
+        232,
+        234,
+        236,
+        238
+      ],
+      "independent_row_policy": "first supplied event per user; optional fixed seeded user subset",
+      "conditional_independence_test": "kernel KCI",
+      "alpha": 0.05,
+      "time_tiers": [
+        [
+          "deadline_slack",
+          "demand_urgency",
+          "negative_control"
+        ],
+        [
+          "offered_incentive"
+        ],
+        [
+          "cumulative_response_seconds"
+        ]
+      ],
+      "temporal_constraints_applied": false,
+      "automatic_adjustment_selection": false,
+      "graph_truth_identified": false,
+      "causal_sufficiency_assumed": true,
+      "status": "ok",
+      "graph_type": "CPDAG",
+      "backend_version": "0.1.4.8",
+      "edges": [
+        {
+          "node1": "deadline_slack",
+          "node2": "cumulative_response_seconds",
+          "endpoint1": "tail",
+          "endpoint2": "tail"
+        },
+        {
+          "node1": "offered_incentive",
+          "node2": "cumulative_response_seconds",
+          "endpoint1": "tail",
+          "endpoint2": "tail"
+        }
+      ],
+      "endpoint_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          0,
+          -1,
+          0
+        ]
+      ],
+      "backend_log": "",
+      "interpretation": "observational equivalence-class structure under CI/Markov/faithfulness assumptions; unresolved endpoints retained"
+    }
+  },
+  "group_effects": {
+    "slack_below": {
+      "definition": {
+        "covariate": "deadline_slack",
+        "threshold": 0,
+        "side": "below"
+      },
+      "events": 122,
+      "users": 91,
+      "mean_curve": {
+        "schema": "b1.frozen-query.v1",
+        "status": "unsupported",
+        "model_id": "890ad48a8f5c83eecc35d34fe25d66c05ba33cb61754d3fc98d841822a438c8e",
+        "refitted": false,
+        "task": {
+          "outcome_name": "cumulative_response_seconds",
+          "outcome_unit": "seconds",
+          "q_kw": 1.5,
+          "reference_status": "provided",
+          "reference_uncertainty": "not_propagated",
+          "target_population": "all_supplied_invited_EV_events",
+          "task_id": "research-point-one-raw-example",
+          "task_pre_treatment": true,
+          "window_minutes": [
+            0.0,
+            30.0
+          ]
+        },
+        "incentive_unit": "元/千瓦时",
+        "metadata": {},
+        "population_scope": "fixed fitted cohort; event equal weight; no individual or new-population prediction",
+        "uncertainty": "conditional sampling only; smoothing, nuisance, reference and process uncertainty not propagated",
+        "diagnostics": {
+          "by_dose": [
+            {
+              "dose": 0.4,
+              "local_events": 34,
+              "local_users": 32,
+              "effective_events": 42.08137753071125,
+              "max_weighted_smd": 0.24102756217483504
+            },
+            {
+              "dose": 0.5,
+              "local_events": 38,
+              "local_users": 36,
+              "effective_events": 46.74303085005014,
+              "max_weighted_smd": 0.19734481347827362
+            },
+            {
+              "dose": 0.6,
+              "local_events": 39,
+              "local_users": 37,
+              "effective_events": 48.60504981788078,
+              "max_weighted_smd": 0.1538912869742616
+            },
+            {
+              "dose": 0.7,
+              "local_events": 35,
+              "local_users": 34,
+              "effective_events": 48.66063746572367,
+              "max_weighted_smd": 0.17550517515905883
+            },
+            {
+              "dose": 0.8,
+              "local_events": 31,
+              "local_users": 28,
+              "effective_events": 48.59731701302082,
+              "max_weighted_smd": 0.17252526707246313
+            },
+            {
+              "dose": 0.9,
+              "local_events": 30,
+              "local_users": 27,
+              "effective_events": 49.78790803585824,
+              "max_weighted_smd": 0.1497153795479553
+            },
+            {
+              "dose": 1.0,
+              "local_events": 29,
+              "local_users": 28,
+              "effective_events": 52.35411482281863,
+              "max_weighted_smd": 0.160077869610678
+            },
+            {
+              "dose": 1.1,
+              "local_events": 27,
+              "local_users": 26,
+              "effective_events": 54.69495878324483,
+              "max_weighted_smd": 0.2009193930468507
+            },
+            {
+              "dose": 1.2,
+              "local_events": 32,
+              "local_users": 31,
+              "effective_events": 54.65079444880069,
+              "max_weighted_smd": 0.22599979314470572
+            },
+            {
+              "dose": 1.3,
+              "local_events": 32,
+              "local_users": 29,
+              "effective_events": 52.277021562953216,
+              "max_weighted_smd": 0.23848816822428578
+            },
+            {
+              "dose": 1.4,
+              "local_events": 32,
+              "local_users": 30,
+              "effective_events": 49.66566694021101,
+              "max_weighted_smd": 0.24225189452105783
+            },
+            {
+              "dose": 1.5,
+              "local_events": 34,
+              "local_users": 33,
+              "effective_events": 48.29396676649873,
+              "max_weighted_smd": 0.24081891123122035
+            },
+            {
+              "dose": 1.6,
+              "local_events": 30,
+              "local_users": 29,
+              "effective_events": 48.15176421315165,
+              "max_weighted_smd": 0.23509357784163187
+            },
+            {
+              "dose": 1.7,
+              "local_events": 32,
+              "local_users": 31,
+              "effective_events": 48.12630735216346,
+              "max_weighted_smd": 0.2198034322297325
+            },
+            {
+              "dose": 1.8,
+              "local_events": 22,
+              "local_users": 22,
+              "effective_events": 46.538370834855456,
+              "max_weighted_smd": 0.1816085965348452
+            },
+            {
+              "dose": 1.9,
+              "local_events": 23,
+              "local_users": 23,
+              "effective_events": 41.905462358215274,
+              "max_weighted_smd": 0.10457178971531554
+            },
+            {
+              "dose": 2.0,
+              "local_events": 23,
+              "local_users": 23,
+              "effective_events": 34.28641351883673,
+              "max_weighted_smd": 0.07235161378428166
+            }
+          ],
+          "unsupported_doses": [
+            1.8,
+            1.9,
+            2.0
+          ]
+        },
+        "curve": null,
+        "sensitivity": null,
+        "inference": null,
+        "reason": "insufficient_local_support"
+      },
+      "direct_marginal_effect": {
+        "schema": "b1.direct-derivative-query.v1",
+        "status": "unsupported",
+        "incentive_values": [
+          0.4,
+          0.5,
+          0.6,
+          0.7,
+          0.8,
+          0.9,
+          1.0,
+          1.1,
+          1.2,
+          1.3,
+          1.4,
+          1.5,
+          1.6,
+          1.7,
+          1.8,
+          1.9,
+          2.0
+        ],
+        "bandwidth": 0.25052308222473113,
+        "diagnostics": [
+          {
+            "amount": 0.4,
+            "local_events": 33,
+            "local_users": 31,
+            "ess": 27.07382951851711,
+            "supported": true,
+            "reasons": []
+          },
+          {
+            "amount": 0.5,
+            "local_events": 35,
+            "local_users": 34,
+            "ess": 25.94894186826305,
+            "supported": true,
+            "reasons": []
+          },
+          {
+            "amount": 0.6,
+            "local_events": 32,
+            "local_users": 30,
+            "ess": 23.347057741846307,
+            "supported": true,
+            "reasons": []
+          },
+          {
+            "amount": 0.7,
+            "local_events": 29,
+            "local_users": 28,
+            "ess": 24.235198397602755,
+            "supported": true,
+            "reasons": []
+          },
+          {
+            "amount": 0.8,
+            "local_events": 29,
+            "local_users": 27,
+            "ess": 24.097813454778958,
+            "supported": true,
+            "reasons": []
+          },
+          {
+            "amount": 0.9,
+            "local_events": 28,
+            "local_users": 26,
+            "ess": 22.943421877474982,
+            "supported": true,
+            "reasons": []
+          },
+          {
+            "amount": 1.0,
+            "local_events": 25,
+            "local_users": 24,
+            "ess": 21.2551287410766,
+            "supported": true,
+            "reasons": []
+          },
+          {
+            "amount": 1.1,
+            "local_events": 24,
+            "local_users": 23,
+            "ess": 20.267017638280375,
+            "supported": false,
+            "reasons": [
+              "local_events"
+            ]
+          },
+          {
+            "amount": 1.2,
+            "local_events": 25,
+            "local_users": 24,
+            "ess": 16.957393631940015,
+            "supported": false,
+            "reasons": [
+              "local_ess"
+            ]
+          },
+          {
+            "amount": 1.3,
+            "local_events": 32,
+            "local_users": 29,
+            "ess": 25.41261690840215,
+            "supported": true,
+            "reasons": []
+          },
+          {
+            "amount": 1.4,
+            "local_events": 27,
+            "local_users": 26,
+            "ess": 25.177613387090663,
+            "supported": true,
+            "reasons": []
+          },
+          {
+            "amount": 1.5,
+            "local_events": 30,
+            "local_users": 29,
+            "ess": 25.11346621035671,
+            "supported": true,
+            "reasons": []
+          },
+          {
+            "amount": 1.6,
+            "local_events": 30,
+            "local_users": 29,
+            "ess": 26.08806028411491,
+            "supported": true,
+            "reasons": []
+          },
+          {
+            "amount": 1.7,
+            "local_events": 27,
+            "local_users": 27,
+            "ess": 18.745558797780376,
+            "supported": false,
+            "reasons": [
+              "local_ess"
+            ]
+          },
+          {
+            "amount": 1.8,
+            "local_events": 20,
+            "local_users": 20,
+            "ess": 17.734950726329977,
+            "supported": false,
+            "reasons": [
+              "local_events",
+              "local_ess"
+            ]
+          },
+          {
+            "amount": 1.9,
+            "local_events": 21,
+            "local_users": 21,
+            "ess": 16.92934241199154,
+            "supported": false,
+            "reasons": [
+              "local_events",
+              "local_ess"
+            ]
+          },
+          {
+            "amount": 2.0,
+            "local_events": 21,
+            "local_users": 21,
+            "ess": 15.421152107463723,
+            "supported": false,
+            "reasons": [
+              "local_events",
+              "local_ess"
+            ]
+          }
+        ],
+        "unsupported_amounts": [
+          1.1,
+          1.2,
+          1.7,
+          1.8,
+          1.9,
+          2.0
+        ],
+        "estimates": null,
+        "refitted": false,
+        "events": 122,
+        "users": 91,
+        "estimand": "fixed-cohort mean derivative; subgroup mask fixed across amounts",
+        "uncertainty_scope": "conditional_user_score_variation; smoothing and nuisance uncertainty not propagated"
+      },
+      "interpretation": "compensation effect within this fixed pretreatment subgroup, not effect of changing its baseline condition"
+    },
+    "slack_above": {
+      "definition": {
+        "covariate": "deadline_slack",
+        "threshold": 0,
+        "side": "above"
+      },
+      "events": 118,
+      "users": 89,
+      "status": "unsupported",
+      "reason": "cannot freeze unsupported fit: [{\"code\":\"insufficient_local_support\",\"detail\":\"Some query amounts lack comparable supported observations; no full curve reported.\"}]"
+    }
+  },
+  "refitted": false,
+  "target_contrast_seconds": 120.0,
+  "causal_interpretation": "causal",
+  "marginal_effect": {
+    "incentive_values": [
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.5,
+      1.6,
+      1.7,
+      1.8,
+      1.9,
+      2.0
+    ],
+    "values": [
+      636.5674022430505,
+      798.8245074803081,
+      784.5898750576143,
+      687.3229259045704,
+      573.4836445455717,
+      493.9993869271259,
+      444.01508865046304,
+      374.1369332269742,
+      265.76719960128844,
+      136.13399058977947,
+      18.453012199494076,
+      -41.22312818389861,
+      -16.49810392320991,
+      59.96954043927059,
+      106.4414197693277,
+      11.818221817398182,
+      -357.689569526849
+    ],
+    "unit": "seconds/元/千瓦时",
+    "estimand": "derivative of frozen smoothed mean",
+    "inference": {
+      "estimate": [
+        636.5674022430505,
+        798.8245074803081,
+        784.5898750576143,
+        687.3229259045704,
+        573.4836445455717,
+        493.9993869271259,
+        444.01508865046304,
+        374.1369332269742,
+        265.76719960128844,
+        136.13399058977947,
+        18.453012199494076,
+        -41.22312818389861,
+        -16.49810392320991,
+        59.96954043927059,
+        106.4414197693277,
+        11.818221817398182,
+        -357.689569526849
+      ],
+      "standard_errors": [
+        270.1195666264708,
+        244.19536988636122,
+        237.1222096468052,
+        231.75471252478798,
+        227.33543331755254,
+        227.05174942115798,
+        221.85771316701627,
+        206.26445375446662,
+        194.81152006236647,
+        199.4542719561678,
+        217.790353340245,
+        242.49583568622413,
+        266.368008811134,
+        297.82752899637796,
+        381.6121267599667,
+        576.810976435892,
+        954.4383023762526
+      ],
+      "lower": [
+        -47.83482340587648,
+        180.10644595425117,
+        183.79308695421832,
+        100.12577081684799,
+        -2.5163782389643075,
+        -81.28186567538296,
+        -118.10602891691343,
+        -148.475526821239,
+        -227.82695049264396,
+        -369.22350478467956,
+        -533.3626315633627,
+        -655.635078147335,
+        -691.3950036509767,
+        -694.6363781556927,
+        -860.449620931562,
+        -1449.648346420347,
+        -2775.9508845029018
+      ],
+      "upper": [
+        1320.9696278919776,
+        1417.5425690063648,
+        1385.3866631610103,
+        1274.5200809922928,
+        1149.4836673301077,
+        1069.2806395296348,
+        1006.1362062178396,
+        896.7493932751873,
+        759.3613496952208,
+        641.4914859642384,
+        570.2686559623509,
+        573.1888217795376,
+        658.3987958045569,
+        814.575459034234,
+        1073.3324604702175,
+        1473.2847900551433,
+        2060.5717454492037
+      ],
+      "critical": 2.5337010354208744,
+      "nominal_level": 0.95,
+      "kind": "conditional_sampling_band_on_requested_finite_grid",
+      "cluster_count": 120,
+      "bootstrap_draws": 99,
+      "full_chain_uncertainty_propagated": false,
+      "unsmoothed_causal_coverage_validated": false
+    }
+  },
+  "marginal_effect_method": "retained_smoothed_derivative",
+  "bias_corrected_threshold": {
+    "status": "ok",
+    "method": "finite_design_local_cubic_curvature_correction",
+    "incentive_values": [
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.5,
+      1.6,
+      1.7,
+      1.8,
+      1.9,
+      2.0
+    ],
+    "mean_outcomes": [
+      49.429927858288806,
+      172.47801823692294,
+      342.06058206705774,
+      456.7085337584439,
+      506.7717188334389,
+      539.5306352660789,
+      584.9572489970346,
+      642.2195352036135,
+      690.9476122317494,
+      711.0796691089565,
+      699.4151080129486,
+      669.8534081007301,
+      644.1745544058758,
+      644.8950090277169,
+      695.9643147571858,
+      823.873113795222,
+      1022.487272352258
+    ],
+    "contrasts": [
+      0.0,
+      123.04809037863413,
+      292.63065420876893,
+      407.27860590015507,
+      457.3417909751501,
+      490.1007074077901,
+      535.5273211387458,
+      592.7896073453247,
+      641.5176843734606,
+      661.6497412506677,
+      649.9851801546598,
+      620.4234802424413,
+      594.744626547587,
+      595.4650811694281,
+      646.534386898897,
+      774.4431859369332,
+      973.0573444939691
+    ],
+    "reference_incentive": 0.4,
+    "bandwidth": 0.25052308222473113,
+    "pilot_bandwidth": 0.25052308222473113,
+    "band": {
+      "estimate": [
+        0.0,
+        123.04809037863416,
+        292.6306542087689,
+        407.2786059001552,
+        457.34179097515005,
+        490.10070740778997,
+        535.527321138746,
+        592.7896073453248,
+        641.5176843734605,
+        661.6497412506676,
+        649.9851801546597,
+        620.4234802424413,
+        594.7446265475871,
+        595.4650811694281,
+        646.534386898897,
+        774.4431859369334,
+        973.0573444939688
+      ],
+      "standard_errors": [
+        0.0,
+        47.36053684290711,
+        88.09357612775877,
+        119.5021461017813,
+        139.15301460391424,
+        149.70499827303505,
+        157.13187968036542,
+        164.54073618613072,
+        168.8217265016279,
+        166.00974024725127,
+        156.93411356866955,
+        145.31080700699223,
+        137.04901974219632,
+        139.05026337713036,
+        155.65153562472426,
+        202.7128031051036,
+        304.9468147753988
+      ],
+      "lower": [
+        0.0,
+        1.7767142272827243,
+        67.05827012573019,
+        101.28144715018465,
+        101.02662435023694,
+        106.76613462780256,
+        133.17547809918955,
+        171.46664860363273,
+        209.2328231395524,
+        236.56525115946982,
+        248.13973696021088,
+        248.34067227400647,
+        243.8169485219321,
+        239.41301930438402,
+        247.97311239534656,
+        255.37684432016727,
+        192.21062386980543
+      ],
+      "upper": [
+        0.0,
+        244.3194665299856,
+        518.2030382918076,
+        713.2757646501257,
+        813.6569576000632,
+        873.4352801877774,
+        937.8791641783023,
+        1014.112566087017,
+        1073.8025456073685,
+        1086.7342313418653,
+        1051.8306233491085,
+        992.5062882108762,
+        945.6723045732422,
+        951.5171430344722,
+        1045.0956614024474,
+        1293.5095275536996,
+        1753.9040651181322
+      ],
+      "critical": 2.5605996940787104,
+      "nominal_level": 0.95,
+      "kind": "conditional_sampling_band_on_requested_finite_grid",
+      "cluster_count": 120,
+      "bootstrap_draws": 99,
+      "full_chain_uncertainty_propagated": false,
+      "unsmoothed_causal_coverage_validated": false
+    },
+    "target_contrast": 120.0,
+    "upward_crossings": [
+      0.49818549561943715
+    ],
+    "first_crossing": 0.49818549561943715,
+    "target_candidate_cells": [
+      [
+        0.4,
+        0.5
+      ],
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.6,
+        0.7
+      ],
+      [
+        0.7,
+        0.8
+      ],
+      [
+        0.8,
+        0.9
+      ],
+      [
+        0.9,
+        1.0
+      ]
+    ],
+    "not_reached_possible": false,
+    "finite_grid_only": true,
+    "smoothing_curvature_bias_corrected": true,
+    "full_nuisance_and_process_uncertainty_propagated": false,
+    "full_causal_coverage_validated": false,
+    "exact_Takatsu_Westling_reproduction": false,
+    "diagnostics": [
+      {
+        "dose": 0.4,
+        "local_events": 47,
+        "local_users": 41,
+        "effective_events": 67.68654307595101,
+        "max_weighted_smd": 0.2873812087319829
+      },
+      {
+        "dose": 0.5,
+        "local_events": 55,
+        "local_users": 48,
+        "effective_events": 79.71712887318435,
+        "max_weighted_smd": 0.22395783155165266
+      },
+      {
+        "dose": 0.6,
+        "local_events": 54,
+        "local_users": 47,
+        "effective_events": 89.64909438148781,
+        "max_weighted_smd": 0.13766867173130068
+      },
+      {
+        "dose": 0.7,
+        "local_events": 53,
+        "local_users": 48,
+        "effective_events": 94.27961699267718,
+        "max_weighted_smd": 0.10475307879496323
+      },
+      {
+        "dose": 0.8,
+        "local_events": 57,
+        "local_users": 52,
+        "effective_events": 95.53552673131574,
+        "max_weighted_smd": 0.0956527702773174
+      },
+      {
+        "dose": 0.9,
+        "local_events": 64,
+        "local_users": 57,
+        "effective_events": 97.05247263369202,
+        "max_weighted_smd": 0.13913906138150456
+      },
+      {
+        "dose": 1.0,
+        "local_events": 60,
+        "local_users": 54,
+        "effective_events": 99.86629985462353,
+        "max_weighted_smd": 0.1842118501394622
+      },
+      {
+        "dose": 1.1,
+        "local_events": 55,
+        "local_users": 49,
+        "effective_events": 102.99092361144442,
+        "max_weighted_smd": 0.19243117285698969
+      },
+      {
+        "dose": 1.2,
+        "local_events": 54,
+        "local_users": 48,
+        "effective_events": 104.8149828402502,
+        "max_weighted_smd": 0.16901692413829705
+      },
+      {
+        "dose": 1.3,
+        "local_events": 65,
+        "local_users": 57,
+        "effective_events": 104.03947426920044,
+        "max_weighted_smd": 0.12885832211218126
+      },
+      {
+        "dose": 1.4,
+        "local_events": 55,
+        "local_users": 50,
+        "effective_events": 101.48064861843075,
+        "max_weighted_smd": 0.12749291860390785
+      },
+      {
+        "dose": 1.5,
+        "local_events": 56,
+        "local_users": 51,
+        "effective_events": 99.660811286409,
+        "max_weighted_smd": 0.12057067430084606
+      },
+      {
+        "dose": 1.6,
+        "local_events": 62,
+        "local_users": 53,
+        "effective_events": 99.29488117315601,
+        "max_weighted_smd": 0.09667446959601105
+      },
+      {
+        "dose": 1.7,
+        "local_events": 61,
+        "local_users": 51,
+        "effective_events": 98.14018675376559,
+        "max_weighted_smd": 0.059829998372323154
+      },
+      {
+        "dose": 1.8,
+        "local_events": 50,
+        "local_users": 47,
+        "effective_events": 93.23403806135823,
+        "max_weighted_smd": 0.0328855300139589
+      },
+      {
+        "dose": 1.9,
+        "local_events": 51,
+        "local_users": 48,
+        "effective_events": 82.57308132671965,
+        "max_weighted_smd": 0.04575763347449959
+      },
+      {
+        "dose": 2.0,
+        "local_events": 51,
+        "local_users": 48,
+        "effective_events": 66.2413550781337,
+        "max_weighted_smd": 0.08974647317317877
+      }
+    ]
+  }
+}

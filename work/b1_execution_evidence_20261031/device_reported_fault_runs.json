@@ -1,0 +1,38 @@
+[
+  {
+    "member": "Fiat 500e/Fiat_500e_individual_ts_unidir_arbitrary_1_DC_kW_3_202308171457_e.csv",
+    "column": "STATE_ID2",
+    "code": 9,
+    "start_data_index": 4024,
+    "start_epoch_ms": 1692279136185.0,
+    "end_data_index": 5189,
+    "end_epoch_ms": 1692279728658.0
+  },
+  {
+    "member": "Fiat 500e/Fiat_500e_individual_ts_unidir_arbitrary_1_DC_kW_3_202308171457_e.csv",
+    "column": "ChargeState_ID2",
+    "code": 7,
+    "start_data_index": 4024,
+    "start_epoch_ms": 1692279136185.0,
+    "end_data_index": 5189,
+    "end_epoch_ms": 1692279728658.0
+  },
+  {
+    "member": "Tesla Model Y/TeslaModel_Y_individual_ts_unidir_arbitrary_1_DC_kW_1_202309200805_e.csv",
+    "column": "STATE_ID2",
+    "code": 9,
+    "start_data_index": 3841,
+    "start_epoch_ms": 1695191958710.0,
+    "end_data_index": 5200,
+    "end_epoch_ms": 1695192647817.0
+  },
+  {
+    "member": "Tesla Model Y/TeslaModel_Y_individual_ts_unidir_arbitrary_1_DC_kW_1_202309200805_e.csv",
+    "column": "ChargeState_ID2",
+    "code": 7,
+    "start_data_index": 3841,
+    "start_epoch_ms": 1695191958710.0,
+    "end_data_index": 5200,
+    "end_epoch_ms": 1695192647817.0
+  }
+]

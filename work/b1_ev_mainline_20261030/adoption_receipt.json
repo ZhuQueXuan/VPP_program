@@ -1,0 +1,48 @@
+{
+  "implemented_steps": [
+    1,
+    2,
+    3
+  ],
+  "limited_EV_mainline_connected": true,
+  "public_entry": "B1算法/b1_api.py:analyze_ev_factor_study / fit_ev_factor_curve",
+  "existing_B1_files_modified": {
+    "B1算法/b1_api.py": {
+      "before": "048b5a14aeca86d8d3cdf27742370b2335e2a5fc67a51615263e41531339e177",
+      "after": "8b214b3764bccc653cfb8df64124908bbea09a746051907c487afc58a249216b"
+    },
+    "B1算法/README.md": {
+      "before": "28dbf388cd14fe051fe523c2ebb4ee1c43a53b5298d7ae9d535a53bc5a940cb2",
+      "after": "4452132c6fa8417516cd8f1ac7782f175b4c157e86ec658b172b6a699f3ad017"
+    }
+  },
+  "new_runtime_files": [
+    "B1算法/b1_algorithm/factors.py",
+    "B1算法/b1_algorithm/reference/ev_selection.py"
+  ],
+  "protected_files_matched": 75,
+  "existing_process_and_continuous_effect_core_unchanged": true,
+  "raw_eta_definition_unchanged": true,
+  "optional_reference_selector": true,
+  "default_prediction_routing_changed": false,
+  "cumulative_duration_workflow_recommendation": "explicit CPOP for this unknown-reference EV study; RIDE and raw threshold retained",
+  "reference_false_detection_resolved": false,
+  "scientific_increment_universal": false,
+  "main_independent_blocks": 8,
+  "main_factual_variants": 6400,
+  "stress_factual_variants": 256,
+  "strict_replayed_outcome_rows": 53248,
+  "reference_numeric_replays": 192,
+  "research_point1_complete": false,
+  "real_EV_validation": false,
+  "report_written": false,
+  "zip_or_launcher_created": false,
+  "source_bytecode_directories": 0,
+  "new_dependencies_installed": false,
+  "deferred_steps": [
+    4,
+    5,
+    6
+  ],
+  "inference_limit": "conditional measured-outcome effects; no full-chain uncertainty coverage guarantee"
+}

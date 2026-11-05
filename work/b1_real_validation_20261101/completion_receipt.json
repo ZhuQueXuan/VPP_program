@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "real_data_test_completed": true,
+  "real_transfer_passed": false,
+  "algorithm_code_models_and_data_unchanged": true,
+  "synthetic_responses_added": 0,
+  "injected_noise_samples": 0,
+  "real_AC_files_screened": 12,
+  "real_windows": 11,
+  "recordings": 6,
+  "power_model_names": 5,
+  "public_events": 22,
+  "method_curve_outputs": 66,
+  "independent_raw_minute_checks": 55,
+  "no_report_second_block_changes": true,
+  "no_installs_deletes_or_external_submission": true,
+  "files_sha256": {
+    "protocol.json": "e20a6e928533927b90b885c50b90856d49c2bdf62005dd021b06ebfa1026bbc4",
+    "selection.json": "7b630540741504599e16686aa5879cd64000f94d7e6b8516aec6a24a14a30fec",
+    "freeze.json": "60e90d508451e9d276c0b35eb1c063ffd88718636dc7c2497ccea2264f8fda11",
+    "input_ledger.json": "6551f3afe6253f232814b89a7f8f19cbfdc6ddc1e282d40b21b2cc11dc6cd9c1",
+    "results.json": "0d5c6e2f9745faf755409484f61967be43eefe905ba21ada970bb9d992a41dec",
+    "summary.json": "74cc9663cbd383591db6ead32efeb70ee2fc57f1bf1ab535688f4b0b29472214",
+    "verification.json": "648a6f6d005717da16f03c207756c69d1dca2b5ee84bd8a3909a756b1d3fe902",
+    "diagnosis.json": "3965fbbc84fad94d25dc95142f7bb7109dee42c0a308d9cb97f667e6a6f176a1",
+    "real_assessment.json": "41edddcfaaebfea200fe6b6cff654dc214cbe2b0babd76fcb9f95facf20d6c3f",
+    "real_background_examples.png": "641d89f6e028ace00bf0cd648f9b3354bb4a51bdcdc72d1e1ca1f70391bc10bc"
+  }
+}

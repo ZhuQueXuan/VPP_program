@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "known_current_events": 8,
+  "original_CPOP_events": 8,
+  "unchanged_other_feature_comparisons": 168,
+  "matches_frozen_adopted_known_method": true,
+  "reference_predictor_called": false,
+  "reference_error_tracking_called": false
+}

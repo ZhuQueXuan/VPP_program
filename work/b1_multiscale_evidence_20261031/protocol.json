@@ -1,0 +1,30 @@
+{
+  "scope": "Same raw observations and commands across resolutions; read-only evidence verification. No process estimation, detection model, injection or parameter selection.",
+  "existing_panel": "All144 frozen KIT100ms events, no response-based selection. Original raw NPZ native~21ms and command preserved.",
+  "pulse_selection": "All adjacent recorded command changes returning exactly to previous value within10s, |step|>=2A, both commands>=6A. Determined from full frozen candidate ledger, no phase/current-response selection. These are command patterns, not true-response labels.",
+  "time": "Integer relative microseconds, half-open bins, t0 original command edge. Preserve raw row order and all raw values.",
+  "scales_us": [
+    100000,
+    1000000,
+    5000000,
+    10000000
+  ],
+  "window_us": [
+    -5000000,
+    15000000
+  ],
+  "means": "Direct arithmetic mean of original samples; coarse equals count-weighted finer means, never unweighted mean-of-means or interpolation.",
+  "coverage": "Partial bins explicitly retained and marked; complete comparisons require full time-window support, no inserted samples.",
+  "descriptors": "Existing directional10/90 percent command-normalized progress, not latent net reduction. Exceedance occupancy, run length and first crossings are descriptive. No rule assigns real fault/response truth.",
+  "pulse_context": "Retain all command edges and all3phase current/power/voltage, even inactive, incomplete or non-isolated contexts. Power/current are same logger, not independent fault truth.",
+  "support": "Native median pre2s for pulse descriptions; pre/post2s command isolation is a descriptor, not an exclusion or causal proof.",
+  "examples": "First event in recording/event order meeting each predefined descriptive shape: native10-to90 crossing<=100ms and100ms target run>=5s; target runs<=200ms; steady last5s progress<.9; first short-command return. No accuracy inference from examples.",
+  "not_authorized": [
+    "Algorithm edits",
+    "Point replacement/deletion",
+    "Gap filling",
+    "New noise injection",
+    "CPOP/LABS refit",
+    "Reports or response-analysis block"
+  ]
+}

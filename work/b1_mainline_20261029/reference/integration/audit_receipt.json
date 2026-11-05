@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "n_independent_seed_blocks": 10,
+  "selected_paired_event_records": 52,
+  "per_method_record_checks": 208,
+  "identical_raw_eta_pairs": 104,
+  "shortfall_cells": 20,
+  "no_new_or_replacement_seed": true,
+  "eta_absolute_numeric_tolerance": 1e-06,
+  "curve_rmse_kw_numeric_tolerance": 1e-06,
+  "reason_for_tolerance": "float32 simulator reductions and float32 CSV decimal serialization versus independent float64 CSV sums; scientific outputs unchanged"
+}

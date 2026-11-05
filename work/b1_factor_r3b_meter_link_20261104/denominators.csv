@@ -1,0 +1,8 @@
+﻿scope,arm,planned_distinct_dates,planned_slots_per_household,selected_dToU_households,selected_household_slots,slots_with_raw_meter_row,raw_meter_rows,numeric_nonzero,raw_zero,empty_field,literal_null,invalid_field,duplicate_same,duplicate_conflict,no_row_in_member_interior,outside_acquired_span,admission_status
+event_window,High,2,12,0,0,0,0,,,,,,,,,,source_unavailable_no_meter_denominator
+event_window,Low,2,12,0,0,0,0,,,,,,,,,,source_unavailable_no_meter_denominator
+event_window,Normal,2,12,0,0,0,0,,,,,,,,,,source_unavailable_no_meter_denominator
+trial_day,High,2,96,0,0,0,0,,,,,,,,,,source_unavailable_no_meter_denominator
+trial_day,Low,2,96,0,0,0,0,,,,,,,,,,source_unavailable_no_meter_denominator
+trial_day,Normal,2,96,0,0,0,0,,,,,,,,,,source_unavailable_no_meter_denominator
+trial_day,clock_only,2,96,0,0,0,0,,,,,,,,,,source_unavailable_no_meter_denominator

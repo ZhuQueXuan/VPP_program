@@ -1,0 +1,10 @@
+{
+  "events": 153600,
+  "max_energy_error_kwh": 2.6645352591003757e-15,
+  "max_bound_violation_kw": 0.0,
+  "minimum_remaining_kws": 0.0,
+  "maximum_remaining_kws": 1.7763568394002505e-15,
+  "stage": "generation",
+  "seconds": 8.633877754211426,
+  "protocol_sha256": "ea0e64740dba617cc01c3a217523f82caced5a80b48baf39bf27a51f6957767b"
+}

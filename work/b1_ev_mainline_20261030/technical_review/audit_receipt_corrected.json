@@ -1,0 +1,250 @@
+{
+  "passed": true,
+  "n_checks": 47,
+  "checks": [
+    {
+      "name": "observational_two_forks_require_both_factors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "randomized_declared_graph_has_empty_minimal_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fork_unconditioned_open",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fork_conditioned_closed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "collider_without_condition_closed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "collider_condition_opens_path",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph_reject_post_treatment_A",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph_reject_pre_cycle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph_reject_self_edge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph_reject_wrong_time_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph_reject_unknown_node",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "graph_reject_random_graph_with_D_parent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "small_actual_meter_events_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "selected_duration_matches_independent_raw_threshold_in_coarse_route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_duration_matches_independent_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw_eta_preserves_independent_integral",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contract_reject_wrong_factor_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contract_reject_factor_state_after_formation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contract_reject_factor_available_after_formation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contract_reject_availability_before_state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contract_reject_reward_formed_after_notice",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contract_reject_wrong_meter_criterion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contract_reject_failed_event",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contract_reject_duplicate_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contract_reject_process_task_mismatch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contract_reject_fractional_meter_duration",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contract_reject_selected_duration_disagrees_with_curve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "contract_reject_task_process_request_mismatch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "invalid_study_returns_invalid_not_uncaught_exception",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "small_public_factor_curve_supported",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "public_factor_equals_same_continuous_core",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unknown_assumptions_return_only_association",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "parent_screen_ignores_evaluation_values",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "parent_screen_yuan_cent_equivariance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "screen_never_changes_declared_adjustment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "small_history_selector_available",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "each_pseudo_prior_strictly_earlier",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "history_reject_not_non_event",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "history_reject_duplicate_source",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "history_reject_current_task_source",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "history_reject_future_label",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "history_reject_foreign_user",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "history_reject_foreign_meter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "history_reject_late_weather",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "history_reject_late_calendar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "history_reject_wrong_prior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "selector_invariant_to_absolute_minute_origin",
+      "passed": true,
+      "detail": 0.0
+    }
+  ],
+  "issues": [],
+  "production_files_modified": false,
+  "main_study_rerun": false,
+  "scope": "120 five-minute synthetic raw-coarse functional cases; graph/contract/unit algebra only, not research performance",
+  "audit_correction": "First audit_receipt.json weather/calendar negatives mutated obsolete top-level metadata, not current reference_context. Corrected only this audit and preserved earlier receipt; no production changes.",
+  "source_sha256": {
+    "B1算法/b1_algorithm/factors.py": "58167a731987750d41cfc8c81d2f4e4fc13b3a7ac7e91c02d79fd8b2f7fc5868",
+    "B1算法/b1_algorithm/reference/ev_selection.py": "7e9da694d4b47bd7ed8ee27bab86b7c4d4d965448e32a826df7200b20294c341"
+  }
+}

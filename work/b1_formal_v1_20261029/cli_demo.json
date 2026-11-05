@@ -1,0 +1,446 @@
+{
+  "algorithm_version": "1.0.0",
+  "scope": "synthetic usage demonstration; not a research-performance or real-data result",
+  "single_event": {
+    "schema_version": "b1.event.v1",
+    "algorithm_version": "1.0.0",
+    "status": "ok",
+    "reasons": [
+      "template_validation_gate_not_passed_returned_to_cpop"
+    ],
+    "task": {
+      "task_id": "demo-single",
+      "user_id": "demo-user",
+      "meter_id": "demo-meter",
+      "start_min": 1000.0,
+      "end_min": 1030.0,
+      "request_kw": 1.5,
+      "notice_min": 985.0,
+      "task_pre_treatment": true
+    },
+    "process": {
+      "status": "ok",
+      "method": "CPOP",
+      "reason": "template_validation_gate_not_passed_returned_to_cpop",
+      "task_id": "demo-single",
+      "selection_evidence": {
+        "n_bins": 60,
+        "policy": "guarded",
+        "gate_status": "not_passed",
+        "relative_validation_mse_reduction": -0.38733595875651194,
+        "mean_block_gain": -0.011617612530191997,
+        "block_se": 0.012134367108514014,
+        "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+        "negative_meter_values": 0
+      },
+      "features": {
+        "selected_curve": {
+          "Y": 0.713615155776378,
+          "request_net_kwh": 0.5352113668322835,
+          "request_positive_kwh": 0.5363022858426771,
+          "request_negative_kwh": -0.0010909190103936429,
+          "request_coverage": 1.0,
+          "onset_interval_s": [
+            120.0,
+            180.0
+          ],
+          "onset_confirmation_s": 240.0,
+          "onset_delay_interval_s": [
+            120.0,
+            180.0
+          ],
+          "target_interval_s": null,
+          "target_confirmation_s": null,
+          "power_recovery_time_s": 1800.0,
+          "power_recovery_confirmation_s": 1860.0,
+          "power_recovery_interval_s": [
+            1800,
+            1800.0
+          ],
+          "energy_recovery_time_s": null,
+          "power_recovery_status": "recovered",
+          "energy_recovery_status": "right_censored",
+          "post_rebound_kwh": 0.005406290370780191,
+          "remaining_debt_kwh": 0.5299173916112702,
+          "stage": "partial",
+          "observation_end_s": 2700.0,
+          "criterion": "observed_threshold_dwell; not participation inference",
+          "cumulative_response_seconds": 1620.0,
+          "longest_continuous_response_seconds": 1620.0
+        },
+        "raw_observed": {
+          "Y": 0.7131823034391238,
+          "request_net_kwh": 0.5348867275793429,
+          "request_positive_kwh": 0.5363022858426272,
+          "request_negative_kwh": -0.0014155582632842038,
+          "request_coverage": 1.0,
+          "onset_interval_s": [
+            120.0,
+            180.0
+          ],
+          "onset_confirmation_s": 240.0,
+          "onset_delay_interval_s": [
+            120.0,
+            180.0
+          ],
+          "target_interval_s": null,
+          "target_confirmation_s": null,
+          "power_recovery_time_s": 1800.0,
+          "power_recovery_confirmation_s": 1860.0,
+          "power_recovery_interval_s": [
+            1800,
+            1800.0
+          ],
+          "energy_recovery_time_s": null,
+          "power_recovery_status": "recovered",
+          "energy_recovery_status": "right_censored",
+          "post_rebound_kwh": 0.008060231142857017,
+          "remaining_debt_kwh": 0.5295927523583203,
+          "stage": "partial",
+          "observation_end_s": 2700.0,
+          "criterion": "observed_threshold_dwell; not participation inference",
+          "cumulative_response_seconds": 1620.0,
+          "longest_continuous_response_seconds": 1620.0
+        },
+        "accounting": {
+          "source": "raw_observed_interval_integral",
+          "request_net_kwh": 0.5348867275793429,
+          "post_rebound_kwh": 0.008060231142857017,
+          "remaining_debt_kwh": 0.5295927523583203,
+          "energy_recovery_status": "right_censored"
+        },
+        "interpretation": "observed_threshold_and_dwell; physical action and participation not inferred"
+      },
+      "eta_raw": 0.713182303439124,
+      "reduction_interval_kw": [
+        0.02009655357099258,
+        0.017476870209813426,
+        0.014857186848634279,
+        0.012237503487455125,
+        0.009617820126275978,
+        0.006998136765096825,
+        0.004378453403917678,
+        0.0017587700427385243,
+        -0.0008609133184406224,
+        -0.0034805966796197744,
+        -0.006100280040798925,
+        -0.008719963401978075,
+        -0.011339646763157225,
+        -0.013959330124336375,
+        -0.016579013485515527,
+        -0.019198696846694674,
+        -0.021818380207873828,
+        -0.024438063569049984,
+        1.1934443090814095,
+        1.1933165051080838,
+        1.193188701134758,
+        1.193060897161432,
+        1.1929330931881061,
+        1.1928052892147802,
+        1.1926774852414546,
+        1.1925496812681287,
+        1.1924218772948028,
+        1.1922940733214769,
+        1.1921662693481512,
+        1.1920384653748253,
+        1.1919106614014994,
+        1.1917828574281735,
+        1.1916550534548478,
+        1.1915272494815219,
+        1.191399445508196,
+        1.19127164153487,
+        1.1911438375615442,
+        1.1910160335882185,
+        1.1908882296148926,
+        1.1907604256415667,
+        1.1906326216682408,
+        1.1905048176949151,
+        1.1903770137215892,
+        1.1902492097482633,
+        1.1901214057748817,
+        0.005257558752777267,
+        0.0014813502332299971,
+        -0.0022948582863172723,
+        -0.006071066805864542,
+        -0.009847275325411811,
+        -0.01362348384495908,
+        -0.01739969236450635,
+        -0.02117590088405362,
+        -0.02495210940360089,
+        -0.02872831792314816,
+        -0.03250452644269543,
+        -0.0362807349622427,
+        -0.04005694348178997,
+        -0.043833152001337236,
+        -0.047609360520884506
+      ],
+      "physical_timing": null,
+      "physical_timing_status": "not_identified_by_this_retrospective_observation_API",
+      "uncertainty_status": "process_confidence_interval_not_validated",
+      "backend": {
+        "status": "ok",
+        "reason": "original_cpop_completed",
+        "artifact_dir": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_runtime\\process_z6w3sj_q",
+        "cases": 6
+      }
+    },
+    "outcome": {
+      "name": "eta_raw",
+      "unit": "ratio",
+      "value": 0.713182303439124,
+      "task_pre_treatment": true,
+      "window_minutes": [
+        0.0,
+        30.0
+      ],
+      "q_kw": 1.5,
+      "definition": "raw width-weighted supplied pre-notice reference minus actual power, divided by pre-fixed request energy",
+      "process_fit_used_in_energy": false,
+      "reference_process_uncertainty_propagated": false
+    },
+    "reference": {
+      "reference_status": "provided",
+      "method": "caller_declared_reference",
+      "model_id": null,
+      "available_at_min": 985.0,
+      "counterfactual_identified": false,
+      "window_band_eta": null,
+      "uncertainty_propagated": false
+    },
+    "input_digest": "1e327efcb6d62412abf10c2981a0379632a33547e72d2442cb871bbd0a0a5be3"
+  },
+  "population_effect_example": {
+    "schema_version": "b1.effects.v1",
+    "component": "effects",
+    "method": "standard_multivalued_AIPW",
+    "status": "causal",
+    "reasons": [],
+    "task": {
+      "task_id": "common_task_definition",
+      "outcome_name": "eta_raw",
+      "outcome_unit": "ratio",
+      "target_population": "supplied_event_population",
+      "window_minutes": [
+        0.0,
+        30.0
+      ],
+      "q_kw": 1.5,
+      "task_pre_treatment": true,
+      "reference_status": "provided",
+      "reference_uncertainty": "not_propagated"
+    },
+    "levels": [
+      0.0,
+      1.0
+    ],
+    "estimand": "event_weighted_mean_contrast_relative_to_first_level",
+    "support_pass": true,
+    "causal_assumptions_confirmed": true,
+    "declared_assumptions": {
+      "pre_treatment_X": true,
+      "consistent_treatment": true,
+      "no_interference": true,
+      "same_outcome_definition": true,
+      "conditional_exchangeability": null,
+      "randomized_assignment": true
+    },
+    "unconfirmed_assumptions": [],
+    "causal_curve": {
+      "levels": [
+        0.0,
+        1.0
+      ],
+      "reference_level": 0.0,
+      "mean_outcomes": [
+        0.0984023266813824,
+        0.29828758227826135
+      ],
+      "contrasts": [
+        0.0,
+        0.19988525559687897
+      ],
+      "outcome_unit": "ratio",
+      "weighting": "event_equal_weight",
+      "new_causal_estimator": false
+    },
+    "standardized_association": null,
+    "threshold_set": {
+      "first_grid_crossing_indices": [
+        1
+      ],
+      "adjacent_level_brackets": [
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "not_reached_possible": false,
+      "target_increment": 0.1,
+      "shape_constraint": "none",
+      "continuous_between_level_threshold_identified": false
+    },
+    "comparators": {
+      "plugin_shared_auxiliary": {
+        "levels": [
+          0.0,
+          1.0
+        ],
+        "reference_level": 0.0,
+        "mean_outcomes": [
+          0.0983683144476472,
+          0.2982461519663954
+        ],
+        "contrasts": [
+          0.0,
+          0.1998778375187482
+        ],
+        "outcome_unit": "ratio",
+        "weighting": "event_equal_weight",
+        "new_causal_estimator": false
+      },
+      "ipw_shared_auxiliary": {
+        "levels": [
+          0.0,
+          1.0
+        ],
+        "reference_level": 0.0,
+        "mean_outcomes": [
+          0.09840232668138243,
+          0.2982875822782614
+        ],
+        "contrasts": [
+          0.0,
+          0.19988525559687897
+        ],
+        "outcome_unit": "ratio",
+        "weighting": "event_equal_weight",
+        "new_causal_estimator": false,
+        "normalization": "Horvitz_Thompson_not_Hajek"
+      },
+      "arm_mean_randomized": {
+        "levels": [
+          0.0,
+          1.0
+        ],
+        "reference_level": 0.0,
+        "mean_outcomes": [
+          0.0984023266813824,
+          0.2982875822782614
+        ],
+        "contrasts": [
+          0.0,
+          0.19988525559687903
+        ],
+        "outcome_unit": "ratio",
+        "weighting": "event_equal_weight",
+        "new_causal_estimator": false
+      }
+    },
+    "diagnostics": {
+      "passed": true,
+      "reasons": [],
+      "arm_counts": [
+        140,
+        140
+      ],
+      "min_pi": 0.5,
+      "fraction_below_clip": 0.0,
+      "observed_arm_ess_fractions": [
+        1.0,
+        1.0
+      ],
+      "weighted_smd_by_arm": [
+        1.1677342217830849e-17,
+        1.1677342217830849e-17
+      ],
+      "max_weighted_smd": 1.1677342217830849e-17,
+      "smd_limit": 0.2,
+      "propensity_clip": 0.01,
+      "diagnostic_is_not_identification_proof": true,
+      "training_counts": [
+        {
+          "fold": 0,
+          "training_arm_counts": [
+            93,
+            93
+          ]
+        },
+        {
+          "fold": 1,
+          "training_arm_counts": [
+            93,
+            93
+          ]
+        },
+        {
+          "fold": 2,
+          "training_arm_counts": [
+            94,
+            94
+          ]
+        }
+      ],
+      "original_user_fold_integrity": true,
+      "events": 280,
+      "users": 140
+    },
+    "inference": {
+      "contrasts": [
+        0.0,
+        0.199885255596879
+      ],
+      "standard_errors": [
+        0.0,
+        0.00120443008683525
+      ],
+      "lower": [
+        0.0,
+        0.1975286194901794
+      ],
+      "upper": [
+        0.0,
+        0.2022418917035786
+      ],
+      "critical": 1.9566400179290415,
+      "nominal_level": 0.95,
+      "bootstrap_draws": 999,
+      "cluster_count": 140,
+      "inference_unit": "original_user",
+      "uncertainty_scope": "sampling_conditional_on_supplied_outcome_and_nuisance_method",
+      "reference_process_uncertainty_propagated": false
+    },
+    "uncertainty": {
+      "scope": "conditional_on_supplied_outcome",
+      "reference_process_uncertainty_propagated": false,
+      "reference_status": "provided",
+      "declared_reference_uncertainty": "not_propagated"
+    },
+    "audit": null,
+    "configuration": {
+      "n_folds": 3,
+      "n_boot": 999,
+      "alpha": 0.05,
+      "kappa": 0.1,
+      "propensity_clip": 0.01,
+      "max_fraction_below_clip": 0.01,
+      "min_ess_fraction": 0.1,
+      "smd_limit": 0.2,
+      "min_train_per_arm": 10,
+      "min_events_per_arm": 10,
+      "outcome_degree": 2,
+      "ridge_alpha": 1.0,
+      "propensity_C": 1.0,
+      "seed": 991003,
+      "return_audit": false
+    },
+    "algorithm_version": "1.0.0",
+    "pipeline": {
+      "input_events": 280,
+      "input_users": 140,
+      "failed_events_dropped": 0,
+      "outcome_from_raw_event_integrals": true,
+      "process_fit_used_in_energy": false,
+      "reference_process_uncertainty_propagated": false
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "review_date": "2026-11-05",
+  "new_fits": 0,
+  "new_research_cohorts": 0,
+  "old_confirmation_opened": false,
+  "recommendation": "bounded_new_development_candidate_after_formula_and_user_fold_review; not_adoption_or_immediate_confirmation",
+  "sources": [
+    {
+      "id": "paper_v3",
+      "title": "Towards R-learner with Continuous Treatments",
+      "authors": ["Yichi Zhang", "Dehan Kong", "Shu Yang"],
+      "first_submission": "2022-08-01",
+      "version_checked": "v3",
+      "version_date": "2025-04-17",
+      "url": "https://arxiv.org/html/2208.00872v3",
+      "abstract_url": "https://arxiv.org/abs/2208.00872",
+      "sections_checked": ["1.1", "2.1-2.4", "Algorithm 1", "Algorithm 2", "S2.1"],
+      "supports": ["conditional continuous-reference effects", "non-identifiability of naive R-loss", "functional L2 penalty", "factor (1+rho) and reference subtraction", "nuisance cross-fitting", "Gamma from density integration or basis regressions", "iid-based theory"],
+      "not_supported": ["superiority on this EV task", "valid uncertainty with repeated users", "resolution of missing real compensation allocation"]
+    },
+    {
+      "id": "author_repository",
+      "url": "https://github.com/yichistat/Continuous-treatment-R-learner",
+      "visible_files": ["README.md", "example.R", "functions.R"],
+      "visible_commit_count": 4,
+      "license_file_seen": false,
+      "license_status": "No explicit license visible in inspected root; reusable-copy authorization not established.",
+      "last_commit_date": null,
+      "maintenance_status": "Date not verified; cannot describe active maintenance.",
+      "api_access": "web API unavailable; direct Python HTTPS restricted by WinError10013; no escalation attempted",
+      "reuse_decision": "Reference equations and independently implement using existing dependencies; do not copy or install author code."
+    },
+    {
+      "id": "author_functions",
+      "url": "https://raw.githubusercontent.com/yichistat/Continuous-treatment-R-learner/main/functions.R",
+      "lines_checked": ["18-88", "89-132", "137-171"],
+      "implementation": {"penalty": "rho * crossprod(basis_M)/n", "normal_equation": "crossprod(Gamma_diff)/n plus penalty", "query": "(1+rho)*(basis_at_t-basis_at_0)*phi"},
+      "adaptation_required": ["explicit reference 0.4", "user-fold cross-fitting", "save coefficients and audit matrices", "small independent basis without rank redundancy"]
+    },
+    {
+      "id": "author_example",
+      "url": "https://raw.githubusercontent.com/yichistat/Continuous-treatment-R-learner/main/example.R",
+      "lines_checked": ["76-103", "117-164"],
+      "scope": "n=5000 iid, one X, Uniform(0,1) treatment; degree2 df8 each; rho0.05; known-uniform Gamma integration; same-sample m SuperLearner example",
+      "not_a_ready_reproduction": ["not clustered users", "no observational Gamma implementation in example", "no EV group-difference evaluation", "no lockfile visible"]
+    }
+  ],
+  "additional_papers_searched": 0,
+  "claim_strength": "Mechanistic rationale for an untested candidate, no expected numerical improvement claimed."
+}

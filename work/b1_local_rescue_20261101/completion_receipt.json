@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "adopted": false,
+  "reason": "Independent final failed extra false task and added-bin precision gates",
+  "weak_genuine_short_miss_before": 71,
+  "weak_genuine_short_miss_after": 53,
+  "weak_short_denominator": 132,
+  "false_before": 664,
+  "false_after": 666,
+  "primary_known_version_unchanged": true,
+  "all_frozen_sources_unchanged": true,
+  "subsequent_version_uses_these_draws_as_seen_development_with_new_independent_confirmation": true,
+  "assessment_sha256": "6f86eb41bd2b784f4133a0fc9a65c9e9b4b82112ae5008e34fb66ccf534a5702"
+}

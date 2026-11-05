@@ -1,0 +1,12 @@
+{
+  "predeclared_block": 7240200,
+  "scenario": "positive",
+  "model_id": "d452fcdf961b52777c86e926e928a70c1d6b866338f2307db066e293251463d4",
+  "grid_points": 41,
+  "refit": false,
+  "source": "saved final artifact",
+  "figures": [
+    "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_finish_ev_20261030\\figures\\连续敏感性_首个独立模拟块.png",
+    "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_finish_ev_20261030\\figures\\连续金额查询_首个独立模拟块.png"
+  ]
+}

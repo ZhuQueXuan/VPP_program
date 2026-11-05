@@ -1,0 +1,12 @@
+{
+  "initial_audit_status":"failed_numerical_tolerance",
+  "operation":"independent CSV float64 truth integral versus simulator float32 mean",
+  "observed_absolute_difference":1.01852388e-7,
+  "initial_atol":1e-12,
+  "initial_default_rtol":1e-7,
+  "second_observed_rmse_absolute_difference":2.28762734e-8,
+  "second_source":"float32 target CSV decimal serialization",
+  "correction":"audit eta and curve RMSE comparisons use absolute tolerance1e-6, zero rtol, for float32 reduction/serialization roundoff",
+  "scientific_data_changed":false,
+  "main_experiment_rerun":false
+}

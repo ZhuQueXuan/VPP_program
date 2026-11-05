@@ -1,0 +1,14 @@
+{
+  "seed": 885200,
+  "users": 28,
+  "events_per_user": 2,
+  "levels": [
+    0.0,
+    1.0
+  ],
+  "design": "one randomized order of low/high within each user; tasks one week apart, no carryover by construction",
+  "domain": "1min, task30min,q1.5, observation-15..45min, independent.05kW meter noise",
+  "reference": "frozen native LightGBM reference artifact from independent historical training users; no truth supplied to model",
+  "estimand": "relative eta contrast for fixed task and common pre-notice reference rule",
+  "claim": "actual unified call-chain acceptance only; no new aggregate performance or coverage claim"
+}

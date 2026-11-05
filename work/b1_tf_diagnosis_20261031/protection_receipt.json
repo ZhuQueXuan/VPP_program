@@ -1,0 +1,20 @@
+{
+  "files_before": 468,
+  "files_after": 468,
+  "changed": [
+    "AGENTS.md"
+  ],
+  "missing": [],
+  "added": [],
+  "allowed_document_update": [
+    "AGENTS.md"
+  ],
+  "scientific_unchanged": true,
+  "scopes": [
+    "B1算法",
+    "01_项目依据",
+    "task",
+    "work/b1_unknown_reference_pilot_20261031",
+    "data/B1_unknown_reference_pilot_v1_20261031"
+  ]
+}

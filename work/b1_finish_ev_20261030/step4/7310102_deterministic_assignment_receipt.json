@@ -1,0 +1,10 @@
+{
+  "seed": 7310102,
+  "shape": "deterministic_assignment",
+  "events": 1200,
+  "users": 600,
+  "status": "unsupported_fit",
+  "reason": "cannot freeze unsupported fit: [{\"code\":\"continuous_estimation\",\"detail\":\"assignment nearly deterministic; conditional density unsupported\"}]",
+  "direct_status": "unsupported",
+  "seconds": 0.03983460000017658
+}

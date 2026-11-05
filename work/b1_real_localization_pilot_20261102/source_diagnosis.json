@@ -1,0 +1,219 @@
+{
+  "cases": [
+    {
+      "case": 41,
+      "event_id": "0027f877f0562352bb03097d8ebd1aaaa3534cd7232eafbb5facdba47a6e1130",
+      "raw_rows": [
+        {
+          "seconds": -23.0,
+          "power_kw": 6.723,
+          "current_a": 31.7,
+          "pilot_a": 32.0
+        },
+        {
+          "seconds": -19.0,
+          "power_kw": 6.691999999999999,
+          "current_a": 31.5,
+          "pilot_a": 32.0
+        },
+        {
+          "seconds": -16.0,
+          "power_kw": 6.725,
+          "current_a": 31.7,
+          "pilot_a": 32.0
+        },
+        {
+          "seconds": -11.0,
+          "power_kw": 6.742,
+          "current_a": 31.7,
+          "pilot_a": 32.0
+        },
+        {
+          "seconds": -8.0,
+          "power_kw": 6.702999999999999,
+          "current_a": 31.7,
+          "pilot_a": 32.0
+        },
+        {
+          "seconds": -4.0,
+          "power_kw": 6.694,
+          "current_a": 31.4,
+          "pilot_a": 32.0
+        },
+        {
+          "seconds": 0.0,
+          "power_kw": 6.484999999999999,
+          "current_a": 30.4,
+          "pilot_a": 31.0
+        },
+        {
+          "seconds": 4.0,
+          "power_kw": 6.572,
+          "current_a": 30.8,
+          "pilot_a": 31.0
+        },
+        {
+          "seconds": 8.0,
+          "power_kw": 6.759,
+          "current_a": 31.7,
+          "pilot_a": 32.0
+        },
+        {
+          "seconds": 12.0,
+          "power_kw": 6.768,
+          "current_a": 31.8,
+          "pilot_a": 32.0
+        }
+      ],
+      "candidate": {
+        "status": "ok",
+        "detected": true,
+        "onset_seconds": 0.0,
+        "recovery_seconds": 52.0,
+        "reference_recorded_power_kw": 6.712999999999999,
+        "threshold_kw": 0.03,
+        "reason": "raw_current_power_localization_with_cpop_fallback",
+        "onset_raw_row_position": 15,
+        "cpop_detected": true,
+        "raw_rescued": false
+      },
+      "cpop": {
+        "status": "ok",
+        "detected": true,
+        "onset_seconds": 0.0,
+        "recovery_seconds": 52.0,
+        "reference_recorded_power_kw": 6.715887254917242,
+        "threshold_kw": 0.03,
+        "reason": "native_point_evidence",
+        "onset_raw_row_position": 15
+      },
+      "raw_only": {
+        "status": "ok",
+        "detected": true,
+        "onset_seconds": 0.0,
+        "recovery_seconds": 52.0,
+        "reference_recorded_power_kw": 6.712999999999999,
+        "threshold_kw": 0.03,
+        "reason": "native_point_evidence",
+        "onset_raw_row_position": 15
+      },
+      "return_band_kw": [
+        6.682999999999999,
+        6.742999999999999
+      ],
+      "reviewed_recovery": [
+        4.0,
+        8.0
+      ]
+    },
+    {
+      "case": 73,
+      "event_id": "0009e3e11589588e8f734155e33060ca80339cb9f5e6a144bdf9f6bc2be0b4c7",
+      "raw_rows": [
+        {
+          "seconds": -23.0,
+          "power_kw": 6.279999999999999,
+          "current_a": 28.3,
+          "pilot_a": 32.0
+        },
+        {
+          "seconds": -19.0,
+          "power_kw": 6.271,
+          "current_a": 28.3,
+          "pilot_a": 32.0
+        },
+        {
+          "seconds": -15.0,
+          "power_kw": 6.292,
+          "current_a": 28.3,
+          "pilot_a": 32.0
+        },
+        {
+          "seconds": -11.0,
+          "power_kw": 6.293,
+          "current_a": 28.3,
+          "pilot_a": 32.0
+        },
+        {
+          "seconds": -7.0,
+          "power_kw": 6.289,
+          "current_a": 28.3,
+          "pilot_a": 32.0
+        },
+        {
+          "seconds": -3.0,
+          "power_kw": 6.283,
+          "current_a": 28.2,
+          "pilot_a": 31.0
+        },
+        {
+          "seconds": 0.0,
+          "power_kw": 6.279,
+          "current_a": 28.2,
+          "pilot_a": 32.0
+        },
+        {
+          "seconds": 4.0,
+          "power_kw": 6.299,
+          "current_a": 28.2,
+          "pilot_a": 32.0
+        },
+        {
+          "seconds": 8.0,
+          "power_kw": 6.33,
+          "current_a": 28.4,
+          "pilot_a": 32.0
+        },
+        {
+          "seconds": 12.0,
+          "power_kw": 6.311999999999999,
+          "current_a": 28.3,
+          "pilot_a": 32.0
+        },
+        {
+          "seconds": 16.0,
+          "power_kw": 6.307,
+          "current_a": 28.3,
+          "pilot_a": 32.0
+        }
+      ],
+      "candidate": {
+        "status": "ok",
+        "detected": true,
+        "onset_seconds": 8.0,
+        "recovery_seconds": 12.0,
+        "reference_recorded_power_kw": 6.283,
+        "threshold_kw": 0.037740834496339734,
+        "reason": "raw_current_power_localization_with_cpop_fallback",
+        "onset_raw_row_position": 17,
+        "cpop_detected": false,
+        "raw_rescued": true
+      },
+      "cpop": {
+        "status": "ok",
+        "detected": false,
+        "onset_seconds": null,
+        "recovery_seconds": null,
+        "reference_recorded_power_kw": 6.2985039302892645,
+        "threshold_kw": 0.037740834496339734,
+        "reason": "no_resolved_local_departure"
+      },
+      "raw_only": {
+        "status": "ok",
+        "detected": true,
+        "onset_seconds": 8.0,
+        "recovery_seconds": 12.0,
+        "reference_recorded_power_kw": 6.283,
+        "threshold_kw": 0.037740834496339734,
+        "reason": "native_point_evidence",
+        "onset_raw_row_position": 17
+      },
+      "return_band_kw": [
+        6.253,
+        6.313000000000001
+      ],
+      "reviewed_recovery": null
+    }
+  ],
+  "no_refit_or_parameter_change": true
+}

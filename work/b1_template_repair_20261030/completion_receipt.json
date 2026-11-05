@@ -1,0 +1,36 @@
+{
+  "completed": true,
+  "template_repair_and_fresh_comparison": true,
+  "new_optional_method": "ride_revised",
+  "default_changed": false,
+  "CPOP_substituted": false,
+  "old_comparators_unchanged": true,
+  "protected_files_matched": 75,
+  "modified_runtime_files": {
+    "B1算法/README.md": {
+      "before": "4452132c6fa8417516cd8f1ac7782f175b4c157e86ec658b172b6a699f3ad017",
+      "after": "4b645cd1b74036f136a0377fba527f287229a4d289b66c47010de89c59941581"
+    },
+    "B1算法/b1_algorithm/process/api.py": {
+      "before": "71327e304b25b0aa70093c0270399b57bec0e055f3dd2cd77abdeea65f7da3e4",
+      "after": "f2f9787d223e36c707df3d016381de369f9c78aa2e001fe211ce8bc118d5b4b2"
+    },
+    "B1算法/b1_algorithm/resources/ev.py": {
+      "before": "7c4e98c20d09fcbf26f42837410ed3ec549045ceb595d27c3c362137047236fd",
+      "after": "e87f9243d4915163d581d23c9bd33c53c63ff6374bbf50f35f9c3dbc995ae3b5"
+    }
+  },
+  "new_runtime_files": [
+    "B1算法/b1_algorithm/process/_ride_revised.py"
+  ],
+  "main_factual_variants": 2048,
+  "main_independent_blocks": 8,
+  "stress_facts": 256,
+  "limited_primary_gate_pass": true,
+  "universal_advantage": false,
+  "real_EV_validation": false,
+  "research_point1_complete": false,
+  "report_modified": false,
+  "zip_or_launcher_created": false,
+  "dependencies_installed": false
+}

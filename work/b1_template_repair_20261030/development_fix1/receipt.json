@@ -1,0 +1,16 @@
+{
+  "completed": true,
+  "phase": "development",
+  "run_label": "development_fix1",
+  "repeated_development": true,
+  "independent_blocks": 2,
+  "main_factual_variants": 128,
+  "method_rows": 384,
+  "elapsed_seconds": 41.204898400000275,
+  "oracle_used_by_fitting": false,
+  "models_compared": [
+    "ride_template",
+    "ride_revised",
+    "cpop"
+  ]
+}

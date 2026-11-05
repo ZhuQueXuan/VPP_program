@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-11-02T14:22:55.529259+00:00",
+  "before_visual_labels": true,
+  "files": {
+    "protocol.json": "f8cfdd2ef54b464eaadb78a9869c9ba2a1a9a0a7a1f0a14b6a9ed7c6fcfd6fc7",
+    "prepare.py": "60a6efbba122f6a909226a1f447919e11cf110166540ed4a8f7c57fed838ffa1",
+    "selection.json": "f2d6879fde6e9993cc39af47e03c7957627187cfae860b7e54f0b22ca6fe9b24",
+    "samples.json": "85ce575c79d7b18dd5aec81e1a5019527f9d4f470e15698563ddce4585dbbd1b"
+  },
+  "test_values_read": false
+}

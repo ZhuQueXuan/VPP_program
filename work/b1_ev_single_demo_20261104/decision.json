@@ -1,0 +1,17 @@
+{
+  "selected_alpha": 10.0,
+  "use_candidate": false,
+  "ratios": {
+    "curve_rmse": 0.9032952908765437,
+    "subgroup_rmse": 0.7132530068615281,
+    "derivative_rmse": 0.8166218998155541
+  },
+  "gates": {
+    "overall": true,
+    "subgroup": true,
+    "derivative": true,
+    "coverage": true,
+    "targets": true,
+    "blocks": false
+  }
+}

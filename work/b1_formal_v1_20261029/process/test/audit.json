@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "mode": "test",
+  "variants": 960,
+  "independent_blocks": 20,
+  "output_rows": 7680,
+  "independent_rmse_recomputations": 7360,
+  "max_rmse_delta": 1.1102230246251565e-16,
+  "max_common_eta_delta": 3.774758283725532e-15,
+  "coarse_information_gate_verified": true,
+  "template_selection_needs_observed_validation_gate": true,
+  "shipped_default_matches_pretest_policy": true,
+  "frozen_code_unchanged": {
+    "api.py": true,
+    "batch.py": true,
+    "cpop_batch.R": true,
+    "SOURCE_ORIGIN.json": true,
+    "_cpop.py": true,
+    "_frozen_f0.py": true,
+    "_policy.json": true,
+    "_ride_template.py": true,
+    "_template_fit.py": true,
+    "__init__.py": true
+  },
+  "original_vendored_sources_unchanged": true
+}

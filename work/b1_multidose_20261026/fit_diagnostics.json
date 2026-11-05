@@ -1,0 +1,3362 @@
+[
+  {
+    "seed": 26102601,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      732,
+      664,
+      773,
+      723,
+      757,
+      678,
+      713
+    ]
+  },
+  {
+    "seed": 26102601,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      360,
+      312,
+      391,
+      354,
+      374,
+      344,
+      342
+    ]
+  },
+  {
+    "seed": 26102601,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      372,
+      352,
+      382,
+      369,
+      383,
+      334,
+      371
+    ]
+  },
+  {
+    "seed": 26102601,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      732,
+      664,
+      773,
+      723,
+      757,
+      678,
+      713
+    ]
+  },
+  {
+    "seed": 26102601,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      360,
+      312,
+      391,
+      354,
+      374,
+      344,
+      342
+    ]
+  },
+  {
+    "seed": 26102601,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      372,
+      352,
+      382,
+      369,
+      383,
+      334,
+      371
+    ]
+  },
+  {
+    "seed": 26102601,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      732,
+      664,
+      773,
+      723,
+      757,
+      678,
+      713
+    ]
+  },
+  {
+    "seed": 26102601,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      360,
+      312,
+      391,
+      354,
+      374,
+      344,
+      342
+    ]
+  },
+  {
+    "seed": 26102601,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      372,
+      352,
+      382,
+      369,
+      383,
+      334,
+      371
+    ]
+  },
+  {
+    "seed": 26102601,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      732,
+      664,
+      773,
+      723,
+      757,
+      678,
+      713
+    ]
+  },
+  {
+    "seed": 26102601,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      360,
+      312,
+      391,
+      354,
+      374,
+      344,
+      342
+    ]
+  },
+  {
+    "seed": 26102601,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      372,
+      352,
+      382,
+      369,
+      383,
+      334,
+      371
+    ]
+  },
+  {
+    "seed": 26102602,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      764,
+      727,
+      701,
+      661,
+      701,
+      782,
+      704
+    ]
+  },
+  {
+    "seed": 26102602,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      366,
+      371,
+      382,
+      341,
+      326,
+      397,
+      355
+    ]
+  },
+  {
+    "seed": 26102602,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      398,
+      356,
+      319,
+      320,
+      375,
+      385,
+      349
+    ]
+  },
+  {
+    "seed": 26102602,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      764,
+      727,
+      701,
+      661,
+      701,
+      782,
+      704
+    ]
+  },
+  {
+    "seed": 26102602,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      366,
+      371,
+      382,
+      341,
+      326,
+      397,
+      355
+    ]
+  },
+  {
+    "seed": 26102602,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      398,
+      356,
+      319,
+      320,
+      375,
+      385,
+      349
+    ]
+  },
+  {
+    "seed": 26102602,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      764,
+      727,
+      701,
+      661,
+      701,
+      782,
+      704
+    ]
+  },
+  {
+    "seed": 26102602,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      366,
+      371,
+      382,
+      341,
+      326,
+      397,
+      355
+    ]
+  },
+  {
+    "seed": 26102602,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      398,
+      356,
+      319,
+      320,
+      375,
+      385,
+      349
+    ]
+  },
+  {
+    "seed": 26102602,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      764,
+      727,
+      701,
+      661,
+      701,
+      782,
+      704
+    ]
+  },
+  {
+    "seed": 26102602,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      366,
+      371,
+      382,
+      341,
+      326,
+      397,
+      355
+    ]
+  },
+  {
+    "seed": 26102602,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      398,
+      356,
+      319,
+      320,
+      375,
+      385,
+      349
+    ]
+  },
+  {
+    "seed": 26102603,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      769,
+      693,
+      695,
+      723,
+      683,
+      718,
+      759
+    ]
+  },
+  {
+    "seed": 26102603,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      372,
+      347,
+      342,
+      347,
+      349,
+      354,
+      389
+    ]
+  },
+  {
+    "seed": 26102603,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      397,
+      346,
+      353,
+      376,
+      334,
+      364,
+      370
+    ]
+  },
+  {
+    "seed": 26102603,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      769,
+      693,
+      695,
+      723,
+      683,
+      718,
+      759
+    ]
+  },
+  {
+    "seed": 26102603,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      372,
+      347,
+      342,
+      347,
+      349,
+      354,
+      389
+    ]
+  },
+  {
+    "seed": 26102603,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      397,
+      346,
+      353,
+      376,
+      334,
+      364,
+      370
+    ]
+  },
+  {
+    "seed": 26102603,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      769,
+      693,
+      695,
+      723,
+      683,
+      718,
+      759
+    ]
+  },
+  {
+    "seed": 26102603,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      372,
+      347,
+      342,
+      347,
+      349,
+      354,
+      389
+    ]
+  },
+  {
+    "seed": 26102603,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      397,
+      346,
+      353,
+      376,
+      334,
+      364,
+      370
+    ]
+  },
+  {
+    "seed": 26102603,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      769,
+      693,
+      695,
+      723,
+      683,
+      718,
+      759
+    ]
+  },
+  {
+    "seed": 26102603,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      372,
+      347,
+      342,
+      347,
+      349,
+      354,
+      389
+    ]
+  },
+  {
+    "seed": 26102603,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      397,
+      346,
+      353,
+      376,
+      334,
+      364,
+      370
+    ]
+  },
+  {
+    "seed": 26102604,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      701,
+      703,
+      684,
+      745,
+      716,
+      746,
+      745
+    ]
+  },
+  {
+    "seed": 26102604,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      383,
+      342,
+      354,
+      367,
+      354,
+      369,
+      397
+    ]
+  },
+  {
+    "seed": 26102604,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      318,
+      361,
+      330,
+      378,
+      362,
+      377,
+      348
+    ]
+  },
+  {
+    "seed": 26102604,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      701,
+      703,
+      684,
+      745,
+      716,
+      746,
+      745
+    ]
+  },
+  {
+    "seed": 26102604,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      383,
+      342,
+      354,
+      367,
+      354,
+      369,
+      397
+    ]
+  },
+  {
+    "seed": 26102604,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      318,
+      361,
+      330,
+      378,
+      362,
+      377,
+      348
+    ]
+  },
+  {
+    "seed": 26102604,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      701,
+      703,
+      684,
+      745,
+      716,
+      746,
+      745
+    ]
+  },
+  {
+    "seed": 26102604,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      383,
+      342,
+      354,
+      367,
+      354,
+      369,
+      397
+    ]
+  },
+  {
+    "seed": 26102604,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      318,
+      361,
+      330,
+      378,
+      362,
+      377,
+      348
+    ]
+  },
+  {
+    "seed": 26102604,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      701,
+      703,
+      684,
+      745,
+      716,
+      746,
+      745
+    ]
+  },
+  {
+    "seed": 26102604,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      383,
+      342,
+      354,
+      367,
+      354,
+      369,
+      397
+    ]
+  },
+  {
+    "seed": 26102604,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      318,
+      361,
+      330,
+      378,
+      362,
+      377,
+      348
+    ]
+  },
+  {
+    "seed": 26102605,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      676,
+      737,
+      725,
+      693,
+      744,
+      730,
+      735
+    ]
+  },
+  {
+    "seed": 26102605,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      330,
+      339,
+      353,
+      321,
+      369,
+      362,
+      380
+    ]
+  },
+  {
+    "seed": 26102605,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      346,
+      398,
+      372,
+      372,
+      375,
+      368,
+      355
+    ]
+  },
+  {
+    "seed": 26102605,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      676,
+      737,
+      725,
+      693,
+      744,
+      730,
+      735
+    ]
+  },
+  {
+    "seed": 26102605,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      330,
+      339,
+      353,
+      321,
+      369,
+      362,
+      380
+    ]
+  },
+  {
+    "seed": 26102605,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      346,
+      398,
+      372,
+      372,
+      375,
+      368,
+      355
+    ]
+  },
+  {
+    "seed": 26102605,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      676,
+      737,
+      725,
+      693,
+      744,
+      730,
+      735
+    ]
+  },
+  {
+    "seed": 26102605,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      330,
+      339,
+      353,
+      321,
+      369,
+      362,
+      380
+    ]
+  },
+  {
+    "seed": 26102605,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      346,
+      398,
+      372,
+      372,
+      375,
+      368,
+      355
+    ]
+  },
+  {
+    "seed": 26102605,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      676,
+      737,
+      725,
+      693,
+      744,
+      730,
+      735
+    ]
+  },
+  {
+    "seed": 26102605,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      330,
+      339,
+      353,
+      321,
+      369,
+      362,
+      380
+    ]
+  },
+  {
+    "seed": 26102605,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      346,
+      398,
+      372,
+      372,
+      375,
+      368,
+      355
+    ]
+  },
+  {
+    "seed": 26102606,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      699,
+      739,
+      699,
+      705,
+      757,
+      706,
+      735
+    ]
+  },
+  {
+    "seed": 26102606,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      355,
+      367,
+      343,
+      338,
+      389,
+      337,
+      360
+    ]
+  },
+  {
+    "seed": 26102606,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      344,
+      372,
+      356,
+      367,
+      368,
+      369,
+      375
+    ]
+  },
+  {
+    "seed": 26102606,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      699,
+      739,
+      699,
+      705,
+      757,
+      706,
+      735
+    ]
+  },
+  {
+    "seed": 26102606,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      355,
+      367,
+      343,
+      338,
+      389,
+      337,
+      360
+    ]
+  },
+  {
+    "seed": 26102606,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      344,
+      372,
+      356,
+      367,
+      368,
+      369,
+      375
+    ]
+  },
+  {
+    "seed": 26102606,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      699,
+      739,
+      699,
+      705,
+      757,
+      706,
+      735
+    ]
+  },
+  {
+    "seed": 26102606,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      355,
+      367,
+      343,
+      338,
+      389,
+      337,
+      360
+    ]
+  },
+  {
+    "seed": 26102606,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      344,
+      372,
+      356,
+      367,
+      368,
+      369,
+      375
+    ]
+  },
+  {
+    "seed": 26102606,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      699,
+      739,
+      699,
+      705,
+      757,
+      706,
+      735
+    ]
+  },
+  {
+    "seed": 26102606,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      355,
+      367,
+      343,
+      338,
+      389,
+      337,
+      360
+    ]
+  },
+  {
+    "seed": 26102606,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      344,
+      372,
+      356,
+      367,
+      368,
+      369,
+      375
+    ]
+  },
+  {
+    "seed": 26102607,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      764,
+      770,
+      746,
+      647,
+      717,
+      672,
+      724
+    ]
+  },
+  {
+    "seed": 26102607,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      395,
+      394,
+      393,
+      346,
+      357,
+      315,
+      368
+    ]
+  },
+  {
+    "seed": 26102607,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      369,
+      376,
+      353,
+      301,
+      360,
+      357,
+      356
+    ]
+  },
+  {
+    "seed": 26102607,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      764,
+      770,
+      746,
+      647,
+      717,
+      672,
+      724
+    ]
+  },
+  {
+    "seed": 26102607,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      395,
+      394,
+      393,
+      346,
+      357,
+      315,
+      368
+    ]
+  },
+  {
+    "seed": 26102607,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      369,
+      376,
+      353,
+      301,
+      360,
+      357,
+      356
+    ]
+  },
+  {
+    "seed": 26102607,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      764,
+      770,
+      746,
+      647,
+      717,
+      672,
+      724
+    ]
+  },
+  {
+    "seed": 26102607,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      395,
+      394,
+      393,
+      346,
+      357,
+      315,
+      368
+    ]
+  },
+  {
+    "seed": 26102607,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      369,
+      376,
+      353,
+      301,
+      360,
+      357,
+      356
+    ]
+  },
+  {
+    "seed": 26102607,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      764,
+      770,
+      746,
+      647,
+      717,
+      672,
+      724
+    ]
+  },
+  {
+    "seed": 26102607,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      395,
+      394,
+      393,
+      346,
+      357,
+      315,
+      368
+    ]
+  },
+  {
+    "seed": 26102607,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      369,
+      376,
+      353,
+      301,
+      360,
+      357,
+      356
+    ]
+  },
+  {
+    "seed": 26102608,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      756,
+      746,
+      713,
+      694,
+      685,
+      731,
+      715
+    ]
+  },
+  {
+    "seed": 26102608,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      403,
+      389,
+      379,
+      357,
+      344,
+      375,
+      375
+    ]
+  },
+  {
+    "seed": 26102608,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      353,
+      357,
+      334,
+      337,
+      341,
+      356,
+      340
+    ]
+  },
+  {
+    "seed": 26102608,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      756,
+      746,
+      713,
+      694,
+      685,
+      731,
+      715
+    ]
+  },
+  {
+    "seed": 26102608,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      403,
+      389,
+      379,
+      357,
+      344,
+      375,
+      375
+    ]
+  },
+  {
+    "seed": 26102608,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      353,
+      357,
+      334,
+      337,
+      341,
+      356,
+      340
+    ]
+  },
+  {
+    "seed": 26102608,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      756,
+      746,
+      713,
+      694,
+      685,
+      731,
+      715
+    ]
+  },
+  {
+    "seed": 26102608,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      403,
+      389,
+      379,
+      357,
+      344,
+      375,
+      375
+    ]
+  },
+  {
+    "seed": 26102608,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      353,
+      357,
+      334,
+      337,
+      341,
+      356,
+      340
+    ]
+  },
+  {
+    "seed": 26102608,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      756,
+      746,
+      713,
+      694,
+      685,
+      731,
+      715
+    ]
+  },
+  {
+    "seed": 26102608,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      403,
+      389,
+      379,
+      357,
+      344,
+      375,
+      375
+    ]
+  },
+  {
+    "seed": 26102608,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      353,
+      357,
+      334,
+      337,
+      341,
+      356,
+      340
+    ]
+  },
+  {
+    "seed": 26102609,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      696,
+      734,
+      699,
+      739,
+      734,
+      739,
+      699
+    ]
+  },
+  {
+    "seed": 26102609,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      363,
+      358,
+      363,
+      367,
+      370,
+      390,
+      363
+    ]
+  },
+  {
+    "seed": 26102609,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      333,
+      376,
+      336,
+      372,
+      364,
+      349,
+      336
+    ]
+  },
+  {
+    "seed": 26102609,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      696,
+      734,
+      699,
+      739,
+      734,
+      739,
+      699
+    ]
+  },
+  {
+    "seed": 26102609,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      363,
+      358,
+      363,
+      367,
+      370,
+      390,
+      363
+    ]
+  },
+  {
+    "seed": 26102609,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      333,
+      376,
+      336,
+      372,
+      364,
+      349,
+      336
+    ]
+  },
+  {
+    "seed": 26102609,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      696,
+      734,
+      699,
+      739,
+      734,
+      739,
+      699
+    ]
+  },
+  {
+    "seed": 26102609,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      363,
+      358,
+      363,
+      367,
+      370,
+      390,
+      363
+    ]
+  },
+  {
+    "seed": 26102609,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      333,
+      376,
+      336,
+      372,
+      364,
+      349,
+      336
+    ]
+  },
+  {
+    "seed": 26102609,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      696,
+      734,
+      699,
+      739,
+      734,
+      739,
+      699
+    ]
+  },
+  {
+    "seed": 26102609,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      363,
+      358,
+      363,
+      367,
+      370,
+      390,
+      363
+    ]
+  },
+  {
+    "seed": 26102609,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      333,
+      376,
+      336,
+      372,
+      364,
+      349,
+      336
+    ]
+  },
+  {
+    "seed": 26102610,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      726,
+      748,
+      700,
+      705,
+      700,
+      709,
+      752
+    ]
+  },
+  {
+    "seed": 26102610,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      358,
+      384,
+      345,
+      354,
+      342,
+      340,
+      396
+    ]
+  },
+  {
+    "seed": 26102610,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      368,
+      364,
+      355,
+      351,
+      358,
+      369,
+      356
+    ]
+  },
+  {
+    "seed": 26102610,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      726,
+      748,
+      700,
+      705,
+      700,
+      709,
+      752
+    ]
+  },
+  {
+    "seed": 26102610,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      358,
+      384,
+      345,
+      354,
+      342,
+      340,
+      396
+    ]
+  },
+  {
+    "seed": 26102610,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      368,
+      364,
+      355,
+      351,
+      358,
+      369,
+      356
+    ]
+  },
+  {
+    "seed": 26102610,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      726,
+      748,
+      700,
+      705,
+      700,
+      709,
+      752
+    ]
+  },
+  {
+    "seed": 26102610,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      358,
+      384,
+      345,
+      354,
+      342,
+      340,
+      396
+    ]
+  },
+  {
+    "seed": 26102610,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      368,
+      364,
+      355,
+      351,
+      358,
+      369,
+      356
+    ]
+  },
+  {
+    "seed": 26102610,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      726,
+      748,
+      700,
+      705,
+      700,
+      709,
+      752
+    ]
+  },
+  {
+    "seed": 26102610,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      358,
+      384,
+      345,
+      354,
+      342,
+      340,
+      396
+    ]
+  },
+  {
+    "seed": 26102610,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      368,
+      364,
+      355,
+      351,
+      358,
+      369,
+      356
+    ]
+  },
+  {
+    "seed": 26102611,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      715,
+      741,
+      689,
+      744,
+      690,
+      704,
+      757
+    ]
+  },
+  {
+    "seed": 26102611,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      360,
+      350,
+      350,
+      383,
+      342,
+      334,
+      396
+    ]
+  },
+  {
+    "seed": 26102611,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      355,
+      391,
+      339,
+      361,
+      348,
+      370,
+      361
+    ]
+  },
+  {
+    "seed": 26102611,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      715,
+      741,
+      689,
+      744,
+      690,
+      704,
+      757
+    ]
+  },
+  {
+    "seed": 26102611,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      360,
+      350,
+      350,
+      383,
+      342,
+      334,
+      396
+    ]
+  },
+  {
+    "seed": 26102611,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      355,
+      391,
+      339,
+      361,
+      348,
+      370,
+      361
+    ]
+  },
+  {
+    "seed": 26102611,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      715,
+      741,
+      689,
+      744,
+      690,
+      704,
+      757
+    ]
+  },
+  {
+    "seed": 26102611,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      360,
+      350,
+      350,
+      383,
+      342,
+      334,
+      396
+    ]
+  },
+  {
+    "seed": 26102611,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      355,
+      391,
+      339,
+      361,
+      348,
+      370,
+      361
+    ]
+  },
+  {
+    "seed": 26102611,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      715,
+      741,
+      689,
+      744,
+      690,
+      704,
+      757
+    ]
+  },
+  {
+    "seed": 26102611,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      360,
+      350,
+      350,
+      383,
+      342,
+      334,
+      396
+    ]
+  },
+  {
+    "seed": 26102611,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      355,
+      391,
+      339,
+      361,
+      348,
+      370,
+      361
+    ]
+  },
+  {
+    "seed": 26102612,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      693,
+      706,
+      749,
+      711,
+      769,
+      695,
+      717
+    ]
+  },
+  {
+    "seed": 26102612,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      336,
+      377,
+      371,
+      364,
+      377,
+      357,
+      343
+    ]
+  },
+  {
+    "seed": 26102612,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      357,
+      329,
+      378,
+      347,
+      392,
+      338,
+      374
+    ]
+  },
+  {
+    "seed": 26102612,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      693,
+      706,
+      749,
+      711,
+      769,
+      695,
+      717
+    ]
+  },
+  {
+    "seed": 26102612,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      336,
+      377,
+      371,
+      364,
+      377,
+      357,
+      343
+    ]
+  },
+  {
+    "seed": 26102612,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      357,
+      329,
+      378,
+      347,
+      392,
+      338,
+      374
+    ]
+  },
+  {
+    "seed": 26102612,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      693,
+      706,
+      749,
+      711,
+      769,
+      695,
+      717
+    ]
+  },
+  {
+    "seed": 26102612,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      336,
+      377,
+      371,
+      364,
+      377,
+      357,
+      343
+    ]
+  },
+  {
+    "seed": 26102612,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      357,
+      329,
+      378,
+      347,
+      392,
+      338,
+      374
+    ]
+  },
+  {
+    "seed": 26102612,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      693,
+      706,
+      749,
+      711,
+      769,
+      695,
+      717
+    ]
+  },
+  {
+    "seed": 26102612,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      336,
+      377,
+      371,
+      364,
+      377,
+      357,
+      343
+    ]
+  },
+  {
+    "seed": 26102612,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      357,
+      329,
+      378,
+      347,
+      392,
+      338,
+      374
+    ]
+  },
+  {
+    "seed": 26102613,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      715,
+      737,
+      688,
+      767,
+      748,
+      717,
+      668
+    ]
+  },
+  {
+    "seed": 26102613,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      345,
+      361,
+      350,
+      384,
+      389,
+      352,
+      326
+    ]
+  },
+  {
+    "seed": 26102613,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      370,
+      376,
+      338,
+      383,
+      359,
+      365,
+      342
+    ]
+  },
+  {
+    "seed": 26102613,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      715,
+      737,
+      688,
+      767,
+      748,
+      717,
+      668
+    ]
+  },
+  {
+    "seed": 26102613,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      345,
+      361,
+      350,
+      384,
+      389,
+      352,
+      326
+    ]
+  },
+  {
+    "seed": 26102613,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      370,
+      376,
+      338,
+      383,
+      359,
+      365,
+      342
+    ]
+  },
+  {
+    "seed": 26102613,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      715,
+      737,
+      688,
+      767,
+      748,
+      717,
+      668
+    ]
+  },
+  {
+    "seed": 26102613,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      345,
+      361,
+      350,
+      384,
+      389,
+      352,
+      326
+    ]
+  },
+  {
+    "seed": 26102613,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      370,
+      376,
+      338,
+      383,
+      359,
+      365,
+      342
+    ]
+  },
+  {
+    "seed": 26102613,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      715,
+      737,
+      688,
+      767,
+      748,
+      717,
+      668
+    ]
+  },
+  {
+    "seed": 26102613,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      345,
+      361,
+      350,
+      384,
+      389,
+      352,
+      326
+    ]
+  },
+  {
+    "seed": 26102613,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      370,
+      376,
+      338,
+      383,
+      359,
+      365,
+      342
+    ]
+  },
+  {
+    "seed": 26102614,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      681,
+      718,
+      778,
+      746,
+      697,
+      708,
+      712
+    ]
+  },
+  {
+    "seed": 26102614,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      328,
+      363,
+      389,
+      352,
+      342,
+      338,
+      356
+    ]
+  },
+  {
+    "seed": 26102614,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      353,
+      355,
+      389,
+      394,
+      355,
+      370,
+      356
+    ]
+  },
+  {
+    "seed": 26102614,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      681,
+      718,
+      778,
+      746,
+      697,
+      708,
+      712
+    ]
+  },
+  {
+    "seed": 26102614,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      328,
+      363,
+      389,
+      352,
+      342,
+      338,
+      356
+    ]
+  },
+  {
+    "seed": 26102614,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      353,
+      355,
+      389,
+      394,
+      355,
+      370,
+      356
+    ]
+  },
+  {
+    "seed": 26102614,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      681,
+      718,
+      778,
+      746,
+      697,
+      708,
+      712
+    ]
+  },
+  {
+    "seed": 26102614,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      328,
+      363,
+      389,
+      352,
+      342,
+      338,
+      356
+    ]
+  },
+  {
+    "seed": 26102614,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      353,
+      355,
+      389,
+      394,
+      355,
+      370,
+      356
+    ]
+  },
+  {
+    "seed": 26102614,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      681,
+      718,
+      778,
+      746,
+      697,
+      708,
+      712
+    ]
+  },
+  {
+    "seed": 26102614,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      328,
+      363,
+      389,
+      352,
+      342,
+      338,
+      356
+    ]
+  },
+  {
+    "seed": 26102614,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      353,
+      355,
+      389,
+      394,
+      355,
+      370,
+      356
+    ]
+  },
+  {
+    "seed": 26102615,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      658,
+      710,
+      693,
+      742,
+      741,
+      761,
+      735
+    ]
+  },
+  {
+    "seed": 26102615,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      312,
+      345,
+      361,
+      346,
+      355,
+      399,
+      377
+    ]
+  },
+  {
+    "seed": 26102615,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      346,
+      365,
+      332,
+      396,
+      386,
+      362,
+      358
+    ]
+  },
+  {
+    "seed": 26102615,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      658,
+      710,
+      693,
+      742,
+      741,
+      761,
+      735
+    ]
+  },
+  {
+    "seed": 26102615,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      312,
+      345,
+      361,
+      346,
+      355,
+      399,
+      377
+    ]
+  },
+  {
+    "seed": 26102615,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      346,
+      365,
+      332,
+      396,
+      386,
+      362,
+      358
+    ]
+  },
+  {
+    "seed": 26102615,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      658,
+      710,
+      693,
+      742,
+      741,
+      761,
+      735
+    ]
+  },
+  {
+    "seed": 26102615,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      312,
+      345,
+      361,
+      346,
+      355,
+      399,
+      377
+    ]
+  },
+  {
+    "seed": 26102615,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      346,
+      365,
+      332,
+      396,
+      386,
+      362,
+      358
+    ]
+  },
+  {
+    "seed": 26102615,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      658,
+      710,
+      693,
+      742,
+      741,
+      761,
+      735
+    ]
+  },
+  {
+    "seed": 26102615,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      312,
+      345,
+      361,
+      346,
+      355,
+      399,
+      377
+    ]
+  },
+  {
+    "seed": 26102615,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      346,
+      365,
+      332,
+      396,
+      386,
+      362,
+      358
+    ]
+  },
+  {
+    "seed": 26102616,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      727,
+      711,
+      765,
+      696,
+      733,
+      694,
+      714
+    ]
+  },
+  {
+    "seed": 26102616,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      378,
+      353,
+      402,
+      349,
+      367,
+      355,
+      332
+    ]
+  },
+  {
+    "seed": 26102616,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      349,
+      358,
+      363,
+      347,
+      366,
+      339,
+      382
+    ]
+  },
+  {
+    "seed": 26102616,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      727,
+      711,
+      765,
+      696,
+      733,
+      694,
+      714
+    ]
+  },
+  {
+    "seed": 26102616,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      378,
+      353,
+      402,
+      349,
+      367,
+      355,
+      332
+    ]
+  },
+  {
+    "seed": 26102616,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      349,
+      358,
+      363,
+      347,
+      366,
+      339,
+      382
+    ]
+  },
+  {
+    "seed": 26102616,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      727,
+      711,
+      765,
+      696,
+      733,
+      694,
+      714
+    ]
+  },
+  {
+    "seed": 26102616,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      378,
+      353,
+      402,
+      349,
+      367,
+      355,
+      332
+    ]
+  },
+  {
+    "seed": 26102616,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      349,
+      358,
+      363,
+      347,
+      366,
+      339,
+      382
+    ]
+  },
+  {
+    "seed": 26102616,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      727,
+      711,
+      765,
+      696,
+      733,
+      694,
+      714
+    ]
+  },
+  {
+    "seed": 26102616,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      378,
+      353,
+      402,
+      349,
+      367,
+      355,
+      332
+    ]
+  },
+  {
+    "seed": 26102616,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      349,
+      358,
+      363,
+      347,
+      366,
+      339,
+      382
+    ]
+  },
+  {
+    "seed": 26102617,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      692,
+      726,
+      708,
+      726,
+      745,
+      722,
+      721
+    ]
+  },
+  {
+    "seed": 26102617,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      346,
+      375,
+      367,
+      374,
+      378,
+      346,
+      349
+    ]
+  },
+  {
+    "seed": 26102617,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      346,
+      351,
+      341,
+      352,
+      367,
+      376,
+      372
+    ]
+  },
+  {
+    "seed": 26102617,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      692,
+      726,
+      708,
+      726,
+      745,
+      722,
+      721
+    ]
+  },
+  {
+    "seed": 26102617,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      346,
+      375,
+      367,
+      374,
+      378,
+      346,
+      349
+    ]
+  },
+  {
+    "seed": 26102617,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      346,
+      351,
+      341,
+      352,
+      367,
+      376,
+      372
+    ]
+  },
+  {
+    "seed": 26102617,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      692,
+      726,
+      708,
+      726,
+      745,
+      722,
+      721
+    ]
+  },
+  {
+    "seed": 26102617,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      346,
+      375,
+      367,
+      374,
+      378,
+      346,
+      349
+    ]
+  },
+  {
+    "seed": 26102617,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      346,
+      351,
+      341,
+      352,
+      367,
+      376,
+      372
+    ]
+  },
+  {
+    "seed": 26102617,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      692,
+      726,
+      708,
+      726,
+      745,
+      722,
+      721
+    ]
+  },
+  {
+    "seed": 26102617,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      346,
+      375,
+      367,
+      374,
+      378,
+      346,
+      349
+    ]
+  },
+  {
+    "seed": 26102617,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      346,
+      351,
+      341,
+      352,
+      367,
+      376,
+      372
+    ]
+  },
+  {
+    "seed": 26102618,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      719,
+      687,
+      698,
+      732,
+      749,
+      738,
+      717
+    ]
+  },
+  {
+    "seed": 26102618,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      382,
+      342,
+      325,
+      368,
+      389,
+      344,
+      382
+    ]
+  },
+  {
+    "seed": 26102618,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      337,
+      345,
+      373,
+      364,
+      360,
+      394,
+      335
+    ]
+  },
+  {
+    "seed": 26102618,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      719,
+      687,
+      698,
+      732,
+      749,
+      738,
+      717
+    ]
+  },
+  {
+    "seed": 26102618,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      382,
+      342,
+      325,
+      368,
+      389,
+      344,
+      382
+    ]
+  },
+  {
+    "seed": 26102618,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      337,
+      345,
+      373,
+      364,
+      360,
+      394,
+      335
+    ]
+  },
+  {
+    "seed": 26102618,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      719,
+      687,
+      698,
+      732,
+      749,
+      738,
+      717
+    ]
+  },
+  {
+    "seed": 26102618,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      382,
+      342,
+      325,
+      368,
+      389,
+      344,
+      382
+    ]
+  },
+  {
+    "seed": 26102618,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      337,
+      345,
+      373,
+      364,
+      360,
+      394,
+      335
+    ]
+  },
+  {
+    "seed": 26102618,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      719,
+      687,
+      698,
+      732,
+      749,
+      738,
+      717
+    ]
+  },
+  {
+    "seed": 26102618,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      382,
+      342,
+      325,
+      368,
+      389,
+      344,
+      382
+    ]
+  },
+  {
+    "seed": 26102618,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      337,
+      345,
+      373,
+      364,
+      360,
+      394,
+      335
+    ]
+  },
+  {
+    "seed": 26102619,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      700,
+      687,
+      758,
+      707,
+      771,
+      705,
+      712
+    ]
+  },
+  {
+    "seed": 26102619,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      341,
+      340,
+      395,
+      351,
+      410,
+      345,
+      375
+    ]
+  },
+  {
+    "seed": 26102619,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      359,
+      347,
+      363,
+      356,
+      361,
+      360,
+      337
+    ]
+  },
+  {
+    "seed": 26102619,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      700,
+      687,
+      758,
+      707,
+      771,
+      705,
+      712
+    ]
+  },
+  {
+    "seed": 26102619,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      341,
+      340,
+      395,
+      351,
+      410,
+      345,
+      375
+    ]
+  },
+  {
+    "seed": 26102619,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      359,
+      347,
+      363,
+      356,
+      361,
+      360,
+      337
+    ]
+  },
+  {
+    "seed": 26102619,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      700,
+      687,
+      758,
+      707,
+      771,
+      705,
+      712
+    ]
+  },
+  {
+    "seed": 26102619,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      341,
+      340,
+      395,
+      351,
+      410,
+      345,
+      375
+    ]
+  },
+  {
+    "seed": 26102619,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      359,
+      347,
+      363,
+      356,
+      361,
+      360,
+      337
+    ]
+  },
+  {
+    "seed": 26102619,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      700,
+      687,
+      758,
+      707,
+      771,
+      705,
+      712
+    ]
+  },
+  {
+    "seed": 26102619,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      341,
+      340,
+      395,
+      351,
+      410,
+      345,
+      375
+    ]
+  },
+  {
+    "seed": 26102619,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      359,
+      347,
+      363,
+      356,
+      361,
+      360,
+      337
+    ]
+  },
+  {
+    "seed": 26102620,
+    "scenario": "zero",
+    "group": "all",
+    "train_dose_counts": [
+      744,
+      717,
+      714,
+      716,
+      695,
+      726,
+      728
+    ]
+  },
+  {
+    "seed": 26102620,
+    "scenario": "zero",
+    "group": "x_low",
+    "train_dose_counts": [
+      382,
+      348,
+      358,
+      345,
+      351,
+      343,
+      384
+    ]
+  },
+  {
+    "seed": 26102620,
+    "scenario": "zero",
+    "group": "x_high",
+    "train_dose_counts": [
+      362,
+      369,
+      356,
+      371,
+      344,
+      383,
+      344
+    ]
+  },
+  {
+    "seed": 26102620,
+    "scenario": "linear",
+    "group": "all",
+    "train_dose_counts": [
+      744,
+      717,
+      714,
+      716,
+      695,
+      726,
+      728
+    ]
+  },
+  {
+    "seed": 26102620,
+    "scenario": "linear",
+    "group": "x_low",
+    "train_dose_counts": [
+      382,
+      348,
+      358,
+      345,
+      351,
+      343,
+      384
+    ]
+  },
+  {
+    "seed": 26102620,
+    "scenario": "linear",
+    "group": "x_high",
+    "train_dose_counts": [
+      362,
+      369,
+      356,
+      371,
+      344,
+      383,
+      344
+    ]
+  },
+  {
+    "seed": 26102620,
+    "scenario": "smooth",
+    "group": "all",
+    "train_dose_counts": [
+      744,
+      717,
+      714,
+      716,
+      695,
+      726,
+      728
+    ]
+  },
+  {
+    "seed": 26102620,
+    "scenario": "smooth",
+    "group": "x_low",
+    "train_dose_counts": [
+      382,
+      348,
+      358,
+      345,
+      351,
+      343,
+      384
+    ]
+  },
+  {
+    "seed": 26102620,
+    "scenario": "smooth",
+    "group": "x_high",
+    "train_dose_counts": [
+      362,
+      369,
+      356,
+      371,
+      344,
+      383,
+      344
+    ]
+  },
+  {
+    "seed": 26102620,
+    "scenario": "hinge",
+    "group": "all",
+    "train_dose_counts": [
+      744,
+      717,
+      714,
+      716,
+      695,
+      726,
+      728
+    ]
+  },
+  {
+    "seed": 26102620,
+    "scenario": "hinge",
+    "group": "x_low",
+    "train_dose_counts": [
+      382,
+      348,
+      358,
+      345,
+      351,
+      343,
+      384
+    ]
+  },
+  {
+    "seed": 26102620,
+    "scenario": "hinge",
+    "group": "x_high",
+    "train_dose_counts": [
+      362,
+      369,
+      356,
+      371,
+      344,
+      383,
+      344
+    ]
+  }
+]

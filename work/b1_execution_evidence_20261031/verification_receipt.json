@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": 29447,
+  "device_fault_episodes_verified": 2,
+  "paired_simulation_waveforms": 24,
+  "simulation_variants": 72,
+  "same_observations_different_truth_pairs": 24,
+  "maximum_latent_power_difference_kw": 1.1677129334155527,
+  "original_sources_and_production_files_unchanged": 1546,
+  "old_v3_files_unchanged": 773,
+  "no_feature_algorithms_run": true,
+  "no_original_observations_modified": true,
+  "limitations": "Checks verify records/codes/identity and constructed information examples; not fault detector accuracy, physical EV model validity or field reliability."
+}

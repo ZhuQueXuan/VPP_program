@@ -1,0 +1,100 @@
+{
+  "b3_duplicate_announced_calls": {
+    "existing_calls": [
+      {
+        "start": 0,
+        "end": 6,
+        "q_kw": 2.0,
+        "admitted": true
+      },
+      {
+        "start": 0,
+        "end": 6,
+        "q_kw": 2.0,
+        "admitted": true
+      }
+    ],
+    "result_status": "feasible_under_declared_model",
+    "service_min_kw": 2.0000000000000004,
+    "combined_requested_kw": 4.0,
+    "new_call_overlap_status": "unavailable",
+    "new_call_reason": "Overlapping calls outside this family"
+  },
+  "native_output_not_native_input": {
+    "b2_output_keys": [
+      "status",
+      "reason",
+      "evidence",
+      "physical",
+      "task_kw",
+      "existing_permission",
+      "eligible",
+      "acceptance_probability",
+      "conditional_service_probability",
+      "service30_v1_probability",
+      "expected_delivery_kw",
+      "expected_delivery_kwh",
+      "expected_event_charging_kw",
+      "expected_post_charging_kw",
+      "predicted_path_is_executable_commitment",
+      "default_execution",
+      "dynamic_scenarios",
+      "conditional_reach90_probability",
+      "conditional_expected_cumulative90_min",
+      "conditional_expected_continuous90_min",
+      "conditional_first_reach_min",
+      "conditional_early_exit_probability",
+      "control_requires_actual_acceptance",
+      "committed_kw",
+      "commitment_unavailable_reason",
+      "task_definition",
+      "model_replicate",
+      "population"
+    ],
+    "b3_status": "unavailable",
+    "reason": "'initial_kwh'"
+  },
+  "b1_feature_shape": {
+    "status": "rejected",
+    "exception": "ValueError",
+    "reason": "expected n x360 on fixed10s grid",
+    "shape": [
+      1,
+      30
+    ]
+  },
+  "template_energy_vs_service_semantics": {
+    "template": 1,
+    "description": "two minute delay, then full28min",
+    "q_kw": 1.5,
+    "b2_service30_v1": true,
+    "b2_strict_full30": false,
+    "fine_energy_kwh": 0.7,
+    "coarse_energy_kwh": 0.7000000000000001,
+    "coarse_reduction_kw": [
+      0.9,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5
+    ],
+    "b3_strict_constant_q_each5min": false
+  },
+  "common_subdomain_physical_consistency": {
+    "analytic_qmax_kw": 3.0,
+    "b3_qmax_kw": 3.0,
+    "old_ev_core_at_q3": "feasible",
+    "note": "constructed common physical subdomain only; no B2 learned output consumed, actual acceptance explicitly declared, not from probability"
+  },
+  "b2_180min_domain": {
+    "status": "unavailable",
+    "reason": "choice/response outside trained task and declaration domain; physical layer only",
+    "physical": {
+      "qmax_kw": 3.0,
+      "feasible": true,
+      "core_called": true
+    },
+    "committed_kw": null
+  }
+}

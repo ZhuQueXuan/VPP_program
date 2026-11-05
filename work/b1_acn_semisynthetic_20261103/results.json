@@ -1,0 +1,179 @@
+{
+  "rows": [
+    {
+      "seed": 90371001,
+      "mechanism": "saturation",
+      "training_events": 2216,
+      "status": "causal",
+      "baseline": {
+        "level_rmse_seconds": 52.19329536170048,
+        "contrast_rmse_seconds": 39.94950510388436
+      },
+      "spline": {
+        "level_rmse_seconds": 40.74939383048213,
+        "contrast_rmse_seconds": 37.7152970692998
+      }
+    },
+    {
+      "seed": 90371002,
+      "mechanism": "saturation",
+      "training_events": 2216,
+      "status": "causal",
+      "baseline": {
+        "level_rmse_seconds": 59.922233834401325,
+        "contrast_rmse_seconds": 46.140159167469946
+      },
+      "spline": {
+        "level_rmse_seconds": 46.75661758938928,
+        "contrast_rmse_seconds": 38.21490041367017
+      }
+    },
+    {
+      "seed": 90371003,
+      "mechanism": "saturation",
+      "training_events": 2216,
+      "status": "causal",
+      "baseline": {
+        "level_rmse_seconds": 47.00630871568162,
+        "contrast_rmse_seconds": 41.38828054161312
+      },
+      "spline": {
+        "level_rmse_seconds": 37.98536238920853,
+        "contrast_rmse_seconds": 41.108834857148814
+      }
+    },
+    {
+      "seed": 90371004,
+      "mechanism": "saturation",
+      "training_events": 2216,
+      "status": "causal",
+      "baseline": {
+        "level_rmse_seconds": 15.546633357397335,
+        "contrast_rmse_seconds": 26.909488723842074
+      },
+      "spline": {
+        "level_rmse_seconds": 13.790177921847121,
+        "contrast_rmse_seconds": 25.564375754574915
+      }
+    },
+    {
+      "seed": 90371001,
+      "mechanism": "nonmonotone",
+      "training_events": 2216,
+      "status": "causal",
+      "baseline": {
+        "level_rmse_seconds": 77.09984308821193,
+        "contrast_rmse_seconds": 81.42374868922289
+      },
+      "spline": {
+        "level_rmse_seconds": 41.17599909489092,
+        "contrast_rmse_seconds": 65.60389417739536
+      }
+    },
+    {
+      "seed": 90371002,
+      "mechanism": "nonmonotone",
+      "training_events": 2216,
+      "status": "causal",
+      "baseline": {
+        "level_rmse_seconds": 97.9247639214347,
+        "contrast_rmse_seconds": 99.73808411677317
+      },
+      "spline": {
+        "level_rmse_seconds": 59.83071345593352,
+        "contrast_rmse_seconds": 75.87581638929346
+      }
+    },
+    {
+      "seed": 90371003,
+      "mechanism": "nonmonotone",
+      "training_events": 2216,
+      "status": "causal",
+      "baseline": {
+        "level_rmse_seconds": 86.78513594102819,
+        "contrast_rmse_seconds": 96.50913095138593
+      },
+      "spline": {
+        "level_rmse_seconds": 50.813942919371165,
+        "contrast_rmse_seconds": 78.53517765483761
+      }
+    },
+    {
+      "seed": 90371004,
+      "mechanism": "nonmonotone",
+      "training_events": 2216,
+      "status": "causal",
+      "baseline": {
+        "level_rmse_seconds": 66.16067925947135,
+        "contrast_rmse_seconds": 88.58140962860034
+      },
+      "spline": {
+        "level_rmse_seconds": 40.27734503205071,
+        "contrast_rmse_seconds": 72.15086924878047
+      }
+    },
+    {
+      "seed": 90371001,
+      "mechanism": "zero_effect",
+      "training_events": 2216,
+      "status": "causal",
+      "baseline": {
+        "level_rmse_seconds": 3.149659606949458,
+        "contrast_rmse_seconds": 3.2183903860391085
+      },
+      "spline": {
+        "level_rmse_seconds": 3.3113775424468197,
+        "contrast_rmse_seconds": 3.056559503087265
+      }
+    },
+    {
+      "seed": 90371002,
+      "mechanism": "zero_effect",
+      "training_events": 2216,
+      "status": "causal",
+      "baseline": {
+        "level_rmse_seconds": 1.7400631210676658,
+        "contrast_rmse_seconds": 1.7375128058791485
+      },
+      "spline": {
+        "level_rmse_seconds": 1.9753231559296534,
+        "contrast_rmse_seconds": 1.8593851214376305
+      }
+    },
+    {
+      "seed": 90371003,
+      "mechanism": "zero_effect",
+      "training_events": 2216,
+      "status": "causal",
+      "baseline": {
+        "level_rmse_seconds": 5.498836108144651,
+        "contrast_rmse_seconds": 2.0304764058637024
+      },
+      "spline": {
+        "level_rmse_seconds": 5.485639501929826,
+        "contrast_rmse_seconds": 2.0080725098728154
+      }
+    },
+    {
+      "seed": 90371004,
+      "mechanism": "zero_effect",
+      "training_events": 2216,
+      "status": "causal",
+      "baseline": {
+        "level_rmse_seconds": 5.245723512662904,
+        "contrast_rmse_seconds": 5.35728332081165
+      },
+      "spline": {
+        "level_rmse_seconds": 4.796974900420808,
+        "contrast_rmse_seconds": 4.2755967226692
+      }
+    }
+  ],
+  "training_contexts": 277,
+  "validation_contexts": 59,
+  "training_users": 121,
+  "validation_users": 24,
+  "source_and_code_hash_checks_passed": true,
+  "waveform_checks": 96,
+  "total_training_variants": 26592
+}

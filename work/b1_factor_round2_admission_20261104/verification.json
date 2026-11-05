@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "original_file_hashes_rechecked": 4,
+  "freeze_links_verified": 3,
+  "meter_and_workbook_rows_reconciled": true,
+  "development_examples_exact_raw_line_matches": 6,
+  "local_markdown_links_checked": 10,
+  "confirmation_values_read_by_verifier": 0,
+  "first_headerless_row_exception": "quarantined before role freeze",
+  "numeric_adoption_thresholds": "unset",
+  "fits_or_confirmation_scores": 0
+}

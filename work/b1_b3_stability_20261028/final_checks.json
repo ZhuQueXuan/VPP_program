@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "old_files_unchanged": 369,
+  "snapshot_files_unchanged": 51,
+  "read_only_audit_files": 441,
+  "local_links": 20,
+  "audit_destination_checks": true,
+  "primary_runs_unchanged_after_boundary_fix": true,
+  "root_entry_sha": "ba9b056ea16de192a5a56e80338642fa57943fe5e0c87b447d0af838135e1643",
+  "real_world_validation": false,
+  "committed_kw": null
+}

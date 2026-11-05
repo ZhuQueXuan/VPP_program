@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-11-02T17:59:46.238090+00:00",
+  "reasons": [
+    "Real native attempt01 failed creating shared CPOP directory concurrently on Windows before successful scores. Sequentially precreate both chunks and rerun identical observations in native_attempt02; preserve original attempt.",
+    "Known112-case outputs and assessment were saved successfully, then console print shadowed native function with local dict. Rename local variable only; do not rerun or overwrite successful known outputs."
+  ],
+  "corrected_files": {
+    "work/b1_first_block_close_20261103/evaluate_real.py": "b2ffab54b5b59da6f22754848cf6864d1d5d3db5ab8fefdac56f8378572d1e0b",
+    "work/b1_first_block_close_20261103/evaluate_known.py": "2e6b013e753b9f8d5d9b8cdb6febf3f82f6c28e87a76b5d91b38def7cc78e8ee"
+  },
+  "no_model_label_threshold_metric_or_sample_change": true,
+  "known_assessment_preserved_sha256": "0a7e4661851efcb79a2ff34fdb4843c27a9a63f72e34dca0d921af6a15dbdad4",
+  "real_labels_preserved_sha256": "2ce3bba909a3b1b7ae127f3d5a58fa25094f38c220588777e64cd3ee4254cd35"
+}

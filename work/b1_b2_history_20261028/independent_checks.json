@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checks": 46454259,
+  "max_prediction_abs_difference": 5.551115123125783e-16,
+  "max_energy_error_kwh": 5.329070518200751e-15,
+  "raw_sha": "072a939354534a79e22d0e75611d883848dd251a22d2d0c456e909bf8f6d8523",
+  "old_files_unchanged": 313,
+  "limits": "Synthetic exact-meter finite family only. No real-data validation."
+}

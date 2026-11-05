@@ -1,0 +1,34 @@
+{
+  "seeds": [
+    9042001,
+    9042002,
+    9042003,
+    9042004
+  ],
+  "mechanisms": [
+    "linear",
+    "nonlinear",
+    "correlated",
+    "randomized",
+    "zero_effect",
+    "one_side"
+  ],
+  "resources": [
+    "EV",
+    "heat_pump"
+  ],
+  "independent_clusters": 120,
+  "alpha": 0.05,
+  "one_predeclared_comparison": true,
+  "prior_graph_results_used_for_tuning": false,
+  "hypotheses": [
+    "Time restriction limits possible separators",
+    "Bounded additive quote model recovers quote-side candidates"
+  ],
+  "screening_gate": "Common-factor recall +10 percentage points and no more than two extra false common candidates versus unrestricted KCI, overall.",
+  "files": {
+    "work\\b1_resource_factors_20261104\\study.py": "d0d5f5547310f660b812f939811a45b674338e6870d1c217ab2d20a1cad32df0",
+    "B1算法\\b1_api.py": "7e5fe13d1a221a78c93f7143828366b58e49c1c75d4b3cb953bf8a3e2ef5385c",
+    "B1算法\\b1_algorithm\\resource_factors.py": "6d8ae1a018e74e4b8094c225c63e4842dc40d5e341afa449492a78456457d64e"
+  }
+}

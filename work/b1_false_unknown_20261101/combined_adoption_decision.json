@@ -1,0 +1,1 @@
+{"adopt": false, "reason": "Primary standard tests passed but supplemental unseen-user unknown-reference60s safety failed: candidate31/64 localized misses versus retained1/64; no production change or deployment. Do not interpret primary assessment alone as adoption.", "primary_assessment": "assessment.json", "short_assessment": "short_stress/decision.json"}

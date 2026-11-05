@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "target": "D:\\myDocu\\project_postg\\VPP_program\\04_汇报与调研资料\\课题一B1至B3算法阶段研究报告_20261029.md",
+  "backup": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_caption_revision_20261029\\before_section22_assignment_rationale.md",
+  "before_sha256": "95aaf43529e212f8fb45f6fa3b9f13c3550c530e3ce3c8f19c30f2934e31902e",
+  "after_sha256": "85a1bf8cb30a0801896dd21913676258b5b7f45e7571623dd70329bf51d88e20",
+  "addition": "该设定构造了补偿分配与用户事前条件相关的模拟场景，用于检验算法能否在调整需求紧迫度和时间余量差异后，区分补偿作用与用户原有条件对响应时长的影响。",
+  "only_one_sentence_added_in_section22": true,
+  "all_other_content_unchanged": true,
+  "only_requested_markdown_changed": true
+}

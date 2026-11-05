@@ -1,0 +1,8 @@
+{
+ "reason":"Initial frozen final reduced FP414to373=9.90338percent, below original10percent adoption gate by one task; all safety gates passed. Initial assessment remains not-adopted. One fixed larger independent confirmation, no model/configuration/threshold updates and no repeat-until-pass.",
+ "main_confirmation_seeds":[7803000,7803001,7803002,7803003,7803004,7803005,7803006,7803007],"main_confirmation_per_kind":3,
+ "weak_confirmation_seeds":[7803300,7803301,7803302,7803303,7803304,7803305,7803306,7803307],"weak_confirmation_per_kind":6,
+ "gates":"Original>=10percent FP reduction on both independent confirmation alone and combined initial+confirmation; all original no-new-true-rejection, whole/local/effective-short/genuine-short, panel false and duration gates on confirmation AND combined. Initial safety gates must remain passed. No model update, no final threshold selection, one confirmation only. If any fails, keep previous production method.",
+ "interpretation":"Confirmation cannot erase the initial sub10percent result. Publish both; no guarantee implied by finite-sample zero observed extra misses. Every negative qualification counted, no record dropped. Same original CPOP/LABS controls.",
+ "known_reference_only":true,"no_report_or_second_block":true
+}

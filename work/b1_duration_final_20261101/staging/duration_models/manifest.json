@@ -1,0 +1,38 @@
+{
+  "schema": "b1.duration-fusion.v1",
+  "configuration": {
+    "threshold": 0.6,
+    "change_cap": 0.2,
+    "preserve_gaps": true,
+    "band_sigma": 2.0,
+    "quantile_model": "model_q50.json",
+    "state_model": "model_classifier.json",
+    "method_name": "duration_fusion",
+    "beta": 3.0,
+    "preserve_original_positive_runs_seconds": 60.0,
+    "preserve_nearzero_gap_runs_seconds": 60.0,
+    "domain": {
+      "task_minutes": 30.0,
+      "request_kw": 1.5,
+      "noise_sigma_kw": 0.05,
+      "pre_minutes": 15.0,
+      "post_minutes": 15.0,
+      "meter_minutes": [
+        0.16666666666666666,
+        1.0
+      ],
+      "onset_fraction": 0.1,
+      "dwell_seconds": 30.0
+    },
+    "preserve_all_original_nonpositive_bins": true
+  },
+  "model_files": {
+    "quantile.json": "17e2ebe4939725c4e6c5f70c57e746b7591ce8a203446868a7f73da2a4cec687",
+    "state.json": "a79766fa0b6b4a516700f14dafcf0b356bb3963000d7f57a1007792520af3d4b"
+  },
+  "training": "Synthetic latent power and threshold states,1792case variants; not field-calibrated fault labels",
+  "method": "Standard degree0/1 segmentation features, quantile/state boosting, original-CPOP event and short-structure safeguards",
+  "validation_scope": "Controlled known-reference EV30min,q1.5kW,sigma.05,1min/10s,pre/post15min. No field/100ms or unknown-reference validation.",
+  "detector": "Exactly preserves original CPOP threshold-positive task status; no claim of lower task false alarms",
+  "uncertainty": "No validated process confidence interval or probability calibration claim"
+}

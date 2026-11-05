@@ -1,0 +1,143 @@
+{
+  "scope": "Part3 real household auxiliary outcome modeling at observed iFlex P paths only",
+  "data": "https://zenodo.org/records/8248802",
+  "license": "CC-BY-4.0",
+  "prepared_data_sha256": "1b43c61403d27a9a04c68f833967d9e3d3c1f3fcdd2e55565b862dcc41c17607",
+  "data_protocol_sha256": "ef66416602332a85475c9dfa8243cc18fa0c0448370e7dd9cc6f9c457ebde482",
+  "counts": {
+    "train": 9581,
+    "validation": 2213,
+    "test": 2419
+  },
+  "dates": {
+    "train": 20,
+    "validation": 5,
+    "test": 5
+  },
+  "dates_assignment": {
+    "2020-12-16": "train",
+    "2020-12-17": "train",
+    "2021-01-05": "train",
+    "2021-01-08": "train",
+    "2021-01-11": "train",
+    "2021-01-13": "train",
+    "2021-01-14": "train",
+    "2021-01-18": "train",
+    "2021-01-21": "train",
+    "2021-01-22": "train",
+    "2021-01-27": "train",
+    "2021-01-28": "train",
+    "2021-01-29": "train",
+    "2021-02-01": "train",
+    "2021-02-02": "train",
+    "2021-02-04": "train",
+    "2021-02-09": "train",
+    "2021-02-10": "train",
+    "2021-02-11": "train",
+    "2021-02-12": "train",
+    "2021-02-15": "validation",
+    "2021-02-16": "validation",
+    "2021-02-17": "validation",
+    "2021-02-22": "validation",
+    "2021-03-05": "validation",
+    "2021-03-08": "test",
+    "2021-03-11": "test",
+    "2021-03-12": "test",
+    "2021-03-17": "test",
+    "2021-03-22": "test"
+  },
+  "assignment_grain": "group-date repeated household panel",
+  "target": "actual_peak_2h_kwh: measured original Hour17+18",
+  "feature_sets": {
+    "base": [
+      "pre24_kwh",
+      "pre168_kwh",
+      "pre24_temperature",
+      "group x region",
+      "day of week"
+    ],
+    "peak_addition": "one feature: mean_peak_history_kwh over complete paired Hour17/18 days inside the preceding168h, both measurements completed by notice"
+  },
+  "feature_availability": "Use only completed history before notification and known calendar/group/offer. Meter database delivery lag is not recorded.",
+  "forbidden": [
+    "future or current measured load/temp",
+    "ID as a regressor",
+    "realized reward",
+    "counterfactual labels",
+    "synthetic prices"
+  ],
+  "observed_quote_levels": [
+    2,
+    5,
+    10,
+    15
+  ],
+  "predictions_at_actual_assigned_quote_only": true,
+  "exposure": "observed full P price path encoded by assigned nominal level; other22 slots identical",
+  "methods": {
+    "history_ridge": "same covariates, no quote; history-only baseline",
+    "linear_ridge": "same covariates + numeric quote and interactions",
+    "spline_ridge": "adapt retained DR auxiliary result model structure: same poly2 covariates, 6 fixed cubic amount knots, interactions and Ridge; not full DR",
+    "price_hgb": "HistGradientBoostingRegressor on EXACT same spline-expanded feature design as spline_ridge",
+    "history_hgb": "same HGB on history-only covariates, price-feature ablation"
+  },
+  "ridge_alpha_grid": [
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "hgb_grid": [
+    {
+      "leaves": 7,
+      "l2": 1.0
+    },
+    {
+      "leaves": 7,
+      "l2": 10.0
+    },
+    {
+      "leaves": 15,
+      "l2": 1.0
+    },
+    {
+      "leaves": 15,
+      "l2": 10.0
+    }
+  ],
+  "hgb_fixed": {
+    "loss": "squared_error",
+    "learning_rate": 0.05,
+    "max_iter": 180,
+    "min_samples_leaf": 40,
+    "early_stopping": false,
+    "max_bins": 128,
+    "random_state": 341
+  },
+  "primary": "Mean over dates of within-date household-event RMSE in kWh (not square root after averaging MSEs)",
+  "secondary": [
+    "pooled RMSE/MAE",
+    "group-date mean RMSE",
+    "per-observed-price calibration",
+    "per-date errors and paired wins",
+    "price/no-price ablation on matched learner",
+    "bias by historical peak and group"
+  ],
+  "schedule": [
+    "fit base methods on20 dates; select each of 5 configurations families on5 validation dates; diagnose",
+    "one predeclared candidate feature: preceding matched peak average; same method/budget validation",
+    "lock before numeric test outcomes read; refit all selected configurations on25 train+validation dates; evaluate once on5 test dates"
+  ],
+  "tuning": "Exactly four configurations per learner per feature set; ties use simpler/stronger-regularized model.",
+  "price_aware": [
+    "linear_ridge",
+    "spline_ridge",
+    "price_hgb"
+  ],
+  "baseline_selection": "best base feature price-aware existing Ridge (linear or spline) on validation only",
+  "candidate_selection": "best price-aware base on validation, or best price-aware added-peak model if latter improves validation date-equal RMSE by at least1%; choose without test",
+  "adoption": "Real auxiliary model only: candidate must lower test date-equal RMSE by at least5% versus frozen existing Ridge reference, win at least4/5 dates, and cover all2419 events. Always keep original EV and other modules.",
+  "scientific_scope": "Forecast measured kWh at known assigned prices; prediction scores cannot certify causal effects, dose interpolation, EV effective-duration performance, or unseen-user generalization.",
+  "split_timing": "Already frozen at data preparation; no choice based on test scores. Test price5 absent;15 observed on one date.",
+  "no_test_feedback": true
+}

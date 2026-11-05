@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-11-02T17:59:06.581043+00:00",
+  "raw_pages_viewed": 12,
+  "all_selected_windows_reviewed": 48,
+  "label_counts": {
+    "no_clear_following_change": 19,
+    "not_applicable": 12,
+    "observed_change": 14,
+    "unknown": 3
+  },
+  "recovery_references": 7,
+  "no_model_output_reviewed_before_labels": true,
+  "not_independent_human_gold": true
+}

@@ -1,0 +1,20 @@
+{
+  "fixed_LL": {
+    "mean_candidate_minus_reference_seconds": -6.743977410932853,
+    "paired_seed_t_interval_95": [
+      -14.98532585187128,
+      1.4973710300055743
+    ],
+    "unit": "8 independent simulated seed blocks, not 48 independent curves",
+    "interpretation": "descriptive Monte Carlo t interval; not field performance or a causal uncertainty interval"
+  },
+  "LL_2": {
+    "mean_candidate_minus_reference_seconds": -7.299091470719667,
+    "paired_seed_t_interval_95": [
+      -19.20969760925275,
+      4.611514667813417
+    ],
+    "unit": "8 independent simulated seed blocks, not 48 independent curves",
+    "interpretation": "descriptive Monte Carlo t interval; not field performance or a causal uncertainty interval"
+  }
+}

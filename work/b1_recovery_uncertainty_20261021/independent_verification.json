@@ -1,0 +1,5050 @@
+{
+  "identity": "independent_declared_simulation_verification_only",
+  "protocol_sha256": "dbc927b5edf78c778f85039f7c12f47f934e74daaeb8f54908683c099ec99461",
+  "verifier_sha256": "a179447eba31e46f48b41b95804db13a51e08becba0267868e63aee3a4314d1e",
+  "checks": [
+    {
+      "name": "factual artifact contains only public observed fields",
+      "passed": true,
+      "detail": [
+        "time_edges_s",
+        "reference_kw",
+        "power_obs_kw"
+      ]
+    },
+    {
+      "name": "public observation shape",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "interval shape",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "first grid endpoint shape",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protocol prior to generating retained observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw and intervals identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "evaluator truth not available during estimation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source identity protocol.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source identity recovery.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source identity observe.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source identity run.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "frozen source identity evaluate.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "predeclared grid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "finite simultaneous family fixed in advance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bias integration includes request through deadline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "restored declared power bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "remaining_deficit declared power bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "over_repaid declared power bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_action declared power bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "true path independently integrated from rectangles",
+      "passed": true,
+      "detail": 1.3877787807814457e-15
+    },
+    {
+      "name": "true endpoint independently integrated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid variants share factual power draws",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "AR variants share factual power draws",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct declared reference bias",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct public integral and fixed bounds",
+      "passed": true,
+      "detail": 6.938893903907228e-18
+    },
+    {
+      "name": "iid_correct independent dense covariance widths",
+      "passed": true,
+      "detail": 1.214306433183765e-17
+    },
+    {
+      "name": "iid_correct/restored/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/restored/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/restored/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/restored/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/restored/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/restored/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/restored/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/restored/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/remaining_deficit/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/remaining_deficit/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/remaining_deficit/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/remaining_deficit/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/remaining_deficit/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/remaining_deficit/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/remaining_deficit/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/remaining_deficit/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/over_repaid/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/over_repaid/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/over_repaid/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/over_repaid/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/over_repaid/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/over_repaid/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/over_repaid/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/over_repaid/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/no_action/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/no_action/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/no_action/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/no_action/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/no_action/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/no_action/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/no_action/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "iid_correct/no_action/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct declared reference bias",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct public integral and fixed bounds",
+      "passed": true,
+      "detail": 6.938893903907228e-17
+    },
+    {
+      "name": "ar1_correct independent dense covariance widths",
+      "passed": true,
+      "detail": 1.0755285551056204e-16
+    },
+    {
+      "name": "ar1_correct/restored/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/restored/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/restored/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/restored/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/restored/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/restored/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/restored/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/restored/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/remaining_deficit/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/remaining_deficit/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/remaining_deficit/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/remaining_deficit/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/remaining_deficit/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/remaining_deficit/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/remaining_deficit/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/remaining_deficit/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/over_repaid/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/over_repaid/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/over_repaid/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/over_repaid/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/over_repaid/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/over_repaid/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/over_repaid/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/over_repaid/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/no_action/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/no_action/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/no_action/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/no_action/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/no_action/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/no_action/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/no_action/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_correct/no_action/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid declared reference bias",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid public integral and fixed bounds",
+      "passed": true,
+      "detail": 6.938893903907228e-18
+    },
+    {
+      "name": "ar1_assumed_iid independent dense covariance widths",
+      "passed": true,
+      "detail": 1.214306433183765e-17
+    },
+    {
+      "name": "ar1_assumed_iid/restored/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/restored/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/restored/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/restored/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/restored/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/restored/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/restored/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/restored/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/remaining_deficit/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/remaining_deficit/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/remaining_deficit/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/remaining_deficit/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/remaining_deficit/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/remaining_deficit/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/remaining_deficit/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/remaining_deficit/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/over_repaid/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/over_repaid/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/over_repaid/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/over_repaid/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/over_repaid/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/over_repaid/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/over_repaid/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/over_repaid/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/no_action/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/no_action/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/no_action/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/no_action/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/no_action/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/no_action/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/no_action/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ar1_assumed_iid/no_action/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded declared reference bias",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded public integral and fixed bounds",
+      "passed": true,
+      "detail": 5.551115123125783e-17
+    },
+    {
+      "name": "reference_bias_bounded independent dense covariance widths",
+      "passed": true,
+      "detail": 5.551115123125783e-17
+    },
+    {
+      "name": "reference_bias_bounded/restored/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/restored/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/restored/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/restored/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/restored/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/restored/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/restored/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/restored/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/remaining_deficit/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/remaining_deficit/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/remaining_deficit/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/remaining_deficit/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/remaining_deficit/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/remaining_deficit/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/remaining_deficit/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/remaining_deficit/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/over_repaid/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/over_repaid/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/over_repaid/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/over_repaid/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/over_repaid/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/over_repaid/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/over_repaid/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/over_repaid/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/no_action/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/no_action/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/no_action/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/no_action/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/no_action/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/no_action/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/no_action/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_bounded/no_action/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored declared reference bias",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored public integral and fixed bounds",
+      "passed": true,
+      "detail": 6.938893903907228e-18
+    },
+    {
+      "name": "reference_bias_ignored independent dense covariance widths",
+      "passed": true,
+      "detail": 1.214306433183765e-17
+    },
+    {
+      "name": "reference_bias_ignored/restored/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/restored/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/restored/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/restored/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/restored/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/restored/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/restored/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/restored/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/remaining_deficit/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/remaining_deficit/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/remaining_deficit/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/remaining_deficit/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/remaining_deficit/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/remaining_deficit/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/remaining_deficit/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/remaining_deficit/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/over_repaid/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/over_repaid/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/over_repaid/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/over_repaid/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/over_repaid/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/over_repaid/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/over_repaid/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/over_repaid/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/no_action/0.0: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/no_action/0.0: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/no_action/0.005: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/no_action/0.005: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/no_action/0.01: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/no_action/0.01: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/no_action/0.02: first grid endpoints independently selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reference_bias_ignored/no_action/0.02: states partition all observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv frozen row count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/0/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/0/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/0/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/0/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/0/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/0/coverage_mc_low",
+      "passed": true,
+      "detail": 1.5543122344752192e-15
+    },
+    {
+      "name": "metrics.csv/0/coverage_mc_high",
+      "passed": true,
+      "detail": 2.886579864025407e-14
+    },
+    {
+      "name": "metrics.csv/0/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/0/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/0/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/0/endpoint_width",
+      "passed": true,
+      "detail": 3.469446951953614e-18
+    },
+    {
+      "name": "metrics.csv/0/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/1/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/1/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/1/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/1/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/1/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/1/coverage_mc_low",
+      "passed": true,
+      "detail": 1.3000711618360583e-13
+    },
+    {
+      "name": "metrics.csv/1/coverage_mc_high",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/1/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/1/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/1/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/1/endpoint_width",
+      "passed": true,
+      "detail": 3.469446951953614e-18
+    },
+    {
+      "name": "metrics.csv/1/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/2/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/2/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/2/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/2/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/2/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/2/coverage_mc_low",
+      "passed": true,
+      "detail": 1.1102230246251565e-16
+    },
+    {
+      "name": "metrics.csv/2/coverage_mc_high",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/2/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/2/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/2/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/2/endpoint_width",
+      "passed": true,
+      "detail": 3.469446951953614e-18
+    },
+    {
+      "name": "metrics.csv/2/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/3/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/3/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/3/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/3/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/3/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/3/coverage_mc_low",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/3/coverage_mc_high",
+      "passed": true,
+      "detail": 1.1102230246251565e-16
+    },
+    {
+      "name": "metrics.csv/3/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/3/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/3/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/3/endpoint_width",
+      "passed": true,
+      "detail": 3.469446951953614e-18
+    },
+    {
+      "name": "metrics.csv/3/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/4/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/4/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/4/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/4/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/4/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/4/coverage_mc_low",
+      "passed": true,
+      "detail": 2.6645352591003757e-15
+    },
+    {
+      "name": "metrics.csv/4/coverage_mc_high",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/4/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/4/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/4/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/4/endpoint_width",
+      "passed": true,
+      "detail": 5.724587470723463e-17
+    },
+    {
+      "name": "metrics.csv/4/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/5/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/5/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/5/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/5/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/5/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/5/coverage_mc_low",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/5/coverage_mc_high",
+      "passed": true,
+      "detail": 1.1102230246251565e-16
+    },
+    {
+      "name": "metrics.csv/5/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/5/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/5/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/5/endpoint_width",
+      "passed": true,
+      "detail": 5.724587470723463e-17
+    },
+    {
+      "name": "metrics.csv/5/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/6/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/6/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/6/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/6/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/6/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/6/coverage_mc_low",
+      "passed": true,
+      "detail": 4.6851411639181606e-14
+    },
+    {
+      "name": "metrics.csv/6/coverage_mc_high",
+      "passed": true,
+      "detail": 1.9906298831529057e-13
+    },
+    {
+      "name": "metrics.csv/6/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/6/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/6/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/6/endpoint_width",
+      "passed": true,
+      "detail": 5.724587470723463e-17
+    },
+    {
+      "name": "metrics.csv/6/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/7/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/7/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/7/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/7/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/7/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/7/coverage_mc_low",
+      "passed": true,
+      "detail": 2.6645352591003757e-15
+    },
+    {
+      "name": "metrics.csv/7/coverage_mc_high",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/7/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/7/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/7/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/7/endpoint_width",
+      "passed": true,
+      "detail": 5.724587470723463e-17
+    },
+    {
+      "name": "metrics.csv/7/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/8/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/8/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/8/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/8/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/8/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/8/coverage_mc_low",
+      "passed": true,
+      "detail": 3.628763955987324e-13
+    },
+    {
+      "name": "metrics.csv/8/coverage_mc_high",
+      "passed": true,
+      "detail": 4.440892098500626e-16
+    },
+    {
+      "name": "metrics.csv/8/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/8/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/8/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/8/endpoint_width",
+      "passed": true,
+      "detail": 3.469446951953614e-18
+    },
+    {
+      "name": "metrics.csv/8/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/9/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/9/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/9/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/9/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/9/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/9/coverage_mc_low",
+      "passed": true,
+      "detail": 1.1102230246251565e-16
+    },
+    {
+      "name": "metrics.csv/9/coverage_mc_high",
+      "passed": true,
+      "detail": 2.554623179662485e-13
+    },
+    {
+      "name": "metrics.csv/9/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/9/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/9/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/9/endpoint_width",
+      "passed": true,
+      "detail": 3.469446951953614e-18
+    },
+    {
+      "name": "metrics.csv/9/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/10/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/10/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/10/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/10/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/10/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/10/coverage_mc_low",
+      "passed": true,
+      "detail": 3.885780586188048e-16
+    },
+    {
+      "name": "metrics.csv/10/coverage_mc_high",
+      "passed": true,
+      "detail": 2.5868196473766147e-14
+    },
+    {
+      "name": "metrics.csv/10/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/10/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/10/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/10/endpoint_width",
+      "passed": true,
+      "detail": 3.469446951953614e-18
+    },
+    {
+      "name": "metrics.csv/10/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/11/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/11/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/11/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/11/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/11/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/11/coverage_mc_low",
+      "passed": true,
+      "detail": 2.3397950243975174e-13
+    },
+    {
+      "name": "metrics.csv/11/coverage_mc_high",
+      "passed": true,
+      "detail": 4.440892098500626e-16
+    },
+    {
+      "name": "metrics.csv/11/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/11/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/11/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/11/endpoint_width",
+      "passed": true,
+      "detail": 3.469446951953614e-18
+    },
+    {
+      "name": "metrics.csv/11/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/12/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/12/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/12/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/12/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/12/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/12/coverage_mc_low",
+      "passed": true,
+      "detail": 5.551115123125783e-15
+    },
+    {
+      "name": "metrics.csv/12/coverage_mc_high",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/12/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/12/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/12/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/12/endpoint_width",
+      "passed": true,
+      "detail": 5.204170427930421e-17
+    },
+    {
+      "name": "metrics.csv/12/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/13/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/13/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/13/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/13/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/13/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/13/coverage_mc_low",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/13/coverage_mc_high",
+      "passed": true,
+      "detail": 5.551115123125783e-16
+    },
+    {
+      "name": "metrics.csv/13/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/13/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/13/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/13/endpoint_width",
+      "passed": true,
+      "detail": 5.204170427930421e-17
+    },
+    {
+      "name": "metrics.csv/13/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/14/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/14/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/14/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/14/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/14/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/14/coverage_mc_low",
+      "passed": true,
+      "detail": 5.551115123125783e-15
+    },
+    {
+      "name": "metrics.csv/14/coverage_mc_high",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/14/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/14/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/14/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/14/endpoint_width",
+      "passed": true,
+      "detail": 5.204170427930421e-17
+    },
+    {
+      "name": "metrics.csv/14/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/15/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/15/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/15/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/15/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/15/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/15/coverage_mc_low",
+      "passed": true,
+      "detail": 5.551115123125783e-15
+    },
+    {
+      "name": "metrics.csv/15/coverage_mc_high",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/15/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/15/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/15/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/15/endpoint_width",
+      "passed": true,
+      "detail": 5.204170427930421e-17
+    },
+    {
+      "name": "metrics.csv/15/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/16/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/16/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/16/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/16/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/16/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/16/coverage_mc_low",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/16/coverage_mc_high",
+      "passed": true,
+      "detail": 2.2614549122224048e-13
+    },
+    {
+      "name": "metrics.csv/16/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/16/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/16/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/16/endpoint_width",
+      "passed": true,
+      "detail": 3.469446951953614e-18
+    },
+    {
+      "name": "metrics.csv/16/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/17/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/17/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/17/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/17/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/17/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/17/coverage_mc_low",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/17/coverage_mc_high",
+      "passed": true,
+      "detail": 2.2614549122224048e-13
+    },
+    {
+      "name": "metrics.csv/17/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/17/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/17/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/17/endpoint_width",
+      "passed": true,
+      "detail": 3.469446951953614e-18
+    },
+    {
+      "name": "metrics.csv/17/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/18/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/18/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/18/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/18/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/18/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/18/coverage_mc_low",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/18/coverage_mc_high",
+      "passed": true,
+      "detail": 2.2614549122224048e-13
+    },
+    {
+      "name": "metrics.csv/18/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/18/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/18/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/18/endpoint_width",
+      "passed": true,
+      "detail": 3.469446951953614e-18
+    },
+    {
+      "name": "metrics.csv/18/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/19/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/19/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "metrics.csv/19/n",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/19/true_debt_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/19/endpoint_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/19/coverage_mc_low",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/19/coverage_mc_high",
+      "passed": true,
+      "detail": 2.2614549122224048e-13
+    },
+    {
+      "name": "metrics.csv/19/simultaneous_path_coverage",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/19/endpoint_bias",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/19/endpoint_rmse",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "metrics.csv/19/endpoint_width",
+      "passed": true,
+      "detail": 3.469446951953614e-18
+    },
+    {
+      "name": "metrics.csv/19/naive_endpoint_sign_unpaid_rate",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv frozen row count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/0/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/0/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/0/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/0/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/0/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/0/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/0/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/1/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/1/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/1/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/1/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/1/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/1/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/1/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/2/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/2/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/2/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/2/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/2/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/2/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/2/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/3/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/3/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/3/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/3/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/3/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/3/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/3/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/4/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/4/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/4/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/4/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/4/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/4/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/4/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/5/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/5/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/5/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/5/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/5/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/5/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/5/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/6/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/6/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/6/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/6/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/6/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/6/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/6/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/7/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/7/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/7/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/7/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/7/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/7/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/7/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/8/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/8/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/8/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/8/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/8/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/8/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/8/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/9/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/9/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/9/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/9/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/9/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/9/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/9/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/10/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/10/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/10/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/10/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/10/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/10/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/10/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/11/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/11/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/11/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/11/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/11/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/11/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/11/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/12/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/12/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/12/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/12/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/12/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/12/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/12/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/13/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/13/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/13/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/13/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/13/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/13/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/13/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/14/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/14/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/14/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/14/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/14/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/14/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/14/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/15/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/15/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/15/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/15/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/15/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/15/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/15/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/16/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/16/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/16/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/16/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/16/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/16/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/16/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/17/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/17/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/17/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/17/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/17/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/17/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/17/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/18/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/18/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/18/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/18/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/18/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/18/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/18/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/19/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/19/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/19/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/19/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/19/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/19/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/19/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/20/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/20/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/20/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/20/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/20/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/20/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/20/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/21/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/21/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/21/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/21/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/21/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/21/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/21/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/22/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/22/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/22/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/22/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/22/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/22/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/22/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/23/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/23/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/23/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/23/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/23/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/23/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/23/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/24/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/24/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/24/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/24/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/24/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/24/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/24/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/25/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/25/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/25/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/25/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/25/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/25/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/25/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/26/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/26/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/26/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/26/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/26/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/26/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/26/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/27/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/27/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/27/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/27/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/27/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/27/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/27/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/28/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/28/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/28/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/28/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/28/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/28/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/28/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/29/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/29/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/29/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/29/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/29/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/29/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/29/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/30/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/30/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/30/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/30/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/30/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/30/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/30/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/31/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/31/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/31/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/31/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/31/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/31/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/31/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/32/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/32/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/32/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/32/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/32/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/32/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/32/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/33/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/33/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/33/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/33/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/33/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/33/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/33/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/34/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/34/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/34/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/34/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/34/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/34/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/34/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/35/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/35/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/35/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/35/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/35/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/35/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/35/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/36/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/36/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/36/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/36/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/36/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/36/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/36/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/37/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/37/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/37/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/37/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/37/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/37/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/37/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/38/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/38/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/38/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/38/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/38/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/38/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/38/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/39/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/39/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/39/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/39/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/39/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/39/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/39/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/40/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/40/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/40/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/40/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/40/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/40/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/40/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/41/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/41/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/41/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/41/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/41/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/41/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/41/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/42/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/42/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/42/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/42/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/42/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/42/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/42/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/43/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/43/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/43/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/43/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/43/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/43/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/43/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/44/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/44/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/44/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/44/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/44/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/44/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/44/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/45/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/45/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/45/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/45/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/45/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/45/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/45/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/46/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/46/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/46/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/46/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/46/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/46/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/46/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/47/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/47/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/47/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/47/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/47/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/47/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/47/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/48/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/48/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/48/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/48/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/48/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/48/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/48/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/49/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/49/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/49/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/49/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/49/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/49/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/49/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/50/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/50/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/50/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/50/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/50/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/50/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/50/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/51/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/51/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/51/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/51/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/51/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/51/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/51/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/52/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/52/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/52/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/52/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/52/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/52/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/52/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/53/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/53/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/53/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/53/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/53/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/53/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/53/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/54/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/54/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/54/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/54/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/54/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/54/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/54/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/55/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/55/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/55/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/55/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/55/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/55/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/55/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/56/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/56/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/56/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/56/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/56/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/56/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/56/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/57/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/57/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/57/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/57/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/57/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/57/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/57/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/58/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/58/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/58/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/58/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/58/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/58/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/58/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/59/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/59/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/59/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/59/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/59/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/59/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/59/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/60/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/60/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/60/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/60/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/60/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/60/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/60/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/61/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/61/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/61/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/61/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/61/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/61/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/61/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/62/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/62/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/62/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/62/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/62/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/62/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/62/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/63/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/63/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/63/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/63/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/63/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/63/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/63/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/64/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/64/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/64/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/64/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/64/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/64/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/64/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/65/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/65/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/65/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/65/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/65/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/65/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/65/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/66/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/66/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/66/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/66/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/66/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/66/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/66/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/67/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/67/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/67/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/67/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/67/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/67/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/67/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/68/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/68/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/68/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/68/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/68/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/68/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/68/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/69/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/69/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/69/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/69/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/69/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/69/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/69/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/70/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/70/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/70/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/70/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/70/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/70/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/70/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/71/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/71/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/71/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/71/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/71/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/71/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/71/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/72/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/72/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/72/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/72/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/72/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/72/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/72/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/73/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/73/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/73/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/73/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/73/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/73/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/73/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/74/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/74/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/74/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/74/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/74/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/74/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/74/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/75/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/75/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/75/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/75/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/75/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/75/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/75/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/76/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/76/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/76/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/76/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/76/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/76/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/76/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/77/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/77/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/77/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/77/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/77/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/77/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/77/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/78/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/78/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/78/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/78/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/78/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/78/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/78/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/79/model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/79/mechanism",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "decisions.csv/79/margin_kwh",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/79/within_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/79/above_margin",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/79/unresolved",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "decisions.csv/79/incorrect_decisive",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "summary has fixed 20 and 80 rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "evaluation retains declared-model limitation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "estimator imports no simulator/evaluator",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "estimator opens no artifacts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "truth existence gate before generating observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "main intervals do not import/read truth before persistence",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": true,
+  "check_count": 1006,
+  "failures": 0,
+  "maximum_integral_or_bound_error": 6.938893903907228e-17,
+  "maximum_width_error": 1.0755285551056204e-16,
+  "maximum_truth_error": 1.3877787807814457e-15,
+  "maximum_metric_csv_error": 3.628763955987324e-13,
+  "maximum_decision_csv_error": 0.0,
+  "limitations": "Coverage is conditional on declared effective Gaussian covariance/bias, not estimated real noise; numerical epsilon is not a service threshold."
+}

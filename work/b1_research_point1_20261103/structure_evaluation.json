@@ -1,0 +1,2088 @@
+{
+  "status": "saved_graphs_evaluated_no_fit",
+  "rows": [
+    {
+      "stage": "development",
+      "seed": 90331001,
+      "mechanism": "randomized",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 1,
+        "true_nonedges": 7,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 3,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.6666666666666666,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 2,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 2,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "development",
+      "seed": 90331001,
+      "mechanism": "randomized",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 1,
+        "true_nonedges": 7,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 3,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.6666666666666666,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 0,
+        "fully_directed_edges": 2,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "development",
+      "seed": 90331001,
+      "mechanism": "observed_confounding",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 3,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.4,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 2,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 2,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "development",
+      "seed": 90331001,
+      "mechanism": "observed_confounding",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 3,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.4,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 0,
+        "fully_directed_edges": 2,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "development",
+      "seed": 90331001,
+      "mechanism": "zero_effect",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 1,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 3,
+        "true_nonedges": 6,
+        "predicted_adjacencies": 1,
+        "oracle_adjacencies": 4,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.25,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 2,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 1,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "需求紧迫度",
+            "right": "事前补偿",
+            "left_endpoint": "circle",
+            "right_endpoint": "circle"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "development",
+      "seed": 90331001,
+      "mechanism": "zero_effect",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 1,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 3,
+        "true_nonedges": 6,
+        "predicted_adjacencies": 1,
+        "oracle_adjacencies": 4,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.25,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 1,
+        "unresolved_edge_count": 1,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "需求紧迫度",
+            "right": "事前补偿",
+            "left_endpoint": "tail",
+            "right_endpoint": "tail"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "development",
+      "seed": 90331002,
+      "mechanism": "randomized",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 1,
+        "false_adjacencies": 1,
+        "missed_adjacencies": 2,
+        "true_nonedges": 6,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 3,
+        "adjacency_precision": 0.5,
+        "adjacency_recall": 0.3333333333333333,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 2,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 2,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "需求紧迫度",
+            "right": "事前补偿",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "累计响应时长",
+            "right": "事前补偿",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "development",
+      "seed": 90331002,
+      "mechanism": "randomized",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 1,
+        "false_adjacencies": 1,
+        "missed_adjacencies": 2,
+        "true_nonedges": 6,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 3,
+        "adjacency_precision": 0.5,
+        "adjacency_recall": 0.3333333333333333,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 0,
+        "fully_directed_edges": 2,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "需求紧迫度",
+            "right": "事前补偿",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "累计响应时长",
+            "right": "事前补偿",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "development",
+      "seed": 90331002,
+      "mechanism": "observed_confounding",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 3,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 2,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 3,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.6,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 6,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 3,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "事前补偿",
+            "left_endpoint": "circle",
+            "right_endpoint": "circle"
+          },
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "circle"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "circle"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "development",
+      "seed": 90331002,
+      "mechanism": "observed_confounding",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 3,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 2,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 3,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.6,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 3,
+        "unresolved_edge_count": 3,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "事前补偿",
+            "left_endpoint": "tail",
+            "right_endpoint": "tail"
+          },
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "tail"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "tail"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "development",
+      "seed": 90331002,
+      "mechanism": "zero_effect",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 3,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 1,
+        "true_nonedges": 6,
+        "predicted_adjacencies": 3,
+        "oracle_adjacencies": 4,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.75,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 2,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 2,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 1,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "arrow",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "需求紧迫度",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "期限余量",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "development",
+      "seed": 90331002,
+      "mechanism": "zero_effect",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 3,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 1,
+        "true_nonedges": 6,
+        "predicted_adjacencies": 3,
+        "oracle_adjacencies": 4,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.75,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 1,
+        "unresolved_edge_count": 1,
+        "fully_directed_edges": 2,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "需求紧迫度",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "tail"
+          },
+          {
+            "left": "事前补偿",
+            "right": "期限余量",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "累计响应时长",
+            "right": "期限余量",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332001,
+      "mechanism": "randomized",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 1,
+        "true_nonedges": 7,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 3,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.6666666666666666,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 2,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 2,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332001,
+      "mechanism": "randomized",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 1,
+        "true_nonedges": 7,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 3,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.6666666666666666,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 0,
+        "fully_directed_edges": 2,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332001,
+      "mechanism": "observed_confounding",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 3,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.4,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 2,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 2,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332001,
+      "mechanism": "observed_confounding",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 3,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.4,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 0,
+        "fully_directed_edges": 2,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332001,
+      "mechanism": "zero_effect",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 1,
+        "false_adjacencies": 1,
+        "missed_adjacencies": 3,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 4,
+        "adjacency_precision": 0.5,
+        "adjacency_recall": 0.25,
+        "negative_control_false_edges": 1,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 2,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 2,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "需求紧迫度",
+            "right": "事前补偿",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "无关对照因素",
+            "right": "事前补偿",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332001,
+      "mechanism": "zero_effect",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 1,
+        "false_adjacencies": 1,
+        "missed_adjacencies": 3,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 4,
+        "adjacency_precision": 0.5,
+        "adjacency_recall": 0.25,
+        "negative_control_false_edges": 1,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 0,
+        "fully_directed_edges": 2,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "需求紧迫度",
+            "right": "事前补偿",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "无关对照因素",
+            "right": "事前补偿",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332001,
+      "mechanism": "nonmonotone",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 1,
+        "missed_adjacencies": 3,
+        "true_nonedges": 4,
+        "predicted_adjacencies": 3,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 0.6666666666666666,
+        "adjacency_recall": 0.4,
+        "negative_control_false_edges": 1,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 4,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 3,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "circle"
+          },
+          {
+            "left": "需求紧迫度",
+            "right": "事前补偿",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "无关对照因素",
+            "right": "事前补偿",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332001,
+      "mechanism": "nonmonotone",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 1,
+        "missed_adjacencies": 3,
+        "true_nonedges": 4,
+        "predicted_adjacencies": 3,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 0.6666666666666666,
+        "adjacency_recall": 0.4,
+        "negative_control_false_edges": 1,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 1,
+        "unresolved_edge_count": 1,
+        "fully_directed_edges": 2,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "tail"
+          },
+          {
+            "left": "需求紧迫度",
+            "right": "事前补偿",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "无关对照因素",
+            "right": "事前补偿",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332002,
+      "mechanism": "randomized",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 1,
+        "missed_adjacencies": 1,
+        "true_nonedges": 6,
+        "predicted_adjacencies": 3,
+        "oracle_adjacencies": 3,
+        "adjacency_precision": 0.6666666666666666,
+        "adjacency_recall": 0.6666666666666666,
+        "negative_control_false_edges": 1,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 4,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 3,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "无关对照因素",
+            "left_endpoint": "circle",
+            "right_endpoint": "circle"
+          },
+          {
+            "left": "需求紧迫度",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332002,
+      "mechanism": "randomized",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 1,
+        "missed_adjacencies": 1,
+        "true_nonedges": 6,
+        "predicted_adjacencies": 3,
+        "oracle_adjacencies": 3,
+        "adjacency_precision": 0.6666666666666666,
+        "adjacency_recall": 0.6666666666666666,
+        "negative_control_false_edges": 1,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 1,
+        "unresolved_edge_count": 1,
+        "fully_directed_edges": 2,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "无关对照因素",
+            "left_endpoint": "tail",
+            "right_endpoint": "tail"
+          },
+          {
+            "left": "需求紧迫度",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332002,
+      "mechanism": "observed_confounding",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 1,
+        "missed_adjacencies": 3,
+        "true_nonedges": 4,
+        "predicted_adjacencies": 3,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 0.6666666666666666,
+        "adjacency_recall": 0.4,
+        "negative_control_false_edges": 1,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 2,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 2,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 1,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "arrow",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "无关对照因素",
+            "right": "期限余量",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332002,
+      "mechanism": "observed_confounding",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 1,
+        "missed_adjacencies": 3,
+        "true_nonedges": 4,
+        "predicted_adjacencies": 3,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 0.6666666666666666,
+        "adjacency_recall": 0.4,
+        "negative_control_false_edges": 1,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 1,
+        "unresolved_edge_count": 1,
+        "fully_directed_edges": 2,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "无关对照因素",
+            "right": "期限余量",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "tail"
+          },
+          {
+            "left": "累计响应时长",
+            "right": "期限余量",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332002,
+      "mechanism": "zero_effect",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 0,
+        "false_adjacencies": 1,
+        "missed_adjacencies": 4,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 1,
+        "oracle_adjacencies": 4,
+        "adjacency_precision": 0.0,
+        "adjacency_recall": 0.0,
+        "negative_control_false_edges": 1,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 2,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 1,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "无关对照因素",
+            "left_endpoint": "circle",
+            "right_endpoint": "circle"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332002,
+      "mechanism": "zero_effect",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 0,
+        "false_adjacencies": 1,
+        "missed_adjacencies": 4,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 1,
+        "oracle_adjacencies": 4,
+        "adjacency_precision": 0.0,
+        "adjacency_recall": 0.0,
+        "negative_control_false_edges": 1,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 1,
+        "unresolved_edge_count": 1,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "无关对照因素",
+            "left_endpoint": "tail",
+            "right_endpoint": "tail"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332002,
+      "mechanism": "nonmonotone",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 1,
+        "false_adjacencies": 1,
+        "missed_adjacencies": 4,
+        "true_nonedges": 4,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 0.5,
+        "adjacency_recall": 0.2,
+        "negative_control_false_edges": 1,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 2,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 2,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "无关对照因素",
+            "right": "期限余量",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "累计响应时长",
+            "right": "期限余量",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332002,
+      "mechanism": "nonmonotone",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 1,
+        "false_adjacencies": 1,
+        "missed_adjacencies": 4,
+        "true_nonedges": 4,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 0.5,
+        "adjacency_recall": 0.2,
+        "negative_control_false_edges": 1,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 0,
+        "fully_directed_edges": 2,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "无关对照因素",
+            "right": "期限余量",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "累计响应时长",
+            "right": "期限余量",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332003,
+      "mechanism": "randomized",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 1,
+        "true_nonedges": 7,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 3,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.6666666666666666,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 2,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 2,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332003,
+      "mechanism": "randomized",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 1,
+        "true_nonedges": 7,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 3,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.6666666666666666,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 0,
+        "fully_directed_edges": 2,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332003,
+      "mechanism": "observed_confounding",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 3,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 2,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 3,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.6,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 3,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 3,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "需求紧迫度",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332003,
+      "mechanism": "observed_confounding",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 3,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 2,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 3,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.6,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 0,
+        "fully_directed_edges": 3,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "需求紧迫度",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332003,
+      "mechanism": "zero_effect",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 1,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 3,
+        "true_nonedges": 6,
+        "predicted_adjacencies": 1,
+        "oracle_adjacencies": 4,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.25,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 2,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 1,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "事前补偿",
+            "left_endpoint": "circle",
+            "right_endpoint": "circle"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332003,
+      "mechanism": "zero_effect",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 1,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 3,
+        "true_nonedges": 6,
+        "predicted_adjacencies": 1,
+        "oracle_adjacencies": 4,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.25,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 1,
+        "unresolved_edge_count": 1,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "事前补偿",
+            "left_endpoint": "tail",
+            "right_endpoint": "tail"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332003,
+      "mechanism": "nonmonotone",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 3,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 2,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 3,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.6,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 2,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 2,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 1,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "arrow",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "需求紧迫度",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "期限余量",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332003,
+      "mechanism": "nonmonotone",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 3,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 2,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 3,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.6,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 1,
+        "unresolved_edge_count": 1,
+        "fully_directed_edges": 2,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "需求紧迫度",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "tail"
+          },
+          {
+            "left": "事前补偿",
+            "right": "期限余量",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "累计响应时长",
+            "right": "期限余量",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332004,
+      "mechanism": "randomized",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 1,
+        "false_adjacencies": 1,
+        "missed_adjacencies": 2,
+        "true_nonedges": 6,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 3,
+        "adjacency_precision": 0.5,
+        "adjacency_recall": 0.3333333333333333,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 2,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 2,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "需求紧迫度",
+            "right": "事前补偿",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "累计响应时长",
+            "right": "事前补偿",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332004,
+      "mechanism": "randomized",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 1,
+        "false_adjacencies": 1,
+        "missed_adjacencies": 2,
+        "true_nonedges": 6,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 3,
+        "adjacency_precision": 0.5,
+        "adjacency_recall": 0.3333333333333333,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 0,
+        "fully_directed_edges": 2,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "需求紧迫度",
+            "right": "事前补偿",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "累计响应时长",
+            "right": "事前补偿",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332004,
+      "mechanism": "observed_confounding",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 3,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.4,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 4,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 2,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "circle"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "circle"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332004,
+      "mechanism": "observed_confounding",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 2,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 3,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 2,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.4,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 2,
+        "unresolved_edge_count": 2,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "tail"
+          },
+          {
+            "left": "事前补偿",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "tail"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332004,
+      "mechanism": "zero_effect",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 1,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 3,
+        "true_nonedges": 6,
+        "predicted_adjacencies": 1,
+        "oracle_adjacencies": 4,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.25,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 2,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 1,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "事前补偿",
+            "left_endpoint": "circle",
+            "right_endpoint": "circle"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332004,
+      "mechanism": "zero_effect",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 1,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 3,
+        "true_nonedges": 6,
+        "predicted_adjacencies": 1,
+        "oracle_adjacencies": 4,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.25,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 1,
+        "unresolved_edge_count": 1,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "事前补偿",
+            "left_endpoint": "tail",
+            "right_endpoint": "tail"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332004,
+      "mechanism": "nonmonotone",
+      "method": "fci_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "PAG",
+        "true_adjacencies": 3,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 2,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 3,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.6,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 2,
+        "undirected_tail_tail_edges": 0,
+        "unresolved_edge_count": 2,
+        "fully_directed_edges": 0,
+        "bidirected_edges": 1,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "期限余量",
+            "right": "累计响应时长",
+            "left_endpoint": "arrow",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "需求紧迫度",
+            "right": "累计响应时长",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "事前补偿",
+            "right": "期限余量",
+            "left_endpoint": "circle",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "final",
+      "seed": 90332004,
+      "mechanism": "nonmonotone",
+      "method": "pc_kci",
+      "independent_users": 180,
+      "selected_users": 120,
+      "metrics": {
+        "status": "ok",
+        "graph_type": "CPDAG",
+        "true_adjacencies": 3,
+        "false_adjacencies": 0,
+        "missed_adjacencies": 2,
+        "true_nonedges": 5,
+        "predicted_adjacencies": 3,
+        "oracle_adjacencies": 5,
+        "adjacency_precision": 1.0,
+        "adjacency_recall": 0.6,
+        "negative_control_false_edges": 0,
+        "negative_control_edge_opportunities": 4,
+        "circle_endpoints": 0,
+        "undirected_tail_tail_edges": 1,
+        "unresolved_edge_count": 1,
+        "fully_directed_edges": 2,
+        "bidirected_edges": 0,
+        "endpoint_accuracy": null,
+        "hidden_confounder_detection_accuracy": null,
+        "endpoint_scoring_reason": "No complete equivalence-class endpoint oracle asserted; no comparison to directed full SCM",
+        "display_edges": [
+          {
+            "left": "需求紧迫度",
+            "right": "累计响应时长",
+            "left_endpoint": "tail",
+            "right_endpoint": "tail"
+          },
+          {
+            "left": "事前补偿",
+            "right": "期限余量",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          },
+          {
+            "left": "累计响应时长",
+            "right": "期限余量",
+            "left_endpoint": "tail",
+            "right_endpoint": "arrow"
+          }
+        ]
+      }
+    }
+  ],
+  "aggregate": [
+    {
+      "stage": "development",
+      "method": "fci_kci",
+      "cohort_count": 6,
+      "output_count": 6,
+      "micro_adjacency_precision": 0.9230769230769231,
+      "micro_adjacency_recall": 0.5,
+      "true_adjacencies": 12,
+      "false_adjacencies": 1,
+      "missed_adjacencies": 12,
+      "negative_control_false_edges": 0,
+      "negative_control_opportunities": 24,
+      "unresolved_edges": 12,
+      "total_predicted_edges": 13
+    },
+    {
+      "stage": "development",
+      "method": "pc_kci",
+      "cohort_count": 6,
+      "output_count": 6,
+      "micro_adjacency_precision": 0.9230769230769231,
+      "micro_adjacency_recall": 0.5,
+      "true_adjacencies": 12,
+      "false_adjacencies": 1,
+      "missed_adjacencies": 12,
+      "negative_control_false_edges": 0,
+      "negative_control_opportunities": 24,
+      "unresolved_edges": 5,
+      "total_predicted_edges": 13
+    },
+    {
+      "stage": "final",
+      "method": "fci_kci",
+      "cohort_count": 16,
+      "output_count": 16,
+      "micro_adjacency_precision": 0.8,
+      "micro_adjacency_recall": 0.4117647058823529,
+      "true_adjacencies": 28,
+      "false_adjacencies": 7,
+      "missed_adjacencies": 40,
+      "negative_control_false_edges": 6,
+      "negative_control_opportunities": 64,
+      "unresolved_edges": 32,
+      "total_predicted_edges": 35
+    },
+    {
+      "stage": "final",
+      "method": "pc_kci",
+      "cohort_count": 16,
+      "output_count": 16,
+      "micro_adjacency_precision": 0.8,
+      "micro_adjacency_recall": 0.4117647058823529,
+      "true_adjacencies": 28,
+      "false_adjacencies": 7,
+      "missed_adjacencies": 40,
+      "negative_control_false_edges": 6,
+      "negative_control_opportunities": 64,
+      "unresolved_edges": 10,
+      "total_predicted_edges": 35
+    }
+  ],
+  "skipped_incomplete_stages": [],
+  "local_labels": {
+    "deadline_slack": "期限余量",
+    "demand_urgency": "需求紧迫度",
+    "negative_control": "无关对照因素",
+    "offered_incentive": "事前补偿",
+    "cumulative_response_seconds": "累计响应时长"
+  },
+  "scoring_scope": "observed-skeleton adjacency and known-independent N only; endpoints described not assigned DAG accuracy",
+  "scm_evidence": "data.py mean_parts and generate; normalized L/U affect both participation and positive-time mean; no N outcome/assignment dependence",
+  "interpretation": "Mediating mixture components do not make graph attribution separately identified willingness or causal contribution fractions",
+  "temporal_knowledge_note": "tiers shown beside graph; not imposed through strong forbidden-edge background knowledge",
+  "source_models_sha256": {
+    "development/90331001-randomized/model.json": "0fd73f22cb0045f02f255844913d89ca1313b484879d60b0e6c352275d2bcf26",
+    "development/90331001-observed_confounding/model.json": "2a09dfb63873fd80188f02d5a082ef49c68793bb8b606d5f047bb67161801ef8",
+    "development/90331001-zero_effect/model.json": "08d7a7b67c687ed2a0c437708a48fba152caa3539a7f32ff07087845c32359d4",
+    "development/90331002-randomized/model.json": "dc64395679a925c7efaae5664ea1cefa6eb82053d92a4dc808dd11a963bd9a29",
+    "development/90331002-observed_confounding/model.json": "a53f60e804ceb8425f5917bd7ac77429839ab7b2bb7f21b9cb4ddf0bca3ba4ad",
+    "development/90331002-zero_effect/model.json": "5bfbd99f1ccedd8924b088bb5aef2fecff45dcf94098ea3d9218a0b27d83ef2c",
+    "final/90332001-randomized/model.json": "906a71a04029281686515dfd89c69b98d186a7eae06257afc56cdb12dba5fbd0",
+    "final/90332001-observed_confounding/model.json": "6b336fdcb093114f66334770ab5182a41012376ce321c01fb001411b77c4a01f",
+    "final/90332001-zero_effect/model.json": "0181aa8cec0317897e3782078338c793d876040f87025996a0f089d19a5c8936",
+    "final/90332001-nonmonotone/model.json": "88c8fa274d68d282ebe32510e971a276122d9321755892dac66607ca166604b8",
+    "final/90332002-randomized/model.json": "f5d3dfe5bd0678fac72ff673f6d32fe9543bf5274389ed38c0e006b6364947aa",
+    "final/90332002-observed_confounding/model.json": "7a8e216626513a8d5fa16de7ae7ba89476d995668c1fa42c2b0445e881b54d8c",
+    "final/90332002-zero_effect/model.json": "a836d66595372722d40542b76070159046105ab0e0228579d3af91c64eacc2a6",
+    "final/90332002-nonmonotone/model.json": "889380b198c54bd9d4187bb343d357c6fed8812246fd5a2874bc808b2e03efd6",
+    "final/90332003-randomized/model.json": "1f04de63525740f3f5caf851e6067f00919e0892b06abe1f931311e5f5ddf588",
+    "final/90332003-observed_confounding/model.json": "77f841e91b032b019eb9985e3a74e7662e313bf69bdf581bb944c3120d4d4ff5",
+    "final/90332003-zero_effect/model.json": "2af2b187c814219b359ffacaca01ae47ede8fc4dedf92b868bd70d3461e3b583",
+    "final/90332003-nonmonotone/model.json": "66fcf25809c26ef4dbe77a82327e8846f02e029ef377f5d67b1e807ed5ac0e0b",
+    "final/90332004-randomized/model.json": "28ca82d1fb17af929863dd9a076b0e4ec13b9c190915bcae4e093dcbd8348084",
+    "final/90332004-observed_confounding/model.json": "430a833b1a89ab0c171ae5e7db3d9958c022e75c932b3275fe19ccdabff8bd7a",
+    "final/90332004-zero_effect/model.json": "26fe4d1ef28061b4f4aa74f89a2317e62a54c1c87987b9ef627f181c72ad3ae5",
+    "final/90332004-nonmonotone/model.json": "0a2bb5cf5e1fffa4dd92f846cab0a222406bc831a9c42ac11c6bd4f0d51e2617"
+  },
+  "evaluator_sha256": "12528bd2094a5dd52c900f5938e331bcac823dfbc2aca7d92e49d152002489b6"
+}

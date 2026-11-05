@@ -1,0 +1,16 @@
+{
+  "source_unchanged_count": 203,
+  "analysis_files": {
+    "work/b1_b2_scope_audit_20261030/audit_receipt.json": "f90e15e2b6f446a032f7915dff235b71e14351ebd861b9fe2a731eea11d495d6",
+    "work/b1_b2_scope_audit_20261030/B1与B2职责、输入输出及共用边界核验.md": "a0f4379cdadd842809ee6aab9b1f97915029390b80dc422183092ac45b2fabe2",
+    "work/b1_b2_scope_audit_20261030/before_manifest.json": "0db48c3ce39216d074ed6759bbd6fda76ff65c66a37099f85d797bad7f3ebe70",
+    "work/b1_b2_scope_audit_20261030/independent_implementation.md": "01554c4601592268147da333012244fbbfcfebd0ce410a992e9e99d303eaa56f",
+    "work/b1_b2_scope_audit_20261030/independent_requirements.md": "d2f2e18370f3c4997e0f68f6aeaabea40ac1937face4be2fe41b30b8c4131195",
+    "work/b1_b2_scope_audit_20261030/source_pages.json": "0f71e9535f444c2e039476665e050a8598d2412d0da5b6c67e5e0c180aceb29f",
+    "work/b1_b2_scope_audit_20261030/taskbook_page_12.png": "cdd80dabd0519f560edc79a5a65b5e495961bf5990eb610a90876046ce53e03b",
+    "work/b1_b2_scope_audit_20261030/taskbook_page_13.png": "f315ec2bf493cbd509d51c50cebd88c5ded3494a15b217989c35062990bd02ae",
+    "work/b1_b2_scope_audit_20261030/taskbook_page_5.png": "627d524fc3e1976937e3c643e15b8a2e2bac2e4ac3fc8a62ed78cc5138509479",
+    "work/b1_b2_scope_audit_20261030/taskbook_page_6.png": "833c9592b45a2ac1747c6b4ffe0231f90f99c2e6b05a6848d81e0b0c03056af4"
+  },
+  "formal_code_or_basis_changed": false
+}

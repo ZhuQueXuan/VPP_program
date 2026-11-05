@@ -1,0 +1,1130 @@
+{
+  "identity": "synthetic_linear_gaussian_method_check_only",
+  "summary": [
+    {
+      "n": 1000,
+      "replicates": 20,
+      "skeleton_precision": 0.9916666666666668,
+      "skeleton_recall": 1.0,
+      "skeleton_exact": 0.95,
+      "data_direction_precision": 0.9833333333333334,
+      "data_direction_recall": 0.6400000000000002,
+      "data_directions": 3.25,
+      "tier_only_directions": 1.8,
+      "tier_only_precision": 0.975,
+      "conflicts": 0.05,
+      "ci_errors": 0.85,
+      "ci_tests": 56.3
+    },
+    {
+      "n": 5000,
+      "replicates": 20,
+      "skeleton_precision": 0.9916666666666668,
+      "skeleton_recall": 1.0,
+      "skeleton_exact": 0.95,
+      "data_direction_precision": 1.0,
+      "data_direction_recall": 0.7800000000000001,
+      "data_directions": 3.9,
+      "tier_only_directions": 1.15,
+      "tier_only_precision": 0.9875,
+      "conflicts": 0.0,
+      "ci_errors": 0.1,
+      "ci_tests": 58.05
+    }
+  ],
+  "oracle_score": {
+    "skeleton_precision": 1.0,
+    "skeleton_recall": 1.0,
+    "skeleton_exact": true,
+    "data_direction_precision": 1.0,
+    "data_direction_recall": 0.8,
+    "data_directions": 4,
+    "tier_only_directions": 1,
+    "tier_only_precision": 1.0,
+    "conflicts": 0,
+    "ci_errors": 0,
+    "ci_tests": 58
+  },
+  "checks": {
+    "all_population_ci_agree": true,
+    "population_ci_cases": 80,
+    "oracle_all_skeleton_exact": true,
+    "oracle_120_permutations_same": true,
+    "finite_200_runs_5permutations_same": true,
+    "chain_fork_covariance_equal": true,
+    "chain_fork_no_data_orientation": true,
+    "collider_orients_two": true
+  },
+  "ci_checks": [
+    {
+      "a": "A",
+      "b": "B",
+      "condition": [],
+      "agrees": true,
+      "residual_covariance": 0.0
+    },
+    {
+      "a": "A",
+      "b": "B",
+      "condition": [
+        "C"
+      ],
+      "agrees": true,
+      "residual_covariance": -0.2629107981220657
+    },
+    {
+      "a": "A",
+      "b": "B",
+      "condition": [
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": -0.1664403918834624
+    },
+    {
+      "a": "A",
+      "b": "B",
+      "condition": [
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": -0.14752573861499785
+    },
+    {
+      "a": "A",
+      "b": "B",
+      "condition": [
+        "C",
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": -0.2629107981220657
+    },
+    {
+      "a": "A",
+      "b": "B",
+      "condition": [
+        "C",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": -0.2248995983935743
+    },
+    {
+      "a": "A",
+      "b": "B",
+      "condition": [
+        "D",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": -0.1288715443902239
+    },
+    {
+      "a": "A",
+      "b": "B",
+      "condition": [
+        "C",
+        "D",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": -0.21002100210021
+    },
+    {
+      "a": "A",
+      "b": "C",
+      "condition": [],
+      "agrees": true,
+      "residual_covariance": 0.8
+    },
+    {
+      "a": "A",
+      "b": "C",
+      "condition": [
+        "B"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.8
+    },
+    {
+      "a": "A",
+      "b": "C",
+      "condition": [
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.29354566469746435
+    },
+    {
+      "a": "A",
+      "b": "C",
+      "condition": [
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.19052801999395796
+    },
+    {
+      "a": "A",
+      "b": "C",
+      "condition": [
+        "B",
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.3435835767050334
+    },
+    {
+      "a": "A",
+      "b": "C",
+      "condition": [
+        "B",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.26209737142739387
+    },
+    {
+      "a": "A",
+      "b": "C",
+      "condition": [
+        "D",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.22728667440956607
+    },
+    {
+      "a": "A",
+      "b": "C",
+      "condition": [
+        "B",
+        "D",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.26845637583892623
+    },
+    {
+      "a": "A",
+      "b": "D",
+      "condition": [],
+      "agrees": true,
+      "residual_covariance": 0.7200000000000001
+    },
+    {
+      "a": "A",
+      "b": "D",
+      "condition": [
+        "B"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.7200000000000001
+    },
+    {
+      "a": "A",
+      "b": "D",
+      "condition": [
+        "C"
+      ],
+      "agrees": true,
+      "residual_covariance": -1.1102230246251565e-16
+    },
+    {
+      "a": "A",
+      "b": "D",
+      "condition": [
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": -0.06269262107686302
+    },
+    {
+      "a": "A",
+      "b": "D",
+      "condition": [
+        "B",
+        "C"
+      ],
+      "agrees": true,
+      "residual_covariance": -1.1102230246251565e-16
+    },
+    {
+      "a": "A",
+      "b": "D",
+      "condition": [
+        "B",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": -0.012943875099977076
+    },
+    {
+      "a": "A",
+      "b": "D",
+      "condition": [
+        "C",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": -0.16867469879518082
+    },
+    {
+      "a": "A",
+      "b": "D",
+      "condition": [
+        "B",
+        "C",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": -0.14980739049793135
+    },
+    {
+      "a": "A",
+      "b": "E",
+      "condition": [],
+      "agrees": true,
+      "residual_covariance": 1.104
+    },
+    {
+      "a": "A",
+      "b": "E",
+      "condition": [
+        "B"
+      ],
+      "agrees": true,
+      "residual_covariance": 1.104
+    },
+    {
+      "a": "A",
+      "b": "E",
+      "condition": [
+        "C"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.41971830985915504
+    },
+    {
+      "a": "A",
+      "b": "E",
+      "condition": [
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.4858694455656257
+    },
+    {
+      "a": "A",
+      "b": "E",
+      "condition": [
+        "B",
+        "C"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.36585365853658547
+    },
+    {
+      "a": "A",
+      "b": "E",
+      "condition": [
+        "B",
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.46641470537708274
+    },
+    {
+      "a": "A",
+      "b": "E",
+      "condition": [
+        "C",
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.41971830985915504
+    },
+    {
+      "a": "A",
+      "b": "E",
+      "condition": [
+        "B",
+        "C",
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.3658536585365856
+    },
+    {
+      "a": "B",
+      "b": "C",
+      "condition": [],
+      "agrees": true,
+      "residual_covariance": 0.7
+    },
+    {
+      "a": "B",
+      "b": "C",
+      "condition": [
+        "A"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.7
+    },
+    {
+      "a": "B",
+      "b": "C",
+      "condition": [
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.2568524566102813
+    },
+    {
+      "a": "B",
+      "b": "C",
+      "condition": [
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.45654244276932554
+    },
+    {
+      "a": "B",
+      "b": "C",
+      "condition": [
+        "A",
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.31718700439530545
+    },
+    {
+      "a": "B",
+      "b": "C",
+      "condition": [
+        "A",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.501109599828191
+    },
+    {
+      "a": "B",
+      "b": "C",
+      "condition": [
+        "D",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.27047114254738347
+    },
+    {
+      "a": "B",
+      "b": "C",
+      "condition": [
+        "A",
+        "D",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.31718700439530556
+    },
+    {
+      "a": "B",
+      "b": "D",
+      "condition": [],
+      "agrees": true,
+      "residual_covariance": 0.63
+    },
+    {
+      "a": "B",
+      "b": "D",
+      "condition": [
+        "A"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.63
+    },
+    {
+      "a": "B",
+      "b": "D",
+      "condition": [
+        "C"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.0
+    },
+    {
+      "a": "B",
+      "b": "D",
+      "condition": [
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.3173483279937531
+    },
+    {
+      "a": "B",
+      "b": "D",
+      "condition": [
+        "A",
+        "C"
+      ],
+      "agrees": true,
+      "residual_covariance": -1.1102230246251565e-16
+    },
+    {
+      "a": "B",
+      "b": "D",
+      "condition": [
+        "A",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.30268365090293414
+    },
+    {
+      "a": "B",
+      "b": "D",
+      "condition": [
+        "C",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.06339451766798732
+    },
+    {
+      "a": "B",
+      "b": "D",
+      "condition": [
+        "A",
+        "C",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": -1.1102230246251565e-16
+    },
+    {
+      "a": "B",
+      "b": "E",
+      "condition": [],
+      "agrees": true,
+      "residual_covariance": 0.44099999999999995
+    },
+    {
+      "a": "B",
+      "b": "E",
+      "condition": [
+        "A"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.44099999999999995
+    },
+    {
+      "a": "B",
+      "b": "E",
+      "condition": [
+        "C"
+      ],
+      "agrees": true,
+      "residual_covariance": -0.15774647887323945
+    },
+    {
+      "a": "B",
+      "b": "E",
+      "condition": [
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": -0.09986423513007758
+    },
+    {
+      "a": "B",
+      "b": "E",
+      "condition": [
+        "A",
+        "C"
+      ],
+      "agrees": true,
+      "residual_covariance": 5.551115123125783e-17
+    },
+    {
+      "a": "B",
+      "b": "E",
+      "condition": [
+        "A",
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": -1.1102230246251565e-16
+    },
+    {
+      "a": "B",
+      "b": "E",
+      "condition": [
+        "C",
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": -0.15774647887323934
+    },
+    {
+      "a": "B",
+      "b": "E",
+      "condition": [
+        "A",
+        "C",
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": 1.1102230246251565e-16
+    },
+    {
+      "a": "C",
+      "b": "D",
+      "condition": [],
+      "agrees": true,
+      "residual_covariance": 1.9170000000000003
+    },
+    {
+      "a": "C",
+      "b": "D",
+      "condition": [
+        "A"
+      ],
+      "agrees": true,
+      "residual_covariance": 1.3410000000000002
+    },
+    {
+      "a": "C",
+      "b": "D",
+      "condition": [
+        "B"
+      ],
+      "agrees": true,
+      "residual_covariance": 1.4760000000000004
+    },
+    {
+      "a": "C",
+      "b": "D",
+      "condition": [
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.6253444870109273
+    },
+    {
+      "a": "C",
+      "b": "D",
+      "condition": [
+        "A",
+        "B"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.9000000000000001
+    },
+    {
+      "a": "C",
+      "b": "D",
+      "condition": [
+        "A",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.6442837712076743
+    },
+    {
+      "a": "C",
+      "b": "D",
+      "condition": [
+        "B",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.47138888423796654
+    },
+    {
+      "a": "C",
+      "b": "D",
+      "condition": [
+        "A",
+        "B",
+        "E"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.4769728125496848
+    },
+    {
+      "a": "C",
+      "b": "E",
+      "condition": [],
+      "agrees": true,
+      "residual_covariance": 1.8218999999999999
+    },
+    {
+      "a": "C",
+      "b": "E",
+      "condition": [
+        "A"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.9386999999999998
+    },
+    {
+      "a": "C",
+      "b": "E",
+      "condition": [
+        "B"
+      ],
+      "agrees": true,
+      "residual_covariance": 1.5131999999999999
+    },
+    {
+      "a": "C",
+      "b": "E",
+      "condition": [
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.17612739881847816
+    },
+    {
+      "a": "C",
+      "b": "E",
+      "condition": [
+        "A",
+        "B"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.6299999999999999
+    },
+    {
+      "a": "C",
+      "b": "E",
+      "condition": [
+        "A",
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": -4.440892098500626e-16
+    },
+    {
+      "a": "C",
+      "b": "E",
+      "condition": [
+        "B",
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.2061501460230193
+    },
+    {
+      "a": "C",
+      "b": "E",
+      "condition": [
+        "A",
+        "B",
+        "D"
+      ],
+      "agrees": true,
+      "residual_covariance": -4.440892098500626e-16
+    },
+    {
+      "a": "D",
+      "b": "E",
+      "condition": [],
+      "agrees": true,
+      "residual_covariance": 2.33971
+    },
+    {
+      "a": "D",
+      "b": "E",
+      "condition": [
+        "A"
+      ],
+      "agrees": true,
+      "residual_covariance": 1.5448300000000001
+    },
+    {
+      "a": "D",
+      "b": "E",
+      "condition": [
+        "B"
+      ],
+      "agrees": true,
+      "residual_covariance": 2.0618800000000004
+    },
+    {
+      "a": "D",
+      "b": "E",
+      "condition": [
+        "C"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.7000000000000002
+    },
+    {
+      "a": "D",
+      "b": "E",
+      "condition": [
+        "A",
+        "B"
+      ],
+      "agrees": true,
+      "residual_covariance": 1.2670000000000001
+    },
+    {
+      "a": "D",
+      "b": "E",
+      "condition": [
+        "A",
+        "C"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.7
+    },
+    {
+      "a": "D",
+      "b": "E",
+      "condition": [
+        "B",
+        "C"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.7
+    },
+    {
+      "a": "D",
+      "b": "E",
+      "condition": [
+        "A",
+        "B",
+        "C"
+      ],
+      "agrees": true,
+      "residual_covariance": 0.7
+    }
+  ],
+  "controls": {
+    "chain_fork_covariance_max_difference": 1.1102230246251565e-16,
+    "chain": {
+      "skeleton": [
+        [
+          "X",
+          "Y"
+        ],
+        [
+          "Y",
+          "Z"
+        ]
+      ],
+      "separators": {
+        "X|Z": [
+          [
+            "Y"
+          ]
+        ]
+      },
+      "colliders": [],
+      "ambiguous_triples": [],
+      "data_directions": [],
+      "tier_only_directions": [],
+      "direction_conflicts": [],
+      "prior_conflicts": [],
+      "traces": [
+        {
+          "a": "X",
+          "b": "Y",
+          "condition": [],
+          "rho": 0.6246950475544243,
+          "p": null,
+          "independent": false,
+          "depth": 0
+        },
+        {
+          "a": "X",
+          "b": "Z",
+          "condition": [],
+          "rho": 0.416982581501519,
+          "p": null,
+          "independent": false,
+          "depth": 0
+        },
+        {
+          "a": "Y",
+          "b": "Z",
+          "condition": [],
+          "rho": 0.6674978185499235,
+          "p": null,
+          "independent": false,
+          "depth": 0
+        },
+        {
+          "a": "X",
+          "b": "Y",
+          "condition": [
+            "Z"
+          ],
+          "rho": 0.5117701235467443,
+          "p": null,
+          "independent": false,
+          "depth": 1
+        },
+        {
+          "a": "X",
+          "b": "Z",
+          "condition": [
+            "Y"
+          ],
+          "rho": -6.588732839060171e-17,
+          "p": null,
+          "independent": true,
+          "depth": 1
+        },
+        {
+          "a": "Y",
+          "b": "Z",
+          "condition": [
+            "X"
+          ],
+          "rho": 0.5734623443633283,
+          "p": null,
+          "independent": false,
+          "depth": 1
+        }
+      ],
+      "orientation_scope": "colliders and separately marked time tiers; no Meek closure"
+    },
+    "fork": {
+      "skeleton": [
+        [
+          "X",
+          "Y"
+        ],
+        [
+          "Y",
+          "Z"
+        ]
+      ],
+      "separators": {
+        "X|Z": [
+          [
+            "Y"
+          ]
+        ]
+      },
+      "colliders": [],
+      "ambiguous_triples": [],
+      "data_directions": [],
+      "tier_only_directions": [],
+      "direction_conflicts": [],
+      "prior_conflicts": [],
+      "traces": [
+        {
+          "a": "X",
+          "b": "Y",
+          "condition": [],
+          "rho": 0.6246950475544244,
+          "p": null,
+          "independent": false,
+          "depth": 0
+        },
+        {
+          "a": "X",
+          "b": "Z",
+          "condition": [],
+          "rho": 0.41698258150151907,
+          "p": null,
+          "independent": false,
+          "depth": 0
+        },
+        {
+          "a": "Y",
+          "b": "Z",
+          "condition": [],
+          "rho": 0.6674978185499235,
+          "p": null,
+          "independent": false,
+          "depth": 0
+        },
+        {
+          "a": "X",
+          "b": "Y",
+          "condition": [
+            "Z"
+          ],
+          "rho": 0.5117701235467444,
+          "p": null,
+          "independent": false,
+          "depth": 1
+        },
+        {
+          "a": "X",
+          "b": "Z",
+          "condition": [
+            "Y"
+          ],
+          "rho": 1.0750037790045548e-16,
+          "p": null,
+          "independent": true,
+          "depth": 1
+        },
+        {
+          "a": "Y",
+          "b": "Z",
+          "condition": [
+            "X"
+          ],
+          "rho": 0.5734623443633283,
+          "p": null,
+          "independent": false,
+          "depth": 1
+        }
+      ],
+      "orientation_scope": "colliders and separately marked time tiers; no Meek closure"
+    },
+    "collider": {
+      "skeleton": [
+        [
+          "X",
+          "Y"
+        ],
+        [
+          "Y",
+          "Z"
+        ]
+      ],
+      "separators": {
+        "X|Z": [
+          []
+        ]
+      },
+      "colliders": [
+        [
+          "X",
+          "Y",
+          "Z"
+        ]
+      ],
+      "ambiguous_triples": [],
+      "data_directions": [
+        [
+          "X",
+          "Y"
+        ],
+        [
+          "Z",
+          "Y"
+        ]
+      ],
+      "tier_only_directions": [],
+      "direction_conflicts": [],
+      "prior_conflicts": [],
+      "traces": [
+        {
+          "a": "X",
+          "b": "Y",
+          "condition": [],
+          "rho": 0.5481509678620254,
+          "p": null,
+          "independent": false,
+          "depth": 0
+        },
+        {
+          "a": "X",
+          "b": "Z",
+          "condition": [],
+          "rho": -0.0,
+          "p": null,
+          "independent": true,
+          "depth": 0
+        },
+        {
+          "a": "Y",
+          "b": "Z",
+          "condition": [],
+          "rho": 0.47963209687927216,
+          "p": null,
+          "independent": false,
+          "depth": 0
+        },
+        {
+          "a": "X",
+          "b": "Y",
+          "condition": [
+            "Z"
+          ],
+          "rho": 0.6246950475544243,
+          "p": null,
+          "independent": false,
+          "depth": 1
+        },
+        {
+          "a": "Y",
+          "b": "Z",
+          "condition": [
+            "X"
+          ],
+          "rho": 0.5734623443633284,
+          "p": null,
+          "independent": false,
+          "depth": 1
+        }
+      ],
+      "orientation_scope": "colliders and separately marked time tiers; no Meek closure"
+    }
+  },
+  "finite_failures": [
+    {
+      "n": 1000,
+      "seed": 20262004,
+      "permutation_agreement": true,
+      "skeleton_precision": 0.8333333333333334,
+      "skeleton_recall": 1.0,
+      "skeleton_exact": false,
+      "data_direction_precision": 1.0,
+      "data_direction_recall": 0.8,
+      "data_directions": 4,
+      "tier_only_directions": 2,
+      "tier_only_precision": 0.5,
+      "conflicts": 0,
+      "ci_errors": 1,
+      "ci_tests": 59
+    },
+    {
+      "n": 1000,
+      "seed": 20262018,
+      "permutation_agreement": true,
+      "skeleton_precision": 1.0,
+      "skeleton_recall": 1.0,
+      "skeleton_exact": true,
+      "data_direction_precision": 0.6666666666666666,
+      "data_direction_recall": 0.4,
+      "data_directions": 3,
+      "tier_only_directions": 2,
+      "tier_only_precision": 1.0,
+      "conflicts": 1,
+      "ci_errors": 2,
+      "ci_tests": 58
+    },
+    {
+      "n": 5000,
+      "seed": 20262009,
+      "permutation_agreement": true,
+      "skeleton_precision": 0.8333333333333334,
+      "skeleton_recall": 1.0,
+      "skeleton_exact": false,
+      "data_direction_precision": 1.0,
+      "data_direction_recall": 0.4,
+      "data_directions": 2,
+      "tier_only_directions": 4,
+      "tier_only_precision": 0.75,
+      "conflicts": 0,
+      "ci_errors": 1,
+      "ci_tests": 59
+    }
+  ],
+  "limitation": "limited collider/tier orientation, no Meek closure; not complete CPDAG or real EV graph"
+}

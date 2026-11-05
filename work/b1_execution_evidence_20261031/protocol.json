@@ -1,0 +1,12 @@
+{
+  "scope": "Read-only audit of local execution/fault/cross-measurement evidence; first feature block, no algorithm edits.",
+  "cohorts": "KIT existing LF/current+command; Dortmund all128 merged files for reported errors, metadata-matched25EVTEC AC dynamic files for AC cross-measurements. EPFL schema/minute-level control flags and local UrbanEV/ACN source role.",
+  "fault_dictionary": "Publisher parameters.csv: STATE_ID2/3/4=9 Faulted, ChargeState_ID2/3/4=7 ended-with-error. STATE6/7 suspended is not fault. Unknown codes not interpreted.",
+  "fault_label_scope": "Device-reported state; cannot label any same-row isolated electrical sample a sensor spike or exact fault onset.",
+  "cross_channel": "AC only: grid P_kocos_200 and Type2 charger Output_Power_ID4, bothkW, same merged member/epoch. Separate channels, no assumed calibrated subsecond clocks. DC grid/output boundaries not equated.",
+  "candidate_windows": "Consecutive |command step|>=.5kW returning within10s and previous/new settings equal on return, pre3s/post3s command steady, no timestamp reversal or gap>2s in whole window. Keep every candidate/status. For held decreases not returning within10s, no short-action label.",
+  "evidence_support": "For candidateAC pulse, pre3s/during/post3s medians in each channel: direction-correct during change>=.3kW and>=20% commanded step, post median returns to within max(.3kW,30% observed shift) of pre. At least3 rows in each phase, Type2 STATE4 present during. Descriptive corroboration criteria, not calibrated causal/truth labels or baseline classifier.",
+  "exact_timing": "No interpolation, sorting, sensor realignment, gap filling or denoising. Native indices and original CSV rows preserved.",
+  "simulation_fallback": "If real labels inadequate for100ms, a small truth-known100ms evidence feasibility panel may be generated separately; same measurement grid for true actions and measurement faults, no CPOP/LABS fitting or new method selection.",
+  "stop": "Do not infer labels from pulse length, outlier appearance, command proximity or model residual. No report/second block/default changes."
+}

@@ -1,0 +1,85 @@
+{
+  "reported_device_fault_episodes": [
+    {
+      "sample_id": "reported-device-fault-00",
+      "member": "Fiat 500e/Fiat_500e_individual_ts_unidir_arbitrary_1_DC_kW_3_202308171457_e.csv",
+      "mode": "DC",
+      "port": "CCS_ID2",
+      "evidence_tier": "device-reported_fault_and_error_end_verified_dictionary_not_sensor_spike_truth",
+      "status_codes": {
+        "STATE_ID2": 9,
+        "ChargeState_ID2": 7
+      },
+      "first_report_epoch_ms": 1692279136185.0,
+      "last_report_epoch_ms": 1692279728658.0,
+      "first_report_data_index": 4024,
+      "last_report_data_index": 5189,
+      "observed_status_span_s": 592.473,
+      "right_censored_at_record_end": true,
+      "native_preceding_report_interval_ms": 513.0,
+      "raw_window_path": "work/b1_execution_evidence_20261031/reported_device_faults/fault00.npz",
+      "rows": 1224,
+      "acceptable_use": "Reported DC device-error context only; retain as auxiliary evidence, not AC100ms false-spike labels or exact fault onset truth.",
+      "dictionary_url": "https://zenodo.org/records/14065331/files/parameters.csv?download=1"
+    },
+    {
+      "sample_id": "reported-device-fault-01",
+      "member": "Tesla Model Y/TeslaModel_Y_individual_ts_unidir_arbitrary_1_DC_kW_1_202309200805_e.csv",
+      "mode": "DC",
+      "port": "CCS_ID2",
+      "evidence_tier": "device-reported_fault_and_error_end_verified_dictionary_not_sensor_spike_truth",
+      "status_codes": {
+        "STATE_ID2": 9,
+        "ChargeState_ID2": 7
+      },
+      "first_report_epoch_ms": 1695191958710.0,
+      "last_report_epoch_ms": 1695192647817.0,
+      "first_report_data_index": 3841,
+      "last_report_data_index": 5200,
+      "observed_status_span_s": 689.107,
+      "right_censored_at_record_end": true,
+      "native_preceding_report_interval_ms": 505.0,
+      "raw_window_path": "work/b1_execution_evidence_20261031/reported_device_faults/fault01.npz",
+      "rows": 1419,
+      "acceptable_use": "Reported DC device-error context only; retain as auxiliary evidence, not AC100ms false-spike labels or exact fault onset truth.",
+      "dictionary_url": "https://zenodo.org/records/14065331/files/parameters.csv?download=1"
+    }
+  ],
+  "count_distinct_device_fault_episodes": 2,
+  "count_status_runs": 4,
+  "ac100ms_verified_sensor_fault_samples": 0,
+  "verified_short_duration_ac_response_samples": 0,
+  "cross_measurement_candidates_files": [
+    "Fiat 500e/Fiat_500e_individual_ts_unidir_arbitrary_1_AC_kW_1_202308170945_e.csv",
+    "Fiat 500e/Fiat_500e_individual_ts_unidir_arbitrary_1_AC_kW_2_202308171303_e.csv",
+    "Fiat 500e/Fiat_500e_individual_ts_unidir_arbitrary_1_AC_kW_3_202308171543_e.csv",
+    "Fiat 500e/Fiat_500e_individual_ts_unidir_arbitrary_1_AC_kW_7_202308231609_e.csv",
+    "Honda-e/Honda_e_individual_ts_unidir_arbitrary_1_AC_kW_1_202307271600_e.csv",
+    "Honda-e/Honda_e_individual_ts_unidir_arbitrary_1_AC_kW_2_202307271708_e.csv",
+    "Hyundai Ioniq 5/Hyundai_Ioniq5_individual_ts_unidir_arbitrary_1_AC_kW_1_202309051012_e.csv",
+    "Hyundai Ioniq 5/Hyundai_Ioniq5_individual_ts_unidir_arbitrary_1_AC_kW_2_202309051320_e.csv",
+    "Hyundai Ioniq 5/Hyundai_Ioniq5_individual_ts_unidir_arbitrary_1_AC_kW_3_202309051535_e.csv",
+    "Mitsubishi Eclipse Cross/Mitsubishi_EC_individual_ts_unidir_arbitrary_1_AC_kW_1_202311081106_e.csv",
+    "Mitsubishi Eclipse Cross/Mitsubishi_EC_individual_ts_unidir_arbitrary_1_AC_kW_2_202311081228_e.csv",
+    "Mitsubishi Eclipse Cross/Mitsubishi_EC_individual_ts_unidir_arbitrary_1_AC_kW_3_202311081628_e.csv",
+    "Nissan Leaf/Nissan_Leaf_individual_ts_unidir_arbitrary_1_AC_kW_1_202308311026_e.csv",
+    "Nissan Leaf/Nissan_Leaf_individual_ts_unidir_arbitrary_1_AC_kW_2_202308311327_e.csv",
+    "Opel Corsa-e/OpelCorsa_e_individual_ts_unidir_arbitrary_1_AC_kW_1_202308151029_e.csv",
+    "Opel Corsa-e/OpelCorsa_e_individual_ts_unidir_arbitrary_1_AC_kW_2_202308151306_e.csv",
+    "Opel Corsa-e/OpelCorsa_e_individual_ts_unidir_arbitrary_1_AC_kW_3_202308151542_e.csv",
+    "Opel Corsa-e/OpelCorsa_e_individual_ts_unidir_arbitrary_1_AC_kW_4_202308251524_e.csv",
+    "Tesla Model Y/TeslaModel_Y_individual_ts_unidir_arbitrary_1_AC_kW_1_202309200852_e.csv",
+    "Tesla Model Y/TeslaModel_Y_individual_ts_unidir_arbitrary_1_AC_kW_2_202309191439_e.csv",
+    "Tesla Model Y/TeslaModel_Y_individual_ts_unidir_arbitrary_1_AC_kW_2_202309201319_e.csv",
+    "Tesla Model Y/TeslaModel_Y_individual_ts_unidir_arbitrary_1_AC_kW_3_202309201629_e.csv",
+    "VW ID4/VW_ID4_individual_ts_unidir_arbitrary_1_AC_kW_1_202307280915_e.csv",
+    "VW ID4/VW_ID4_individual_ts_unidir_arbitrary_1_AC_kW_2_202307281106_e.csv",
+    "VW ID4/VW_ID4_individual_ts_unidir_arbitrary_1_AC_kW_3_202307281243_e.csv"
+  ],
+  "tier_summary": {
+    "A": "No independently calibrated100ms action/fault truth samples established",
+    "B": "2native DC device-reported error episodes, not electrical glitch truth",
+    "C": "25AC two-instrument traces and KIT raw current/command for corroborative observations only"
+  },
+  "no_unlabelled_events_promoted_to_ground_truth": true
+}

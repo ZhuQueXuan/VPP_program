@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "checks": 667,
+  "query_parity_cases": 12,
+  "max_query_probability_difference": 1.1102230246251565e-16,
+  "ci_aggregation": "independent scalar mean/sample variance/t19",
+  "old_files_unchanged": 313
+}

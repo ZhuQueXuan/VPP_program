@@ -1,0 +1,25 @@
+{
+  "windows": 128,
+  "users": 118,
+  "roles": {
+    "training": 96,
+    "validation": 32
+  },
+  "window_labels": {
+    "no_observable_change": 45,
+    "observed_change": 79,
+    "unresolved": 4
+  },
+  "anchor_labels": {
+    "not_applicable_no_limit_edge": 32,
+    "observed_change": 51,
+    "no_observable_change": 29,
+    "unresolved": 16
+  },
+  "onset_brackets": 50,
+  "recovery_completion_brackets": 29,
+  "gold_physical_labels": 0,
+  "independent_review_pending": true,
+  "models_fit": 0,
+  "test_values_read": false
+}

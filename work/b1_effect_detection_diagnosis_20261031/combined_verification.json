@@ -1,0 +1,12 @@
+{
+  "passed": 67,
+  "original_runtime_files": 35,
+  "old_scientific_files": 645,
+  "crosschecked_target_variants": 4096,
+  "process_method_condition_rows": 3072,
+  "pointwise_decomposition_points": 2304,
+  "source_unchanged": true,
+  "old_scientific_outputs_unchanged": true,
+  "refitting": false,
+  "analyst": "root, cross-check of two specialist analyses and process oracle"
+}

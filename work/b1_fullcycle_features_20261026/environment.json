@@ -1,0 +1,9 @@
+{
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "ruptures_installed": false,
+  "reuse_reason": "bounded exact DP already verified; no additional package needed",
+  "candidate_source": "https://github.com/deepcharles/ruptures",
+  "candidate_license": "BSD-2-Clause",
+  "candidate_fit": "offline change point detection, general library; current comparison uses existing exact constant-mean DP and frozen F0"
+}

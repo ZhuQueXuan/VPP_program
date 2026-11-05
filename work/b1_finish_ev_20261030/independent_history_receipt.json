@@ -1,0 +1,8 @@
+{
+  "passed": 4045,
+  "independent_reviewer": "root; independent from history implementation agent",
+  "raw_reconstruction_users": 18,
+  "target_replays": 36,
+  "selection_sha256": "40a51b413a37800746d9ccb63f9f89700d502cecd1d6fd4ec700d20df0562794",
+  "changed_scientific_outputs": false
+}

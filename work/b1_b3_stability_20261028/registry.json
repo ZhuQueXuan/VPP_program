@@ -1,0 +1,19 @@
+{
+  "default": "b2_ev_d118_dynamic_r0p1",
+  "models": {
+    "b2_ev_d118_dynamic_r0p1": {
+      "artifact": "work/b2_completion_20261027/dynamic/models.joblib",
+      "selection": "work/b2_completion_20261027/dynamic/selection.json",
+      "replicate": 0,
+      "population": 1,
+      "role": "fixed research default inherited from D122; not chosen by new test",
+      "supported": "single EV, T60/90/120, E=b*T/60, q1.5/3, existing permission; no debt reset or180min extrapolation",
+      "history": "optional D123 branch not adopted: no stable predictive increment",
+      "artifact_sha256": "67401e56c9aeb0a40af38366d95fcb6b4436f99f3f66c58f22f6268e7a863e2e",
+      "selection_sha256": "ca37e8d583be64ba43fbcb3e3983d2696150fd85b95f8ff18d5990208bf9420b"
+    }
+  },
+  "permission_is_acceptance": false,
+  "forecast_is_control": false,
+  "committed_kw": null
+}

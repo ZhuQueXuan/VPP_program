@@ -1,0 +1,29 @@
+{
+  "schema": "b1.effect-chain-diagnosis-receipt.v1",
+  "completed": true,
+  "input_source_unchanged": true,
+  "protected_files": 378,
+  "existing_factual_target_variants": 4096,
+  "fit_calls": 96,
+  "statuses": {
+    "causal": 96
+  },
+  "exact_replay_calls": 64,
+  "exact_replay_all_identical": true,
+  "exact_replay_numeric_values": 13440,
+  "maximum_replay_absolute_difference": 0.0,
+  "decomposition_curves": 256,
+  "decomposition_points": 2304,
+  "runtime_seconds": 9.879323799999838,
+  "code_sha256": "4e950f9461e40f01eb0ccc98a0889d605a022690e66d949030c03415eabead1b",
+  "new_independent_test": false,
+  "new_data_generated": false,
+  "new_estimator": false,
+  "oracle_used_only_in_diagnosis": true,
+  "process_refitted": false,
+  "runtime_changed": false,
+  "default_changed": false,
+  "hyperparameters_changed": false,
+  "failure_or_unsupported_rows_preserved": true,
+  "initial_audit_harness_failure": "First replay used C-contiguous manual X; only support SMD summation differed by8.33e-17, curve/band identical. Retained log and fit; corrected original Fortran-contiguous layout, no scientific parameter changed."
+}

@@ -1,0 +1,15 @@
+{
+  "schema":"b1.tf-diagnosis.design.v1",
+  "date":"2026-10-31",
+  "purpose":"Mechanism diagnosis of already-seen pilot; not new performance test or parameter selection",
+  "source_pilot":"work/b1_unknown_reference_pilot_20261031",
+  "all_saved_outputs":"Read-only full256base/768variants reference-error, threshold-bin and duration decomposition",
+  "controlled_subset":"Each of four original test blocks, first8users x2events, all strong/weak/null =64base,192pairedvariants; no error-based selection",
+  "oracle_conditions":["saved predicted reference and meter noise","true reference with identical meter noise","true reference with noise removed"],
+  "oracle_methods":["tf_standard frozen scalar variance lambda4","tf_gls frozen covariance lambda2","original CPOP frozen meter sigma.05 beta2log60"],
+  "fixed_in_oracle":"No refit of forecaster/covariance/lambda/sigma; true reference is evaluator-only and not deployable information",
+  "covariance_lambda_factorial":{"covariance":["scalar residual RMS variance I","diagonal of frozen full covariance","frozen full covariance","full covariance rescaled to scalar RMS trace"],"lambda":[2,4],"same_192_subset":true,"no_new_setting_adopted":true},
+  "calibration":"Read existing48cal-user maxima and128test-null-user maxima; exact idealized finite-calibration calculations plus retrospective user-block score permutations only, no new threshold adoption",
+  "rules":["Old source/data/freeze/results immutable","All new diagnostic outputs only in this directory","No truth fitting or routing","No response-analysis/B2/B3/B4/other resources/report","No tuning against seen test or claimed new independent samples"],
+  "interpretation":"Separate exact computations, controlled conditional changes and hypotheses. Do not assign additive causal percentages where errors interact."
+}

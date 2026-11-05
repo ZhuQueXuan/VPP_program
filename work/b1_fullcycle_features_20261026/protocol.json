@@ -1,0 +1,27 @@
+{
+  "id": "B1-FULLCYCLE-FEATURES-v1-20261026",
+  "seed_start": 261026501,
+  "repetitions": 25,
+  "mechanisms": ["no_action", "step", "partial", "slow_ramp", "early_exit", "interrupted"],
+  "observations": ["full", "short_post", "missing_request", "missing_post"],
+  "noise_sigma_native_kw": [0.05, 0.15],
+  "dt_s": [10, 30],
+  "grid": {"start": 0, "end": 3600, "native_dt": 10, "request_start": 600, "request_end": 1800, "short_end": 2100, "missing_request": [900,960], "missing_post": [2280,2340]},
+  "physical": {"reference_kw": 3, "request_kw": 1.5, "pmax_kw": 6, "rebound_kw": 1.5, "assumption": "single unidirectional EV request followed by energy-conserving repayment; hypothetical reference/limits/deadline, not calibrated or real willingness"},
+  "generator": "for each repetition independent seed; six mechanisms share delay=30*uniform_integer(0..4) s, partial amplitude Uniform(.45,1.05) kW, early_end=1200+30*uniform_integer(0..4), dropout_start=960+30*uniform_integer(0..3), dropout_duration=60+30*uniform_integer(0..4). Request reduction step/ramp/early/interrupted peak1.5; ramp600s left-grid rise. Native repayment starts1800 at1.5kW, final fractional bin exactly repays request deficit. IID Gaussian native observation noise, same standard draws for both sigmas and all mechanisms; 30s is average of three native bins, sigma/sqrt(3). Shared variants not independent cases.",
+  "methods": {
+    "F0_raw_rule": "frozen D106 features.extract on raw reference and observed power; onset .15kW, target .9*q, recovery band .15kW, dwell ceil(30/dt) bins",
+    "F1_segment_rule": "exact unpruned constant-mean penalized DP smoothing finite contiguous blocks separately within known pre/request/post windows; min segment ceil(30/dt); penalty=3*sigma_effective^2*log(block_n), no tuning; same D106 feature rules on fitted curve. Blocks shorter than min stay raw. DP cuts are approximation, not business phases.",
+    "duration": "longest contiguous request run reduction>=.15kW lasting >=30s; retrospective observed-threshold duration, not promised capacity duration",
+    "raw_integral": "both methods always use original raw request signed energy/Y; no smoothed energy substitution or clipping",
+    "missing": "any missing request bin makes request energy, stage, onset/target/duration and power-recovery unavailable; any missing post makes power-recovery and total debt unavailable; no gap interpolation",
+    "energy_balance": "separate common observed raw cumulative debt since600; known IID normal fixed observed-end interval z(.975)*sigma_eff*sqrt(sum dt^2)/3600; numerical epsilon=.01kWh. Full end3600 upper<=epsilon within_margin, lower>epsilon above_margin, otherwise unresolved. Short end2100 status right_censored (interval only describes observed end); missing interval unavailable. No first exact-zero recovery claim or inferred service acceptance. No action still has well-defined relative-energy balance."
+  },
+  "targets": "mean-power interval observable noiseless criterion at each sample resolution, independently evaluated after observed outputs persist. Physical action onset is separately distinguished from threshold onset on ramps. No continuous hardware-delay identification. Truth for raw net energy/debt is exact rectangular area; missing/censored observations retain availability states, all denominators reported.",
+  "evaluation": "25 independent base draws x6 mechanism variants=150 event variants; 2400 observation variants after sigma/dt/availability, 4800 method outputs. Full paired F1-minus-F0 timing/duration/power-curve errors; no-response false detections; all true-onset/recovered counts including misses; MAE conditional denominator explicitly separate; availability/integration/energy interval coverages; per-case counters, preserve ramp approximation and sampling failures. No post-test tuning/expansion to chase success.",
+  "timing_tolerance_s": 30,
+  "selection": "no fitting hyperparameter selection or predictive training/test split; protocol and algorithms frozen before new Monte Carlo draws; this is extraction evaluation, not response prediction",
+  "truth_isolation": "generator native hidden signal saved under work; raw data contains only time/reference/observed power/known sigma and observation design IDs. Extractor accepts curve and declared observation error only, never mechanism or hidden labels. Observed outputs/fit arrays SHA saved before evaluator reads hidden native signals.",
+  "scope": "B1 features only, no learned representation/B2/B4 startup, no new dependencies/GPU/network upload/UI; previous experiments/live models unchanged, simulation not real resource validation",
+  "reuse": "GitHub deepcharles/ruptures BSD2 maintained offline changepoint library evaluated; installed state inspected before run. Existing transparent exact DP suffices bounded n<=360, reuse NumPy and frozen D106 feature module, no PELT or linear-complexity claim; vectorized prefix DP checked against original scalar implementation/exhaustive tiny oracle."
+}

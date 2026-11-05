@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "independent_checks": 11970,
+  "phase_rows": 630,
+  "held_events": 144,
+  "pulse_events": 162,
+  "source_and_production_files_unchanged": 201,
+  "original_v3_files_unchanged": 773,
+  "max_independent_direct_mean_difference_A": 8.881784197001252e-14,
+  "all_original_observations_retained": true,
+  "no_fits_no_interpolation_no_replacement": true,
+  "extra_descriptors": {
+    "coarse10s_mean_below90_but_fine_above90_at_least_half": 27,
+    "pulse_events_with_other_commands_within_pre_post2s": 70,
+    "pulse_active_isolated_phase_rows": 44,
+    "phase_rows_meeting_during_command_directional_descriptor": 0,
+    "interpretation": "Descriptive thresholds, not classifier/causal validation. During-command metrics cannot exclude delayed response after the command has returned."
+  },
+  "output_failure_note": "Initial aligned exports completed but JSON serialization encountered numpy.int64. Initial outputs/partialJSON retained. Corrected serialization exported to analysis_run2 without changing raw data or formulas."
+}

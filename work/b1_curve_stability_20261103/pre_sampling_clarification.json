@@ -1,0 +1,6 @@
+{
+  "stage": "before study sampling",
+  "validation_risk_support": "Predefined common validation subset: amount .3..2.1, within training observed extremes, and passing BOTH component local support; identical mask for all CV weights. Fewer than20 eligible events or15 users in any fold, or density/fit/other fold failure, triggers alpha1 fallback; not every individual unsupported validation amount. Masks and omitted-support counts saved. No filtering by outcome or prediction.",
+  "curve_failure": "Save complete cohort failure rather than replace draws if retained spline numeric fit/query fails. Targets check component supports and pure LL never queries spline.",
+  "changed_budgets_or_adoption": false
+}

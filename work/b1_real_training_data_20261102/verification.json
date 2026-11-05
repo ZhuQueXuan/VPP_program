@@ -1,0 +1,22 @@
+{
+  "downloaded_files": 1230,
+  "verified_compressed_bytes": 46891537,
+  "complete_remote_inventory": 85877,
+  "all_git_blob_and_sha256_match": true,
+  "station_groups": {
+    "current_only_reserve": 30,
+    "external_test": 8,
+    "test": 23,
+    "training": 105,
+    "validation": 23
+  },
+  "same_station_cross_split_count": 0,
+  "same_raw_file_duplicate_count": 0,
+  "vehicle_ids_unavailable_vehicle_disjoint_not_claimed": true,
+  "heldout_observation_values_not_opened": true,
+  "raw_source_values_preserved": true,
+  "unreviewed_command_candidates": 9655,
+  "candidate_labels_all_unset": true,
+  "production_files_unchanged": 58,
+  "trained_models_in_this_task": 0
+}

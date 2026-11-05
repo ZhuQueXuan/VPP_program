@@ -1,0 +1,4 @@
+{
+  "status": "not_adopted_stress_failure_no_final_test",
+  "reason": "Main validation improved, but independently generated near-threshold stress regressed. Prior stress is now seen development for a new configuration; original frozen outputs remain unchanged. No final test generated for round2."
+}

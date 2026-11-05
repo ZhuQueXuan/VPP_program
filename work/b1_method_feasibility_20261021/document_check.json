@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "scope": "design_documents_and_existing_identity_only",
+  "document_sha256": "e50091b924072137b5b1dca0c8b9ad1ded6e1b80f7469a4987f1a1f0e7fe985d",
+  "local_links_checked": 14,
+  "published_model_files": 74,
+  "manifest_version": "ready-models-v15",
+  "old_release_files_unchanged": 113,
+  "new_simulated_samples": 0,
+  "model_runs": 0,
+  "training_runs": 0,
+  "dependency_installs": 0,
+  "migrated_to_01": false,
+  "design_status": "awaiting_user_review"
+}

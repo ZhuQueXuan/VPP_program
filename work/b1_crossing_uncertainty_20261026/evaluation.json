@@ -1,0 +1,3904 @@
+{
+  "summary": [
+    {
+      "scenario": "plateau_rise",
+      "group": "all",
+      "delta": 0.1,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": 5,
+      "true_up_edges": [
+        5
+      ],
+      "set_or_point_coverage": {
+        "count": 4,
+        "denominator": 100,
+        "rate": 0.04,
+        "mc95_exact": [
+          0.011004493986188203,
+          0.09925715671265994
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 5,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 95,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.05,
+      "mean_candidate_hull_width": 0.02,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "plateau_rise",
+      "group": "all",
+      "delta": 0.1,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": 5,
+      "true_up_edges": [
+        5
+      ],
+      "set_or_point_coverage": {
+        "count": 54,
+        "denominator": 100,
+        "rate": 0.54,
+        "mc95_exact": [
+          0.4374115798666432,
+          0.6401566470205151
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 100,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.0,
+      "mean_candidate_hull_width": 0.3999999999999999,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "plateau_rise",
+      "group": "all",
+      "delta": 0.1,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": 5,
+      "true_up_edges": [
+        5
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 99,
+        "denominator": 100,
+        "rate": 0.99,
+        "mc95_exact": [
+          0.9455406146079193,
+          0.9997468539673181
+        ]
+      },
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 100,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 2.0,
+      "mean_candidate_hull_width": 0.7999999999999998,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "plateau_rise",
+      "group": "all",
+      "delta": 0.05,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": 4,
+      "true_up_edges": [
+        4
+      ],
+      "set_or_point_coverage": {
+        "count": 2,
+        "denominator": 100,
+        "rate": 0.02,
+        "mc95_exact": [
+          0.0024313368239247935,
+          0.07038393247107018
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 5,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 95,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.05,
+      "mean_candidate_hull_width": 0.02,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "plateau_rise",
+      "group": "all",
+      "delta": 0.05,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": 4,
+      "true_up_edges": [
+        4
+      ],
+      "set_or_point_coverage": {
+        "count": 54,
+        "denominator": 100,
+        "rate": 0.54,
+        "mc95_exact": [
+          0.4374115798666432,
+          0.6401566470205151
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 100,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.0,
+      "mean_candidate_hull_width": 0.3999999999999999,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "plateau_rise",
+      "group": "all",
+      "delta": 0.05,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": 4,
+      "true_up_edges": [
+        4
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 99,
+        "denominator": 100,
+        "rate": 0.99,
+        "mc95_exact": [
+          0.9455406146079193,
+          0.9997468539673181
+        ]
+      },
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 100,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 2.0,
+      "mean_candidate_hull_width": 0.7999999999999998,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "plateau_rise",
+      "group": "x_low",
+      "delta": 0.1,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": 6,
+      "true_up_edges": [
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 3,
+        "denominator": 100,
+        "rate": 0.03,
+        "mc95_exact": [
+          0.006229971538306227,
+          0.08517605297428034
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 4,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 1,
+      "ambiguous_count": 95,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 1,
+        "denominator": 100,
+        "rate": 0.01,
+        "mc95_exact": [
+          0.0002531460326818928,
+          0.054459385392080735
+        ]
+      },
+      "mean_candidate_count": 0.04,
+      "mean_candidate_hull_width": 0.016,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "plateau_rise",
+      "group": "x_low",
+      "delta": 0.1,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": 6,
+      "true_up_edges": [
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 90,
+        "denominator": 100,
+        "rate": 0.9,
+        "mc95_exact": [
+          0.8237774022598248,
+          0.9509953107785141
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 99,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 1,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 1,
+        "denominator": 100,
+        "rate": 0.01,
+        "mc95_exact": [
+          0.0002531460326818928,
+          0.054459385392080735
+        ]
+      },
+      "mean_candidate_count": 0.99,
+      "mean_candidate_hull_width": 0.39599999999999996,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "plateau_rise",
+      "group": "x_low",
+      "delta": 0.1,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": 6,
+      "true_up_edges": [
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 93,
+        "denominator": 100,
+        "rate": 0.93,
+        "mc95_exact": [
+          0.8610802715441336,
+          0.9713947110925815
+        ]
+      },
+      "unique_count": 3,
+      "unresolved_count": 37,
+      "bounded_multiple_count": 60,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.91,
+      "mean_candidate_hull_width": 0.7639999999999998,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "plateau_rise",
+      "group": "x_low",
+      "delta": 0.05,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": 5,
+      "true_up_edges": [
+        5
+      ],
+      "set_or_point_coverage": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 4,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 96,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.04,
+      "mean_candidate_hull_width": 0.016,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "plateau_rise",
+      "group": "x_low",
+      "delta": 0.05,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": 5,
+      "true_up_edges": [
+        5
+      ],
+      "set_or_point_coverage": {
+        "count": 68,
+        "denominator": 100,
+        "rate": 0.68,
+        "mc95_exact": [
+          0.5792331383683774,
+          0.7697800832383862
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 100,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.0,
+      "mean_candidate_hull_width": 0.3999999999999999,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "plateau_rise",
+      "group": "x_low",
+      "delta": 0.05,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": 5,
+      "true_up_edges": [
+        5
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 93,
+        "denominator": 100,
+        "rate": 0.93,
+        "mc95_exact": [
+          0.8610802715441336,
+          0.9713947110925815
+        ]
+      },
+      "unique_count": 3,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 97,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 2.08,
+      "mean_candidate_hull_width": 0.84,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "plateau_rise",
+      "group": "x_high",
+      "delta": 0.1,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": 5,
+      "true_up_edges": [
+        5
+      ],
+      "set_or_point_coverage": {
+        "count": 1,
+        "denominator": 100,
+        "rate": 0.01,
+        "mc95_exact": [
+          0.0002531460326818928,
+          0.054459385392080735
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 1,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 99,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.01,
+      "mean_candidate_hull_width": 0.004,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "plateau_rise",
+      "group": "x_high",
+      "delta": 0.1,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": 5,
+      "true_up_edges": [
+        5
+      ],
+      "set_or_point_coverage": {
+        "count": 81,
+        "denominator": 100,
+        "rate": 0.81,
+        "mc95_exact": [
+          0.7193020420263277,
+          0.881556803867574
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 100,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.0,
+      "mean_candidate_hull_width": 0.3999999999999999,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "plateau_rise",
+      "group": "x_high",
+      "delta": 0.1,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": 5,
+      "true_up_edges": [
+        5
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 95,
+        "denominator": 100,
+        "rate": 0.95,
+        "mc95_exact": [
+          0.887165088894537,
+          0.9835681208182717
+        ]
+      },
+      "unique_count": 3,
+      "unresolved_count": 2,
+      "bounded_multiple_count": 95,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 2.29,
+      "mean_candidate_hull_width": 0.9160000000000003,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "plateau_rise",
+      "group": "x_high",
+      "delta": 0.05,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": 4,
+      "true_up_edges": [
+        4
+      ],
+      "set_or_point_coverage": {
+        "count": 1,
+        "denominator": 100,
+        "rate": 0.01,
+        "mc95_exact": [
+          0.0002531460326818928,
+          0.054459385392080735
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 1,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 99,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.01,
+      "mean_candidate_hull_width": 0.004,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "plateau_rise",
+      "group": "x_high",
+      "delta": 0.05,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": 4,
+      "true_up_edges": [
+        4
+      ],
+      "set_or_point_coverage": {
+        "count": 75,
+        "denominator": 100,
+        "rate": 0.75,
+        "mc95_exact": [
+          0.6534475042411918,
+          0.8312202619003402
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 100,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.0,
+      "mean_candidate_hull_width": 0.3999999999999999,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "plateau_rise",
+      "group": "x_high",
+      "delta": 0.05,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": 4,
+      "true_up_edges": [
+        4
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 95,
+        "denominator": 100,
+        "rate": 0.95,
+        "mc95_exact": [
+          0.887165088894537,
+          0.9835681208182717
+        ]
+      },
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 100,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 2.53,
+      "mean_candidate_hull_width": 1.1,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "all",
+      "delta": 0.1,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 100,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "all",
+      "delta": 0.1,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 100,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.0,
+      "mean_candidate_hull_width": 0.3999999999999999,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "all",
+      "delta": 0.1,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 98,
+        "denominator": 100,
+        "rate": 0.98,
+        "mc95_exact": [
+          0.9296160675289299,
+          0.9975686631760752
+        ]
+      },
+      "unique_count": 100,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.0,
+      "mean_candidate_hull_width": 0.3999999999999999,
+      "supported_decline_count": 100,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 100
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "all",
+      "delta": 0.05,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 100,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "all",
+      "delta": 0.05,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 100,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.0,
+      "mean_candidate_hull_width": 0.3999999999999999,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "all",
+      "delta": 0.05,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 98,
+        "denominator": 100,
+        "rate": 0.98,
+        "mc95_exact": [
+          0.9296160675289299,
+          0.9975686631760752
+        ]
+      },
+      "unique_count": 58,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 42,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.42,
+      "mean_candidate_hull_width": 0.568,
+      "supported_decline_count": 100,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 36
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "x_low",
+      "delta": 0.1,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 100,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "x_low",
+      "delta": 0.1,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 100,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.0,
+      "mean_candidate_hull_width": 0.3999999999999999,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "x_low",
+      "delta": 0.1,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 90,
+        "denominator": 100,
+        "rate": 0.9,
+        "mc95_exact": [
+          0.8237774022598248,
+          0.9509953107785141
+        ]
+      },
+      "unique_count": 97,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 3,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.05,
+      "mean_candidate_hull_width": 0.44,
+      "supported_decline_count": 100,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 79
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "x_low",
+      "delta": 0.05,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 100,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "x_low",
+      "delta": 0.05,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 99,
+        "denominator": 100,
+        "rate": 0.99,
+        "mc95_exact": [
+          0.9455406146079193,
+          0.9997468539673181
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 100,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.0,
+      "mean_candidate_hull_width": 0.3999999999999999,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "x_low",
+      "delta": 0.05,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 90,
+        "denominator": 100,
+        "rate": 0.9,
+        "mc95_exact": [
+          0.8237774022598248,
+          0.9509953107785141
+        ]
+      },
+      "unique_count": 57,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 43,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.43,
+      "mean_candidate_hull_width": 0.572,
+      "supported_decline_count": 100,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 38
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "x_high",
+      "delta": 0.1,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 100,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "x_high",
+      "delta": 0.1,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 100,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.0,
+      "mean_candidate_hull_width": 0.3999999999999999,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "x_high",
+      "delta": 0.1,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 98,
+        "denominator": 100,
+        "rate": 0.98,
+        "mc95_exact": [
+          0.9296160675289299,
+          0.9975686631760752
+        ]
+      },
+      "unique_count": 99,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 1,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.01,
+      "mean_candidate_hull_width": 0.4039999999999999,
+      "supported_decline_count": 100,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 99
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "x_high",
+      "delta": 0.05,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 100,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "x_high",
+      "delta": 0.05,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 90,
+        "denominator": 100,
+        "rate": 0.9,
+        "mc95_exact": [
+          0.8237774022598248,
+          0.9509953107785141
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 100,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.0,
+      "mean_candidate_hull_width": 0.3999999999999999,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "true_nonmonotone",
+      "group": "x_high",
+      "delta": 0.05,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": 2,
+      "true_up_edges": [
+        2,
+        4,
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 98,
+        "denominator": 100,
+        "rate": 0.98,
+        "mc95_exact": [
+          0.9296160675289299,
+          0.9975686631760752
+        ]
+      },
+      "unique_count": 12,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 88,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.88,
+      "mean_candidate_hull_width": 0.7519999999999999,
+      "supported_decline_count": 100,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 5
+    },
+    {
+      "scenario": "zero",
+      "group": "all",
+      "delta": 0.1,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 100,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "zero",
+      "group": "all",
+      "delta": 0.1,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 100,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "zero",
+      "group": "all",
+      "delta": 0.1,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 97,
+        "denominator": 100,
+        "rate": 0.97,
+        "mc95_exact": [
+          0.9148239470257197,
+          0.9937700284616938
+        ]
+      },
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 100,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "zero",
+      "group": "all",
+      "delta": 0.05,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 100,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "zero",
+      "group": "all",
+      "delta": 0.05,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 100,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "zero",
+      "group": "all",
+      "delta": 0.05,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 97,
+        "denominator": 100,
+        "rate": 0.97,
+        "mc95_exact": [
+          0.9148239470257197,
+          0.9937700284616938
+        ]
+      },
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 100,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "zero",
+      "group": "x_low",
+      "delta": 0.1,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 100,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "zero",
+      "group": "x_low",
+      "delta": 0.1,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 100,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "zero",
+      "group": "x_low",
+      "delta": 0.1,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 94,
+        "denominator": 100,
+        "rate": 0.94,
+        "mc95_exact": [
+          0.8739700654191771,
+          0.9776651139286836
+        ]
+      },
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 100,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "zero",
+      "group": "x_low",
+      "delta": 0.05,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 100,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "zero",
+      "group": "x_low",
+      "delta": 0.05,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 100,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "zero",
+      "group": "x_low",
+      "delta": 0.05,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 94,
+        "denominator": 100,
+        "rate": 0.94,
+        "mc95_exact": [
+          0.8739700654191771,
+          0.9776651139286836
+        ]
+      },
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 100,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "zero",
+      "group": "x_high",
+      "delta": 0.1,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 100,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "zero",
+      "group": "x_high",
+      "delta": 0.1,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 100,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "zero",
+      "group": "x_high",
+      "delta": 0.1,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 94,
+        "denominator": 100,
+        "rate": 0.94,
+        "mc95_exact": [
+          0.8739700654191771,
+          0.9776651139286836
+        ]
+      },
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 100,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "zero",
+      "group": "x_high",
+      "delta": 0.05,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 100,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "zero",
+      "group": "x_high",
+      "delta": 0.05,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 100,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.0,
+      "mean_candidate_hull_width": 0.0,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "zero",
+      "group": "x_high",
+      "delta": 0.05,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 94,
+        "denominator": 100,
+        "rate": 0.94,
+        "mc95_exact": [
+          0.8739700654191771,
+          0.9776651139286836
+        ]
+      },
+      "unique_count": 0,
+      "unresolved_count": 32,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 68,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.71,
+      "mean_candidate_hull_width": 0.352,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "all",
+      "delta": 0.1,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 64,
+        "denominator": 100,
+        "rate": 0.64,
+        "mc95_exact": [
+          0.5378781066724183,
+          0.7335915772667655
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 26,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 64,
+      "ambiguous_count": 10,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 26,
+        "denominator": 100,
+        "rate": 0.26,
+        "mc95_exact": [
+          0.17739443786765255,
+          0.35731206310010327
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.26,
+      "mean_candidate_hull_width": 0.10400000000000001,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "all",
+      "delta": 0.1,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 64,
+        "denominator": 100,
+        "rate": 0.64,
+        "mc95_exact": [
+          0.5378781066724183,
+          0.7335915772667655
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 36,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 64,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 36,
+        "denominator": 100,
+        "rate": 0.36,
+        "mc95_exact": [
+          0.26640842273323456,
+          0.4621218933275815
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.36,
+      "mean_candidate_hull_width": 0.14400000000000002,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "all",
+      "delta": 0.1,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 97,
+        "denominator": 100,
+        "rate": 0.97,
+        "mc95_exact": [
+          0.9148239470257197,
+          0.9937700284616938
+        ]
+      },
+      "unique_count": 0,
+      "unresolved_count": 99,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 1,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.73,
+      "mean_candidate_hull_width": 0.6960000000000001,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "all",
+      "delta": 0.05,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": 4,
+      "true_up_edges": [
+        4
+      ],
+      "set_or_point_coverage": {
+        "count": 37,
+        "denominator": 100,
+        "rate": 0.37,
+        "mc95_exact": [
+          0.27556657961453906,
+          0.47235164055168577
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 66,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 34,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.66,
+      "mean_candidate_hull_width": 0.264,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "all",
+      "delta": 0.05,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": 4,
+      "true_up_edges": [
+        4
+      ],
+      "set_or_point_coverage": {
+        "count": 59,
+        "denominator": 100,
+        "rate": 0.59,
+        "mc95_exact": [
+          0.48714420376673107,
+          0.6873800234324292
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 100,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.0,
+      "mean_candidate_hull_width": 0.3999999999999999,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "all",
+      "delta": 0.05,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": 4,
+      "true_up_edges": [
+        4
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 97,
+        "denominator": 100,
+        "rate": 0.97,
+        "mc95_exact": [
+          0.9148239470257197,
+          0.9937700284616938
+        ]
+      },
+      "unique_count": 0,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 100,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 3.93,
+      "mean_candidate_hull_width": 1.584,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "x_low",
+      "delta": 0.1,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 92,
+        "denominator": 100,
+        "rate": 0.92,
+        "mc95_exact": [
+          0.848442364135579,
+          0.9648284374821919
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 6,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 92,
+      "ambiguous_count": 2,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 6,
+        "denominator": 100,
+        "rate": 0.06,
+        "mc95_exact": [
+          0.02233488607131637,
+          0.12602993458082282
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.06,
+      "mean_candidate_hull_width": 0.024,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "x_low",
+      "delta": 0.1,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 92,
+        "denominator": 100,
+        "rate": 0.92,
+        "mc95_exact": [
+          0.848442364135579,
+          0.9648284374821919
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 8,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 92,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 8,
+        "denominator": 100,
+        "rate": 0.08,
+        "mc95_exact": [
+          0.035171562517808085,
+          0.15155763586442092
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.08,
+      "mean_candidate_hull_width": 0.032,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "x_low",
+      "delta": 0.1,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": -1,
+      "true_up_edges": [],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 92,
+        "denominator": 100,
+        "rate": 0.92,
+        "mc95_exact": [
+          0.848442364135579,
+          0.9648284374821919
+        ]
+      },
+      "unique_count": 0,
+      "unresolved_count": 83,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 17,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.1,
+      "mean_candidate_hull_width": 0.444,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "x_low",
+      "delta": 0.05,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": 4,
+      "true_up_edges": [
+        4
+      ],
+      "set_or_point_coverage": {
+        "count": 31,
+        "denominator": 100,
+        "rate": 0.31,
+        "mc95_exact": [
+          0.22128879213067185,
+          0.41031455416023127
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 55,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 45,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.55,
+      "mean_candidate_hull_width": 0.21999999999999992,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "x_low",
+      "delta": 0.05,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": 4,
+      "true_up_edges": [
+        4
+      ],
+      "set_or_point_coverage": {
+        "count": 58,
+        "denominator": 100,
+        "rate": 0.58,
+        "mc95_exact": [
+          0.4771191957239621,
+          0.6780144606454261
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 100,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.0,
+      "mean_candidate_hull_width": 0.3999999999999999,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "x_low",
+      "delta": 0.05,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": 4,
+      "true_up_edges": [
+        4
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 92,
+        "denominator": 100,
+        "rate": 0.92,
+        "mc95_exact": [
+          0.848442364135579,
+          0.9648284374821919
+        ]
+      },
+      "unique_count": 0,
+      "unresolved_count": 25,
+      "bounded_multiple_count": 75,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 4.48,
+      "mean_candidate_hull_width": 1.8119999999999998,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "x_high",
+      "delta": 0.1,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": 6,
+      "true_up_edges": [
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 18,
+        "denominator": 100,
+        "rate": 0.18,
+        "mc95_exact": [
+          0.11031122915371105,
+          0.2694770859669013
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 29,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 22,
+      "ambiguous_count": 49,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 22,
+        "denominator": 100,
+        "rate": 0.22,
+        "mc95_exact": [
+          0.14330357674980537,
+          0.31391965378631775
+        ]
+      },
+      "mean_candidate_count": 0.29,
+      "mean_candidate_hull_width": 0.11600000000000002,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "x_high",
+      "delta": 0.1,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": 6,
+      "true_up_edges": [
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 47,
+        "denominator": 100,
+        "rate": 0.47,
+        "mc95_exact": [
+          0.3694051641943439,
+          0.572418515109955
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 78,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 22,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 22,
+        "denominator": 100,
+        "rate": 0.22,
+        "mc95_exact": [
+          0.14330357674980537,
+          0.31391965378631775
+        ]
+      },
+      "mean_candidate_count": 0.78,
+      "mean_candidate_hull_width": 0.31199999999999994,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "x_high",
+      "delta": 0.1,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": 6,
+      "true_up_edges": [
+        6
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 96,
+        "denominator": 100,
+        "rate": 0.96,
+        "mc95_exact": [
+          0.90074284328734,
+          0.9889955060138118
+        ]
+      },
+      "unique_count": 0,
+      "unresolved_count": 96,
+      "bounded_multiple_count": 4,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 3.18,
+      "mean_candidate_hull_width": 1.2919999999999998,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "x_high",
+      "delta": 0.05,
+      "method": "strict_D109",
+      "denominator": 100,
+      "true_first": 3,
+      "true_up_edges": [
+        3
+      ],
+      "set_or_point_coverage": {
+        "count": 23,
+        "denominator": 100,
+        "rate": 0.23,
+        "mc95_exact": [
+          0.15173161130146726,
+          0.3248587327751033
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 41,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 59,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 0.41,
+      "mean_candidate_hull_width": 0.16399999999999998,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "x_high",
+      "delta": 0.05,
+      "method": "naive_first",
+      "denominator": 100,
+      "true_first": 3,
+      "true_up_edges": [
+        3
+      ],
+      "set_or_point_coverage": {
+        "count": 43,
+        "denominator": 100,
+        "rate": 0.43,
+        "mc95_exact": [
+          0.33139101663138787,
+          0.5328662616751538
+        ]
+      },
+      "band_coverage": null,
+      "unique_count": 100,
+      "unresolved_count": 0,
+      "bounded_multiple_count": 0,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 1.0,
+      "mean_candidate_hull_width": 0.3999999999999999,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 0,
+      "three_supported_up_count": 0
+    },
+    {
+      "scenario": "near_unreached",
+      "group": "x_high",
+      "delta": 0.05,
+      "method": "user_cluster_band",
+      "denominator": 100,
+      "true_first": 3,
+      "true_up_edges": [
+        3
+      ],
+      "set_or_point_coverage": {
+        "count": 100,
+        "denominator": 100,
+        "rate": 1.0,
+        "mc95_exact": [
+          0.9637833073548094,
+          1.0
+        ]
+      },
+      "band_coverage": {
+        "count": 96,
+        "denominator": 100,
+        "rate": 0.96,
+        "mc95_exact": [
+          0.90074284328734,
+          0.9889955060138118
+        ]
+      },
+      "unique_count": 0,
+      "unresolved_count": 11,
+      "bounded_multiple_count": 89,
+      "supported_not_reached_count": 0,
+      "ambiguous_count": 0,
+      "unavailable_count": 0,
+      "wrong_definite_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "wrong_definite_not_reached": {
+        "count": 0,
+        "denominator": 100,
+        "rate": 0.0,
+        "mc95_exact": [
+          0.0,
+          0.03621669264519054
+        ]
+      },
+      "mean_candidate_count": 4.93,
+      "mean_candidate_hull_width": 1.9720000000000002,
+      "supported_decline_count": 0,
+      "all_true_up_possible_count": 100,
+      "three_supported_up_count": 0
+    }
+  ],
+  "truth_gains": [
+    [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.050700000000000016,
+        0.1014,
+        0.15209999999999999
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.04225000000000001,
+        0.0845,
+        0.12675
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.05915000000000002,
+        0.11830000000000002,
+        0.17745
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.02535,
+        0.17745,
+        0.02535,
+        0.16224,
+        0.01014,
+        0.18252
+      ],
+      [
+        0.0,
+        0.021125,
+        0.14787499999999998,
+        0.021125,
+        0.1352,
+        0.00845,
+        0.15209999999999999
+      ],
+      [
+        0.0,
+        0.029575000000000004,
+        0.207025,
+        0.029575000000000004,
+        0.18928,
+        0.01183,
+        0.21294
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.016055000000000007,
+        0.032110000000000014,
+        0.048165,
+        0.06422000000000003,
+        0.08027500000000001,
+        0.09633
+      ],
+      [
+        0.0,
+        0.013379166666666671,
+        0.026758333333333342,
+        0.0401375,
+        0.053516666666666685,
+        0.06689583333333333,
+        0.080275
+      ],
+      [
+        0.0,
+        0.01873083333333334,
+        0.03746166666666668,
+        0.056192500000000006,
+        0.07492333333333336,
+        0.09365416666666668,
+        0.11238500000000001
+      ]
+    ]
+  ],
+  "quadrature_max_error": 8.326672684688674e-17,
+  "scope": "100 fresh MC repetitions, 999 whole-user bootstrap draws; approximate per-curve simultaneous bands, finite seven-node first crossing. No continuous root or real EV claims."
+}

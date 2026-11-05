@@ -1,0 +1,22 @@
+{
+  "sha": "a205ccaa987d565d0f0ebf67c1b5829a6b1155c6",
+  "url": "https://api.github.com/repos/tongxin-li/ACN-Data-Static/git/trees/a205ccaa987d565d0f0ebf67c1b5829a6b1155c6",
+  "tree": [
+    {
+      "path": ".DS_Store",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccb1483fc97925a28e46cdc1798658314ee3330a",
+      "size": 8196,
+      "url": "https://api.github.com/repos/tongxin-li/ACN-Data-Static/git/blobs/ccb1483fc97925a28e46cdc1798658314ee3330a"
+    },
+    {
+      "path": "Arroyo_Garage_01",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "622e5780628345081ba45ece54b58aec42a478b7",
+      "url": "https://api.github.com/repos/tongxin-li/ACN-Data-Static/git/trees/622e5780628345081ba45ece54b58aec42a478b7"
+    }
+  ],
+  "truncated": false
+}

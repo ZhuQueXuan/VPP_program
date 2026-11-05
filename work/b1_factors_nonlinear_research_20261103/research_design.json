@@ -1,0 +1,47 @@
+{
+  "status": "literature_and_formula_feasibility_complete_main_experiment_not_started",
+  "scope": "课题一第一个研究点内部：驱动因素作用与非线性、阈值、敏感性；不按年度节点组织",
+  "research_question": "在同一资源任务和固定目标人群下，哪些事前条件改变补偿作用，哪些观测差异来自分配混杂，补偿在哪些区间更有效，以及何时达到指定响应目标？",
+  "inputs": {
+    "A": "事前告知、单位明确的连续补偿",
+    "X": ["通知前且补偿形成前的期限余量", "同期需求紧迫度", "有来源的物理状态与环境量"],
+    "Y": "全部受邀事件的同口径累计响应时长，包括零响应；物理任务与时长定义固定",
+    "identity": "用户、基础事件、形成与可得时点；重复用户保持同折",
+    "graph_nodes": "先用L/U/A/Y低维结构；没有实际参与记录时不增加伪意愿中介",
+    "first_block": "使用冻结的effective_response_refined；当前高层新旧时长合同修复另列必要接口项"
+  },
+  "outputs": {
+    "structure": "由数据支持的邻接、端点与未定关系；潜混杂相容关系；与声明结构的差异",
+    "total_effect": "mu(a)-mu(a0)，同固定目标人群的连续补偿总作用",
+    "effect_modification": "mu_g(a)-mu_g(a0)，事前定义人群内的补偿作用；不同a不换人群",
+    "marginal_effect": "theta(a)=d mu(a)/da，秒/金额单位；另报预定组的theta_g(a)",
+    "target_crossing": "给定响应增量目标下的所有上穿位置、首次上穿、未达与支持不足；后续统一带反演候选集合",
+    "distinct_targets": "目标交点、响应曲线局部拐点、用户选择阈值是不同对象。改变L/U自身的因果作用需要另定干预，不从分组差异自动得到。"
+  },
+  "method_decisions": {
+    "current_mean_curve": "保留Kennedy连续DR；不再拿上一轮终验重选DML或两部模型",
+    "structure_first": "causal-learn的FCI+KCI作为潜混杂兼容基线；PC-stable+KCI作为充分观测对照；首试不传将forbidden边变确定箭头的强BK",
+    "derivative_first": "独立按Zhang-Chen Eq8复现直接DR导数；Epanechnikov紧支撑核，kappa2=1/5；非作者完整NN实验复刻",
+    "threshold_later": "Takatsu-Westling显式偏差修正与统一带作为优先数学路线，独立实现；作者R仓库许可未明确，不复制源码",
+    "reserve": "2026 FoundCause、加权平均导数、minimum-variance weighting及proximal DR仅按数据/成本匹配后决定；不改变用户要求的连续金额曲线"
+  },
+  "next_bounded_experiment": {
+    "role": "拟开展的独立小规模方法研究；本文件不是已执行结果或主终验冻结",
+    "graph_methods": ["FCI+KCI", "PC-stable+KCI", "现有声明图及父集辅助筛选作透明参照"],
+    "new_scm_mechanisms": ["随机连续补偿", "L/U非线性影响补偿且影响结果", "补偿零作用与真实无关因子", "未观测H同时影响补偿和结果"],
+    "distribution_controls": "保留Y零与满时长原子，不抖动Y以满足ANM；强分层支持和非单调作用单列",
+    "independence": "图学习先每用户预定一事件；作用估计使用全部重复事件并按用户分折。图CI的独立行前提不能由cluster bootstrap替代。",
+    "derivative_comparators": "现有Gaussian平滑曲线导数；共享Epanechnikov核的局部多项式导数控制；正确Eq8直接导数；必要RA导数透明参照",
+    "shared_nuisance": "先共用原有样条Ridge结果模型、解析样条导数、GPS、用户折和预算，单独记录核与带宽差异，不借错误作者实现制造收益",
+    "evaluation": "图对正确CPDAG/PAG等价类评分；导数RMSE、符号、平坦区误识别、目标交点误差、输出覆盖；若主张统一带，另完整重拟合抽样并核覆盖",
+    "allocation_rule": "正式生成前锁规模/开发与终验用户种子/整类机制隔离/主指标；不复用已消耗曲线test。当前未选最终算法或声称采用。"
+  },
+  "real_evidence_route": {
+    "first": "利用已有且MD5与发布者一致的iFlex RData，先核对象/阶段/分组/日期，再规划未见整期或组日研究",
+    "estimand": "先按24小时价格路径的组日分配与真实住户用电研究作用/异质性；可识别后再讨论标量连续导数",
+    "current_sample": "13组日/11独立日期；23832小时不等于独立随机连续干预",
+    "covariate_time": "采用已修正的通知前历史处理组件，不回用旧同日3小时状态；原已消费留出不当新测试",
+    "not_interchangeable": "居民电价行为、EV补偿时长、物理设定跟随各自研究，不能拼成同一对象"
+  },
+  "this_turn_verified": "近期论文/代码/许可/适用性和数据用途已核；Eq8独立数值微检与同观测异人口曲线反例已完成；没有主方法拟合或新性能结论"
+}

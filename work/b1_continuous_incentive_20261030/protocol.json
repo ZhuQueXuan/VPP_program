@@ -1,0 +1,22 @@
+{
+  "approved_scope": "EV same-duration/request continuous incentive input and dose-response prediction, curved shapes allowed; no forced linearity/monotonicity",
+  "runtime": "B1算法; historical discrete effects retained as explicit comparison and compatibility",
+  "method": "Kennedy continuous DR pseudo-outcome plus Gaussian local-linear smoothing; reuse RIDE method idea, generalize domain, strict user cross-fitting and support checks",
+  "interpretation": "population mean response and contrast relative to declared reference incentive at one common pre-fixed task; not individual future response or within-event changing price",
+  "incentive": "pre-notice offered compensation rate; caller must declare unit; not realized payout",
+  "support": "continuous observations, at least20 unique incentive values; no bridging holes or extrapolation; pure seven-arm data kept in discrete API",
+  "inference": "conditional user multiplier sampling band only; smoothing bias and nuisance/reference/process uncertainty not certified",
+  "task_duration": "positive user-defined duration with complete aligned meter bins; existing reference model still restricted to its trained time window",
+  "fixed_evaluation": {
+    "users": 600,
+    "events_per_user": 4,
+    "new_repetitions": 12,
+    "domain": [0.0,2.4],
+    "grid_points": 81,
+    "scenarios": ["randomized_saturating","observational_saturating","randomized_zero","randomized_nonmonotone","deterministic_no_support"],
+    "comparators": ["shared adjusted plugin","unadjusted continuous local-linear","straight line on same adjusted pseudo-outcome"],
+    "metrics": ["curve contrast RMSE","support availability","preserved zero/nonmonotone shapes"],
+    "no_tuning_to_win": true
+  },
+  "not_in_scope": ["other resources","reports","new general superiority claim","real EV validation","B2/B3 changes","new task negotiation or changing task length after incentive"]
+}

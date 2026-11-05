@@ -1,0 +1,56 @@
+{
+  "passed": 33,
+  "checks": [
+    "causal identity status",
+    "exact shared DR mean_outcomes",
+    "exact shared DR contrasts",
+    "exact shared conditional band lower",
+    "exact shared conditional band upper",
+    "exact shared conditional band standard_errors",
+    "zero reference contrast",
+    "save load byte identity",
+    "save load query exact",
+    "exclusive save refuses overwrite",
+    "tamper checksum",
+    "reject invalid query [True]",
+    "reject invalid query ['.8']",
+    "reject invalid query [nan]",
+    "reject invalid query [2.5]",
+    "reject invalid query [0.8, 0.7]",
+    "reject invalid query [0.8, 0.8]",
+    "reject invalid query []",
+    "queries do not retrain",
+    "threshold no retraining",
+    "threshold correct numeric root",
+    "threshold not continuous CI",
+    "unreachable target explicit",
+    "invalid mesh size",
+    "invalid target bool",
+    "derivative constants zero",
+    "derivative affine exact",
+    "derivative finite difference",
+    "currency scaling",
+    "association has no causal bands",
+    "nonmonotonic multiple crossings",
+    "unsupported fit cannot become artifact",
+    "original continuous core unchanged"
+  ],
+  "model_id": "dac9f4e82b989b06b3171ce8099cc27fc19ec1a7d09abdf6e76c6228ce54ba4c",
+  "numeric_root": 1.0769577886360127,
+  "multiple_crossings": [
+    {
+      "dose": 0.8902177391247724,
+      "bracket": [
+        0.8867346938775511,
+        0.9066326530612245
+      ]
+    },
+    {
+      "dose": 1.8531999407402948,
+      "bracket": [
+        1.8418367346938778,
+        1.8617346938775512
+      ]
+    }
+  ]
+}

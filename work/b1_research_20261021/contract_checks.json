@@ -1,0 +1,45 @@
+{
+  "checks": [
+    {
+      "name": "new X outside declared domain rejected",
+      "passed": true
+    },
+    {
+      "name": "wrong feature count rejected",
+      "passed": true
+    },
+    {
+      "name": "nonfinite new X rejected",
+      "passed": true
+    },
+    {
+      "name": "no-overlap probabilities rejected not clipped",
+      "passed": true
+    },
+    {
+      "name": "missing train arm rejected",
+      "passed": true
+    },
+    {
+      "name": "48 F0 integrations reproduce generated observed Y",
+      "passed": true,
+      "max_difference": 3.3306690738754696e-16
+    },
+    {
+      "name": "development-sized 48-variant detection readback",
+      "passed": true,
+      "matched": 48,
+      "total": 48,
+      "false_positive": 0,
+      "false_negative": 0,
+      "scope": "12 base events x four variants, not independent validation"
+    },
+    {
+      "name": "published manifest read-only identity",
+      "passed": true,
+      "sha256": "13397f2d9bb16588ad3816ad6561072bf5627d144519d2e576b99ede3e08437f"
+    }
+  ],
+  "passed": true,
+  "limitations": "bounds checks demonstrate specified failure handling; hidden-confounding identification is not tested or guaranteed"
+}

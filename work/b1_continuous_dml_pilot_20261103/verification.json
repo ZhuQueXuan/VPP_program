@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "checks": {
+    "formal_files_unchanged": 58,
+    "first_block_closed_artifacts_unchanged": 149,
+    "literature_artifacts_unchanged": 6,
+    "frozen_source_hashes": 133,
+    "independent_curve_scores": 192,
+    "grouped_fold_result_checks": 168,
+    "weak_support_cohorts_rejected": 4,
+    "frozen_first_block_physical_records": 640,
+    "original_native_physical_inputs": 640
+  },
+  "development_fact_variants": 5760,
+  "final_main_fact_variants": 11520,
+  "development_independent_seed_blocks": 3,
+  "final_independent_seed_blocks": 4,
+  "final_main_curve_variants": 24,
+  "final_base_user_contexts": 960,
+  "same_seed_mechanisms_are_paired_not_independent_repetitions": true,
+  "endtoend_physical_events": 640,
+  "endtoend_base_users": 320,
+  "first_block_duration_mae_seconds": 9.390625,
+  "first_block_raw_models_and_api_unchanged": true,
+  "main_models_and_metrics_frozen_before_final": true,
+  "no_main_or_endtoend_case_excluded": true,
+  "new_whole_test_mechanisms": [
+    "nonmonotone",
+    "assignment_mixture"
+  ],
+  "continuous_query_and_nuisance_checks": "technical_checks.json",
+  "conditional_bands_not_certified_full_causal_CI": true,
+  "performance_is_simulation_not_real": true,
+  "production_method_preserved": "existing_continuous_DR",
+  "no_post_final_parameter_tuning": true
+}

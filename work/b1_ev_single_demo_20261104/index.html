@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>充电桩调节与补偿演示</title><style>
+*{box-sizing:border-box}body{margin:0;background:#f1f5f7;color:#17323e;font:16px/1.65 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1000px;margin:auto;padding:28px 20px}h1{font-size:clamp(28px,5vw,45px);margin:4px 0}h2{font-size:22px;margin:0 0 12px}p{margin:10px 0}section,header{background:white;padding:22px;border:1px solid #d5e3e9;border-radius:12px;margin-bottom:16px}header{background:#103843;color:white}a{color:#086270}strong{font-weight:700}small{font-size:14px}.badge{color:#f5d58d}.metric{font-size:clamp(25px,4vw,40px);line-height:1.25;color:#086270}.table{overflow:auto}table{width:100%;border-collapse:collapse;min-width:540px}th,td{padding:8px;text-align:left;border-bottom:1px solid #dce7ed}th{background:#eaf3f5}svg{width:100%;height:auto;font-size:13px;fill:#243f4b}.legend{display:flex;gap:24px;flex-wrap:wrap}.blue{color:#096472}.gold{color:#94600a}
+</style></head><body><main>
+<header><small class="badge">研究点一 · 单一资源 · 模拟演示</small><h1>补偿提高后，充电桩能多调多久？</h1><p>半小时调节任务，请求少充 1.5 kW。模拟事前补偿、车辆状态、参考功率和实际功率，覆盖 240 个任务与 120 名模拟用户。</p></header>
+<section><h2>一次报价比较</h2><p class="metric"><strong>+302.5 秒</strong></p>
+<p>从 0.40 提高到 1.20 元／千瓦时，现用方法估计同一批模拟对象的平均累计有效减载时长变化。有效时长按同一任务窗口和减载标准计量。</p>
+<p>这一个报价对比的模拟真值为 331.8 秒。条件采样带为 -39.2 至 644.1 秒，反映固定辅助模型后的抽样波动。</p>
+<p class="legend"><span class="blue">● 现用算法估计</span><span class="gold">● 同批模拟真值</span></p>
+<svg viewBox="0 0 720 315" role="img" aria-label="补偿提高后的有效减载时长增量。对照现用算法与同批模拟真值。"><text x="16" y="22">平均多调的秒数</text><line x1="62.0" y1="43" x2="62.0" y2="258" stroke="#dce7ed"/><text x="62.0" y="282" text-anchor="middle">0.4</text><line x1="219.5" y1="43" x2="219.5" y2="258" stroke="#dce7ed"/><text x="219.5" y="282" text-anchor="middle">0.8</text><line x1="376.99999999999994" y1="43" x2="376.99999999999994" y2="258" stroke="#dce7ed"/><text x="376.99999999999994" y="282" text-anchor="middle">1.2</text><line x1="534.5" y1="43" x2="534.5" y2="258" stroke="#dce7ed"/><text x="534.5" y="282" text-anchor="middle">1.6</text><line x1="692.0" y1="43" x2="692.0" y2="258" stroke="#dce7ed"/><text x="692.0" y="282" text-anchor="middle">2.0</text><line x1="62" y1="254.16253875642155" x2="692" y2="254.16253875642155" stroke="#cbdce6"/><text x="54" y="258.16253875642155" text-anchor="end">0</text><line x1="62" y1="223.46284880779405" x2="692" y2="223.46284880779405" stroke="#cbdce6"/><text x="54" y="227.46284880779405" text-anchor="end">120</text><line x1="62" y1="202.9963888420424" x2="692" y2="202.9963888420424" stroke="#cbdce6"/><text x="54" y="206.9963888420424" text-anchor="end">200</text><line x1="62" y1="177.4133138848528" x2="692" y2="177.4133138848528" stroke="#cbdce6"/><text x="54" y="181.4133138848528" text-anchor="end">300</text><line x1="62" y1="151.8302389276632" x2="692" y2="151.8302389276632" stroke="#cbdce6"/><text x="54" y="155.8302389276632" text-anchor="end">400</text><line x1="62" y1="126.24716397047362" x2="692" y2="126.24716397047362" stroke="#cbdce6"/><text x="54" y="130.24716397047362" text-anchor="end">500</text><line x1="62" y1="100.66408901328404" x2="692" y2="100.66408901328404" stroke="#cbdce6"/><text x="54" y="104.66408901328404" text-anchor="end">600</text><line x1="62" y1="75.08101405609443" x2="692" y2="75.08101405609443" stroke="#cbdce6"/><text x="54" y="79.08101405609443" text-anchor="end">700</text><line x1="62" y1="49.49793909890485" x2="692" y2="49.49793909890485" stroke="#cbdce6"/><text x="54" y="53.49793909890485" text-anchor="end">800</text><polyline points="62.00,254.16 101.37,245.75 140.75,236.63 180.12,226.82 219.50,216.38 258.88,205.33 298.25,193.76 337.62,181.71 377.00,169.28 416.38,156.55 455.75,143.59 495.12,130.49 534.50,117.33 573.88,104.19 613.25,91.15 652.62,78.28 692.00,65.62" stroke="#94600a" stroke-width="3" fill="none"/><polyline points="62.00,254.16 101.37,234.12 140.75,222.17 180.12,216.90 219.50,214.69 258.88,210.76 298.25,202.58 337.62,190.76 377.00,176.78 416.38,161.69 455.75,146.18 495.12,130.79 534.50,116.38 573.88,104.52 613.25,97.38 652.62,96.67 692.00,102.13" stroke="#096472" stroke-width="3" fill="none"/><text x="692" y="307" text-anchor="end">事前补偿（元／千瓦时）</text></svg>
+<p>模拟目标是平均多调 120 秒。首次达到目标的点估计是 0.585 元／千瓦时。结合现有采样带，演示判断为<strong>采样范围支持达到目标</strong>。这个判断只覆盖本次模拟查询的金额网格。</p></section>
+<section><h2>各环节怎么接</h2><ol>
+<li>从参考和实际功率量出每笔任务的累计有效时长。需要连续性时，可查最长连续时长。</li>
+<li>按事前需求与离站余量核同类对象，再比较事前报价。结构诊断在本次模拟中找对的已知连接数为 2/5, 2/5，按 FCI、PC 顺序列出。</li>
+<li>任务考核中断或恢复时，展开真实充电过程案例。可在同一时间轴核对限额和实测功率。<a href="../b1_temporal_ev_demo_20261104/index.html">打开三例实测曲线</a></li>
+<li>估计补偿增加的总体效果。此原始功率队列的分组报价支持不足，分组的误差比较用下方另行生成的模拟队列。</li>
+<li>给定 120 秒目标后，结合点估计和证据范围报告达标、低于目标或证据不足。</li>
+</ol></section>
+<section><h2>同一批数据上的误差</h2>
+<p>原始功率链使用新模拟，计量间隔 10 秒。时长误差单位为秒。</p>
+<div class="table"><table><thead><tr><th>结果</th><th>原 CPOP</th><th>现用提取器</th><th>现用可测数</th></tr></thead><tbody><tr><td>累计时长</td><td>0.00</td><td>15.38</td><td>240</td></tr><tr><td>最长连续时长</td><td>0.00</td><td>35.33</td><td>240</td></tr></tbody></table></div>
+<p>再用 48 笔参照已知、信号清楚的新模拟核对，现用提取器的两项误差为 81.25 秒和 62.92 秒，原 CPOP 两项仍接近零。另 48 笔同时接近判定线且噪声更大，原 CPOP 的两项误差为 17.71 秒和 39.17 秒，现用提取器超出适用范围。</p>
+<p>把两种时长分别送入同一补偿估计器，原始功率队列的曲线误差分别为 58.96 秒和 46.79 秒。单笔时长的准确度和总体曲线的误差分别验收。</p>
+<p>补偿比较另用六个新模拟批次、共 24 组。候选合并样本拟合再按事前条件分组。平均误差下降，总体曲线仅 2/6 批改善，稳定性门槛为 4/6。演示采用现用连续方法。</p>
+<div class="table"><table><thead><tr><th>指标</th><th>现用</th><th>研究候选</th><th>共同可评</th></tr></thead><tbody><tr><td>总体补偿曲线误差（秒）</td><td>50.18</td><td>45.33</td><td>24 组</td></tr><tr><td>两组补偿效果差异误差（秒）</td><td>116.20</td><td>82.88</td><td>24 组</td></tr><tr><td>每增加单位补偿的效果误差（秒／金额单位）</td><td>146.02</td><td>119.24</td><td>24 组</td></tr></tbody></table></div>
+<p>另用 48 组新模拟检验达标判断。只看点估计错 3 组。加入证据范围后给出 32 个明确判断，其中错 0 组，另 16 组标为证据不足。</p></section>
+<section><h2>现场数据覆盖到哪里</h2><p>ACN 的真实记录可核对限额变化和功率跟随。当前可用的充电任务缺少能与响应对上的事前补偿，页面中的补偿增量、分组差异和目标判断均来自模拟。</p>
+<p><a href="README.md">复算说明与证据表</a> · <a href="physical.json">原始功率链结果</a> · <a href="confirmation.json">同条件比较明细</a></p></section>
+</main></body></html>

@@ -1,0 +1,3370 @@
+{
+  "passed": false,
+  "issues": [
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_heldout_users",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_TV_user_receipts",
+      "detail": null
+    },
+    {
+      "check": "CV_external_TV_receipts",
+      "detail": null
+    }
+  ],
+  "cohorts_checked": 120,
+  "development_roster": 24,
+  "confirmation_roster": 96,
+  "final_policy_curves_checked": 792,
+  "nested_outer_folds_checked": 360,
+  "heldout_events_checked": 

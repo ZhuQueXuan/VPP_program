@@ -1,0 +1,262 @@
+{
+  "passed": true,
+  "date": "2026-10-30",
+  "source_directory": "D:\\myDocu\\project_postg\\VPP_program\\B1算法",
+  "entry_point": "D:\\myDocu\\project_postg\\VPP_program\\B1算法\\b1_api.py",
+  "source_files": [
+    "README.md",
+    "b1_algorithm\\__init__.py",
+    "b1_algorithm\\api.py",
+    "b1_algorithm\\contracts.py",
+    "b1_algorithm\\effects\\__init__.py",
+    "b1_algorithm\\effects\\api.py",
+    "b1_algorithm\\effects\\core.py",
+    "b1_algorithm\\effects\\validation.py",
+    "b1_algorithm\\process\\__init__.py",
+    "b1_algorithm\\process\\_cpop.py",
+    "b1_algorithm\\process\\_frozen_f0.py",
+    "b1_algorithm\\process\\_policy.json",
+    "b1_algorithm\\process\\_ride_template.py",
+    "b1_algorithm\\process\\_template_fit.py",
+    "b1_algorithm\\process\\api.py",
+    "b1_algorithm\\process\\batch.py",
+    "b1_algorithm\\process\\cpop_batch.R",
+    "b1_algorithm\\reference\\__init__.py",
+    "b1_algorithm\\reference\\core.py",
+    "b1_algorithm\\runtime.json",
+    "b1_api.py",
+    "requirements.txt"
+  ],
+  "moved_file_count": 27,
+  "content_unchanged_files": 25,
+  "path_only_changes": [
+    "b1_algorithm/api.py",
+    "b1_algorithm/process/_cpop.py"
+  ],
+  "native_and_reference_numerical_identity": true,
+  "integration_checks": 31,
+  "integration_events": 600,
+  "process_materials": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_directory_migration_20261030",
+  "old_active_paths_absent": true,
+  "deletion_performed": false,
+  "new_report_or_package_created": false,
+  "scope": "source organization and runtime regression only; no new algorithm performance study",
+  "files": [
+    {
+      "old": "b1_api.py",
+      "new": "B1算法\\b1_api.py",
+      "role": "runtime",
+      "sha256_before": "a365eec2bef44004d235576e9056e2287d2adcf38a70a793ca0e02618869e9db",
+      "sha256_after": "a365eec2bef44004d235576e9056e2287d2adcf38a70a793ca0e02618869e9db",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/__init__.py",
+      "new": "B1算法\\b1_algorithm\\__init__.py",
+      "role": "runtime",
+      "sha256_before": "17821d408c459c019a338c911dbceceb9dbbf7472b31d9374509ca43b422ea5d",
+      "sha256_after": "17821d408c459c019a338c911dbceceb9dbbf7472b31d9374509ca43b422ea5d",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/api.py",
+      "new": "B1算法\\b1_algorithm\\api.py",
+      "role": "runtime",
+      "sha256_before": "f4ae9b550b32ce8e48942b86b0fb4d0c62390d3fa74ec229388e7c62f0a29f29",
+      "sha256_after": "2ec72088ee94cdff213f104255160e9af3a132c8598a9270008c2d55f8631401",
+      "unchanged_content": false
+    },
+    {
+      "old": "b1_algorithm/contracts.py",
+      "new": "B1算法\\b1_algorithm\\contracts.py",
+      "role": "runtime",
+      "sha256_before": "56a0b2929b0590cb51e7f465de8811e09af8740ace783104870bacf51b35605f",
+      "sha256_after": "56a0b2929b0590cb51e7f465de8811e09af8740ace783104870bacf51b35605f",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/runtime.json",
+      "new": "B1算法\\b1_algorithm\\runtime.json",
+      "role": "runtime",
+      "sha256_before": "55faf66314e0773a1b24f4d06a57e7b2402df0034965af366b04c0594c8af54a",
+      "sha256_after": "55faf66314e0773a1b24f4d06a57e7b2402df0034965af366b04c0594c8af54a",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/reference/__init__.py",
+      "new": "B1算法\\b1_algorithm\\reference\\__init__.py",
+      "role": "runtime",
+      "sha256_before": "2e3ff9375b4a688dddaa638f5656221ac612dd255bff3b34b130eed0d644e45e",
+      "sha256_after": "2e3ff9375b4a688dddaa638f5656221ac612dd255bff3b34b130eed0d644e45e",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/reference/core.py",
+      "new": "B1算法\\b1_algorithm\\reference\\core.py",
+      "role": "runtime",
+      "sha256_before": "3fb48f417a9a7a990f807cca51f949af2121f72d9e7c96e36d4961d37a092fa5",
+      "sha256_after": "3fb48f417a9a7a990f807cca51f949af2121f72d9e7c96e36d4961d37a092fa5",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/effects/__init__.py",
+      "new": "B1算法\\b1_algorithm\\effects\\__init__.py",
+      "role": "runtime",
+      "sha256_before": "f9a6fc6faf47745a4f1067cafbbbf9a4a5863dd78216f4fdae6faad1170b7b26",
+      "sha256_after": "f9a6fc6faf47745a4f1067cafbbbf9a4a5863dd78216f4fdae6faad1170b7b26",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/effects/api.py",
+      "new": "B1算法\\b1_algorithm\\effects\\api.py",
+      "role": "runtime",
+      "sha256_before": "c6f04e8afbd9f5c70a7014a22c6c89f4ff7806fd5fbd72b5780b6c7885f2417b",
+      "sha256_after": "c6f04e8afbd9f5c70a7014a22c6c89f4ff7806fd5fbd72b5780b6c7885f2417b",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/effects/core.py",
+      "new": "B1算法\\b1_algorithm\\effects\\core.py",
+      "role": "runtime",
+      "sha256_before": "1c7266f42ae37f2db3f5cc03f1ee0b0c756fe0909bb5e7aeb84eaf9ae0e01b71",
+      "sha256_after": "1c7266f42ae37f2db3f5cc03f1ee0b0c756fe0909bb5e7aeb84eaf9ae0e01b71",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/effects/validation.py",
+      "new": "B1算法\\b1_algorithm\\effects\\validation.py",
+      "role": "runtime",
+      "sha256_before": "eade90f215ebb211569d7b1fa975e1e90b541b666a2393aab9565f24148d4add",
+      "sha256_after": "eade90f215ebb211569d7b1fa975e1e90b541b666a2393aab9565f24148d4add",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/process/__init__.py",
+      "new": "B1算法\\b1_algorithm\\process\\__init__.py",
+      "role": "runtime",
+      "sha256_before": "a070c518802de12803870c994352573d60d51f98ba995dba0a0e769b501c52f2",
+      "sha256_after": "a070c518802de12803870c994352573d60d51f98ba995dba0a0e769b501c52f2",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/process/api.py",
+      "new": "B1算法\\b1_algorithm\\process\\api.py",
+      "role": "runtime",
+      "sha256_before": "5c8edd021d280cb68aed85a8f71a3cc0b4362783a4b13d127aea2d1080ed32ef",
+      "sha256_after": "5c8edd021d280cb68aed85a8f71a3cc0b4362783a4b13d127aea2d1080ed32ef",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/process/batch.py",
+      "new": "B1算法\\b1_algorithm\\process\\batch.py",
+      "role": "runtime",
+      "sha256_before": "3acb6e0d0075ad89ef72165ea03d438a89d838da135fb92b64ab18b2b0abdaa4",
+      "sha256_after": "3acb6e0d0075ad89ef72165ea03d438a89d838da135fb92b64ab18b2b0abdaa4",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/process/_cpop.py",
+      "new": "B1算法\\b1_algorithm\\process\\_cpop.py",
+      "role": "runtime",
+      "sha256_before": "aac9a7ca6b19bda23dddc711277f2d9fee6241a64940f74218e746c2bd8330a5",
+      "sha256_after": "c0226499016f6a47d79167f7ef4d659950ad331c15520595ec614e5f3f901437",
+      "unchanged_content": false
+    },
+    {
+      "old": "b1_algorithm/process/_frozen_f0.py",
+      "new": "B1算法\\b1_algorithm\\process\\_frozen_f0.py",
+      "role": "runtime",
+      "sha256_before": "c722dc3d03510e847be48d50f4a5dbce62f8f8cc11ae1d8ef1de05a126c8f0b7",
+      "sha256_after": "c722dc3d03510e847be48d50f4a5dbce62f8f8cc11ae1d8ef1de05a126c8f0b7",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/process/_ride_template.py",
+      "new": "B1算法\\b1_algorithm\\process\\_ride_template.py",
+      "role": "runtime",
+      "sha256_before": "876265fd1e36dfb62378a71b8ef7a439e3c3ec516e92f40480f5220980ba186d",
+      "sha256_after": "876265fd1e36dfb62378a71b8ef7a439e3c3ec516e92f40480f5220980ba186d",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/process/_template_fit.py",
+      "new": "B1算法\\b1_algorithm\\process\\_template_fit.py",
+      "role": "runtime",
+      "sha256_before": "8748dbd77355d84278d6ef373383f54ac55928a4265fef29103409d31ccdcf1b",
+      "sha256_after": "8748dbd77355d84278d6ef373383f54ac55928a4265fef29103409d31ccdcf1b",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/process/_policy.json",
+      "new": "B1算法\\b1_algorithm\\process\\_policy.json",
+      "role": "runtime",
+      "sha256_before": "c58513f5966b4fe20c2de8813c5d25b89fac457acce4f89ba707890d91c4b188",
+      "sha256_after": "c58513f5966b4fe20c2de8813c5d25b89fac457acce4f89ba707890d91c4b188",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/process/cpop_batch.R",
+      "new": "B1算法\\b1_algorithm\\process\\cpop_batch.R",
+      "role": "runtime",
+      "sha256_before": "88fb0417c700516a5933e2fd846b04902a547c01d7bedd89c4fb14d2f3a812cc",
+      "sha256_after": "88fb0417c700516a5933e2fd846b04902a547c01d7bedd89c4fb14d2f3a812cc",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/requirements.txt",
+      "new": "B1算法\\requirements.txt",
+      "role": "dependency",
+      "sha256_before": "a1458bee47c8dfdb31f3a049b4832c543bc7073c5a33b418208643caccce7f0a",
+      "sha256_after": "a1458bee47c8dfdb31f3a049b4832c543bc7073c5a33b418208643caccce7f0a",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/README.md",
+      "new": "work\\b1_directory_migration_20261030\\documentation\\b1_algorithm\\README.md",
+      "role": "documentation",
+      "sha256_before": "f799fb636da1821c986c1e065d318276d567fd2c61102f5352c4fd8eaa85e43d",
+      "sha256_after": "f799fb636da1821c986c1e065d318276d567fd2c61102f5352c4fd8eaa85e43d",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/reference/README.md",
+      "new": "work\\b1_directory_migration_20261030\\documentation\\b1_algorithm\\reference\\README.md",
+      "role": "documentation",
+      "sha256_before": "48cd78c5e702fa34a9fd8a9591fd84e19fd4b7577d2ecf1027f9a3542494d324",
+      "sha256_after": "48cd78c5e702fa34a9fd8a9591fd84e19fd4b7577d2ecf1027f9a3542494d324",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/process/README.md",
+      "new": "work\\b1_directory_migration_20261030\\documentation\\b1_algorithm\\process\\README.md",
+      "role": "documentation",
+      "sha256_before": "89e0711348daa507e15f76795b134c021af49985f434fb907578d42d6720d18c",
+      "sha256_after": "89e0711348daa507e15f76795b134c021af49985f434fb907578d42d6720d18c",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/process/SOURCE_ORIGIN.json",
+      "new": "work\\b1_directory_migration_20261030\\documentation\\b1_algorithm\\process\\SOURCE_ORIGIN.json",
+      "role": "documentation",
+      "sha256_before": "1e52396315aa1d0aa267d1b0e86785b34626f97a9cc67cb3637ecc89de83b679",
+      "sha256_after": "1e52396315aa1d0aa267d1b0e86785b34626f97a9cc67cb3637ecc89de83b679",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/effects/README.md",
+      "new": "work\\b1_directory_migration_20261030\\documentation\\b1_algorithm\\effects\\README.md",
+      "role": "documentation",
+      "sha256_before": "9e984a2ee910432150395e2c266134896d0a07051d410c070d8a6d4fa7771c19",
+      "sha256_after": "9e984a2ee910432150395e2c266134896d0a07051d410c070d8a6d4fa7771c19",
+      "unchanged_content": true
+    },
+    {
+      "old": "b1_algorithm/effects/SOURCES.json",
+      "new": "work\\b1_directory_migration_20261030\\documentation\\b1_algorithm\\effects\\SOURCES.json",
+      "role": "documentation",
+      "sha256_before": "11af092d65585cd365167b9a95c6178c1afb77a766fa7f1cc39ed45d87df3edc",
+      "sha256_after": "11af092d65585cd365167b9a95c6178c1afb77a766fa7f1cc39ed45d87df3edc",
+      "unchanged_content": true
+    }
+  ]
+}

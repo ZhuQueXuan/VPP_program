@@ -1,0 +1,49 @@
+{
+  "source_id": "lcl_ev",
+  "review_date": "2026-11-05",
+  "publisher": "UK Power Networks via Greater London Authority London Datastore",
+  "licence": "Creative Commons Attribution as stated by the publisher portal; portal short label does not specify the version",
+  "sources": {
+    "data_catalogue": "https://data.london.gov.uk/dataset/low-carbon-london-electric-vehicle-load-profiles-2y5k8",
+    "study_closedown_section_3_2_3": "https://www.ofgem.gov.uk/sites/default/files/docs/lcl_close_down_report_0.pdf",
+    "study_progress_section_3_3_1_1": "https://www.ofgem.gov.uk/sites/default/files/docs/2013/01/ukpn---lcl-project-progress-report-dec-2012_0.pdf",
+    "author_paper_index": "https://www.imperial.ac.uk/electrical-engineering/research/control-and-power/research/low-carbon-london/",
+    "author_paper_access": "Imperial lists Aunedi et al., CIRED 2015 paper 1088. Legacy paper and B5 report endpoints did not return readable full text; verified intervention facts from the primary project reports instead.",
+    "author_code": "No official replication code located in the project and data releases inspected. Third-party chargescape-london is a downstream load parser, not trial assignment code; it was not adopted."
+  },
+  "acquisition": {
+    "public_route": "anonymous byte-range GET; validated HTTP 206, Content-Range and ETag on every range",
+    "failure_preserved": "lcl_members_attempt1.json; first range request with If-Match and Python default UA returned HTTP 403 and no body bytes. Standard range request worked; cause of initial 403 not identified.",
+    "outer_directory": "lcl_members.json",
+    "sample_receipt": "lcl_sample_access.json",
+    "dictionary_receipt": "lcl_dictionary_access.json",
+    "sample_download_bytes": 967131,
+    "dictionary_download_bytes": 31139,
+    "nested_entries_including_dirs": {"commercial": 55, "public": 1, "residential": 78},
+    "sample_rule": "Residential CSV filename sort, size bounds and no survey path; first 2 qualifying members, each whole member CRC-verified, locally retained header and 60 first physical data lines. Data values were not used to select members."
+  },
+  "sample_clock_and_keys": {
+    "key_candidate": "Archive member basename equals SerialNo throughout each sampled file; (SerialNo, ReadingDate) unique on 120 sampled rows. No task ID or price arm in the sampled power files.",
+    "reading_date": "Date text day/month/year with no UTC offset. The July sample contains day 23; within each sample all 59 adjacent differences are 600 seconds. No DST crossing was sampled, so UTC vs local, interval labels and DST interpretation are not verified.",
+    "data_rows": 120,
+    "by_member": [
+      {"meter": "212175499", "rows": 60, "import_wh_zero": 60, "import_wh_blank": 0, "active_w": "column present, all 60 blank"},
+      {"meter": "212175512", "rows": 60, "import_wh_zero": 19, "import_wh_blank": 41, "active_w": "column absent"}
+    ],
+    "metering": "Raw columns label imported energy Wh and (where present) active power W. A numerical zero differs from a blank or absent channel. The samples alone do not establish counter/register semantics, quality, connected vehicle or interval-level zero energy; no kWh or seconds derived from these values."
+  },
+  "intervention_and_denominator": {
+    "residential": "The project reports 10 monitored residential EVs on EDF Eco 20:20, a static time-of-use tariff favoring evenings and weekends, with recruited EDF customers. This is a tariff package; no per-task assigned compensation. Reported vehicle count is not a verified release linkage or denominator.",
+    "public": "Carbon Sync controlled public charging posts at 3 locations (62 posts as reported in close-down). This is technical load control, a distinct trial from the residential price signal. The public release lists a CNO workbook, not a same-event cross-trial linkage.",
+    "crosswalk_check": "Read both package notes and the residential Token vs Recruit ID workbook. The workbook has one Cu. ID sheet, 79 XML row elements including headers, with Recruited Cu. ID, Token and Cu No. headings. No literal match to the two sample meter serials, and no tariff/price/control-group label found by the recorded string check. This does not establish an EDF assignment-to-meter linkage. The commercial package lists a Commercial Trial participants workbook; it belongs to the separate commercial monitor and was not used to infer the residential roster. Survey response files were not opened.",
+    "known_gaps": "No verified full allocation roster with tariff start/version and assignment rule linked to the meter windows. No 30-minute same-task price and metered response, trusted no-control baseline or vehicle pre-offer energy/departure snapshot. No join to the separate residential dynamic tariff release."
+  },
+  "decision": {
+    "admitted_incentive_events": 0,
+    "primary_30_minute_effective_duration": false,
+    "fixed_offer_window_energy_comparison": false,
+    "continuous_price_curve": false,
+    "allowed_scope": "Tariff trial documentation and descriptive charger load/meter quality at the release's proven granularity.",
+    "effect_estimation_run": false
+  }
+}

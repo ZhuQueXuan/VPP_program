@@ -1,0 +1,40 @@
+{
+  "adopted": true,
+  "date": "2026-10-30",
+  "kind": "optional metered-energy relative-effect input",
+  "source": "D:\\myDocu\\project_postg\\VPP_program\\B1算法\\b1_algorithm\\metered_effects.py",
+  "source_sha256": "77cdd96bb59859dd1a79dacc247d98bf781a1af91716c6baea2672f5dae345de",
+  "public_entry": "from b1_api import estimate_metered_effects",
+  "source_identical_to_validated_prototype": true,
+  "old_numeric_source_unchanged": true,
+  "existing_default_changed": false,
+  "changed_existing_files": [
+    "B1算法/b1_api.py",
+    "B1算法/README.md"
+  ],
+  "old_facade_and_readme_preserved": "adoption_before/",
+  "tests": {
+    "formal_contract_checks": 23,
+    "independent_boundary_checks": 14,
+    "legacy_integration_checks": 31,
+    "isolated_import": true
+  },
+  "study": {
+    "seed_blocks": 20,
+    "paired_scenarios": 4,
+    "event_variants": 288000,
+    "method_rows": 240,
+    "wrapper_vs_standard_AIPW_max_difference": 2.6645352591003757e-15,
+    "audit": "results/audit_receipt.json"
+  },
+  "conclusions": [
+    "Input dependence reduced: reference and process fit not needed for relative metered-energy effects",
+    "No universal precision improvement; predicted-reference and metered results nearly equal in this matched synthetic experiment",
+    "Original absolute-delivery and process pipeline remains; new absolute Z levels are not net delivery",
+    "No real-data validation or whole-B1 completion claim"
+  ],
+  "research_runtime_imports": false,
+  "report_generated": false,
+  "zip_generated": false,
+  "upstream_process_study": "../b1_unknown_reference_20261030/decision.json"
+}

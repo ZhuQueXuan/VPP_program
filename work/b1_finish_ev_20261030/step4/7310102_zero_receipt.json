@@ -1,0 +1,17 @@
+{
+  "seed": 7310102,
+  "shape": "zero",
+  "events": 1200,
+  "users": 600,
+  "status": "causal",
+  "direct_status": "causal",
+  "model_id": "935907aa53aa6ad100c85a2dad1c5efeaf6db1c7db091d2b873a344f3440f0cc",
+  "direct_max_abs_difference": 0.0,
+  "contrast_RMSE_seconds": 1.171498339024452,
+  "smoothed_derivative_vs_truth_RMSE": 6.950231200272462,
+  "threshold_status": "point_not_reached_on_mesh",
+  "point_crossing": null,
+  "candidate_cells": 0,
+  "not_reached_possible": true,
+  "seconds": 0.32919199999923876
+}

@@ -1,0 +1,25 @@
+{
+  "scope": "diagnose current RIDE versus original CPOP only; no production/default replacement or report; user decides the next candidate after findings",
+  "data_role": "previous mainline data are now seen diagnostic data, not a new independent performance test",
+  "source_study": "work/b1_ev_mainline_20261030",
+  "seeds": [5312100,5312101,5312102,5312103,5312104,5312105,5312106,5312107],
+  "subset": "first16 users, both events, in original ordered source;32 events per seed per scenario; no error-based selection",
+  "scenarios": ["positive","zero"],
+  "factual_variants": 512,
+  "independent_blocks": 8,
+  "levels": [
+    "selected_reference_meter_noise: reuse saved outputs",
+    "oracle_reference_meter_noise: replace reference only",
+    "oracle_reference_no_noise: remove meter noise, keep declared sigma0.05",
+    "oracle_reference_no_noise_no_post_rebound: change post-window power only to natural reference",
+    "oracle_reference_no_noise_relaxed_rebound: same input; only RIDE rebound ratio bound1 to1.5"
+  ],
+  "reference_scope": "Oracle reference and noiseless observations are evaluator-only diagnostics, never declared pre-notice available inputs",
+  "unchanged": ["task30min","request1.5kW","1min full interval means","pre/post15min","threshold0.1q","sigma0.05 including noiseless diagnostics","original CPOP beta2logN and exact pruning","original RIDE BIC and solver except explicitly labelled bound/probe"],
+  "outcomes": ["task curve RMSE","cumulative duration signed and absolute error","raw threshold duration","false detection for trueR0","miss for trueRpositive","eta raw error","post-window residual"],
+  "post_ablation_interpretation": "removing rebound jointly removes timing and amplitude constraints; cannot attribute all improvement to one parameter",
+  "optimization_probe": "first2 positive participating near_step events per seed, chosen by mechanism/order not error; oracle/noiseless/relaxed bound; analytic feasible M2 witness, and fixed n_starts minimum3 versus12; no source change or tuning search",
+  "positive_control": "four predeclared exactly representable M1/M2 controls at1min, with/without delayed rebound/internal gap, clean/noisy, q1.5 and rebound within oldbound; only algorithm sanity, not a new performance sample",
+  "stop": "one frozen diagnostic run; no repeated search until winning; retain failures; do not select final model or claim universal improvement",
+  "deferred": ["new candidate implementation","new independent development/validation/test","continuous threshold/time-series steps","reports","other resources"]
+}

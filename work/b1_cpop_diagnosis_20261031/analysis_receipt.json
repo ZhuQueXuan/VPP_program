@@ -1,0 +1,32 @@
+{
+  "status": "completed_analysis_only",
+  "saved_cases_checked": 3,
+  "scientific_inputs_unchanged": 9,
+  "new_estimator_calls": 0,
+  "new_parameters_selected": false,
+  "algorithm_modified": false,
+  "proposal_not_validated": true,
+  "comparators_retained": [
+    "original_CPOP",
+    "LABS"
+  ],
+  "report_postponed": true,
+  "sources": [
+    {
+      "title": "CPOP JSS2024",
+      "url": "https://www.jstatsoft.org/article/view/v109i07"
+    },
+    {
+      "title": "R-FPOP short-segment limitation",
+      "url": "https://arxiv.org/html/1609.07363v2"
+    },
+    {
+      "title": "MOSUM linear Technometrics2024",
+      "url": "https://doi.org/10.1080/00401706.2024.2308202"
+    },
+    {
+      "title": "GRACE2026 v2 preprint",
+      "url": "https://arxiv.org/html/2609.28831v2"
+    }
+  ]
+}

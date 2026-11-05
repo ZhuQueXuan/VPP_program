@@ -1,0 +1,8 @@
+{
+  "elapsed_s": 35.859936599998036,
+  "observation_count": 2400,
+  "outputs": 4800,
+  "predictions_sha256": "e33aa6382d51b7476de5a5ffbcdd637575e49f1b342e3487500290d60ab9d484",
+  "fits_sha256": "1320e0eada72980a2a619827aa18fcfedcc4e0f9b53bcdf68953611cd0879ff5",
+  "raw_sha256": "0a781d07911e8281d1e4d446d6675867dd8e9e2c34252741b4e39c752804e1b0"
+}

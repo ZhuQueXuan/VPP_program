@@ -1,0 +1,6 @@
+{
+  "stage": "Before any parameter-selection result or validation inference",
+  "observed_error": "The retained42-feature numerical helper assumes n>=4; the real case18 has only3 native observations and its central quartile is empty.",
+  "repair": "Declare learned features unavailable on fewer than4 original observations and preserve the original CPOP result with an explicit feature_unavailable status. Do not pad, stretch, delete points or manufacture a missing quantile.",
+  "no_selected_model_or_validation_result_before_repair": true
+}

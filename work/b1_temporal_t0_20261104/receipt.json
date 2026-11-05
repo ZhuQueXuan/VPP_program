@@ -1,0 +1,25 @@
+{
+  "protocol_sha256": "ac236e94cbbe7d347b59aa15493d1d4789c39d11e4bcdf44551e46dcf304aed3",
+  "audit_code_sha256": "d5f1c2d98ed7681df3e02403d6dd3f44bf6189d301602671f226900519687769",
+  "development_manifest_sha256": {
+    "training": "2c4e10cce154bf0111bdc7be2201e6ed2ccbd4de3b917b09267c8ed25eed57e6",
+    "validation": "485085f3d50373eb1fff28694dfc0320034bc56334e51558be3d47ee86ede112"
+  },
+  "sessions": 1423,
+  "users": 156,
+  "statuses": {
+    "anchor_selected": 1190,
+    "no_eligible_anchor": 230,
+    "unreadable_source": 3
+  },
+  "strata": {
+    "complete_multistep": 791,
+    "incomplete": 246,
+    "complete_single": 92,
+    "complete_return_window": 61
+  },
+  "return_candidates": 298,
+  "return_windows_usable": 76,
+  "blind_records": 24,
+  "models": 0
+}

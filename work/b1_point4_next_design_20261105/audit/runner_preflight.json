@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "research_fits": 0,
+  "research_cohorts_generated": 0,
+  "positive": {
+    "stage": "development",
+    "gates": {
+      "exact_cohort_set": true,
+      "common_output": true,
+      "zero_reference": true,
+      "overall_unchanged": true,
+      "gain_B0": true,
+      "mechanisms_B0": 

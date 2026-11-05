@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "fixture_seed": 90345991,
+  "simulated_fixture_users": 240,
+  "simulated_fixture_events": 480,
+  "research_dev_or_final_generated": false,
+  "old_confirmation_read": false,
+  "validation_outcome_shift": 37.0,
+  "unchanged_training_pseudo_outcomes": true,
+  "unchanged_training_only_external_mu_weights_and_densities": true,
+  "unchanged_validation_component_predictions": true,
+  "validation_pseudo_outcome_shift_equals_weight_times_shift_max_error": 9.237055564881302e-14,
+  "external_vs_official_custom_fold_max_errors": {
+    "pseudo_outcome": 0.0,
+    "stabilized_weight": 0.0,
+    "outcome_prediction": 0.0,
+    "observed_dose_density": 0.0
+  },
+  "gps_inner_seed_rule": "cfg.seed + outer_fold + 130",
+  "complete_pipeline_call_counts": {
+    "training_crossfit": 3,
+    "external_pseudo": 3
+  },
+  "complete_users_disjoint_in_every_outer_fold": true,
+  "every_event_held_out_once": true,
+  "observed_dose_level_risk_not_contrast_risk": true,
+  "fixture_selected_alpha": 0.0,
+  "fixture_valid_events": 423,
+  "analytic_quadratic_alpha_exact": true,
+  "analytic_loss_no_greater_than_1001_point_grid": true,
+  "forced_failed_fold_keeps_all_spline": true,
+  "forced_failed_fold_recorded": true,
+  "json_contains_no_nan": true,
+  "nested_source_sha256": "c9060ca7ee4d219f73a3aa2c3453b09480eaa396d356dc6afaca763878a45563"
+}

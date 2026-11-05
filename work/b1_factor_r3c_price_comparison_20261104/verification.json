@@ -1,0 +1,19 @@
+{
+  "excel_xml_rows": 17520,
+  "candidate_dates_recovered": 178,
+  "candidate_full_days_and_window_keys_checked": 178,
+  "cm_plan_dates_replayed": 21,
+  "cm_clock_hypotheses_checked": 84,
+  "dst_days_checked": 2,
+  "calendar_edge_days_checked": 2,
+  "seasonal_support_counts_reproduced": true,
+  "matching_ceiling_reproduced": 0,
+  "meter_files_opened": 0,
+  "sha256": {
+    "protocol.json": "f5b033f62101e89741e8b02753de73d85ab6ad2f5f627231efa58c5b659e9011",
+    "source_receipt.json": "b5a522cebdbcc668184daae9cd26ab3953ba4bdbe43f1a5297566cd038dac7ea",
+    "event_dates.csv": "8f6a706909d73ef7c29a475dd68a3d37556991c909204cfad47656dfbf1dcf42",
+    "decision.json": "9c560a9d6b748c784971f15f92f3c487091ebc694f184c2e629085b0afc444ff",
+    "audit.py": "63856733b48ca89bb1b1e36a0b294ed3242e35deee581ac5700cfd550780b783"
+  }
+}

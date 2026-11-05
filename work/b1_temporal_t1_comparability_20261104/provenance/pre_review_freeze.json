@@ -1,0 +1,32 @@
+{
+  "rules_sha256": "a9aaa4a0a4085d1bd9d99d3c58c5cba95f192b3e80c66c7bc211d0f9feda8504",
+  "builder_sha256": "383c7b3f8bb4b5fd264bf4eb326b2a6cc1d89b318e18252a3b1d633c8948c1a3",
+  "input_sha256": {
+    "b1_response_factors_20261104/raw/heat.zip": "7be96ff450c2d61549670454dcb1d0840164cfa81b1318b102b2c9da36f774df",
+    "b1_temporal_t0_blind_20261104/provenance/heat_event_ledger.json": "8cf155ca6017a20d28086bb9fe833ca38b1edb3db5e2d2081bbb180956c7e424",
+    "b1_temporal_t0_20261104/acn_control_ledger.json": "617b3e9aec899b84d9308259a474661cd6b79ba3cfaf2226b86ef3280bccd6ac"
+  },
+  "frozen_outputs_sha256": {
+    "blind_pairs/index.html": "5b0b2ee8f78b4d60fb0ccb009a3ded590f82e048864343d0cc3d1b3a167b9980",
+    "blind_pairs/M01.png": "2a8b5d7d06d4b377f2edb71d85c5b107eab15e327842eccf1c1a084e217fa86a",
+    "blind_pairs/M01_A.csv": "ce33c92f85affbe6783ce602a3f9902429432bac8aed9837266f7009e5222719",
+    "blind_pairs/M01_B.csv": "d2d0149c7c39fe4cca3bd8912c1c360714562633523bf598f6f8a41224e49cca",
+    "blind_pairs/M02.png": "a0bbe34ee70a32f6a4603491808d912fdfee7bf012290fef7a2ce51f7aade679",
+    "blind_pairs/M02_A.csv": "37270bf5b30ddd3d41460a7d101d1d88b28c9045c2a732d1c14f1ba801367464",
+    "blind_pairs/M02_B.csv": "5567e05a29f8a229471ade384d6c0aef660efb9739a5ffa7e19f7a89e169d9dc",
+    "blind_pairs/M03.png": "8e33ae7823c9a9ae583260a05c06183fcb0adaf9e2a46bf96f816341709aa898",
+    "blind_pairs/M03_A.csv": "fbceda82d2dd9d33489a1e51a098eeaf4882f058c80eb858b54822a3c30cf9b7",
+    "blind_pairs/M03_B.csv": "6441b554e48de33d2c729006fe1ea91b962ffbdea158b003250105781f2e6925",
+    "blind_pairs/M04.png": "20284e3f077aef72b31bb3a220c3072d69321c3c35516163f1d239d4e82cdb4a",
+    "blind_pairs/M04_A.csv": "37270bf5b30ddd3d41460a7d101d1d88b28c9045c2a732d1c14f1ba801367464",
+    "blind_pairs/M04_B.csv": "a00516f9c23d9135c8a422d64f180cdbb8d1e949bc45ac8bfe1ccb422e6c7987",
+    "provenance/acn_control_matches.csv": "3ee816342976e44b3651c43a245968fe05a4dcc5de304e4107b6e66e6320ceb5",
+    "provenance/acn_unmatched_complete.json": "1066823ad08c474392069c78ae3406e280e10051f1ce584eb2aa43baaba28dec",
+    "provenance/heat_accepted_pairs_and_triples.json": "d2a98c1dff0e3f17dc477c2654b7919a940476cea7e14651f86acb72f5d293ae",
+    "provenance/heat_cross_house_pair_ledger.csv": "0328512776626fd82fed3c2ca8387b1635a3dfbee84c240884eb732df009f27a",
+    "provenance/heat_events.json": "71de16138279cc6c1551c340aaa12e4594f69804345a85ff8b4e0d4e21b45613",
+    "provenance/matching_summary.json": "5638e7bb4665b2b71c81bc8c15a053fe50201d4f4f68d51452c6ef4f287ccbd3"
+  },
+  "models_fitted": 0,
+  "used_old_confirmation": false
+}

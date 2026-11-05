@@ -1,0 +1,13 @@
+{
+  "schema":"b1.unknown-reference-pilot.cpop-sensitivity.v1",
+  "timing":"Added after response-validation results were seen, before test facts generation",
+  "reason":"Main common effective residual sigma differs from original declared meter sigma. Check that apparent gains do not arise solely from changing CPOP's noise scale.",
+  "same_algorithm_and_block":true,
+  "method":"Original native CPOP core and beta2log60, declared meter_sigma_kw=0.05",
+  "main_protocol_or_freeze_modified":false,
+  "same_facts_reference_features_calibration":true,
+  "calibration":"Independent original48users2events; same fitted-curve scan/max-user upper rank alpha.05; recalibrate this noise configuration separately",
+  "test":"Same four blocks as main pilot, no new seeds or extra sample; parameters and script freeze before test generation",
+  "report":"Report main effective-sigma and meter-sigma CPOP configurations together. No test-based baseline choice, parameter search or winning-configuration-only claim.",
+  "scope":"One CPOP block-level comparator with a fixed sensitivity setting, not a new per-module benchmark or algorithm"
+}

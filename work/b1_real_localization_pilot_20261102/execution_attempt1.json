@@ -1,0 +1,8 @@
+{
+  "status": "execution_failed_before_any_selection_or_validation",
+  "training_native_cpop_chunks_completed": 4,
+  "error": "Original helper concurrently created shared LABS parent directories; Windows mkdir raised WinError5 at native/training/labs/chunk001.",
+  "repair": "Create shared parent once before parallel chunk creation; retain the failed attempt and use a distinct next-attempt artifact directory. No algorithm, inputs, labels, thresholds or native implementations changed.",
+  "performance_decision_made": false,
+  "closed_test_read": false
+}

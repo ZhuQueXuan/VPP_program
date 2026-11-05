@@ -1,0 +1,35 @@
+{
+  "utc": "2026-10-29T14:59:52.115443+00:00",
+  "protocol_sha256": "a7bcb68017ddf939f3a97dcc96a16c1e9869a82a43216b54d54499985b917c9c",
+  "code_sha256": {
+    "api.py": "5c8edd021d280cb68aed85a8f71a3cc0b4362783a4b13d127aea2d1080ed32ef",
+    "batch.py": "3acb6e0d0075ad89ef72165ea03d438a89d838da135fb92b64ab18b2b0abdaa4",
+    "cpop_batch.R": "88fb0417c700516a5933e2fd846b04902a547c01d7bedd89c4fb14d2f3a812cc",
+    "SOURCE_ORIGIN.json": "1e52396315aa1d0aa267d1b0e86785b34626f97a9cc67cb3637ecc89de83b679",
+    "_cpop.py": "aac9a7ca6b19bda23dddc711277f2d9fee6241a64940f74218e746c2bd8330a5",
+    "_frozen_f0.py": "c722dc3d03510e847be48d50f4a5dbce62f8f8cc11ae1d8ef1de05a126c8f0b7",
+    "_policy.json": "c58513f5966b4fe20c2de8813c5d25b89fac457acce4f89ba707890d91c4b188",
+    "_ride_template.py": "876265fd1e36dfb62378a71b8ef7a439e3c3ec516e92f40480f5220980ba186d",
+    "_template_fit.py": "8748dbd77355d84278d6ef373383f54ac55928a4265fef29103409d31ccdcf1b",
+    "__init__.py": "a070c518802de12803870c994352573d60d51f98ba995dba0a0e769b501c52f2"
+  },
+  "evaluator_sha256": "db0ae4258376f929614c52c0db9aa34d254646da924b332eaa05a18aad433781",
+  "policy": {
+    "version": "formal-process-v1",
+    "default": "guarded",
+    "guarded_admitted": true,
+    "reason": "development_prespecified_admission_passed",
+    "development_relative_rmse_improvement": 0.0429907846041081,
+    "development_block_differences": [
+      -0.002208445909450269,
+      -0.003206945357578404,
+      -0.0029059205498301855,
+      -0.001241868361972706,
+      -0.0022061828327997603,
+      -0.002167442649557948
+    ],
+    "admission_rule": "6of6_nonworse_and_at_least1percent_aggregate_gain",
+    "development_metrics_sha256": "f0c692c0d428a61400850b204b84157228c94fd679c5220197365da415e2b4cb"
+  },
+  "no_test_tuning": true
+}

@@ -1,0 +1,17 @@
+{
+  "version": "formal-process-v1",
+  "default": "guarded",
+  "guarded_admitted": true,
+  "reason": "development_prespecified_admission_passed",
+  "development_relative_rmse_improvement": 0.0429907846041081,
+  "development_block_differences": [
+    -0.002208445909450269,
+    -0.003206945357578404,
+    -0.0029059205498301855,
+    -0.001241868361972706,
+    -0.0022061828327997603,
+    -0.002167442649557948
+  ],
+  "admission_rule": "6of6_nonworse_and_at_least1percent_aggregate_gain",
+  "development_metrics_sha256": "f0c692c0d428a61400850b204b84157228c94fd679c5220197365da415e2b4cb"
+}

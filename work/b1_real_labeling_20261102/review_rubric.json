@@ -1,0 +1,21 @@
+{
+  "created_stage": "Clarified during first development visual review; not preregistered before first viewing and not selected using model performance.",
+  "unit": "One selected 240-second observation window, not an independent physical vehicle or a full 30-minute task.",
+  "window_observation_label": {
+    "observed_change": "A distinguishable recorded step, pulse, sustained ramp or stop anywhere in the window. Does not prove cause or absence of a sensor problem.",
+    "no_observable_change": "No distinguishable directed episode at native sampling and visible variation, allowing ordinary small fluctuations. Does not assert exactly zero latent response.",
+    "unresolved": "Coverage or channel interpretation prevents a dependable window decision. Never a negative training label."
+  },
+  "anchor_following_label": {
+    "observed_change": "A distinguishable current/power change close to the received-limit edge, directionally and temporally consistent. Association only, not control success or causality.",
+    "no_observable_change": "The received-limit edge has no distinguishable nearby current/power episode; later or earlier changes are recorded separately.",
+    "unresolved": "Overlapping taper, nearby edges, sparse coverage or unclear channel meaning prevents attribution to the anchor.",
+    "not_applicable_no_limit_edge": "Quiet received-limit window; still inspect for uncommanded observed changes."
+  },
+  "timing": "Onset and recovery-completion brackets are manually selected pairs of adjacent original samples. They bracket observed transitions at the recording resolution, not certified physical confidence intervals. No sub-sample interpolation. Recovery means observed return near the earlier level, not duration above the old 0.15kW physical criterion. No effective-duration target is created by subtracting these fields.",
+  "censoring": "No visible recovery means null recovery plus explicit right-censor/next-limit status, never zero duration. Multiple episodes and pre-anchor changes remain noted.",
+  "power_descriptors": "Only explicit manually reviewed native plateau ranges have medians; they describe recorded levels, not noise-free power or untreated counterfactuals. Single low points are retained but not called stable plateaus.",
+  "reviewer": "One assistant reviewing raw plots and original values. No independent human or fault reference; all decisions provisional pending independent review.",
+  "negative_controls": "Quiet limit is a sampling stratum, not a negative outcome. A limit above actual draw need not produce a response. Same-EVSE current/power agreement is consistency, not independent metering.",
+  "restrictions": "No fitting, candidate tuning, CPOP/LABS teacher labeling, held-out observation access, raw-point deletion or gap filling. This pilot does not establish population class rates, real accuracy or physical fault labels."
+}

@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "check_groups": [
+    "causal_requires_support_and_explicit_assumptions",
+    "unconfirmed_assumptions_only_standardized_association",
+    "known_probabilities_do_not_prove_randomization",
+    "declared_constant_randomization_has_arm_mean_baseline",
+    "randomization_declaration_needs_design_probabilities",
+    "covariate_dependent_randomization_withholds_unadjusted_mean_baseline",
+    "post_treatment_task_declaration_prevents_causal_claim",
+    "deterministic_assignment_withholds_conclusions",
+    "sparse_training_arm_has_explicit_fold_and_arm_reasons",
+    "nonfinite_missing_boolean_string_and_unknown_dose_rejected_9",
+    "configuration_domains_checked_12",
+    "out_of_float64_scalar_domain_structured_rejection",
+    "known_pi_shape_probability_and_finiteness_checked",
+    "cannot_declare_unimplemented_full_uncertainty_propagation",
+    "assumption_flags_reject_truthy_strings",
+    "independent_AIPW_loop_and_cluster_standard_errors",
+    "original_user_never_crosses_training_and_evaluation_fold",
+    "nonmonotone_first_crossing_candidates_not_isotonically_tightened",
+    "legacy_binary_G1_valid_domain_exact_and_no_sparse_cell_dropping",
+    "formal_default_matches_one_frozen_research_fixture_score_no_study_rerun",
+    "native_DoubleMLAPOS_0p11p4_same_formal_predictions_and_user_folds"
+  ],
+  "n_groups": 21,
+  "score_loop_max_error": 0.0,
+  "frozen_score_max_error": 0.0,
+  "native_DoubleML_version": "0.11.4",
+  "native_DoubleML_contrast_max_error": 1.3877787807814457e-15,
+  "official_iid_SE_used": false,
+  "all_API_results_JSON_allow_nan_false": true,
+  "main_20_seed_study_rerun": false,
+  "source_sha256": {
+    "api.py": "c6f04e8afbd9f5c70a7014a22c6c89f4ff7806fd5fbd72b5780b6c7885f2417b",
+    "core.py": "1c7266f42ae37f2db3f5cc03f1ee0b0c756fe0909bb5e7aeb84eaf9ae0e01b71",
+    "validation.py": "eade90f215ebb211569d7b1fa975e1e90b541b666a2393aab9565f24148d4add",
+    "__init__.py": "f9a6fc6faf47745a4f1067cafbbbf9a4a5863dd78216f4fdae6faad1170b7b26"
+  }
+}

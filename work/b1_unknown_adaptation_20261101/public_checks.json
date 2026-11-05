@@ -1,0 +1,1 @@
+{"passed":true,"new_public_events":10,"old_public_events":10,"matched_frozen_test_curves":true,"original_notice_reference_and_raw_energy_identical":true,"original_duration_model_unchanged":true,"source_snapshots_verified":true,"changed_files":["B1算法/b1_algorithm/process/api.py","B1算法/b1_algorithm/process/batch.py"]}

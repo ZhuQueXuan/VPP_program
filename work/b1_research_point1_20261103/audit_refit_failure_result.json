@@ -1,0 +1,8 @@
+{
+  "status": "passed_injected_failure_branch_test",
+  "injected_failures": 1,
+  "actual_following_refits": 98,
+  "failure_retained": true,
+  "interval_marked_incomplete": true,
+  "note": "not an empirical failure rate; the first failure was deliberately injected only in this isolated audit process"
+}

@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "n_checks": 43,
+  "checks": [
+    "profiled amplitude matches independent boxLS 0",
+    "profiled amplitude matches independent boxLS 1",
+    "profiled amplitude matches independent boxLS 2",
+    "profiled amplitude matches independent boxLS 3",
+    "profiled amplitude matches independent boxLS 4",
+    "profiled amplitude matches independent boxLS 5",
+    "profiled amplitude matches independent boxLS 6",
+    "profiled amplitude matches independent boxLS 7",
+    "profiled amplitude matches independent boxLS 8",
+    "profiled amplitude matches independent boxLS 9",
+    "profiled amplitude matches independent boxLS 10",
+    "profiled amplitude matches independent boxLS 11",
+    "positive interval mean matches independent dense piecewise definition",
+    "delayed recharge interval mean matches independent rectangle",
+    "ordinary_M1 returns checked local result",
+    "ordinary_M1 exact task duration",
+    "ordinary_M1 small task curve error",
+    "ordinary_M1 no global certificate",
+    "release_at_end returns checked local result",
+    "release_at_end exact task duration",
+    "release_at_end small task curve error",
+    "release_at_end no global certificate",
+    "end_wait returns checked local result",
+    "end_wait exact task duration",
+    "end_wait small task curve error",
+    "end_wait no global certificate",
+    "internal_gap_and_wait returns checked local result",
+    "internal_gap_and_wait exact task duration",
+    "internal_gap_and_wait small task curve error",
+    "internal_gap_and_wait no global certificate",
+    "wait_after_task returns checked local result",
+    "wait_after_task exact task duration",
+    "wait_after_task small task curve error",
+    "wait_after_task no global certificate",
+    "none returns checked local result",
+    "none exact task duration",
+    "none small task curve error",
+    "none no global certificate",
+    "exhausted solves do not become successful fits",
+    "old one-minute default unchanged",
+    "public repaired method usable",
+    "raw eta unchanged and correct",
+    "selected diagnostics distinguish repair"
+  ],
+  "controls": [
+    {
+      "control": "ordinary_M1",
+      "task_rmse": 2.5639502485114184e-16,
+      "duration_error": 0.0,
+      "structure": 1,
+      "solver_starts": 9
+    },
+    {
+      "control": "release_at_end",
+      "task_rmse": 2.413685519531612e-08,
+      "duration_error": 0.0,
+      "structure": 1,
+      "solver_starts": 7
+    },
+    {
+      "control": "end_wait",
+      "task_rmse": 5.3031077463296675e-12,
+      "duration_error": 0.0,
+      "structure": 1,
+      "solver_starts": 11
+    },
+    {
+      "control": "internal_gap_and_wait",
+      "task_rmse": 5.765798237976173e-07,
+      "duration_error": 0.0,
+      "structure": 2,
+      "solver_starts": 9
+    },
+    {
+      "control": "wait_after_task",
+      "task_rmse": 5.303107714198704e-12,
+      "duration_error": 0.0,
+      "structure": 1,
+      "solver_starts": 11
+    },
+    {
+      "control": "none",
+      "task_rmse": 0.0,
+      "duration_error": 0.0,
+      "structure": 0,
+      "solver_starts": 9
+    }
+  ],
+  "performance_claim": false
+}

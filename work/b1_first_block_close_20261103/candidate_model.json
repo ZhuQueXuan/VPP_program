@@ -1,0 +1,31 @@
+{
+  "schema": "closing.recovery.v1",
+  "model": {
+    "mean": [
+      0.6197961931966074,
+      0.5890563263801432,
+      1.797110158324521,
+      1.7025416393730215
+    ],
+    "scale": [
+      0.8546593149006905,
+      0.834069001866028,
+      1.5422513787601135,
+      1.5875297822217127
+    ],
+    "coef": [
+      -0.5119964429755829,
+      -0.6359451469272388,
+      -1.1927288470350617,
+      -1.1855376537488296
+    ],
+    "intercept": -0.465898815719402
+  },
+  "threshold": 0.7,
+  "features": [
+    "relative_power_distance",
+    "relative_current_distance",
+    "log_absolute_power_distance_z",
+    "log_absolute_current_distance_z"
+  ]
+}

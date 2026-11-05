@@ -1,0 +1,151 @@
+{
+  "status": "passed",
+  "font": "黑体 SimHei",
+  "scope": "document title, all section headings, captions and table header rows; all scripts incl Latin letters and numbers",
+  "content_unchanged": true,
+  "math_unchanged": true,
+  "figures_unchanged": true,
+  "paragraphs_and_headers": [
+    {
+      "kind": "Title",
+      "text": "课题一B1与B2算法阶段汇报"
+    },
+    {
+      "kind": "Heading 1",
+      "text": "本次汇报的两个问题"
+    },
+    {
+      "kind": "Caption",
+      "text": "图1 两项算法的职责及信息边界。B1解释平均作用，B2预测指定任务的交付。"
+    },
+    {
+      "kind": "Heading 1",
+      "text": "一 B1如何从功率曲线得到过程特征"
+    },
+    {
+      "kind": "Caption",
+      "text": "图2 已保存测试样例的参考与带噪模拟功率。灰线为参考，蓝线为观测功率；单位为kW和s。"
+    },
+    {
+      "kind": "Heading 2",
+      "text": "一条可以逐步解释的样例"
+    },
+    {
+      "kind": "Heading 1",
+      "text": "二 B1如何区分激励作用与原有差异"
+    },
+    {
+      "kind": "Caption",
+      "text": "图3 分析使用的简化结构假设。X与W是事前因素，A是激励后的参加结果。"
+    },
+    {
+      "kind": "table_caption",
+      "text": "表1 测试总体的20次重复结果。G0为未调整比较，G1为合法事前调整；均值与RMSE分别报告，参考真效应由模拟机制计算。"
+    },
+    {
+      "kind": "Heading 1",
+      "text": "三 B1补充实验支持哪些方法取舍"
+    },
+    {
+      "kind": "table_caption",
+      "text": "表2 各实验的单位和参照不同，不作跨指标总分。抗噪实验的基础重复数为25，交点实验为100；配对观测变体不作为独立重复。"
+    },
+    {
+      "kind": "Heading 2",
+      "text": "结构学习和复杂表示仍有哪些限制"
+    },
+    {
+      "kind": "Heading 1",
+      "text": "四 B2怎样把能力与意愿连接起来"
+    },
+    {
+      "kind": "Heading 2",
+      "text": "一条实际查询怎样得到预计交付"
+    },
+    {
+      "kind": "Heading 1",
+      "text": "五 B2分层预测和行为模型的实验结果"
+    },
+    {
+      "kind": "Heading 2",
+      "text": "先检验分层是否有用"
+    },
+    {
+      "kind": "table_caption",
+      "text": "表3 首轮20次重复的全部测试事件；每次600用户8事件，360/120/120用户隔离。包含不可发送、拒绝和执行失败，另评价可发送子集。RMSE与Brier均越低越好，Brier是概率与实际0/1结果之差的均方。"
+    },
+    {
+      "kind": "Heading 2",
+      "text": "再检验参考点和风险表达的增量"
+    },
+    {
+      "kind": "Heading 1",
+      "text": "六 B2补齐基本动态响应与恢复过程"
+    },
+    {
+      "kind": "Caption",
+      "text": "图4 五种声明执行模板。纵向幅度按任务归一化；来自上一页查询的条件状态概率，尚非任意连续时序学习。"
+    },
+    {
+      "kind": "Heading 1",
+      "text": "附录 会议追问时的计算与证据"
+    },
+    {
+      "kind": "Heading 2",
+      "text": "B1分层调整的单次计算样例"
+    },
+    {
+      "kind": "Heading 2",
+      "text": "会上需要讲清的四个判断"
+    },
+    {
+      "kind": "Heading 2",
+      "text": "依据与结果入口"
+    },
+    {
+      "kind": "table_header",
+      "table": 1,
+      "text": "算法 | 主要输入 | 目前输出"
+    },
+    {
+      "kind": "table_header",
+      "table": 2,
+      "text": "场景 | 参考真效应\ns | G0均值\ns | G1均值\ns | G0误差\nRMSE s | G1误差\nRMSE s"
+    },
+    {
+      "kind": "table_header",
+      "table": 3,
+      "text": "研究问题 | 主要证据 | 目前判断"
+    },
+    {
+      "kind": "table_header",
+      "table": 4,
+      "text": "接受后的执行情景 | 条件概率 | 整窗平均执行比例"
+    },
+    {
+      "kind": "table_header",
+      "table": 5,
+      "text": "首轮模型 | 实际交付\nRMSE kW | 条件均值\nRMSE kW | 严格全30分钟\n任务Brier"
+    },
+    {
+      "kind": "table_header",
+      "table": 6,
+      "text": "比较口径 | 测试结果 | 解释"
+    },
+    {
+      "kind": "table_header",
+      "table": 7,
+      "text": "结果 | 已保存数值 | 应如何理解"
+    },
+    {
+      "kind": "table_header",
+      "table": 8,
+      "text": "X W | 低激励均值 s | 高激励均值 s | 层内差 s | 测试权重"
+    }
+  ],
+  "before_sha": "0b987e68ba19067d464526c1da7af06e31a727e6cd45f3c5e65d29d9b3871fa1",
+  "after_sha": "d64e9dc3199360247a55960125b29cf3e7b35a349be4de58d083a00644c3294a",
+  "pdf_heading_spans_verified": 17,
+  "pdf_exported_from_fixed_word": true,
+  "pages_visually_checked": 8
+}

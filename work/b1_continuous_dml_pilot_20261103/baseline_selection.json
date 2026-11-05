@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-11-03T06:20:31.268015+00:00",
+  "summary": {
+    "continuous_DML": {
+      "planned": 12,
+      "successful": 12,
+      "coverage": 1.0,
+      "primary_seconds": 49.1842587643412,
+      "zero_effect_false_claims": 0,
+      "zero_effect_evaluated": 3,
+      "mean_level_mae_seconds": 35.25067742385454
+    },
+    "existing_DR": {
+      "planned": 12,
+      "successful": 12,
+      "coverage": 1.0,
+      "primary_seconds": 62.942810200714206,
+      "zero_effect_false_claims": 1,
+      "zero_effect_evaluated": 3,
+      "mean_level_mae_seconds": 36.29364634886175
+    }
+  },
+  "selected": "continuous_DML",
+  "estimator": "DML",
+  "selection_used_development_only": true,
+  "final_not_generated": true
+}

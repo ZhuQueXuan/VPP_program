@@ -1,0 +1,23 @@
+{
+  "status": "analysis_only_complete",
+  "no_fits_or_parameter_selection": true,
+  "existing_base_tasks": 240,
+  "paired_inputs": 480,
+  "existing_method_rows": 1440,
+  "saved_metric_checks": 7200,
+  "original_v2_manifest_files": 212,
+  "production_and_bound_inputs_unchanged": true,
+  "algorithm_modified": false,
+  "report_modified": false,
+  "candidate_adopted": false,
+  "files": {
+    "analyze.py": "a7f5d50a31862bc72ce5ff3e38671094ab6f0f1413623c3880dcac5717402e9e",
+    "changed_cases.json": "b36f56a406e0d2455ab46ddc20a736bfbaeb8e18296ae24c4285cbb53a237d60",
+    "diagnosis.json": "53c6cdd30b8d75c4f09d73250676880e7bc1bd4524916a00251e7ab3d253b154",
+    "null_cases.json": "e5f62891e60542a437525c34bb3c32316af52ea0003e0af4fa37741e938a3712",
+    "paired_cases.json": "44ec7783056fe980b696c4c2797dca4773d3e4cb880a7a24ec6b213eb4f393e2",
+    "README.md": "c4400a1e252967ddee442ea9cf05ce919a04794887666d661a8b578a18a2efca",
+    "supplement.json": "9a75371be7a050a6e5329ca407500c5024481fd31921f918f2244e6434f219d0",
+    "supplement.py": "eff69664bde5174a1aff23d4494b647e39131dfec41732b71601389e9171b864"
+  }
+}

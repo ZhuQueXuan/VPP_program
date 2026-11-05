@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "numerical_max_error": 5.329070518200751e-15,
+  "no_model_fitting": true,
+  "production_modified": false,
+  "conclusion": "M2 can exactly represent one terminal idle gap and later rebound within default amplitude bounds; a blanket impossibility claim would be wrong.",
+  "template_sha256": "876265fd1e36dfb62378a71b8ef7a439e3c3ec516e92f40480f5220980ba186d"
+}

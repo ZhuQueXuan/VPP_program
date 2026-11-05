@@ -1,0 +1,82 @@
+{
+  "status": "revised_pending_render",
+  "source_sha": "8be9bebd6ecc8f00bc1892c3c7dc2cbb0decc74bc53440ba3b1903eb9501a7b4",
+  "target_sha": "4d39e8b1374899f7c1d8f947d4a0d098e1084be7c6ffdb597cfc5aeb41486bdc",
+  "figures": 6,
+  "tables": 4,
+  "unchanged_original_body_paragraphs": true,
+  "formulas_tables_images_identical": true,
+  "styles_and_other_parts_identical": true,
+  "revisions": [
+    {
+      "id": "图1",
+      "before": "图1 三项算法的职责及信息关系。B1提供解释和观测，B2提供单体预测，B3处理组合约束与实际状态。",
+      "caption": "图1 三项算法的职责及信息关系",
+      "body_explanation": "图1中，B1提供解释和观测，B2提供单体预测，B3处理组合约束与实际状态。",
+      "placement": "immediately after caption in body style"
+    },
+    {
+      "id": "图2",
+      "before": "图2 已保存测试样例的参考与带噪模拟功率。灰线为参考，蓝线为观测功率；单位为kW和s。",
+      "caption": "图2 EV响应与回补功率曲线",
+      "body_explanation": "图2采用已保存的带噪模拟测试样例。灰线为参考，蓝线为观测功率；功率和时间单位分别为kW和s。",
+      "placement": "immediately after caption in body style"
+    },
+    {
+      "id": "图3",
+      "before": "图3 分析使用的简化结构假设。X与W是事前因素，A是激励后的参加结果。",
+      "caption": "图3 EV响应因素的简化结构假设",
+      "body_explanation": "图3中，X与W是事前因素，A是激励后的参加结果。",
+      "placement": "immediately after caption in body style"
+    },
+    {
+      "id": "表1",
+      "before": "表1 测试总体的20次重复结果。G0为未调整比较，G1为合法事前调整；均值与RMSE分别报告，参考真效应由模拟机制计算。",
+      "caption": "表1 激励平均效应估计结果",
+      "body_explanation": "表1汇总测试总体的20次重复结果。G0为未调整比较，G1为合法事前调整；均值与RMSE分别报告，参考真效应由模拟机制计算。",
+      "placement": "immediately after caption in body style"
+    },
+    {
+      "id": "表2",
+      "before": "表2 各种子测试指标的平均，RMSE与Brier越低越好。后三种历史方案均增加6维，当前条件对照的输入更少；比较不满足总参数量完全一致的条件。",
+      "caption": "表2 历史信息增量比较结果",
+      "body_explanation": "表2给出各种子测试指标的平均值，RMSE与Brier越低越好。后三种历史方案均增加6维，当前条件对照的输入更少；比较不满足总参数量完全一致的条件。",
+      "placement": "immediately after caption in body style"
+    },
+    {
+      "id": "表3",
+      "before": "表3 首轮20次重复的全部测试事件；每次600用户8事件，360/120/120用户隔离。包含不可发送、拒绝和执行失败，另评价可发送子集。RMSE与Brier均越低越好，Brier是概率与实际0/1结果之差的均方。",
+      "caption": "表3 分层预测的测试结果",
+      "body_explanation": "表3为首轮20次重复的全部测试事件结果；每次600用户8事件，360/120/120用户隔离。包含不可发送、拒绝和执行失败，另评价可发送子集。RMSE与Brier均越低越好，Brier是概率与实际0/1结果之差的均方。",
+      "placement": "immediately after caption in body style"
+    },
+    {
+      "id": "图4",
+      "before": "图4 五种声明执行模板。纵向幅度按任务归一化；来自第四节单体样例的条件状态概率，尚非任意连续时序学习。",
+      "caption": "图4 五种预设EV响应模板",
+      "body_explanation": "图4的纵向幅度按任务归一化，条件状态概率对应第四节的单体查询样例。该模型采用预设模板，尚不能表示任意连续时序。",
+      "placement": "immediately after caption in body style"
+    },
+    {
+      "id": "图5",
+      "before": "图5 连续任务与恢复时限示意。图示第二次任务在60分钟到来，90分钟到来的变体另行评价。",
+      "caption": "图5 连续任务与恢复时限",
+      "body_explanation": "图5所示的第二次任务在60分钟到来，90分钟到来的变体另行评价。",
+      "placement": "immediately after caption in body style"
+    },
+    {
+      "id": "图6",
+      "before": "图6 已保存的下界内连续调用实例。浅色区域为两次服务窗；该条曲线用于解释状态传递，不代表总体表现。",
+      "caption": "图6 连续调用的状态与功率变化",
+      "body_explanation": "图6采用已保存的一条下界内连续调用实例。浅色区域为两次服务窗；该条曲线用于解释状态传递，不代表总体表现。",
+      "placement": "immediately after caption in body style"
+    },
+    {
+      "id": "表4",
+      "before": "表4 每种机制均有160项任务请求。接任务和拒任务合计为请求总数；达标率仅针对已接任务。EV按120分钟离站期限检查，站级末端另核储能180分钟恢复。配对变体不作为独立样本扩大置信度。",
+      "caption": "表4 连续任务的服务与恢复结果",
+      "body_explanation": "表4中，每种机制均有160项任务请求。接任务和拒任务合计为请求总数；达标率仅针对已接任务。EV按120分钟离站期限检查，站级末端另核储能180分钟恢复。配对变体不作为独立样本扩大置信度。",
+      "placement": "immediately after caption in body style"
+    }
+  ]
+}

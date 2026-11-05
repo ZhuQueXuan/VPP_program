@@ -1,0 +1,1726 @@
+[
+  {
+    "task_id": "command-sim-7641200-smooth_weak-1-gaussian",
+    "kind": "smooth_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      3
+    ],
+    "cpop_changed_kw": [
+      0.14863066386978904
+    ],
+    "v2_changed_kw": [
+      0.15153936494863052
+    ],
+    "true_changed_kw": [
+      0.19168541747125287
+    ],
+    "true_duration": [
+      1680,
+      1680
+    ],
+    "cpop_duration": [
+      1560,
+      1560
+    ],
+    "v2_duration": [
+      1620,
+      1620
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641200-smooth_weak-1-gaussian_plus_spikes",
+    "kind": "smooth_weak",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      4
+    ],
+    "cpop_changed_kw": [
+      0.10551934158287102
+    ],
+    "v2_changed_kw": [
+      0.1668807781425776
+    ],
+    "true_changed_kw": [
+      0.19251050440417622
+    ],
+    "true_duration": [
+      1680,
+      1680
+    ],
+    "cpop_duration": [
+      1500,
+      1500
+    ],
+    "v2_duration": [
+      1560,
+      1560
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641200-smooth_weak-2-gaussian",
+    "kind": "smooth_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      0,
+      1
+    ],
+    "cpop_changed_kw": [
+      0.0609849590757921,
+      0.1297025612327329
+    ],
+    "v2_changed_kw": [
+      0.17420508980321286,
+      0.1745932458488726
+    ],
+    "true_changed_kw": [
+      0.04142474215256766,
+      0.126471766659596
+    ],
+    "true_duration": [
+      1680,
+      1680
+    ],
+    "cpop_duration": [
+      1680,
+      1680
+    ],
+    "v2_duration": [
+      1800,
+      1800
+    ],
+    "primary_delta": 120.0
+  },
+  {
+    "task_id": "command-sim-7641200-smooth_weak-2-gaussian_plus_spikes",
+    "kind": "smooth_weak",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      1
+    ],
+    "cpop_changed_kw": [
+      0.12376051228148349
+    ],
+    "v2_changed_kw": [
+      0.15324933687985534
+    ],
+    "true_changed_kw": [
+      0.126471766659596
+    ],
+    "true_duration": [
+      1680,
+      1680
+    ],
+    "cpop_duration": [
+      1680,
+      1680
+    ],
+    "v2_duration": [
+      1740,
+      1740
+    ],
+    "primary_delta": 60.0
+  },
+  {
+    "task_id": "command-sim-7641200-smooth_weak-3-gaussian",
+    "kind": "smooth_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      29
+    ],
+    "cpop_changed_kw": [
+      0.1935764078098785
+    ],
+    "v2_changed_kw": [
+      0.10566675189464192
+    ],
+    "true_changed_kw": [
+      0.22239785538683815
+    ],
+    "true_duration": [
+      1740,
+      1740
+    ],
+    "cpop_duration": [
+      1740,
+      1740
+    ],
+    "v2_duration": [
+      1680,
+      1680
+    ],
+    "primary_delta": 60.0
+  },
+  {
+    "task_id": "command-sim-7641200-brief_weak-0-gaussian",
+    "kind": "brief_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      3,
+      4
+    ],
+    "cpop_changed_kw": [
+      0.08631302640211268,
+      0.1227445463421095
+    ],
+    "v2_changed_kw": [
+      0.17628945064964743,
+      0.17569869686980355
+    ],
+    "true_changed_kw": [
+      0.17514734905551374,
+      0.1851238669473208
+    ],
+    "true_duration": [
+      240,
+      240
+    ],
+    "cpop_duration": [
+      120,
+      120
+    ],
+    "v2_duration": [
+      240,
+      240
+    ],
+    "primary_delta": -120.0
+  },
+  {
+    "task_id": "command-sim-7641200-brief_weak-1-gaussian",
+    "kind": "brief_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      5,
+      8
+    ],
+    "cpop_changed_kw": [
+      0.12814187126044907,
+      0.09609263084109987
+    ],
+    "v2_changed_kw": [
+      0.22837730098612657,
+      0.20234811698087674
+    ],
+    "true_changed_kw": [
+      0.16547991106104026,
+      0.08429562461798586
+    ],
+    "true_duration": [
+      180,
+      180
+    ],
+    "cpop_duration": [
+      120,
+      120
+    ],
+    "v2_duration": [
+      240,
+      240
+    ],
+    "primary_delta": 0.0
+  },
+  {
+    "task_id": "command-sim-7641200-brief_weak-1-gaussian_plus_spikes",
+    "kind": "brief_weak",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      5,
+      8
+    ],
+    "cpop_changed_kw": [
+      0.13960799066612728,
+      0.07079645304692983
+    ],
+    "v2_changed_kw": [
+      0.15523926497378293,
+      0.17043731889154023
+    ],
+    "true_changed_kw": [
+      0.16547991106104026,
+      0.08429562461798586
+    ],
+    "true_duration": [
+      180,
+      180
+    ],
+    "cpop_duration": [
+      240,
+      120
+    ],
+    "v2_duration": [
+      360,
+      240
+    ],
+    "primary_delta": 60.0
+  },
+  {
+    "task_id": "command-sim-7641200-brief_weak-3-gaussian",
+    "kind": "brief_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      4
+    ],
+    "cpop_changed_kw": [
+      0.1439673019093661
+    ],
+    "v2_changed_kw": [
+      0.21239466500206555
+    ],
+    "true_changed_kw": [
+      0.17181544796942722
+    ],
+    "true_duration": [
+      180,
+      180
+    ],
+    "cpop_duration": [
+      120,
+      120
+    ],
+    "v2_duration": [
+      180,
+      180
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641200-interrupted-0-gaussian_plus_spikes",
+    "kind": "interrupted",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      13
+    ],
+    "cpop_changed_kw": [
+      0.13799752665366505
+    ],
+    "v2_changed_kw": [
+      0.16763932601809706
+    ],
+    "true_changed_kw": [
+      0.13748324674295168
+    ],
+    "true_duration": [
+      1560,
+      840
+    ],
+    "cpop_duration": [
+      1560,
+      840
+    ],
+    "v2_duration": [
+      1620,
+      840
+    ],
+    "primary_delta": 30.0
+  },
+  {
+    "task_id": "command-sim-7641200-interrupted-2-gaussian_plus_spikes",
+    "kind": "interrupted",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      1
+    ],
+    "cpop_changed_kw": [
+      0.037226045155184906
+    ],
+    "v2_changed_kw": [
+      0.19166901921892499
+    ],
+    "true_changed_kw": [
+      0.1750544507719799
+    ],
+    "true_duration": [
+      1740,
+      1740
+    ],
+    "cpop_duration": [
+      1680,
+      1680
+    ],
+    "v2_duration": [
+      1740,
+      1740
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641201-smooth_weak-2-gaussian",
+    "kind": "smooth_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      2
+    ],
+    "cpop_changed_kw": [
+      0.1544513331776174
+    ],
+    "v2_changed_kw": [
+      0.14214013742480947
+    ],
+    "true_changed_kw": [
+      0.11333952075683155
+    ],
+    "true_duration": [
+      1620,
+      1620
+    ],
+    "cpop_duration": [
+      1680,
+      1680
+    ],
+    "v2_duration": [
+      1620,
+      1620
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641201-smooth_weak-2-gaussian_plus_spikes",
+    "kind": "smooth_weak",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      2
+    ],
+    "cpop_changed_kw": [
+      0.15331961554937265
+    ],
+    "v2_changed_kw": [
+      0.1464459987216266
+    ],
+    "true_changed_kw": [
+      0.11333952075683155
+    ],
+    "true_duration": [
+      1620,
+      1620
+    ],
+    "cpop_duration": [
+      1620,
+      1500
+    ],
+    "v2_duration": [
+      1560,
+      1500
+    ],
+    "primary_delta": 30.0
+  },
+  {
+    "task_id": "command-sim-7641201-smooth_weak-3-gaussian_plus_spikes",
+    "kind": "smooth_weak",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      22,
+      23,
+      24,
+      25
+    ],
+    "cpop_changed_kw": [
+      0.15039738837490887,
+      0.15231324554481082,
+      0.15422910271471277,
+      0.15614495988461474
+    ],
+    "v2_changed_kw": [
+      0.14632762514430345,
+      0.14748040170853347,
+      0.14863317827276348,
+      0.1497859548369935
+    ],
+    "true_changed_kw": [
+      0.16876163838824254,
+      0.1687616383890448,
+      0.16876163838928887,
+      0.16876163838936314
+    ],
+    "true_duration": [
+      1620,
+      1620
+    ],
+    "cpop_duration": [
+      1080,
+      600
+    ],
+    "v2_duration": [
+      840,
+      600
+    ],
+    "primary_delta": 120.0
+  },
+  {
+    "task_id": "command-sim-7641201-brief_weak-0-gaussian",
+    "kind": "brief_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      6,
+      9
+    ],
+    "cpop_changed_kw": [
+      0.09565842110105754,
+      0.17892922577875858
+    ],
+    "v2_changed_kw": [
+      0.20512093894430816,
+      0.12525971033470346
+    ],
+    "true_changed_kw": [
+      0.12391767486051439,
+      0.18125895591268557
+    ],
+    "true_duration": [
+      300,
+      300
+    ],
+    "cpop_duration": [
+      180,
+      180
+    ],
+    "v2_duration": [
+      180,
+      180
+    ],
+    "primary_delta": 0.0
+  },
+  {
+    "task_id": "command-sim-7641201-interrupted-1-gaussian",
+    "kind": "interrupted",
+    "condition": "gaussian",
+    "changed_minutes": [
+      13
+    ],
+    "cpop_changed_kw": [
+      0.15703051833720405
+    ],
+    "v2_changed_kw": [
+      0.12988347695751523
+    ],
+    "true_changed_kw": [
+      0.1675419308949289
+    ],
+    "true_duration": [
+      1680,
+      1680
+    ],
+    "cpop_duration": [
+      1680,
+      1680
+    ],
+    "v2_duration": [
+      1620,
+      960
+    ],
+    "primary_delta": 390.0
+  },
+  {
+    "task_id": "command-sim-7641201-interrupted-1-gaussian_plus_spikes",
+    "kind": "interrupted",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      13
+    ],
+    "cpop_changed_kw": [
+      0.1570305183370424
+    ],
+    "v2_changed_kw": [
+      0.12988347695751523
+    ],
+    "true_changed_kw": [
+      0.1675419308949289
+    ],
+    "true_duration": [
+      1680,
+      1680
+    ],
+    "cpop_duration": [
+      1680,
+      1680
+    ],
+    "v2_duration": [
+      1620,
+      960
+    ],
+    "primary_delta": 390.0
+  },
+  {
+    "task_id": "command-sim-7641201-interrupted-2-gaussian",
+    "kind": "interrupted",
+    "condition": "gaussian",
+    "changed_minutes": [
+      14
+    ],
+    "cpop_changed_kw": [
+      0.03618126868496674
+    ],
+    "v2_changed_kw": [
+      0.1657390555523084
+    ],
+    "true_changed_kw": [
+      0.022248830474850725
+    ],
+    "true_duration": [
+      1620,
+      900
+    ],
+    "cpop_duration": [
+      1620,
+      900
+    ],
+    "v2_duration": [
+      1680,
+      960
+    ],
+    "primary_delta": 60.0
+  },
+  {
+    "task_id": "command-sim-7641201-delayed_rebound-2-gaussian_plus_spikes",
+    "kind": "delayed_rebound",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      0
+    ],
+    "cpop_changed_kw": [
+      0.08305419180414403
+    ],
+    "v2_changed_kw": [
+      0.19202944261452198
+    ],
+    "true_changed_kw": [
+      0.22252591564503027
+    ],
+    "true_duration": [
+      1800,
+      1800
+    ],
+    "cpop_duration": [
+      1740,
+      1740
+    ],
+    "v2_duration": [
+      1800,
+      1800
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641202-smooth_weak-0-gaussian",
+    "kind": "smooth_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      18
+    ],
+    "cpop_changed_kw": [
+      0.1492618950311135
+    ],
+    "v2_changed_kw": [
+      0.1503497687462248
+    ],
+    "true_changed_kw": [
+      0.1602257374801464
+    ],
+    "true_duration": [
+      1560,
+      1560
+    ],
+    "cpop_duration": [
+      660,
+      660
+    ],
+    "v2_duration": [
+      720,
+      720
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641202-smooth_weak-2-gaussian",
+    "kind": "smooth_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      1
+    ],
+    "cpop_changed_kw": [
+      0.1395701030262936
+    ],
+    "v2_changed_kw": [
+      0.2521906507695147
+    ],
+    "true_changed_kw": [
+      0.19527892604371172
+    ],
+    "true_duration": [
+      1740,
+      1740
+    ],
+    "cpop_duration": [
+      1680,
+      1680
+    ],
+    "v2_duration": [
+      1740,
+      1740
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641202-smooth_weak-2-gaussian_plus_spikes",
+    "kind": "smooth_weak",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      1
+    ],
+    "cpop_changed_kw": [
+      0.1579195003898159
+    ],
+    "v2_changed_kw": [
+      0.14633881341378907
+    ],
+    "true_changed_kw": [
+      0.19527892604371172
+    ],
+    "true_duration": [
+      1740,
+      1740
+    ],
+    "cpop_duration": [
+      1680,
+      1080
+    ],
+    "v2_duration": [
+      1620,
+      1020
+    ],
+    "primary_delta": 60.0
+  },
+  {
+    "task_id": "command-sim-7641202-smooth_weak-3-gaussian",
+    "kind": "smooth_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      2,
+      3
+    ],
+    "cpop_changed_kw": [
+      0.092632937699998,
+      0.13406801622470083
+    ],
+    "v2_changed_kw": [
+      0.16267891079065486,
+      0.1638024829225404
+    ],
+    "true_changed_kw": [
+      0.15160230547524325,
+      0.16698696721337217
+    ],
+    "true_duration": [
+      1680,
+      1680
+    ],
+    "cpop_duration": [
+      1560,
+      1560
+    ],
+    "v2_duration": [
+      1680,
+      1680
+    ],
+    "primary_delta": -120.0
+  },
+  {
+    "task_id": "command-sim-7641202-brief_weak-2-gaussian",
+    "kind": "brief_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      7
+    ],
+    "cpop_changed_kw": [
+      0.14936605145106752
+    ],
+    "v2_changed_kw": [
+      0.16201862812632006
+    ],
+    "true_changed_kw": [
+      0.1928099183523984
+    ],
+    "true_duration": [
+      180,
+      180
+    ],
+    "cpop_duration": [
+      120,
+      120
+    ],
+    "v2_duration": [
+      180,
+      180
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641202-brief_weak-3-gaussian",
+    "kind": "brief_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      6
+    ],
+    "cpop_changed_kw": [
+      0.14640536455909148
+    ],
+    "v2_changed_kw": [
+      0.23274938682673924
+    ],
+    "true_changed_kw": [
+      0.22367096769036693
+    ],
+    "true_duration": [
+      240,
+      240
+    ],
+    "cpop_duration": [
+      180,
+      180
+    ],
+    "v2_duration": [
+      240,
+      240
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641202-early_exit-3-gaussian",
+    "kind": "early_exit",
+    "condition": "gaussian",
+    "changed_minutes": [
+      26
+    ],
+    "cpop_changed_kw": [
+      0.18914487105551814
+    ],
+    "v2_changed_kw": [
+      0.0964846099221921
+    ],
+    "true_changed_kw": [
+      0.171858303287376
+    ],
+    "true_duration": [
+      1560,
+      1560
+    ],
+    "cpop_duration": [
+      1560,
+      1560
+    ],
+    "v2_duration": [
+      1500,
+      1500
+    ],
+    "primary_delta": 60.0
+  },
+  {
+    "task_id": "command-sim-7641202-early_exit-3-gaussian_plus_spikes",
+    "kind": "early_exit",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      26
+    ],
+    "cpop_changed_kw": [
+      0.1876183345327238
+    ],
+    "v2_changed_kw": [
+      0.0964846099221921
+    ],
+    "true_changed_kw": [
+      0.171858303287376
+    ],
+    "true_duration": [
+      1560,
+      1560
+    ],
+    "cpop_duration": [
+      1560,
+      1560
+    ],
+    "v2_duration": [
+      1500,
+      1500
+    ],
+    "primary_delta": 60.0
+  },
+  {
+    "task_id": "command-sim-7641203-smooth_weak-1-gaussian",
+    "kind": "smooth_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      4
+    ],
+    "cpop_changed_kw": [
+      0.14841148321223788
+    ],
+    "v2_changed_kw": [
+      0.15648946125233437
+    ],
+    "true_changed_kw": [
+      0.17016850513604406
+    ],
+    "true_duration": [
+      1620,
+      1620
+    ],
+    "cpop_duration": [
+      1500,
+      1500
+    ],
+    "v2_duration": [
+      1560,
+      1560
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641203-smooth_weak-2-gaussian",
+    "kind": "smooth_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      5,
+      6
+    ],
+    "cpop_changed_kw": [
+      0.18637910608909752,
+      0.18870298348487816
+    ],
+    "v2_changed_kw": [
+      0.07103047504508572,
+      0.12154061244687711
+    ],
+    "true_changed_kw": [
+      0.19094740144567673,
+      0.19481124758518156
+    ],
+    "true_duration": [
+      1620,
+      1620
+    ],
+    "cpop_duration": [
+      1620,
+      1620
+    ],
+    "v2_duration": [
+      1500,
+      1380
+    ],
+    "primary_delta": 180.0
+  },
+  {
+    "task_id": "command-sim-7641203-smooth_weak-3-gaussian",
+    "kind": "smooth_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      2,
+      4
+    ],
+    "cpop_changed_kw": [
+      0.09092515616678899,
+      0.15507601427458462
+    ],
+    "v2_changed_kw": [
+      0.19693839014510792,
+      0.1310383546492877
+    ],
+    "true_changed_kw": [
+      0.1453264736080463,
+      0.19751841368273154
+    ],
+    "true_duration": [
+      1620,
+      1620
+    ],
+    "cpop_duration": [
+      1560,
+      1560
+    ],
+    "v2_duration": [
+      1560,
+      1500
+    ],
+    "primary_delta": 30.0
+  },
+  {
+    "task_id": "command-sim-7641203-brief_weak-1-gaussian",
+    "kind": "brief_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      10
+    ],
+    "cpop_changed_kw": [
+      0.14658835403878578
+    ],
+    "v2_changed_kw": [
+      0.16981352057989807
+    ],
+    "true_changed_kw": [
+      0.19304949007444477
+    ],
+    "true_duration": [
+      300,
+      300
+    ],
+    "cpop_duration": [
+      300,
+      300
+    ],
+    "v2_duration": [
+      360,
+      360
+    ],
+    "primary_delta": 60.0
+  },
+  {
+    "task_id": "command-sim-7641203-brief_weak-2-gaussian",
+    "kind": "brief_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      3
+    ],
+    "cpop_changed_kw": [
+      0.0655306033355557
+    ],
+    "v2_changed_kw": [
+      0.20453568381686327
+    ],
+    "true_changed_kw": [
+      0.10723248307500471
+    ],
+    "true_duration": [
+      120,
+      120
+    ],
+    "cpop_duration": [
+      0,
+      0
+    ],
+    "v2_duration": [
+      60,
+      60
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641203-brief_weak-3-gaussian",
+    "kind": "brief_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      8
+    ],
+    "cpop_changed_kw": [
+      0.22500775668506406
+    ],
+    "v2_changed_kw": [
+      0.11307299564420692
+    ],
+    "true_changed_kw": [
+      0.20838572984331258
+    ],
+    "true_duration": [
+      300,
+      300
+    ],
+    "cpop_duration": [
+      300,
+      300
+    ],
+    "v2_duration": [
+      240,
+      180
+    ],
+    "primary_delta": 90.0
+  },
+  {
+    "task_id": "command-sim-7641203-early_exit-2-gaussian",
+    "kind": "early_exit",
+    "condition": "gaussian",
+    "changed_minutes": [
+      1
+    ],
+    "cpop_changed_kw": [
+      0.18055289803088848
+    ],
+    "v2_changed_kw": [
+      0.016964794661598254
+    ],
+    "true_changed_kw": [
+      0.13171811186070728
+    ],
+    "true_duration": [
+      1020,
+      1020
+    ],
+    "cpop_duration": [
+      1080,
+      1080
+    ],
+    "v2_duration": [
+      1020,
+      1020
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641203-early_exit-2-gaussian_plus_spikes",
+    "kind": "early_exit",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      1
+    ],
+    "cpop_changed_kw": [
+      0.1805528980307789
+    ],
+    "v2_changed_kw": [
+      0.016964794661598254
+    ],
+    "true_changed_kw": [
+      0.13171811186070728
+    ],
+    "true_duration": [
+      1020,
+      1020
+    ],
+    "cpop_duration": [
+      1200,
+      1080
+    ],
+    "v2_duration": [
+      1140,
+      1020
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641204-smooth_weak-0-gaussian",
+    "kind": "smooth_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "cpop_changed_kw": [
+      0.163738189552862,
+      0.16423565872273857,
+      0.16473312789261513,
+      0.16523059706249166,
+      0.16572806623236822
+    ],
+    "v2_changed_kw": [
+      0.14205525738389704,
+      0.14388148678362941,
+      0.14570771618336179,
+      0.14753394558309416,
+      0.14936017498282653
+    ],
+    "true_changed_kw": [
+      0.15306496173214323,
+      0.1616646976132613,
+      0.16640166003506648,
+      0.16901090446952197,
+      0.17044814545066161
+    ],
+    "true_duration": [
+      1500,
+      1500
+    ],
+    "cpop_duration": [
+      1500,
+      1500
+    ],
+    "v2_duration": [
+      1200,
+      1200
+    ],
+    "primary_delta": 300.0
+  },
+  {
+    "task_id": "command-sim-7641204-smooth_weak-0-gaussian_plus_spikes",
+    "kind": "smooth_weak",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      7
+    ],
+    "cpop_changed_kw": [
+      0.18127197005607742
+    ],
+    "v2_changed_kw": [
+      0.13154036628424493
+    ],
+    "true_changed_kw": [
+      0.16640166003506648
+    ],
+    "true_duration": [
+      1500,
+      1500
+    ],
+    "cpop_duration": [
+      1380,
+      1080
+    ],
+    "v2_duration": [
+      1320,
+      1080
+    ],
+    "primary_delta": 30.0
+  },
+  {
+    "task_id": "command-sim-7641204-smooth_weak-2-gaussian",
+    "kind": "smooth_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      1
+    ],
+    "cpop_changed_kw": [
+      0.14286221717372483
+    ],
+    "v2_changed_kw": [
+      0.2682734981571207
+    ],
+    "true_changed_kw": [
+      0.13963522149427074
+    ],
+    "true_duration": [
+      1680,
+      1680
+    ],
+    "cpop_duration": [
+      1680,
+      1680
+    ],
+    "v2_duration": [
+      1740,
+      1740
+    ],
+    "primary_delta": 60.0
+  },
+  {
+    "task_id": "command-sim-7641204-brief_weak-0-gaussian",
+    "kind": "brief_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      5
+    ],
+    "cpop_changed_kw": [
+      0.1904505827249952
+    ],
+    "v2_changed_kw": [
+      0.038872321782342234
+    ],
+    "true_changed_kw": [
+      0.20817510696445826
+    ],
+    "true_duration": [
+      300,
+      300
+    ],
+    "cpop_duration": [
+      300,
+      300
+    ],
+    "v2_duration": [
+      240,
+      240
+    ],
+    "primary_delta": 60.0
+  },
+  {
+    "task_id": "command-sim-7641204-brief_weak-0-gaussian_plus_spikes",
+    "kind": "brief_weak",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      5
+    ],
+    "cpop_changed_kw": [
+      0.19686049110708354
+    ],
+    "v2_changed_kw": [
+      0.038872321782342234
+    ],
+    "true_changed_kw": [
+      0.20817510696445826
+    ],
+    "true_duration": [
+      300,
+      300
+    ],
+    "cpop_duration": [
+      300,
+      300
+    ],
+    "v2_duration": [
+      240,
+      240
+    ],
+    "primary_delta": 60.0
+  },
+  {
+    "task_id": "command-sim-7641204-brief_weak-1-gaussian_plus_spikes",
+    "kind": "brief_weak",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      10
+    ],
+    "cpop_changed_kw": [
+      0.18381562312164834
+    ],
+    "v2_changed_kw": [
+      0.11538098272117914
+    ],
+    "true_changed_kw": [
+      0.2617929261464431
+    ],
+    "true_duration": [
+      180,
+      180
+    ],
+    "cpop_duration": [
+      240,
+      180
+    ],
+    "v2_duration": [
+      180,
+      120
+    ],
+    "primary_delta": 0.0
+  },
+  {
+    "task_id": "command-sim-7641204-brief_weak-2-gaussian_plus_spikes",
+    "kind": "brief_weak",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      6
+    ],
+    "cpop_changed_kw": [
+      0.18664903866230365
+    ],
+    "v2_changed_kw": [
+      0.11664741046975724
+    ],
+    "true_changed_kw": [
+      0.18624602415684954
+    ],
+    "true_duration": [
+      180,
+      180
+    ],
+    "cpop_duration": [
+      180,
+      180
+    ],
+    "v2_duration": [
+      120,
+      120
+    ],
+    "primary_delta": 60.0
+  },
+  {
+    "task_id": "command-sim-7641204-interrupted-1-gaussian_plus_spikes",
+    "kind": "interrupted",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      0
+    ],
+    "cpop_changed_kw": [
+      0.058853606526838464
+    ],
+    "v2_changed_kw": [
+      0.176884864462635
+    ],
+    "true_changed_kw": [
+      0.21141624850902774
+    ],
+    "true_duration": [
+      1680,
+      900
+    ],
+    "cpop_duration": [
+      1680,
+      900
+    ],
+    "v2_duration": [
+      1740,
+      960
+    ],
+    "primary_delta": 60.0
+  },
+  {
+    "task_id": "command-sim-7641204-early_exit-0-gaussian",
+    "kind": "early_exit",
+    "condition": "gaussian",
+    "changed_minutes": [
+      26
+    ],
+    "cpop_changed_kw": [
+      0.18369889603431488
+    ],
+    "v2_changed_kw": [
+      0.10518410612060691
+    ],
+    "true_changed_kw": [
+      0.04530413116421346
+    ],
+    "true_duration": [
+      1560,
+      1560
+    ],
+    "cpop_duration": [
+      1620,
+      1620
+    ],
+    "v2_duration": [
+      1560,
+      1560
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641205-smooth_strong-1-gaussian",
+    "kind": "smooth_strong",
+    "condition": "gaussian",
+    "changed_minutes": [
+      0
+    ],
+    "cpop_changed_kw": [
+      0.1589922765528442
+    ],
+    "v2_changed_kw": [
+      0.1260774344692522
+    ],
+    "true_changed_kw": [
+      0.0
+    ],
+    "true_duration": [
+      1740,
+      1740
+    ],
+    "cpop_duration": [
+      1800,
+      1800
+    ],
+    "v2_duration": [
+      1740,
+      1740
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641205-smooth_strong-1-gaussian_plus_spikes",
+    "kind": "smooth_strong",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      0
+    ],
+    "cpop_changed_kw": [
+      0.158992276553663
+    ],
+    "v2_changed_kw": [
+      0.1260774344692439
+    ],
+    "true_changed_kw": [
+      0.0
+    ],
+    "true_duration": [
+      1740,
+      1740
+    ],
+    "cpop_duration": [
+      1800,
+      1800
+    ],
+    "v2_duration": [
+      1740,
+      1740
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641205-smooth_weak-0-gaussian",
+    "kind": "smooth_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      1
+    ],
+    "cpop_changed_kw": [
+      0.09075933125666161
+    ],
+    "v2_changed_kw": [
+      0.1938209237105051
+    ],
+    "true_changed_kw": [
+      0.11342490177920687
+    ],
+    "true_duration": [
+      1680,
+      1680
+    ],
+    "cpop_duration": [
+      1680,
+      1680
+    ],
+    "v2_duration": [
+      1740,
+      1740
+    ],
+    "primary_delta": 60.0
+  },
+  {
+    "task_id": "command-sim-7641205-smooth_weak-1-gaussian",
+    "kind": "smooth_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      27,
+      29
+    ],
+    "cpop_changed_kw": [
+      0.17882639466322361,
+      0.17930603356826857
+    ],
+    "v2_changed_kw": [
+      0.14866732985242054,
+      0.13736262238582064
+    ],
+    "true_changed_kw": [
+      0.16794738042536886,
+      0.16794738042716106
+    ],
+    "true_duration": [
+      1560,
+      1560
+    ],
+    "cpop_duration": [
+      1500,
+      1500
+    ],
+    "v2_duration": [
+      1380,
+      1320
+    ],
+    "primary_delta": 150.0
+  },
+  {
+    "task_id": "command-sim-7641205-smooth_weak-1-gaussian_plus_spikes",
+    "kind": "smooth_weak",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      26,
+      27,
+      29
+    ],
+    "cpop_changed_kw": [
+      0.107195737304562,
+      0.11653126811259831,
+      0.12586679892063463,
+      0.1352023297286709,
+      0.14453786053670725,
+      0.16320892215277985,
+      0.17254445296082377,
+      0.10912651598048995,
+      0.1557509661935499,
+      0.24899986661962537
+    ],
+    "v2_changed_kw": [
+      0.1566747073750649,
+      0.20898675827697116,
+      0.19587885228545848,
+      0.18277094629394577,
+      0.16966304030243307,
+      0.14344722831940768,
+      0.13033932232789497,
+      0.15024369382209413,
+      0.0530346883632018,
+      0.13736262238582064
+    ],
+    "true_changed_kw": [
+      0.1577176927151713,
+      0.16406947532450386,
+      0.16647733086089692,
+      0.16739010899590745,
+      0.16773612806190225,
+      0.16791702256540758,
+      0.16793587226499532,
+      0.1679473804219407,
+      0.16794738042536886,
+      0.16794738042716106
+    ],
+    "true_duration": [
+      1560,
+      1560
+    ],
+    "cpop_duration": [
+      1140,
+      960
+    ],
+    "v2_duration": [
+      1260,
+      780
+    ],
+    "primary_delta": 30.0
+  },
+  {
+    "task_id": "command-sim-7641205-smooth_weak-3-gaussian",
+    "kind": "smooth_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      1,
+      2
+    ],
+    "cpop_changed_kw": [
+      0.07846789414201148,
+      0.13199504514717478
+    ],
+    "v2_changed_kw": [
+      0.20424189732631182,
+      0.20607316438450968
+    ],
+    "true_changed_kw": [
+      0.1284231579363906,
+      0.1856165757121187
+    ],
+    "true_duration": [
+      1680,
+      1680
+    ],
+    "cpop_duration": [
+      1620,
+      1620
+    ],
+    "v2_duration": [
+      1740,
+      1740
+    ],
+    "primary_delta": 0.0
+  },
+  {
+    "task_id": "command-sim-7641205-brief_weak-2-gaussian",
+    "kind": "brief_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      3
+    ],
+    "cpop_changed_kw": [
+      0.11848159504703405
+    ],
+    "v2_changed_kw": [
+      0.21094873993306018
+    ],
+    "true_changed_kw": [
+      0.17300079963089285
+    ],
+    "true_duration": [
+      240,
+      240
+    ],
+    "cpop_duration": [
+      180,
+      180
+    ],
+    "v2_duration": [
+      240,
+      240
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641205-brief_weak-3-gaussian",
+    "kind": "brief_weak",
+    "condition": "gaussian",
+    "changed_minutes": [
+      6
+    ],
+    "cpop_changed_kw": [
+      0.1581716813314214
+    ],
+    "v2_changed_kw": [
+      0.13469359258317065
+    ],
+    "true_changed_kw": [
+      0.14567286860333184
+    ],
+    "true_duration": [
+      120,
+      120
+    ],
+    "cpop_duration": [
+      180,
+      180
+    ],
+    "v2_duration": [
+      120,
+      120
+    ],
+    "primary_delta": -60.0
+  },
+  {
+    "task_id": "command-sim-7641205-interrupted-2-gaussian",
+    "kind": "interrupted",
+    "condition": "gaussian",
+    "changed_minutes": [
+      1
+    ],
+    "cpop_changed_kw": [
+      0.04861169866356907
+    ],
+    "v2_changed_kw": [
+      0.24123675169194653
+    ],
+    "true_changed_kw": [
+      0.08128432599983273
+    ],
+    "true_duration": [
+      1500,
+      1080
+    ],
+    "cpop_duration": [
+      1500,
+      1080
+    ],
+    "v2_duration": [
+      1560,
+      1080
+    ],
+    "primary_delta": 30.0
+  },
+  {
+    "task_id": "command-sim-7641205-interrupted-2-gaussian_plus_spikes",
+    "kind": "interrupted",
+    "condition": "gaussian_plus_spikes",
+    "changed_minutes": [
+      1
+    ],
+    "cpop_changed_kw": [
+      0.04861210637272306
+    ],
+    "v2_changed_kw": [
+      0.24123675169195402
+    ],
+    "true_changed_kw": [
+      0.08128432599983273
+    ],
+    "true_duration": [
+      1500,
+      1080
+    ],
+    "cpop_duration": [
+      1500,
+      1080
+    ],
+    "v2_duration": [
+      1560,
+      1080
+    ],
+    "primary_delta": 30.0
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "all_recovery_targets": 22,
+  "reachable_endpoint_labels": 21,
+  "upstream_missed_targets_remain_in_full_trajectory_scoring": true
+}

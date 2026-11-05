@@ -1,0 +1,27 @@
+{
+  "version": "formal-process-v2-ride-resolution",
+  "default": "resolution_profile",
+  "by_n_bins": {"360":"guarded","60":"ride_template","4":"ride_template"},
+  "by_meter": {"10s":"guarded","1min":"ride_template","15min":"ride_template"},
+  "routing_rule": "actual interval width; legacy by_n_bins retained only for old canonical callers",
+  "profile_basis": "User-authorized selection after existing comparisons; not an untouched holdout evaluation of this new profile",
+  "ride_configuration": "original solver; n_starts minimum3, BIC, noLR calibration or CI",
+  "coarse_output": "assumption-sensitive interval-average curve only; physical timing unknown; raw observations and raw energy retained",
+  "available_explicit_methods": ["ride_template","guarded","cpop","conservative"],
+  "reason": "1min predicted-reference and15min interval-curve evidence favor original RIDE;10sec evidence favors guarded CPOP",
+  "historical_guarded_component": {
+  "guarded_admitted": true,
+  "development_relative_rmse_improvement": 0.0429907846041081,
+  "development_block_differences": [
+    -0.002208445909450269,
+    -0.003206945357578404,
+    -0.0029059205498301855,
+    -0.001241868361972706,
+    -0.0022061828327997603,
+    -0.002167442649557948
+  ],
+  "admission_rule": "6of6_nonworse_and_at_least1percent_aggregate_gain",
+  "development_metrics_sha256": "f0c692c0d428a61400850b204b84157228c94fd679c5220197365da415e2b4cb",
+  "scope": "previous guarded component only; does not certify the new resolution profile"
+  }
+}

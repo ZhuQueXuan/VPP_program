@@ -1,0 +1,92 @@
+[
+  {
+    "case": "missing declaration",
+    "service": {
+      "status": "unavailable",
+      "reason": "declared_energy_and_deadline_not_supplied",
+      "delivered_ac_kwh": null,
+      "remaining_ac_kwh": null,
+      "shortfall_ac_kwh": null,
+      "observed_until_min": null,
+      "physical_service_certified": false,
+      "interpretation": "declared_grid_side_requirement_checked_against_metered_energy; not SOC or authorization"
+    }
+  },
+  {
+    "case": "late information",
+    "service": {
+      "status": "invalid_input",
+      "reason": "nonnegative energy, pre-notice snapshot/availability and later declared deadline required",
+      "delivered_ac_kwh": null,
+      "remaining_ac_kwh": null,
+      "shortfall_ac_kwh": null,
+      "observed_until_min": null,
+      "physical_service_certified": false,
+      "interpretation": "declared_grid_side_requirement_checked_against_metered_energy; not SOC or authorization"
+    }
+  },
+  {
+    "case": "wrong meter",
+    "service": {
+      "status": "invalid_input",
+      "reason": "EV requirement meter_id must match task",
+      "delivered_ac_kwh": null,
+      "remaining_ac_kwh": null,
+      "shortfall_ac_kwh": null,
+      "observed_until_min": null,
+      "physical_service_certified": false,
+      "interpretation": "declared_grid_side_requirement_checked_against_metered_energy; not SOC or authorization"
+    }
+  },
+  {
+    "case": "station boundary",
+    "service": {
+      "status": "unavailable",
+      "reason": "single_EV_AC_meter_boundary_declaration_required",
+      "delivered_ac_kwh": null,
+      "remaining_ac_kwh": null,
+      "shortfall_ac_kwh": null,
+      "observed_until_min": null,
+      "physical_service_certified": false,
+      "interpretation": "declared_grid_side_requirement_checked_against_metered_energy; not SOC or authorization"
+    }
+  },
+  {
+    "case": "cut deadline",
+    "service": {
+      "status": "unavailable",
+      "reason": "declared_deadline_not_meter_aligned",
+      "delivered_ac_kwh": null,
+      "remaining_ac_kwh": 5.4,
+      "shortfall_ac_kwh": null,
+      "observed_until_min": 100030.5,
+      "physical_service_certified": false,
+      "interpretation": "declared_grid_side_requirement_checked_against_metered_energy; not SOC or authorization",
+      "state_as_of_min": 99985.0,
+      "deadline_min": 100030.5,
+      "source": "caller_declared_before_notice",
+      "task_exceeds_declared_connection": false,
+      "resource_rule_source": "existing_EV_CAP_v1.prepare; no schedule optimization used",
+      "requirement_exceeds_declared_max_energy": false
+    }
+  },
+  {
+    "case": "missing state prefix",
+    "service": {
+      "status": "unavailable",
+      "reason": "snapshot_start_not_covered_or_not_meter_aligned",
+      "delivered_ac_kwh": null,
+      "remaining_ac_kwh": 5.4,
+      "shortfall_ac_kwh": null,
+      "observed_until_min": null,
+      "physical_service_certified": false,
+      "interpretation": "declared_grid_side_requirement_checked_against_metered_energy; not SOC or authorization",
+      "state_as_of_min": 99984.0,
+      "deadline_min": 100060.0,
+      "source": "caller_declared_before_notice",
+      "task_exceeds_declared_connection": false,
+      "resource_rule_source": "existing_EV_CAP_v1.prepare; no schedule optimization used",
+      "requirement_exceeds_declared_max_energy": false
+    }
+  }
+]

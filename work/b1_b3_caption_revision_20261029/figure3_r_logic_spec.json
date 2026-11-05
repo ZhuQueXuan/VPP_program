@@ -1,0 +1,63 @@
+{
+  "svg": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_caption_revision_20261029\\report_markdown_assets\\figure-03-r-logic.svg",
+  "edges": [
+    {
+      "from": "X",
+      "to": "R",
+      "type": "effect"
+    },
+    {
+      "from": "W",
+      "to": "R",
+      "type": "effect"
+    },
+    {
+      "from": "W",
+      "to": "A",
+      "type": "effect"
+    },
+    {
+      "from": "X",
+      "to": "D",
+      "type": "assignment"
+    },
+    {
+      "from": "W",
+      "to": "D",
+      "type": "assignment"
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "type": "effect"
+    },
+    {
+      "from": "A",
+      "to": "R",
+      "type": "effect"
+    },
+    {
+      "from": "R",
+      "to": "S",
+      "type": "derived"
+    },
+    {
+      "from": "curves",
+      "to": "extract",
+      "type": "data"
+    },
+    {
+      "from": "extract",
+      "to": "estimate",
+      "type": "data"
+    },
+    {
+      "from": "estimate",
+      "to": "effect",
+      "type": "data"
+    }
+  ],
+  "main_outcome": "R",
+  "auxiliary_outcome": "S=I(R>=600s)",
+  "declared_structure_not_learned_complete_graph": true
+}

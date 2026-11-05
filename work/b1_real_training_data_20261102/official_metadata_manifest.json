@@ -1,0 +1,50 @@
+[
+  {
+    "site": "Caltech",
+    "year": 2018,
+    "status": "failed",
+    "error": "Expecting value: line 1495 column 1 (char 51357)"
+  },
+  {
+    "site": "Caltech",
+    "year": 2019,
+    "status": "failed",
+    "error": "Expecting value: line 7695 column 1 (char 254500)"
+  },
+  {
+    "site": "Caltech",
+    "year": 2020,
+    "path": "source_documents/acn_official_Caltech_2020.json",
+    "records": 2472,
+    "users": 2033,
+    "sha256": "81bc1bc3987d9a4e631662fefabc8bae4d46c49f4623d8ebf6a3339db3d5a5d1",
+    "bytes": 2143198,
+    "status": "downloaded"
+  },
+  {
+    "site": "Office 1",
+    "year": 2018,
+    "status": "failed",
+    "error": "Expecting value: line 10 column 1 (char 180)"
+  },
+  {
+    "site": "Office 1",
+    "year": 2019,
+    "path": "source_documents/acn_official_Office_1_2019.json",
+    "records": 922,
+    "users": 0,
+    "sha256": "093b6925b4e479bbfed3eaedd9b20132838df88c0bc1a21b41d602c7813bacf8",
+    "bytes": 480040,
+    "status": "downloaded"
+  },
+  {
+    "site": "Office 1",
+    "year": 2020,
+    "path": "source_documents/acn_official_Office_1_2020.json",
+    "records": 436,
+    "users": 263,
+    "sha256": "595a1335694062f7f2e1a5a285390e0acd1eda6f3beac58ba24d0b2a84287b13",
+    "bytes": 336260,
+    "status": "downloaded"
+  }
+]

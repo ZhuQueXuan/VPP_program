@@ -1,0 +1,30 @@
+{
+  "status": "complete_for_authorized_factor_audit_and_single_curve_comparison",
+  "results": "confirmed_single_smoother_candidate",
+  "main_candidate": "shared Kennedy DR pseudo-outcomes + global cubic smoothing spline",
+  "current_default": "unchanged Kennedy DR local linear",
+  "mean_curve_rmse_seconds": {
+    "fixed_LL": 86.06489944037624,
+    "LL_2": 86.62001350016307,
+    "spline_0.0001": 79.32092202944341
+  },
+  "independent_confirmation_seed_blocks": 8,
+  "confirmation_curves": 48,
+  "all_confirmation_curves_included": true,
+  "new_data_are_simulated": true,
+  "field_or_independent_physical_validation": false,
+  "second_part_scope": "audit and common prospective factor definition only; no graph learner changed",
+  "third_part_scope": "implemented, compared, saved and independently checked reusable research candidate",
+  "other_parts_changed": false,
+  "first_part_kept_frozen": true,
+  "verification_passed": true,
+  "candidate_api_verification_passed": true,
+  "formal_source_and_model_files_unchanged": 61,
+  "artifact_files_hashed": 374,
+  "protocol_execution_clarification": "inference_band_fitting=False means no new candidate inference procedure: the unchanged formal baseline API still computes its existing conditional band during the shared fit. Those baseline bands were not reused for the spline.",
+  "installations": false,
+  "cmd_or_one_click_files_created": false,
+  "deletions": false,
+  "commits_or_external_publication": false,
+  "future_rule": "This confirmation is consumed; no further lambda selection, replacement draws or repeat confirmation on it."
+}

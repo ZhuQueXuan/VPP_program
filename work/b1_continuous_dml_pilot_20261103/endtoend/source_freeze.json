@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-11-03T06:22:10.747635+00:00",
+  "before_physical_generation": true,
+  "files": {
+    "work/b1_continuous_dml_pilot_20261103/endtoend.py": "3bcda1998d85dbf317bfa6236f37118708adc6f562e454915a86682145a357b2",
+    "work/b1_continuous_dml_pilot_20261103/methods.py": "d19f16685cfc4adbf722a9abd8e0129a183bcba4d5d414cb62ffa128fb6da256",
+    "work/b1_continuous_dml_pilot_20261103/data.py": "cebf3f4cb87b934d8f8e3ff21fa33ec971e5cad863d6a9a0c5119da65232be25",
+    "work/b1_continuous_dml_pilot_20261103/freeze.json": "a68437b8e3f3154572b1e2156c8ab0c79882d5c478601645c1b20d78004e7929",
+    "work/b1_continuous_dml_pilot_20261103/protocol.json": "8d7a216b06a3c6f6ab48089ed100382442563b109053e52efb02ae668ab9bca1"
+  }
+}

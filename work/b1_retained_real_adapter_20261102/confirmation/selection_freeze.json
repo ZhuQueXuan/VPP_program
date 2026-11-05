@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-11-02T15:45:34.968751+00:00",
+  "before_labels_and_new_model_outputs": true,
+  "files": {
+    "protocol.json": "2e92e924315941ef0e8ccc4570c58f3b482dc2b3fad0dde3bacdd8603a135399",
+    "prepare.py": "cba14ebfe5b5ebdfb1d3eb3ccf8ca9429fcba2bea89f882c9b2371db7c61b504",
+    "selection.json": "b40d09745965dd47d36cf235d8dca9906fdcfbc54abd78e524a7d2658342ab0a",
+    "samples.json": "5279b6d87fa6f60d9e5e748ab9f075df1f6b5cdedfee6d2d4a2fda8808c40d03"
+  },
+  "model_freeze_sha256": "a4399de04824e59f089d2d54fd0e1e694217c4d0d420328f3a9cd8c580630043"
+}

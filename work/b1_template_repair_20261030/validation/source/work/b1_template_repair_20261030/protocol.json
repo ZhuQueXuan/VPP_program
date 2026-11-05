@@ -1,0 +1,21 @@
+{
+  "scope": "authorized finite repair of RIDE initialization/recharge/solver, then fresh fair CPOP comparison; no report or automatic CPOP substitution",
+  "development": {"seeds":[7120000,7120001],"users":16,"events_per_user":2},
+  "validation": {"seeds":[7120100,7120101],"users":32,"events_per_user":2},
+  "test": {"seeds":[7120200,7120201,7120202,7120203,7120204,7120205,7120206,7120207],"users":64,"events_per_user":2},
+  "scenarios": ["positive","zero"],
+  "task": {"duration_min":30,"request_kw":1.5,"meter_min":1,"pre_min":15,"post_min":15,"noise_sigma_kw":0.05},
+  "generator": "reuse independent fine-grid four-shape EV generator from prior mainline with fresh seeds/users; no inference-template generation in primary panel",
+  "reference": "same past-only GBDT/prev10 selector with existing frozen model; no retraining, offset correction, oracle initialization or current response labels",
+  "methods": ["ride_template original unchanged","ride_revised checked repair","cpop original beta2logN exact-pruning unchanged"],
+  "candidate": {"changes":["observable task/recharge initializations","independent nonnegative post-release wait","bounded2variable amplitude profiling","explicit zero-rise/zero-release branch","local solver termination checks","declared headroom rebound cap when device max supplied; ratio fallback if unknown"],"new_dependencies":false,"CPOP_used_inside_candidate":false,"solver_max_nfev_per_start":250,"starts":"fixed deterministic maximum5M1/6M2, including instant-edge branch; no search on test"},
+  "fairness": "all methods receive identical observed power, selected reference, task, sigma and declared EV max. Runtime may differ and is reported; old/revised RIDE compute budgets not claimed equal. Both old and repaired are compared to untouched CPOP.",
+  "primary_metric": "event mean absolute error of cumulative task interval duration above0.1q, averaged by independent seed block; positive/zero equally weighted",
+  "secondary": ["curveRMSE","no-action false detections with trueR0 denominator","misses with trueRpositive denominator","signed duration bias","availability/fallback","raw eta unchanged","runtime"],
+  "gate_stable_CPOP_advantage": {"primary_relative_reduction_at_least":0.10,"paired_block_t95_upper_RIDEminusCPOP_less_than":0,"curveRMSE_ratio_at_most":1.05,"empirical_false_detection_excess_at_most":0.02,"empirical_miss_excess_at_most":0.02,"all_events_retained":true},
+  "gate_note": "predeclared evidence rule for this limited panel; empirical error gates are not statistical5percent detection guarantees; no universal or realEV claim",
+  "source_freeze": "development may repair at most2 targeted functional issues; final source frozen after validation and before any test generation/fit; test results never tune candidate",
+  "functional_controls": "existing4M1/M2 exact controls plus delayed rebound with an internal gap, zero-response, zero-edge, amplitude-bound and solver-limit negatives; controls do not count as independent performance evidence",
+  "stress_after_freeze": "new8usersx2events per testseed at20/37min sigma0.15, reported separately, no retuning",
+  "stop": "one validation and one new test panel; if no stable advantage, retain results and ask user to decide future route, do not extend samples or switch beta until winning"
+}

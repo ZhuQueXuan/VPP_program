@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "independent_event_rmse_and_bias_groups": 240,
+  "test_event_records": 14400,
+  "role_partitions_checked": 40,
+  "original_ride_files_sha_unchanged": 46,
+  "selected_methods_match": true
+}

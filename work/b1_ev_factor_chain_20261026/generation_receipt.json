@@ -1,0 +1,8 @@
+{
+  "base_events": 40000,
+  "scenario_variants": 160000,
+  "minimum_latent_power_kw": 0.0,
+  "maximum_latent_power_kw": 4.5,
+  "maximum_full_cycle_net_kws": 0.0,
+  "elapsed_s": 9.912599800001772
+}

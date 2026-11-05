@@ -1,0 +1,32 @@
+{
+  "scope": "Diagnose existing EV B1 final-panel effect curves and false detections before deciding optimization; no runtime/default/report change",
+  "data_status": "Already seen 8-block final panel, not new independent test; positive/zero paired",
+  "source": "work/b1_finish_ev_20261030/final_chain",
+  "tasks": "30min, q1.5kW, 1min average, prior/post15min",
+  "factor_diagnosis": {
+    "blocks": [7240200,7240201,7240202,7240203,7240204,7240205,7240206,7240207],
+    "target_events": [3,4],
+    "covariates": "Identical C0 L/U plus six zero columns; user crossfit, original support rules",
+    "outcomes": ["saved ride_revised duration", "saved cpop duration", "saved raw duration", "true observed duration", "saved raw eta", "true observed eta"],
+    "estimators": ["same Kennedy DR", "unadjusted local linear", "shared outcome plugin", "same pseudo-outcome straight line"],
+    "config": {"n_boot":199,"seed":"block seed","otherwise":"unchanged original defaults"},
+    "grid": [0.4,0.6,0.8,1.0,1.2,1.4,1.6,1.8,2.0],
+    "reference": 0.8,
+    "decomposition": "pointwise total error = measured-outcome vs true-outcome estimator difference + true-outcome estimator vs intervention truth; include cross-term, do not allocate MAE percentages",
+    "truth_role": "Evaluator-only oracle diagnosis, not a deployable model or new candidate"
+  },
+  "false_detection_diagnosis": {
+    "population": "All4096 target variants; no-action denominator is1778, zero causal effect differs from no action",
+    "definition": "At least one task bin of fitted reduction >=0.1q, cumulative duration>0; not a calibrated event hypothesis test",
+    "checks": ["same-event overlap among methods", "reference error vs meter noise vs threshold", "persistent vs isolated raw exceedance", "stratify true no-action and response by shape/scenario/dose", "conditional mean error and reference provenance"],
+    "no_threshold_search_or_calibration": true
+  },
+  "process_oracle_probe": {
+    "subset": "Each of8 blocks first16 users, target events3/4, both scenarios:512 paired variants; same subset for all conditions",
+    "methods": ["ride_revised","cpop"],
+    "conditions": ["saved predicted reference and observed power", "true reference and observed power", "true reference and noiseless power"],
+    "config": "Existing sigma0.05 unchanged including noiseless diagnostic; explicit7.2kW declared_headroom; no truth initialization or tuning",
+    "preserve": "all rows, failures, raw integrals; oracle only diagnostic"
+  },
+  "exit": "Evidence-based priority and unknowns; no new optimization candidate/default replacement, no claim of causal cause percentages, no automatic B2/B3/resources/report work"
+}

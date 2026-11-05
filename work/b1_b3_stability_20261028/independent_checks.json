@@ -1,0 +1,428 @@
+{
+  "status": "passed",
+  "main": {
+    "checks": 1119424,
+    "max_shared_violation_kw": 3.1086244689504383e-15,
+    "actual_EV_offers": 238,
+    "actual_EV_acceptances": 128,
+    "positive_debt_queries_blocked": 78,
+    "supported_second_EV_queries": 157
+  },
+  "legacy_guard_replay": {
+    "checks": 9552,
+    "cases": 24,
+    "summary": [
+      {
+        "id": "r00_b0_s9_nominal",
+        "regime": "nominal",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r00_b0_s9_bounded",
+        "regime": "bounded",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r00_b0_s9_stress",
+        "regime": "stress",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": false
+      },
+      {
+        "id": "r00_b0_s18_nominal",
+        "regime": "nominal",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r00_b0_s18_bounded",
+        "regime": "bounded",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r00_b0_s18_stress",
+        "regime": "stress",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": false
+      },
+      {
+        "id": "r00_b1_s9_nominal",
+        "regime": "nominal",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r00_b1_s9_bounded",
+        "regime": "bounded",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r00_b1_s9_stress",
+        "regime": "stress",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": false
+      },
+      {
+        "id": "r00_b1_s18_nominal",
+        "regime": "nominal",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r00_b1_s18_bounded",
+        "regime": "bounded",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r00_b1_s18_stress",
+        "regime": "stress",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": false
+      },
+      {
+        "id": "r01_b0_s9_nominal",
+        "regime": "nominal",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r01_b0_s9_bounded",
+        "regime": "bounded",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r01_b0_s9_stress",
+        "regime": "stress",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r01_b0_s18_nominal",
+        "regime": "nominal",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r01_b0_s18_bounded",
+        "regime": "bounded",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r01_b0_s18_stress",
+        "regime": "stress",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r01_b1_s9_nominal",
+        "regime": "nominal",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r01_b1_s9_bounded",
+        "regime": "bounded",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r01_b1_s9_stress",
+        "regime": "stress",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": false
+      },
+      {
+        "id": "r01_b1_s18_nominal",
+        "regime": "nominal",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r01_b1_s18_bounded",
+        "regime": "bounded",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": true
+      },
+      {
+        "id": "r01_b1_s18_stress",
+        "regime": "stress",
+        "calls": [
+          {
+            "admitted": true,
+            "withdrawn": false,
+            "strict_success": true
+          },
+          {
+            "admitted": false,
+            "withdrawn": false,
+            "strict_success": false
+          }
+        ],
+        "terminal_ok": false
+      }
+    ]
+  },
+  "checks": 1128976,
+  "real_world_validation": false,
+  "old_source_receipts_unchanged": true
+}

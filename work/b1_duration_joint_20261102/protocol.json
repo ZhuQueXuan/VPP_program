@@ -1,0 +1,67 @@
+{
+  "scope": "Known-reference first block only; keep known_local_response,original CPOP and LABS. No forecasting/report/second-block changes.",
+  "diagnosis": "Previous adopted2808 inputs: balanced duration MAE74.726s. Positive long responses contribute51.153s; no-effective-response cases18.998s. Longest error86.849s exceeds cumulative62.603s. Interrupted and weak continuous responses dominate shape errors; not simply short missed responses.",
+  "method": "Gap-aware joint duration calibration from full observed traces, cumulative duration plus longest/cumulative fraction. Standard HGB models; no new solver claim. Keep all existing task positivity and localized support; no zeroing uncertain responses or deleting observations.",
+  "development": "All earlier test data are seen development for new duration models. New7781xxx validation,7782xxx final excluded from training; final generated only after selection freeze.",
+  "main_validation_seeds": [
+    7781000,
+    7781001
+  ],
+  "main_validation_per_kind": 3,
+  "weak_validation_seeds": [
+    7781300,
+    7781301
+  ],
+  "weak_validation_per_kind": 6,
+  "main_test_seeds": [
+    7782000,
+    7782001,
+    7782002,
+    7782003
+  ],
+  "main_test_per_kind": 3,
+  "weak_test_seeds": [
+    7782300,
+    7782301,
+    7782302,
+    7782303
+  ],
+  "weak_test_per_kind": 6,
+  "balanced_peaks_kw": [
+    0.08,
+    0.13,
+    0.145,
+    0.155,
+    0.18,
+    0.25
+  ],
+  "weak_amplitudes": "Independent uniform0.07..0.30kW in six equal-width randomized strata for every seed/shape/grid, both validation and test.",
+  "leaves": [
+    31,
+    63
+  ],
+  "iterations": 300,
+  "mix": [
+    0.5,
+    1.0
+  ],
+  "heads": [
+    "fraction",
+    "absolute"
+  ],
+  "modification_scope": "Previously positive tasks only. Existing short totals<=60s with quiet task median<=0.075kW and strong plateaus median>0.4kW keep adopted durations. Other positive tasks can be corrected, including underdetected long weak responses with currently short totals. Zero tasks and localized masks remain identical.",
+  "selection_gates": {
+    "pooled_duration_gain_at_least": 0.1,
+    "weak_duration_gain_at_least": 0.1,
+    "main_duration_not_worse_seconds": 2.0,
+    "short_duration_not_worse_seconds": 5.0,
+    "gap_longest_not_worse_seconds": 5.0,
+    "task_false_positives_and_misses_unchanged": true,
+    "localized_true_short_misses_unchanged": true,
+    "true_long_positive_gain_at_least": 0.1
+  },
+  "metric": "Mean of cumulative and longest MAE, panel/condition balanced over combined normal:weak input ratio1:2, same adopted75s definition. Also report normal/weak/subsets separately.",
+  "no_test_tuning": true,
+  "no_field_accuracy_claim": true,
+  "reuse": "Installed sklearn1.7.2 BSD3 HGB quantile models; official Github reviewed. New contribution is task-specific gap-aware joint feature calibration, not inventing trees or replacing CPOP by name."
+}

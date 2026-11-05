@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "source_files_matched": 34,
+  "protected_files_matched": 75,
+  "old_raw_files_matched": 32,
+  "old_event_files_matched": 64,
+  "process_outputs_recomputed": 4096,
+  "metric_scalars_recomputed": 9216,
+  "feasible_witness_checks": 15,
+  "true_reference_and_noise_ablation_exact": true,
+  "post_ablation_preserves_task_power_and_target": true,
+  "relaxed_rebound_does_not_change_CPOP": true,
+  "solver_reruns": false,
+  "model_adopted": false
+}

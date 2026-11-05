@@ -1,0 +1,143 @@
+{
+  "rows": [
+    {
+      "mean_status": "causal",
+      "direct_status": "ok",
+      "curve_rmse_seconds": 66.55008204789867,
+      "smoothed_derivative_rmse": 154.88668665901673,
+      "direct_derivative_rmse": 534.680692689125,
+      "target_first_crossing": 0.9351060873730579,
+      "zero_effect_band_excludes_zero": true,
+      "seed": 90331001,
+      "mechanism": "randomized",
+      "events": 360,
+      "users": 180,
+      "elapsed_seconds": 0.6571199999998498,
+      "structure_edges": {
+        "fci_kci": 2,
+        "pc_kci": 2
+      },
+      "shared_epanechnikov_quadratic_derivative_rmse": 543.9925919775541
+    },
+    {
+      "mean_status": "causal",
+      "direct_status": "ok",
+      "curve_rmse_seconds": 75.23664025602098,
+      "smoothed_derivative_rmse": 207.47835984236585,
+      "direct_derivative_rmse": 547.0681246317858,
+      "target_first_crossing": 0.8113958665803621,
+      "zero_effect_band_excludes_zero": true,
+      "seed": 90331001,
+      "mechanism": "observed_confounding",
+      "events": 360,
+      "users": 180,
+      "elapsed_seconds": 0.1876228999972227,
+      "structure_edges": {
+        "fci_kci": 2,
+        "pc_kci": 2
+      },
+      "shared_epanechnikov_quadratic_derivative_rmse": 552.2760290647623
+    },
+    {
+      "mean_status": "causal",
+      "direct_status": "ok",
+      "curve_rmse_seconds": 44.71817069968066,
+      "smoothed_derivative_rmse": 228.85807225206415,
+      "direct_derivative_rmse": 423.11616891411506,
+      "target_first_crossing": null,
+      "zero_effect_band_excludes_zero": false,
+      "seed": 90331001,
+      "mechanism": "zero_effect",
+      "events": 360,
+      "users": 180,
+      "elapsed_seconds": 0.13912019999770564,
+      "structure_edges": {
+        "fci_kci": 1,
+        "pc_kci": 1
+      },
+      "shared_epanechnikov_quadratic_derivative_rmse": 371.75124122031457
+    },
+    {
+      "mean_status": "causal",
+      "direct_status": "ok",
+      "curve_rmse_seconds": 98.83359465505481,
+      "smoothed_derivative_rmse": 176.17599053058032,
+      "direct_derivative_rmse": 642.1346590339543,
+      "target_first_crossing": 0.6541292541715623,
+      "zero_effect_band_excludes_zero": true,
+      "seed": 90331002,
+      "mechanism": "randomized",
+      "events": 360,
+      "users": 180,
+      "elapsed_seconds": 0.15881809999700636,
+      "group_effect_difference_rmse_seconds": 185.37337897615643,
+      "structure_edges": {
+        "fci_kci": 2,
+        "pc_kci": 2
+      },
+      "shared_epanechnikov_quadratic_derivative_rmse": 687.0892999445322
+    },
+    {
+      "mean_status": "causal",
+      "direct_status": "ok",
+      "curve_rmse_seconds": 156.78149683951878,
+      "smoothed_derivative_rmse": 462.9514581558418,
+      "direct_derivative_rmse": 954.6790781558649,
+      "target_first_crossing": 0.5169949711831515,
+      "zero_effect_band_excludes_zero": true,
+      "seed": 90331002,
+      "mechanism": "observed_confounding",
+      "events": 360,
+      "users": 180,
+      "elapsed_seconds": 0.17644709999876795,
+      "structure_edges": {
+        "fci_kci": 3,
+        "pc_kci": 3
+      },
+      "shared_epanechnikov_quadratic_derivative_rmse": 971.2028650737615
+    },
+    {
+      "mean_status": "causal",
+      "direct_status": "ok",
+      "curve_rmse_seconds": 99.72995610978853,
+      "smoothed_derivative_rmse": 192.58093459863807,
+      "direct_derivative_rmse": 701.1546218086335,
+      "target_first_crossing": 1.544143999611813,
+      "zero_effect_band_excludes_zero": true,
+      "seed": 90331002,
+      "mechanism": "zero_effect",
+      "events": 360,
+      "users": 180,
+      "elapsed_seconds": 0.18310439999913797,
+      "structure_edges": {
+        "fci_kci": 3,
+        "pc_kci": 3
+      },
+      "shared_epanechnikov_quadratic_derivative_rmse": 676.6060365407451
+    }
+  ],
+  "aggregate": {
+    "cohorts": 6,
+    "curve_rmse_seconds": {
+      "mean": 90.30832343466041,
+      "outputs": 6
+    },
+    "smoothed_derivative_rmse": {
+      "mean": 237.15525033975118,
+      "outputs": 6
+    },
+    "direct_derivative_rmse": {
+      "mean": 633.805557538913,
+      "outputs": 6
+    },
+    "shared_epanechnikov_quadratic_derivative_rmse": {
+      "mean": 633.8196773036117,
+      "outputs": 6
+    },
+    "group_effect_difference_rmse_seconds": {
+      "mean": 185.37337897615643,
+      "outputs": 1
+    }
+  },
+  "independent_seed_blocks": 2
+}

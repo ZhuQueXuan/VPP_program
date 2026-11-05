@@ -1,0 +1,26 @@
+{
+  "physical_events": 240,
+  "score_cohorts": 24,
+  "winning_blocks": 2,
+  "observed_vs_simulated_split": {
+    "effective_response_refined": {
+      "true_split": 47,
+      "missed": 12,
+      "false": 4
+    },
+    "cpop": {
+      "true_split": 47,
+      "missed": 0,
+      "false": 0
+    }
+  },
+  "target_decision": "reached",
+  "threshold_grid_count": 81,
+  "band_lower_max": 212.33283297201058,
+  "band_upper_max": 1084.6236415325275,
+  "curve_rmse_by_extractor": {
+    "effective_response_refined": 46.78635903733768,
+    "cpop": 58.96474978636104
+  },
+  "queried_example_reloaded": true
+}

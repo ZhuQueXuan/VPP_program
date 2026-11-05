@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "rejected_types": 7,
+  "valid_string_modes": 2,
+  "scientific_inputs_unchanged": true,
+  "resource_source_sha256": "e87f9243d4915163d581d23c9bd33c53c63ff6374bbf50f35f9c3dbc995ae3b5"
+}

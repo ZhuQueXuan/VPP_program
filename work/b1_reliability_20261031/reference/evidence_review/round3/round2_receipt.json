@@ -1,0 +1,155 @@
+{
+  "source_sha256": "447e76891b4aa8ec4c3dea27c6b81e9f22ac1356acb337d7e42d6986fba49d4f",
+  "closed_checks": {
+    "payload_changes_measured_outcomes": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "invalid calibration interpretation flags"
+    },
+    "payload_nuisance_or_reference_uncertainty_separately_identified": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "invalid calibration interpretation flags"
+    },
+    "payload_upper_score_threshold": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "threshold differs from finite rank"
+    },
+    "payload_ledger": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "scores/user blocks not bound to ledger"
+    },
+    "payload_score_definition": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "invalid calibration interpretation flags"
+    },
+    "payload_validity": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "invalid calibration interpretation flags"
+    },
+    "payload_unexpected_extra_field": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "calibration schema/fields mismatch"
+    },
+    "scores_not_from_ledger": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "scores/user blocks not bound to ledger"
+    },
+    "missing_ledger": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "calibration schema/fields mismatch"
+    },
+    "bool_signature_numeric": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "ev_config.onset_fraction must be a finite real number, not bool/string"
+    },
+    "empty_signature": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "invalid signature fields"
+    },
+    "bool_rank": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "invalid finite rank"
+    },
+    "bool_events_per_user": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "balanced calibration block size required"
+    },
+    "ledger_future_available": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "invalid calibration ledger time"
+    },
+    "ledger_duplicate_task": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "duplicate calibration ledger task"
+    },
+    "ledger_negative_score": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "negative scan score"
+    },
+    "bool_ledger_score": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "ledger score must be a finite real number, not bool/string"
+    },
+    "wrong_model_class": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "EVEventCalibration with string payload/checksum required"
+    },
+    "reference_model_id": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "reference metadata not bound to calibration source"
+    },
+    "reference_method": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "reference metadata not bound to calibration source"
+    },
+    "reference_available_at_min": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "reference metadata not bound to calibration source"
+    },
+    "query_different_notice_lead": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "event does not match calibrated reference/process/task/profile/noise policy"
+    },
+    "subtolerance_duplicate_physical_window": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "renamed duplicate physical event"
+    },
+    "record_profile_source_mismatch": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "profile not bound to calibration record"
+    }
+  },
+  "mathematical_checks": [
+    "two original-user maxima preserve full repeated-event block",
+    "all signed contiguous task windows match brute force",
+    "positive evidence keeps measured duration and original event",
+    "insufficient user count stays explicitly inconclusive"
+  ],
+  "additional": {
+    "record_noise_source_mismatch": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "noise declaration not bound to process"
+    },
+    "record_bool_noise": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "calibration record sigma must be a finite real number, not bool/string"
+    },
+    "duplicate_payload_field": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "duplicate JSON field: alpha"
+    },
+    "duplicate_envelope_field": {
+      "accepted": false,
+      "error_type": "ValueError",
+      "message": "duplicate JSON field: payload_json"
+    }
+  },
+  "closure_passed": true,
+  "new_accepted": []
+}

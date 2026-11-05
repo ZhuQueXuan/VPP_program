@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "integral 0/0.32/0",
+      "passed": true
+    },
+    {
+      "name": "integral 0/0.32/30",
+      "passed": true
+    },
+    {
+      "name": "integral 0/0.32/60",
+      "passed": true
+    },
+    {
+      "name": "integral 0/0.52/0",
+      "passed": true
+    },
+    {
+      "name": "integral 0/0.52/30",
+      "passed": true
+    },
+    {
+      "name": "integral 0/0.52/60",
+      "passed": true
+    },
+    {
+      "name": "integral 0/0.8/0",
+      "passed": true
+    },
+    {
+      "name": "integral 0/0.8/30",
+      "passed": true
+    },
+    {
+      "name": "integral 0/0.8/60",
+      "passed": true
+    },
+    {
+      "name": "integral 1/0.32/0",
+      "passed": true
+    },
+    {
+      "name": "integral 1/0.32/30",
+      "passed": true
+    },
+    {
+      "name": "integral 1/0.32/60",
+      "passed": true
+    },
+    {
+      "name": "integral 1/0.52/0",
+      "passed": true
+    },
+    {
+      "name": "integral 1/0.52/30",
+      "passed": true
+    },
+    {
+      "name": "integral 1/0.52/60",
+      "passed": true
+    },
+    {
+      "name": "integral 1/0.8/0",
+      "passed": true
+    },
+    {
+      "name": "integral 1/0.8/30",
+      "passed": true
+    },
+    {
+      "name": "integral 1/0.8/60",
+      "passed": true
+    },
+    {
+      "name": "p bounds zero",
+      "passed": true
+    },
+    {
+      "name": "p bounds linear",
+      "passed": true
+    },
+    {
+      "name": "p bounds smooth",
+      "passed": true
+    },
+    {
+      "name": "p bounds hinge",
+      "passed": true
+    },
+    {
+      "name": "OLS exact linear",
+      "passed": true
+    },
+    {
+      "name": "fixed spline exact basis",
+      "passed": true
+    },
+    {
+      "name": "flat no crossing",
+      "passed": true
+    },
+    {
+      "name": "monotone bracket",
+      "passed": true
+    },
+    {
+      "name": "nonmonotone ambiguity",
+      "passed": true
+    },
+    {
+      "name": "unsupported extrapolation",
+      "passed": true
+    },
+    {
+      "name": "unobserved M0 point",
+      "passed": true
+    },
+    {
+      "name": "arm support",
+      "passed": true
+    }
+  ],
+  "protocol_sha256": "cd3ec5265c86bb418f5c9950dde9b73025827c6535045d4f79ba330b33e66764"
+}

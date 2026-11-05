@@ -1,0 +1,64 @@
+{
+  "schema": "b1.route-review.v1",
+  "date": "2026-10-31",
+  "scope": "Internal route review only; no implementation or new experiment approval",
+  "recommendation": "One bounded observable short-response deterministic-search candidate; unchanged native CPOP remains the independent main process comparator; stop if no independent practical gain.",
+  "completed": [
+    "Original scope and comparator history checked",
+    "Production module/call-chain and frozen positive/negative evidence reviewed",
+    "Read-only weak-response diagnostic and independent overlap-integral verification",
+    "Competing routes, ablations, development boundaries and proposed stop criteria documented"
+  ],
+  "diagnosis": {
+    "fact_tasks": 1024,
+    "true_threshold_positive": 690,
+    "template_misses": 151,
+    "cpop_misses": 38,
+    "amplitude_gate_misses": 148,
+    "post_detection_misses": 3,
+    "exact_legal_witnesses": 358,
+    "missed_with_better_legal_witness": 55,
+    "input_files_sha_checked": 40,
+    "independent_checker_passed": true
+  },
+  "protected_original_files": 3290,
+  "protected_original_files_unchanged": true,
+  "operations": {
+    "source_modified": false,
+    "original_data_modified": false,
+    "frozen_records_modified": false,
+    "model_fitting": false,
+    "new_experiments": false,
+    "deletion": false,
+    "installs": false,
+    "formal_report": false,
+    "B2_B3_B4_expansion": false,
+    "uploads_or_commits": false
+  },
+  "limitations": [
+    "The diagnostic reuses already-seen test data; no new performance validation.",
+    "Truth-based witnesses prove existence/objective gaps, not deployable initialization or future gains.",
+    "No proof that the global optimum detects a response, nor that the proposed search beats CPOP.",
+    "Reference/long-weak response confounding and all-chain uncertainty remain unresolved.",
+    "Numeric adoption margins are protocol suggestions, not user-approved or task-book requirements.",
+    "Protection snapshot covers listed source/evidence/original-document directories, not all project data."
+  ],
+  "local_links_checked": 31,
+  "local_links_missing": [],
+  "artifact_sha256": {
+    "audit_scope.py": "d87887737717112b48d71f94f7b99342af127399654a5c6eef28181065b34b05",
+    "B1改进路线审查与建议.md": "1d4ad6c2cd281c4064c5685c4719728b61c188ebbbd5e4893fadeb417edf24e6",
+    "diagnose_process_saved.py": "a3b45e54c63f7e86d42af5a73da86067c1f54b33bf2a3f6812eca21dd2df748c",
+    "effects_reference_review.md": "4679a218820648dd3aa8c7a17e5385c9c0ce498c869473c3619a3613f79cbca6",
+    "finalize_review.py": "e644e8c6bc0c81bee425928ba0e7486d4c031098ae0597681d68f4dc7c889ca2",
+    "independent_diagnostic_check.json": "e27da6149101aae41f6873627452bd83c8c882a5948bf46ce8e9c02c460b65d8",
+    "independent_diagnostic_check.py": "76911257f405bcbbe60402b9e1a3b578a7fbcb54ea2bf3eb76f69bad7ac7422c",
+    "process_review.md": "e986d2bcb6e44037e4a6f71c87480ba7283c3b6f43e9f1d3660afcc189596865",
+    "protected_before.json": "5fd657a3a8d72c77b28ee8cac44d3dbd3f195c73f6c45045e7a3a07877d298e4",
+    "protection_receipt.json": "2946ea3afb26306d191b700bfcd18ab851a7e1a6be63a60e54d5eeb52a5453c4",
+    "README.md": "c1f03afa761e364c8d8b89c82ae568cf246421feb98dd66830ca24a943e4525c",
+    "saved_process_diagnosis.csv": "d68a1cec166b0aa218d7cfecca6354b17986119a64033d72baeb086fffc229f8",
+    "saved_process_diagnosis.json": "1b79af00f75e71e3384b8ed3c0f128ce20edc1606a66add17a2f06919e61f95f",
+    "scope_literature_review.md": "d52c710e57c889ae4659747a90217bbde69330bd5a81f107f57c6479fec29b99"
+  }
+}

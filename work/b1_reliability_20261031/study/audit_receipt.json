@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "n_checks": 164175,
+  "n_factual_variants_audited": 3456,
+  "n_process_outputs_audited": 13824,
+  "phases": {
+    "validation": {
+      "statuses": {
+        "ok": 1536
+      },
+      "n_blocks": 2
+    },
+    "test": {
+      "statuses": {
+        "ok": 12288
+      },
+      "n_blocks": 8
+    }
+  },
+  "fit_cutoff_min": 254585.0,
+  "calibration_cutoff_min": 2253305.0,
+  "source_identity_unchanged": true,
+  "model_or_algorithm_refit": false,
+  "raw_eta_and_duration_preserved": true,
+  "score_audit": "Direct finite windows via math.fsum, separately from formal cumulative-sum implementation; rank p independently counted with conservative ties.",
+  "scope": "Read-only arithmetic, identity, legal time and finite-rank audit. Check count is not a performance sample size.",
+  "main_receipt_sha256": "4bb6dff93d444ba2c0e75773ba336f260ba92c2374ebd68af2d972e638ac0c4a"
+}

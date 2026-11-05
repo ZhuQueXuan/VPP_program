@@ -1,0 +1,2162 @@
+[
+  {
+    "seed": 261026801,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05459067110982603
+  },
+  {
+    "seed": 261026801,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.0477727879136787
+  },
+  {
+    "seed": 261026801,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.043788986862362995
+  },
+  {
+    "seed": 261026801,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04492243985013857
+  },
+  {
+    "seed": 261026801,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05655149746435802
+  },
+  {
+    "seed": 261026801,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.053789749113135304
+  },
+  {
+    "seed": 261026801,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.050238599609611384
+  },
+  {
+    "seed": 261026801,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.051170576514110624
+  },
+  {
+    "seed": 261026801,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05459067110982603
+  },
+  {
+    "seed": 261026801,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.0477727879136787
+  },
+  {
+    "seed": 261026801,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.043788986862362995
+  },
+  {
+    "seed": 261026801,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04492243985013857
+  },
+  {
+    "seed": 261026802,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.060060155171404554
+  },
+  {
+    "seed": 261026802,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05329234625248373
+  },
+  {
+    "seed": 261026802,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04958684444958384
+  },
+  {
+    "seed": 261026802,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.048586989715368525
+  },
+  {
+    "seed": 261026802,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.058663676705982847
+  },
+  {
+    "seed": 261026802,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05681622233165051
+  },
+  {
+    "seed": 261026802,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.054047654208174124
+  },
+  {
+    "seed": 261026802,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05358195717588314
+  },
+  {
+    "seed": 261026802,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.060060155171404554
+  },
+  {
+    "seed": 261026802,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05329234625248373
+  },
+  {
+    "seed": 261026802,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04958684444958384
+  },
+  {
+    "seed": 261026802,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.048586989715368525
+  },
+  {
+    "seed": 261026803,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05696097090158531
+  },
+  {
+    "seed": 261026803,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05145292958385346
+  },
+  {
+    "seed": 261026803,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.047959721387713934
+  },
+  {
+    "seed": 261026803,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04820274176040003
+  },
+  {
+    "seed": 261026803,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.060148429163780374
+  },
+  {
+    "seed": 261026803,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05589333881490207
+  },
+  {
+    "seed": 261026803,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05141333613725241
+  },
+  {
+    "seed": 261026803,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05192298156735465
+  },
+  {
+    "seed": 261026803,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05696097090158531
+  },
+  {
+    "seed": 261026803,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05145292958385346
+  },
+  {
+    "seed": 261026803,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.047959721387713934
+  },
+  {
+    "seed": 261026803,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04820274176040003
+  },
+  {
+    "seed": 261026804,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05902636583580727
+  },
+  {
+    "seed": 261026804,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.053611287713368344
+  },
+  {
+    "seed": 261026804,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.050690229561578155
+  },
+  {
+    "seed": 261026804,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.050653485011422236
+  },
+  {
+    "seed": 261026804,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.054838695644105054
+  },
+  {
+    "seed": 261026804,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05118279392469948
+  },
+  {
+    "seed": 261026804,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04864380533560054
+  },
+  {
+    "seed": 261026804,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04798414985811702
+  },
+  {
+    "seed": 261026804,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05902636583580727
+  },
+  {
+    "seed": 261026804,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.053611287713368344
+  },
+  {
+    "seed": 261026804,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.050690229561578155
+  },
+  {
+    "seed": 261026804,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.050653485011422236
+  },
+  {
+    "seed": 261026805,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05827792639254008
+  },
+  {
+    "seed": 261026805,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05303502244976654
+  },
+  {
+    "seed": 261026805,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04924743942721778
+  },
+  {
+    "seed": 261026805,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04987730231750633
+  },
+  {
+    "seed": 261026805,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.057939149638641725
+  },
+  {
+    "seed": 261026805,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.054220527821649406
+  },
+  {
+    "seed": 261026805,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05125260967901178
+  },
+  {
+    "seed": 261026805,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05181589450869869
+  },
+  {
+    "seed": 261026805,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05827792639254008
+  },
+  {
+    "seed": 261026805,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05303502244976654
+  },
+  {
+    "seed": 261026805,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04924743942721778
+  },
+  {
+    "seed": 261026805,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04987730231750633
+  },
+  {
+    "seed": 261026806,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.06026956612856873
+  },
+  {
+    "seed": 261026806,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05388099102587538
+  },
+  {
+    "seed": 261026806,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05045705579223047
+  },
+  {
+    "seed": 261026806,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.0499858228799776
+  },
+  {
+    "seed": 261026806,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.060829153261598365
+  },
+  {
+    "seed": 261026806,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.0562737159950232
+  },
+  {
+    "seed": 261026806,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05269755918852834
+  },
+  {
+    "seed": 261026806,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.052383089099389456
+  },
+  {
+    "seed": 261026806,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.06026956612856873
+  },
+  {
+    "seed": 261026806,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05388099102587538
+  },
+  {
+    "seed": 261026806,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05045705579223047
+  },
+  {
+    "seed": 261026806,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.0499858228799776
+  },
+  {
+    "seed": 261026807,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05873124598421987
+  },
+  {
+    "seed": 261026807,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05318172730203493
+  },
+  {
+    "seed": 261026807,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04981757357661477
+  },
+  {
+    "seed": 261026807,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05019912035194406
+  },
+  {
+    "seed": 261026807,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.057449092325729575
+  },
+  {
+    "seed": 261026807,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05350406376553263
+  },
+  {
+    "seed": 261026807,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05030215892549125
+  },
+  {
+    "seed": 261026807,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04996434419549619
+  },
+  {
+    "seed": 261026807,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05873124598421987
+  },
+  {
+    "seed": 261026807,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05318172730203493
+  },
+  {
+    "seed": 261026807,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04981757357661477
+  },
+  {
+    "seed": 261026807,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05019912035194406
+  },
+  {
+    "seed": 261026808,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.056464872920584996
+  },
+  {
+    "seed": 261026808,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05152335665464302
+  },
+  {
+    "seed": 261026808,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04838531186114968
+  },
+  {
+    "seed": 261026808,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.048687252849883844
+  },
+  {
+    "seed": 261026808,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05620054686115919
+  },
+  {
+    "seed": 261026808,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05133632882971633
+  },
+  {
+    "seed": 261026808,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04868432579858194
+  },
+  {
+    "seed": 261026808,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04830447918975307
+  },
+  {
+    "seed": 261026808,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.056464872920584996
+  },
+  {
+    "seed": 261026808,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05152335665464302
+  },
+  {
+    "seed": 261026808,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04838531186114968
+  },
+  {
+    "seed": 261026808,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.048687252849883844
+  },
+  {
+    "seed": 261026809,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.058831479077546094
+  },
+  {
+    "seed": 261026809,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.052005616287143064
+  },
+  {
+    "seed": 261026809,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04850879401725039
+  },
+  {
+    "seed": 261026809,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04772218283935724
+  },
+  {
+    "seed": 261026809,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05906256792324096
+  },
+  {
+    "seed": 261026809,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.055869237816349365
+  },
+  {
+    "seed": 261026809,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05219465601285824
+  },
+  {
+    "seed": 261026809,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05246683966771289
+  },
+  {
+    "seed": 261026809,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.058831479077546094
+  },
+  {
+    "seed": 261026809,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.052005616287143064
+  },
+  {
+    "seed": 261026809,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04850879401725039
+  },
+  {
+    "seed": 261026809,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04772218283935724
+  },
+  {
+    "seed": 261026810,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.054976242020001245
+  },
+  {
+    "seed": 261026810,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.04969136190340069
+  },
+  {
+    "seed": 261026810,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.046871819042894176
+  },
+  {
+    "seed": 261026810,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04662302711449349
+  },
+  {
+    "seed": 261026810,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05829098723857254
+  },
+  {
+    "seed": 261026810,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05281712610443625
+  },
+  {
+    "seed": 261026810,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04944788480431848
+  },
+  {
+    "seed": 261026810,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04979207177884982
+  },
+  {
+    "seed": 261026810,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.054976242020001245
+  },
+  {
+    "seed": 261026810,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.04969136190340069
+  },
+  {
+    "seed": 261026810,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.046871819042894176
+  },
+  {
+    "seed": 261026810,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04662302711449349
+  },
+  {
+    "seed": 261026811,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05983661257625128
+  },
+  {
+    "seed": 261026811,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05369369055385908
+  },
+  {
+    "seed": 261026811,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.050698691104382264
+  },
+  {
+    "seed": 261026811,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05004874709597012
+  },
+  {
+    "seed": 261026811,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05812888560628793
+  },
+  {
+    "seed": 261026811,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05487764866361081
+  },
+  {
+    "seed": 261026811,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05113074112857858
+  },
+  {
+    "seed": 261026811,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05151099879112118
+  },
+  {
+    "seed": 261026811,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05983661257625128
+  },
+  {
+    "seed": 261026811,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05369369055385908
+  },
+  {
+    "seed": 261026811,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.050698691104382264
+  },
+  {
+    "seed": 261026811,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05004874709597012
+  },
+  {
+    "seed": 261026812,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.056371990862877405
+  },
+  {
+    "seed": 261026812,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05112271987875121
+  },
+  {
+    "seed": 261026812,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04763168307673668
+  },
+  {
+    "seed": 261026812,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.047902747341721744
+  },
+  {
+    "seed": 261026812,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05714833742757676
+  },
+  {
+    "seed": 261026812,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.052325280576083565
+  },
+  {
+    "seed": 261026812,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04900449793049149
+  },
+  {
+    "seed": 261026812,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04886619984252381
+  },
+  {
+    "seed": 261026812,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.056371990862877405
+  },
+  {
+    "seed": 261026812,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05112271987875121
+  },
+  {
+    "seed": 261026812,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04763168307673668
+  },
+  {
+    "seed": 261026812,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.047902747341721744
+  },
+  {
+    "seed": 261026813,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05829613985144915
+  },
+  {
+    "seed": 261026813,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05089195114457226
+  },
+  {
+    "seed": 261026813,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04762915339868981
+  },
+  {
+    "seed": 261026813,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04784700615860514
+  },
+  {
+    "seed": 261026813,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.059609196250323314
+  },
+  {
+    "seed": 261026813,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05494215641829056
+  },
+  {
+    "seed": 261026813,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.0513051456518186
+  },
+  {
+    "seed": 261026813,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05070455047333151
+  },
+  {
+    "seed": 261026813,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05829613985144915
+  },
+  {
+    "seed": 261026813,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05089195114457226
+  },
+  {
+    "seed": 261026813,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04762915339868981
+  },
+  {
+    "seed": 261026813,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04784700615860514
+  },
+  {
+    "seed": 261026814,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.059313088483681706
+  },
+  {
+    "seed": 261026814,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.0516188646949303
+  },
+  {
+    "seed": 261026814,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.047953733316988684
+  },
+  {
+    "seed": 261026814,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.048288694260937
+  },
+  {
+    "seed": 261026814,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.056874280841083945
+  },
+  {
+    "seed": 261026814,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.0524934650509624
+  },
+  {
+    "seed": 261026814,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.0485248247470018
+  },
+  {
+    "seed": 261026814,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04836675366077909
+  },
+  {
+    "seed": 261026814,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.059313088483681706
+  },
+  {
+    "seed": 261026814,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.0516188646949303
+  },
+  {
+    "seed": 261026814,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.047953733316988684
+  },
+  {
+    "seed": 261026814,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.048288694260937
+  },
+  {
+    "seed": 261026815,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05931239567593556
+  },
+  {
+    "seed": 261026815,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05289357072170404
+  },
+  {
+    "seed": 261026815,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04932286182220268
+  },
+  {
+    "seed": 261026815,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05008775721502822
+  },
+  {
+    "seed": 261026815,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.059190588598547714
+  },
+  {
+    "seed": 261026815,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.054762460887265885
+  },
+  {
+    "seed": 261026815,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05145831667661771
+  },
+  {
+    "seed": 261026815,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05101918588991904
+  },
+  {
+    "seed": 261026815,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05931239567593556
+  },
+  {
+    "seed": 261026815,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05289357072170404
+  },
+  {
+    "seed": 261026815,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04932286182220268
+  },
+  {
+    "seed": 261026815,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05008775721502822
+  },
+  {
+    "seed": 261026816,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05823602252512061
+  },
+  {
+    "seed": 261026816,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.052786966337220805
+  },
+  {
+    "seed": 261026816,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04877962180884144
+  },
+  {
+    "seed": 261026816,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04967765118707433
+  },
+  {
+    "seed": 261026816,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.057300193802113195
+  },
+  {
+    "seed": 261026816,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05433319754149367
+  },
+  {
+    "seed": 261026816,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05056702501797054
+  },
+  {
+    "seed": 261026816,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.050349580132128015
+  },
+  {
+    "seed": 261026816,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05823602252512061
+  },
+  {
+    "seed": 261026816,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.052786966337220805
+  },
+  {
+    "seed": 261026816,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04877962180884144
+  },
+  {
+    "seed": 261026816,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04967765118707433
+  },
+  {
+    "seed": 261026817,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05681744892666414
+  },
+  {
+    "seed": 261026817,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05019806146197108
+  },
+  {
+    "seed": 261026817,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04723467712658272
+  },
+  {
+    "seed": 261026817,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.047633218514156986
+  },
+  {
+    "seed": 261026817,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.0577715024050326
+  },
+  {
+    "seed": 261026817,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05446629124149835
+  },
+  {
+    "seed": 261026817,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05075043606489085
+  },
+  {
+    "seed": 261026817,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.051763512188547536
+  },
+  {
+    "seed": 261026817,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05681744892666414
+  },
+  {
+    "seed": 261026817,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05019806146197108
+  },
+  {
+    "seed": 261026817,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04723467712658272
+  },
+  {
+    "seed": 261026817,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.047633218514156986
+  },
+  {
+    "seed": 261026818,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05443136028607987
+  },
+  {
+    "seed": 261026818,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.04818237684219257
+  },
+  {
+    "seed": 261026818,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04519259119696674
+  },
+  {
+    "seed": 261026818,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04562191023588817
+  },
+  {
+    "seed": 261026818,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.055961375075302994
+  },
+  {
+    "seed": 261026818,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.053054408031149664
+  },
+  {
+    "seed": 261026818,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.049510961723680594
+  },
+  {
+    "seed": 261026818,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04947767733946872
+  },
+  {
+    "seed": 261026818,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05443136028607987
+  },
+  {
+    "seed": 261026818,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.04818237684219257
+  },
+  {
+    "seed": 261026818,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04519259119696674
+  },
+  {
+    "seed": 261026818,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04562191023588817
+  },
+  {
+    "seed": 261026819,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05968148996722921
+  },
+  {
+    "seed": 261026819,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05009378990698223
+  },
+  {
+    "seed": 261026819,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04675996992888281
+  },
+  {
+    "seed": 261026819,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.046310986391877446
+  },
+  {
+    "seed": 261026819,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05841467140849505
+  },
+  {
+    "seed": 261026819,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05390586501275067
+  },
+  {
+    "seed": 261026819,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05026956296486409
+  },
+  {
+    "seed": 261026819,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.05083888302439601
+  },
+  {
+    "seed": 261026819,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05968148996722921
+  },
+  {
+    "seed": 261026819,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05009378990698223
+  },
+  {
+    "seed": 261026819,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04675996992888281
+  },
+  {
+    "seed": 261026819,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.046310986391877446
+  },
+  {
+    "seed": 261026820,
+    "scenario": "stable_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05992368670202735
+  },
+  {
+    "seed": 261026820,
+    "scenario": "stable_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05370011422549523
+  },
+  {
+    "seed": 261026820,
+    "scenario": "stable_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04940159691081909
+  },
+  {
+    "seed": 261026820,
+    "scenario": "stable_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04973777027670894
+  },
+  {
+    "seed": 261026820,
+    "scenario": "uninformative_history",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.057026922961153366
+  },
+  {
+    "seed": 261026820,
+    "scenario": "uninformative_history",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.052244210632283676
+  },
+  {
+    "seed": 261026820,
+    "scenario": "uninformative_history",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04831436462763584
+  },
+  {
+    "seed": 261026820,
+    "scenario": "uninformative_history",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.049003990415512996
+  },
+  {
+    "seed": 261026820,
+    "scenario": "behavior_shift",
+    "method": "C0_current",
+    "train_rows": 960,
+    "raw_feature_dimensions": 3,
+    "expanded_dimensions": 9,
+    "train_mse": 0.05992368670202735
+  },
+  {
+    "seed": 261026820,
+    "scenario": "behavior_shift",
+    "method": "C1_history_summary",
+    "train_rows": 960,
+    "raw_feature_dimensions": 12,
+    "expanded_dimensions": 90,
+    "train_mse": 0.05370011422549523
+  },
+  {
+    "seed": 261026820,
+    "scenario": "behavior_shift",
+    "method": "C2_history_shape",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04940159691081909
+  },
+  {
+    "seed": 261026820,
+    "scenario": "behavior_shift",
+    "method": "C3_history_PCA",
+    "train_rows": 960,
+    "raw_feature_dimensions": 18,
+    "expanded_dimensions": 189,
+    "train_mse": 0.04973777027670894
+  }
+]

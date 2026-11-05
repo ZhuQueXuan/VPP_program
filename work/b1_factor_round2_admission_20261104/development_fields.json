@@ -1,0 +1,103 @@
+{
+  "metadata_sha256": "dab0a05fbdebcd785964cb7fc423cb309fbc634e13631cf267b93df3817a7bdb",
+  "development_registry_sha256": "4c8e5effca8f0e56843f1a8e978e836f48e08afce851189eb150cf2bea1869e7",
+  "scope": "Preselected development-only transactions. Descriptive field QA, no fit, no effect score.",
+  "roles": {
+    "train": {
+      "transactions": 6,
+      "rows": 10968,
+      "status_2": 628,
+      "current_decimals_2": 9008,
+      "current_zero": 1887,
+      "same_record_limit_mismatch": 8613,
+      "same_record_difference_at_least_1A": 29,
+      "current_exceeds_local_limit": 32,
+      "current_decimals_1": 69,
+      "current_decimals_0": 1891,
+      "status_1": 10340,
+      "limit_missing": 201
+    },
+    "development_validation": {
+      "transactions": 9,
+      "rows": 6115,
+      "status_1": 4361,
+      "current_decimals_0": 1937,
+      "current_zero": 1917,
+      "limit_missing": 33,
+      "status_2": 1754,
+      "current_decimals_2": 4039,
+      "same_record_limit_mismatch": 315,
+      "same_record_difference_at_least_1A": 260,
+      "current_exceeds_local_limit": 272,
+      "current_decimals_1": 139
+    }
+  },
+  "examples": {
+    "three_adjacent_rows": {
+      "transaction": "0035000817|101041",
+      "role": "train",
+      "rows": [
+        {
+          "source_line": 448590,
+          "utc": "2017-12-27 09:31:00.000",
+          "current_A": "30.710",
+          "charger_limit_A": "32.000",
+          "backend_limit_A": "32.000",
+          "status": "2",
+          "local_timestamp": "2017-12-27 09:31:00.000"
+        },
+        {
+          "source_line": 448591,
+          "utc": "2017-12-27 09:32:00.000",
+          "current_A": "30.690",
+          "charger_limit_A": "32.000",
+          "backend_limit_A": "32.000",
+          "status": "2",
+          "local_timestamp": "2017-12-27 09:32:00.000"
+        },
+        {
+          "source_line": 448592,
+          "utc": "2017-12-27 09:33:00.000",
+          "current_A": "30.760",
+          "charger_limit_A": "32.000",
+          "backend_limit_A": "32.000",
+          "status": "2",
+          "local_timestamp": "2017-12-27 09:33:00.000"
+        }
+      ]
+    },
+    "mismatch": {
+      "transaction": "0035000817|101041",
+      "role": "train",
+      "rows": [
+        {
+          "source_line": 448600,
+          "utc": "2017-12-27 09:41:00.000",
+          "current_A": "30.880",
+          "charger_limit_A": "32.000",
+          "backend_limit_A": "32.000",
+          "status": "2",
+          "local_timestamp": "2017-12-27 09:41:00.000"
+        },
+        {
+          "source_line": 448601,
+          "utc": "2017-12-27 09:42:00.000",
+          "current_A": "31.020",
+          "charger_limit_A": "32.000",
+          "backend_limit_A": "27.918",
+          "status": "2",
+          "local_timestamp": "2017-12-27 09:42:00.000"
+        },
+        {
+          "source_line": 448602,
+          "utc": "2017-12-27 09:43:00.000",
+          "current_A": "27.140",
+          "charger_limit_A": "28.160",
+          "backend_limit_A": "24.426",
+          "status": "2",
+          "local_timestamp": "2017-12-27 09:43:00.000"
+        }
+      ]
+    }
+  }
+}

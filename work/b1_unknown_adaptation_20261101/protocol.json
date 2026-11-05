@@ -1,0 +1,11 @@
+{
+  "validation":{"main_seeds":[7731100,7731101],"main_users":24,"short_seeds":[7731200],"short_users":32,"shift":18043200},
+  "test":{"main_seeds":[7732000,7732001,7732002,7732003,7732004,7732005,7732006,7732007],"main_users":24,"short_seeds":[7732200,7732201],"short_users":32,"shift":20059200},
+  "conditions":["ordinary","spikes"],"variants":["strong","weak","null"],
+  "method":"Learn conditional forecast-error evolution on completed non-events; use observed pre-actuation[-15,0) residuals to track nuisance at retrospective feature extraction. Prior notice-time prediction and raw energy remain unchanged.",
+  "short_candidate":"Preserve original-CPOP <=60s positive support while using tracked-reference duration features elsewhere; no binary task veto or point deletion.",
+  "comparison":"Full factorial tracking/no tracking x original CPOP/LABS/retained duration_fusion. Formal same-condition controls receive exactly the same tracked residual/reference and meter. Dual-short candidate additionally combines old/tracked structural support, with both source fits retained.",
+  "evaluation":"All cases scored, cumulative and longest MAE equally weighted, conditions equal; positive/negative/short counts and paired-seed differences reported. No test tuning.",
+  "selection_gates":{"duration_at_least10percent_better_than_old_retained":true,"not_worse_than_same_tracked_CPOP":true,"no_extra_short_local_misses_vs_old_retained":true,"no_extra_whole_miss_vs_old_retained":true,"false_positive_not_worse_than_old_retained":true},
+  "scope":"Native1min controlled EV task, starts0/ends30min,q1.5,declared noise.05,pre/post15min, instructed actuation does not begin before0. This process nuisance tracking is NOT an updated reference available at notice; it never uses task-period or rebound measurements to fit nuisance."
+}

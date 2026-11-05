@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "n_checks": 23,
+  "checks": [
+    "independent raw integral",
+    "relative target equals net delivery under common reference",
+    "meter-only causal entry available without any reference",
+    "same standard AIPW baseline numerical agreement",
+    "synchronously shifted auxiliary score contrasts are invariant",
+    "missing meter value",
+    "boolean meter value",
+    "numeric string",
+    "nonfinite meter",
+    "missing task interval",
+    "partial meter boundary",
+    "unsupported request",
+    "zero request",
+    "nonpredeclared request type",
+    "invalid identity",
+    "out of order",
+    "duplicate physical window despite renamed task",
+    "duplicate physical window despite renamed user",
+    "no implicit removal of failed event",
+    "unknown task predeclaration cannot give causal conclusion",
+    "unconfirmed causal assumptions give association",
+    "sparse support withheld",
+    "absolute outcome not labelled delivery"
+  ],
+  "baseline_max_difference": 8.881784197001252e-16,
+  "candidate_sha256": "77cdd96bb59859dd1a79dacc247d98bf781a1af91716c6baea2672f5dae345de",
+  "scope": "input functionality and target identity, not new estimator performance"
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "b1.effective-response.v1",
+  "features": 426,
+  "configuration": {
+    "leaves": 7,
+    "threshold": 0.05,
+    "duration_cap": 180
+  },
+  "model_sha256": "8f5b56a42bbd6e8191d7d4c2356ca65017f348ce4ae0fefd864bd1a2f146e4de",
+  "target": "Whether any original-criterion effective duration exists; not physical participation or device-fault truth.",
+  "training": "Standard installed sklearn1.7.2 HGB; positive5/effective-short50/negative1 costs, scores not calibrated probabilities.",
+  "scope": "Known-reference controlled EV histories,30min,q1.5,sigma.05,10s/1min,15min pre/post. Sustained weak median0.075..0.20kW and adopted positive duration<=cap.",
+  "final_assessment_sha256": "6d9c8ae5f61b643ff45da84bf424adb725b82508713661c1c757ab631dac72fd",
+  "no_field_accuracy_claim": true,
+  "previous_version_preserved": true
+}

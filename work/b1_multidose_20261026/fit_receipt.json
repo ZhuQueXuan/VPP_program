@@ -1,0 +1,9 @@
+{
+  "seconds": 2.6364893913269043,
+  "protocol_sha256": "cd3ec5265c86bb418f5c9950dde9b73025827c6535045d4f79ba330b33e66764",
+  "prediction_sha256": "20db9565660e7f7f8e11dcdd7b0b38eddab92f8292d87d6f3d441393f104722d",
+  "raw_sha256": "0e881f8821c6bbdc186b63054c56c3b8ce9dc2067a885594df038650f7e82f5e",
+  "truth_existed_before_fit": false,
+  "persisted_group_model_packages": 240,
+  "reload_exact": true
+}

@@ -1,0 +1,63 @@
+{
+  "repository": "zhangyk8/npDoseResponse",
+  "revision": "c11c685782c1e49b4e6682fab8010b0b491a4fb5",
+  "date": "2026-03-11T17:26:59Z",
+  "activity_checked_through": "2026-11-03",
+  "files": [
+    {
+      "path": "npDoseResponse\\LICENSE",
+      "url": "https://raw.githubusercontent.com/zhangyk8/npDoseResponse/c11c685782c1e49b4e6682fab8010b0b491a4fb5/LICENSE",
+      "bytes": 1070,
+      "sha256": "3226824ed70ef72823e282765b81bdb02569b30f813f2424410124f01b8a6d62"
+    },
+    {
+      "path": "npDoseResponse\\README.md",
+      "url": "https://raw.githubusercontent.com/zhangyk8/npDoseResponse/c11c685782c1e49b4e6682fab8010b0b491a4fb5/README.md",
+      "bytes": 2422,
+      "sha256": "de6888845cc26910cbbeb0346236296564d5433f6ab42c2d9e1a1d19226d0fd0"
+    },
+    {
+      "path": "npDoseResponse\\npDoseResponse\\__init__.py",
+      "url": "https://raw.githubusercontent.com/zhangyk8/npDoseResponse/c11c685782c1e49b4e6682fab8010b0b491a4fb5/npDoseResponse/__init__.py",
+      "bytes": 513,
+      "sha256": "c1d516f87be9f898afa80d635efa249fd250839a4da6c517ccb78b58a321ab33"
+    },
+    {
+      "path": "npDoseResponse\\npDoseResponse\\npDoseResponse.py",
+      "url": "https://raw.githubusercontent.com/zhangyk8/npDoseResponse/c11c685782c1e49b4e6682fab8010b0b491a4fb5/npDoseResponse/npDoseResponse.py",
+      "bytes": 36471,
+      "sha256": "409400485b7c8a022caad009530b77664949f68d1146d06e94827fb91d9a071c"
+    },
+    {
+      "path": "npDoseResponse\\npDoseResponse\\npDoseResponseDR.py",
+      "url": "https://raw.githubusercontent.com/zhangyk8/npDoseResponse/c11c685782c1e49b4e6682fab8010b0b491a4fb5/npDoseResponse/npDoseResponseDR.py",
+      "bytes": 19079,
+      "sha256": "9e264d4faafd6b628687091f84e2fa8254c7aba16e0f22f9079174bcc0796994"
+    },
+    {
+      "path": "npDoseResponse\\npDoseResponse\\npDoseResponseDerivDR.py",
+      "url": "https://raw.githubusercontent.com/zhangyk8/npDoseResponse/c11c685782c1e49b4e6682fab8010b0b491a4fb5/npDoseResponse/npDoseResponseDerivDR.py",
+      "bytes": 58751,
+      "sha256": "a614830d699fa1cecedd31fc7cdc34cfa06fa1393a1466221790b00af20efb94"
+    },
+    {
+      "path": "npDoseResponse\\npDoseResponse\\rbf.py",
+      "url": "https://raw.githubusercontent.com/zhangyk8/npDoseResponse/c11c685782c1e49b4e6682fab8010b0b491a4fb5/npDoseResponse/rbf.py",
+      "bytes": 5901,
+      "sha256": "76c9f8c7eaeececf2e15dc36d31c214db3bb1e6773a3a93c90d2a55b6a0f6d87"
+    },
+    {
+      "path": "npDoseResponse\\npDoseResponse\\utils.py",
+      "url": "https://raw.githubusercontent.com/zhangyk8/npDoseResponse/c11c685782c1e49b4e6682fab8010b0b491a4fb5/npDoseResponse/utils.py",
+      "bytes": 15568,
+      "sha256": "5fe0a04fcac2cf3051eb27438ff158c6c80ef2a21c3a25500fde51dfd205a071"
+    },
+    {
+      "path": "npDoseResponse\\setup.py",
+      "url": "https://raw.githubusercontent.com/zhangyk8/npDoseResponse/c11c685782c1e49b4e6682fab8010b0b491a4fb5/setup.py",
+      "bytes": 872,
+      "sha256": "bddbe5e1eb8ab00241ad4d89961b8fb70fb4a6d5dc38435f9d84586e6857b1f5"
+    }
+  ],
+  "downloaded_code_executed": false
+}

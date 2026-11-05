@@ -1,0 +1,13 @@
+{
+  "n": 480,
+  "v2_selected_jumps": 460,
+  "both_predictions_within_05kw": 46,
+  "truth_within_05kw": 63,
+  "flipped_bins": 80,
+  "better_task_curve": 134,
+  "worse_task_curve": 234,
+  "lower_penalized_objective": 460,
+  "original_manifest_files_checked": 212,
+  "original_manifest_changed": [],
+  "scope": "Descriptive existing-test checks; objective values are model-dependent, not duration accuracy or significance."
+}

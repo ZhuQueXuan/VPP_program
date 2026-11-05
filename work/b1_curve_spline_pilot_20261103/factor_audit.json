@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-03",
+  "review_type": "technical reviewer, read-only code and generator formula audit",
+  "activity": {"source_modified": false, "model_fit": false, "sample_generated": false, "consumed_test_reopened": false, "data_modified": false, "dependency_installed": false},
+  "evidence_scope": "公式和源码证据；当前仅模拟试验可识别条件，未提供现场因素测量、现场调整充分性或现场效果验证",
+  "estimand": "同一固定人群、同一任务口径下，全体事件含零响应者的平均累计响应时长，随事前补偿金额的连续作用及相对固定参照金额的差",
+  "factor_table": [
+    {"factor": "deadline_slack / l / x[:,0]", "actual_data": "每事件Uniform(-1,1)归一化状态；不是实测期限小时数", "role_observational": "同时影响补偿分配和参与/正时长，且修饰补偿作用，应调整", "role_randomized": "非阻断混杂必需；可用于预测精度和事前异质性", "references": ["work/b1_research_point1_20261103/data.py:14", "work/b1_research_point1_20261103/data.py:15", "work/b1_research_point1_20261103/data.py:16", "work/b1_research_point1_20261103/data.py:26"]},
+    {"factor": "demand_urgency / u / x[:,1]", "actual_data": "每事件Uniform(-1,1)归一化状态；不是实测SOC/剩余kWh", "role_observational": "同时影响补偿分配与参与/正时长，应调整", "role_randomized": "非阻断混杂必需；可用于预测精度", "references": ["work/b1_research_point1_20261103/data.py:15", "work/b1_research_point1_20261103/data.py:16", "work/b1_research_point1_20261103/data.py:23", "work/b1_research_point1_20261103/data.py:26"]},
+    {"factor": "offered_incentive / A", "role": "处理变量，不作为自身调整因素；完整保持连续金额而不分档", "references": ["B1算法/b1_algorithm/factors.py:61", "B1算法/b1_algorithm/factors.py:128", "B1算法/b1_algorithm/effects/continuous.py:165"]},
+    {"factor": "participation / Y>0 / positive_duration", "role": "补偿后的参与/结果派生量；估总作用不得控制或据此筛选总体。可作辅助均值模型内部软分解，但不当固定响应者因果效应", "references": ["B1算法/b1_algorithm/factors.py:71", "B1算法/b1_algorithm/factors.py:97", "work/b1_research_point1_20261103/data.py:29", "work/b1_research_point1_20261103/data.py:30", "work/b1_research_point1_20261103/data.py:31"]},
+    {"factor": "duration / observed_power / response / eta", "role": "结果或处理后测量，不作为当前补偿总作用的调整因素。通知前的初始功率若另有合法测量可单独定义事前变量，当前power_kw并非此合同", "references": ["B1算法/b1_algorithm/factors.py:61", "B1算法/b1_algorithm/factors.py:125", "B1算法/b1_algorithm/factors.py:140", "B1算法/b1_algorithm/factors.py:147"]},
+    {"factor": "task_id / user_id / meter_id", "role": "身份匹配、避免重复、用户分折/聚类；不把任意数字ID当作调整变量，也不据此声称控制所有稳定用户偏好", "references": ["B1算法/b1_algorithm/factors.py:61", "B1算法/b1_algorithm/factors.py:111", "B1算法/b1_algorithm/factors.py:129", "B1算法/b1_algorithm/effects/continuous.py:86"]},
+    {"factor": "negative_control / x[:,2]", "actual_data": "独立Uniform(-1,1)，不进A、参与、正时长或满响应公式", "role": "当前是已知独立无关对照变量；不属于必要混杂调整，也不是可凭其识别隐藏混杂的负控代理。建议仅诊断；若为对照保留入X，两方法完全相同并承认冗余", "references": ["work/b1_research_point1_20261103/data.py:9", "work/b1_research_point1_20261103/data.py:23", "work/b1_research_point1_20261103/data.py:26", "work/b1_research_point1_20261103/data.py:29"]},
+    {"factor": "hidden H / repeated-user latent state", "actual_data": "每用户Uniform(-0.6,0.6)，跨事件固定；不对估计器公开", "normal_scenarios": "影响Y但不影响A，给定已观测X后不形成处理混杂；需按用户分折并承认组内相关", "hidden_confounding_scenario": "额外令A的logit加入1.5H，H同时进A和Y，观测X无法阻断；只应报告标准化关联/压力诊断，不能靠FCI或更好曲线声称修复", "references": ["work/b1_research_point1_20261103/data.py:15", "work/b1_research_point1_20261103/data.py:16", "work/b1_research_point1_20261103/data.py:23", "work/b1_research_point1_20261103/data.py:27", "work/b1_research_point1_20261103/study.py:27"]}
+  ],
+  "declared_DAG_and_time_audit": {
+    "passes_in_contract": ["补偿形成时间不得晚于通知；补偿可用时间在形成和通知之间", "每项事前因素状态时间、可用时间不得晚于价格形成", "声明图按事前因素->补偿->参与->结果的时间角色检查，且做无环与后门集检查", "参与被明确标记为处理后中介；学图不自动改调整集"],
+    "references": ["B1算法/b1_algorithm/factors.py:75", "B1算法/b1_algorithm/factors.py:89", "B1算法/b1_algorithm/factors.py:98", "B1算法/b1_algorithm/factors.py:119", "B1算法/b1_algorithm/factors.py:125"],
+    "important_mismatch": "默认DAG给每个covariate都加到参与/结果的边，观察分配时再加到补偿的边。旧physical.py:34把NAMES含negative_control全部交入且未显式graph_edges，故会把明明独立的负控也声明为父节点。这是保守但错误的默认角色声明，不是从模拟真公式发现的机理；旧分数不得倒改。",
+    "mismatch_references": ["B1算法/b1_algorithm/factors.py:71", "B1算法/b1_algorithm/factors.py:72", "B1算法/b1_algorithm/factors.py:74", "B1算法/b1_algorithm/factors.py:94", "work/b1_research_point1_20261103/physical.py:34"],
+    "prospective_resolution": "新曲线单候选比较预先固定期限/需求两列为调整因素，负控单列诊断；若需旧三列作为共同对照，必须两法同列且说明负控并非必要调整。不要在曲线候选与baseline之间使用不同调整集。",
+    "limits": "字段合法与时间先后由合同检查；不能据此证明状态确在现场如实测得、DAG正确、没有未测共同原因或不存在干扰。"
+  },
+  "field_coverage": [
+    {"domain": "期限/离开时间", "status": "仅归一化合成deadline_slack；未测真实计划离开、实际离开、充电可延迟余量"},
+    {"domain": "充电需求", "status": "仅归一化合成demand_urgency；未有真实SOC、目标SOC、剩余需求kWh及电池/充电机约束"},
+    {"domain": "初始功率/可调物理余量", "status": "标量SCM无初始功率变量；物理模拟参考固定3kW、请求固定1.5kW、噪声固定0.05kW，未检验其异质性或分配混杂", "references": ["work/b1_research_point1_20261103/physical.py:13", "work/b1_research_point1_20261103/physical.py:15", "work/b1_research_point1_20261103/physical.py:17", "work/b1_research_point1_20261103/physical.py:19"]},
+    {"domain": "补偿/市场价格", "status": "有合成连续事前补偿A；没有真实市场/零售电价、其他补偿、运营商报价规则或通知后的价格路径"},
+    {"domain": "历史行为/偏好", "status": "有模拟用户身份及隐变量H；无可用的通知前历史响应、先前报价、习惯、学习/疲劳或跨事件延续变量"},
+    {"domain": "时段/日期/站点", "status": "事件开始时间人工i*90；没有真实日期、工作日、季节、地点/站点背景或用来同时决定补偿与响应的时段因素"}
+  ],
+  "older_DML_generator_crosscheck": {
+    "source": "work/b1_continuous_dml_pilot_20261103/data.py",
+    "observed_confounders": "x1,x2同时进部分机制的A及Y，需共同调整",
+    "latent_u": "只进components结果，未进A生成，故不是隐藏处理混杂",
+    "weak_support": "A=2.4*expit(4*x1-0.7*x2)，给定X确定；无连续处理positivity，改平滑器不能补回识别",
+    "assignment_mixture": "给定X为混合logit-normal而现GPS为单logit-normal，属于已知分配模型误设压力",
+    "references": ["work/b1_continuous_dml_pilot_20261103/data.py:5", "work/b1_continuous_dml_pilot_20261103/data.py:13", "work/b1_continuous_dml_pilot_20261103/data.py:14", "work/b1_continuous_dml_pilot_20261103/data.py:15", "work/b1_continuous_dml_pilot_20261103/data.py:18"]
+  },
+  "public_continuous_interface_audit": {
+    "signature_reference": "B1算法/b1_algorithm/effects/continuous.py:165",
+    "unit": "每行是一个完成的可比较事件；处理是通知前形成的单一连续补偿，不是一次事件内部随时间变化的价格序列",
+    "design": "仅纯连续内部金额；端点/零金额原子需要混合设计估计，不能用连续密度冒充",
+    "density": "已知密度接口仅支持声明随机均匀分配1/span；观测分配用交叉拟合logit-normal GPS，不可把模拟全知真值只交给某个候选",
+    "representation": "当前辅助结果模型已经有6结点三次金额样条与二阶X交互，最终Kennedy伪结果回归则用Gaussian局部线性。新方案若改最终回归，应明确是最终阶段样条，不可称现baseline没有样条",
+    "references": ["B1算法/b1_algorithm/effects/continuous.py:92", "B1算法/b1_algorithm/effects/continuous.py:95", "B1算法/b1_algorithm/effects/continuous.py:98", "B1算法/b1_algorithm/effects/continuous.py:169", "B1算法/b1_algorithm/effects/continuous.py:187", "B1算法/b1_algorithm/effects/continuous.py:200", "B1算法/b1_algorithm/effects/continuous.py:216"]
+  },
+  "new_spline_comparison_review_points": [
+    "只设一个预先说明的最终平滑候选；两方法共用X,D,Y、所有零响应、原始用户分组、交叉拟合折、同一辅助结果/GPS及同一DR伪结果。若共享基座重构，应先逐项核baseline公共API复现。",
+    "把第三点的变化限制为最终伪结果回归。不要同时改调整因素、辅助结果结构、GPS、支持阈值、目标参照和最终裁剪；因素核清后的共同两列X可两法同用。",
+    "样条基、结点、惩罚和选择范围在开发前说明；不得使用终验真曲线、终验得分或终验Y调整方法。开发模拟真值可用于按预设选择候选，但必须区分开发选型与实际拟合时的调参规则，不能让部署调参依赖不可观测真值。若声称严格用户留出CV，辅助模型也应按该外层训练集重建；普通行级GCV不等于用户留出CV。所有开发选择在新终验前冻结。",
+    "开发和终验的seed、用户ID、基础事件与机制角色预先隔离；已消耗终验场景只作既有知识，不再作为新终验。换seed只增加随机块，不自动成为新机制泛化。",
+    "同一新队列两方法配对，生成并冻结后再拟合；保存独立seed随机块结果，不把事件数、金额网格点数或同种物理变体当独立重复。",
+    "预先固定处理域、查询网格、参考金额与estimand。两法truth必须同一参照相减；不能一法用grid[0]、另一法用既存reference。",
+    "样条必须能直接输入任意连续金额计算，不从查询网格插值；加一个查询点不改变已有点估计，不在查询时重训，不因显示范围改变惩罚或结点。",
+    "支持评价两法共用，逐点与整曲线输出率并报；不能仅对两法各自成功的不同子集评分。样条可数值外推不代表获得因果支持，不放宽阈值制造覆盖收益。",
+    "主指标用相同完整范围的contrast RMSE；另报每机制/每seed、输出覆盖、零作用误判、导数误差及目标交点误差。更准曲线不自动等于更准导数或阈值。",
+    "新候选点估计通过不代表旧局部线性置信带适用于样条；区间若未另建有效方法，应清楚分开点估计比较和推断验证，不套旧带后当正式保证。",
+    "独立truth由生成公式积分计算，不调用候选拟合或已保存模型预测；负控不应进truth作用。可用更高积分阶数核稳定性，但不据候选性能改truth。",
+    "隐藏混杂场景不宣称可因果识别；弱支持场景不靠放宽诊断；无收益按预设停止，不看本批终验再改样条参数或追加抽样直到通过。",
+    "若最终要说明真实全过程提取后仍改善，应另设新物理队列，先由补偿生成响应再生成功率、同一第一部分冻结提取并配对比较；未做前结果仅为模拟已知结果下的曲线估计研究。"
+  ]
+}

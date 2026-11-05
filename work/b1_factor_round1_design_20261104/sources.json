@@ -1,0 +1,62 @@
+{
+  "checked_on": "2026-11-04",
+  "scope": "定向核论文原文、作者资料、可见维护和准入字段。没有获取新遥测库或打开新确认结果。",
+  "sources": [
+    {
+      "id": "electric_nation",
+      "publisher": "National Grid Electricity Distribution / Electric Nation Customer Trial",
+      "urls": ["https://commercial.nationalgrid.co.uk/electric-nation-data", "https://commercial.nationalgrid.co.uk/downloads-view/81670", "https://eatechnology.com/media/girhcnsc/electric-nation-customer-trial-report.pdf"],
+      "raw_entrypoints": {"meter_zip": "https://commercial.nationalgrid.co.uk/downloads-view-reciteme/279901", "transactions": "https://commercial.nationalgrid.co.uk/downloads-view/81646", "group_definition": "https://commercial.nationalgrid.co.uk/downloads-view/81640"},
+      "checked": "发布者门户与字典、试验报告 §6.5.1–6.6.1，文件入口的 ZIP/XLSX 内容类型。试验旧，公开入口可见。使用条件和原表尚待准入，未核到明确再分发许可。",
+      "decision_and_cost": "R1 优先来源。三个渠道的记录仍可能有不同采样和可用时点。对齐、确认分割和软件变化审查是主要成本，研究模型只需现有回归工具。"
+    },
+    {
+      "id": "simolin2025_epfl",
+      "paper": "Simolin, Järventausta and Paolone, Transportation Engineering 20, 100350 (2025)",
+      "urls": ["https://doi.org/10.1016/j.treng.2025.100350", "https://infoscience.epfl.ch/server/api/core/bitstreams/8cc96c7d-48e2-4570-b65d-e83540c238b0/content", "https://github.com/DESL-EPFL/Level-3-EV-charging-dataset"],
+      "checked": "作者全文 §2–4 和仓库数据字典，组织页显示 2025-06-23 更新。MIT 文件使用软件表述，数据再分发范围单列。",
+      "decision_and_cost": "支持车辆需求与桩端限制共同约束输出的物理思路。研究对象是共享容量 DC 场站。可独立实现最小值项，成本低。全文模型中的会话最大值、最终 SOC 等有事后信息。该数据既有历史分析，只作旁证。"
+    },
+    {
+      "id": "brinkel2024_pause",
+      "paper": "Brinkel et al., Nature Communications 15, 5089 (2024)",
+      "urls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC11199482/", "https://github.com/ROBUST-NL/paused_ev_charging", "https://zenodo.org/records/10932796"],
+      "checked": "作者主文区分暂停和延迟充电，测试覆盖 52 个车型。作者 MIT 仓库有可见 11 次提交、作者署名维护和 2024 存档，未确认更近提交日期。含公开图表数据和 100 会话样本，完整商业会话不可由此复现。",
+      "decision_and_cost": "借用暂停与恢复结果定义。作者 Gurobi 调度模型及数据需求与 R1 观测问题不同，整套复用成本高。"
+    },
+    {
+      "id": "controlled_ev",
+      "paper": "Esser et al., Scientific Data (2025); Beichter et al., SSRN preprint (2026)",
+      "urls": ["https://doi.org/10.1038/s41597-025-05524-5", "https://eldorado.tu-dortmund.de/server/api/core/bitstreams/62811138-8df5-49fd-8da9-a065cd4e2f98/content", "https://github.com/esserm/charging-postprocessing", "https://zenodo.org/records/14065331", "https://doi.org/10.2139/ssrn.6265089", "https://zenodo.org/records/17866847", "https://publikationen.bibliothek.kit.edu/1000190660"],
+      "checked": "继承本地 Esser 全文与 KIT 字典核查。Esser 仓库可见 6 次提交且未见许可文件，代码是异步同步。KIT 数据 CC BY 4.0，LF 文件 422.5 MB 已本地验证，作者全文 PDF 本轮访问遇 403，核到摘要与原始字典，未找到配套作者 GitHub。",
+      "decision_and_cost": "保留为受控技术旁证。把 AC、DC、计算功率和独立量测对齐需按接口逐条处理，成本中等。高频大包和原件本轮不重取。"
+    },
+    {
+      "id": "causallearn_and_gkcm",
+      "paper": "Zheng et al., JMLR 25(60) (2024); Bergen, Sejdinovic and Didelez, GKCM (2026)",
+      "urls": ["https://jmlr.org/papers/v25/23-0970.html", "https://github.com/py-why/causal-learn", "https://github.com/py-why/causal-learn/releases", "https://openreview.net/pdf?id=TbQacuWeQH", "https://github.com/bips-hb/GKCM"],
+      "checked": "causal-learn 为 MIT，可见 0.1.4.8 发布 9de1d88，本地已有对应版本。GKCM §§4–5 的模拟验证涉及独立样本。作者库有 16 次可见提交及 R 仿真，未见许可证，最新提交日期未核。",
+      "decision_and_cost": "保留现有时间约束 KCI 图筛查角色。换条件检验无法挽救 PC 在无条件阶段已删的纯交互边。GKCM 移植、聚类校准及修改搜索步骤成本高，不进入本轮比较。"
+    },
+    {
+      "id": "iflex_and_switchback",
+      "paper": "Hofmann and Lindberg, Energy Policy 184, 113821 (2024); Wen et al., ICML (2025); Liu and Zhong, preprint (2026)",
+      "urls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC10539631/", "https://zenodo.org/records/8248802", "https://doi.org/10.1016/j.enpol.2023.113821", "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4398722", "https://proceedings.mlr.press/v267/wen25d.html", "https://github.com/QianglinSIMON/SwitchMDP", "https://arxiv.org/html/2602.23257v1"],
+      "checked": "iFlex 数据论文 §4.4–4.7 确认组日可能改派、寒天择日及日前通知。ICML 主文及 2026 预印本核过设计和残留假设。SwitchMDP 有 10 次可见提交、R 仿真、未见许可和 release，提交日期页面未取得。",
+      "decision_and_cost": "复用 iFlex 本地元数据，不使用新模型替代分配记录。轮换随机化方法要求已知机制，转入多地区不规则四档历史有较高改造成本。"
+    },
+    {
+      "id": "ev_economic_sources",
+      "paper": "Silva, Andrade and Bessa, Energy (2025); Calgary Show Me the Money! (2025); Bernard et al., NBER 34600 (2025) and NBER 35485 (2026)",
+      "urls": ["https://doi.org/10.1016/j.energy.2025.139407", "https://github.com/INESCTEC/ev-dml", "https://fawolak.org/pdf/field_experiment_with_ev_charging.pdf", "https://www.openicpsr.org/openicpsr/project/202941/version/V1/view", "https://www.nber.org/papers/w34600", "https://www.socialscienceregistry.org/trials/15061", "https://www.nber.org/papers/w35485"],
+      "checked": "超市论文与作者 Python 仓库，MIT 软件许可，活动和提交历史页缓存未取到，数据许可另核。Calgary 作者论文与复制目录已核，数据下载条件承接原核查。NBER 34600 的英国约 11 万用户随机折扣研究未找到可读微表。NBER 35485 提供逐事件参加和结果的设计参考，未取得微数据。",
+      "decision_and_cost": "超市软件依赖 DoWhy/EconML，研究单位及价格机制不匹配，直接搬用成本中高。Calgary 只在合法取得完整分配和结果时可做离散 ITT。均不替代 R1 或 EV 同场参与链。"
+    },
+    {
+      "id": "ridge_reuse",
+      "urls": ["https://github.com/scikit-learn/scikit-learn", "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html"],
+      "checked": "成熟 BSD-3-Clause 实现，可见持续公开发布。现有项目已用 Ridge。",
+      "decision_and_cost": "优先复用现有运行环境中的岭回归和样本权重，明示归一化惩罚约定并用标量公式交叉核验。只新增一列机制预设特征，成本低。"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "b1.runtime.v1",
+  "runtime_kind": "explicit_external_dependency_not_work_python_source",
+  "r_version": "4.6.1",
+  "cpop_version": "1.0.10",
+  "rscript_path": "work/b1_mainline_20261029/runtime/R-4.6.1/app/bin/Rscript.exe",
+  "r_library": "work/b1_mainline_20261029/runtime/r_library",
+  "artifact_dir": "work/b1_runtime",
+  "timeout_seconds": 180,
+  "sha256": {
+    "work/b1_mainline_20261029/runtime/R-4.6.1/app/bin/Rscript.exe": "d829bcf7e9fa1d7e3e828c565c3cdbb1ed416f551f4fa6fd4dfcdf231e33e5e8",
+    "work/b1_mainline_20261029/runtime/r_library/cpop/DESCRIPTION": "f15d3565d4108baafd4a8417d284771fefb71b8b1ae951788f28c4814d9a70c7",
+    "work/b1_mainline_20261029/runtime/r_library/cpop/libs/x64/cpop.dll": "98cf7d49405ee321af9414183ef951a93d5d5af9244a4fc7a7db5445c072e909"
+  }
+}

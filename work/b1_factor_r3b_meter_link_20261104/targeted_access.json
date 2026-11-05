@@ -1,0 +1,229 @@
+{
+  "protocol_sha256": "b9ae42f8b1b338002c41466f5a0060f430fb72cd9bbc3ae4a963a2ca2ff6a1c4",
+  "amendment_sha256": "487cdfdffd411bd6a1bfc25d6c61e56db6e179c7115e958134a62fbc2643c00b",
+  "range_requests": [
+    {
+      "request_range": "bytes=350016221-350114524",
+      "status": 206,
+      "content_range": "bytes 350016221-350114524/795722689",
+      "content_length": "98304",
+      "etag": "\"f3e020799f8feae94a2d9036dfae3331-152\"",
+      "last_modified": "2025-10-21T18:46:36.000Z",
+      "sha256": "970411a32f67e33486859e766ed52e84047fc4317289e38737ec95569f46b2b0"
+    },
+    {
+      "request_range": "bytes=350114525-353082118",
+      "status": 206,
+      "content_range": "bytes 350114525-353082118/795722689",
+      "content_length": "2967594",
+      "etag": "\"f3e020799f8feae94a2d9036dfae3331-152\"",
+      "last_modified": "2025-10-21T18:46:36.000Z",
+      "sha256": "5744f3402c9819ed3980575f16d57a5c006afa471f97084c8fb1be6c5b42ee95"
+    }
+  ],
+  "probes": [
+    {
+      "name": "Small LCL Data/LCL-June2015v2_165.csv",
+      "offset": 350016221,
+      "compressed_bytes": 4738915,
+      "expanded_bytes": 50903117,
+      "file": "target_probe_165.bin",
+      "prefix_bytes": 98304,
+      "decoded_complete_rows": 20836,
+      "first_id": "MAC005157",
+      "last_id": "MAC005157",
+      "groups_by_household": {
+        "ToU": 1
+      },
+      "dynamic_ids": [
+        "MAC005157"
+      ],
+      "truncated_last_line_bytes": 46
+    }
+  ],
+  "prefix_member": {
+    "name": "Small LCL Data/LCL-June2015v2_165.csv",
+    "offset": 350016221,
+    "compressed_bytes": 4738915,
+    "expanded_bytes": 50903117,
+    "probe_file": "target_probe_165.bin",
+    "extension_file": "target_extension_165.bin",
+    "downloaded_deflate_bytes": 3065831,
+    "expanded_complete_sha256": "428e9cdadc74d2e448bfb2296b9c31735ffd55aa7e74bda6b89ab4d50c1a17d5",
+    "truncated_last_line_bytes": 23,
+    "deflate_eof": false,
+    "full_crc_verified": false,
+    "columns": [
+      "LCLid",
+      "stdorToU",
+      "DateTime",
+      "KWH/hh (per half hour) "
+    ],
+    "records": 637844,
+    "household_metadata": {
+      "MAC005157": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-12-09 15:30:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005159": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-05-31 13:00:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005160": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-05-31 13:00:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005161": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-05-31 13:30:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005162": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-05-31 13:30:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005164": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-05-31 14:30:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005171": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-06-01 08:30:00",
+        "last": "2013-07-12 23:30:00"
+      },
+      "MAC005172": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-06-01 08:30:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005173": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-06-01 08:30:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005179": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-02-02 09:30:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005180": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-02-02 10:00:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005184": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-02-02 11:00:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005186": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-02-02 11:30:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005189": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-02-02 13:00:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005190": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-02-02 13:00:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005197": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-02-03 09:00:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005200": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-02-03 10:30:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005204": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-02-03 11:00:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005207": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-02-03 11:30:00",
+        "last": "2014-02-28 00:00:00"
+      },
+      "MAC005212": {
+        "labels": [
+          "ToU"
+        ],
+        "first": "2012-02-03 14:30:00",
+        "last": "2013-04-09 13:30:00"
+      }
+    },
+    "dToU_full_range": [
+      "MAC005157",
+      "MAC005159",
+      "MAC005160",
+      "MAC005161",
+      "MAC005162",
+      "MAC005164",
+      "MAC005172",
+      "MAC005173",
+      "MAC005179",
+      "MAC005180",
+      "MAC005184",
+      "MAC005186",
+      "MAC005189",
+      "MAC005190",
+      "MAC005197",
+      "MAC005200",
+      "MAC005204",
+      "MAC005207"
+    ]
+  },
+  "selected_source": "official_zip_partial_member",
+  "unused_network_bytes": 0,
+  "status": "acquired"
+}

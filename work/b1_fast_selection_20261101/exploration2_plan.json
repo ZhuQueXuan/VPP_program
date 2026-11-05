@@ -1,0 +1,1 @@
+{"families":["constant-only exact segmentation","slope-coefficient risk shrinkage on fixed DP segments","fixed penalty ensembles","local Wiener"],"development_only":true,"correction":"Gap preservation now checks internal zero runs only, not the pre-onset nonresponse region. Initial development outputs retained, not used as final proof."}

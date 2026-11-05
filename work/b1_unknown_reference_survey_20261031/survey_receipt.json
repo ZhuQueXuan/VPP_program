@@ -1,0 +1,59 @@
+{
+  "schema": "b1.unknown-reference-survey.v1",
+  "date": "2026-10-31",
+  "status": "completed_literature_and_selection_review_only",
+  "scenario": {
+    "task_known": true,
+    "unknown": "Untreated reference power",
+    "source_thread": "01a1867b-53df-78c0-8924-f141cd199c10",
+    "source_turn": "01a18bc4-d2e7-7592-b074-d4a58d8e3477",
+    "screenshot_found_and_viewed": true
+  },
+  "completed": [
+    "Previous screenshot/context recovered",
+    "Primary literature and official software checked for reference and process methods",
+    "Unknown-reference methods and same-information baseline layers proposed",
+    "Independent review completed"
+  ],
+  "recommendation": "Limited conditional boosted-tree versus GP reference study; flexible trend-filtering/generalized-lasso foundation; same-information GLS-TF as strong process baseline, CPOP retained as strong supplementary comparator; new contributions require explicit feature-reliability/censoring mechanisms and independent tests.",
+  "protected_old_files": 75,
+  "protected_old_files_unchanged": true,
+  "performed": {
+    "new_model_implementation": false,
+    "model_fitting": false,
+    "new_experiments": false,
+    "data_or_weight_download": false,
+    "library_install": false,
+    "runtime_default_change": false,
+    "original_data_or_frozen_result_change": false,
+    "deletion": false,
+    "formal_report": false,
+    "B2_B3_B4_expansion": false,
+    "uploads_or_commits": false
+  },
+  "limitations": [
+    "Not an exhaustive systematic literature or novelty review.",
+    "Several publisher full texts were restricted; reading depth is documented.",
+    "No method has been newly reproduced or shown superior on this project.",
+    "Standard weighted generalized lasso is a mature method, not a claimed novel process algorithm.",
+    "Probability paths, task calibration, and 15-minute physical identification need separate validation.",
+    "Protection hashes cover listed old directories, not all project data."
+  ],
+  "local_links_checked": 19,
+  "local_links_missing": [],
+  "artifacts_sha256": {
+    "final_review.md": "90bc1d64ecb6e2401350c4615d0253a35806046787ea0ef28a411a5b483673ae",
+    "finalize_survey.py": "70c53b2e7721006f0dca155ea7688f6a6a3c78a50769b433ee1fb17725db4db7",
+    "independent_selection_review.md": "bdd778312b048411ac6c8713f3585baede4a537e841271b42edbf9a264d2a9c7",
+    "prior_scenario_screenshot.png": "22443b107f16886b96fafd61fd60e5ed5c3e5c5f1be6714b5588b429755e5561",
+    "process_methods.md": "8906bff3272519bfbf2cac2f347964aa1ecde2647df839d1d498a403f820b6b3",
+    "process_sources.md": "47c842c358a5a02dd7b76093c3ed9f12c350db17b4cc4d425cba124ebaf63699",
+    "protect_sources.py": "56c987c6a154bcfe70639a2d3700853f90289e9251488c7b47ed2107013abb30",
+    "protected_before.json": "ef3967458420e687ca69e0a8f591d954a0159ec18c4bd91000b4acd50af0f3fe",
+    "protection_receipt.json": "74befe46a352285701b8fe3d00784a9d7fd4e56217d58f7673f7e7a3997fba7a",
+    "README.md": "2faddf5b247ef5912489aeb7ef1dfaab6b0a43461cc8e1f8a1a1b4ba090f11fa",
+    "reference_methods.md": "b9675fc609ff362ff08b316c49aa6796098aa93846da08477233108b474bca9e",
+    "scenario_recovery.md": "ff0d686454c093bc48743ea48742a1fb1450edaad1b625b286883a9276b3b7c1",
+    "未知参考场景的方法调研与重新选型建议.md": "698714568c9e86f73abe810512dcc6ceae968255774a141f2c872a56ee404e95"
+  }
+}

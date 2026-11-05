@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "reviewer": "independent_unknown_reference_design",
+  "n_checks": 14,
+  "checks": [
+    "balanced complete raw-only panel produces causal output",
+    "independent interval integral and original-user order",
+    "whole-clock translation preserves extracted outcomes",
+    "whole-clock translation preserves causal point curve and band",
+    "finite task-external meter values cannot alter task energy",
+    "finite task-external meter values cannot alter effect curve or band",
+    "physical duplicate rejected after task rename",
+    "physical duplicate rejected after task/user rename",
+    "physical duplicate clock tolerance cannot create extra event",
+    "T60 rejected rather than silently normalized as T30",
+    "task boundary inside meter interval remains rejected",
+    "one invalid event prevents whole-cohort causal output",
+    "false pre-treatment task declaration withholds causal inference",
+    "frozen prototype and study code unchanged"
+  ],
+  "events": 420,
+  "users": 60,
+  "seed": 4432300,
+  "prototype_sha256": "77cdd96bb59859dd1a79dacc247d98bf781a1af91716c6baea2672f5dae345de",
+  "protected_sha256": {
+    "prototype.py": "77cdd96bb59859dd1a79dacc247d98bf781a1af91716c6baea2672f5dae345de",
+    "setup_study.py": "509279598922a0b83930f4124b6a2c67262e3e565b2b5bb2f1796804b6ce6443",
+    "check.py": "c8f2d0bd9713de2e98369821621b61e28d217ce4f89973bd3b7d726c8f8a6b07",
+    "run.py": "35e732075908ebcdf68d6a93467146fe77e6c3e6e8e792fa200f459a2dabfcf9",
+    "protocol.json": "6b7b7c974921992a66dc636106a08653a1f8b4dc0f4aba81e7b53a1c46f9fe10"
+  },
+  "formal_optional_admission": "appropriate after frozen experiment and audit finish; preserves old default",
+  "scope": "independent boundary and target-semantics review; no performance superiority or full B1 completion claim"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "route_confirmed_not_implemented",
+  "authorized_by": "latest explicit user instruction",
+  "scientific_files_unchanged": 484,
+  "only_protected_change": [
+    "AGENTS.md"
+  ],
+  "new_experiment": false,
+  "production_default_changed": false,
+  "route_sha256": "361fe9d62476da1e5710ea7edaa35b44431eb6f10cb7635324790c6b87105c45"
+}

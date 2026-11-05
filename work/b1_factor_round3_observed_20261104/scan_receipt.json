@@ -1,0 +1,18 @@
+{
+  "counts": {
+    "source_rows": 27346192,
+    "unopened_other_role_or_unmatched": 20158001,
+    "parsed_development_rows_by_role": {
+      "development_validation": 2150415,
+      "train": 5037776
+    }
+  },
+  "allowed_development_keys": 15698,
+  "confirmation_values_parsed": 0,
+  "role_hashes_verified": true,
+  "output_hashes": {
+    "transactions.jsonl.gz": "0a4fce9b85be79b044927c8066387776b43986665a01486b01d87b217bf5de04",
+    "candidates.jsonl.gz": "0437488e9f3533300090b7e48ed3118099ee60529a0075088a9306e5213950af",
+    "events.jsonl.gz": "5f6cf604691e6cdf1f641ef59a5e6f2c1cad2c60f29f93bb3ca8620d7fc2ea5f"
+  }
+}

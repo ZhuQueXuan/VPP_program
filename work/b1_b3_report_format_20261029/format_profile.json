@@ -1,0 +1,21 @@
+{
+  "headings": "SimHei",
+  "body": {
+    "eastAsia": "SimSun",
+    "latin": "Times New Roman",
+    "size_pt": 10.5,
+    "line_multiple": 1.25,
+    "first_line_chars": 2,
+    "space_before_after_pt": 0
+  },
+  "caption": {
+    "eastAsia": "SimSun",
+    "latin": "Times New Roman",
+    "size_pt": 10,
+    "alignment": "center",
+    "bold": false,
+    "first_line_chars": 0
+  },
+  "major_heading_forced_page_break": false,
+  "preserve_native_math": true
+}

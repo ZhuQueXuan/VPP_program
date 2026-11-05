@@ -1,0 +1,194 @@
+[
+  {
+    "case": "ACN01",
+    "session": "2_39_79_378_2020-02-19 16:24:37.812042",
+    "user": "acn_user_78b9cd14dd2185bd6d9b",
+    "role": "training",
+    "stratum": "complete_return_window",
+    "native_points": 475
+  },
+  {
+    "case": "ACN02",
+    "session": "2_39_131_30_2020-01-08 20:58:14.811792",
+    "user": "acn_user_7efe79b9930fbb187165",
+    "role": "training",
+    "stratum": "complete_return_window",
+    "native_points": 474
+  },
+  {
+    "case": "ACN03",
+    "session": "2_39_91_437_2020-01-27 01:01:39.151278",
+    "user": "acn_user_0055380ea59800d9847b",
+    "role": "training",
+    "stratum": "complete_return_window",
+    "native_points": 480
+  },
+  {
+    "case": "ACN04",
+    "session": "2_39_79_379_2020-01-17 16:32:09.250848",
+    "user": "acn_user_a259be9a5df32854214d",
+    "role": "training",
+    "stratum": "complete_multistep",
+    "native_points": 474
+  },
+  {
+    "case": "ACN05",
+    "session": "2_39_139_28_2020-01-14 15:42:29.065600",
+    "user": "acn_user_34143829fc8f4e576569",
+    "role": "training",
+    "stratum": "complete_multistep",
+    "native_points": 475
+  },
+  {
+    "case": "ACN06",
+    "session": "2_39_91_441_2020-01-31 18:03:05.440741",
+    "user": "acn_user_e14f1c33ef2e7cbc8ccc",
+    "role": "training",
+    "stratum": "complete_multistep",
+    "native_points": 476
+  },
+  {
+    "case": "ACN07",
+    "session": "2_39_91_437_2020-03-13 17:10:50.573361",
+    "user": "acn_user_b9a065a17418da7accf9",
+    "role": "training",
+    "stratum": "complete_single",
+    "native_points": 475
+  },
+  {
+    "case": "ACN08",
+    "session": "2_39_89_25_2020-03-08 16:04:09.383163",
+    "user": "acn_user_50e1592368ecec79831e",
+    "role": "training",
+    "stratum": "complete_single",
+    "native_points": 476
+  },
+  {
+    "case": "ACN09",
+    "session": "2_39_139_28_2020-01-26 02:59:56.692879",
+    "user": "acn_user_d3ec0953bfbe82646b7b",
+    "role": "training",
+    "stratum": "complete_single",
+    "native_points": 472
+  },
+  {
+    "case": "ACN10",
+    "session": "2_39_124_22_2020-03-06 18:15:19.926207",
+    "user": "acn_user_448e92d8289e66a5c3ba",
+    "role": "training",
+    "stratum": "incomplete",
+    "native_points": 442
+  },
+  {
+    "case": "ACN11",
+    "session": "2_39_131_30_2020-03-24 03:39:52.539395",
+    "user": "acn_user_4b7339ccc38f3c5c4b2a",
+    "role": "training",
+    "stratum": "incomplete",
+    "native_points": 16
+  },
+  {
+    "case": "ACN12",
+    "session": "2_39_79_380_2020-03-06 21:35:18.422439",
+    "user": "acn_user_ead944da2a56e625cc26",
+    "role": "training",
+    "stratum": "incomplete",
+    "native_points": 433
+  },
+  {
+    "case": "ACN13",
+    "session": "2_39_88_438_2020-01-23 19:08:16.670097",
+    "user": "acn_user_b64ab21f02a18319021d",
+    "role": "validation",
+    "stratum": "complete_return_window",
+    "native_points": 475
+  },
+  {
+    "case": "ACN14",
+    "session": "2_39_90_26_2020-02-24 17:47:09.045034",
+    "user": "acn_user_3cc2675e99ae1e0788c7",
+    "role": "validation",
+    "stratum": "complete_return_window",
+    "native_points": 472
+  },
+  {
+    "case": "ACN15",
+    "session": "2_39_95_27_2020-01-31 16:10:29.735207",
+    "user": "acn_user_86a5bb36d5bdaac94c90",
+    "role": "validation",
+    "stratum": "complete_return_window",
+    "native_points": 472
+  },
+  {
+    "case": "ACN16",
+    "session": "2_39_126_20_2020-01-31 17:15:18.373212",
+    "user": "acn_user_6c041560ce4a5d2f73fe",
+    "role": "validation",
+    "stratum": "complete_multistep",
+    "native_points": 477
+  },
+  {
+    "case": "ACN17",
+    "session": "2_39_127_19_2020-03-14 22:10:08.782212",
+    "user": "acn_user_de3dec98a7bb318ef2f9",
+    "role": "validation",
+    "stratum": "complete_multistep",
+    "native_points": 478
+  },
+  {
+    "case": "ACN18",
+    "session": "2_39_123_23_2020-01-10 01:54:39.609365",
+    "user": "acn_user_c470d959f34167458d9b",
+    "role": "validation",
+    "stratum": "complete_multistep",
+    "native_points": 480
+  },
+  {
+    "case": "ACN19",
+    "session": "2_39_95_444_2020-01-07 18:01:29.003460",
+    "user": "acn_user_5c445a5a9557bfb68575",
+    "role": "validation",
+    "stratum": "complete_single",
+    "native_points": 472
+  },
+  {
+    "case": "ACN20",
+    "session": "2_39_79_377_2020-02-02 01:28:04.324509",
+    "user": "acn_user_3fa8526cd510f098a420",
+    "role": "validation",
+    "stratum": "complete_single",
+    "native_points": 473
+  },
+  {
+    "case": "ACN21",
+    "session": "2_39_89_25_2020-02-23 00:22:12.280051",
+    "user": "acn_user_755640bdf0c29ac135b8",
+    "role": "validation",
+    "stratum": "complete_single",
+    "native_points": 473
+  },
+  {
+    "case": "ACN22",
+    "session": "2_39_90_440_2020-01-22 18:17:39.322570",
+    "user": "acn_user_f8b267c5716946dc4b7b",
+    "role": "validation",
+    "stratum": "incomplete",
+    "native_points": 16
+  },
+  {
+    "case": "ACN23",
+    "session": "2_39_81_4550_2020-11-28 02:44:53.746650",
+    "user": "acn_user_6a75077c0dee4adec825",
+    "role": "validation",
+    "stratum": "incomplete",
+    "native_points": 14
+  },
+  {
+    "case": "ACN24",
+    "session": "2_39_89_439_2020-03-06 20:50:31.818203",
+    "user": "acn_user_d2006cfc4ea48045b40c",
+    "role": "validation",
+    "stratum": "incomplete",
+    "native_points": 443
+  }
+]

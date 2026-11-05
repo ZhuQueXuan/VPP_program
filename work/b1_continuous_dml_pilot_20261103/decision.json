@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-11-03T06:32:21.553870+00:00",
+  "development_selected_baseline": "continuous_DML",
+  "development_selection_preserved": true,
+  "final_existing_DR_seconds": 46.43816486574576,
+  "final_DML_seconds": 49.96702797627692,
+  "final_soft_two_part_seconds": 49.332350461883664,
+  "two_part_gain_relative_to_DML": 0.012701926452271306,
+  "checks": {
+    "actual_gain5": false,
+    "nonincrease_vs_bounded": true,
+    "gain1_vs_capacity": true,
+    "zero_effect_false_nonincrease": true,
+    "no_output_coverage_loss": true,
+    "heldout_mechanism_nonincrease": false,
+    "extracted_outcome_noninferior2s": true
+  },
+  "adopt_two_part": false,
+  "adopt_DML_as_replacement": false,
+  "production_method_to_keep": "existing_Kennedy_continuous_DR",
+  "DML_kept_as_research_comparator": true,
+  "new_baseline_superiority_confirmed": false,
+  "reason": "Development-selectedDML did not outperform existingDR on new cohorts. Two-part finalgain is below5percent and did not improve the heldout-mechanism average. Preserve currentDR; do not retune against this finaltest.",
+  "no_further_test_tuning": true,
+  "first_block_unchanged": true,
+  "production_files_changed": false,
+  "real_causal_validation": false
+}

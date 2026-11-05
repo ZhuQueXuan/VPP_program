@@ -1,0 +1,35 @@
+{
+  "status": "awaiting_user_approval",
+  "implementation_authorized": false,
+  "proposal": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_generalization_framework_20261030\\B1算法通用化与资源模型复用开发框架_待审批.md",
+  "proposal_sha256": "b21b05e091ecad55cdedc585aa850d41c64c10b220573c42e71303eac2fdb061",
+  "investigated_resource_categories": 7,
+  "resource_manifest": "ready-models-v15",
+  "manifest_tracked_files": 73,
+  "manifest_mismatches": [],
+  "protected_files_checked": 100,
+  "protected_files_changed": [],
+  "algorithm_or_model_execution": false,
+  "training": false,
+  "new_experiments": false,
+  "model_parameters_changed": false,
+  "report_changed": false,
+  "scope": "read-only resource reuse review and one local approval framework only",
+  "proposed_initial_scope": [
+    "EV multi-task/multi-power parameterization",
+    "continuous-cooling AC conditional prototype as second instance",
+    "common analysis with resource-specific reference/recovery rules",
+    "CPOP and standard multivalued AIPW comparisons"
+  ],
+  "not_implicitly_authorized": [
+    "all-seven-resource integration",
+    "unknown-task future-response prediction",
+    "B2/B3 modifications",
+    "new data collection or real capability claims"
+  ],
+  "independent_review_notes": [
+    "Keep capability plans distinct from actual response and counterfactual reference",
+    "Coarse average power does not establish continuous thermal-state feasibility",
+    "Resource/task strata remain separate for causal effects"
+  ]
+}

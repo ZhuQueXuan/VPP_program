@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "n_technical_assertions": 118764,
+  "scope": "complete saved evidence audit, no fit or change to test/source",
+  "independent_blocks": 8,
+  "main_factual_variants": 2048,
+  "main_base_events": 1024,
+  "stress_factual_variants": 256,
+  "total_method_outputs": 6912,
+  "pooled_main": {
+    "cpop": {
+      "duration_mae": 119.560546875,
+      "curve_rmse": 0.1500270456223941
+    },
+    "ride_revised": {
+      "duration_mae": 104.208984375,
+      "curve_rmse": 0.1399794303357289
+    },
+    "ride_template": {
+      "duration_mae": 280.751953125,
+      "curve_rmse": 0.19351749066086377
+    }
+  },
+  "paired_block_differences": [
+    {
+      "comparator": "cpop",
+      "metric": "duration_mae",
+      "mean": -15.3515625,
+      "MC_t95": [
+        -25.23285623115911,
+        -5.47026876884089
+      ],
+      "independent_blocks": 8
+    },
+    {
+      "comparator": "cpop",
+      "metric": "curve_rmse",
+      "mean": -0.010047615286665212,
+      "MC_t95": [
+        -0.017581022960198478,
+        -0.0025142076131319463
+      ],
+      "independent_blocks": 8
+    },
+    {
+      "comparator": "ride_template",
+      "metric": "duration_mae",
+      "mean": -176.54296875,
+      "MC_t95": [
+        -184.0502189945867,
+        -169.0357185054133
+      ],
+      "independent_blocks": 8
+    },
+    {
+      "comparator": "ride_template",
+      "metric": "curve_rmse",
+      "mean": -0.05353806032513487,
+      "MC_t95": [
+        -0.059785933042015744,
+        -0.04729018760825399
+      ],
+      "independent_blocks": 8
+    }
+  ],
+  "relative_primary_gain_vs_CPOP": 0.12839990198480766,
+  "gate": {
+    "primary_at_least10percent": true,
+    "paired_t95_below_zero": true,
+    "curveRMSE_within5percent": true,
+    "empirical_false_detection_excess_at_most2pp": true,
+    "empirical_miss_excess_at_most2pp": true,
+    "all_events_retained": true
+  },
+  "all_gates_pass": true,
+  "false_detection_rates": {
+    "cpop": 0.11431870669745958,
+    "ride_revised": 0.10161662817551963,
+    "ride_template": 0.10508083140877598
+  },
+  "miss_rates": {
+    "cpop": 0.0,
+    "ride_revised": 0.0,
+    "ride_template": 0.0008460236886632825
+  },
+  "solver_records_audited": 21056,
+  "failed_solver_starts_retained": 344,
+  "maximum_independent_curve_reconstruction_error": 9.33975119465913e-14,
+  "original_comparator_and_default_files_unchanged": 6,
+  "protected_files_unchanged": 75,
+  "scientific_limits": [
+    "One finite synthetic EV mechanism with fresh seeds and paired positive/zero mechanisms, not realEV evidence.",
+    "Eight independent seed blocks; paired mechanism variants and methods are not independent studies.",
+    "Reference error and false detections remain uncalibrated; successful termination is not global optimality.",
+    "Rebound headroom cap is a model restriction, not full trajectory physical certification.",
+    "Explicit caller ratio override and dropped all-failed-solve diagnostics were identified during frozen trial; subsequent contract-only changes must retain frozen artifacts and prove exact headroom-mode equivalence."
+  ],
+  "frozen_test_source_sha256": "1c7f2424d76e4d87eeca149c0fc954eeb0dd8a7f2e7c5430531e8cbcaf3cc8eb",
+  "metrics_sha256": "b88870737655707af885436cd63d4c38163128caff5d097654e43fec1c21f170"
+}

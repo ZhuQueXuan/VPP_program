@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-11-02T17:59:06.582048+00:00",
+  "before_real_model_outputs": true,
+  "files": {
+    "../annotate_test.py": "cfc884e6c52732df0c2d647e1211c316495dd5436aafaacb5931ba0ae71bc634",
+    "annotations.json": "63292d1daca3cd087904bf6f21d3ffe66e72d3bff6dcbb14c15c2a314bcdf660",
+    "inputs.json": "af10a7ff288c8c09ede529ba195fe7018ed4f4ba0d2bce16c13d74b47b74643a",
+    "review_receipt.json": "a81c02bd23c512e23a5862d5f5813adae96c8fda2f92f0b5ed3f21456b6b97b2",
+    "samples.json": "6af68e9e137d68898fc220fd6d564870cc7f94a997fc9cfee1e8c55e823fb367",
+    "selection.json": "d9affb76e4b603ed77357ac7fa52ec250d9a8b9feed9b6f0629d99e601e92ece"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "metric_rows": 5760,
+  "observation_variants": 960,
+  "independent_seed_blocks": 20,
+  "summary_rows": 18,
+  "paired_rows": 15,
+  "maximum_request_rmse_recalculation_error": 1.7763568394002505e-15,
+  "maximum_raw_eta_recalculation_error": 8.881784197001252e-16,
+  "maximum_CPOP_projection_antiderivative_error": 1.3700152123874432e-13,
+  "feature_denominators_counts_rechecked": true,
+  "input_sha256": {
+    "all_metrics.csv": "8f94ce62c3e0c78e6c42080d85082f31ad44a93a602b8bd9c38aae503b81d940",
+    "cpop_segments.csv": "f6935dd93655c4119c42721b46944eca0cede6b80592403851fd13eb213c02db",
+    "summary.csv": "7df4a0b32a9bb0c82a5f0f315e89461e5b4d9335fcca030d4b76d8e490092745",
+    "paired.csv": "9bd009df6b6ce6f9255ae963e7fe86b04fb31edcdbfaad9c45febe59aaccdfa2"
+  }
+}

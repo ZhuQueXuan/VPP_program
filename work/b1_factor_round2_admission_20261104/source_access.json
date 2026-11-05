@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-04",
+  "source": "https://commercial.nationalgrid.co.uk/electric-nation-data",
+  "publisher_sharing_assessment": "https://connecteddata.nationalgrid.co.uk/dataset/a33247f4-e48e-49f1-ae4e-75e8448bb31c/resource/7175c8ae-1741-46b1-ae7e-7f064c092772/download/dsa011-electric-nation.pdf",
+  "usage": "发布者页面提供去标识试验数据，2024-06-05发布者评估标记Open。仅本地研究。未核到适用于再分发的具体条款，原件不外发。",
+  "technical_report": "https://eatechnology.com/media/girhcnsc/electric-nation-customer-trial-report.pdf",
+  "artifacts": {
+    "original/crowdcharge_meter.zip": {"url": "https://commercial.nationalgrid.co.uk/downloads-view-reciteme/279901", "download_status": 200, "bytes": 188915502},
+    "original/crowdcharge_transactions.xlsx": {"url": "https://commercial.nationalgrid.co.uk/downloads/81646", "download_status": 200, "bytes": 11141809},
+    "original/group_definition.xlsx": {"url": "https://commercial.nationalgrid.co.uk/downloads/81640", "download_status": 200, "bytes": 239602},
+    "original/meter_dictionary.pdf": {"url": "https://commercial.nationalgrid.co.uk/downloads-view/81670", "download_status": 200, "bytes": 431974}
+  },
+  "retrieval": "默认沙箱查询 DNS 未解析。授权网络下公开 HEAD 和 GET 成功。首批并发 GET 取得计量ZIP，三个较小文件连接超时且零字节。有限顺序重试获得三文件。不使用登录、凭据或其他数据包。",
+  "raw_checks": "字节和 SHA-256 在 metadata.json。计量ZIP单成员读至 EOF 通过 CRC32，两个 XLSX 的所有ZIP成员通过 CRC。PDF标识检查通过。哈希是本地收到版本的指纹，发布方未提供对照SHA-256。",
+  "inspection_exception": "开始时按有表头CSV检查第一行。该文件实际无表头，导致物理首行的响应和限额进入工具输出。整交易从所有角色排除，随后仅用元数据白名单扫描和按冻结清单读取开发角色。未检查其余确认响应。",
+  "metadata_attempt": "组定义中有字母数字桩号。首轮元数据脚本因全数字归一化假设失败，在计量扫描和角色产物写出前停止。更正为纯数字零填充且保留字母数字原样，随后先冻结角色再读取开发切片。"
+}

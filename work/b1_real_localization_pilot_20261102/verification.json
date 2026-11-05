@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "checks": {
+    "prior_data_and_annotation_artifacts_unchanged": 87,
+    "production_files_unchanged": 58,
+    "raw_files_byte_checked_without_test_parse": 1878,
+    "pinned_LABS_vendor_files": 4,
+    "identical_original_native_power_inputs": 7862,
+    "CPOP_native_prediction_replays": 7862,
+    "LABS_native_prediction_replays": 7862,
+    "independently_recomputed_method_feature_scores": 20,
+    "all_retained_windows_scored_or_coverage_reported": 128
+  },
+  "unsupported_retained_cases": [
+    {
+      "role": "training",
+      "case": 98,
+      "event_id": "006ade97b4391e0a7bd653ae6c060fc4d48bed72ab9f18180dc85b8f597707eb",
+      "reason": "unsupported_native_time_or_missing_value",
+      "duplicate_or_reversed_time_pairs": 3,
+      "zero_timestamp_count": 1,
+      "nonfinite_model_values": 0,
+      "window_retained": true
+    }
+  ],
+  "native_power_sequences": 127,
+  "native_original_curves": 254,
+  "short_observation_checks": {
+    "training|cpop": {
+      "observed_recovered_short_windows": 11,
+      "misses": 1,
+      "not_physical_effective_duration_truth": true
+    },
+    "training|labs": {
+      "observed_recovered_short_windows": 11,
+      "misses": 5,
+      "not_physical_effective_duration_truth": true
+    },
+    "training|candidate": {
+      "observed_recovered_short_windows": 11,
+      "misses": 1,
+      "not_physical_effective_duration_truth": true
+    },
+    "training|raw_only": {
+      "observed_recovered_short_windows": 11,
+      "misses": 1,
+      "not_physical_effective_duration_truth": true
+    },
+    "training|command_only": {
+      "observed_recovered_short_windows": 11,
+      "misses": 0,
+      "not_physical_effective_duration_truth": true
+    },
+    "validation|cpop": {
+      "observed_recovered_short_windows": 4,
+      "misses": 0,
+      "not_physical_effective_duration_truth": true
+    },
+    "validation|labs": {
+      "observed_recovered_short_windows": 4,
+      "misses": 2,
+      "not_physical_effective_duration_truth": true
+    },
+    "validation|candidate": {
+      "observed_recovered_short_windows": 4,
+      "misses": 0,
+      "not_physical_effective_duration_truth": true
+    },
+    "validation|raw_only": {
+      "observed_recovered_short_windows": 4,
+      "misses": 0,
+      "not_physical_effective_duration_truth": true
+    },
+    "validation|command_only": {
+      "observed_recovered_short_windows": 4,
+      "misses": 0,
+      "not_physical_effective_duration_truth": true
+    }
+  },
+  "validation_recovery_error_concentration": {
+    "annotated": 7,
+    "nonzero_error_cases": [
+      41
+    ],
+    "summed_interval_error_seconds": 44.0,
+    "not_a_population_conclusion": true
+  },
+  "configuration_frozen_before_validation_native_outputs": true,
+  "all_test_observation_values_unread": true,
+  "production_unchanged": true,
+  "physical_gold_or_independent_reviewer": false,
+  "algorithm_supervised_models_trained": 0,
+  "training_parameter_configurations": 3,
+  "validation_retuning": false
+}

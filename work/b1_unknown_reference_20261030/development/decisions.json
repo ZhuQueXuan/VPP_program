@@ -1,0 +1,2018 @@
+[
+  {
+    "index": 0,
+    "seed": 4431100,
+    "context": 0,
+    "reference": "oracle_diagnostic",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.09146385431760329,
+      "mean_block_gain": 0.002998537255860232,
+      "block_se": 0.0016139739649612417,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 1,
+    "seed": 4431100,
+    "context": 0,
+    "reference": "fixed_gbdt",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.9369922303189213,
+      "mean_block_gain": -0.03512184374696621,
+      "block_se": 0.011175550966311957,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 2,
+    "seed": 4431100,
+    "context": 0,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -1.0597846186309976,
+      "mean_block_gain": -0.039724544747111866,
+      "block_se": 0.0120054795792886,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 3,
+    "seed": 4431100,
+    "context": 0,
+    "reference": "oracle_diagnostic",
+    "mechanism": "partial",
+    "method": "task_template_average",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "passed",
+      "relative_validation_mse_reduction": 0.11778764190888757,
+      "mean_block_gain": 0.004267875706970135,
+      "block_se": 0.0030538369133303266,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 4,
+    "seed": 4431100,
+    "context": 0,
+    "reference": "fixed_gbdt",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.00806636277275452,
+      "mean_block_gain": 0.000341694127373357,
+      "block_se": 0.006213914686639038,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 5,
+    "seed": 4431100,
+    "context": 0,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.022554054596471973,
+      "mean_block_gain": 0.0009553981417874513,
+      "block_se": 0.006095329283721313,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 6,
+    "seed": 4431100,
+    "context": 0,
+    "reference": "oracle_diagnostic",
+    "mechanism": "slow",
+    "method": "task_template_average",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "passed",
+      "relative_validation_mse_reduction": 0.14981835313444847,
+      "mean_block_gain": 0.006180163632679939,
+      "block_se": 0.00514330073044458,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 7,
+    "seed": 4431100,
+    "context": 0,
+    "reference": "fixed_gbdt",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.04743196882435918,
+      "mean_block_gain": 0.002110317018414935,
+      "block_se": 0.006993531434435609,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 8,
+    "seed": 4431100,
+    "context": 0,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.06277453528481203,
+      "mean_block_gain": 0.0027878212503308513,
+      "block_se": 0.0069792973452921046,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 9,
+    "seed": 4431100,
+    "context": 0,
+    "reference": "oracle_diagnostic",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.06614098504963595,
+      "mean_block_gain": -0.003106416229534532,
+      "block_se": 0.005517385390914705,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 10,
+    "seed": 4431100,
+    "context": 0,
+    "reference": "fixed_gbdt",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.28365030228077726,
+      "mean_block_gain": -0.013640696528588769,
+      "block_se": 0.007270849159341147,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 11,
+    "seed": 4431100,
+    "context": 0,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.6322784508534978,
+      "mean_block_gain": -0.030289985011144955,
+      "block_se": 0.01718570559116167,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 12,
+    "seed": 4431100,
+    "context": 1,
+    "reference": "oracle_diagnostic",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.08759522755473503,
+      "mean_block_gain": 0.0027570554797643016,
+      "block_se": 0.0033303122006224112,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 13,
+    "seed": 4431100,
+    "context": 1,
+    "reference": "fixed_gbdt",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -37.93674636398588,
+      "mean_block_gain": -1.4236479281535794,
+      "block_se": 0.2214627546821516,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 2
+    }
+  },
+  {
+    "index": 14,
+    "seed": 4431100,
+    "context": 1,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -15.994896843458687,
+      "mean_block_gain": -0.600238658680478,
+      "block_se": 0.13482089717209753,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 15,
+    "seed": 4431100,
+    "context": 1,
+    "reference": "oracle_diagnostic",
+    "mechanism": "partial",
+    "method": "task_template_average",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "passed",
+      "relative_validation_mse_reduction": 0.17230950694425828,
+      "mean_block_gain": 0.005796922087340821,
+      "block_se": 0.003265651052099903,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 16,
+    "seed": 4431100,
+    "context": 1,
+    "reference": "fixed_gbdt",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -9.50823432837948,
+      "mean_block_gain": -0.3825123028622812,
+      "block_se": 0.07383316880820048,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 17,
+    "seed": 4431100,
+    "context": 1,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -2.5294404439984577,
+      "mean_block_gain": -0.1017583344889718,
+      "block_se": 0.04212960484891864,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 18,
+    "seed": 4431100,
+    "context": 1,
+    "reference": "oracle_diagnostic",
+    "mechanism": "slow",
+    "method": "task_template_average",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "passed",
+      "relative_validation_mse_reduction": 0.23280012820730922,
+      "mean_block_gain": 0.00806696495711214,
+      "block_se": 0.004015845402752063,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 19,
+    "seed": 4431100,
+    "context": 1,
+    "reference": "fixed_gbdt",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -4.808444156388935,
+      "mean_block_gain": -0.2155918159405984,
+      "block_se": 0.042353574811808445,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 2
+    }
+  },
+  {
+    "index": 20,
+    "seed": 4431100,
+    "context": 1,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.9469955666601342,
+      "mean_block_gain": -0.042459574711432156,
+      "block_se": 0.02100169145449258,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 21,
+    "seed": 4431100,
+    "context": 1,
+    "reference": "oracle_diagnostic",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.69661005715839,
+      "mean_block_gain": -0.0288202633708806,
+      "block_se": 0.011430554337260854,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 22,
+    "seed": 4431100,
+    "context": 1,
+    "reference": "fixed_gbdt",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -4.6910585113649095,
+      "mean_block_gain": -0.2156370374344127,
+      "block_se": 0.039787626168844285,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 23,
+    "seed": 4431100,
+    "context": 1,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -1.5080604494991001,
+      "mean_block_gain": -0.06932202760083685,
+      "block_se": 0.019872347355301388,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 24,
+    "seed": 4431101,
+    "context": 0,
+    "reference": "oracle_diagnostic",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.02912918450533475,
+      "mean_block_gain": 0.0006173436142074715,
+      "block_se": 0.0010836754748045079,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 25,
+    "seed": 4431101,
+    "context": 0,
+    "reference": "fixed_gbdt",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -9.151319878503495,
+      "mean_block_gain": -0.20402563535858192,
+      "block_se": 0.029415714978998142,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 26,
+    "seed": 4431101,
+    "context": 0,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -3.878520114576828,
+      "mean_block_gain": -0.08647031697431815,
+      "block_se": 0.018209656915187715,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 27,
+    "seed": 4431101,
+    "context": 0,
+    "reference": "oracle_diagnostic",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.12745378358505266,
+      "mean_block_gain": 0.003497744441352744,
+      "block_se": 0.00388721841426225,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 28,
+    "seed": 4431101,
+    "context": 0,
+    "reference": "fixed_gbdt",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.6966885500119646,
+      "mean_block_gain": -0.015279255058492053,
+      "block_se": 0.006346778703293677,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 29,
+    "seed": 4431101,
+    "context": 0,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.27350754267327493,
+      "mean_block_gain": -0.005998363981803127,
+      "block_se": 0.004446538850102065,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 30,
+    "seed": 4431101,
+    "context": 0,
+    "reference": "oracle_diagnostic",
+    "mechanism": "slow",
+    "method": "task_template_average",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "passed",
+      "relative_validation_mse_reduction": 0.12082775347742769,
+      "mean_block_gain": 0.003144322642548286,
+      "block_se": 0.002779737750361739,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 31,
+    "seed": 4431101,
+    "context": 0,
+    "reference": "fixed_gbdt",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.6355244451024935,
+      "mean_block_gain": -0.015463637342780693,
+      "block_se": 0.007420958295451131,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 32,
+    "seed": 4431101,
+    "context": 0,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -1.1089792639057405,
+      "mean_block_gain": -0.026983782118619806,
+      "block_se": 0.023986518460481568,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 33,
+    "seed": 4431101,
+    "context": 0,
+    "reference": "oracle_diagnostic",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.21521268271736016,
+      "mean_block_gain": -0.006942676101102346,
+      "block_se": 0.004326659396041522,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 34,
+    "seed": 4431101,
+    "context": 0,
+    "reference": "fixed_gbdt",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.9119927299769024,
+      "mean_block_gain": -0.027420405347431502,
+      "block_se": 0.009374437793293673,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 35,
+    "seed": 4431101,
+    "context": 0,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.8182385372262639,
+      "mean_block_gain": -0.024601547385363964,
+      "block_se": 0.013190898156291948,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 36,
+    "seed": 4431101,
+    "context": 1,
+    "reference": "oracle_diagnostic",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.03227301409890293,
+      "mean_block_gain": 0.0008602802417602393,
+      "block_se": 0.0012803643867440465,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 37,
+    "seed": 4431101,
+    "context": 1,
+    "reference": "fixed_gbdt",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -2.9935188835341418,
+      "mean_block_gain": -0.08034392563952394,
+      "block_se": 0.012683774608442156,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 38,
+    "seed": 4431101,
+    "context": 1,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.5742759197254297,
+      "mean_block_gain": -0.015413158755997854,
+      "block_se": 0.005865477754078341,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 39,
+    "seed": 4431101,
+    "context": 1,
+    "reference": "oracle_diagnostic",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.08137153157878552,
+      "mean_block_gain": -0.002520184460367263,
+      "block_se": 0.001654872485643693,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 40,
+    "seed": 4431101,
+    "context": 1,
+    "reference": "fixed_gbdt",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.6373735428922558,
+      "mean_block_gain": -0.01964287437320998,
+      "block_se": 0.0057126213512112166,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 41,
+    "seed": 4431101,
+    "context": 1,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.21722849030494995,
+      "mean_block_gain": -0.006694648676472458,
+      "block_se": 0.004917916737443842,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 42,
+    "seed": 4431101,
+    "context": 1,
+    "reference": "oracle_diagnostic",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.05988644167118895,
+      "mean_block_gain": 0.0023095028606135645,
+      "block_se": 0.002867410103084365,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 43,
+    "seed": 4431101,
+    "context": 1,
+    "reference": "fixed_gbdt",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.46041011557013434,
+      "mean_block_gain": -0.01644411316593747,
+      "block_se": 0.0074601491295137115,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 44,
+    "seed": 4431101,
+    "context": 1,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.08534626170311721,
+      "mean_block_gain": 0.0030482466354977383,
+      "block_se": 0.004435203263609213,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 45,
+    "seed": 4431101,
+    "context": 1,
+    "reference": "oracle_diagnostic",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.1989874154236928,
+      "mean_block_gain": -0.008063618909108181,
+      "block_se": 0.005066273267750532,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 2
+    }
+  },
+  {
+    "index": 46,
+    "seed": 4431101,
+    "context": 1,
+    "reference": "fixed_gbdt",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.7553728576931553,
+      "mean_block_gain": -0.029528713121688765,
+      "block_se": 0.00748681448105034,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 47,
+    "seed": 4431101,
+    "context": 1,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.17110377265473753,
+      "mean_block_gain": -0.006688715599591668,
+      "block_se": 0.005219005194643389,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 48,
+    "seed": 4431102,
+    "context": 0,
+    "reference": "oracle_diagnostic",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.044464045137993735,
+      "mean_block_gain": 0.000888271959090545,
+      "block_se": 0.0008166182451602514,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 49,
+    "seed": 4431102,
+    "context": 0,
+    "reference": "fixed_gbdt",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.5468924210756132,
+      "mean_block_gain": -0.011535988260095458,
+      "block_se": 0.004266287011840981,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 50,
+    "seed": 4431102,
+    "context": 0,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.36157336732639145,
+      "mean_block_gain": -0.007626922516930883,
+      "block_se": 0.003542993044066761,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 51,
+    "seed": 4431102,
+    "context": 0,
+    "reference": "oracle_diagnostic",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.17397995645232944,
+      "mean_block_gain": -0.004184378813050335,
+      "block_se": 0.005247709728103395,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 52,
+    "seed": 4431102,
+    "context": 0,
+    "reference": "fixed_gbdt",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.30822167445289583,
+      "mean_block_gain": -0.0076590220199175265,
+      "block_se": 0.004736221615259398,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 53,
+    "seed": 4431102,
+    "context": 0,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.15760551863103922,
+      "mean_block_gain": -0.003916350593443225,
+      "block_se": 0.00418991751482287,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 54,
+    "seed": 4431102,
+    "context": 0,
+    "reference": "oracle_diagnostic",
+    "mechanism": "slow",
+    "method": "task_template_average",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "passed",
+      "relative_validation_mse_reduction": 0.2399930543849943,
+      "mean_block_gain": 0.0067423442905790295,
+      "block_se": 0.004488636447387887,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 55,
+    "seed": 4431102,
+    "context": 0,
+    "reference": "fixed_gbdt",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.1549355706557145,
+      "mean_block_gain": -0.004069020833483025,
+      "block_se": 0.004693035355887081,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 56,
+    "seed": 4431102,
+    "context": 0,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.03601090334332269,
+      "mean_block_gain": 0.000945742254773345,
+      "block_se": 0.004793541576154107,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 57,
+    "seed": 4431102,
+    "context": 0,
+    "reference": "oracle_diagnostic",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.3197672065390398,
+      "mean_block_gain": -0.0080812286013397,
+      "block_se": 0.006733411794487677,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 58,
+    "seed": 4431102,
+    "context": 0,
+    "reference": "fixed_gbdt",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.5679316531246652,
+      "mean_block_gain": -0.014083348261688531,
+      "block_se": 0.007123269977919933,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 59,
+    "seed": 4431102,
+    "context": 0,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -1.268888499441295,
+      "mean_block_gain": -0.03146540352974554,
+      "block_se": 0.01609797139177595,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 60,
+    "seed": 4431102,
+    "context": 1,
+    "reference": "oracle_diagnostic",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.05634189788654842,
+      "mean_block_gain": 0.0016386273791172143,
+      "block_se": 0.001867516636892893,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 61,
+    "seed": 4431102,
+    "context": 1,
+    "reference": "fixed_gbdt",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.5047924517129192,
+      "mean_block_gain": -0.014462726819074649,
+      "block_se": 0.0056534240163575045,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 62,
+    "seed": 4431102,
+    "context": 1,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.40739196371333275,
+      "mean_block_gain": -0.011672121204425479,
+      "block_se": 0.0043586403422765305,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 63,
+    "seed": 4431102,
+    "context": 1,
+    "reference": "oracle_diagnostic",
+    "mechanism": "partial",
+    "method": "task_template_average",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "passed",
+      "relative_validation_mse_reduction": 0.15957418396971934,
+      "mean_block_gain": 0.005862114062695781,
+      "block_se": 0.002623239959268568,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 64,
+    "seed": 4431102,
+    "context": 1,
+    "reference": "fixed_gbdt",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.13380641312639363,
+      "mean_block_gain": -0.005001037075139664,
+      "block_se": 0.004764028431980146,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 65,
+    "seed": 4431102,
+    "context": 1,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.49295596850086376,
+      "mean_block_gain": -0.018424311789566813,
+      "block_se": 0.007436347840477463,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 66,
+    "seed": 4431102,
+    "context": 1,
+    "reference": "oracle_diagnostic",
+    "mechanism": "slow",
+    "method": "task_template_average",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "passed",
+      "relative_validation_mse_reduction": 0.25895691696871803,
+      "mean_block_gain": 0.009974863477519318,
+      "block_se": 0.003442545609760841,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 67,
+    "seed": 4431102,
+    "context": 1,
+    "reference": "fixed_gbdt",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -1.8056753803838452,
+      "mean_block_gain": -0.06811657761150264,
+      "block_se": 0.045572235922076126,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 68,
+    "seed": 4431102,
+    "context": 1,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.18828495651532884,
+      "mean_block_gain": -0.007102786576637514,
+      "block_se": 0.007018355356282617,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 69,
+    "seed": 4431102,
+    "context": 1,
+    "reference": "oracle_diagnostic",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.26954943995017033,
+      "mean_block_gain": -0.01233891413061041,
+      "block_se": 0.010981556157979591,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 70,
+    "seed": 4431102,
+    "context": 1,
+    "reference": "fixed_gbdt",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.5578217140513646,
+      "mean_block_gain": -0.023576492810585825,
+      "block_se": 0.010008524540856554,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 71,
+    "seed": 4431102,
+    "context": 1,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.539941469687166,
+      "mean_block_gain": -0.022820779215927272,
+      "block_se": 0.00998978130731765,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 72,
+    "seed": 4431103,
+    "context": 0,
+    "reference": "oracle_diagnostic",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.056561759671302725,
+      "mean_block_gain": 0.0016563236128280037,
+      "block_se": 0.0009304958988505716,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 73,
+    "seed": 4431103,
+    "context": 0,
+    "reference": "fixed_gbdt",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -7.995934448693456,
+      "mean_block_gain": -0.25289315614006386,
+      "block_se": 0.0469089361071503,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 2
+    }
+  },
+  {
+    "index": 74,
+    "seed": 4431103,
+    "context": 0,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -2.3910689695954064,
+      "mean_block_gain": -0.07562405396762083,
+      "block_se": 0.02346187870343561,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 75,
+    "seed": 4431103,
+    "context": 0,
+    "reference": "oracle_diagnostic",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.014512264378856887,
+      "mean_block_gain": 0.0004644773365959853,
+      "block_se": 0.004431712019482551,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 76,
+    "seed": 4431103,
+    "context": 0,
+    "reference": "fixed_gbdt",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.9306437839955877,
+      "mean_block_gain": -0.030757199649196466,
+      "block_se": 0.00966160444729098,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 77,
+    "seed": 4431103,
+    "context": 0,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.29218186827484205,
+      "mean_block_gain": -0.009656429464152063,
+      "block_se": 0.006440481472151312,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 78,
+    "seed": 4431103,
+    "context": 0,
+    "reference": "oracle_diagnostic",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.14414742264456715,
+      "mean_block_gain": -0.004680567656370173,
+      "block_se": 0.004556853569275782,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 79,
+    "seed": 4431103,
+    "context": 0,
+    "reference": "fixed_gbdt",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -1.7201192944202437,
+      "mean_block_gain": -0.06342822656108865,
+      "block_se": 0.03603779526905637,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 80,
+    "seed": 4431103,
+    "context": 0,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -1.5343752733599536,
+      "mean_block_gain": -0.05657904238624921,
+      "block_se": 0.04905569261309618,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 81,
+    "seed": 4431103,
+    "context": 0,
+    "reference": "oracle_diagnostic",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.5422626152769205,
+      "mean_block_gain": -0.018397478572610253,
+      "block_se": 0.011990269695638848,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 82,
+    "seed": 4431103,
+    "context": 0,
+    "reference": "fixed_gbdt",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -2.4798897853347794,
+      "mean_block_gain": -0.09285454621324042,
+      "block_se": 0.016357286800932926,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 83,
+    "seed": 4431103,
+    "context": 0,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.9722339605270591,
+      "mean_block_gain": -0.036403369114102066,
+      "block_se": 0.01627671079666521,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 84,
+    "seed": 4431103,
+    "context": 1,
+    "reference": "oracle_diagnostic",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.021247413255659597,
+      "mean_block_gain": 0.000505818942101783,
+      "block_se": 0.001308659967816708,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 85,
+    "seed": 4431103,
+    "context": 1,
+    "reference": "fixed_gbdt",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -4.612974547053864,
+      "mean_block_gain": -0.10239736143496717,
+      "block_se": 0.01806821219351957,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 86,
+    "seed": 4431103,
+    "context": 1,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "none",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -1.2495195543530273,
+      "mean_block_gain": -0.02773644296582145,
+      "block_se": 0.009071636240328713,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 0
+    }
+  },
+  {
+    "index": 87,
+    "seed": 4431103,
+    "context": 1,
+    "reference": "oracle_diagnostic",
+    "mechanism": "partial",
+    "method": "task_template_average",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "passed",
+      "relative_validation_mse_reduction": 0.1277538356924991,
+      "mean_block_gain": 0.003910391566676283,
+      "block_se": 0.0016309988278524839,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 88,
+    "seed": 4431103,
+    "context": 1,
+    "reference": "fixed_gbdt",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.5090012294635817,
+      "mean_block_gain": -0.014463653870798376,
+      "block_se": 0.009882210690601748,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 89,
+    "seed": 4431103,
+    "context": 1,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "partial",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": 0.03570907197265316,
+      "mean_block_gain": 0.0010147002151727749,
+      "block_se": 0.005227361944907948,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 90,
+    "seed": 4431103,
+    "context": 1,
+    "reference": "oracle_diagnostic",
+    "mechanism": "slow",
+    "method": "task_template_average",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "passed",
+      "relative_validation_mse_reduction": 0.19502391213735037,
+      "mean_block_gain": 0.006056233770820092,
+      "block_se": 0.005796489126381451,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 91,
+    "seed": 4431103,
+    "context": 1,
+    "reference": "fixed_gbdt",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.45885424344987347,
+      "mean_block_gain": -0.015373313795660672,
+      "block_se": 0.01152708504828633,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 92,
+    "seed": 4431103,
+    "context": 1,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "slow",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.020167405322181642,
+      "mean_block_gain": -0.0006756826484400897,
+      "block_se": 0.004996120612398594,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 93,
+    "seed": 4431103,
+    "context": 1,
+    "reference": "oracle_diagnostic",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.3987472779573582,
+      "mean_block_gain": -0.012015210123671528,
+      "block_se": 0.00793062366413129,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 94,
+    "seed": 4431103,
+    "context": 1,
+    "reference": "fixed_gbdt",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.8284464409930716,
+      "mean_block_gain": -0.025576406315725126,
+      "block_se": 0.0114556647593681,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  },
+  {
+    "index": 95,
+    "seed": 4431103,
+    "context": 1,
+    "reference": "gbdt_pre15_shift",
+    "mechanism": "multiplateau",
+    "method": "CPOP",
+    "evidence": {
+      "n_bins": 60,
+      "policy": "guarded",
+      "gate_status": "not_passed",
+      "relative_validation_mse_reduction": -0.7405327777005555,
+      "mean_block_gain": -0.022862271204735763,
+      "block_se": 0.010061601633942919,
+      "decision_rule": "10percent_and_one_block_SE;not_a_confidence_claim",
+      "negative_meter_values": 0
+    },
+    "ride": {
+      "ride_structure": 1
+    }
+  }
+]

@@ -1,0 +1,404 @@
+{
+  "original_files": {
+    "crowdcharge_meter.zip": {
+      "bytes": 188915502,
+      "sha256": "ed001d0dfe9cf59540a11f7da45e5500c7981a9acfccb2c0e6b4aae0ee4a4f42"
+    },
+    "crowdcharge_transactions.xlsx": {
+      "bytes": 11141809,
+      "sha256": "c15bc47767757cd7690bc754558c2c2d8275ba280bbdf2c480a651504f66e425"
+    },
+    "group_definition.xlsx": {
+      "bytes": 239602,
+      "sha256": "087cb6a50ef1db409b313e41b6726c11492e61c893b35516d16089edd56ef14e"
+    },
+    "meter_dictionary.pdf": {
+      "bytes": 431974,
+      "sha256": "72977c8bd76a575f829accf51e237a544b41768457ff45276661492dac340340"
+    }
+  },
+  "archive": {
+    "member": "CrowdChargeMeterValues.csv",
+    "bytes": 2636782035,
+    "compressed_bytes": 188915316,
+    "crc32": "9ce8bc03"
+  },
+  "meter_rows": {
+    "rows": 27346192,
+    "unmatched_meter_key": 1,
+    "outside_roles": 19250182
+  },
+  "workbook_header": [
+    "TransactionID",
+    "ChargerID",
+    "ParticipantID",
+    "CarKW",
+    "CarKWh",
+    "StartTime",
+    "StopTime",
+    "GroupID",
+    "Trial",
+    "AdjustedStartTime",
+    "AdjustedStopTime",
+    "PluggedInTime",
+    "ConsumedkWh",
+    "Part_of_Managed_Group",
+    "Weekday_or_Weekend",
+    "ActiveCharging_Start",
+    "Max_Current_Drawn_for_T",
+    "EndCharge",
+    "ChargingDuration",
+    "t_inactive_start",
+    "t_inactive_end",
+    "Used_a_Timer",
+    "Began_in_weekday_evening_peak",
+    "Hot_Unplug",
+    "T1_Managed",
+    "T2_Managed",
+    "Restricton T1",
+    "Restriction T2"
+  ],
+  "workbook_counts": {
+    "workbook_rows": 71264,
+    "unique_valid_transactions": 71264,
+    "duplicate_keys_excluded": 0,
+    "multi_participant_chargers": 21,
+    "multi_charger_participants": 1,
+    "charger_identity_excluded": 22
+  },
+  "group_header": [
+    "ChargerID",
+    "GroupID",
+    "StartDate",
+    "EndDate",
+    "PDCSProvider"
+  ],
+  "group_workbook_counts": {
+    "workbook_rows": 4338,
+    "periods_overlapping_previous_or_earlier": 167,
+    "chargers": 263,
+    "groups": 34
+  },
+  "role_dates_left_inclusive_right_exclusive": {
+    "train": [
+      "2017-03-06",
+      "2018-01-29"
+    ],
+    "development_validation": [
+      "2018-02-05",
+      "2018-07-09"
+    ],
+    "confirmation": [
+      "2018-07-16",
+      "2018-12-31"
+    ]
+  },
+  "role_exclusions": {
+    "outside_charger_date_intersection": 44483,
+    "headerless_first_row_exposure": 1,
+    "ambiguous_charger_participant": 7673
+  },
+  "roles": {
+    "train": {
+      "counts": {
+        "matched_meter_rows": 5037776,
+        "transactions": 12079,
+        "transactions_without_in_bounds_meter_row": 4618,
+        "transactions_with_in_bounds_meter_row": 7461,
+        "transactions_with_six_consecutive_timestamps": 7397
+      },
+      "chargers": 125,
+      "participants": 125,
+      "transaction_start_weeks": [
+        "2017-03-06",
+        "2017-03-13",
+        "2017-03-20",
+        "2017-03-27",
+        "2017-04-03",
+        "2017-04-10",
+        "2017-04-17",
+        "2017-04-24",
+        "2017-05-01",
+        "2017-05-08",
+        "2017-05-15",
+        "2017-05-22",
+        "2017-05-29",
+        "2017-06-05",
+        "2017-06-12",
+        "2017-06-19",
+        "2017-06-26",
+        "2017-07-03",
+        "2017-07-10",
+        "2017-07-17",
+        "2017-07-24",
+        "2017-07-31",
+        "2017-08-07",
+        "2017-08-14",
+        "2017-08-21",
+        "2017-08-28",
+        "2017-09-04",
+        "2017-09-11",
+        "2017-09-18",
+        "2017-09-25",
+        "2017-10-02",
+        "2017-10-09",
+        "2017-10-16",
+        "2017-10-23",
+        "2017-10-30",
+        "2017-11-06",
+        "2017-11-13",
+        "2017-11-20",
+        "2017-11-27",
+        "2017-12-04",
+        "2017-12-11",
+        "2017-12-18",
+        "2017-12-25",
+        "2018-01-01",
+        "2018-01-08",
+        "2018-01-15",
+        "2018-01-22"
+      ],
+      "gap_ms_counts": {
+        "60000": 5018455,
+        "other": 11844,
+        "1800000": 16
+      },
+      "trial_counts": {
+        "NULL": {
+          "transactions": 7297,
+          "six_consecutive_timestamps": 3490
+        },
+        "1": {
+          "transactions": 4782,
+          "six_consecutive_timestamps": 3907
+        }
+      },
+      "six_point_chargers": 115,
+      "six_point_start_weeks": [
+        "2017-03-06",
+        "2017-03-20",
+        "2017-03-27",
+        "2017-04-03",
+        "2017-04-10",
+        "2017-04-17",
+        "2017-04-24",
+        "2017-05-01",
+        "2017-05-08",
+        "2017-05-15",
+        "2017-05-22",
+        "2017-05-29",
+        "2017-06-05",
+        "2017-06-12",
+        "2017-06-19",
+        "2017-06-26",
+        "2017-07-03",
+        "2017-07-10",
+        "2017-07-17",
+        "2017-07-24",
+        "2017-07-31",
+        "2017-08-07",
+        "2017-08-14",
+        "2017-08-21",
+        "2017-08-28",
+        "2017-09-04",
+        "2017-09-11",
+        "2017-09-18",
+        "2017-09-25",
+        "2017-10-02",
+        "2017-10-09",
+        "2017-10-16",
+        "2017-10-23",
+        "2017-10-30",
+        "2017-11-06",
+        "2017-11-13",
+        "2017-11-20",
+        "2017-11-27",
+        "2017-12-04",
+        "2017-12-11",
+        "2017-12-18",
+        "2017-12-25",
+        "2018-01-01",
+        "2018-01-08",
+        "2018-01-15",
+        "2018-01-22"
+      ]
+    },
+    "development_validation": {
+      "counts": {
+        "matched_meter_rows": 2150415,
+        "transactions": 3619,
+        "transactions_with_in_bounds_meter_row": 3188,
+        "transactions_with_six_consecutive_timestamps": 3164,
+        "transactions_without_in_bounds_meter_row": 431
+      },
+      "chargers": 49,
+      "participants": 49,
+      "transaction_start_weeks": [
+        "2018-02-05",
+        "2018-02-12",
+        "2018-02-19",
+        "2018-02-26",
+        "2018-03-05",
+        "2018-03-12",
+        "2018-03-19",
+        "2018-03-26",
+        "2018-04-02",
+        "2018-04-09",
+        "2018-04-16",
+        "2018-04-23",
+        "2018-04-30",
+        "2018-05-07",
+        "2018-05-14",
+        "2018-05-21",
+        "2018-05-28",
+        "2018-06-04",
+        "2018-06-11",
+        "2018-06-18",
+        "2018-06-25",
+        "2018-07-02"
+      ],
+      "gap_ms_counts": {
+        "60000": 2143299,
+        "other": 3913,
+        "1800000": 15
+      },
+      "trial_counts": {
+        "NULL": {
+          "transactions": 672,
+          "six_consecutive_timestamps": 499
+        },
+        "1": {
+          "transactions": 2873,
+          "six_consecutive_timestamps": 2591
+        },
+        "2": {
+          "transactions": 74,
+          "six_consecutive_timestamps": 74
+        }
+      },
+      "six_point_chargers": 46,
+      "six_point_start_weeks": [
+        "2018-02-05",
+        "2018-02-12",
+        "2018-02-19",
+        "2018-02-26",
+        "2018-03-05",
+        "2018-03-12",
+        "2018-03-19",
+        "2018-03-26",
+        "2018-04-02",
+        "2018-04-09",
+        "2018-04-16",
+        "2018-04-23",
+        "2018-04-30",
+        "2018-05-07",
+        "2018-05-14",
+        "2018-05-21",
+        "2018-05-28",
+        "2018-06-04",
+        "2018-06-11",
+        "2018-06-18",
+        "2018-06-25",
+        "2018-07-02"
+      ]
+    },
+    "confirmation": {
+      "counts": {
+        "matched_meter_rows": 907818,
+        "transactions": 3409,
+        "transactions_without_in_bounds_meter_row": 528,
+        "transactions_with_in_bounds_meter_row": 2881,
+        "transactions_with_six_consecutive_timestamps": 2840
+      },
+      "chargers": 45,
+      "participants": 45,
+      "transaction_start_weeks": [
+        "2018-07-16",
+        "2018-07-23",
+        "2018-07-30",
+        "2018-08-06",
+        "2018-08-13",
+        "2018-08-20",
+        "2018-08-27",
+        "2018-09-03",
+        "2018-09-10",
+        "2018-09-17",
+        "2018-09-24",
+        "2018-10-01",
+        "2018-10-08",
+        "2018-10-15",
+        "2018-10-22",
+        "2018-10-29",
+        "2018-11-05",
+        "2018-11-12",
+        "2018-11-19",
+        "2018-11-26",
+        "2018-12-03",
+        "2018-12-10",
+        "2018-12-17",
+        "2018-12-24"
+      ],
+      "gap_ms_counts": {
+        "60000": 881889,
+        "other": 23011,
+        "1800000": 37
+      },
+      "trial_counts": {
+        "NULL": {
+          "transactions": 462,
+          "six_consecutive_timestamps": 184
+        },
+        "1": {
+          "transactions": 238,
+          "six_consecutive_timestamps": 233
+        },
+        "2": {
+          "transactions": 1884,
+          "six_consecutive_timestamps": 1838
+        },
+        "3": {
+          "transactions": 825,
+          "six_consecutive_timestamps": 585
+        }
+      },
+      "six_point_chargers": 41,
+      "six_point_start_weeks": [
+        "2018-07-16",
+        "2018-07-23",
+        "2018-07-30",
+        "2018-08-06",
+        "2018-08-13",
+        "2018-08-20",
+        "2018-08-27",
+        "2018-09-03",
+        "2018-09-10",
+        "2018-09-17",
+        "2018-09-24",
+        "2018-10-01",
+        "2018-10-08",
+        "2018-10-15",
+        "2018-10-22",
+        "2018-10-29",
+        "2018-11-05",
+        "2018-11-12",
+        "2018-11-19",
+        "2018-11-26",
+        "2018-12-03",
+        "2018-12-10"
+      ]
+    }
+  },
+  "groups_in_meter": {
+    "development_validation": 10,
+    "train": 12,
+    "confirmation": 12
+  },
+  "group_ids_shared_by_dev_and_confirmation": [],
+  "whitelist": [
+    "ChargerID",
+    "GroupID",
+    "Timestamp",
+    "TransactionID"
+  ],
+  "outcomes_opened_by_metadata_script": false
+}

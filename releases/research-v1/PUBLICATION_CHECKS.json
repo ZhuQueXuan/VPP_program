@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-05",
+  "passed": true,
+  "source_files_byte_identical_to_git_index": 3526,
+  "source_hash_mismatches": [],
+  "staged_deletions": 0,
+  "source_utf8_and_newline_preserved": true,
+  "core_python_sources_compiled": 44,
+  "public_api_imported": true,
+  "new_models_trained": 0,
+  "original_data_and_external_runtime_excluded": true,
+  "secret_scan_findings": 0,
+  "archive_count": 10,
+  "archive_files": 29882,
+  "archive_total_bytes": 2252661113,
+  "each_archive_member_inventory_checked": true,
+  "largest_member_each_archive_rehashed": true,
+  "external_R_and_real_data_not_reinstalled_or_revalidated": true,
+  "snapshot_scope": "B1 algorithm plus b1_* research code and evidence; unrelated working changes are not staged."
+}

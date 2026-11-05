@@ -1,0 +1,256 @@
+{
+  "source_sha256": "09c7fb84bbaa7e140cd985a034456b2db477df6f00427665bb0a0c9fbaa5c03c",
+  "checks": [
+    {
+      "name": "independent nonmonotonic means direct identity [0.25, 0.7, 0.9, 1.01, 1.3, 1.8, 2.1]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent nonmonotonic contrast direct identity [0.25, 0.7, 0.9, 1.01, 1.3, 1.8, 2.1]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same requested grid original band standard_errors[0.25, 0.7, 0.9, 1.01, 1.3, 1.8, 2.1]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same requested grid original band lower[0.25, 0.7, 0.9, 1.01, 1.3, 1.8, 2.1]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same requested grid original band upper[0.25, 0.7, 0.9, 1.01, 1.3, 1.8, 2.1]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent nonmonotonic means direct identity [0.9]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent nonmonotonic contrast direct identity [0.9]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same requested grid original band standard_errors[0.9]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same requested grid original band lower[0.9]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same requested grid original band upper[0.9]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent nonmonotonic means direct identity [0.52, 0.89, 1.51]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent nonmonotonic contrast direct identity [0.52, 0.89, 1.51]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same requested grid original band standard_errors[0.52, 0.89, 1.51]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same requested grid original band lower[0.52, 0.89, 1.51]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "same requested grid original band upper[0.52, 0.89, 1.51]",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "estimated GPS path same means",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "estimated GPS path same conditional upper",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "non-affine whole-curve derivative incl boundaries",
+      "passed": true,
+      "detail": 4.015490162601054e-09
+    },
+    {
+      "name": "sensitivity is not mislabeled local slope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "nondecimal currency rescaling reciprocal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "threshold and derivative never fit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mesh actual maximum width respects request",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "threshold keeps finite-mesh limitation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "association label survives threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "multiple isolated crossings represented",
+      "passed": true,
+      "detail": 2
+    },
+    {
+      "name": "first crossing ordered or left censored",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "every crossing root solves same curve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "every crossing root solves same curve",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "flat zero no crossing explicit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "already reached interval left-censor explicit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unsupported mesh never returns numeric threshold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict known-density flag 1",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "strict known-density flag 'false'",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "name": "strict known-density flag []",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "strict known-density flag {}",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "malformed payload rejects via ValueError",
+      "passed": false,
+      "detail": {
+        "name": "model payload None",
+        "result": "rejected",
+        "exception": "AttributeError",
+        "message": "'NoneType' object has no attribute 'encode'"
+      }
+    },
+    {
+      "name": "malformed envelope rejects via ValueError",
+      "passed": false,
+      "detail": {
+        "name": "load numeric payload",
+        "result": "rejected",
+        "exception": "AttributeError",
+        "message": "'int' object has no attribute 'encode'"
+      }
+    },
+    {
+      "name": "causal status cannot override missing declarations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent roundtrip exact",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": 35,
+  "failed": 4,
+  "observations": [
+    {
+      "name": "known_density_used type 1",
+      "result": "accepted",
+      "value": "causal"
+    },
+    {
+      "name": "known_density_used type 'false'",
+      "result": "accepted",
+      "value": "causal"
+    },
+    {
+      "name": "known_density_used type []",
+      "result": "rejected",
+      "exception": "ContractError",
+      "message": "Declared randomization requires its ex ante assignment probabilities."
+    },
+    {
+      "name": "known_density_used type {}",
+      "result": "rejected",
+      "exception": "ContractError",
+      "message": "Declared randomization requires its ex ante assignment probabilities."
+    },
+    {
+      "name": "model payload None",
+      "result": "rejected",
+      "exception": "AttributeError",
+      "message": "'NoneType' object has no attribute 'encode'"
+    },
+    {
+      "name": "load numeric payload",
+      "result": "rejected",
+      "exception": "AttributeError",
+      "message": "'int' object has no attribute 'encode'"
+    },
+    {
+      "name": "causal status promotion without assumptions",
+      "result": "rejected",
+      "exception": "ValueError",
+      "message": "frozen causal status disagrees with declarations"
+    }
+  ],
+  "scientific_results_changed": false,
+  "main_study_run": false
+}

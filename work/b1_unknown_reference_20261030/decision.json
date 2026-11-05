@@ -1,0 +1,14 @@
+{
+  "completed":"2026-10-30",
+  "independent_blocks":{"development":4,"test":20},
+  "test_contexts":40,
+  "test_paired_shape_variants":160,
+  "test_reference_variants":480,
+  "test_method_rows":1440,
+  "unknown_reference_result":{"guarded_rmse_kw":0.4039392482669647,"CPOP_rmse_kw":0.404417593898299,"RIDE_3starts_rmse_kw":0.29841057711768604,"guarded_minus_CPOP_MC95":[-0.0012912150624811557,0.0003345237998123643],"conclusion":"guarded gain did not stably transfer to predicted reference; original3-start RIDE template has lower mean curve error on this panel, with its own miss/false-positive tradeoffs"},
+  "shift_candidate":{"adopted":false,"development_admitted":false,"test_guarded_rmse_kw":0.20563615362666762,"test_none_false_positives_before":1,"test_none_false_positives_after":8,"denominator":40,"reason":"Fails predeclared no-action error and development nonworse conditions; no rule/threshold retuned"},
+  "source_default_changed":false,
+  "independent_audits":["development/audit_receipt.json","test/audit_receipt.json"],
+  "scope":"Controlled minute-interval responses on synthetic EV natural-load backgrounds; not a full RIDE-default comparison, real validation, or causal effect finding",
+  "next":"One separately specified optional raw-meter relative-effect input using the existing AIPW core; this cannot establish absolute delivery or process timing. No second reference correction on this holdout."
+}

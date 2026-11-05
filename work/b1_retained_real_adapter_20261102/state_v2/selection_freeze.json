@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-11-02T15:43:48.071470+00:00",
+  "sources": {
+    "adapter.py": "ca83ffe41654bc0c1a571c29869a288e27e18569b0c4ba3f04603977151cee5b",
+    "train.py": "7ce0ec9cd7ea6f0bb1cc80a95eaf7d7fcf3427e8eb9f7058efac2f64b0682cad",
+    "protocol.json": "daba8b7340818626d955821d5b31126eef46b194ba0568b7fccf80affc59754a"
+  },
+  "model_sha256": "14a2dd4301095270560b818b26bc5cd5da984bba46ec20848fb30b67f920ffef",
+  "parent_source_sha256": "16727dc8f0953c456bf7c1f5b9a31aa26491b9b16e05e73edc1f1a0566c4f2e5",
+  "parent_model_sha256": "2e2ae4f4c5934a19fb2a1fa0996b16a1df88dd0bebc5c4001e322cf71f5fba22",
+  "before_new_branch_validation": true,
+  "validation_not_fitted_or_threshold_selected": true,
+  "previous_validation_is_seen_development": true
+}

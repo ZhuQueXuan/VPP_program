@@ -1,0 +1,9 @@
+{
+  "page_count": 14,
+  "input_sha256": "9a827f7875af4a1bed2717062474f7d2346f4011a98705bdc8db7df57d7e46fc",
+  "renderer": "Microsoft Word native PDF export",
+  "pdf_sha256": "86c87e0fb670611f0985c2c7a06a0e00dcd809d8076f7cc371f6237d9c4969be",
+  "input": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_caption_revision_20261029\\methods_results_staged.docx",
+  "status": "success",
+  "pdf": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_caption_revision_20261029\\methods_results_preview.pdf"
+}

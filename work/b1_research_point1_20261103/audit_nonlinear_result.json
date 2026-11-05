@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "new_users": 240,
+  "new_events": 480,
+  "fitted_spline_derivative_vs_independent_central_difference_max": 1.3353076155908639e-07,
+  "direct_derivative_vs_independent_scalar_max": 2.2737367544323206e-13,
+  "saved_loaded_estimates_exact": true,
+  "query_insertion_invariant": true,
+  "finite_design_quadratic_correction_error": 6.821210263296962e-13,
+  "constructed_oscillatory_upcrossings": [
+    0.8396402628540781,
+    1.6393027109658478
+  ],
+  "not_reached_correct": true,
+  "sources": "new constructed fit data and separately labelled mathematical pseudo-outcome fixtures; no old test",
+  "performance_or_coverage_claim": false
+}

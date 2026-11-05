@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-29",
+  "scope": "Clarify default F0 and comparison-only F1 in section 2.3.1; no algorithm or experiment changes",
+  "checks": {
+    "only_section_2_3_1_changed": true,
+    "all_table_rows_unchanged": true,
+    "all_equations_unchanged": true,
+    "all_image_references_unchanged": true
+  },
+  "sha256": "79664b81091a1e855513b90247b4f48a6ed56a97602a763287f0372cb18cf506",
+  "passed": true
+}

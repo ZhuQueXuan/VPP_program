@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "analysis_only": true,
+  "algorithm_changed": false,
+  "new_candidate_run": false,
+  "new_data_generated": false,
+  "new_version_preserved": true,
+  "original_CPOP_and_LABS_preserved": true,
+  "reference_prediction_expanded": false,
+  "report_or_second_block_changed": false,
+  "all_protected_SHA_unchanged": true,
+  "short_effective_records": 121,
+  "base_trajectories": 37,
+  "missed_records": 86,
+  "cpop_location_misses": 82,
+  "additional_old_state_losses": 4,
+  "new_gate_losses": 0,
+  "whole_task_misses": 38,
+  "wrong_location_positive": 48,
+  "genuine_minute_actions": {
+    "records": 54,
+    "misses": 32
+  },
+  "oscillatory_short_excursions": {
+    "records": 67,
+    "misses": 54
+  },
+  "coverage_gap_10s_weak_short": true,
+  "results_sha256": {
+    "diagnosis.json": "6a89c6460e12b7164ed7ad647e5fa3960115b2bfac9ea5f9ae763c46c06ae25d",
+    "trace.json": "8dda4f3d3e039b03f2948f24f0656e593f2faa26f4499f5272ead8563fcdc63d",
+    "additional_retained_losses.json": "44df3d66cfceb8175588707947fca6cd00947b59542b76a886832565c16e3a98",
+    "independent_checks.json": "bcceacd7b15e06e4a71d4855f6e746e35663517a3fafc65aa34dc13c747c167d",
+    "shape_amplitude_coverage.json": "1143225cc3b8244c90938c8f09f6a1c98d6f64f5e1e89790def8030d5bf8ca58",
+    "README.md": "ff5b442bbbc5bad8908d53fe75525784e8a2637a09695af7827063f75f45990a"
+  }
+}

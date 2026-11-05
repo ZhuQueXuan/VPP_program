@@ -1,0 +1,11 @@
+{
+  "status": "not_downloaded",
+  "url": "https://zenodo.org/records/14065331/files/parameters.csv?download=1",
+  "error": "URLError:<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>",
+  "browser_primary_text_read": true,
+  "publisher_dictionary_codes": {
+    "STATE_ID2_3_4_faulted": 9,
+    "ChargeState_ID2_3_4_ended_with_error": 7
+  },
+  "no_full_file_md5_verification": true
+}

@@ -1,0 +1,110 @@
+{
+  "scalar_counts": {
+    "short": 121,
+    "cp_miss": 82,
+    "old_miss": 86,
+    "new_miss": 86,
+    "new_gate_loss": 0
+  },
+  "checks": 516,
+  "four_state_failures": [
+    {
+      "task_id": "command-sim-7742304-oscillatory-0-gaussian_plus_spikes",
+      "cp_overlapping_run_seconds": [
+        120.0
+      ],
+      "state_probability_at_true_indices": [
+        0.004507771720113677
+      ],
+      "state_threshold": 0.6,
+      "q50_prediction_at_true_indices": [
+        0.12275558075185954
+      ],
+      "short_protection_did_not_apply": true
+    },
+    {
+      "task_id": "fine-7742301-oscillatory-0-single_sample_spikes",
+      "cp_overlapping_run_seconds": [
+        70.0
+      ],
+      "state_probability_at_true_indices": [
+        0.05930415728982354,
+        0.01342980300348576,
+        0.010230587514870654
+      ],
+      "state_threshold": 0.6,
+      "q50_prediction_at_true_indices": [
+        0.10516521205855452,
+        0.10408147768279807,
+        0.10408147768279807
+      ],
+      "short_protection_did_not_apply": true
+    },
+    {
+      "task_id": "fine-7742304-oscillatory-1-single_sample_spikes",
+      "cp_overlapping_run_seconds": [
+        80.0
+      ],
+      "state_probability_at_true_indices": [
+        0.0042048378589173915,
+        0.0045245929369985395,
+        0.0081772363921304,
+        0.004180593815273823,
+        0.008436275375857982,
+        0.010384082100469327
+      ],
+      "state_threshold": 0.6,
+      "q50_prediction_at_true_indices": [
+        0.12945034536894634,
+        0.12945034536894634,
+        0.12945034536894634,
+        0.12945034536894634,
+        0.12945034536894634,
+        0.12945034536894634
+      ],
+      "short_protection_did_not_apply": true
+    },
+    {
+      "task_id": "fine-7742300-oscillatory-1-gaussian-mixed",
+      "cp_overlapping_run_seconds": [
+        120.0
+      ],
+      "state_probability_at_true_indices": [
+        0.021901359776315802,
+        0.011670407676104074,
+        0.005280055428076147,
+        0.01155722882739697,
+        0.005999751981920236,
+        0.005954375766719128
+      ],
+      "state_threshold": 0.6,
+      "q50_prediction_at_true_indices": [
+        0.09128569336163415,
+        0.09128569336163415,
+        0.09128569336163415,
+        0.09128569336163415,
+        0.09128569336163415,
+        0.09128569336163415
+      ],
+      "short_protection_did_not_apply": true
+    }
+  ],
+  "oscillatory_physical_support_seconds_range": [
+    1670.0,
+    1760.0
+  ],
+  "fine_rectangular_response_peak_coverage": {
+    "10s/one_minute_response": {
+      "0.08": 6,
+      "0.13": 6,
+      "0.145": 6
+    },
+    "10s/one_finebin_response": {
+      "0.08": 6,
+      "0.13": 6,
+      "0.145": 6
+    }
+  },
+  "all_protected_source_models_results_identical": true,
+  "no_fit_or_new_data_or_estimator_change": true
+}

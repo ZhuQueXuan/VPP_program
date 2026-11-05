@@ -1,0 +1,144 @@
+{
+  "status": "completed_provisional_real_validation_pilot",
+  "selected_k": 3,
+  "training_safety_passed": true,
+  "validation_scores": {
+    "cpop": {
+      "binary_n": 18,
+      "correct": 18,
+      "false_positive": 0,
+      "false_negative": 0,
+      "unavailable_binary": 0,
+      "unavailable_all": 0,
+      "no_recovery_references": 3,
+      "spurious_recovery": 0,
+      "provisional_label_agreement": 1.0,
+      "onset": {
+        "n": 11,
+        "missing": 0,
+        "capped_interval_mae_seconds": 0.0,
+        "capped_first_observed_mae_seconds": 0.0,
+        "detected_only_interval_mae_seconds": 0.0
+      },
+      "recovery": {
+        "n": 7,
+        "missing": 0,
+        "capped_interval_mae_seconds": 6.285714285714286,
+        "capped_first_observed_mae_seconds": 6.285714285714286,
+        "detected_only_interval_mae_seconds": 6.285714285714286
+      },
+      "joint_capped_interval_mae_seconds": 3.142857142857143
+    },
+    "labs": {
+      "binary_n": 18,
+      "correct": 15,
+      "false_positive": 0,
+      "false_negative": 3,
+      "unavailable_binary": 0,
+      "unavailable_all": 0,
+      "no_recovery_references": 3,
+      "spurious_recovery": 0,
+      "provisional_label_agreement": 0.8333333333333334,
+      "onset": {
+        "n": 11,
+        "missing": 3,
+        "capped_interval_mae_seconds": 51.09090909090909,
+        "capped_first_observed_mae_seconds": 52.36363636363637,
+        "detected_only_interval_mae_seconds": 2.75
+      },
+      "recovery": {
+        "n": 7,
+        "missing": 5,
+        "capped_interval_mae_seconds": 137.71428571428572,
+        "capped_first_observed_mae_seconds": 137.71428571428572,
+        "detected_only_interval_mae_seconds": 32.0
+      },
+      "joint_capped_interval_mae_seconds": 94.40259740259741
+    },
+    "candidate": {
+      "binary_n": 18,
+      "correct": 17,
+      "false_positive": 1,
+      "false_negative": 0,
+      "unavailable_binary": 0,
+      "unavailable_all": 0,
+      "no_recovery_references": 3,
+      "spurious_recovery": 0,
+      "provisional_label_agreement": 0.9444444444444444,
+      "onset": {
+        "n": 11,
+        "missing": 0,
+        "capped_interval_mae_seconds": 0.0,
+        "capped_first_observed_mae_seconds": 0.0,
+        "detected_only_interval_mae_seconds": 0.0
+      },
+      "recovery": {
+        "n": 7,
+        "missing": 0,
+        "capped_interval_mae_seconds": 6.285714285714286,
+        "capped_first_observed_mae_seconds": 6.285714285714286,
+        "detected_only_interval_mae_seconds": 6.285714285714286
+      },
+      "joint_capped_interval_mae_seconds": 3.142857142857143
+    },
+    "raw_only": {
+      "binary_n": 18,
+      "correct": 17,
+      "false_positive": 1,
+      "false_negative": 0,
+      "unavailable_binary": 0,
+      "unavailable_all": 0,
+      "no_recovery_references": 3,
+      "spurious_recovery": 0,
+      "provisional_label_agreement": 0.9444444444444444,
+      "onset": {
+        "n": 11,
+        "missing": 0,
+        "capped_interval_mae_seconds": 0.0,
+        "capped_first_observed_mae_seconds": 0.0,
+        "detected_only_interval_mae_seconds": 0.0
+      },
+      "recovery": {
+        "n": 7,
+        "missing": 0,
+        "capped_interval_mae_seconds": 6.285714285714286,
+        "capped_first_observed_mae_seconds": 6.285714285714286,
+        "detected_only_interval_mae_seconds": 6.285714285714286
+      },
+      "joint_capped_interval_mae_seconds": 3.142857142857143
+    },
+    "command_only": {
+      "binary_n": 18,
+      "correct": 11,
+      "false_positive": 7,
+      "false_negative": 0,
+      "unavailable_binary": 0,
+      "unavailable_all": 0,
+      "no_recovery_references": 3,
+      "spurious_recovery": 0,
+      "provisional_label_agreement": 0.6111111111111112,
+      "onset": {
+        "n": 11,
+        "missing": 0,
+        "capped_interval_mae_seconds": 0.0,
+        "capped_first_observed_mae_seconds": 0.36363636363636365,
+        "detected_only_interval_mae_seconds": 0.0
+      },
+      "recovery": {
+        "n": 7,
+        "missing": 0,
+        "capped_interval_mae_seconds": 1.5714285714285714,
+        "capped_first_observed_mae_seconds": 2.857142857142857,
+        "detected_only_interval_mae_seconds": 1.5714285714285714
+      },
+      "joint_capped_interval_mae_seconds": 0.7857142857142857
+    }
+  },
+  "validation_detection_noninferiority": false,
+  "validation_joint_boundary_better": false,
+  "candidate_matches_raw_only_on_validation": true,
+  "production_adopt": false,
+  "reason": "Small provisional development labels, no physical gold or final test. No production adoption regardless of pilot score.",
+  "closed_test_values_read": false,
+  "production_changed": false
+}

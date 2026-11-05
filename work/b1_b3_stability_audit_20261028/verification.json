@@ -1,0 +1,2214 @@
+{
+  "status": "passed",
+  "files_checked": 441,
+  "original_receipts_not_modified": true,
+  "rows": [
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\api.py",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\b1_adapter.py",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\b2_adapter.py",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\contracts.py",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\controller.py",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\core_io.py",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\development_check.json",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\development_check.py",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\development_guarded_replay.json",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\experiment.py",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\generate.py",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\independent.py",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\legacy_guard.py",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\loaders.py",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\micro.py",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\micro_checks.json",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\micro_checks_after_contract.json",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\prefix_checks.py",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\protocol.json",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\registry.json",
+      "match": true
+    },
+    {
+      "group": "source",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\verify_cli.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\estimators.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\evaluate.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\evaluation.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\factor_effects.png",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\features.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\feature_metrics.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\final_checks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\fit_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\generate.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\generation_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\graph.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\graphs.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\graph_metrics.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\graph_screening.png",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\hidden_evaluator.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\independent_verification.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\metrics.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\micro_checks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\models.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\observed_features.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\plot_results.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\predictions.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\protocol.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\README.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\run.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\source_freeze.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_ev_factor_chain_20261026\\verify.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\evaluate.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\evaluation.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\features.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\final_checks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\fit_diagnostics.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\fit_generalization_diagnostics.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\fit_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\generate.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\generation_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\hidden_traits.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\history_prediction.png",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\independent_verification.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\metrics.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\micro_checks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\models.joblib",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\paired_increments.png",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\plot_results.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\predictions.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\protocol.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\README.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\run.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\source_freeze.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\verification_attempt1.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\verification_notes.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_history_prediction_20261026\\verify.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\manifest.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\README.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\requirements.txt",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\_runtime.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\README.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\run_example.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\后续完善事项.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\code\\capability_model.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\code\\conversion.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\code\\log_power_forecast.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\code\\voltage_model.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\code\\third_party\\LICENSE",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\code\\third_party\\NOTICE.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\code\\third_party\\thevenin_model.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\code\\third_party\\__init__.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\examples\\capability_tasks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\examples\\conversion_input.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\examples\\log_power_input.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\examples\\voltage_current.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\parameters\\capability_assumptions.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\parameters\\conversion_m5bat.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\parameters\\log_power_lmo1.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\parameters\\voltage_25c_ocv.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\01_锂离子储能\\parameters\\voltage_25c_params.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\02_分布式光伏\\README.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\02_分布式光伏\\run_example.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\02_分布式光伏\\后续完善事项.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\02_分布式光伏\\code\\capability_model.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\02_分布式光伏\\code\\clear_sky_forecast.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\02_分布式光伏\\code\\dc_power.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\02_分布式光伏\\examples\\conditional_cases.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\02_分布式光伏\\examples\\constructed_forecast_inputs.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\02_分布式光伏\\examples\\constructed_inputs.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\02_分布式光伏\\parameters\\iea_supsi_mono_si.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\02_分布式光伏\\parameters\\pvdaq1239_smart_geometry_v1.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\03_电动汽车充电设施\\README.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\03_电动汽车充电设施\\run_example.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\03_电动汽车充电设施\\后续完善事项.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\03_电动汽车充电设施\\code\\capability_model.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\03_电动汽车充电设施\\code\\common_command_mapping.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\03_电动汽车充电设施\\code\\recorded_step_response.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\03_电动汽车充电设施\\examples\\conditional_cases.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\03_电动汽车充电设施\\examples\\constructed_inputs.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\03_电动汽车充电设施\\parameters\\evtec_common_command_v1.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\03_电动汽车充电设施\\parameters\\recorded_step_definition_v1.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\04_空调\\README.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\04_空调\\run_example.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\04_空调\\后续完善事项.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\04_空调\\code\\capability_model.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\04_空调\\code\\room_temperature.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\04_空调\\examples\\conditional_cases.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\04_空调\\examples\\constructed_inputs.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\04_空调\\parameters\\dual_zone_temperature_v1.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\05_风电\\README.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\05_风电\\run_example.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\05_风电\\后续完善事项.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\05_风电\\code\\capability_model.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\05_风电\\code\\wind_curve.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\05_风电\\examples\\conditional_cases.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\05_风电\\examples\\constructed_inputs.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\05_风电\\parameters\\kelmarsh_mixed_curve_v1.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\06_储热式电热水器\\README.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\06_储热式电热水器\\run_example.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\06_储热式电热水器\\后续完善事项.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\06_储热式电热水器\\code\\capability_model.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\06_储热式电热水器\\code\\water_temperature.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\06_储热式电热水器\\examples\\conditional_cases.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\06_储热式电热水器\\examples\\constructed_inputs.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\06_储热式电热水器\\parameters\\horizontal_150L_temperature_v1.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\07_算力中心\\README.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\07_算力中心\\run_example.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\07_算力中心\\后续完善事项.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\07_算力中心\\code\\capability_model.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\资源能力模型\\07_算力中心\\examples\\conditional_cases.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\b2_full_task_calibration.png",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\b2_layered_comparison.png",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\calibration.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\evaluate.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\evaluation.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\evaluation_truth.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\example_output.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\final_checks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\fit_diagnostics.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\fit_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\generate.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\generation_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\hidden_probabilities.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\independent_verification.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\layer_metrics.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\metrics.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\micro_checks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\models.joblib",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\models.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\physical.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\plot_results.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\predictions.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\protocol.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\README.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\run.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\source_freeze.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_single_ev_baseline_20261026\\verify.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\api.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\api_checks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\api_domain_guard_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\api_frozen_v1.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\audit_results.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\choice_model.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\common.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\comparison.png",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\example_output.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\experiment.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\experiment_frozen_v1.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\finalize.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\final_checks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\generate.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\micro.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\micro_checks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\plot_results.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\protocol_choice.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\protocol_dynamic.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\README.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\repair_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\response_templates.png",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\source_freeze.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\source_freeze_v1.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\stage_gate.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\supplementary_audit.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\verify.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\choice\\calibration.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\choice\\diagnostics.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\choice\\evaluation.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\choice\\fit.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\choice\\generation.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\choice\\independent_verification.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\choice\\metrics.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\choice\\models.joblib",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\choice\\predictions.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\choice\\selection.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\choice\\truth.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\dynamic\\calibration.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\dynamic\\choice_dependency.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\dynamic\\diagnostics.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\dynamic\\evaluation.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\dynamic\\fit.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\dynamic\\generation.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\dynamic\\independent_verification.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\dynamic\\metrics.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\dynamic\\models.joblib",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\dynamic\\predictions.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\dynamic\\response_features.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\dynamic\\selection.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\dynamic\\truth.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_completion_20261027\\mpl_cache\\fontlist-v390.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\outputs\\课题一B1与B2算法阶段汇报_20261029.docx",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\outputs\\课题一B1与B2算法阶段汇报_20261029.pdf",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\api.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\audit.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\case_metrics.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\case_metrics.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\case_metrics_partial_failed.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\coordinator.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\development_notes.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\evaluation.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\example_output.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\experiment.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\export_repair_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\final_checks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\generation_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\independent_verification.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\micro.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\micro_checks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\physics.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\protocol.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\README.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\results_overview.png",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\run_export.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\run_export_support.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\solutions.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\solve_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\source_freeze.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\stage_gate.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\summarize.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\supplementary_development_note.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\supplementary_verification.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\verify.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_coordination_20261028\\worked_example.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\api.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\audit_solver_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\case_metrics.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\case_metrics.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\development_notes.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\documentation_check_note.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\domain_guard_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\evaluation.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\experiment.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\final_checks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\generation_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\hindsight_capacity.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\independent.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\independent_verification.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\io_utils.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\micro.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\micro_checks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\micro_checks_before_fallback_cases.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\micro_checks_before_observed_update.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\model.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\protocol.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\README.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\results_overview.png",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\runs.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\run_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\run_verify.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\safe_api.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\simulation.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\source_freeze.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\stage_gate.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\summarize.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\supplementary_summary.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\verify.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b3_feedback_20261028\\worked_example.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_review_20261028\\agent_b1.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_review_20261028\\agent_b2.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_review_20261028\\agent_requirements.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_review_20261028\\audit_integrity.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_review_20261028\\B1至B3完整审查报告_20261028.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_review_20261028\\b2_api_probe.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_review_20261028\\b2_api_probe_results.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_review_20261028\\connection_probes.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_review_20261028\\connection_probe_results.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_review_20261028\\review_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\api.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\b2_predictions.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\bridge.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\bridge_micro.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\bridge_micro_initial.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\case_metrics.csv",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\case_metrics.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\evaluation.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\experiment.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\final_checks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\finish.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\generation_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\guards.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\guard_regression.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\independent.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\independent_verification.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\integration_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\integration_runs.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\io_utils.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\legacy_loader.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\micro.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\prediction_receipt.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\protocol.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\README.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\results_overview.png",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\same_information_step_audit.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\source_freeze.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\stage_gate.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\test_guards.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\verify.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b2_b3_integration_20261028\\worked_example.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\api.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\b1_features.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\comparison.png",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\development_generator_check.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\example_input.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\example_output.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\experiment.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\features.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\finalize.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\final_checks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\freeze.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\generate.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\generation.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\independent.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\independent_checks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\io_utils.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\legacy.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\micro.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\micro.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\models.joblib",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\models.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\prediction_freeze.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\protocol.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\README.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_00.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_01.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_02.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_03.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_04.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_05.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_06.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_07.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_08.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_09.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_10.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_11.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_12.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_13.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_14.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_15.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_16.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_17.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_18.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\replicate_19.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\report.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\results.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\selection.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\source_freeze.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\stage_gate.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\supplement.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\supplement_checks.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\truth.npz",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b2_history_20261028\\正式精度口径建议_待确认.md",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_research_20261021\\features.py",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\data\\B3_feedback_v1_20261028\\cases.json",
+      "match": true
+    },
+    {
+      "group": "protected",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\data\\B3_feedback_v1_20261028\\evaluation_actual_factors.npz",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\api.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\b1_adapter.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\b2_adapter.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\contracts.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\contracts_before_numpy_boundary.py.txt",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\controller.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\core_io.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\core_io_before_corrective_identity.py.txt",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\corrective_identity.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\development_check.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\development_check.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\development_guarded_replay.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\experiment.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\finalize.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\generate.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\generation.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\guarded_replay.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\guarded_replay_receipt.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\guard_active_breach_micro.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\independent.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\independent_checks.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\legacy_guard.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\loaders.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\micro.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\micro_checks.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\micro_checks_after_contract.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\numeric_boundary_checks.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\numeric_boundary_checks.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\numeric_boundary_test_failure.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\observed_B1_features.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\prefix_checks.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\prefix_checks.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\protocol.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\public_entry_checks.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\public_initialization_checks.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\public_scope_checks.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\README.md",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\registry.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\results.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\review_closure.md",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\runs.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\runtime.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\run_receipt.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\source_freeze.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\stage_gate.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\verify_cli.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_stability_20261028\\verify_cli_before_corrective_identity.py.txt",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\b123_api.py",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\data\\B1_B3_continuity_v1_20261028\\cases.json",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\data\\B1_B3_continuity_v1_20261028\\executor_private.npz",
+      "match": true
+    },
+    {
+      "group": "current_artifact",
+      "path": "D:\\myDocu\\project_postg\\VPP_program\\data\\B1_B3_continuity_v1_20261028\\README.md",
+      "match": true
+    }
+  ],
+  "real_validation": false,
+  "scope": "identity/read-only audit; algorithm numerical verification remains independent_checks.json"
+}

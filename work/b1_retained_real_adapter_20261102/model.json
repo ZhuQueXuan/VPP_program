@@ -1,0 +1,51 @@
+{
+  "schema": "b1.retained-real-observed.v1",
+  "parent": "effective_response_refined",
+  "old_weights_used": false,
+  "event_model": {
+    "mean": [
+      2.657883400397916,
+      2.480154017286916,
+      2.2963609822815463,
+      2.475074540823698,
+      2.440339360876335,
+      2.448616771851287,
+      1.8381270858251928,
+      1.5383009886927237
+    ],
+    "scale": [
+      1.5371405896451928,
+      1.6620062385167245,
+      1.6925559748448957,
+      1.6717185464806987,
+      1.6049251465435523,
+      1.7683349845235616,
+      3.3378603426261026,
+      5.673689811417749
+    ],
+    "coef": [
+      0.3156684789134398,
+      0.3656967880572504,
+      0.44361797312363593,
+      0.3823442719969447,
+      0.41378358922061936,
+      0.3953742199040754,
+      -0.2971517581579874,
+      0.2579220468496295
+    ],
+    "intercept": 0.927816165039674
+  },
+  "event_features": [
+    "log_peak_raw_departure_z",
+    "log_peak_legacy_mean3_z",
+    "log_peak_legacy_mean9_z",
+    "log_peak_legacy_median3_z",
+    "log_peak_current_departure_z",
+    "log_peak_CPOP_departure_z",
+    "preceding_limit_headroom_per_step",
+    "pre_anchor_power_trend_z"
+  ],
+  "rescue_threshold": 0.5,
+  "recovery_mix": 0.0,
+  "physical_effective_duration_targets_available": false
+}

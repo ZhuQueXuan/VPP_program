@@ -1,0 +1,111 @@
+{
+  "metadata_sha256": "dab0a05fbdebcd785964cb7fc423cb309fbc634e13631cf267b93df3817a7bdb",
+  "selector": "At most 3 per development role and workbook trial by fixed salted hash; require six consecutive original in-bounds timestamps and no duplicate timestamps.",
+  "transactions": {
+    "4441000617|161214": {
+      "role": "development_validation",
+      "start": "2018-04-01T13:38:00",
+      "stop": "2018-04-03T08:04:00",
+      "workbook_group": "CC0015",
+      "trial": "1"
+    },
+    "4441001317|162292": {
+      "role": "development_validation",
+      "start": "2018-06-06T19:17:00",
+      "stop": "2018-06-06T20:46:00",
+      "workbook_group": "CC0019",
+      "trial": "1"
+    },
+    "2911003117|159182": {
+      "role": "development_validation",
+      "start": "2018-07-05T19:16:00",
+      "stop": "2018-07-06T06:57:00",
+      "workbook_group": "CC0020",
+      "trial": "1"
+    },
+    "0035002517|105731": {
+      "role": "development_validation",
+      "start": "2018-06-24T17:13:00",
+      "stop": "2018-06-25T05:57:00",
+      "workbook_group": "CCAppPilot01",
+      "trial": "2"
+    },
+    "0490000217|135170": {
+      "role": "development_validation",
+      "start": "2018-07-07T19:44:00",
+      "stop": "2018-07-08T12:02:00",
+      "workbook_group": "CCAppPilot01",
+      "trial": "2"
+    },
+    "0035002517|105729": {
+      "role": "development_validation",
+      "start": "2018-06-21T19:59:00",
+      "stop": "2018-06-22T06:14:00",
+      "workbook_group": "CCAppPilot01",
+      "trial": "2"
+    },
+    "4441002017|163246": {
+      "role": "development_validation",
+      "start": "2018-02-19T22:37:00",
+      "stop": "2018-02-20T09:04:00",
+      "workbook_group": "NULL",
+      "trial": "NULL"
+    },
+    "0429000718|133174": {
+      "role": "development_validation",
+      "start": "2018-03-30T17:42:00",
+      "stop": "2018-03-31T09:19:00",
+      "workbook_group": "NULL",
+      "trial": "NULL"
+    },
+    "0568004218|141270": {
+      "role": "development_validation",
+      "start": "2018-06-08T21:25:00",
+      "stop": "2018-06-09T11:41:00",
+      "workbook_group": "NULL",
+      "trial": "NULL"
+    },
+    "0037001717|117701": {
+      "role": "train",
+      "start": "2017-11-08T17:38:00",
+      "stop": "2017-11-14T17:04:00",
+      "workbook_group": "CC0006",
+      "trial": "1"
+    },
+    "0035000817|101041": {
+      "role": "train",
+      "start": "2017-12-27T09:25:00",
+      "stop": "2017-12-27T10:21:00",
+      "workbook_group": "CC0010",
+      "trial": "1"
+    },
+    "0036000317|106389": {
+      "role": "train",
+      "start": "2017-08-10T13:53:00",
+      "stop": "2017-08-10T14:05:00",
+      "workbook_group": "CC0001",
+      "trial": "1"
+    },
+    "0233000617|125813": {
+      "role": "train",
+      "start": "2017-10-13T19:17:00",
+      "stop": "2017-10-14T23:00:00",
+      "workbook_group": "NULL",
+      "trial": "NULL"
+    },
+    "0036002017|111604": {
+      "role": "train",
+      "start": "2017-04-20T05:00:00",
+      "stop": "2017-04-20T08:21:00",
+      "workbook_group": "NULL",
+      "trial": "NULL"
+    },
+    "0035001217|102363": {
+      "role": "train",
+      "start": "2017-07-09T20:44:00",
+      "stop": "2017-07-10T07:05:00",
+      "workbook_group": "NULL",
+      "trial": "NULL"
+    }
+  }
+}

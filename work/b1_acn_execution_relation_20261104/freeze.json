@@ -1,0 +1,14 @@
+{
+  "frozen_at_Asia_Shanghai": "2026-11-04T13:50:00+08:00",
+  "hashes": {
+    "study.py": "a24c60eac5c758d7509286df87ae0730c22b5952c3be80232e29f7504b7fdfdb",
+    "protocol.json": "645e56e1c292d22c1a792943185b42bba1dfa04168db05abd8f0351d7e614bd1"
+  },
+  "training_output_sha256": "6b85aec0dd60502d18c5093edcf26962f6b5d6899f36513ec230f351fdf5d35c",
+  "confirmation_role": "ACN canonical validation; scan once after freeze",
+  "roles_excluded": [
+    "test",
+    "external_test"
+  ],
+  "training_to_confirmation_change": "none"
+}

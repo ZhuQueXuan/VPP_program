@@ -1,0 +1,15 @@
+{
+  "status": "analysis_only_complete",
+  "original_v3_files_unchanged": 773,
+  "new_fits": 0,
+  "new_simulations": 0,
+  "algorithm_modified": false,
+  "report_modified": false,
+  "evidence": "evidence.json",
+  "note": "README.md",
+  "files": {
+    "analyze.py": "85a6939b827cc389aead7a9a72a5aff7b5b96ec753c74656045e4da3e46e713a",
+    "evidence.json": "854c3a8a743f354278447929ea2073739db34f3134b87c7d5c72a65338ab6257",
+    "README.md": "060ddd250b88eb242c42f26e68cd2885a9df29a1c6d6a0aae9378369f398cda6"
+  }
+}

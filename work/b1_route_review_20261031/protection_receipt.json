@@ -1,0 +1,10 @@
+{
+  "schema": "b1.route-review.protection.v1",
+  "files_before": 3290,
+  "files_after": 3290,
+  "changed": [],
+  "missing": [],
+  "added": [],
+  "limitation": "Hashes cover listed source/evidence/original-document directories, not all project data. No data writes or algorithm fitting are performed by this review.",
+  "unchanged": true
+}

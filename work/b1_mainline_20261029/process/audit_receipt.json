@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "protected_original_files": 32,
+  "protected_originals_unchanged": true,
+  "frozen_model_protocol_unchanged": true,
+  "n_output_rows": 5760,
+  "independent_feature_checks": 17280,
+  "max_rmse_recompute_delta": 3.552713678800501e-15,
+  "max_eta_recompute_delta": 4.440892098500626e-16,
+  "native_cpop_cost_recompute_max_delta": 1.8553691916167736e-10,
+  "all_three_resolution_groups_complete": true,
+  "posthoc_diagnostic": "CPOP direct midpoint prediction treated as binned power; no change to primary projection metric",
+  "evaluation_parser_corrections": "see parser_correction.json; no model or test parameter change"
+}

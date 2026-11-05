@@ -1,0 +1,608 @@
+{
+  "status": "passed",
+  "seed": 2810200003,
+  "cases": 12,
+  "main_seed_not_used": true,
+  "rows": [
+    {
+      "id": "r03_tight_60_nominal",
+      "calls": [
+        {
+          "task_id": "task-3-0",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": true,
+          "shortfall_kwh": 5.699144859742471e-16,
+          "ev_offer_statuses": [
+            "ok",
+            "ok"
+          ],
+          "outcomes": [
+            0,
+            5
+          ],
+          "second_state_debt": [
+            0.0,
+            0.0
+          ],
+          "service_min_kw": 1.7999999999999972
+        },
+        {
+          "task_id": "task-3-1",
+          "admitted": false,
+          "status": "rejected_under_fixed_policy",
+          "strict_success": false,
+          "shortfall_kwh": null,
+          "ev_offer_statuses": [
+            "ok",
+            "ok"
+          ],
+          "outcomes": [
+            -1,
+            -1
+          ],
+          "second_state_debt": [
+            0.0,
+            8.673617379884035e-19
+          ],
+          "service_min_kw": null
+        }
+      ],
+      "ev_deadline_ok": true,
+      "terminal_ok": true,
+      "terminal_ev_debt_kwh": 8.673617379884035e-19,
+      "terminal_battery_debt_kwh": 0.0,
+      "hard_shared_violation_kw": 2.886579864025407e-15
+    },
+    {
+      "id": "r03_tight_60_bounded",
+      "calls": [
+        {
+          "task_id": "task-3-0",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": true,
+          "shortfall_kwh": 5.699144859742471e-16,
+          "ev_offer_statuses": [
+            "ok",
+            "ok"
+          ],
+          "outcomes": [
+            0,
+            5
+          ],
+          "second_state_debt": [
+            0.0,
+            0.0
+          ],
+          "service_min_kw": 1.7999999999999972
+        },
+        {
+          "task_id": "task-3-1",
+          "admitted": false,
+          "status": "rejected_under_fixed_policy",
+          "strict_success": false,
+          "shortfall_kwh": null,
+          "ev_offer_statuses": [
+            "ok",
+            "ok"
+          ],
+          "outcomes": [
+            -1,
+            -1
+          ],
+          "second_state_debt": [
+            0.0,
+            8.673617379884035e-19
+          ],
+          "service_min_kw": null
+        }
+      ],
+      "ev_deadline_ok": true,
+      "terminal_ok": true,
+      "terminal_ev_debt_kwh": 8.673617379884035e-19,
+      "terminal_battery_debt_kwh": 0.0,
+      "hard_shared_violation_kw": 2.886579864025407e-15
+    },
+    {
+      "id": "r03_tight_60_stress",
+      "calls": [
+        {
+          "task_id": "task-3-0",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": false,
+          "shortfall_kwh": 0.2807716091463605,
+          "ev_offer_statuses": [
+            "ok",
+            "ok"
+          ],
+          "outcomes": [
+            0,
+            5
+          ],
+          "second_state_debt": [
+            0.0,
+            0.0
+          ],
+          "service_min_kw": 0.9568324343277581
+        },
+        {
+          "task_id": "task-3-1",
+          "admitted": false,
+          "status": "rejected_domain",
+          "strict_success": false,
+          "shortfall_kwh": null,
+          "ev_offer_statuses": [
+            "ok",
+            "unavailable"
+          ],
+          "outcomes": [
+            -1,
+            -1
+          ],
+          "second_state_debt": [
+            0.0,
+            0.1804315583678579
+          ],
+          "service_min_kw": null
+        }
+      ],
+      "ev_deadline_ok": true,
+      "terminal_ok": true,
+      "terminal_ev_debt_kwh": 0.0,
+      "terminal_battery_debt_kwh": 0.0,
+      "hard_shared_violation_kw": 0.0
+    },
+    {
+      "id": "r03_tight_90_nominal",
+      "calls": [
+        {
+          "task_id": "task-3-0",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": true,
+          "shortfall_kwh": 5.699144859742471e-16,
+          "ev_offer_statuses": [
+            "ok",
+            "ok"
+          ],
+          "outcomes": [
+            0,
+            5
+          ],
+          "second_state_debt": [
+            0.0,
+            0.0
+          ],
+          "service_min_kw": 1.7999999999999972
+        },
+        {
+          "task_id": "task-3-1",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": true,
+          "shortfall_kwh": 6.069219201284189e-16,
+          "ev_offer_statuses": [
+            "unavailable",
+            "unavailable"
+          ],
+          "outcomes": [
+            -1,
+            -1
+          ],
+          "second_state_debt": [
+            0.0,
+            8.673617379884035e-19
+          ],
+          "service_min_kw": 1.7999999999999972
+        }
+      ],
+      "ev_deadline_ok": true,
+      "terminal_ok": true,
+      "terminal_ev_debt_kwh": 8.673617379884035e-19,
+      "terminal_battery_debt_kwh": 0.0,
+      "hard_shared_violation_kw": 2.886579864025407e-15
+    },
+    {
+      "id": "r03_tight_90_bounded",
+      "calls": [
+        {
+          "task_id": "task-3-0",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": true,
+          "shortfall_kwh": 5.699144859742471e-16,
+          "ev_offer_statuses": [
+            "ok",
+            "ok"
+          ],
+          "outcomes": [
+            0,
+            5
+          ],
+          "second_state_debt": [
+            0.0,
+            0.0
+          ],
+          "service_min_kw": 1.7999999999999972
+        },
+        {
+          "task_id": "task-3-1",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": true,
+          "shortfall_kwh": 5.403085386509095e-16,
+          "ev_offer_statuses": [
+            "unavailable",
+            "unavailable"
+          ],
+          "outcomes": [
+            -1,
+            -1
+          ],
+          "second_state_debt": [
+            0.0,
+            8.673617379884035e-19
+          ],
+          "service_min_kw": 1.7999999999999972
+        }
+      ],
+      "ev_deadline_ok": true,
+      "terminal_ok": true,
+      "terminal_ev_debt_kwh": 8.673617379884035e-19,
+      "terminal_battery_debt_kwh": 0.0,
+      "hard_shared_violation_kw": 2.886579864025407e-15
+    },
+    {
+      "id": "r03_tight_90_stress",
+      "calls": [
+        {
+          "task_id": "task-3-0",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": false,
+          "shortfall_kwh": 0.2807716091463605,
+          "ev_offer_statuses": [
+            "ok",
+            "ok"
+          ],
+          "outcomes": [
+            0,
+            5
+          ],
+          "second_state_debt": [
+            0.0,
+            0.0
+          ],
+          "service_min_kw": 0.9568324343277581
+        },
+        {
+          "task_id": "task-3-1",
+          "admitted": false,
+          "status": "rejected_domain",
+          "strict_success": false,
+          "shortfall_kwh": null,
+          "ev_offer_statuses": [
+            "unavailable",
+            "unavailable"
+          ],
+          "outcomes": [
+            -1,
+            -1
+          ],
+          "second_state_debt": [
+            0.0,
+            0.010890493388572828
+          ],
+          "service_min_kw": null
+        }
+      ],
+      "ev_deadline_ok": true,
+      "terminal_ok": true,
+      "terminal_ev_debt_kwh": 0.0,
+      "terminal_battery_debt_kwh": 0.0,
+      "hard_shared_violation_kw": 0.0
+    },
+    {
+      "id": "r03_loose_60_nominal",
+      "calls": [
+        {
+          "task_id": "task-3-0",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": true,
+          "shortfall_kwh": 5.699144859742471e-16,
+          "ev_offer_statuses": [
+            "ok",
+            "ok"
+          ],
+          "outcomes": [
+            0,
+            5
+          ],
+          "second_state_debt": [
+            0.0,
+            0.0
+          ],
+          "service_min_kw": 1.7999999999999972
+        },
+        {
+          "task_id": "task-3-1",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": true,
+          "shortfall_kwh": 6.254256372055049e-16,
+          "ev_offer_statuses": [
+            "ok",
+            "ok"
+          ],
+          "outcomes": [
+            3,
+            0
+          ],
+          "second_state_debt": [
+            0.0,
+            8.673617379884035e-19
+          ],
+          "service_min_kw": 1.7999999999999972
+        }
+      ],
+      "ev_deadline_ok": true,
+      "terminal_ok": true,
+      "terminal_ev_debt_kwh": 8.673617379884035e-19,
+      "terminal_battery_debt_kwh": 0.0,
+      "hard_shared_violation_kw": 1.3322676295501878e-15
+    },
+    {
+      "id": "r03_loose_60_bounded",
+      "calls": [
+        {
+          "task_id": "task-3-0",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": true,
+          "shortfall_kwh": 5.699144859742471e-16,
+          "ev_offer_statuses": [
+            "ok",
+            "ok"
+          ],
+          "outcomes": [
+            0,
+            5
+          ],
+          "second_state_debt": [
+            0.0,
+            0.0
+          ],
+          "service_min_kw": 1.7999999999999972
+        },
+        {
+          "task_id": "task-3-1",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": true,
+          "shortfall_kwh": 6.439293542825908e-16,
+          "ev_offer_statuses": [
+            "ok",
+            "ok"
+          ],
+          "outcomes": [
+            3,
+            0
+          ],
+          "second_state_debt": [
+            0.0,
+            8.673617379884035e-19
+          ],
+          "service_min_kw": 1.7999999999999972
+        }
+      ],
+      "ev_deadline_ok": true,
+      "terminal_ok": true,
+      "terminal_ev_debt_kwh": 8.673617379884035e-19,
+      "terminal_battery_debt_kwh": 0.0,
+      "hard_shared_violation_kw": 1.3322676295501878e-15
+    },
+    {
+      "id": "r03_loose_60_stress",
+      "calls": [
+        {
+          "task_id": "task-3-0",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": false,
+          "shortfall_kwh": 0.2807716091463605,
+          "ev_offer_statuses": [
+            "ok",
+            "ok"
+          ],
+          "outcomes": [
+            0,
+            5
+          ],
+          "second_state_debt": [
+            0.0,
+            0.0
+          ],
+          "service_min_kw": 0.9568324343277581
+        },
+        {
+          "task_id": "task-3-1",
+          "admitted": false,
+          "status": "rejected_domain",
+          "strict_success": false,
+          "shortfall_kwh": null,
+          "ev_offer_statuses": [
+            "ok",
+            "unavailable"
+          ],
+          "outcomes": [
+            -1,
+            -1
+          ],
+          "second_state_debt": [
+            0.0,
+            0.1804315583678579
+          ],
+          "service_min_kw": null
+        }
+      ],
+      "ev_deadline_ok": true,
+      "terminal_ok": true,
+      "terminal_ev_debt_kwh": 0.0,
+      "terminal_battery_debt_kwh": 0.0,
+      "hard_shared_violation_kw": 0.0
+    },
+    {
+      "id": "r03_loose_90_nominal",
+      "calls": [
+        {
+          "task_id": "task-3-0",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": true,
+          "shortfall_kwh": 5.699144859742471e-16,
+          "ev_offer_statuses": [
+            "ok",
+            "ok"
+          ],
+          "outcomes": [
+            0,
+            5
+          ],
+          "second_state_debt": [
+            0.0,
+            0.0
+          ],
+          "service_min_kw": 1.7999999999999972
+        },
+        {
+          "task_id": "task-3-1",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": true,
+          "shortfall_kwh": 6.069219201284189e-16,
+          "ev_offer_statuses": [
+            "unavailable",
+            "unavailable"
+          ],
+          "outcomes": [
+            -1,
+            -1
+          ],
+          "second_state_debt": [
+            0.0,
+            8.673617379884035e-19
+          ],
+          "service_min_kw": 1.7999999999999972
+        }
+      ],
+      "ev_deadline_ok": true,
+      "terminal_ok": true,
+      "terminal_ev_debt_kwh": 8.673617379884035e-19,
+      "terminal_battery_debt_kwh": 0.0,
+      "hard_shared_violation_kw": 0.0
+    },
+    {
+      "id": "r03_loose_90_bounded",
+      "calls": [
+        {
+          "task_id": "task-3-0",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": true,
+          "shortfall_kwh": 5.699144859742471e-16,
+          "ev_offer_statuses": [
+            "ok",
+            "ok"
+          ],
+          "outcomes": [
+            0,
+            5
+          ],
+          "second_state_debt": [
+            0.0,
+            0.0
+          ],
+          "service_min_kw": 1.7999999999999972
+        },
+        {
+          "task_id": "task-3-1",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": true,
+          "shortfall_kwh": 5.403085386509095e-16,
+          "ev_offer_statuses": [
+            "unavailable",
+            "unavailable"
+          ],
+          "outcomes": [
+            -1,
+            -1
+          ],
+          "second_state_debt": [
+            0.0,
+            8.673617379884035e-19
+          ],
+          "service_min_kw": 1.7999999999999972
+        }
+      ],
+      "ev_deadline_ok": true,
+      "terminal_ok": true,
+      "terminal_ev_debt_kwh": 8.673617379884035e-19,
+      "terminal_battery_debt_kwh": 0.0,
+      "hard_shared_violation_kw": 0.0
+    },
+    {
+      "id": "r03_loose_90_stress",
+      "calls": [
+        {
+          "task_id": "task-3-0",
+          "admitted": true,
+          "status": "admitted_under_declared_envelope",
+          "strict_success": false,
+          "shortfall_kwh": 0.2807716091463605,
+          "ev_offer_statuses": [
+            "ok",
+            "ok"
+          ],
+          "outcomes": [
+            0,
+            5
+          ],
+          "second_state_debt": [
+            0.0,
+            0.0
+          ],
+          "service_min_kw": 0.9568324343277581
+        },
+        {
+          "task_id": "task-3-1",
+          "admitted": false,
+          "status": "rejected_domain",
+          "strict_success": false,
+          "shortfall_kwh": null,
+          "ev_offer_statuses": [
+            "unavailable",
+            "unavailable"
+          ],
+          "outcomes": [
+            -1,
+            -1
+          ],
+          "second_state_debt": [
+            0.0,
+            0.010890493388572828
+          ],
+          "service_min_kw": null
+        }
+      ],
+      "ev_deadline_ok": true,
+      "terminal_ok": true,
+      "terminal_ev_debt_kwh": 0.0,
+      "terminal_battery_debt_kwh": 0.0,
+      "hard_shared_violation_kw": 0.0
+    }
+  ]
+}

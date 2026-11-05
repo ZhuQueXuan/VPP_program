@@ -1,0 +1,16 @@
+{
+  "protocol_sha256": "ea0e64740dba617cc01c3a217523f82caced5a80b48baf39bf27a51f6957767b",
+  "code_sha256": {
+    "estimators.py": "1e8c3e01b1b019e3dbe7de0435bcef709a787a6eb63a4df9d4af0571f4d4843d",
+    "evaluate.py": "f26fd7efa05af5dbcef1f79ed97757e90f269e7d1d51d513a198ff177ee144f4",
+    "features.py": "c722dc3d03510e847be48d50f4a5dbce62f8f8cc11ae1d8ef1de05a126c8f0b7",
+    "feature_checks.py": "39faa68c1437c388e72582f28846d1e2a41a59ecfee0aa07a8768088b0effbe9",
+    "run_research.py": "277ab75db4d643c93226e53c60309af8ed1944ef5cd23c088bfd31795f6e91b7",
+    "simulation.py": "47499ae2bd6dcbc091edf9bca9ee5cac319c522aa7dd2aa440b570ab0cbb9bb1",
+    "verify_research.py": "7210384d370b40fb056f9dc193b85f401b9769c282c58b3bfddd93afec47754d"
+  },
+  "predictions_sha256": "8b7c23c8fcfdafb190c2bcb743ee860e080a759dedd7617ac85e2a8711ba880e",
+  "truth_after_predictions": true,
+  "metric_rows": 960,
+  "support_failure_count": 0
+}

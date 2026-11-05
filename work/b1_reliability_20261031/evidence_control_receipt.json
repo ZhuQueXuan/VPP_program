@@ -1,0 +1,30 @@
+{
+  "passed": 24,
+  "checks": [
+    "one maximum per original user",
+    "rank finite n plus one",
+    "hand user max scores",
+    "upper rank evidence",
+    "outcome and curve immutable",
+    "ties conservative",
+    "do not call inconclusive no response",
+    "exchangeable finite ranks reject only1of21",
+    "no calibration user reuse0",
+    "no calibration user reuse1",
+    "no calibration user reuse5",
+    "cal label cannot be future",
+    "policy binding",
+    "profile/duration binding",
+    "reference identity binding",
+    "not selected observed nonresponders",
+    "input digest binds calibration labels",
+    "duplicates",
+    "cutoff",
+    "bool alpha",
+    "finite sample insufficient alpha resolution",
+    "JSON roundtrip exact",
+    "refuse overwrite",
+    "payload wrong type"
+  ],
+  "mathematical_control_only": true
+}

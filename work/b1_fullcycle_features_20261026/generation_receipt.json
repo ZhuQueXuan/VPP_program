@@ -1,0 +1,9 @@
+{
+  "independent_base_draws": 25,
+  "mechanism_event_variants": 150,
+  "observation_variants": 2400,
+  "maximum_full_cycle_absolute_net_kws": 1.4210854715202004e-13,
+  "minimum_latent_power_kw": 1.5,
+  "maximum_latent_power_kw": 4.5,
+  "elapsed_s": 0.0924486000003526
+}

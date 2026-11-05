@@ -1,0 +1,26 @@
+{
+  "reason": "Native-R character conversion exported Tromsø as a literal Unicode escape; exact ID join to original official UTF-8 metadata restores Region.",
+  "official_metadata_sha256": "e221e3c204ed7b047da0814aa71e7609052e1e03673377e335519897dd1be1f3",
+  "changed_columns": [
+    "Region"
+  ],
+  "source_data_or_numeric_values_changed": false,
+  "files": {
+    "prepared_P_events.csv": {
+      "rows": 14213,
+      "region_rows_repaired": 5565,
+      "other_fields_identical_as_strings": true,
+      "preserved_original": "prepared_P_events_native_R.csv",
+      "preserved_sha256": "6cc9ea8fa1f6919e0bb2b20d19ca0e9fa3029e8c7374675cbe4ce526fd7257e3",
+      "canonical_sha256": "1b43c61403d27a9a04c68f833967d9e3d3c1f3fcdd2e55565b862dcc41c17607"
+    },
+    "P_household_registry.csv": {
+      "rows": 718,
+      "region_rows_repaired": 265,
+      "other_fields_identical_as_strings": true,
+      "preserved_original": "P_household_registry_native_R.csv",
+      "preserved_sha256": "d322b4a3791a00396a0f76abc3639c2a4d8854164d5335a33c26fc4e167dc255",
+      "canonical_sha256": "7ffa71c7eee8a363cdc656ab40188e56fd86368578c751f681943cf49fc7f440"
+    }
+  }
+}

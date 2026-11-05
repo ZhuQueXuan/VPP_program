@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-11-02T15:45:30.588394+00:00",
+  "files": {
+    "work/b1_retained_real_adapter_20261102/adapter.py": "16727dc8f0953c456bf7c1f5b9a31aa26491b9b16e05e73edc1f1a0566c4f2e5",
+    "work/b1_retained_real_adapter_20261102/model.json": "2e2ae4f4c5934a19fb2a1fa0996b16a1df88dd0bebc5c4001e322cf71f5fba22",
+    "work/b1_retained_real_adapter_20261102/state_v2/adapter.py": "ca83ffe41654bc0c1a571c29869a288e27e18569b0c4ba3f04603977151cee5b",
+    "work/b1_retained_real_adapter_20261102/state_v2/model.json": "14a2dd4301095270560b818b26bc5cd5da984bba46ec20848fb30b67f920ffef",
+    "work/b1_retained_real_adapter_20261102/confirmation/protocol.json": "2e92e924315941ef0e8ccc4570c58f3b482dc2b3fad0dde3bacdd8603a135399",
+    "work/b1_retained_real_adapter_20261102/confirmation/prepare.py": "cba14ebfe5b5ebdfb1d3eb3ccf8ca9429fcba2bea89f882c9b2371db7c61b504"
+  },
+  "before_new_raw_window_review": true
+}

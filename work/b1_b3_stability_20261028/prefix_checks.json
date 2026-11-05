@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checks": 147,
+  "seed_blocks": 20,
+  "prefix_scenarios": 60,
+  "parallel_queries": 24,
+  "future_factors_tasks_and_exit_not_used": true,
+  "native_probability_consumption_checked": true
+}

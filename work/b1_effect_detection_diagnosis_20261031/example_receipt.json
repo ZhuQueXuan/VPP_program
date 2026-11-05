@@ -1,0 +1,11 @@
+{
+  "task_id": "ev-mainline-7240200-user-16-event-3",
+  "scenario": "positive",
+  "selection": "first common false event in original event_join order",
+  "true_duration": 0.0,
+  "predicted_duration": {
+    "ride_revised": 1620.0,
+    "cpop": 540.0
+  },
+  "no_performance_selection": true
+}

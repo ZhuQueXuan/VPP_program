@@ -1,0 +1,25 @@
+{
+  "schema": "b1.retained-real-recovery-state.v2",
+  "parent_method": "effective_response_refined",
+  "model": {
+    "mean": [
+      0.6197961931966071,
+      0.5890563263801432
+    ],
+    "scale": [
+      0.8546593149006904,
+      0.8340690018660277
+    ],
+    "coef": [
+      -1.2270550173174337,
+      -1.4691999908390818
+    ],
+    "intercept": -0.5360021993942744
+  },
+  "threshold": 0.7,
+  "features": [
+    "recorded_power_distance_fraction_of_past_excursion",
+    "recorded_current_distance_fraction_of_past_excursion"
+  ],
+  "physical_effective_duration_supervision": false
+}

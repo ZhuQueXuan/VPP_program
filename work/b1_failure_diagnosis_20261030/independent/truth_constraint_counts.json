@@ -1,0 +1,36 @@
+{
+  "evaluator_only": true,
+  "model_fits": 0,
+  "production_modified": false,
+  "counts": [
+    {
+      "scenario": "positive",
+      "events": 3200,
+      "true_response": 2205,
+      "post_interval_rebound_exceeds_default_q": 2205,
+      "full_minute_terminal_idle_before_rebound": 2177,
+      "two_or_more_task_threshold_runs": 528,
+      "shape_among_responders": {
+        "near_step": 580,
+        "early_exit": 550,
+        "interrupted": 569,
+        "slow_wavy_rise": 506
+      }
+    },
+    {
+      "scenario": "zero",
+      "events": 3200,
+      "true_response": 1463,
+      "post_interval_rebound_exceeds_default_q": 1463,
+      "full_minute_terminal_idle_before_rebound": 1463,
+      "two_or_more_task_threshold_runs": 102,
+      "shape_among_responders": {
+        "near_step": 390,
+        "early_exit": 382,
+        "interrupted": 372,
+        "slow_wavy_rise": 319
+      }
+    }
+  ],
+  "limits": "Terminal idle count only detects >=1 complete minute; multiple-run count uses declared0.1q interval threshold. These reveal scenario support and are not fitted-error attributions."
+}

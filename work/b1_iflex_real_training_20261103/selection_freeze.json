@@ -1,0 +1,69 @@
+{
+  "keys": {
+    "reference": "base__spline_ridge",
+    "best_base_price": "base__price_hgb",
+    "best_peak_price": "peak__price_hgb",
+    "candidate": "peak__price_hgb",
+    "candidate_no_price_control": "peak__history_hgb"
+  },
+  "validation_best_price_base": 2.0681154516012965,
+  "validation_best_price_peak": 1.914329459876414,
+  "validation_selected_configurations": {
+    "base__history_ridge": {
+      "alpha": 100.0
+    },
+    "base__linear_ridge": {
+      "alpha": 100.0
+    },
+    "base__spline_ridge": {
+      "alpha": 100.0
+    },
+    "base__price_hgb": {
+      "leaves": 7,
+      "l2": 10.0
+    },
+    "base__history_hgb": {
+      "leaves": 7,
+      "l2": 10.0
+    },
+    "peak__history_ridge": {
+      "alpha": 100.0
+    },
+    "peak__linear_ridge": {
+      "alpha": 100.0
+    },
+    "peak__spline_ridge": {
+      "alpha": 100.0
+    },
+    "peak__price_hgb": {
+      "leaves": 7,
+      "l2": 1.0
+    },
+    "peak__history_hgb": {
+      "leaves": 15,
+      "l2": 1.0
+    }
+  },
+  "hashes": {
+    "work\\b1_iflex_real_training_20261103\\protocol.json": "56182c1f78a94e4454919144248201c3c5afbb6dc6f6d60b305f6d61eee6ff3f",
+    "work\\b1_iflex_real_training_20261103\\models.py": "404b8eed31f89dc9e97ea1bb1d51cf902dd4fbde1b6f06c7c9f72d97553bd064",
+    "work\\b1_iflex_real_training_20261103\\study.py": "86cac4da257aaca8aba3540923782028e0c77432cfa1b54c783fb12a370ab935",
+    "work\\b1_iflex_real_training_20261103\\prepare.py": "bc63e025370567ea7f709ae201a61af21c87da463669b19322abec0623f09a2c",
+    "work\\b1_iflex_real_training_20261103\\features_peak_history.csv": "7ec4dcd27f30e5cb3071ae99469ef9c5edb8b3a57269359548b8059e51339ace",
+    "work\\b1_iflex_real_training_20261103\\base_validation.json": "356d42fc1c056dafcf1940a49e503849c2088004bb51a194613e372b3d6c290c",
+    "work\\b1_iflex_real_training_20261103\\peak_validation.json": "7bc19f99748ff100f9591a06aa3e9886444cc3b1a07cf2a47de05904377d2fa8",
+    "work\\b1_real_response_data_20261103\\prepared_P_events.csv": "1b43c61403d27a9a04c68f833967d9e3d3c1f3fcdd2e55565b862dcc41c17607",
+    "work\\b1_real_response_data_20261103\\real_data_protocol.json": "ef66416602332a85475c9dfa8243cc18fa0c0448370e7dd9cc6f9c457ebde482",
+    "work\\b1_iflex_real_training_20261103\\frozen_models\\base__history_ridge.joblib": "a8040aa1d2b8e99561b55855c9417c48193a0d77e2d1c47495545c853455b0d4",
+    "work\\b1_iflex_real_training_20261103\\frozen_models\\base__linear_ridge.joblib": "77a05ed7d94fc117697ac319fec36abb2ef4ef13f3f52142ff212dbfc551a261",
+    "work\\b1_iflex_real_training_20261103\\frozen_models\\base__spline_ridge.joblib": "abbca3693f7ec45aa3e9ff3a02878685b4d05177447cbe103257b68fc72b3c24",
+    "work\\b1_iflex_real_training_20261103\\frozen_models\\base__price_hgb.joblib": "4c138b245ed4e3ccc4c8194edb5e159595df23ccd42ba4a575665b398e651d91",
+    "work\\b1_iflex_real_training_20261103\\frozen_models\\base__history_hgb.joblib": "cb8d0f9a2bd905a2dec5032e95444b9fc8cc1c20a6ccc9b632f7ff7c9006fb3b",
+    "work\\b1_iflex_real_training_20261103\\frozen_models\\peak__history_ridge.joblib": "951e7013ccdb7f2ff80f4feaebd24279a5b1f726db5c93c3c98034ad3825d5d4",
+    "work\\b1_iflex_real_training_20261103\\frozen_models\\peak__linear_ridge.joblib": "447ab88691b10692576fd68b64ab37fc8e8e69201352388a41806997f3d5d5a3",
+    "work\\b1_iflex_real_training_20261103\\frozen_models\\peak__spline_ridge.joblib": "0fca56b6f60b5457d02310ca15957de859ea3d1418945a6a413382ff5e60db6f",
+    "work\\b1_iflex_real_training_20261103\\frozen_models\\peak__price_hgb.joblib": "8a2a5ada4863e5d91d011c6ab522f73a5423d68e420521ce56599af6fd4108a5",
+    "work\\b1_iflex_real_training_20261103\\frozen_models\\peak__history_hgb.joblib": "00e5d28e247640cb9aed66e6d63b1d8c70c414997297f299e577060be2df9890"
+  },
+  "test_numeric_outcomes_used": false
+}

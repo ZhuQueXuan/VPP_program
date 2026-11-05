@@ -1,0 +1,158 @@
+{
+  "passed": true,
+  "final_statuses": [
+    {
+      "panel": "main",
+      "method": "cpop",
+      "status": "ok",
+      "count": 2048
+    },
+    {
+      "panel": "main",
+      "method": "ride_revised",
+      "status": "ok",
+      "count": 2048
+    },
+    {
+      "panel": "main",
+      "method": "ride_template",
+      "status": "ok",
+      "count": 2048
+    },
+    {
+      "panel": "stress20",
+      "method": "cpop",
+      "status": "ok",
+      "count": 128
+    },
+    {
+      "panel": "stress20",
+      "method": "ride_revised",
+      "status": "ok",
+      "count": 128
+    },
+    {
+      "panel": "stress20",
+      "method": "ride_template",
+      "status": "ok",
+      "count": 128
+    },
+    {
+      "panel": "stress37",
+      "method": "cpop",
+      "status": "ok",
+      "count": 128
+    },
+    {
+      "panel": "stress37",
+      "method": "ride_revised",
+      "status": "ok",
+      "count": 128
+    },
+    {
+      "panel": "stress37",
+      "method": "ride_template",
+      "status": "ok",
+      "count": 128
+    }
+  ],
+  "denominator_counts": {
+    "cpop": {
+      "no_action": 866,
+      "false_detection": 99,
+      "response": 1182,
+      "miss": 0,
+      "fallback": 0
+    },
+    "ride_revised": {
+      "no_action": 866,
+      "false_detection": 88,
+      "response": 1182,
+      "miss": 0,
+      "fallback": 0
+    },
+    "ride_template": {
+      "no_action": 866,
+      "false_detection": 91,
+      "response": 1182,
+      "miss": 1,
+      "fallback": 0
+    }
+  },
+  "solver_records": 21056,
+  "solver_termination_counts": [
+    {
+      "acceptance": "accepted",
+      "status": 1,
+      "count": 1350
+    },
+    {
+      "acceptance": "accepted",
+      "status": 2,
+      "count": 15314
+    },
+    {
+      "acceptance": "accepted",
+      "status": 4,
+      "count": 1333
+    },
+    {
+      "acceptance": "accepted",
+      "status": 3,
+      "count": 2715
+    },
+    {
+      "acceptance": "rejected",
+      "status": 0,
+      "count": 344
+    }
+  ],
+  "rejected_starts_by_panel": {
+    "main": 296,
+    "stress": 48
+  },
+  "rejected_nfev_counts": {
+    "250": 344
+  },
+  "selected_failed_starts": 0,
+  "warnings": [
+    "D:\\python\\python3.10.6\\lib\\site-packages\\scipy\\optimize\\_lsq\\common.py:115: RuntimeWarning: invalid value encountered in divide",
+    "D:\\python\\python3.10.6\\lib\\site-packages\\scipy\\optimize\\_lsq\\common.py:398: RuntimeWarning: invalid value encountered in cast"
+  ],
+  "warning_scope": "SciPy warnings are not tagged by event/start in the shared process log. They cannot be attributed exactly to the344 rejected starts. All recorded rejected starts had status0 and nfev250; no unsuccessful curve was selected and all6912 final event outputs are ok and finite.",
+  "main_summed_batch_seconds": {
+    "cpop": 41.53976789999979,
+    "ride_revised": 863.469384,
+    "ride_template": 254.55679070000042
+  },
+  "all_panels_summed_batch_seconds": {
+    "cpop": 61.608277699999235,
+    "ride_revised": 976.0855487999997,
+    "ride_template": 285.9422416999987
+  },
+  "revised_to_cpop_main_batch_time_ratio": 20.786572184964097,
+  "test_stage_wall_seconds": 362.91709960000026,
+  "timing_scope": "Observed batch elapsed times while up to4seed workers ran concurrently; original CPOP batches include Rlaunch. Sums are not the stagewall time or an exclusiveCPU latency benchmark.",
+  "retained_counterexamples": [
+    {
+      "scope": "positive main",
+      "metric": "curveRMSE",
+      "revised": 0.16098391878909873,
+      "cpop": 0.15171298262875457
+    },
+    {
+      "scope": "positive interrupted main",
+      "metric": "durationMAEseconds",
+      "revised": 127.33031674208145,
+      "cpop": 105.3393665158371
+    },
+    {
+      "scope": "37minute highnoise stress",
+      "metric": "durationMAEseconds",
+      "revised": 155.625,
+      "cpop": 120.0
+    }
+  ],
+  "universal_advantage_claim_supported": false,
+  "realEV_validation": false
+}

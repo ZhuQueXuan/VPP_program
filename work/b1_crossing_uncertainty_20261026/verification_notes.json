@@ -1,0 +1,8 @@
+{
+  "scope": "verification harness corrections only; frozen scientific sources, data and results unchanged",
+  "attempts": [
+    {"result": "aborted", "reason": "csv.DictWriter stores None as empty text; verifier literal_eval could not parse empty text", "fix": "decode empty CSV field as None when expected field is None"},
+    {"result": "aborted", "reason": "verifier opened UTF-8 source_freeze.json with Windows default GBK", "fix": "specify encoding=utf-8"}
+  ],
+  "pre_generation": "protocol JSON abbreviated decimal literals were corrected to valid JSON before freeze or data generation; method unchanged"
+}

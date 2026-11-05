@@ -1,0 +1,359 @@
+{
+  "schema": "b1.research-smoothing-spline-query.v1",
+  "method": "Kennedy_DR_shared_pseudo_outcome_cubic_smoothing_spline",
+  "status": "causal",
+  "refitted": false,
+  "task": {
+    "task_id": "acn_semisynthetic_30min",
+    "outcome_name": "cumulative_response_seconds",
+    "outcome_unit": "seconds",
+    "target_population": "eligible ACN background scenarios",
+    "window_minutes": [
+      0.0,
+      30.0
+    ],
+    "q_kw": 1.5,
+    "task_pre_treatment": true,
+    "reference_status": "provided",
+    "reference_uncertainty": "not_propagated"
+  },
+  "population_scope": "fixed fitted cohort, event equal weight",
+  "output_scope": "part-three point curve only",
+  "curve": {
+    "incentive_values": [
+      0.3,
+      0.36,
+      0.42,
+      0.48,
+      0.54,
+      0.6000000000000001,
+      0.66,
+      0.72,
+      0.78,
+      0.8400000000000001,
+      0.9000000000000001,
+      0.96,
+      1.02,
+      1.08,
+      1.1400000000000001,
+      1.2,
+      1.26,
+      1.32,
+      1.3800000000000001,
+      1.4400000000000002,
+      1.5000000000000002,
+      1.56,
+      1.62,
+      1.6800000000000002,
+      1.7400000000000002,
+      1.8000000000000003,
+      1.86,
+      1.9200000000000002,
+      1.9800000000000002,
+      2.04,
+      2.1
+    ],
+    "reference_incentive": 0.3,
+    "mean_outcomes": [
+      65.72182546814653,
+      66.40099554923745,
+      66.96284515533218,
+      67.38804246297113,
+      67.66521136314897,
+      67.82361707264869,
+      67.9030209259719,
+      67.92789033438476,
+      67.91166744920804,
+      67.85512012214464,
+      67.74544487258456,
+      67.53597993962354,
+      67.18980380161935,
+      66.7407884163149,
+      66.20311918988251,
+      65.6096851594305,
+      65.03060234687798,
+      64.48732092083736,
+      63.98849105776666,
+      63.545810488291984,
+      63.168537013831845,
+      62.86899654924601,
+      62.72253213222934,
+      62.83798516978528,
+      63.2441749854976,
+      63.90390942433623,
+      64.77668970719496,
+      65.76784689576341,
+      66.75710407664178,
+      67.67120984190649,
+      68.45825337945088
+    ],
+    "contrasts": [
+      0.0,
+      0.6791700810909163,
+      1.2410196871856414,
+      1.6662169948245946,
+      1.9433858950024359,
+      2.1017916045021536,
+      2.1811954578253676,
+      2.206064866238222,
+      2.1898419810615053,
+      2.1332946539981066,
+      2.0236194044380227,
+      1.8141544714770106,
+      1.4679783334728143,
+      1.0189629481683653,
+      0.4812937217359803,
+      -0.11214030871603597,
+      -0.6912231212685498,
+      -1.2345045473091716,
+      -1.7333344103798751,
+      -2.17601497985455,
+      -2.553288454314689,
+      -2.8528289189005207,
+      -2.9992933359171943,
+      -2.8838402983612568,
+      -2.477650482648933,
+      -1.8179160438103068,
+      -0.9451357609515725,
+      0.04602142761687844,
+      1.035278608495247,
+      1.9493843737599548,
+      2.7364279113043466
+    ],
+    "outcome_unit": "seconds",
+    "incentive_unit": "yuan/kWh",
+    "continuous_query_evaluated_directly": true,
+    "shape_constraint": "none",
+    "interpretation": "causal conditional on declarations"
+  },
+  "diagnostics": {
+    "by_dose": [
+      {
+        "dose": 0.3,
+        "local_events": 575,
+        "local_users": 118,
+        "effective_events": 773.0339004841036,
+        "max_weighted_smd": 0.024260756534069814
+      },
+      {
+        "dose": 0.3,
+        "local_events": 575,
+        "local_users": 118,
+        "effective_events": 773.0339004841036,
+        "max_weighted_smd": 0.024260756534069814
+      },
+      {
+        "dose": 0.36,
+        "local_events": 566,
+        "local_users": 119,
+        "effective_events": 817.5167383073447,
+        "max_weighted_smd": 0.02499714126726745
+      },
+      {
+        "dose": 0.42,
+        "local_events": 558,
+        "local_users": 118,
+        "effective_events": 853.8626453185454,
+        "max_weighted_smd": 0.02510184052848254
+      },
+      {
+        "dose": 0.48,
+        "local_events": 559,
+        "local_users": 118,
+        "effective_events": 881.9610791428709,
+        "max_weighted_smd": 0.024461372348287963
+      },
+      {
+        "dose": 0.54,
+        "local_events": 557,
+        "local_users": 118,
+        "effective_events": 902.5376955435439,
+        "max_weighted_smd": 0.02300961822423829
+      },
+      {
+        "dose": 0.6000000000000001,
+        "local_events": 565,
+        "local_users": 118,
+        "effective_events": 916.6003938306045,
+        "max_weighted_smd": 0.02073891339744723
+      },
+      {
+        "dose": 0.66,
+        "local_events": 547,
+        "local_users": 117,
+        "effective_events": 925.0559114851483,
+        "max_weighted_smd": 0.017706676575653963
+      },
+      {
+        "dose": 0.72,
+        "local_events": 536,
+        "local_users": 116,
+        "effective_events": 928.6572367601044,
+        "max_weighted_smd": 0.018086680411420947
+      },
+      {
+        "dose": 0.78,
+        "local_events": 535,
+        "local_users": 116,
+        "effective_events": 928.1907719593804,
+        "max_weighted_smd": 0.01777790025915545
+      },
+      {
+        "dose": 0.8400000000000001,
+        "local_events": 505,
+        "local_users": 116,
+        "effective_events": 924.6658593774183,
+        "max_weighted_smd": 0.016985658219773887
+      },
+      {
+        "dose": 0.9000000000000001,
+        "local_events": 497,
+        "local_users": 117,
+        "effective_events": 919.3026757335759,
+        "max_weighted_smd": 0.022320008391613806
+      },
+      {
+        "dose": 0.96,
+        "local_events": 487,
+        "local_users": 115,
+        "effective_events": 913.294130365305,
+        "max_weighted_smd": 0.027012822822314698
+      },
+      {
+        "dose": 1.02,
+        "local_events": 484,
+        "local_users": 116,
+        "effective_events": 907.5057097738446,
+        "max_weighted_smd": 0.030518374710929157
+      },
+      {
+        "dose": 1.08,
+        "local_events": 491,
+        "local_users": 117,
+        "effective_events": 902.3295414602488,
+        "max_weighted_smd": 0.032361716535983645
+      },
+      {
+        "dose": 1.1400000000000001,
+        "local_events": 489,
+        "local_users": 117,
+        "effective_events": 897.7949289932156,
+        "max_weighted_smd": 0.03223164359596622
+      },
+      {
+        "dose": 1.2,
+        "local_events": 490,
+        "local_users": 118,
+        "effective_events": 893.8523279503313,
+        "max_weighted_smd": 0.030037697852228536
+      },
+      {
+        "dose": 1.26,
+        "local_events": 496,
+        "local_users": 118,
+        "effective_events": 890.63026864594,
+        "max_weighted_smd": 0.0259183151591213
+      },
+      {
+        "dose": 1.32,
+        "local_events": 502,
+        "local_users": 118,
+        "effective_events": 888.5007511130651,
+        "max_weighted_smd": 0.020755925264297332
+      },
+      {
+        "dose": 1.3800000000000001,
+        "local_events": 491,
+        "local_users": 116,
+        "effective_events": 887.9368793642583,
+        "max_weighted_smd": 0.02301076223762629
+      },
+      {
+        "dose": 1.4400000000000002,
+        "local_events": 504,
+        "local_users": 119,
+        "effective_events": 889.2709737133231,
+        "max_weighted_smd": 0.02527663449536431
+      },
+      {
+        "dose": 1.5000000000000002,
+        "local_events": 508,
+        "local_users": 119,
+        "effective_events": 892.4742839947228,
+        "max_weighted_smd": 0.027520647799565805
+      },
+      {
+        "dose": 1.56,
+        "local_events": 503,
+        "local_users": 117,
+        "effective_events": 897.0179171614959,
+        "max_weighted_smd": 0.029618461108877548
+      },
+      {
+        "dose": 1.62,
+        "local_events": 511,
+        "local_users": 117,
+        "effective_events": 901.8222560920103,
+        "max_weighted_smd": 0.031356202799567905
+      },
+      {
+        "dose": 1.6800000000000002,
+        "local_events": 512,
+        "local_users": 119,
+        "effective_events": 905.2906655791534,
+        "max_weighted_smd": 0.03245359347524715
+      },
+      {
+        "dose": 1.7400000000000002,
+        "local_events": 512,
+        "local_users": 119,
+        "effective_events": 905.430511608012,
+        "max_weighted_smd": 0.03260891147483309
+      },
+      {
+        "dose": 1.8000000000000003,
+        "local_events": 519,
+        "local_users": 118,
+        "effective_events": 900.0680647444358,
+        "max_weighted_smd": 0.031558631743759384
+      },
+      {
+        "dose": 1.86,
+        "local_events": 529,
+        "local_users": 119,
+        "effective_events": 887.1629705039538,
+        "max_weighted_smd": 0.029136702913644855
+      },
+      {
+        "dose": 1.9200000000000002,
+        "local_events": 514,
+        "local_users": 118,
+        "effective_events": 865.2131109800451,
+        "max_weighted_smd": 0.025315516312866937
+      },
+      {
+        "dose": 1.9800000000000002,
+        "local_events": 542,
+        "local_users": 117,
+        "effective_events": 833.6798056294776,
+        "max_weighted_smd": 0.02021571600181618
+      },
+      {
+        "dose": 2.04,
+        "local_events": 547,
+        "local_users": 119,
+        "effective_events": 793.2680901838812,
+        "max_weighted_smd": 0.01408321985227482
+      },
+      {
+        "dose": 2.1,
+        "local_events": 556,
+        "local_users": 119,
+        "effective_events": 745.8758041348,
+        "max_weighted_smd": 0.007243205506223939
+      }
+    ],
+    "unsupported_doses": [],
+    "support_bandwidth": 0.2886258426125116
+  }
+}

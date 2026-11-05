@@ -1,0 +1,9 @@
+{
+  "pdf_sha256": "20b076cb5d9c3ec93da1f2455fcd67fa61c2ac52f0800962de09950f06ac350a",
+  "renderer": "Microsoft Word native PDF export",
+  "input": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_caption_revision_20261029\\section22_clarified_staged.docx",
+  "input_sha256": "5132fd7b235075415b09558f5e90dab3371d0cfabdac8b1e7614a1aa41c006cb",
+  "status": "success",
+  "page_count": 11,
+  "pdf": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_caption_revision_20261029\\section22_clarified_preview.pdf"
+}

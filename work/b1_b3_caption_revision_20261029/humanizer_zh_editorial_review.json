@@ -1,0 +1,26 @@
+{
+  "skill": "humanizer-zh",
+  "scope": "Chinese prose only; source versions captured at start of current task",
+  "report_accepted": 41,
+  "guide_accepted": 34,
+  "report_already_clear_kept": [
+    4,
+    30,
+    36,
+    94,
+    115,
+    147
+  ],
+  "semantic_review": "Three necessary corrections incorporated; other proposals reviewed independently",
+  "protected": [
+    "headings",
+    "caption text",
+    "tables",
+    "formulas",
+    "figures",
+    "numeric tokens",
+    "English identifiers",
+    "paths and references",
+    "limitations and completion status"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "accepted": true,
+  "user_requested": "continuous incentive amounts and directly evaluated curved effects at one common task; no forced straight line",
+  "main_function_checks": 44,
+  "independent_checks": 32,
+  "compatibility_checks": 8,
+  "repetitions": 12,
+  "scenarios": 5,
+  "factual_variants": 144000,
+  "independent_unit": "12 seed blocks; paired mechanism variants are not independent studies",
+  "runtime_new_files": [
+    "B1算法/b1_algorithm/effects/continuous.py",
+    "B1算法/b1_algorithm/effects/plotting.py"
+  ],
+  "changed_existing_files": [
+    "B1算法/b1_api.py",
+    "B1算法/README.md",
+    "B1算法/requirements.txt",
+    "B1算法/b1_algorithm/api.py",
+    "B1算法/b1_algorithm/metered_effects.py",
+    "B1算法/b1_algorithm/effects/__init__.py",
+    "B1算法/b1_algorithm/process/api.py",
+    "B1算法/b1_algorithm/reference/core.py",
+    "B1算法/b1_algorithm/resources/ev.py"
+  ],
+  "protected_files": 75,
+  "protected_files_unchanged": true,
+  "old_discrete_scores_equal": true,
+  "free_task_duration": true,
+  "reference_forecast_time_domain_expanded": false,
+  "raw_energy_definition_unchanged": true,
+  "mature_method": "Kennedy continuous DR pseudo-outcome plus local-linear smoothing; RIDE continuous architecture reused",
+  "arbitrary_queries_tested": [
+    0.73,
+    0.85,
+    1.17
+  ],
+  "observed_doses_binned": false,
+  "forced_linear": false,
+  "forced_monotone": false,
+  "figure_outputs_visually_checked": 4,
+  "post_review_fix": "generic ratio y-axis labeling only; 8-case compatibility receipt",
+  "full_unsmoothed_curve_confidence_coverage_verified": false,
+  "real_EV_validation": false,
+  "new_estimator_superiority_claim": false,
+  "report_modified": false,
+  "other_resource_added": false,
+  "B2_B3_changed": false,
+  "zip_or_doubleclick_launcher_created": false,
+  "retained_limits": [
+    "pure continuous design only; zero atom mixtures explicitly unsupported",
+    "estimated conditional density assumes a logit-normal model; known design accepts uniform randomized only",
+    "support diagnostics are not proof of causal identification",
+    "sampling band excludes smoothing, nuisance and reference/process uncertainty",
+    "existing reference forecast stays within task-relative[-120,+90]minutes",
+    "current batch limit12000 events and30 pre-treatment covariates"
+  ]
+}

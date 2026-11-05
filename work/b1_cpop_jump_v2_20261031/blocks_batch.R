@@ -1,0 +1,34 @@
+args<-commandArgs(trailingOnly=TRUE)
+stopifnot(length(args)==4L)
+if(nzchar(args[4])).libPaths(c(args[4],.libPaths()))
+suppressPackageStartupMessages(library(cpop))
+input<-read.csv(args[1],stringsAsFactors=FALSE)
+blocks<-read.csv(args[2],stringsAsFactors=FALSE)
+groups<-split(input,input$case_id)
+result<-lapply(seq_len(nrow(blocks)),function(j){
+  r<-blocks[j,];full<-groups[[as.character(r$case_id)]]
+  dat<-full[full$index>=r$a & full$index<r$b,]
+  tic<-proc.time()[['elapsed']]
+  tryCatch({
+    stopifnot(nrow(dat)==r$b-r$a,all(dat$sigma==dat$sigma[1]),all(dat$beta==dat$beta[1]))
+    if(nrow(dat)==1L){
+      seg<-data.frame(x0=dat$x[1],x1=dat$x[1],gradient=0,intercept=dat$y[1])
+      objective<-0;knots<-0L
+    }else if(nrow(dat)==2L){
+      slope<-(dat$y[2]-dat$y[1])/(dat$x[2]-dat$x[1])
+      seg<-data.frame(x0=dat$x[1],x1=dat$x[2],gradient=slope,intercept=dat$y[1]-slope*dat$x[1])
+      objective<-0;knots<-0L
+    }else{
+      fit<-cpop(dat$y,x=dat$x,grid=dat$x,beta=dat$beta[1],sd=dat$sigma[1],minseglen=0,prune.approx=FALSE)
+      raw<-fitted(fit);seg<-raw[,c('x0','x1','gradient','intercept')]
+      objective<-cost(fit);knots<-nrow(raw)-1L
+    }
+    seg$block_id<-r$block_id;seg$case_id<-r$case_id;seg$a<-r$a;seg$b<-r$b
+    seg$native_cost<-objective;seg$internal_knots<-knots;seg$beta<-dat$beta[1];seg$sigma<-dat$sigma[1]
+    seg$seconds<-proc.time()[['elapsed']]-tic;seg$status<-'ok';seg$error<-'';seg
+  },error=function(e)data.frame(x0=NA,x1=NA,gradient=NA,intercept=NA,block_id=r$block_id,
+    case_id=r$case_id,a=r$a,b=r$b,native_cost=NA,internal_knots=NA,beta=dat$beta[1],sigma=dat$sigma[1],
+    seconds=proc.time()[['elapsed']]-tic,status='unavailable',error=conditionMessage(e)))
+})
+write.csv(do.call(rbind,result),args[3],row.names=FALSE)
+writeLines(capture.output(sessionInfo()),paste0(args[3],'.session.txt'))

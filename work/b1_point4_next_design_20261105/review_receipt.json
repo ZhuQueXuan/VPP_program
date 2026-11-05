@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-05",
+  "decision": "worth_one_fixed_new_development_pending_review",
+  "new_research_fits": 0,
+  "new_research_cohorts_generated": 0,
+  "fixed_rho": 0.05,
+  "candidate_count": 1,
+  "parameter_configurations_per_method": 1,
+  "operator_checks": 17,
+  "old_training_source_hashes_unchanged": 49,
+  "reserved_new_seeds_disjoint_from_prior_24dev_and_20confirm": true,
+  "old_confirmation_opened": false,
+  "complete_stage_runner_integrated": false,
+  "remaining_before_first_fit": "Total-manager formula/protocol review, then wire B0/OR/S and stage saving; freeze code before generating research cohorts.",
+  "artifacts_sha256": {
+    "author_repository.json": "c4cc5629084cb5a3a5a48424ac59f9723413371fbb1dcd83915d22263129023e",
+    "continuous_r.py": "135fb4eb75457b4d26430274a9976caba0fb41cbad36681f6b18f66ba0524dac",
+    "operator_checks.json": "381799ffc1f9c58290ab11c328f380b6361ec7d948fc9a662c44c3660cee6e2e",
+    "operator_checks.py": "df8442731c5b202ac990f666fd47c88ffda707ca6635c81dc17efbb99b70f385",
+    "protocol.json": "1d9a178c55ce5b50cd72432dbd2d2c225d6740044543f5cee39de8a69793dc8f",
+    "README.md": "9ce643b0a6597a2c6f0758ec5353a623e71ef7daf18498e3389d72331c16a2e8"
+  }
+}

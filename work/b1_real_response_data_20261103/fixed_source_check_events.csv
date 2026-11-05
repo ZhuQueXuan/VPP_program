@@ -1,0 +1,6 @@
+ID,Group,Date,split
+Exp_220,H2,2020-12-16,train
+Exp_221,H2,2020-12-16,train
+Exp_224,H2,2020-12-16,train
+Exp_220,H2,2021-02-15,validation
+Exp_221,H2,2021-02-15,validation

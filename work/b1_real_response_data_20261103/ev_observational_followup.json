@@ -1,0 +1,58 @@
+{
+  "review_date": "2026-11-03",
+  "scope": "Bounded follow-up of two recent public EV transaction datasets for prospective numeric tariff plus measured energy and user/session context. No fitting, installation, old-review changes, large-library download or access requests.",
+  "conclusion": "Two legitimate public real-transaction sources have measured session energy and identifiers. The Jiaxing source additionally publishes a numeric TOU schedule as a separate CSV. Neither examined source establishes a verified session-level prospective consumer price/offer. Jiaxing is a useful narrow future tariff-association lead after price applicability is resolved; neither is ready to replace the existing continuous-compensation experiment.",
+  "sources": [
+    {
+      "id": "jiaxing2025",
+      "title": "A high-resolution electric vehicle charging transaction dataset with multidimensional features in China",
+      "publication": "Scientific Data 12, 643, 2025-04-16; DOI 10.1038/s41597-025-04982-1",
+      "urls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC12003694/", "https://doi.org/10.6084/m9.figshare.28182251.v3", "https://api.figshare.com/v2/articles/28182251/versions/3", "https://ndownloader.figshare.com/files/52886138", "https://ndownloader.figshare.com/files/52886141"],
+      "paper_reported_size": "441077 transactions, 13 stations, two-year period. Full counts not recomputed because the complete transaction CSV was not downloaded.",
+      "license": "The downloaded Figshare v3 metadata explicitly says CC BY 4.0 for the data/code deposit. The article license is a different CC BY-NC-ND license; do not conflate the article license with the dataset license.",
+      "actual_acquisition": "Downloaded 4854-byte versioned repository metadata and 11557-byte Code.zip. Read the public Dataset.zip central directory using only its final 65536 bytes; it lists Charging_Data.csv, Time-of-use_Price.csv and Weather_Data.csv. Extracted the entire 181-byte tariff CSV from that bounded tail and verified its CRC32 against the ZIP central directory. Requested only an additional 8192-byte archive prefix range and decompressed a bounded 4096-byte beginning sample of Charging_Data.csv. The 14.9MB archive and 85.6MB full CSV were not downloaded.",
+      "actual_transaction_columns": ["UserID", "Charging Post ID", "Location Information", "District Name", "Order creation time", "Transaction power/kwh", "Electricity cost/Yuan", "Service charge/Yuan", "Transaction Amount/Yuan", "Actual Payment/Yuan", "Start Time", "End Time", "Payment time", "Temperature", "Relative Humidity", "Precipitation", "end_cause", "is_full_charge", "is_user_stop", "is_nonsystem_fault", "is_system_issue", "is_EV_fault", "is_other_fault", "is_abnormal"],
+      "measured_outcome": "Transaction power/kwh is explicitly defined as session energy in kWh, despite the misleading use of power in its column label. User identifier and timestamp/station context are present in the inspected sample. Session start/end times are not physical effective-response duration truth.",
+      "tariff_file_actually_read": [
+        {"time_period": "00:00-08:00", "yuan_per_kwh": 0.3784},
+        {"time_period": "08:00-11:00", "yuan_per_kwh": 0.9014},
+        {"time_period": "11:00-13:00", "yuan_per_kwh": 0.3784},
+        {"time_period": "13:00-19:00", "yuan_per_kwh": 0.9014},
+        {"time_period": "19:00-21:00", "yuan_per_kwh": 1.2064},
+        {"time_period": "21:00-22:00", "yuan_per_kwh": 0.9014},
+        {"time_period": "22:00-23:59", "yuan_per_kwh": 0.3784}
+      ],
+      "author_code_read_not_executed": "Code/TOU_analysis.py reads external TOU.csv and joins the price by session Start Time, after restricting its figure to Nanhu and non-abnormal records. The deposited tariff member is named Time-of-use_Price.csv, so this is not an immediately identical filename contract. The code does not show a prospective per-session offer field or calculate actual consumer unit rate from billing. It aggregates each session's total kWh by its starting-time slot; that is not a measured 15-minute energy load curve.",
+      "critical_price_match_check": "The first inspected row is Nanhu at 2020-12-31 23:35:43, with 6.24kWh and 2.6 yuan electricity cost. Its billing is not enough to certify the separately published 0.3784 yuan/kWh schedule as the actual rate applied to that user/session. No tax/markup interpretation is invented. Billing-cost/energy ratios are not promoted to ex-ante treatment variables.",
+      "official_tariff_reference": "The paper cites a 2019 Jiaxing government page for its TOU table: https://www.jiaxing.gov.cn/art/2019/9/25/art_1685296_38320694.html . The referenced URL returned HTTP404 in the direct metadata review, so effective dates and station/user applicability were not independently verified here.",
+      "target_limits": "Only three rate levels and time-based assignment, not continuous randomized compensation. Price is tied to clock time, which is also chosen by users and related to charging demand. The session table lacks the eligible no-session population, prospective offer/notification, SOC and intended departure/energy need. It therefore supports observational tariff/time association only after applicability validation, not an identified causal dose-response or an accuracy benchmark.",
+      "decision": "Retain as the best of the two new observational leads. Do not integrate or fit now; require authoritative effective tariff/customer mapping or explicit offer evidence first."
+    },
+    {
+      "id": "korea2024",
+      "title": "A dataset for multi-faceted analysis of electric vehicle charging transactions",
+      "publication": "Scientific Data 11, 262, 2024; DOI 10.1038/s41597-024-02942-9",
+      "urls": ["https://scholar.gist.ac.kr/bitstream/local/9665/2/s41597_024_02942_9.pdf", "https://doi.org/10.6084/m9.figshare.22495141.v1", "https://api.figshare.com/v2/articles/22495141/versions/1", "https://ndownloader.figshare.com/files/39952252", "https://ndownloader.figshare.com/files/39952261"],
+      "paper_reported_size": "72856 sessions, 2337 subscribed users and 2119 chargers, commercial operation 2021-09-30 to 2022-09-30. Repository description instead says 2238 users. This discrepancy is left unresolved rather than selecting whichever number looks convenient.",
+      "license": "CC BY 4.0 verified from the versioned Figshare metadata; paper also describes this dataset license.",
+      "actual_acquisition": "4028-byte repository metadata, 5914-byte author Code.zip and a 4096-byte HTTP206 prefix sample of ChargingRecords.csv. Full 7605859-byte CSV not downloaded and full counts not recomputed. Author R scripts read as text, not executed.",
+      "actual_csv_header": ["UserID", "ChargerID", "ChargerCompany", "Location", "ChargerType", "StartDay", "StartTime", "EndDay", "EndTime", "StartDatetime", "EndDatetime", "Duration", "Demand"],
+      "schema_difference": "The actual deposited CSV sample has 13 columns. The paper describes 16 including session ID, capacity and AC/DC fields; those are absent from the inspected header. Do not promise those fields are in this downloadable file.",
+      "energy_and_user": "Demand is defined by the paper as energy delivered in kWh; Duration is charger connection minutes. UserID=0 combines other-company/nonmember users and cannot be treated as one repeated physical user. The inspected initial rows are UserID0, so they do not establish identifiable subscriber behavior.",
+      "price_issue": "Paper Tables3-4 reproduce KEPCO low/high-voltage options and seasonal time slots. Actual CSV contains no rate, bill, tariff-option identifier, announcement time or service fee. ChargerCompany is only a binary own/other categorization and does not establish the exact consumer tariff option. Operator electricity acquisition tariff is not automatically the price charged to EV drivers.",
+      "decision": "Reject as a directly price-linked source under the present requirement. Keep only the source record and bounded sample; do not fetch or analyze the full dataset in this follow-up."
+    }
+  ],
+  "artifacts": [
+    {"path": "ev_review/jiaxing_figshare_v3_metadata.json", "bytes": 4854, "sha256": "52e8984b93839b1d5541ac4aa394ecc864eb42651ecdf7298cca5716b31f1bb4"},
+    {"path": "ev_review/korea_figshare_v1_metadata.json", "bytes": 4028, "sha256": "ffcea1d6aee08f0eb9767105111db8f02ba4a7dd42c980d36bc6ca2022fde890"},
+    {"path": "ev_review/jiaxing_Code.zip", "bytes": 11557, "sha256": "0985a858de0a91e26f940a4d5d0bb377fe682e32567127a54fe5b90eca798e93"},
+    {"path": "ev_review/korea_Code.zip", "bytes": 5914, "sha256": "14ebed364fef7b9bcafbc923f73ab93965502c92ea1c8776db82775906fbb634"},
+    {"path": "ev_review/korea_records_header_sample.csv", "bytes": 4096, "partial_file": true, "sha256": "431e1c3903b3fe66dbd8dbff72a781a27e69e653168700210c5876afa61042e9"},
+    {"path": "ev_review/jiaxing_zip_tail.bin", "bytes": 65536, "partial_file": true, "sha256": "2b712b7f1a99c843296ee75120234b4130237540cdf7d7fe7dffc6b710cae519"},
+    {"path": "ev_review/jiaxing_zip_directory.json", "bytes": 699, "sha256": "6df978adc35d9b5702e2b09e35926560e9445cee8559a87d0f4ab2b0503d9a8f"},
+    {"path": "ev_review/jiaxing_Time-of-use_Price.csv", "bytes": 181, "zip_entry_crc_verified": true, "sha256": "b5bf962bfcce0935e4b0794970f757299488f5c5b33ee09a4d3140c0d0366a24"},
+    {"path": "ev_review/jiaxing_charging_header_sample.csv", "bytes": 4096, "partial_file": true, "sha256": "b24bfac98b97178181fec3da432d1ea431ced52aec39b60993fab6cb6f41396c"}
+  ],
+  "completion": "Bounded follow-up stopped after these two sources. No confirmed individual ex-ante numeric EV price/offer was established. A real public numerical tariff schedule and measured session-energy samples were established, with their linkage limitations explicit. Original ev_sources.json and its downloaded originals were not changed."
+}

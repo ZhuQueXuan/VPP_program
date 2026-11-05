@@ -1,0 +1,17 @@
+{
+  "seed": 7310101,
+  "shape": "nonmonotonic",
+  "events": 1200,
+  "users": 600,
+  "status": "causal",
+  "direct_status": "causal",
+  "model_id": "abbe53bc2675bd87518b87cccc817bb19ef298f816db8eecccec3cb9343c9624",
+  "direct_max_abs_difference": 0.0,
+  "contrast_RMSE_seconds": 47.706819192507325,
+  "smoothed_derivative_vs_truth_RMSE": 134.68090986482846,
+  "threshold_status": "point_reached",
+  "point_crossing": 0.4,
+  "candidate_cells": 1,
+  "not_reached_possible": false,
+  "seconds": 0.31059060000006866
+}

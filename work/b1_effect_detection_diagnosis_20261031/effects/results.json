@@ -1,0 +1,2326 @@
+{
+  "schema": "b1.effect-chain-diagnosis.v1",
+  "scope": "already seen8 simulated blocks; oracle evaluator only; no optimization",
+  "effect_scores": [
+    {
+      "scenario": "positive",
+      "label": "cpop_duration",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 87.29017764704645,
+      "mean_curve_rmse_mean": 127.9568204878716
+    },
+    {
+      "scenario": "positive",
+      "label": "cpop_duration",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 96.43422403377248,
+      "mean_curve_rmse_mean": 121.15852556138199
+    },
+    {
+      "scenario": "positive",
+      "label": "cpop_duration",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 99.88660344304489,
+      "mean_curve_rmse_mean": 143.50785603870682
+    },
+    {
+      "scenario": "positive",
+      "label": "cpop_duration",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 69.87276342588189,
+      "mean_curve_rmse_mean": 106.62820574111342
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_duration",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 89.01630311579675,
+      "mean_curve_rmse_mean": 128.1951852567072
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_duration",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 97.47652473779796,
+      "mean_curve_rmse_mean": 124.90548894769333
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_duration",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 100.70474397337594,
+      "mean_curve_rmse_mean": 142.49087187108915
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_duration",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 69.25155912420516,
+      "mean_curve_rmse_mean": 108.86365833235627
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_eta",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 0.03306392452977213,
+      "mean_curve_rmse_mean": 0.05478276235851472
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_eta",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 0.04455218736634976,
+      "mean_curve_rmse_mean": 0.05484581928967903
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_eta",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 0.03374440109881069,
+      "mean_curve_rmse_mean": 0.054810788633599665
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_eta",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 0.027365516711728828,
+      "mean_curve_rmse_mean": 0.05031491600810678
+    },
+    {
+      "scenario": "positive",
+      "label": "ride_revised_duration",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 79.73189058995158,
+      "mean_curve_rmse_mean": 124.60112977195593
+    },
+    {
+      "scenario": "positive",
+      "label": "ride_revised_duration",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 83.22228502511751,
+      "mean_curve_rmse_mean": 117.76459675607724
+    },
+    {
+      "scenario": "positive",
+      "label": "ride_revised_duration",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 91.59883927375387,
+      "mean_curve_rmse_mean": 133.71453673691835
+    },
+    {
+      "scenario": "positive",
+      "label": "ride_revised_duration",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 60.371693358142934,
+      "mean_curve_rmse_mean": 102.83047669533005
+    },
+    {
+      "scenario": "positive",
+      "label": "true_duration",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 75.44946872869396,
+      "mean_curve_rmse_mean": 77.84408208403889
+    },
+    {
+      "scenario": "positive",
+      "label": "true_duration",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 102.48688094844373,
+      "mean_curve_rmse_mean": 87.99466392461422
+    },
+    {
+      "scenario": "positive",
+      "label": "true_duration",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 71.43053675703861,
+      "mean_curve_rmse_mean": 74.6632392904593
+    },
+    {
+      "scenario": "positive",
+      "label": "true_duration",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 56.89721288831078,
+      "mean_curve_rmse_mean": 51.209851650725255
+    },
+    {
+      "scenario": "positive",
+      "label": "true_eta",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 0.031060622163108183,
+      "mean_curve_rmse_mean": 0.031901448078674934
+    },
+    {
+      "scenario": "positive",
+      "label": "true_eta",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 0.04139616861754816,
+      "mean_curve_rmse_mean": 0.03575474580990742
+    },
+    {
+      "scenario": "positive",
+      "label": "true_eta",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 0.028362589537746747,
+      "mean_curve_rmse_mean": 0.030908367631999216
+    },
+    {
+      "scenario": "positive",
+      "label": "true_eta",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 0.022395325762687716,
+      "mean_curve_rmse_mean": 0.0207630742597371
+    },
+    {
+      "scenario": "zero",
+      "label": "cpop_duration",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 74.2191961992185,
+      "mean_curve_rmse_mean": 172.1457240256177
+    },
+    {
+      "scenario": "zero",
+      "label": "cpop_duration",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 78.30563428892023,
+      "mean_curve_rmse_mean": 158.7508318867126
+    },
+    {
+      "scenario": "zero",
+      "label": "cpop_duration",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 80.5295584424016,
+      "mean_curve_rmse_mean": 202.33300278335324
+    },
+    {
+      "scenario": "zero",
+      "label": "cpop_duration",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 57.76713156876714,
+      "mean_curve_rmse_mean": 164.5206648976854
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_duration",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 76.3563508160784,
+      "mean_curve_rmse_mean": 177.26213860639524
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_duration",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 79.12862546321233,
+      "mean_curve_rmse_mean": 164.2306097932847
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_duration",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 81.88934507240641,
+      "mean_curve_rmse_mean": 206.62330967921304
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_duration",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 57.85773505060196,
+      "mean_curve_rmse_mean": 169.47022487755197
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_eta",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 0.02155333248700146,
+      "mean_curve_rmse_mean": 0.046839662613273624
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_eta",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 0.030141556450576902,
+      "mean_curve_rmse_mean": 0.04953576074850377
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_eta",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 0.020697709949088282,
+      "mean_curve_rmse_mean": 0.04095845408906288
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_eta",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 0.021583041213313288,
+      "mean_curve_rmse_mean": 0.044059072948251274
+    },
+    {
+      "scenario": "zero",
+      "label": "ride_revised_duration",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 68.87389694738279,
+      "mean_curve_rmse_mean": 148.40885103775202
+    },
+    {
+      "scenario": "zero",
+      "label": "ride_revised_duration",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 71.06861339651317,
+      "mean_curve_rmse_mean": 139.3201792330326
+    },
+    {
+      "scenario": "zero",
+      "label": "ride_revised_duration",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 66.59333917507472,
+      "mean_curve_rmse_mean": 169.30516782201113
+    },
+    {
+      "scenario": "zero",
+      "label": "ride_revised_duration",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 51.16908826108325,
+      "mean_curve_rmse_mean": 140.20244746357275
+    },
+    {
+      "scenario": "zero",
+      "label": "true_duration",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 47.51652254162555,
+      "mean_curve_rmse_mean": 44.73307481546625
+    },
+    {
+      "scenario": "zero",
+      "label": "true_duration",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 68.2898255329415,
+      "mean_curve_rmse_mean": 54.87262575913332
+    },
+    {
+      "scenario": "zero",
+      "label": "true_duration",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 36.35161609811682,
+      "mean_curve_rmse_mean": 41.046249276529224
+    },
+    {
+      "scenario": "zero",
+      "label": "true_duration",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 45.34566803415436,
+      "mean_curve_rmse_mean": 36.8409903220001
+    },
+    {
+      "scenario": "zero",
+      "label": "true_eta",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 0.018062330979726038,
+      "mean_curve_rmse_mean": 0.017247854180221053
+    },
+    {
+      "scenario": "zero",
+      "label": "true_eta",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 0.02727859271516775,
+      "mean_curve_rmse_mean": 0.02209855727829593
+    },
+    {
+      "scenario": "zero",
+      "label": "true_eta",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "contrast_rmse_mean": 0.012607797168997332,
+      "mean_curve_rmse_mean": 0.016205321297021742
+    },
+    {
+      "scenario": "zero",
+      "label": "true_eta",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "contrast_rmse_mean": 0.017656474764436565,
+      "mean_curve_rmse_mean": 0.014504206629570167
+    }
+  ],
+  "decomposition": [
+    {
+      "scenario": "positive",
+      "label": "cpop_duration",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "mse_total_mean": 9420.694600846731,
+      "mse_measurement_mean": 3461.836413516765,
+      "mse_oracle_estimation_mean": 7066.934919973026,
+      "squared_error_cross_term_mean": -1108.0767326430605,
+      "total_curve_rmse_mean": 87.29017764704645,
+      "measurement_chain_curve_rmse_mean": 51.55225988885202,
+      "oracle_estimator_curve_rmse_mean": 75.44946872869396,
+      "absolute_mean_measurement_curve_rms_mean": 109.30616722425228,
+      "reference_measurement_component_mean": 111.68167829109845,
+      "mean_measurement_curve_offset_mean": 99.11502151502401,
+      "centered_mean_measurement_curve_rms_mean": 42.63633159488792,
+      "cross_term_negative_blocks": 3
+    },
+    {
+      "scenario": "positive",
+      "label": "cpop_duration",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "mse_total_mean": 10269.109108840234,
+      "mse_measurement_mean": 4825.65351786346,
+      "mse_oracle_estimation_mean": 11263.960295214318,
+      "squared_error_cross_term_mean": -5820.5047042375445,
+      "total_curve_rmse_mean": 96.43422403377248,
+      "measurement_chain_curve_rmse_mean": 62.186673891093015,
+      "oracle_estimator_curve_rmse_mean": 102.48688094844373,
+      "absolute_mean_measurement_curve_rms_mean": 96.9872752603037,
+      "reference_measurement_component_mean": 96.59192030060844,
+      "mean_measurement_curve_offset_mean": 84.69209696526752,
+      "centered_mean_measurement_curve_rms_mean": 44.44752365795457,
+      "cross_term_negative_blocks": 6
+    },
+    {
+      "scenario": "positive",
+      "label": "cpop_duration",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mse_total_mean": 13575.063405095729,
+      "mse_measurement_mean": 8484.958314063015,
+      "mse_oracle_estimation_mean": 6107.292027344984,
+      "squared_error_cross_term_mean": -1017.1869363122696,
+      "total_curve_rmse_mean": 99.88660344304489,
+      "measurement_chain_curve_rmse_mean": 65.48269868264083,
+      "oracle_estimator_curve_rmse_mean": 71.43053675703861,
+      "absolute_mean_measurement_curve_rms_mean": 131.64141381215669,
+      "reference_measurement_component_mean": 152.99161639786945,
+      "mean_measurement_curve_offset_mean": 116.48193648616666,
+      "centered_mean_measurement_curve_rms_mean": 51.76861879291311,
+      "cross_term_negative_blocks": 4
+    },
+    {
+      "scenario": "positive",
+      "label": "cpop_duration",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "mse_total_mean": 5978.359524849298,
+      "mse_measurement_mean": 2113.483442289979,
+      "mse_oracle_estimation_mean": 4086.1170469040317,
+      "squared_error_cross_term_mean": -221.2409643447122,
+      "total_curve_rmse_mean": 69.87276342588189,
+      "measurement_chain_curve_rmse_mean": 40.96643407517118,
+      "oracle_estimator_curve_rmse_mean": 56.89721288831078,
+      "absolute_mean_measurement_curve_rms_mean": 100.18799243395776,
+      "reference_measurement_component_mean": 104.85088882353547,
+      "mean_measurement_curve_offset_mean": 94.24864845540696,
+      "centered_mean_measurement_curve_rms_mean": 30.473724228177222,
+      "cross_term_negative_blocks": 3
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_duration",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "mse_total_mean": 9559.95434531095,
+      "mse_measurement_mean": 3611.656137206115,
+      "mse_oracle_estimation_mean": 7066.934919973026,
+      "squared_error_cross_term_mean": -1118.6367118681908,
+      "total_curve_rmse_mean": 89.01630311579675,
+      "measurement_chain_curve_rmse_mean": 52.587850187082736,
+      "oracle_estimator_curve_rmse_mean": 75.44946872869396,
+      "absolute_mean_measurement_curve_rms_mean": 111.07741337779112,
+      "reference_measurement_component_mean": 116.29437482256459,
+      "mean_measurement_curve_offset_mean": 100.74243456363229,
+      "centered_mean_measurement_curve_rms_mean": 43.301046368671436,
+      "cross_term_negative_blocks": 2
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_duration",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "mse_total_mean": 10518.683926347756,
+      "mse_measurement_mean": 4273.9027951182925,
+      "mse_oracle_estimation_mean": 11263.960295214318,
+      "squared_error_cross_term_mean": -5019.179163984855,
+      "total_curve_rmse_mean": 97.47652473779796,
+      "measurement_chain_curve_rmse_mean": 58.05693932138006,
+      "oracle_estimator_curve_rmse_mean": 102.48688094844373,
+      "absolute_mean_measurement_curve_rms_mean": 98.96880854947209,
+      "reference_measurement_component_mean": 102.5781408487031,
+      "mean_measurement_curve_offset_mean": 89.00154851086364,
+      "centered_mean_measurement_curve_rms_mean": 40.364815318120165,
+      "cross_term_negative_blocks": 5
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_duration",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mse_total_mean": 13010.14647640052,
+      "mse_measurement_mean": 7433.889388014646,
+      "mse_oracle_estimation_mean": 6107.292027344984,
+      "squared_error_cross_term_mean": -531.0349389591092,
+      "total_curve_rmse_mean": 100.70474397337594,
+      "measurement_chain_curve_rmse_mean": 63.08232522398767,
+      "oracle_estimator_curve_rmse_mean": 71.43053675703861,
+      "absolute_mean_measurement_curve_rms_mean": 131.12635855527313,
+      "reference_measurement_component_mean": 155.3140566766872,
+      "mean_measurement_curve_offset_mean": 116.68417952991962,
+      "centered_mean_measurement_curve_rms_mean": 49.87095695182312,
+      "cross_term_negative_blocks": 3
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_duration",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "mse_total_mean": 5932.769667307479,
+      "mse_measurement_mean": 2016.678133454865,
+      "mse_oracle_estimation_mean": 4086.1170469040317,
+      "squared_error_cross_term_mean": -170.0255130514181,
+      "total_curve_rmse_mean": 69.25155912420516,
+      "measurement_chain_curve_rmse_mean": 40.18271137995003,
+      "oracle_estimator_curve_rmse_mean": 56.89721288831078,
+      "absolute_mean_measurement_curve_rms_mean": 103.28719387377896,
+      "reference_measurement_component_mean": 110.10905678569021,
+      "mean_measurement_curve_offset_mean": 97.84986144072353,
+      "centered_mean_measurement_curve_rms_mean": 29.748168921163703,
+      "cross_term_negative_blocks": 3
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_eta",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "mse_total_mean": 0.0013449794717973794,
+      "mse_measurement_mean": 0.0003240619255492089,
+      "mse_oracle_estimation_mean": 0.001114915427468778,
+      "squared_error_cross_term_mean": -9.399788122060754e-05,
+      "total_curve_rmse_mean": 0.03306392452977213,
+      "measurement_chain_curve_rmse_mean": 0.016512135642908515,
+      "oracle_estimator_curve_rmse_mean": 0.031060622163108183,
+      "absolute_mean_measurement_curve_rms_mean": 0.041451039674710054,
+      "reference_measurement_component_mean": -0.033804784333659084,
+      "mean_measurement_curve_offset_mean": -0.03927343193935555,
+      "centered_mean_measurement_curve_rms_mean": 0.012261153442972707,
+      "cross_term_negative_blocks": 3
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_eta",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "mse_total_mean": 0.002014820288030259,
+      "mse_measurement_mean": 0.0003732441743902465,
+      "mse_oracle_estimation_mean": 0.0017955991999250723,
+      "squared_error_cross_term_mean": -0.00015402308628505951,
+      "total_curve_rmse_mean": 0.04455218736634976,
+      "measurement_chain_curve_rmse_mean": 0.01799235320450999,
+      "oracle_estimator_curve_rmse_mean": 0.04139616861754816,
+      "absolute_mean_measurement_curve_rms_mean": 0.04327476891022959,
+      "reference_measurement_component_mean": -0.036020365234452546,
+      "mean_measurement_curve_offset_mean": -0.04113580465547355,
+      "centered_mean_measurement_curve_rms_mean": 0.013132813670425809,
+      "cross_term_negative_blocks": 4
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_eta",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mse_total_mean": 0.001290367613377986,
+      "mse_measurement_mean": 0.00020453327373211652,
+      "mse_oracle_estimation_mean": 0.0009260872340528389,
+      "squared_error_cross_term_mean": 0.00015974710559303048,
+      "total_curve_rmse_mean": 0.03374440109881069,
+      "measurement_chain_curve_rmse_mean": 0.0123715835175822,
+      "oracle_estimator_curve_rmse_mean": 0.028362589537746747,
+      "absolute_mean_measurement_curve_rms_mean": 0.039286346754536065,
+      "reference_measurement_component_mean": -0.031423731623419715,
+      "mean_measurement_curve_offset_mean": -0.037530637050578075,
+      "centered_mean_measurement_curve_rms_mean": 0.009780595544639377,
+      "cross_term_negative_blocks": 3
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_eta",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "mse_total_mean": 0.0008370544686993908,
+      "mse_measurement_mean": 0.00012583409628001563,
+      "mse_oracle_estimation_mean": 0.0006122916642736474,
+      "squared_error_cross_term_mean": 9.892870814572766e-05,
+      "total_curve_rmse_mean": 0.027365516711728828,
+      "measurement_chain_curve_rmse_mean": 0.010476189726463372,
+      "oracle_estimator_curve_rmse_mean": 0.022395325762687716,
+      "absolute_mean_measurement_curve_rms_mean": 0.04025362391387209,
+      "reference_measurement_component_mean": -0.035483193564678064,
+      "mean_measurement_curve_offset_mean": -0.03942950432189264,
+      "centered_mean_measurement_curve_rms_mean": 0.007839849839793174,
+      "cross_term_negative_blocks": 1
+    },
+    {
+      "scenario": "positive",
+      "label": "ride_revised_duration",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "mse_total_mean": 7590.697935151234,
+      "mse_measurement_mean": 2890.833505478285,
+      "mse_oracle_estimation_mean": 7066.934919973026,
+      "squared_error_cross_term_mean": -2367.0704903000783,
+      "total_curve_rmse_mean": 79.73189058995158,
+      "measurement_chain_curve_rmse_mean": 47.01914147922243,
+      "oracle_estimator_curve_rmse_mean": 75.44946872869396,
+      "absolute_mean_measurement_curve_rms_mean": 105.91148963493251,
+      "reference_measurement_component_mean": 105.93956466641485,
+      "mean_measurement_curve_offset_mean": 98.3005042456501,
+      "centered_mean_measurement_curve_rms_mean": 36.039092880202546,
+      "cross_term_negative_blocks": 3
+    },
+    {
+      "scenario": "positive",
+      "label": "ride_revised_duration",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "mse_total_mean": 7647.918094542569,
+      "mse_measurement_mean": 5621.614759650974,
+      "mse_oracle_estimation_mean": 11263.960295214318,
+      "squared_error_cross_term_mean": -9237.656960322724,
+      "total_curve_rmse_mean": 83.22228502511751,
+      "measurement_chain_curve_rmse_mean": 69.4702578157351,
+      "oracle_estimator_curve_rmse_mean": 102.48688094844373,
+      "absolute_mean_measurement_curve_rms_mean": 100.46871132691433,
+      "reference_measurement_component_mean": 99.64870452851578,
+      "mean_measurement_curve_offset_mean": 86.66277116975272,
+      "centered_mean_measurement_curve_rms_mean": 49.80493805442877,
+      "cross_term_negative_blocks": 6
+    },
+    {
+      "scenario": "positive",
+      "label": "ride_revised_duration",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mse_total_mean": 10407.991608826711,
+      "mse_measurement_mean": 5232.238613788982,
+      "mse_oracle_estimation_mean": 6107.292027344984,
+      "squared_error_cross_term_mean": -931.5390323072563,
+      "total_curve_rmse_mean": 91.59883927375387,
+      "measurement_chain_curve_rmse_mean": 45.93180409841036,
+      "oracle_estimator_curve_rmse_mean": 71.43053675703861,
+      "absolute_mean_measurement_curve_rms_mean": 121.61645277047481,
+      "reference_measurement_component_mean": 139.40710565559425,
+      "mean_measurement_curve_offset_mean": 111.63674549468561,
+      "centered_mean_measurement_curve_rms_mean": 36.312279497908364,
+      "cross_term_negative_blocks": 2
+    },
+    {
+      "scenario": "positive",
+      "label": "ride_revised_duration",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "mse_total_mean": 4330.107483491874,
+      "mse_measurement_mean": 1669.7182366570357,
+      "mse_oracle_estimation_mean": 4086.1170469040317,
+      "squared_error_cross_term_mean": -1425.727800069194,
+      "total_curve_rmse_mean": 60.371693358142934,
+      "measurement_chain_curve_rmse_mean": 35.26151875717347,
+      "oracle_estimator_curve_rmse_mean": 56.89721288831078,
+      "absolute_mean_measurement_curve_rms_mean": 99.50319913740853,
+      "reference_measurement_component_mean": 101.30380577148576,
+      "mean_measurement_curve_offset_mean": 95.3571426423336,
+      "centered_mean_measurement_curve_rms_mean": 25.983465208403327,
+      "cross_term_negative_blocks": 5
+    },
+    {
+      "scenario": "zero",
+      "label": "cpop_duration",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "mse_total_mean": 6335.352050144397,
+      "mse_measurement_mean": 4521.191197892031,
+      "mse_oracle_estimation_mean": 2621.7961749808096,
+      "squared_error_cross_term_mean": -807.6353227284426,
+      "total_curve_rmse_mean": 74.2191961992185,
+      "measurement_chain_curve_rmse_mean": 60.87006401837621,
+      "oracle_estimator_curve_rmse_mean": 47.51652254162555,
+      "absolute_mean_measurement_curve_rms_mean": 169.88030360272975,
+      "reference_measurement_component_mean": 167.1609654538665,
+      "mean_measurement_curve_offset_mean": 161.95623790475221,
+      "centered_mean_measurement_curve_rms_mean": 46.532871810411045,
+      "cross_term_negative_blocks": 3
+    },
+    {
+      "scenario": "zero",
+      "label": "cpop_duration",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "mse_total_mean": 6635.764759189282,
+      "mse_measurement_mean": 5596.833068594063,
+      "mse_oracle_estimation_mean": 5414.399394823013,
+      "squared_error_cross_term_mean": -4375.467704227794,
+      "total_curve_rmse_mean": 78.30563428892023,
+      "measurement_chain_curve_rmse_mean": 69.89723777569348,
+      "oracle_estimator_curve_rmse_mean": 68.2898255329415,
+      "absolute_mean_measurement_curve_rms_mean": 154.66499905217,
+      "reference_measurement_component_mean": 141.72396620735478,
+      "mean_measurement_curve_offset_mean": 146.9162670845911,
+      "centered_mean_measurement_curve_rms_mean": 45.892416961972245,
+      "cross_term_negative_blocks": 5
+    },
+    {
+      "scenario": "zero",
+      "label": "cpop_duration",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mse_total_mean": 15002.750799693687,
+      "mse_measurement_mean": 7461.140215908453,
+      "mse_oracle_estimation_mean": 2287.8239718599207,
+      "squared_error_cross_term_mean": 5253.786611925312,
+      "total_curve_rmse_mean": 80.5295584424016,
+      "measurement_chain_curve_rmse_mean": 59.215861345753055,
+      "oracle_estimator_curve_rmse_mean": 36.35161609811682,
+      "absolute_mean_measurement_curve_rms_mean": 186.48961052691763,
+      "reference_measurement_component_mean": 202.81875796335748,
+      "mean_measurement_curve_offset_mean": 176.32724249799068,
+      "centered_mean_measurement_curve_rms_mean": 46.814248865325794,
+      "cross_term_negative_blocks": 3
+    },
+    {
+      "scenario": "zero",
+      "label": "cpop_duration",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "mse_total_mean": 3859.5297416357935,
+      "mse_measurement_mean": 2389.919297198491,
+      "mse_oracle_estimation_mean": 2371.3740208237623,
+      "squared_error_cross_term_mean": -901.7635763864598,
+      "total_curve_rmse_mean": 57.76713156876714,
+      "measurement_chain_curve_rmse_mean": 45.24082947110897,
+      "oracle_estimator_curve_rmse_mean": 45.34566803415436,
+      "absolute_mean_measurement_curve_rms_mean": 160.4622156411886,
+      "reference_measurement_component_mean": 158.83105579204647,
+      "mean_measurement_curve_offset_mean": 157.21392030201469,
+      "centered_mean_measurement_curve_rms_mean": 29.749719323050456,
+      "cross_term_negative_blocks": 3
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_duration",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "mse_total_mean": 6483.81892816596,
+      "mse_measurement_mean": 4838.420225590616,
+      "mse_oracle_estimation_mean": 2621.7961749808096,
+      "squared_error_cross_term_mean": -976.3974724054644,
+      "total_curve_rmse_mean": 76.3563508160784,
+      "measurement_chain_curve_rmse_mean": 62.289026896404124,
+      "oracle_estimator_curve_rmse_mean": 47.51652254162555,
+      "absolute_mean_measurement_curve_rms_mean": 175.33372504386728,
+      "reference_measurement_component_mean": 177.90817065086446,
+      "mean_measurement_curve_offset_mean": 167.38508357633185,
+      "centered_mean_measurement_curve_rms_mean": 47.39102962054675,
+      "cross_term_negative_blocks": 4
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_duration",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "mse_total_mean": 6546.495168760835,
+      "mse_measurement_mean": 5716.174622607079,
+      "mse_oracle_estimation_mean": 5414.399394823013,
+      "squared_error_cross_term_mean": -4584.078848669256,
+      "total_curve_rmse_mean": 79.12862546321233,
+      "measurement_chain_curve_rmse_mean": 68.34585337763471,
+      "oracle_estimator_curve_rmse_mean": 68.2898255329415,
+      "absolute_mean_measurement_curve_rms_mean": 160.90888010625105,
+      "reference_measurement_component_mean": 153.06114019032282,
+      "mean_measurement_curve_offset_mean": 153.78795609022444,
+      "centered_mean_measurement_curve_rms_mean": 43.58051233397457,
+      "cross_term_negative_blocks": 4
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_duration",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mse_total_mean": 14068.36696920453,
+      "mse_measurement_mean": 6785.385935542146,
+      "mse_oracle_estimation_mean": 2287.8239718599207,
+      "squared_error_cross_term_mean": 4995.157061802461,
+      "total_curve_rmse_mean": 81.88934507240641,
+      "measurement_chain_curve_rmse_mean": 62.08817275947363,
+      "oracle_estimator_curve_rmse_mean": 36.35161609811682,
+      "absolute_mean_measurement_curve_rms_mean": 190.6365711447106,
+      "reference_measurement_component_mean": 212.65876159584366,
+      "mean_measurement_curve_offset_mean": 180.84867132638368,
+      "centered_mean_measurement_curve_rms_mean": 49.08501041948959,
+      "cross_term_negative_blocks": 3
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_duration",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "mse_total_mean": 3834.5276931166995,
+      "mse_measurement_mean": 2391.6127513495903,
+      "mse_oracle_estimation_mean": 2371.3740208237623,
+      "squared_error_cross_term_mean": -928.4590790566532,
+      "total_curve_rmse_mean": 57.85773505060196,
+      "measurement_chain_curve_rmse_mean": 44.79960013702208,
+      "oracle_estimator_curve_rmse_mean": 45.34566803415436,
+      "absolute_mean_measurement_curve_rms_mean": 165.8686603372941,
+      "reference_measurement_component_mean": 167.15090892163678,
+      "mean_measurement_curve_offset_mean": 162.85183194367866,
+      "centered_mean_measurement_curve_rms_mean": 29.138143770899195,
+      "cross_term_negative_blocks": 3
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_eta",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "mse_total_mean": 0.0005216816421594088,
+      "mse_measurement_mean": 0.0003240619255490966,
+      "mse_oracle_estimation_mean": 0.00038065043688266607,
+      "squared_error_cross_term_mean": -0.0001830307202723538,
+      "total_curve_rmse_mean": 0.02155333248700146,
+      "measurement_chain_curve_rmse_mean": 0.016512135642906184,
+      "oracle_estimator_curve_rmse_mean": 0.018062330979726038,
+      "absolute_mean_measurement_curve_rms_mean": 0.04145103967470935,
+      "reference_measurement_component_mean": -0.033804784333660486,
+      "mean_measurement_curve_offset_mean": -0.03927343193935538,
+      "centered_mean_measurement_curve_rms_mean": 0.012261153442971068,
+      "cross_term_negative_blocks": 4
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_eta",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "mse_total_mean": 0.0009494184991105278,
+      "mse_measurement_mean": 0.000373244174390204,
+      "mse_oracle_estimation_mean": 0.0008531104738602543,
+      "squared_error_cross_term_mean": -0.0002769361491399305,
+      "total_curve_rmse_mean": 0.030141556450576902,
+      "measurement_chain_curve_rmse_mean": 0.017992353204509263,
+      "oracle_estimator_curve_rmse_mean": 0.02727859271516775,
+      "absolute_mean_measurement_curve_rms_mean": 0.043274768910229494,
+      "reference_measurement_component_mean": -0.03602036523445355,
+      "mean_measurement_curve_offset_mean": -0.041135804655473666,
+      "centered_mean_measurement_curve_rms_mean": 0.013132813670425195,
+      "cross_term_negative_blocks": 4
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_eta",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mse_total_mean": 0.0006274219409149371,
+      "mse_measurement_mean": 0.00020453327373207164,
+      "mse_oracle_estimation_mean": 0.0003413205756432425,
+      "squared_error_cross_term_mean": 8.156809153962304e-05,
+      "total_curve_rmse_mean": 0.020697709949088282,
+      "measurement_chain_curve_rmse_mean": 0.012371583517580628,
+      "oracle_estimator_curve_rmse_mean": 0.012607797168997332,
+      "absolute_mean_measurement_curve_rms_mean": 0.03928634675453517,
+      "reference_measurement_component_mean": -0.03142373162341933,
+      "mean_measurement_curve_offset_mean": -0.03753063705057747,
+      "centered_mean_measurement_curve_rms_mean": 0.00978059554463814,
+      "cross_term_negative_blocks": 3
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_eta",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "mse_total_mean": 0.0004963302660638774,
+      "mse_measurement_mean": 0.00012583409628001571,
+      "mse_oracle_estimation_mean": 0.0003565267249249893,
+      "squared_error_cross_term_mean": 1.3969444858872437e-05,
+      "total_curve_rmse_mean": 0.021583041213313288,
+      "measurement_chain_curve_rmse_mean": 0.01047618972646337,
+      "oracle_estimator_curve_rmse_mean": 0.017656474764436565,
+      "absolute_mean_measurement_curve_rms_mean": 0.040253623913872105,
+      "reference_measurement_component_mean": -0.03548319356467805,
+      "mean_measurement_curve_offset_mean": -0.039429504321892656,
+      "centered_mean_measurement_curve_rms_mean": 0.007839849839793179,
+      "cross_term_negative_blocks": 3
+    },
+    {
+      "scenario": "zero",
+      "label": "ride_revised_duration",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "mse_total_mean": 5181.843944214808,
+      "mse_measurement_mean": 4798.257724862479,
+      "mse_oracle_estimation_mean": 2621.7961749808096,
+      "squared_error_cross_term_mean": -2238.2099556284807,
+      "total_curve_rmse_mean": 68.87389694738279,
+      "measurement_chain_curve_rmse_mean": 57.508902585000584,
+      "oracle_estimator_curve_rmse_mean": 47.51652254162555,
+      "absolute_mean_measurement_curve_rms_mean": 148.10261923874242,
+      "reference_measurement_component_mean": 149.639451279408,
+      "mean_measurement_curve_offset_mean": 139.16185032112517,
+      "centered_mean_measurement_curve_rms_mean": 43.85111409415887,
+      "cross_term_negative_blocks": 3
+    },
+    {
+      "scenario": "zero",
+      "label": "ride_revised_duration",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "mse_total_mean": 5559.066254149566,
+      "mse_measurement_mean": 6603.024476478701,
+      "mse_oracle_estimation_mean": 5414.399394823013,
+      "squared_error_cross_term_mean": -6458.357617152148,
+      "total_curve_rmse_mean": 71.06861339651317,
+      "measurement_chain_curve_rmse_mean": 75.0742289238437,
+      "oracle_estimator_curve_rmse_mean": 68.2898255329415,
+      "absolute_mean_measurement_curve_rms_mean": 138.6044974585862,
+      "reference_measurement_component_mean": 125.43744528913386,
+      "mean_measurement_curve_offset_mean": 127.92292479737625,
+      "centered_mean_measurement_curve_rms_mean": 51.840454305214806,
+      "cross_term_negative_blocks": 5
+    },
+    {
+      "scenario": "zero",
+      "label": "ride_revised_duration",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mse_total_mean": 10384.027830802059,
+      "mse_measurement_mean": 4706.157718737686,
+      "mse_oracle_estimation_mean": 2287.8239718599207,
+      "squared_error_cross_term_mean": 3390.0461402044502,
+      "total_curve_rmse_mean": 66.59333917507472,
+      "measurement_chain_curve_rmse_mean": 50.46508643230943,
+      "oracle_estimator_curve_rmse_mean": 36.35161609811682,
+      "absolute_mean_measurement_curve_rms_mean": 154.49096986196264,
+      "reference_measurement_component_mean": 170.3480992873709,
+      "mean_measurement_curve_offset_mean": 146.12560222311564,
+      "centered_mean_measurement_curve_rms_mean": 39.896153860839625,
+      "cross_term_negative_blocks": 3
+    },
+    {
+      "scenario": "zero",
+      "label": "ride_revised_duration",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "mse_total_mean": 2841.0287343799455,
+      "mse_measurement_mean": 2331.808751172377,
+      "mse_oracle_estimation_mean": 2371.3740208237623,
+      "squared_error_cross_term_mean": -1862.1540376161938,
+      "total_curve_rmse_mean": 51.16908826108325,
+      "measurement_chain_curve_rmse_mean": 43.50890003440199,
+      "oracle_estimator_curve_rmse_mean": 45.34566803415436,
+      "absolute_mean_measurement_curve_rms_mean": 137.44510762599177,
+      "reference_measurement_component_mean": 133.65289248138794,
+      "mean_measurement_curve_offset_mean": 133.17646031679385,
+      "centered_mean_measurement_curve_rms_mean": 32.21566397031393,
+      "cross_term_negative_blocks": 5
+    }
+  ],
+  "measurement_error": [
+    {
+      "scenario": "positive",
+      "label": "cpop_duration",
+      "events": 2048,
+      "mae": 122.4609375,
+      "rmse": 363.401895289499,
+      "mean_bias": 98.84765625,
+      "centered_error_rmse": 349.6999833484152,
+      "corr_error_dose": -0.09004967577308425,
+      "corr_error_L": -0.10432411214839253,
+      "corr_error_U": 0.052974609711281664,
+      "descriptive_linear_projection": {
+        "intercept": 159.4914997830538,
+        "dose_slope": -51.17709942897179,
+        "L_slope": -47.726313779466935,
+        "U_slope": 47.93567307943071,
+        "R_squared": 0.021027986787851116,
+        "causal_interpretation": false
+      }
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_duration",
+      "events": 2048,
+      "mae": 125.654296875,
+      "rmse": 336.9657229415182,
+      "mean_bias": 102.041015625,
+      "centered_error_rmse": 321.1440947109545,
+      "corr_error_dose": -0.10353139880451474,
+      "corr_error_L": -0.11517474152229987,
+      "corr_error_U": 0.05724448043337562,
+      "descriptive_linear_projection": {
+        "intercept": 166.14901068100093,
+        "dose_slope": -54.04532434232555,
+        "L_slope": -47.80597182369321,
+        "U_slope": 48.68842667448948,
+        "R_squared": 0.02630297115717839,
+        "causal_interpretation": false
+      }
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_eta",
+      "events": 2048,
+      "mae": 0.09227056879314732,
+      "rmse": 0.11223966328558027,
+      "mean_bias": -0.038716423413889076,
+      "centered_error_rmse": 0.10535075022275303,
+      "corr_error_dose": -0.04718921597265988,
+      "corr_error_L": -0.026006167272402254,
+      "corr_error_U": 0.023289165247867942,
+      "descriptive_linear_projection": {
+        "intercept": -0.02772829298102585,
+        "dose_slope": -0.009161756187652562,
+        "L_slope": -0.0020029538168998906,
+        "U_slope": 0.007359647201346108,
+        "R_squared": 0.003916037436531017,
+        "causal_interpretation": false
+      }
+    },
+    {
+      "scenario": "positive",
+      "label": "ride_revised_duration",
+      "events": 2048,
+      "mae": 120.52734375,
+      "rmse": 354.46923350271175,
+      "mean_bias": 98.49609375,
+      "centered_error_rmse": 340.5098486328864,
+      "corr_error_dose": -0.05637123649274701,
+      "corr_error_L": -0.0729755389259778,
+      "corr_error_U": 0.060736115074616986,
+      "descriptive_linear_projection": {
+        "intercept": 140.36248884380853,
+        "dose_slope": -35.415715703478206,
+        "L_slope": -31.764532119225617,
+        "U_slope": 46.82838268381146,
+        "R_squared": 0.012587418933630024,
+        "causal_interpretation": false
+      }
+    },
+    {
+      "scenario": "zero",
+      "label": "cpop_duration",
+      "events": 2048,
+      "mae": 172.060546875,
+      "rmse": 480.8835861593739,
+      "mean_bias": 159.169921875,
+      "centered_error_rmse": 453.77743377982824,
+      "corr_error_dose": -0.03412395836140622,
+      "corr_error_L": -0.05940396379355145,
+      "corr_error_U": 0.0449016890892214,
+      "descriptive_linear_projection": {
+        "intercept": 191.48941972487088,
+        "dose_slope": -27.59367207424713,
+        "L_slope": -37.66941148898593,
+        "U_slope": 43.3246060497045,
+        "R_squared": 0.0066744384067288776,
+        "causal_interpretation": false
+      }
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_duration",
+      "events": 2048,
+      "mae": 178.06640625,
+      "rmse": 442.7343129632037,
+      "mean_bias": 164.53125,
+      "centered_error_rmse": 411.02693299641265,
+      "corr_error_dose": -0.04382945069016279,
+      "corr_error_L": -0.06547981677935658,
+      "corr_error_U": 0.05287653878631504,
+      "descriptive_linear_projection": {
+        "intercept": 203.34391363647137,
+        "dose_slope": -32.963419931202615,
+        "L_slope": -35.97864395332688,
+        "U_slope": 47.61899746091691,
+        "R_squared": 0.009141881771007832,
+        "causal_interpretation": false
+      }
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_eta",
+      "events": 2048,
+      "mae": 0.09227056879314732,
+      "rmse": 0.11223966328558027,
+      "mean_bias": -0.038716423413889076,
+      "centered_error_rmse": 0.10535075022275305,
+      "corr_error_dose": -0.047189215972659904,
+      "corr_error_L": -0.02600616727240227,
+      "corr_error_U": 0.023289165247867907,
+      "descriptive_linear_projection": {
+        "intercept": -0.02772829298102584,
+        "dose_slope": -0.00916175618765257,
+        "L_slope": -0.002002953816899889,
+        "U_slope": 0.007359647201346121,
+        "R_squared": 0.003916037436531128,
+        "causal_interpretation": false
+      }
+    },
+    {
+      "scenario": "zero",
+      "label": "ride_revised_duration",
+      "events": 2048,
+      "mae": 147.890625,
+      "rmse": 453.3003970878473,
+      "mean_bias": 133.18359375,
+      "centered_error_rmse": 433.2936421825676,
+      "corr_error_dose": -0.03530867667597416,
+      "corr_error_L": -0.052300041304659116,
+      "corr_error_U": 0.036226172298092794,
+      "descriptive_linear_projection": {
+        "intercept": 164.37463822911582,
+        "dose_slope": -26.496209290432773,
+        "L_slope": -30.838546717742176,
+        "U_slope": 35.12868027823081,
+        "R_squared": 0.005254125797653386,
+        "causal_interpretation": false
+      }
+    }
+  ],
+  "dose_bin_error": [
+    {
+      "scenario": "positive",
+      "label": "cpop_duration",
+      "lo": 0.0,
+      "hi": 0.6,
+      "events": 480,
+      "mean_dose": 0.33049045013033024,
+      "mean_bias": 152.625,
+      "mae": 170.375
+    },
+    {
+      "scenario": "positive",
+      "label": "cpop_duration",
+      "lo": 0.6,
+      "hi": 1.2,
+      "events": 517,
+      "mean_dose": 0.9072361198432749,
+      "mean_bias": 106.42166344294004,
+      "mae": 129.16827852998065
+    },
+    {
+      "scenario": "positive",
+      "label": "cpop_duration",
+      "lo": 1.2,
+      "hi": 1.8,
+      "events": 558,
+      "mean_dose": 1.4951366645256419,
+      "mean_bias": 75.80645161290323,
+      "mae": 103.33333333333333
+    },
+    {
+      "scenario": "positive",
+      "label": "cpop_duration",
+      "lo": 1.8,
+      "hi": 2.4,
+      "events": 493,
+      "mean_dose": 2.0638299709113803,
+      "mean_bias": 64.62474645030426,
+      "mae": 90.42596348884382
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_duration",
+      "lo": 0.0,
+      "hi": 0.6,
+      "events": 480,
+      "mean_dose": 0.33049045013033024,
+      "mean_bias": 157.5,
+      "mae": 175.5
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_duration",
+      "lo": 0.6,
+      "hi": 1.2,
+      "events": 517,
+      "mean_dose": 0.9072361198432749,
+      "mean_bias": 112.22437137330755,
+      "mae": 135.20309477756285
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_duration",
+      "lo": 1.2,
+      "hi": 1.8,
+      "events": 558,
+      "mean_dose": 1.4951366645256419,
+      "mean_bias": 77.09677419354838,
+      "mae": 103.97849462365592
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_duration",
+      "lo": 1.8,
+      "hi": 2.4,
+      "events": 493,
+      "mean_dose": 2.0638299709113803,
+      "mean_bias": 65.59837728194726,
+      "mae": 91.64300202839756
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_eta",
+      "lo": 0.0,
+      "hi": 0.6,
+      "events": 480,
+      "mean_dose": 0.33049045013033024,
+      "mean_bias": -0.03050058498996771,
+      "mae": 0.09410921444540424
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_eta",
+      "lo": 0.6,
+      "hi": 1.2,
+      "events": 517,
+      "mean_dose": 0.9072361198432749,
+      "mean_bias": -0.033790976173061475,
+      "mae": 0.08750122952736324
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_eta",
+      "lo": 1.2,
+      "hi": 1.8,
+      "events": 558,
+      "mean_dose": 1.4951366645256419,
+      "mean_bias": -0.047635563732733845,
+      "mae": 0.0964005126680287
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_eta",
+      "lo": 1.8,
+      "hi": 2.4,
+      "events": 493,
+      "mean_dose": 2.0638299709113803,
+      "mean_bias": -0.041785750734527484,
+      "mae": 0.09080746494962452
+    },
+    {
+      "scenario": "positive",
+      "label": "ride_revised_duration",
+      "lo": 0.0,
+      "hi": 0.6,
+      "events": 480,
+      "mean_dose": 0.33049045013033024,
+      "mean_bias": 128.375,
+      "mae": 147.125
+    },
+    {
+      "scenario": "positive",
+      "label": "ride_revised_duration",
+      "lo": 0.6,
+      "hi": 1.2,
+      "events": 517,
+      "mean_dose": 0.9072361198432749,
+      "mean_bias": 109.0909090909091,
+      "mae": 132.0696324951644
+    },
+    {
+      "scenario": "positive",
+      "label": "ride_revised_duration",
+      "lo": 1.2,
+      "hi": 1.8,
+      "events": 558,
+      "mean_dose": 1.4951366645256419,
+      "mean_bias": 81.0752688172043,
+      "mae": 105.16129032258064
+    },
+    {
+      "scenario": "positive",
+      "label": "ride_revised_duration",
+      "lo": 1.8,
+      "hi": 2.4,
+      "events": 493,
+      "mean_dose": 2.0638299709113803,
+      "mean_bias": 78.01217038539554,
+      "mae": 99.91886409736308
+    },
+    {
+      "scenario": "zero",
+      "label": "cpop_duration",
+      "lo": 0.0,
+      "hi": 0.6,
+      "events": 480,
+      "mean_dose": 0.33049045013033024,
+      "mean_bias": 185.75,
+      "mae": 200.75
+    },
+    {
+      "scenario": "zero",
+      "label": "cpop_duration",
+      "lo": 0.6,
+      "hi": 1.2,
+      "events": 517,
+      "mean_dose": 0.9072361198432749,
+      "mean_bias": 159.92263056092844,
+      "mae": 172.92069632495165
+    },
+    {
+      "scenario": "zero",
+      "label": "cpop_duration",
+      "lo": 1.2,
+      "hi": 1.8,
+      "events": 558,
+      "mean_dose": 1.4951366645256419,
+      "mean_bias": 156.0215053763441,
+      "mae": 170.21505376344086
+    },
+    {
+      "scenario": "zero",
+      "label": "cpop_duration",
+      "lo": 1.8,
+      "hi": 2.4,
+      "events": 493,
+      "mean_dose": 2.0638299709113803,
+      "mean_bias": 136.06490872210952,
+      "mae": 145.31440162271807
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_duration",
+      "lo": 0.0,
+      "hi": 0.6,
+      "events": 480,
+      "mean_dose": 0.33049045013033024,
+      "mean_bias": 193.5,
+      "mae": 208.5
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_duration",
+      "lo": 0.6,
+      "hi": 1.2,
+      "events": 517,
+      "mean_dose": 0.9072361198432749,
+      "mean_bias": 167.2340425531915,
+      "mae": 181.6247582205029
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_duration",
+      "lo": 1.2,
+      "hi": 1.8,
+      "events": 558,
+      "mean_dose": 1.4951366645256419,
+      "mean_bias": 160.32258064516128,
+      "mae": 175.16129032258064
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_duration",
+      "lo": 1.8,
+      "hi": 2.4,
+      "events": 493,
+      "mean_dose": 2.0638299709113803,
+      "mean_bias": 138.2555780933063,
+      "mae": 147.9918864097363
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_eta",
+      "lo": 0.0,
+      "hi": 0.6,
+      "events": 480,
+      "mean_dose": 0.33049045013033024,
+      "mean_bias": -0.03050058498996771,
+      "mae": 0.09410921444540424
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_eta",
+      "lo": 0.6,
+      "hi": 1.2,
+      "events": 517,
+      "mean_dose": 0.9072361198432749,
+      "mean_bias": -0.03379097617306147,
+      "mae": 0.08750122952736322
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_eta",
+      "lo": 1.2,
+      "hi": 1.8,
+      "events": 558,
+      "mean_dose": 1.4951366645256419,
+      "mean_bias": -0.047635563732733845,
+      "mae": 0.0964005126680287
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_eta",
+      "lo": 1.8,
+      "hi": 2.4,
+      "events": 493,
+      "mean_dose": 2.0638299709113803,
+      "mean_bias": -0.04178575073452749,
+      "mae": 0.09080746494962452
+    },
+    {
+      "scenario": "zero",
+      "label": "ride_revised_duration",
+      "lo": 0.0,
+      "hi": 0.6,
+      "events": 480,
+      "mean_dose": 0.33049045013033024,
+      "mean_bias": 150.75,
+      "mae": 168.5
+    },
+    {
+      "scenario": "zero",
+      "label": "ride_revised_duration",
+      "lo": 0.6,
+      "hi": 1.2,
+      "events": 517,
+      "mean_dose": 0.9072361198432749,
+      "mean_bias": 135.20309477756285,
+      "mae": 151.68278529980657
+    },
+    {
+      "scenario": "zero",
+      "label": "ride_revised_duration",
+      "lo": 1.2,
+      "hi": 1.8,
+      "events": 558,
+      "mean_dose": 1.4951366645256419,
+      "mean_bias": 144.83870967741936,
+      "mae": 159.03225806451613
+    },
+    {
+      "scenario": "zero",
+      "label": "ride_revised_duration",
+      "lo": 1.8,
+      "hi": 2.4,
+      "events": 493,
+      "mean_dose": 2.0638299709113803,
+      "mean_bias": 100.77079107505071,
+      "mae": 111.23732251521298
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "scenario": "positive",
+      "label": "ride_revised_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -3.490394435165932,
+      "descriptive_MC95": [
+        -30.91888817257199,
+        23.938099302240126
+      ],
+      "blocks_negative": 2
+    },
+    {
+      "scenario": "positive",
+      "label": "ride_revised_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": 19.36019723180866,
+      "descriptive_MC95": [
+        -2.184883553447861,
+        40.90527801706518
+      ],
+      "blocks_negative": 3
+    },
+    {
+      "scenario": "positive",
+      "label": "ride_revised_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": -11.866948683802281,
+      "descriptive_MC95": [
+        -36.239229698095166,
+        12.505332330490603
+      ],
+      "blocks_negative": 6
+    },
+    {
+      "scenario": "positive",
+      "label": "cpop_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -9.144046386726025,
+      "descriptive_MC95": [
+        -33.219690001526075,
+        14.931597228074029
+      ],
+      "blocks_negative": 4
+    },
+    {
+      "scenario": "positive",
+      "label": "cpop_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": 17.41741422116457,
+      "descriptive_MC95": [
+        -5.497219973071857,
+        40.332048415401
+      ],
+      "blocks_negative": 2
+    },
+    {
+      "scenario": "positive",
+      "label": "cpop_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": -12.596425795998426,
+      "descriptive_MC95": [
+        -43.77189595757806,
+        18.579044365581204
+      ],
+      "blocks_negative": 5
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -8.460221622001221,
+      "descriptive_MC95": [
+        -32.68700646335681,
+        15.76656321935437
+      ],
+      "blocks_negative": 3
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": 19.764743991591565,
+      "descriptive_MC95": [
+        -1.9644178218612716,
+        41.493905805044406
+      ],
+      "blocks_negative": 2
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": -11.688440857579199,
+      "descriptive_MC95": [
+        -40.085961038508046,
+        16.70907932334965
+      ],
+      "blocks_negative": 5
+    },
+    {
+      "scenario": "positive",
+      "label": "true_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -27.037412219749772,
+      "descriptive_MC95": [
+        -46.84117500409911,
+        -7.233649435400437
+      ],
+      "blocks_negative": 7
+    },
+    {
+      "scenario": "positive",
+      "label": "true_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": 18.552255840383168,
+      "descriptive_MC95": [
+        1.0124446489637968,
+        36.09206703180254
+      ],
+      "blocks_negative": 2
+    },
+    {
+      "scenario": "positive",
+      "label": "true_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": 4.018931971655335,
+      "descriptive_MC95": [
+        -15.431367470991596,
+        23.469231414302264
+      ],
+      "blocks_negative": 2
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -0.011488262836577634,
+      "descriptive_MC95": [
+        -0.021842006692117284,
+        -0.0011345189810379862
+      ],
+      "blocks_negative": 7
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": 0.005698407818043302,
+      "descriptive_MC95": [
+        -0.0039069003412705305,
+        0.015303715977357135
+      ],
+      "blocks_negative": 3
+    },
+    {
+      "scenario": "positive",
+      "label": "raw_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": -0.0006804765690385575,
+      "descriptive_MC95": [
+        -0.006857449684536038,
+        0.005496496546458922
+      ],
+      "blocks_negative": 4
+    },
+    {
+      "scenario": "positive",
+      "label": "true_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -0.010335546454439976,
+      "descriptive_MC95": [
+        -0.01814803021521937,
+        -0.0025230626936605842
+      ],
+      "blocks_negative": 7
+    },
+    {
+      "scenario": "positive",
+      "label": "true_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": 0.008665296400420467,
+      "descriptive_MC95": [
+        0.002057467177915691,
+        0.015273125622925243
+      ],
+      "blocks_negative": 2
+    },
+    {
+      "scenario": "positive",
+      "label": "true_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": 0.0026980326253614345,
+      "descriptive_MC95": [
+        -0.005478338292488807,
+        0.010874403543211675
+      ],
+      "blocks_negative": 2
+    },
+    {
+      "scenario": "positive",
+      "label": "duration_measurement_comparison",
+      "candidate": "ride_revised_duration",
+      "baseline": "cpop_duration",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "mean": -7.558287057094866,
+      "descriptive_MC95": [
+        -17.428279176816943,
+        2.3117050626272135
+      ],
+      "blocks_negative": 6
+    },
+    {
+      "scenario": "positive",
+      "label": "duration_measurement_comparison",
+      "candidate": "ride_revised_duration",
+      "baseline": "cpop_duration",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -13.211939008654962,
+      "descriptive_MC95": [
+        -20.133426707325004,
+        -6.2904513099849195
+      ],
+      "blocks_negative": 7
+    },
+    {
+      "scenario": "positive",
+      "label": "duration_measurement_comparison",
+      "candidate": "ride_revised_duration",
+      "baseline": "cpop_duration",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": -9.501070067738958,
+      "descriptive_MC95": [
+        -16.70921564866432,
+        -2.2929244868135967
+      ],
+      "blocks_negative": 7
+    },
+    {
+      "scenario": "positive",
+      "label": "duration_measurement_comparison",
+      "candidate": "ride_revised_duration",
+      "baseline": "cpop_duration",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": -8.287764169291012,
+      "descriptive_MC95": [
+        -24.773604550744526,
+        8.198076212162501
+      ],
+      "blocks_negative": 4
+    },
+    {
+      "scenario": "zero",
+      "label": "ride_revised_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -2.1947164491303814,
+      "descriptive_MC95": [
+        -20.94087043445476,
+        16.551437536193994
+      ],
+      "blocks_negative": 3
+    },
+    {
+      "scenario": "zero",
+      "label": "ride_revised_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": 17.704808686299536,
+      "descriptive_MC95": [
+        -2.730656243363452,
+        38.14027361596253
+      ],
+      "blocks_negative": 3
+    },
+    {
+      "scenario": "zero",
+      "label": "ride_revised_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": 2.280557772308068,
+      "descriptive_MC95": [
+        -46.650596494792666,
+        51.21171203940881
+      ],
+      "blocks_negative": 3
+    },
+    {
+      "scenario": "zero",
+      "label": "cpop_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -4.086438089701733,
+      "descriptive_MC95": [
+        -19.39775753897845,
+        11.224881359574983
+      ],
+      "blocks_negative": 5
+    },
+    {
+      "scenario": "zero",
+      "label": "cpop_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": 16.452064630451353,
+      "descriptive_MC95": [
+        -6.334922982894248,
+        39.239052243796955
+      ],
+      "blocks_negative": 2
+    },
+    {
+      "scenario": "zero",
+      "label": "cpop_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": -6.3103622431831,
+      "descriptive_MC95": [
+        -63.97378128598927,
+        51.35305679962307
+      ],
+      "blocks_negative": 3
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -2.772274647133914,
+      "descriptive_MC95": [
+        -17.40353076024363,
+        11.858981465975802
+      ],
+      "blocks_negative": 4
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": 18.49861576547645,
+      "descriptive_MC95": [
+        -3.543971580763742,
+        40.54120311171664
+      ],
+      "blocks_negative": 2
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": -5.53299425632801,
+      "descriptive_MC95": [
+        -60.06325408914386,
+        48.99726557648784
+      ],
+      "blocks_negative": 4
+    },
+    {
+      "scenario": "zero",
+      "label": "true_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -20.77330299131595,
+      "descriptive_MC95": [
+        -36.76874168140575,
+        -4.777864301226151
+      ],
+      "blocks_negative": 6
+    },
+    {
+      "scenario": "zero",
+      "label": "true_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": 2.1708545074711814,
+      "descriptive_MC95": [
+        -12.836717290291768,
+        17.17842630523413
+      ],
+      "blocks_negative": 3
+    },
+    {
+      "scenario": "zero",
+      "label": "true_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": 11.164906443508725,
+      "descriptive_MC95": [
+        -10.63870159085234,
+        32.96851447786979
+      ],
+      "blocks_negative": 1
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -0.00858822396357544,
+      "descriptive_MC95": [
+        -0.01591955509627865,
+        -0.0012568928308722303
+      ],
+      "blocks_negative": 7
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": -2.9708726311826906e-05,
+      "descriptive_MC95": [
+        -0.007005548184630575,
+        0.006946130732006922
+      ],
+      "blocks_negative": 6
+    },
+    {
+      "scenario": "zero",
+      "label": "raw_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": 0.0008556225379131793,
+      "descriptive_MC95": [
+        -0.009471837797526817,
+        0.011183082873353177
+      ],
+      "blocks_negative": 3
+    },
+    {
+      "scenario": "zero",
+      "label": "true_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -0.009216261735441711,
+      "descriptive_MC95": [
+        -0.01641376518459876,
+        -0.0020187582862846625
+      ],
+      "blocks_negative": 6
+    },
+    {
+      "scenario": "zero",
+      "label": "true_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": 0.00040585621528947484,
+      "descriptive_MC95": [
+        -0.006017713632401413,
+        0.0068294260629803635
+      ],
+      "blocks_negative": 4
+    },
+    {
+      "scenario": "zero",
+      "label": "true_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": 0.005454533810728709,
+      "descriptive_MC95": [
+        -0.004590762734517842,
+        0.01549983035597526
+      ],
+      "blocks_negative": 2
+    },
+    {
+      "scenario": "zero",
+      "label": "duration_measurement_comparison",
+      "candidate": "ride_revised_duration",
+      "baseline": "cpop_duration",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "mean": -5.345299251835706,
+      "descriptive_MC95": [
+        -20.795344871709755,
+        10.104746368038342
+      ],
+      "blocks_negative": 4
+    },
+    {
+      "scenario": "zero",
+      "label": "duration_measurement_comparison",
+      "candidate": "ride_revised_duration",
+      "baseline": "cpop_duration",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -7.237020892407059,
+      "descriptive_MC95": [
+        -19.203480203078037,
+        4.72943841826392
+      ],
+      "blocks_negative": 5
+    },
+    {
+      "scenario": "zero",
+      "label": "duration_measurement_comparison",
+      "candidate": "ride_revised_duration",
+      "baseline": "cpop_duration",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": -6.598043307683888,
+      "descriptive_MC95": [
+        -15.371181436861903,
+        2.1750948214941275
+      ],
+      "blocks_negative": 5
+    },
+    {
+      "scenario": "zero",
+      "label": "duration_measurement_comparison",
+      "candidate": "ride_revised_duration",
+      "baseline": "cpop_duration",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": -13.936219267326873,
+      "descriptive_MC95": [
+        -26.64696572013854,
+        -1.225472814515209
+      ],
+      "blocks_negative": 6
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "ride_revised_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -2.8425554421481563,
+      "descriptive_MC95": [
+        -23.07600200249923,
+        17.390891118202916
+      ],
+      "blocks_negative": 4
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "ride_revised_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": 18.5325029590541,
+      "descriptive_MC95": [
+        1.4783196365321487,
+        35.58668628157605
+      ],
+      "blocks_negative": 2
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "ride_revised_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": -4.793195455747108,
+      "descriptive_MC95": [
+        -39.565525465744024,
+        29.979134554249804
+      ],
+      "blocks_negative": 3
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "cpop_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -6.615242238213884,
+      "descriptive_MC95": [
+        -25.680230952868964,
+        12.449746476441195
+      ],
+      "blocks_negative": 5
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "cpop_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": 16.934739425807958,
+      "descriptive_MC95": [
+        -3.6333642676040903,
+        37.50284311922
+      ],
+      "blocks_negative": 2
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "cpop_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": -9.453394019590768,
+      "descriptive_MC95": [
+        -53.32512132920457,
+        34.418333290023035
+      ],
+      "blocks_negative": 5
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "raw_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -5.616248134567566,
+      "descriptive_MC95": [
+        -24.36717026634077,
+        13.134673997205638
+      ],
+      "blocks_negative": 4
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "raw_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": 19.13167987853401,
+      "descriptive_MC95": [
+        0.06772160815209816,
+        38.19563814891592
+      ],
+      "blocks_negative": 2
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "raw_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": -8.610717556953599,
+      "descriptive_MC95": [
+        -49.0241487109047,
+        31.802713596997496
+      ],
+      "blocks_negative": 4
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "true_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -23.905357605532863,
+      "descriptive_MC95": [
+        -40.54000187197822,
+        -7.270713339087511
+      ],
+      "blocks_negative": 6
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "true_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": 10.361555173927176,
+      "descriptive_MC95": [
+        -4.780471600864365,
+        25.50358194871872
+      ],
+      "blocks_negative": 3
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "true_duration",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": 7.591919207582033,
+      "descriptive_MC95": [
+        -6.279454661182089,
+        21.463293076346154
+      ],
+      "blocks_negative": 3
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "raw_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -0.010038243400076537,
+      "descriptive_MC95": [
+        -0.0183969044867804,
+        -0.001679582313372674
+      ],
+      "blocks_negative": 7
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "raw_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": 0.0028343495458657366,
+      "descriptive_MC95": [
+        -0.00508277914373771,
+        0.010751478235469182
+      ],
+      "blocks_negative": 5
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "raw_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": 8.757298443731092e-05,
+      "descriptive_MC95": [
+        -0.0056590775654787855,
+        0.005834223534353408
+      ],
+      "blocks_negative": 4
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "true_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -0.009775904094940845,
+      "descriptive_MC95": [
+        -0.01666620065506319,
+        -0.0028856075348184986
+      ],
+      "blocks_negative": 6
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "true_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": 0.00453557630785497,
+      "descriptive_MC95": [
+        -0.0012854573945971365,
+        0.010356610010307077
+      ],
+      "blocks_negative": 2
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "true_eta",
+      "candidate": "Kennedy_DR_local_linear",
+      "baseline": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": 0.004076283218045071,
+      "descriptive_MC95": [
+        -0.002637388401202947,
+        0.010789954837293088
+      ],
+      "blocks_negative": 3
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "duration_measurement_comparison",
+      "candidate": "ride_revised_duration",
+      "baseline": "cpop_duration",
+      "estimator": "Kennedy_DR_local_linear",
+      "blocks": 8,
+      "mean": -6.451793154465284,
+      "descriptive_MC95": [
+        -15.698142889094097,
+        2.7945565801635297
+      ],
+      "blocks_negative": 6
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "duration_measurement_comparison",
+      "candidate": "ride_revised_duration",
+      "baseline": "cpop_duration",
+      "estimator": "plugin_shared_outcome",
+      "blocks": 8,
+      "mean": -10.224479950531009,
+      "descriptive_MC95": [
+        -19.22131497353578,
+        -1.2276449275262387
+      ],
+      "blocks_negative": 6
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "duration_measurement_comparison",
+      "candidate": "ride_revised_duration",
+      "baseline": "cpop_duration",
+      "estimator": "unadjusted_local_linear",
+      "blocks": 8,
+      "mean": -8.049556687711423,
+      "descriptive_MC95": [
+        -15.599215911176588,
+        -0.49989746424625814
+      ],
+      "blocks_negative": 6
+    },
+    {
+      "scenario": "pooled_equal_positive_zero",
+      "label": "duration_measurement_comparison",
+      "candidate": "ride_revised_duration",
+      "baseline": "cpop_duration",
+      "estimator": "straight_line_same_pseudo_outcome",
+      "blocks": 8,
+      "mean": -11.111991718308944,
+      "descriptive_MC95": [
+        -23.426212638025635,
+        1.2022292014077465
+      ],
+      "blocks_negative": 5
+    }
+  ],
+  "identity_max_abs": 0.0,
+  "square_identity_max_abs": 1.4551915228366852e-11
+}

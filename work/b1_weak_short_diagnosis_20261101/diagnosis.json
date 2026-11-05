@@ -1,0 +1,203 @@
+{
+  "all": {
+    "records": 121,
+    "base_trajectories": 37,
+    "cp_misses": 82,
+    "retained_misses": 86,
+    "new_misses": 86,
+    "old_extra_losses": 4,
+    "old_rescues": 0,
+    "new_gate_losses": 0,
+    "new_gate_rejections": 0,
+    "whole_no_positive": 38,
+    "wrong_location_positive": 48
+  },
+  "failed": {
+    "records": 86,
+    "base_trajectories": 31,
+    "cp_misses": 82,
+    "retained_misses": 86,
+    "new_misses": 86,
+    "old_extra_losses": 4,
+    "old_rescues": 0,
+    "new_gate_losses": 0,
+    "new_gate_rejections": 0,
+    "whole_no_positive": 38,
+    "wrong_location_positive": 48
+  },
+  "by_kind": {
+    "one_bin_response": {
+      "records": 54,
+      "base_trajectories": 18,
+      "cp_misses": 32,
+      "retained_misses": 32,
+      "new_misses": 32,
+      "old_extra_losses": 0,
+      "old_rescues": 0,
+      "new_gate_losses": 0,
+      "new_gate_rejections": 0,
+      "whole_no_positive": 17,
+      "wrong_location_positive": 15
+    },
+    "oscillatory": {
+      "records": 67,
+      "base_trajectories": 19,
+      "cp_misses": 50,
+      "retained_misses": 54,
+      "new_misses": 54,
+      "old_extra_losses": 4,
+      "old_rescues": 0,
+      "new_gate_losses": 0,
+      "new_gate_rejections": 0,
+      "whole_no_positive": 21,
+      "wrong_location_positive": 33
+    }
+  },
+  "by_condition": {
+    "gaussian": {
+      "records": 37,
+      "base_trajectories": 37,
+      "cp_misses": 28,
+      "retained_misses": 28,
+      "new_misses": 28,
+      "old_extra_losses": 0,
+      "old_rescues": 0,
+      "new_gate_losses": 0,
+      "new_gate_rejections": 0,
+      "whole_no_positive": 28,
+      "wrong_location_positive": 0
+    },
+    "gaussian_plus_spikes": {
+      "records": 27,
+      "base_trajectories": 27,
+      "cp_misses": 16,
+      "retained_misses": 17,
+      "new_misses": 17,
+      "old_extra_losses": 1,
+      "old_rescues": 0,
+      "new_gate_losses": 0,
+      "new_gate_rejections": 0,
+      "whole_no_positive": 2,
+      "wrong_location_positive": 15
+    },
+    "mixed_anomalies": {
+      "records": 37,
+      "base_trajectories": 37,
+      "cp_misses": 24,
+      "retained_misses": 25,
+      "new_misses": 25,
+      "old_extra_losses": 1,
+      "old_rescues": 0,
+      "new_gate_losses": 0,
+      "new_gate_rejections": 0,
+      "whole_no_positive": 6,
+      "wrong_location_positive": 19
+    },
+    "persistent_bursts": {
+      "records": 10,
+      "base_trajectories": 10,
+      "cp_misses": 7,
+      "retained_misses": 7,
+      "new_misses": 7,
+      "old_extra_losses": 0,
+      "old_rescues": 0,
+      "new_gate_losses": 0,
+      "new_gate_rejections": 0,
+      "whole_no_positive": 2,
+      "wrong_location_positive": 5
+    },
+    "single_sample_spikes": {
+      "records": 10,
+      "base_trajectories": 10,
+      "cp_misses": 7,
+      "retained_misses": 9,
+      "new_misses": 9,
+      "old_extra_losses": 2,
+      "old_rescues": 0,
+      "new_gate_losses": 0,
+      "new_gate_rejections": 0,
+      "whole_no_positive": 0,
+      "wrong_location_positive": 9
+    }
+  },
+  "cpop_miss_observation_split": {
+    "True": {
+      "records": 59,
+      "base_trajectories": 24,
+      "cp_misses": 59,
+      "retained_misses": 59,
+      "new_misses": 59,
+      "old_extra_losses": 0,
+      "old_rescues": 0,
+      "new_gate_losses": 0,
+      "new_gate_rejections": 0,
+      "whole_no_positive": 27,
+      "wrong_location_positive": 32
+    },
+    "False": {
+      "records": 23,
+      "base_trajectories": 9,
+      "cp_misses": 23,
+      "retained_misses": 23,
+      "new_misses": 23,
+      "old_extra_losses": 0,
+      "old_rescues": 0,
+      "new_gate_losses": 0,
+      "new_gate_rejections": 0,
+      "whole_no_positive": 11,
+      "wrong_location_positive": 12
+    }
+  },
+  "cpop_miss_signal_remaining": {
+    "True": {
+      "records": 49,
+      "base_trajectories": 18,
+      "cp_misses": 49,
+      "retained_misses": 49,
+      "new_misses": 49,
+      "old_extra_losses": 0,
+      "old_rescues": 0,
+      "new_gate_losses": 0,
+      "new_gate_rejections": 0,
+      "whole_no_positive": 21,
+      "wrong_location_positive": 28
+    },
+    "False": {
+      "records": 33,
+      "base_trajectories": 16,
+      "cp_misses": 33,
+      "retained_misses": 33,
+      "new_misses": 33,
+      "old_extra_losses": 0,
+      "old_rescues": 0,
+      "new_gate_losses": 0,
+      "new_gate_rejections": 0,
+      "whole_no_positive": 17,
+      "wrong_location_positive": 16
+    }
+  },
+  "new_gate_rejections_among_failed": 0,
+  "cpop_miss_threshold_margins": {
+    "0.005": 53,
+    "0.03": 26,
+    "0.1": 3
+  },
+  "no_finebin_positive_truth_in_stress_subset": true,
+  "physical_short_base_failures": [
+    "cpop-short-7742300-one_bin_response-0",
+    "cpop-short-7742300-one_bin_response-1",
+    "cpop-short-7742301-one_bin_response-0",
+    "cpop-short-7742301-one_bin_response-1",
+    "cpop-short-7742302-one_bin_response-0",
+    "cpop-short-7742302-one_bin_response-1",
+    "cpop-short-7742302-one_bin_response-2",
+    "cpop-short-7742303-one_bin_response-0",
+    "cpop-short-7742303-one_bin_response-1",
+    "cpop-short-7742304-one_bin_response-0",
+    "cpop-short-7742304-one_bin_response-1",
+    "cpop-short-7742305-one_bin_response-0",
+    "cpop-short-7742305-one_bin_response-1",
+    "cpop-short-7742305-one_bin_response-2"
+  ],
+  "duration_only_new_estimator_does_not_change_location_mask": true
+}

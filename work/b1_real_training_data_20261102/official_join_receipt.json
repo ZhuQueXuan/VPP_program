@@ -1,0 +1,15 @@
+{
+  "complete_official_sessions": 3830,
+  "matched_raw_sessions": 3317,
+  "matched_with_user": 1878,
+  "unique_matched_users": 195,
+  "matched_locations": {
+    "California_Garage_01": 2017,
+    "Parking_Lot_01": 1300
+  },
+  "v1_downloads_matched": 203,
+  "v1_user_cross_split": [],
+  "all_user_metadata_from_official_public_download": true,
+  "vehicle_id_not_provided": true,
+  "malformed_2018_2019_responses_excluded": true
+}

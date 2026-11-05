@@ -1,0 +1,23 @@
+{
+  "completed": true,
+  "scope": "requirements and code audit only",
+  "source_files_unchanged": 203,
+  "source_files_changed": [],
+  "local_links_verified": 7,
+  "PDF_primary_pages_reexamined": [
+    5,
+    6,
+    12,
+    13
+  ],
+  "same_F0_bytes_confirmed": true,
+  "fixed_B2_artifact_identity_matched": true,
+  "business_models_loaded": false,
+  "training_or_new_simulation": false,
+  "algorithm_changed": false,
+  "report_changed": false,
+  "project_basis_changed": false,
+  "task_minutes_changed": false,
+  "findings_are_analysis_and_proposals": true,
+  "main_analysis_sha256": "a0f4379cdadd842809ee6aab9b1f97915029390b80dc422183092ac45b2fabe2"
+}

@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-11-02T14:48:32.281662+00:00",
+  "selected_k": 3,
+  "training_safety_passed": true,
+  "before_validation_algorithm_outputs": true,
+  "source_sha256": {
+    "protocol.json": "cc818014c5b2a8dc0621259c1c6e73a999bd8cfb2bed025f4a9c0c5ade3f2c63",
+    "common.py": "421d38823482ed50f232e05d06ccbc7c6db32208f83a8045b4d78f28bf191aba",
+    "train_select.py": "8e6a8617ddee8384946a446d05476dc7a7607a55b3b4875b954a7122abc7fca3"
+  },
+  "input_training_sha256": "fdf249f56b2dabc68563c276c0d4de5411e0429e19d9dc470ff4b8f61dbc1e70",
+  "input_validation_sha256": "50272e590d1b8417dc84223b52e889722dab6ca62e249cafbd918b893dd3edc9",
+  "validation_labels_not_used_for_selection": true
+}

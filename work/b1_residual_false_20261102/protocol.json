@@ -1,0 +1,19 @@
+{
+  "scope":"Known-reference first-block effective-response qualification only. All adopted versions, original CPOP and LABS preserved. No prediction, report or second-block work.",
+  "diagnosis":"444 remaining false-effective tasks on prior seen2808:405 have injected contamination,39 Gaussian only;123 physically null and321 weak physical changes below criterion. Quiet median scope283FP also contains all300 genuine short responses, so blanket isolated-point suppression is forbidden.",
+  "method":"Improve task qualification from original observations and current frozen structural features, adding multiscale evidence close to0.15kW. Weighted standard HGB classifier; reject only adopted positive low-background tasks, never replace measured points. Separate quiet/weak score cuts chosen on validation with zero true-task rejections. Scores are not calibrated probabilities.",
+  "leaves":[7,15,31],"iterations":300,
+  "quiet_thresholds":[0,0.0001,0.001,0.005,0.01,0.025,0.05],
+  "weak_thresholds":[0.001,0.005,0.01,0.025,0.05,0.10],
+  "training_weights":"Effective positives5, all effective-short<=60s positives50, negatives1. Task kind, condition, seed and latent truth never inference inputs.",
+  "main_validation_seeds":[7801000,7801001],"main_validation_per_kind":3,
+  "weak_validation_seeds":[7801300,7801301],"weak_validation_per_kind":6,
+  "main_test_seeds":[7802000,7802001,7802002,7802003],"main_test_per_kind":3,
+  "weak_test_seeds":[7802300,7802301,7802302,7802303],"weak_test_per_kind":6,
+  "balanced_peaks_kw":[0.08,0.13,0.145,0.155,0.18,0.25],
+  "adoption_gates":{"false_effective_reduction_minimum":0.10,"no_true_effective_task_rejected":true,"no_added_whole_local_effective_short_or_genuine_short_miss_each_panel":true,"false_tasks_nonincrease_each_panel":true,"duration_noninferiority_seconds_each_panel":2},
+  "development":"All prior data including7791/7792 explicitly development. Fresh7801 validation excludes fitting;7802 generated only after configuration freeze, no final tuning.",
+  "amplitudes":"All weak shapes x seeds randomized six independent continuous strata0.07..0.30kW. Paired noise variants not independent vehicles.",
+  "opensource":"Official scikit-learn Github ensemble and HGB source reviewed; BSD3, maintained, installed1.7.2 reused; no installation. Reuse exported classifier, not claim a new tree algorithm.",
+  "no_raw_point_deletion_or_replacement":true,"physical_threshold_unchanged_kw":0.15,"no_field_accuracy_claim":true
+}

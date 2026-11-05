@@ -1,0 +1,6 @@
+{
+  "stage": "before development/confirmation data generation",
+  "change": "Correct named two_peak generator from one-cycle sin(2*pi*a/2.4) to two-cycle sin(4*pi*a/2.4) with matching analytic derivative; also record missing observed-spline support as unsupported, without redrawing.",
+  "reason": "Independent preflight found one-period signal has only one interior maximum; correct intended prospective double-peak challenge before any data.",
+  "protocol_budgets_selection_and_gates_changed": false
+}

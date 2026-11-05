@@ -1,0 +1,34 @@
+{
+  "id":"B1-EV-FACTOR-CHAIN-v1-20261026",
+  "seed_start":2610261101,"repetitions":20,"users":2000,"one_event_per_user":true,
+  "splits":[1200,400,400],
+  "scenarios":["randomized_positive","observed_positive","observed_zero","observed_negative"],
+  "acceptance_dose_coefficients":[0.9,0.9,0,-0.9],
+  "grid":{"dt_s":10,"end_s":3600,"request_start_s":600,"request_end_s":1800},
+  "physical":{"connected_reference_kw":3,"request_kw":1.5,"pmax_kw":4.5,"noise_sigma_kw":0.05,"criterion_kw":0.15,"continuous_dwell_bins":3,"long_cumulative_s":600},
+  "scm":{
+    "X":"binary physical deadline-slack group, Bernoulli(.5)",
+    "W":"binary ex-ante demand urgency, independent Bernoulli(.5)",
+    "deadline":"T=2700+600*X-300*W+10*J, J uniform integers -30..30; T always2100..3600; declared at call, not ex-post inferred",
+    "delay":"10*K seconds, K uniform integers0..6, independent",
+    "assignment":"D=I(Ud<e), e=.5 randomized; e=.3+.4*W+.1*X observed. Low/high hypothetical compensation states, no market price recommendation.",
+    "acceptance":"A=I(Ua<expit(-.2+beta*D-.8*W)); independent Ua; separate observed choice record. No hidden common causes beyond X,W in this simulation.",
+    "duration":"tau=min(1200-delay,T-1800) if accepted else0. Physical energy-headroom bound: saved1.5*tau must fit post-release(4.5-3)*(T-1800). tau always grid-aligned.",
+    "curve":"reference3kW before T then0; accepted reduction1.5kW on[600+delay,600+delay+tau); repay at1.5kW over reference from1800 to1800+tau, then reference. Required energy3*T/3600kWh. Add iid Normal(0,.05^2) meter noise, cast stored power float32 before feature extraction.",
+    "pairing":"four scenarios share X,W,T,delay,Ud,Ua,meter noise and user partition; scenario variants not independent"
+  },
+  "feature_contract":"vectorized observed reference-minus-power only, no A/deadline/hidden tau provided to extractor. Cumulative threshold reduction time=10*count(request reduction>=.15); longest contiguous threshold run>=3bins reported separately, not conflated with cumulative time. Primary causal outcome cumulative time seconds, auxiliary S=I(cumulative>=600). Signed request energy/Y also integrated raw, no clipping. Complete request/post windows; unavailable on missing data.",
+  "graph":{
+    "nodes":["X","W","D","A","S"],
+    "assumed_structure":"W->A, D->A, X->S, W->S, A->S; observed assignment adds X->D,W->D. Same potential D->A allowed in zero scenario, never hard-code zero estimate. Reduced marginal graph integrates independent deadline jitter/delay/noise, not full vehicle causal graph.",
+    "identification":"assumed physical/time graph, not learned graph alone, determines permissible total-effect backdoor sets. Enumerate subsets of pre-treatment X,W; remove outgoing D and test moral ancestral separation. RCT selects empty; observed selects X,W. A is descendant/post-choice and forbidden for total-effect adjustment. Assumptions not real-world proof.",
+    "learning":"training-only order-constrained discrete local BIC parent screening: X and W exogenous independent roots, D candidate parents X,W, A candidate X,W,D, S candidate X,W,D,A. Enumerate all subsets; unrestricted Bernoulli conditional tables, 0log0=0, parameters2^k; BIC=-2LL+2^k*log(n); min each parent-state count20 or candidate unavailable. Deterministic tie by BIC, parent count, tuple. Directions use declared temporal order, not all discovered from observations. No Fisher-z, PC/CPDAG or hidden-confounding discovery claim.",
+    "learning_to_estimation":"report learned edges, missing/extras and learned suggested adjustment versus assumed valid set; do not treat BIC graph as proof or let missing edges justify removing plausible confounders. Primary safe estimate follows declared assumptions; support failures remain unavailable."
+  },
+  "methods":["G0_unadjusted","G1_graph_safe","Gbad_adjust_acceptance"],
+  "estimation":"all means fit train only. G0 arm means; G1 arm conditional means on identified pre-treatment set (empty RCT, X/W observed), standardize differences over holdout strata. Gbad saturated D,X,W,A outcome means, standardized over holdout observed X,W,A: deliberately post-treatment adjustment diagnostic, not legitimate causal or pre-call estimator. Minimum arm-cell counts20 for G0/G1,5 for Gbad; unavailable entire scenario/method if failed, no clipping/drop/imputation. Outcomes cumulative_s and S only, current A never used by G1. No DML/forest or neural-model search.",
+  "truth":"evaluator after observed graph/model/predictions persist. For each X,W average61 deadline jitters and7 delays; true physical duration mean g. q0/q1 Gaussian probability of stored float32 power satisfying reduction>=.15: exact boundary is midpoint of largest qualifying float32 power and its next float32 neighbor, reference3, latent power3 or1.5. Observable cumulative conditional A1=1200*q0+g*(q1-q0), A0=1200*q0; effect=(p1-p0)*g*(q1-q0). S conditional A from convolution of Binomial(nactive,q1)+Binomial(120-nactive,q0), average over jitter/delay; counterfactual assignment does not change X/W. Finite holdout X,W distribution ATE/GATE averaged over independent jitter/delay/noise, not realized individual differences or conditional on each actual test deadline.",
+  "evaluation":"20 independent repetitions,400 held-out users per scene, separately validation/test, all and X0/X1 groups; ATE error/RMSE seconds and long-event probability pp, naive confounding bias and blocked-mediator bias; continuous-duration extraction error vs latent tau separately; support/unavailable full denominators; BIC edge precision/recall/exact and adjustment agreement. No rerun/test tuning or demand all graphs exact. Latent truth hidden evaluator only.",
+  "scope":"B1 first same-EV factor-feature-identification-estimation chain, not interface packaging, full causal graph identification, formal deep representation, B2/B4, real EV verification or103 acceptance. Complete histories no role; retain earlier negative results. CPU no new libraries/GPU/UI/upload/commit.",
+  "reuse":"GitHub py-why/dowhy and causal-learn MIT projects reviewed, not installed; mature assumptions/identification/graph primitives, generic Fisher-z inappropriate for binary EV choices. Five-node transparent enumeration/NumPy-SciPy sufficient and independently checked; no new dependency. Do not equate implementation to library reproduction."
+}

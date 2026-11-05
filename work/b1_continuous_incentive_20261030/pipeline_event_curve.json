@@ -1,0 +1,247 @@
+{
+  "schema_version": "b1.continuous-effects.v1",
+  "method": "Kennedy_DR_local_linear",
+  "status": "causal",
+  "reasons": [],
+  "task": {
+    "task_id": "common_task_definition",
+    "outcome_name": "eta_raw",
+    "outcome_unit": "ratio",
+    "target_population": "supplied_event_population",
+    "window_minutes": [
+      0.0,
+      45.0
+    ],
+    "q_kw": 1.5,
+    "task_pre_treatment": true,
+    "reference_status": "provided",
+    "reference_uncertainty": "not_propagated"
+  },
+  "causal_curve": {
+    "incentive_values": [
+      0.73,
+      0.85,
+      1.17
+    ],
+    "reference_incentive": 0.0,
+    "mean_outcomes": [
+      0.5119049482817153,
+      0.5385600325152949,
+      0.5964473876952381
+    ],
+    "contrasts": [
+      0.2722045126667074,
+      0.2988595969002871,
+      0.3567469520802302
+    ],
+    "outcome_unit": "ratio",
+    "incentive_unit": "元/千瓦时（模拟）",
+    "task_duration_min": 45.0,
+    "request_kw": 1.5,
+    "weighting": "event_equal_weight",
+    "continuous_query_evaluated_directly": true,
+    "boundary_values_are_one_sided_smooth_limits": true,
+    "shape_constraint": "none"
+  },
+  "standardized_association": null,
+  "inference": {
+    "contrasts": [
+      0.2722045126667076,
+      0.29885959690028696,
+      0.3567469520802302
+    ],
+    "standard_errors": [
+      0.010668805637714225,
+      0.010757390378299621,
+      0.010381495947112906
+    ],
+    "lower": [
+      0.2515034405998091,
+      0.27798664063555445,
+      0.3366033574679431
+    ],
+    "upper": [
+      0.29290558473360606,
+      0.3197325531650195,
+      0.3768905466925173
+    ],
+    "critical": 1.940336413451961,
+    "nominal_level": 0.95,
+    "bootstrap_draws": 99,
+    "cluster_count": 100,
+    "inference_unit": "original_user",
+    "kind": "conditional_sampling_band",
+    "smoothing_bias_corrected": false,
+    "nuisance_estimation_uncertainty_propagated": false,
+    "coverage_for_unsmoothed_causal_curve_validated": false
+  },
+  "comparators": {
+    "plugin_shared_outcome": {
+      "incentive_values": [
+        0.73,
+        0.85,
+        1.17
+      ],
+      "reference_incentive": 0.0,
+      "mean_outcomes": [
+        0.5265346657599116,
+        0.54499830174087,
+        0.6005808185031374
+      ],
+      "contrasts": [
+        0.2648144002216511,
+        0.28327803620260955,
+        0.3388605529648769
+      ],
+      "outcome_unit": "ratio",
+      "incentive_unit": "元/千瓦时（模拟）",
+      "task_duration_min": 45.0,
+      "request_kw": 1.5,
+      "weighting": "event_equal_weight",
+      "continuous_query_evaluated_directly": true,
+      "boundary_values_are_one_sided_smooth_limits": true,
+      "shape_constraint": "none"
+    },
+    "unadjusted_local_linear": {
+      "incentive_values": [
+        0.73,
+        0.85,
+        1.17
+      ],
+      "reference_incentive": 0.0,
+      "mean_outcomes": [
+        0.5075820049776788,
+        0.5383661001184568,
+        0.6046560536670269
+      ],
+      "contrasts": [
+        0.2822931953400736,
+        0.31307729048085153,
+        0.3793672440294217
+      ],
+      "outcome_unit": "ratio",
+      "incentive_unit": "元/千瓦时（模拟）",
+      "task_duration_min": 45.0,
+      "request_kw": 1.5,
+      "weighting": "event_equal_weight",
+      "continuous_query_evaluated_directly": true,
+      "boundary_values_are_one_sided_smooth_limits": true,
+      "shape_constraint": "none"
+    },
+    "straight_line_same_pseudo_outcome": {
+      "incentive_values": [
+        0.73,
+        0.85,
+        1.17
+      ],
+      "reference_incentive": 0.0,
+      "mean_outcomes": [
+        0.48283107917561935,
+        0.5039473634381607,
+        0.5602574548049376
+      ],
+      "contrasts": [
+        0.1284573959304598,
+        0.14957368019300116,
+        0.20588377155977805
+      ],
+      "outcome_unit": "ratio",
+      "incentive_unit": "元/千瓦时（模拟）",
+      "task_duration_min": 45.0,
+      "request_kw": 1.5,
+      "weighting": "event_equal_weight",
+      "continuous_query_evaluated_directly": true,
+      "boundary_values_are_one_sided_smooth_limits": true,
+      "shape_constraint": "none"
+    }
+  },
+  "diagnostics": {
+    "passed": true,
+    "by_dose": [
+      {
+        "dose": 0.0,
+        "local_events": 56,
+        "local_users": 47,
+        "effective_events": 97.0686775287341,
+        "max_weighted_smd": 0.15945908972531148
+      },
+      {
+        "dose": 0.73,
+        "local_events": 102,
+        "local_users": 65,
+        "effective_events": 177.67395089286842,
+        "max_weighted_smd": 0.0689022417601176
+      },
+      {
+        "dose": 0.85,
+        "local_events": 97,
+        "local_users": 63,
+        "effective_events": 177.32840189694681,
+        "max_weighted_smd": 0.02428377199997155
+      },
+      {
+        "dose": 1.17,
+        "local_events": 90,
+        "local_users": 69,
+        "effective_events": 168.84231761353448,
+        "max_weighted_smd": 0.0826178375654544
+      }
+    ],
+    "unsupported_doses": [],
+    "events": 400,
+    "users": 100,
+    "unique_doses": 400,
+    "max_stabilized_weight": 1.0,
+    "bandwidth": 0.2899283258518684,
+    "user_fold_integrity": true,
+    "diagnostics_are_not_identification_proof": true
+  },
+  "shape_constraint": "none",
+  "new_causal_estimator": false,
+  "uncertainty": {
+    "scope": "conditional_sampling_only",
+    "reference_process_uncertainty_propagated": false
+  },
+  "configuration": {
+    "n_folds": 3,
+    "n_boot": 99,
+    "alpha": 0.05,
+    "seed": 41,
+    "bandwidth": null,
+    "spline_knots": 6,
+    "ridge_alpha": 0.1,
+    "min_unique_doses": 20,
+    "min_local_events": 25,
+    "min_local_users": 15,
+    "min_local_ess": 20.0,
+    "max_stabilized_weight": 30.0,
+    "max_weighted_smd": 0.5,
+    "return_audit": false
+  },
+  "incentive_unit": "元/千瓦时（模拟）",
+  "dose_domain": [
+    0.0,
+    2.4
+  ],
+  "reference_dose": 0.0,
+  "declared_assumptions": {
+    "pre_treatment_X": true,
+    "consistent_treatment": true,
+    "no_interference": true,
+    "same_outcome_definition": true,
+    "conditional_exchangeability": null,
+    "randomized_assignment": true
+  },
+  "unconfirmed_assumptions": [],
+  "causal_assumptions_confirmed": true,
+  "continuous_assignment_declared": true,
+  "algorithm_version": "1.0.0",
+  "pipeline": {
+    "input_events": 400,
+    "input_users": 100,
+    "failed_events_dropped": 0,
+    "outcome_from_raw_event_integrals": true,
+    "process_fit_used_in_energy": false,
+    "reference_process_uncertainty_propagated": false
+  }
+}

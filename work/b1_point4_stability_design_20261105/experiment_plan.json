@@ -1,0 +1,78 @@
+{
+  "version": "point4-shared-conditional-nuisance-v1",
+  "date": "2026-11-05",
+  "status": "awaiting_root_review_0_new_fits",
+  "candidate_count": 1,
+  "hypothesis": "共享全队列的条件结果和条件密度模型，保留各组边缘化、DR校正和局部线性，可能降低条件差异误差。总体直接复用现用DR，预计不改变总体增量稳定性。",
+  "estimands": {
+    "outcome": "30分钟任务累计有效减载秒数，含零和满1800秒；本轮只用已知参照的模拟真实时长，固定第1点输入误差为零以隔离第4点。无功率提取或恢复/阈值研究。",
+    "level": "theta_g(a)=同一有限事件事前状态分布内E[Y(a)|X]的平均，积分未观测且仅影响Y的用户状态H",
+    "contrast": "Delta_g(a)=theta_g(a)-theta_g(0.4)",
+    "group_difference": "D(a)=Delta_high(a)-Delta_low(a)，组由本次报价前deadline_slack>=0或<0定义，允许同一用户不同事件跨组",
+    "weighting": "事件等权，用户每人2事件；误差先在共同17金额点内RMSE，再对机制等权，再按独立种子块等权。零参照点计入主指标，另报16个非参照点，所有法一致。",
+    "grid": [0.4,0.5,0.6,0.7,0.8,0.9,1.0,1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9,2.0],
+    "domain": [0.0,2.4],
+    "reference": 0.4,
+    "unit": "元/适用kWh；响应秒。模拟的单位和参照不证明真实支付或物理减载。"
+  },
+  "candidate_contract": {
+    "nuisance": "同全队列训练折的poly2(X三列)与标准化、金额6等距结点三次B样条及全部相乘项Ridge；GPS为同特征logit-normal，随机均匀设计用已知1/2.4。保留原负控列以隔离候选，不改变因素集。",
+    "folds": "全队列按用户一次生成3折F；heldout用户的所有组事件一并退出。GPS残差尺度用训练用户内2折。对照C0和共享C使用同一F及每个外折相同的内折标签。",
+    "normalization": "C0与C均在全队列外训练折拟合poly/scaler，仅使用训练X。Ridge以平均平方损失固定lambda=0.1/320，所有结果模型/GPS模型按实际训练行数n传alpha=lambda*n；各内折按各自n。B0保持原alpha0.1及组内尺度。无参数网格或开发追alpha。",
+    "group_marginals": "每个fold模型预测heldout组事件，在该外训练折中属于同组的X上分别平均m_g(a)和varpi_g(a)。xi_g=(Y-mu)*varpi_g/pi+m_g。禁止复用总体xi或总体边缘均值/密度来冒充组曲线。",
+    "final_stage": "各组OOF xi经原Gaussian局部线性，h=1.06*sd(A_g)*G_g^(-1/5)。同组0.4参照；原支持门每金额至少25事件/15用户、ESS20、SMD<=0.5、最大稳定权30。拒绝不填零，不裁xi/曲线，不强制单调。",
+    "overall": "直接引用B0整体曲线数组，逐点差必须<=1e-9秒；不以两组加权结果替换整体。"
+  },
+  "methods": [
+    {"id":"B0", "role":"正式基线", "definition":"现用连续DR：总体和两组分别按原独立折、原组内预处理、alpha0.1、原组内LL；直接复用项目_crossfit实现。"},
+    {"id":"C0", "role":"必要同条件消融", "definition":"总体同B0；两组共用全队列折及预处理和平均损失lambda，但各组单独拟合条件mu/pi。与C的差异仅条件模型训练是否跨组借样。"},
+    {"id":"C", "role":"唯一研究候选", "definition":"总体同B0；两组全队列共享条件mu/pi，按组边缘化和组内LL。"},
+    {"id":"OR", "role":"旧未采用法的固定参照", "definition":"原合并结果回归alpha10，poly2/6结点三次样条，按组标准化；不重新选alpha，支持门共用B0与C的交集；不据其结果切换候选。"},
+    {"id":"S", "role":"已保留样条参照", "definition":"与B0同一伪结果，各组lambda_mean1e-4固定全局平滑样条；共享B0和C支持交集。只解释平滑影响，不重选lambda或组合。"}
+  ],
+  "development": {
+    "seeds": [915051101,915051102,915051103,915051104,915051105,915051106],
+    "mechanisms": ["randomized","observed_confounding","nonmonotone","zero_effect"],
+    "users_per_cohort": 240,
+    "events_per_user": 2,
+    "cohorts":24,
+    "independent_blocks":6,
+    "events_variants":11520,
+    "seed_user_conditions":1440,
+    "role":"一次开发可行性检查，不选超参数。C相对B0和C0的组差RMSE均至少降低5%、至少4/6块胜两者、B0/C0/C三法两组全范围24/24共同输出、总体逐点一致才建议进入确认；否则停止候选，不修改合同重训。"
+  },
+  "confirmation": {
+    "seeds": [915051201,915051202,915051203,915051204,915051205,915051206,915051207,915051208,915051209,915051210,915051211,915051212,915051213,915051214,915051215,915051216,915051217,915051218,915051219,915051220],
+    "mechanisms": ["randomized","observed_confounding","nonmonotone","zero_effect","conditional_shape_shift","conditional_assignment_shift"],
+    "users_per_cohort":240,
+    "events_per_user":2,
+    "cohorts":120,
+    "independent_blocks":20,
+    "events_variants":57600,
+    "seed_user_conditions":4800,
+    "role":"开发通过、总管确认且源码/参数/依赖散列冻结后一次新确认。机制在块内共享外生抽样，120组非120独立重复。新增两种条件错设压力不参与开发；仍为相关模拟族，不称独立物理验证。"
+  },
+  "confirmation_adoption_joint_gates": [
+    "C相对B0和C0：完整共同输出队列的组差RMSE平均均至少降低5%；覆盖先过门，不能靠拒绝降低误差。",
+    "C相对B0和C0分别至少15/20独立种子块组差误差下降，且去掉任一块后平均组差误差仍不高于该对照。",
+    "B0、C0与C的两组全17点均须120/120完整输出，各机制20/20；按金额点/组/机制列支持率及失败原因。该严格采用门保持全部机制和块的固定目标权重，不能通过缺测后改变共同集合获益。失败依然保留，不补抽。",
+    "在四种原机制和两种新增压力机制分别平均，C组差RMSE不高于B0和C0。若任一压力类型失败不以总体平均抵消。",
+    "零补偿作用机制下，C的组差RMSE和两组各自增量RMSE不高于B0和C0；全部输出值保留，不通过目标线计数替代误差。",
+    "总体level和contrast均与B0逐点<=1e-9秒；C相对C0的单组level及contrast平均RMSE各不恶化超过2秒。2秒为本轮预设非劣容差，非任务书容限。",
+    "保存所有水平、同组参照、增量、组差、分折、OOF辅助/密度/边缘化/xi/支持记录和全部失败。任何失败或负结果均不以新seed替换。"
+  ],
+  "reporting": {
+    "primary":"组间补偿增量差RMSE（秒）；均值差、块胜负与去一块敏感性，包含全部机制并按机制列明",
+    "secondary":"总体level/contrast精确不变；单组level及contrast误差、点/全曲线输出率、组内样本/用户数、条件模型权重、组加权与整体的差异",
+    "uncertainty":"本轮不交因果区间或阈值；20种子配对差描述均值/分位数，原始块全列。输出覆盖是可用范围，不是统计置信覆盖。全重拟合置信带属于另一个研究任务。",
+    "absolute_accuracy":"5%/15块等为候选相对采用门，不能作为第4点整体验收或90%准确率；真实充电增量仍缺设计和计量覆盖。"
+  },
+  "execution": {
+    "entry":"run_experiment.py",
+    "preflight_only_this_round":true,
+    "stages":["preflight","development","confirmation"],
+    "no_old_confirmation_training":true,
+    "no_point5":true,
+    "no_gpu_required":"240用户每队列的Ridge小型拟合，沿现有本地CPU依赖。未跑训练，耗时尚未测。"
+  }
+}

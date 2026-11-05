@@ -1,0 +1,21 @@
+{
+  "version":"B1-FORMAL-PROCESS-v1",
+  "frozen_before_development":true,
+  "development_seeds":[4429100,4429101,4429102,4429103,4429104,4429105],
+  "test_seeds":[4429200,4429201,4429202,4429203,4429204,4429205,4429206,4429207,4429208,4429209,4429210,4429211,4429212,4429213,4429214,4429215,4429216,4429217,4429218,4429219],
+  "mechanisms":["none","step","partial","slow","early_exit","dropout","curved","multiplateau"],
+  "delta_minutes":[0.16666666666666666,1,15],
+  "sigma_kw":[0.05,0.15],
+  "default_information_gate":"four15minute bins:raw_coarse with physical timing unknown; >=40 complete bins:CPOP operational default, optionally guarded template selected by observed-bin validation",
+  "selection_rule":"5fold interleaved1minute blocks; template validation squared error must be at least10percent lower than CPOP and block mean improvement greater than1block-SE; finite successful optimizer and prediction required",
+  "decision_rule_status":"pre-frozen heuristic, not error-probability or confidence guarantee",
+  "development_admission":"guarded policy admitted only if all6 development seed-block RMSE differences <=0 and aggregate RMSE improves at least1percent against conservative default; otherwise shipped default is conservative CPOP plus coarse raw gate",
+  "test_use":"one evaluation after policy frozen, no new threshold/parameter search; retain all negative outcomes",
+  "comparators":["unified_default","guarded_diagnostic","conservative_CPOP_with_coarse_gate","original_CPOP_direct","task_template_average","raw_F0","frozen_F1_phase_adapter"],
+  "domain":"task0..30min/request1.5kW, notice-15, complete window-15..45, delta10sec/1min/15min; finite signed meter readings accepted and counted without clipping, nonnegative reference; positive declared sigma",
+  "data":"new seed realizations of the previous8-mechanism evaluator, formulas copied into this work folder; formal package does not import work Python",
+  "energy":"all methods share raw reference-power integral; cumulative and longest continuous threshold time remain distinct",
+  "inference":"20 independent seed blocks; variants paired, not independent; no physical timing or process confidence interval claim",
+  "runtime":"original CPOP1.0.10 with grid=x, beta2log(n_train), sd given, exact pruning; full and CV cases batched in one R process where practical; unavailable R explicitly degrades raw_F0, never silently substitutes template",
+  "stop":"one development admission and one new holdout evaluation; no report writing"
+}

@@ -1,0 +1,10 @@
+{
+  "pre_final": true,
+  "derivative_gain_at_least5percent": false,
+  "default_marginal_effect": "retained_smoothed_derivative",
+  "development_smoothed_derivative_rmse": 237.15525033975118,
+  "development_direct_derivative_rmse": 633.805557538913,
+  "direct_retained_as_research_comparator": true,
+  "mean_curve_to_keep": "existing_Kennedy_DR",
+  "no_parameter_change_after_development": true
+}

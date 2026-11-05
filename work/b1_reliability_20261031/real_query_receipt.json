@@ -1,0 +1,21 @@
+{
+  "model_id": "289a4797bdd5d62dc190828b5c85ef0c49b2efb6ee5a2e93d0f8eaab05c4e22c",
+  "queried_amounts": [
+    0.73,
+    0.85,
+    1.17
+  ],
+  "mean_response_seconds": [
+    794.4163286194022,
+    832.5090954695322,
+    907.1772692233495
+  ],
+  "contrast_response_seconds": [
+    -22.94630360053236,
+    15.146463249597673,
+    89.81463700341499
+  ],
+  "no_refit_verified": true,
+  "curve_grid_points": 41,
+  "sample_chosen": "first predeclared seed7520300 positive; selected RMSE70.284 vs default58.364, preserve losing example"
+}

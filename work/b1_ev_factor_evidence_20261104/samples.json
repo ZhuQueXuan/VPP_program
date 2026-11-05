@@ -1,0 +1,941 @@
+{
+  "acn": {
+    "training_manifest_sha256": "2c4e10cce154bf0111bdc7be2201e6ed2ccbd4de3b917b09267c8ed25eed57e6",
+    "metadata_sha256": "81bc1bc3987d9a4e631662fefabc8bae4d46c49f4623d8ebf6a3339db3d5a5d1",
+    "training_sessions_joined": 1169,
+    "training_users": 129,
+    "official_metadata_rows": 2472,
+    "metadata_columns": [
+      "_id",
+      "clusterID",
+      "connectionTime",
+      "disconnectTime",
+      "doneChargingTime",
+      "kWhDelivered",
+      "sessionID",
+      "siteID",
+      "spaceID",
+      "stationID",
+      "timezone",
+      "userID",
+      "userInputs"
+    ],
+    "user_input_fields": [
+      "WhPerMile",
+      "kWhRequested",
+      "milesRequested",
+      "minutesAvailable",
+      "modifiedAt",
+      "paymentRequired",
+      "requestedDeparture",
+      "userID"
+    ],
+    "counts": {
+      "with_input_revisions": 1169,
+      "with_timed_pre_anchor_revision": 1153,
+      "with_revision_at_or_after_anchor": 102,
+      "with_pre_anchor_requested_kWh": 1153,
+      "with_pre_anchor_planned_departure": 1153,
+      "with_pre_anchor_payment_required_true": 1153,
+      "connected_at_anchor_from_session_bounds": 1145
+    },
+    "trace_examples": [
+      {
+        "source": "data/ACN_real_user_benchmark_v1_20261102/raw/caltech/California_Garage_01/2-39-123-23-2020-01-02T18-07-56-928051.csv.gz",
+        "sha256": "9386e9947cc5d6fab2f3b9c6cac9400829259836859f3053350668c6443af6b6",
+        "session_id": "2_39_123_23_2020-01-02 18:07:56.928051",
+        "station_id": "2-39-123-23",
+        "site_id": "0002",
+        "site_timezone": "America/Los_Angeles",
+        "metadata_connection_utc": "2020-01-02T18:07:57+00:00",
+        "metadata_disconnect_utc": "2020-01-02T20:46:38+00:00",
+        "connected_at_research_anchor": true,
+        "first_meter_row": {
+          "csv_line": 2,
+          "utc": "2020-01-02T18:08:00+00:00",
+          "pilot_A": 8.0,
+          "current_A": 1.5,
+          "power_kW": 0.27099999999999996,
+          "energy_kWh": 0.00011361111111099999
+        },
+        "meter_columns": [
+          "",
+          "Charging Current (A)",
+          "Actual Pilot (A)",
+          "Voltage (V)",
+          "Charging State",
+          "Energy Delivered (kWh)",
+          "Power (kW)"
+        ],
+        "meter_rows": 2472,
+        "research_anchor_utc": "2020-01-02T18:37:57+00:00",
+        "prior_revision": {
+          "modifiedAt": "Thu, 02 Jan 2020 18:08:20 GMT",
+          "kWhRequested": 8.0,
+          "requestedDeparture": "Thu, 02 Jan 2020 21:10:57 GMT",
+          "paymentRequired": true
+        },
+        "after_or_at_anchor_revisions": 0,
+        "last_pre_anchor_energy_row": {
+          "csv_line": 475,
+          "utc": "2020-01-02T18:37:53+00:00",
+          "pilot_A": 17.0,
+          "current_A": 15.1,
+          "power_kW": 3.3899999999999997,
+          "energy_kWh": 1.64166666667
+        },
+        "last_pre_anchor_energy_age_s": 4.0,
+        "planned_minutes_remaining": 153.0,
+        "requested_minus_meter_kWh": 6.35833333333,
+        "first_post_anchor_pilot_drop_at_least_2A": [
+          {
+            "csv_line": 1197,
+            "utc": "2020-01-02T19:24:44+00:00",
+            "pilot_A": 17.0,
+            "current_A": 7.7,
+            "power_kW": 1.722,
+            "energy_kWh": 4.14428583333
+          },
+          {
+            "csv_line": 1198,
+            "utc": "2020-01-02T19:24:48+00:00",
+            "pilot_A": 14.0,
+            "current_A": 7.7,
+            "power_kW": 1.7229999999999999,
+            "energy_kWh": 4.146165
+          }
+        ],
+        "next_pilot_increase_at_least_2A_within_15min": null
+      },
+      {
+        "source": "data/ACN_real_user_benchmark_v1_20261102/raw/caltech/California_Garage_01/2-39-123-23-2020-01-02T21-28-23-830730.csv.gz",
+        "sha256": "5363c00d48f78b83fd21c45d4a0a704e962f48866fbb0f21facd6da7cfae50ae",
+        "session_id": "2_39_123_23_2020-01-02 21:28:23.830730",
+        "station_id": "2-39-123-23",
+        "site_id": "0002",
+        "site_timezone": "America/Los_Angeles",
+        "metadata_connection_utc": "2020-01-02T21:28:24+00:00",
+        "metadata_disconnect_utc": "2020-01-02T21:54:33+00:00",
+        "connected_at_research_anchor": false,
+        "first_meter_row": {
+          "csv_line": 2,
+          "utc": "2020-01-02T21:28:27+00:00",
+          "pilot_A": 8.0,
+          "current_A": 0.9,
+          "power_kW": 0.127,
+          "energy_kWh": 0.00011527777777799999
+        },
+        "meter_columns": [
+          "",
+          "Charging Current (A)",
+          "Actual Pilot (A)",
+          "Voltage (V)",
+          "Charging State",
+          "Energy Delivered (kWh)",
+          "Power (kW)"
+        ],
+        "meter_rows": 410,
+        "research_anchor_utc": "2020-01-02T21:58:24+00:00",
+        "prior_revision": {
+          "modifiedAt": "Thu, 02 Jan 2020 21:28:36 GMT",
+          "kWhRequested": 8.0,
+          "requestedDeparture": "Fri, 03 Jan 2020 00:31:24 GMT",
+          "paymentRequired": true
+        },
+        "after_or_at_anchor_revisions": 0,
+        "last_pre_anchor_energy_row": {
+          "csv_line": 411,
+          "utc": "2020-01-02T21:54:32+00:00",
+          "pilot_A": 0.0,
+          "current_A": 0.0,
+          "power_kW": 0.0,
+          "energy_kWh": 0.0
+        },
+        "last_pre_anchor_energy_age_s": 232.0,
+        "planned_minutes_remaining": 153.0,
+        "requested_minus_meter_kWh": null,
+        "first_post_anchor_pilot_drop_at_least_2A": null,
+        "next_pilot_increase_at_least_2A_within_15min": null
+      },
+      {
+        "source": "data/ACN_real_user_benchmark_v1_20261102/raw/caltech/California_Garage_01/2-39-123-23-2020-01-03T17-50-40-207600.csv.gz",
+        "sha256": "af5563f2596f721d3de0296537349e59e0d07a89eb27fa16f71c27752c6b575d",
+        "session_id": "2_39_123_23_2020-01-03 17:50:40.207600",
+        "station_id": "2-39-123-23",
+        "site_id": "0002",
+        "site_timezone": "America/Los_Angeles",
+        "metadata_connection_utc": "2020-01-03T17:50:40+00:00",
+        "metadata_disconnect_utc": "2020-01-04T00:52:55+00:00",
+        "connected_at_research_anchor": true,
+        "first_meter_row": {
+          "csv_line": 2,
+          "utc": "2020-01-03T17:50:40+00:00",
+          "pilot_A": 8.0,
+          "current_A": 0.0,
+          "power_kW": 0.0,
+          "energy_kWh": 0.0
+        },
+        "meter_columns": [
+          "",
+          "Charging Current (A)",
+          "Actual Pilot (A)",
+          "Voltage (V)",
+          "Charging State",
+          "Energy Delivered (kWh)",
+          "Power (kW)"
+        ],
+        "meter_rows": 6589,
+        "research_anchor_utc": "2020-01-03T18:20:40+00:00",
+        "prior_revision": {
+          "modifiedAt": "Fri, 03 Jan 2020 17:51:03 GMT",
+          "kWhRequested": 8.0,
+          "requestedDeparture": "Fri, 03 Jan 2020 20:53:40 GMT",
+          "paymentRequired": true
+        },
+        "after_or_at_anchor_revisions": 0,
+        "last_pre_anchor_energy_row": {
+          "csv_line": 428,
+          "utc": "2020-01-03T18:20:37+00:00",
+          "pilot_A": 18.0,
+          "current_A": 14.9,
+          "power_kW": 3.3579999999999997,
+          "energy_kWh": 1.64829222222
+        },
+        "last_pre_anchor_energy_age_s": 3.0,
+        "planned_minutes_remaining": 153.0,
+        "requested_minus_meter_kWh": 6.35170777778,
+        "first_post_anchor_pilot_drop_at_least_2A": [
+          {
+            "csv_line": 1098,
+            "utc": "2020-01-03T19:03:38+00:00",
+            "pilot_A": 18.0,
+            "current_A": 7.2,
+            "power_kW": 1.613,
+            "energy_kWh": 3.90700916667
+          },
+          {
+            "csv_line": 1099,
+            "utc": "2020-01-03T19:03:42+00:00",
+            "pilot_A": 11.0,
+            "current_A": 7.3,
+            "power_kW": 1.619,
+            "energy_kWh": 3.90877166667
+          }
+        ],
+        "next_pilot_increase_at_least_2A_within_15min": null
+      },
+      {
+        "source": "data/ACN_real_user_benchmark_v1_20261102/raw/caltech/California_Garage_01/2-39-123-23-2020-01-07T20-11-49-110350.csv.gz",
+        "sha256": "f703a0c789bd1f764f6ef4aaf2d5b7b0f07d5e69b9dcd8f50284582bbbf06d45",
+        "session_id": "2_39_123_23_2020-01-07 20:11:49.110350",
+        "station_id": "2-39-123-23",
+        "site_id": "0002",
+        "site_timezone": "America/Los_Angeles",
+        "metadata_connection_utc": "2020-01-07T20:11:49+00:00",
+        "metadata_disconnect_utc": "2020-01-08T03:27:20+00:00",
+        "connected_at_research_anchor": true,
+        "first_meter_row": {
+          "csv_line": 2,
+          "utc": "2020-01-07T20:11:50+00:00",
+          "pilot_A": 8.0,
+          "current_A": 1.1,
+          "power_kW": 0.008,
+          "energy_kWh": 2.77777777778e-07
+        },
+        "meter_columns": [
+          "",
+          "Charging Current (A)",
+          "Actual Pilot (A)",
+          "Voltage (V)",
+          "Charging State",
+          "Energy Delivered (kWh)",
+          "Power (kW)"
+        ],
+        "meter_rows": 7899,
+        "research_anchor_utc": "2020-01-07T20:41:49+00:00",
+        "prior_revision": {
+          "modifiedAt": "Tue, 07 Jan 2020 20:12:56 GMT",
+          "kWhRequested": 22.5,
+          "requestedDeparture": "Wed, 08 Jan 2020 03:53:49 GMT",
+          "paymentRequired": true
+        },
+        "after_or_at_anchor_revisions": 1,
+        "last_pre_anchor_energy_row": {
+          "csv_line": 549,
+          "utc": "2020-01-07T20:41:46+00:00",
+          "pilot_A": 32.0,
+          "current_A": 30.5,
+          "power_kW": 6.789,
+          "energy_kWh": 3.2676036111099998
+        },
+        "last_pre_anchor_energy_age_s": 3.0,
+        "planned_minutes_remaining": 432.0,
+        "requested_minus_meter_kWh": 19.23239638889,
+        "first_post_anchor_pilot_drop_at_least_2A": [
+          {
+            "csv_line": 1130,
+            "utc": "2020-01-07T21:13:46+00:00",
+            "pilot_A": 32.0,
+            "current_A": 30.6,
+            "power_kW": 6.795999999999999,
+            "energy_kWh": 6.83450111111
+          },
+          {
+            "csv_line": 1131,
+            "utc": "2020-01-07T21:13:49+00:00",
+            "pilot_A": 8.0,
+            "current_A": 30.6,
+            "power_kW": 6.777,
+            "energy_kWh": 6.8418805555599995
+          }
+        ],
+        "next_pilot_increase_at_least_2A_within_15min": [
+          {
+            "csv_line": 1131,
+            "utc": "2020-01-07T21:13:49+00:00",
+            "pilot_A": 8.0,
+            "current_A": 30.6,
+            "power_kW": 6.777,
+            "energy_kWh": 6.8418805555599995
+          },
+          {
+            "csv_line": 1132,
+            "utc": "2020-01-07T21:13:53+00:00",
+            "pilot_A": 32.0,
+            "current_A": 8.6,
+            "power_kW": 1.9,
+            "energy_kWh": 6.84404694444
+          }
+        ]
+      },
+      {
+        "source": "data/ACN_real_user_benchmark_v1_20261102/raw/caltech/California_Garage_01/2-39-123-557-2020-02-12T18-54-02-394450.csv.gz",
+        "sha256": "154f654687f36092f417e7e74525e53561f9417fc01df5daedabcfc0871b8aeb",
+        "session_id": "2_39_123_557_2020-02-12 18:54:02.394450",
+        "station_id": "2-39-123-557",
+        "site_id": "0002",
+        "site_timezone": "America/Los_Angeles",
+        "metadata_connection_utc": "2020-02-12T18:54:02+00:00",
+        "metadata_disconnect_utc": "2020-02-13T02:53:49+00:00",
+        "connected_at_research_anchor": true,
+        "first_meter_row": {
+          "csv_line": 2,
+          "utc": "2020-02-12T18:54:02+00:00",
+          "pilot_A": 8.0,
+          "current_A": 0.0,
+          "power_kW": 0.0,
+          "energy_kWh": 0.0
+        },
+        "meter_columns": [
+          "",
+          "Charging Current (A)",
+          "Actual Pilot (A)",
+          "Voltage (V)",
+          "Charging State",
+          "Energy Delivered (kWh)",
+          "Power (kW)"
+        ],
+        "meter_rows": 7320,
+        "research_anchor_utc": "2020-02-12T19:24:02+00:00",
+        "prior_revision": {
+          "modifiedAt": "Wed, 12 Feb 2020 18:54:33 GMT",
+          "kWhRequested": 28.0,
+          "requestedDeparture": "Thu, 13 Feb 2020 01:51:02 GMT",
+          "paymentRequired": true
+        },
+        "after_or_at_anchor_revisions": 0,
+        "last_pre_anchor_energy_row": {
+          "csv_line": 457,
+          "utc": "2020-02-12T19:23:58+00:00",
+          "pilot_A": 32.0,
+          "current_A": 15.0,
+          "power_kW": 3.219,
+          "energy_kWh": 1.48437555556
+        },
+        "last_pre_anchor_energy_age_s": 4.0,
+        "planned_minutes_remaining": 387.0,
+        "requested_minus_meter_kWh": 26.51562444444,
+        "first_post_anchor_pilot_drop_at_least_2A": [
+          {
+            "csv_line": 492,
+            "utc": "2020-02-12T19:26:16+00:00",
+            "pilot_A": 32.0,
+            "current_A": 15.1,
+            "power_kW": 3.2199999999999998,
+            "energy_kWh": 1.60713805556
+          },
+          {
+            "csv_line": 493,
+            "utc": "2020-02-12T19:26:20+00:00",
+            "pilot_A": 18.0,
+            "current_A": 15.0,
+            "power_kW": 3.202,
+            "energy_kWh": 1.61063555556
+          }
+        ],
+        "next_pilot_increase_at_least_2A_within_15min": [
+          {
+            "csv_line": 681,
+            "utc": "2020-02-12T19:38:41+00:00",
+            "pilot_A": 8.0,
+            "current_A": 15.1,
+            "power_kW": 3.211,
+            "energy_kWh": 2.26650305556
+          },
+          {
+            "csv_line": 682,
+            "utc": "2020-02-12T19:38:45+00:00",
+            "pilot_A": 18.0,
+            "current_A": 13.0,
+            "power_kW": 2.768,
+            "energy_kWh": 2.2692247222199997
+          }
+        ]
+      },
+      {
+        "source": "data/ACN_real_user_benchmark_v1_20261102/raw/caltech/California_Garage_01/2-39-124-22-2020-01-13T18-22-26-618933.csv.gz",
+        "sha256": "9b9c50e1db890e0942022314b3feacc13f947cbcff44189bb2bb7f00d1d07c45",
+        "session_id": "2_39_124_22_2020-01-13 18:22:26.618933",
+        "station_id": "2-39-124-22",
+        "site_id": "0002",
+        "site_timezone": "America/Los_Angeles",
+        "metadata_connection_utc": "2020-01-13T18:22:27+00:00",
+        "metadata_disconnect_utc": "2020-01-14T01:23:57+00:00",
+        "connected_at_research_anchor": true,
+        "first_meter_row": {
+          "csv_line": 2,
+          "utc": "2020-01-13T18:22:27+00:00",
+          "pilot_A": 8.0,
+          "current_A": 0.4,
+          "power_kW": 0.006,
+          "energy_kWh": 3.5833333333299995e-05
+        },
+        "meter_columns": [
+          "",
+          "Charging Current (A)",
+          "Actual Pilot (A)",
+          "Voltage (V)",
+          "Charging State",
+          "Energy Delivered (kWh)",
+          "Power (kW)"
+        ],
+        "meter_rows": 7151,
+        "research_anchor_utc": "2020-01-13T18:52:27+00:00",
+        "prior_revision": {
+          "modifiedAt": "Mon, 13 Jan 2020 18:22:39 GMT",
+          "kWhRequested": 8.0,
+          "requestedDeparture": "Mon, 13 Jan 2020 21:25:27 GMT",
+          "paymentRequired": true
+        },
+        "after_or_at_anchor_revisions": 0,
+        "last_pre_anchor_energy_row": {
+          "csv_line": 525,
+          "utc": "2020-01-13T18:52:22+00:00",
+          "pilot_A": 8.0,
+          "current_A": 8.4,
+          "power_kW": 1.8539999999999999,
+          "energy_kWh": 1.02846888889
+        },
+        "last_pre_anchor_energy_age_s": 5.0,
+        "planned_minutes_remaining": 153.0,
+        "requested_minus_meter_kWh": 6.97153111111,
+        "first_post_anchor_pilot_drop_at_least_2A": [
+          {
+            "csv_line": 2262,
+            "utc": "2020-01-13T20:31:49+00:00",
+            "pilot_A": 18.0,
+            "current_A": 10.8,
+            "power_kW": 2.441,
+            "energy_kWh": 4.6221297222199995
+          },
+          {
+            "csv_line": 2263,
+            "utc": "2020-01-13T20:31:53+00:00",
+            "pilot_A": 15.0,
+            "current_A": 10.7,
+            "power_kW": 2.4139999999999997,
+            "energy_kWh": 4.624795
+          }
+        ],
+        "next_pilot_increase_at_least_2A_within_15min": null
+      },
+      {
+        "source": "data/ACN_real_user_benchmark_v1_20261102/raw/caltech/California_Garage_01/2-39-124-558-2020-01-13T16-44-19-002518.csv.gz",
+        "sha256": "72afd40ebde48d93b72388d33b237e06e298033cc166a50e390c4780667fcafc",
+        "session_id": "2_39_124_558_2020-01-13 16:44:19.002518",
+        "station_id": "2-39-124-558",
+        "site_id": "0002",
+        "site_timezone": "America/Los_Angeles",
+        "metadata_connection_utc": "2020-01-13T16:44:19+00:00",
+        "metadata_disconnect_utc": "2020-01-14T04:12:38+00:00",
+        "connected_at_research_anchor": true,
+        "first_meter_row": {
+          "csv_line": 2,
+          "utc": "2020-01-13T16:44:22+00:00",
+          "pilot_A": 8.0,
+          "current_A": 0.3,
+          "power_kW": 0.013999999999999999,
+          "energy_kWh": 4.05555555556e-05
+        },
+        "meter_columns": [
+          "",
+          "Charging Current (A)",
+          "Actual Pilot (A)",
+          "Voltage (V)",
+          "Charging State",
+          "Energy Delivered (kWh)",
+          "Power (kW)"
+        ],
+        "meter_rows": 10498,
+        "research_anchor_utc": "2020-01-13T17:14:19+00:00",
+        "prior_revision": {
+          "modifiedAt": "Mon, 13 Jan 2020 16:45:48 GMT",
+          "kWhRequested": 10.0,
+          "requestedDeparture": "Mon, 13 Jan 2020 23:28:19 GMT",
+          "paymentRequired": true
+        },
+        "after_or_at_anchor_revisions": 0,
+        "last_pre_anchor_energy_row": {
+          "csv_line": 457,
+          "utc": "2020-01-13T17:14:15+00:00",
+          "pilot_A": 8.0,
+          "current_A": 8.4,
+          "power_kW": 1.8699999999999999,
+          "energy_kWh": 1.58340611111
+        },
+        "last_pre_anchor_energy_age_s": 4.0,
+        "planned_minutes_remaining": 374.0,
+        "requested_minus_meter_kWh": 8.41659388889,
+        "first_post_anchor_pilot_drop_at_least_2A": [
+          {
+            "csv_line": 483,
+            "utc": "2020-01-13T17:15:58+00:00",
+            "pilot_A": 15.0,
+            "current_A": 14.5,
+            "power_kW": 3.25,
+            "energy_kWh": 1.6393977777799997
+          },
+          {
+            "csv_line": 484,
+            "utc": "2020-01-13T17:16:02+00:00",
+            "pilot_A": 8.0,
+            "current_A": 7.6,
+            "power_kW": 1.686,
+            "energy_kWh": 1.64224888889
+          }
+        ],
+        "next_pilot_increase_at_least_2A_within_15min": [
+          {
+            "csv_line": 593,
+            "utc": "2020-01-13T17:23:11+00:00",
+            "pilot_A": 8.0,
+            "current_A": 8.1,
+            "power_kW": 1.815,
+            "energy_kWh": 1.85536972222
+          },
+          {
+            "csv_line": 594,
+            "utc": "2020-01-13T17:23:15+00:00",
+            "pilot_A": 13.0,
+            "current_A": 12.4,
+            "power_kW": 2.766,
+            "energy_kWh": 1.8579177777799998
+          }
+        ]
+      },
+      {
+        "source": "data/ACN_real_user_benchmark_v1_20261102/raw/caltech/California_Garage_01/2-39-125-21-2020-01-06T18-07-47-364420.csv.gz",
+        "sha256": "7ff62825e358d73322eec77cc73a55178078470005afaaaaa7ca193d91ba2480",
+        "session_id": "2_39_125_21_2020-01-06 18:07:47.364420",
+        "station_id": "2-39-125-21",
+        "site_id": "0002",
+        "site_timezone": "America/Los_Angeles",
+        "metadata_connection_utc": "2020-01-06T18:07:47+00:00",
+        "metadata_disconnect_utc": "2020-01-07T01:17:16+00:00",
+        "connected_at_research_anchor": true,
+        "first_meter_row": {
+          "csv_line": 2,
+          "utc": "2020-01-06T18:07:47+00:00",
+          "pilot_A": 8.0,
+          "current_A": 0.0,
+          "power_kW": 0.0,
+          "energy_kWh": 0.0
+        },
+        "meter_columns": [
+          "",
+          "Charging Current (A)",
+          "Actual Pilot (A)",
+          "Voltage (V)",
+          "Charging State",
+          "Energy Delivered (kWh)",
+          "Power (kW)"
+        ],
+        "meter_rows": 6539,
+        "research_anchor_utc": "2020-01-06T18:37:47+00:00",
+        "prior_revision": {
+          "modifiedAt": "Mon, 06 Jan 2020 18:07:53 GMT",
+          "kWhRequested": 8.0,
+          "requestedDeparture": "Mon, 06 Jan 2020 21:10:47 GMT",
+          "paymentRequired": true
+        },
+        "after_or_at_anchor_revisions": 0,
+        "last_pre_anchor_energy_row": {
+          "csv_line": 456,
+          "utc": "2020-01-06T18:37:44+00:00",
+          "pilot_A": 17.0,
+          "current_A": 14.8,
+          "power_kW": 3.256,
+          "energy_kWh": 1.62018111111
+        },
+        "last_pre_anchor_energy_age_s": 3.0,
+        "planned_minutes_remaining": 153.0,
+        "requested_minus_meter_kWh": 6.37981888889,
+        "first_post_anchor_pilot_drop_at_least_2A": [
+          {
+            "csv_line": 967,
+            "utc": "2020-01-06T19:11:18+00:00",
+            "pilot_A": 17.0,
+            "current_A": 7.4,
+            "power_kW": 1.656,
+            "energy_kWh": 3.32722916667
+          },
+          {
+            "csv_line": 968,
+            "utc": "2020-01-06T19:11:21+00:00",
+            "pilot_A": 12.0,
+            "current_A": 7.4,
+            "power_kW": 1.652,
+            "energy_kWh": 3.32903111111
+          }
+        ],
+        "next_pilot_increase_at_least_2A_within_15min": null
+      },
+      {
+        "source": "data/ACN_real_user_benchmark_v1_20261102/raw/caltech/California_Garage_01/2-39-126-20-2020-01-02T01-12-28-778216.csv.gz",
+        "sha256": "7f55847284d27939ec2a97032b55fd81f52a9da2fd3b4a8825f216d6a6d4a32e",
+        "session_id": "2_39_126_20_2020-01-02 01:12:28.778216",
+        "station_id": "2-39-126-20",
+        "site_id": "0002",
+        "site_timezone": "America/Los_Angeles",
+        "metadata_connection_utc": "2020-01-02T01:12:29+00:00",
+        "metadata_disconnect_utc": "2020-01-02T04:38:39+00:00",
+        "connected_at_research_anchor": true,
+        "first_meter_row": {
+          "csv_line": 2,
+          "utc": "2020-01-02T01:12:32+00:00",
+          "pilot_A": 8.0,
+          "current_A": 0.9,
+          "power_kW": 0.126,
+          "energy_kWh": 4.80555555556e-05
+        },
+        "meter_columns": [
+          "",
+          "Charging Current (A)",
+          "Actual Pilot (A)",
+          "Voltage (V)",
+          "Charging State",
+          "Energy Delivered (kWh)",
+          "Power (kW)"
+        ],
+        "meter_rows": 3187,
+        "research_anchor_utc": "2020-01-02T01:42:29+00:00",
+        "prior_revision": {
+          "modifiedAt": "Thu, 02 Jan 2020 01:13:30 GMT",
+          "kWhRequested": 24.0,
+          "requestedDeparture": "Thu, 02 Jan 2020 03:17:29 GMT",
+          "paymentRequired": true
+        },
+        "after_or_at_anchor_revisions": 0,
+        "last_pre_anchor_energy_row": {
+          "csv_line": 479,
+          "utc": "2020-01-02T01:42:25+00:00",
+          "pilot_A": 32.0,
+          "current_A": 28.3,
+          "power_kW": 6.386,
+          "energy_kWh": 3.06274138889
+        },
+        "last_pre_anchor_energy_age_s": 4.0,
+        "planned_minutes_remaining": 95.0,
+        "requested_minus_meter_kWh": 20.93725861111,
+        "first_post_anchor_pilot_drop_at_least_2A": [
+          {
+            "csv_line": 1078,
+            "utc": "2020-01-02T02:20:54+00:00",
+            "pilot_A": 32.0,
+            "current_A": 22.8,
+            "power_kW": 5.154,
+            "energy_kWh": 7.05999361111
+          },
+          {
+            "csv_line": 1079,
+            "utc": "2020-01-02T02:20:58+00:00",
+            "pilot_A": 28.0,
+            "current_A": 22.9,
+            "power_kW": 5.17,
+            "energy_kWh": 7.0656938888899985
+          }
+        ],
+        "next_pilot_increase_at_least_2A_within_15min": null
+      }
+    ]
+  },
+  "supermarket": {
+    "sha256": "9a067d840ccfac2cb5f55fd5f34d3a9ca26c3ef9060af83364654d2779df10e6",
+    "git_blob_sha1": "045d253a11a00ea9f527c35369602253fb9529b1",
+    "columns": [
+      "",
+      "discount",
+      "consumption_total",
+      "market_price",
+      "availability_service",
+      "availability_discounts",
+      "holiday",
+      "temperature_hist",
+      "forecast_total",
+      "discount_category",
+      "hour",
+      "weekday"
+    ],
+    "rows": 6672,
+    "unique_utc_keys": 6672,
+    "utc_first": "2024-03-01T00:00:00+00:00",
+    "utc_last": "2024-12-03T23:00:00+00:00",
+    "missing_counts": {
+      "discount": 0,
+      "consumption_total": 392,
+      "market_price": 368,
+      "availability_service": 0,
+      "availability_discounts": 0,
+      "holiday": 0,
+      "temperature_hist": 0,
+      "forecast_total": 1668,
+      "discount_category": 0,
+      "hour": 0,
+      "weekday": 0
+    },
+    "discount_counts": {
+      "0.0": 6181,
+      "0.05": 319,
+      "0.5": 50,
+      "0.25": 122
+    },
+    "zero_meter_hours": 730,
+    "raw_hour_matches_utc": 6672,
+    "raw_hour_matches_local": 1632,
+    "repeated_local_clock_examples": [
+      {
+        "discount": "0.0",
+        "consumption_total": "64.52017051333333",
+        "market_price": "82.2300033569336",
+        "availability_service": "1",
+        "availability_discounts": "1",
+        "holiday": "0",
+        "temperature_hist": "10.572",
+        "forecast_total": "",
+        "discount_category": "0",
+        "hour": "0",
+        "weekday": "6",
+        "line": 5762,
+        "local": "2024-10-27T01:00:00+01:00",
+        "utc": "2024-10-27T00:00:00+00:00"
+      },
+      {
+        "discount": "0.0",
+        "consumption_total": "61.243809595",
+        "market_price": "80.68000030517578",
+        "availability_service": "1",
+        "availability_discounts": "1",
+        "holiday": "0",
+        "temperature_hist": "10.622",
+        "forecast_total": "",
+        "discount_category": "0",
+        "hour": "1",
+        "weekday": "6",
+        "line": 5763,
+        "local": "2024-10-27T01:00:00+00:00",
+        "utc": "2024-10-27T01:00:00+00:00"
+      }
+    ],
+    "first_raw_row_per_discount": [
+      {
+        "discount": "0.0",
+        "consumption_total": "4.846416666666667",
+        "market_price": "0.5",
+        "availability_service": "1",
+        "availability_discounts": "1",
+        "holiday": "0",
+        "temperature_hist": "8.372",
+        "forecast_total": "",
+        "discount_category": "0",
+        "hour": "0",
+        "weekday": "4",
+        "line": 2,
+        "lag48h_csv_line": null,
+        "lag48h_meter_kW": null,
+        "local": "2024-03-01T00:00:00+00:00",
+        "utc": "2024-03-01T00:00:00+00:00"
+      },
+      {
+        "discount": "0.05",
+        "consumption_total": "37.6241642",
+        "market_price": "0.0",
+        "availability_service": "1",
+        "availability_discounts": "1",
+        "holiday": "0",
+        "temperature_hist": "11.622",
+        "forecast_total": "14.0",
+        "discount_category": "1",
+        "hour": "9",
+        "weekday": "4",
+        "line": 11,
+        "lag48h_csv_line": null,
+        "lag48h_meter_kW": null,
+        "local": "2024-03-01T09:00:00+00:00",
+        "utc": "2024-03-01T09:00:00+00:00"
+      },
+      {
+        "discount": "0.25",
+        "consumption_total": "194.0384127583333",
+        "market_price": "0.0099999997764825",
+        "availability_service": "1",
+        "availability_discounts": "1",
+        "holiday": "0",
+        "temperature_hist": "9.972",
+        "forecast_total": "15.0",
+        "discount_category": "2",
+        "hour": "14",
+        "weekday": "5",
+        "line": 40,
+        "lag48h_csv_line": null,
+        "lag48h_meter_kW": null,
+        "local": "2024-03-02T14:00:00+00:00",
+        "utc": "2024-03-02T14:00:00+00:00"
+      },
+      {
+        "discount": "0.5",
+        "consumption_total": "207.3078560333333",
+        "market_price": "0.0",
+        "availability_service": "1",
+        "availability_discounts": "1",
+        "holiday": "0",
+        "temperature_hist": "11.672",
+        "forecast_total": "16.0",
+        "discount_category": "3",
+        "hour": "14",
+        "weekday": "4",
+        "line": 16,
+        "lag48h_csv_line": null,
+        "lag48h_meter_kW": null,
+        "local": "2024-03-01T14:00:00+00:00",
+        "utc": "2024-03-01T14:00:00+00:00"
+      }
+    ],
+    "first_positive_discount_with_48h_history": {
+      "discount": "0.05",
+      "consumption_total": "47.41670647666667",
+      "market_price": "7.599999904632568",
+      "availability_service": "0",
+      "availability_discounts": "1",
+      "holiday": "0",
+      "temperature_hist": "12.172",
+      "forecast_total": "16.0",
+      "discount_category": "1",
+      "hour": "9",
+      "weekday": "0",
+      "line": 83,
+      "lag48h_csv_line": 35,
+      "lag48h_meter_kW": "48.152767525",
+      "local": "2024-03-04T09:00:00+00:00",
+      "utc": "2024-03-04T09:00:00+00:00"
+    },
+    "descriptive_13_local": [
+      {
+        "day_type": "weekday",
+        "discount_fraction": "0.0",
+        "hours": 164,
+        "meter_nonmissing": 162,
+        "average_meter_kW": 141.38493456120722,
+        "market_price_nonmissing": 164,
+        "average_market_price_csv_units": 42.83085371948006
+      },
+      {
+        "day_type": "weekday",
+        "discount_fraction": "0.05",
+        "hours": 8,
+        "meter_nonmissing": 8,
+        "average_meter_kW": 140.68507943569443,
+        "market_price_nonmissing": 8,
+        "average_market_price_csv_units": 48.73124980926514
+      },
+      {
+        "day_type": "weekday",
+        "discount_fraction": "0.25",
+        "hours": 2,
+        "meter_nonmissing": 2,
+        "average_meter_kW": 140.76325651708333,
+        "market_price_nonmissing": 2,
+        "average_market_price_csv_units": 56.249999389983714
+      },
+      {
+        "day_type": "weekend",
+        "discount_fraction": "0.0",
+        "hours": 63,
+        "meter_nonmissing": 63,
+        "average_meter_kW": 144.74989731714888,
+        "market_price_nonmissing": 63,
+        "average_market_price_csv_units": 15.344444570146383
+      },
+      {
+        "day_type": "weekend",
+        "discount_fraction": "0.05",
+        "hours": 1,
+        "meter_nonmissing": 1,
+        "average_meter_kW": 207.12856676166663,
+        "market_price_nonmissing": 1,
+        "average_market_price_csv_units": 0.0
+      },
+      {
+        "day_type": "weekend",
+        "discount_fraction": "0.25",
+        "hours": 1,
+        "meter_nonmissing": 1,
+        "average_meter_kW": 177.07884176200002,
+        "market_price_nonmissing": 1,
+        "average_market_price_csv_units": 49.0099983215332
+      }
+    ]
+  },
+  "harvard": {
+    "sha256": "5cefedfd1a1526f8f4868aec626a2bb6e8915e1c1d1a45ce3eb958eaeb80c31b",
+    "columns": [
+      "sessionId",
+      "kwhTotal",
+      "dollars",
+      "created",
+      "ended",
+      "startTime",
+      "endTime",
+      "chargeTimeHrs",
+      "weekday",
+      "platform",
+      "distance",
+      "userId",
+      "stationId",
+      "locationId",
+      "managerVehicle",
+      "facilityType",
+      "Mon",
+      "Tues",
+      "Wed",
+      "Thurs",
+      "Fri",
+      "Sat",
+      "Sun",
+      "reportedZip"
+    ],
+    "sessions": 3395,
+    "unique_session_ids": 3395,
+    "users": 85,
+    "positive_payment_sessions": 379
+  }
+}

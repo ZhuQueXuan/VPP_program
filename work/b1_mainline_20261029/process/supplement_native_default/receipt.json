@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "no_new_data": true,
+  "no_parameter_search": true,
+  "n_variants": 960,
+  "n_metric_rows": 1920,
+  "independent_blocks": 20,
+  "actual_original_cpop_version": "1.0.10",
+  "r_batch_elapsed_seconds": 68.1,
+  "max_native_cost_recompute_difference": 7.770495358272456e-11,
+  "main_results_sha256_unchanged": true,
+  "original_zero_length_endpoint_segments": 28,
+  "parser_adaptation": "ignore empty endpoint segments only; raw CSV, fit and native cost unchanged",
+  "metrics_sha256": "5ed91cea9614659de4407eb6e15e81df69f9e214f24fadcd311772d3371eef35",
+  "segments_sha256": "7560e49e419e64576832a4c8622776d08cb1f5f5839631d1abe0b946293c1ca6",
+  "limitation": "known common reference and noise; official default grid, same fixed penalty, finite synthetic scenarios; no real-data or universal dominance claim"
+}

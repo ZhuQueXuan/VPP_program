@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "checks": {
+    "prior_pilot_and_data_artifacts_unchanged": 177,
+    "production_files_unchanged": 58,
+    "raw_source_file_byte_hashes": 1878,
+    "event_user_group_folds": 4,
+    "source_defined_state_training_labels": 235,
+    "recovery_user_group_folds": 4,
+    "public_inference_label_independence_and_replays": 160,
+    "old_positive_preservation_checks": 160,
+    "exact_retained50_feature_matrix_reuse": 37,
+    "saved_validation_inference_replayed": 64,
+    "confirmation_original_native_input_and_output_cases": 64,
+    "confirmation_original_numeric_values": 9780,
+    "confirmation_native_label_brackets": 21,
+    "confirmation_source_lineages": 32,
+    "independently_recomputed_method_feature_scores": 20
+  },
+  "training_event_rows": 62,
+  "recovery_point_rows": 235,
+  "recovery_positive_endpoints": 21,
+  "total_training_recovery_targets_scored": 22,
+  "old_production_weights_changed": false,
+  "old_physical_heads_claimed_transferred": false,
+  "additional_windows": 32,
+  "additional_users": 22,
+  "new_validation_users": 0,
+  "confirmation_labels_before_model_outputs": true,
+  "all_test_observation_values_unread": true,
+  "production_adopt": false,
+  "supervision": "provisional_single_assistant_not_independent_physical_gold",
+  "short_observed_checks": {
+    "seen_validation|cpop": {
+      "observed_short_count": 4,
+      "misses": 0,
+      "not_physical_effective_duration_truth": true
+    },
+    "seen_validation|labs": {
+      "observed_short_count": 4,
+      "misses": 2,
+      "not_physical_effective_duration_truth": true
+    },
+    "seen_validation|candidate": {
+      "observed_short_count": 4,
+      "misses": 0,
+      "not_physical_effective_duration_truth": true
+    },
+    "seen_validation|raw_only": {
+      "observed_short_count": 4,
+      "misses": 0,
+      "not_physical_effective_duration_truth": true
+    },
+    "seen_validation|command_only": {
+      "observed_short_count": 4,
+      "misses": 0,
+      "not_physical_effective_duration_truth": true
+    },
+    "additional_development|cpop": {
+      "observed_short_count": 4,
+      "misses": 0,
+      "not_physical_effective_duration_truth": true
+    },
+    "additional_development|labs": {
+      "observed_short_count": 4,
+      "misses": 1,
+      "not_physical_effective_duration_truth": true
+    },
+    "additional_development|candidate": {
+      "observed_short_count": 4,
+      "misses": 0,
+      "not_physical_effective_duration_truth": true
+    },
+    "additional_development|raw_only": {
+      "observed_short_count": 4,
+      "misses": 0,
+      "not_physical_effective_duration_truth": true
+    },
+    "additional_development|command_only": {
+      "observed_short_count": 4,
+      "misses": 0,
+      "not_physical_effective_duration_truth": true
+    }
+  },
+  "confirmed_interval_recovery_error_reduction": 0.2823529411764706,
+  "confirmed_endpoint_recovery_error_reduction": 0.2666666666666667,
+  "remaining_confirmation_recovery_missing": 1,
+  "known_early_confirmation_recovery_case": 133
+}

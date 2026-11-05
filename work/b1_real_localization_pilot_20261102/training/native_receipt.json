@@ -1,0 +1,48 @@
+{
+  "cpop": [
+    {
+      "status": "ok",
+      "reason": "original_cpop_completed",
+      "artifact_dir": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_real_localization_pilot_20261102\\native\\training_attempt02\\cpop\\chunk003\\process_1xwyi310",
+      "cases": 23
+    },
+    {
+      "status": "ok",
+      "reason": "original_cpop_completed",
+      "artifact_dir": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_real_localization_pilot_20261102\\native\\training_attempt02\\cpop\\chunk001\\process_3vdjt7o3",
+      "cases": 24
+    },
+    {
+      "status": "ok",
+      "reason": "original_cpop_completed",
+      "artifact_dir": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_real_localization_pilot_20261102\\native\\training_attempt02\\cpop\\chunk000\\process_jy_3g84u",
+      "cases": 24
+    },
+    {
+      "status": "ok",
+      "reason": "original_cpop_completed",
+      "artifact_dir": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_real_localization_pilot_20261102\\native\\training_attempt02\\cpop\\chunk002\\process_hb87aizq",
+      "cases": 24
+    }
+  ],
+  "labs": [
+    {
+      "directory": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_real_localization_pilot_20261102\\native\\training_attempt02\\labs\\chunk000",
+      "wall_seconds": 1.122114199999487
+    },
+    {
+      "directory": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_real_localization_pilot_20261102\\native\\training_attempt02\\labs\\chunk002",
+      "wall_seconds": 1.3075281000055838
+    },
+    {
+      "directory": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_real_localization_pilot_20261102\\native\\training_attempt02\\labs\\chunk001",
+      "wall_seconds": 1.3646090000111144
+    },
+    {
+      "directory": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_real_localization_pilot_20261102\\native\\training_attempt02\\labs\\chunk003",
+      "wall_seconds": 1.4869674000074156
+    }
+  ],
+  "index_based_common_input": true,
+  "role": "training"
+}

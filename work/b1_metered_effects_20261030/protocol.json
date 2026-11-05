@@ -1,0 +1,20 @@
+{
+  "name":"B1 metered-energy relative incentive effects v1",
+  "date":"2026-10-30",
+  "purpose":"Remove unnecessary absolute-reference dependency for relative incentive effects; retain standard AIPW estimator and existing event-process default.",
+  "domain":"complete one-minute intervals, fixed30minute1.5kW task; all supplied events including nonresponse; same pre-treatment task across arms",
+  "outcome":"Z=-sum(actual_power*width)/(q*T); positive contrast means less actual energy than reference incentive arm. Absolute Z means are NOT net-delivery eta or capacity.",
+  "identity":"With a treatment-invariant natural reference and pre-fixed common W,Q, eta(d)-eta(d0)=Z(d)-Z(d0). Refit finite-sample nuisance models may differ; no universal RMSE improvement claim.",
+  "implementation":"One optional input wrapper, validates identities/time grid/complete aligned task/duplicate events/no implicit dropping; delegates to existing standard multivalued AIPW, user folds and cluster inference. Existing APIs/defaults unchanged.",
+  "seeds":[4432200,4432201,4432202,4432203,4432204,4432205,4432206,4432207,4432208,4432209,4432210,4432211,4432212,4432213,4432214,4432215,4432216,4432217,4432218,4432219],
+  "scenarios":["rct_positive","observational_positive","observational_zero","deterministic_no_overlap"],
+  "n_users":600,
+  "events_per_user":6,
+  "levels":[0,0.4,0.8,1.2,1.6,2,2.4],
+  "generator":"Reuse frozen causal simulation formulas on new seeds. Natural normalized baseline b=3+.35X0+.2X1+.15X2+.1X0^2+.12*independent_user_latent; predicted reference bhat=2.75+.2X0+.2X1, a pre-treatment function only. Measured average power=1.5*(b-y); full30 bins preserve this integral. Baseline has positive physical margin relative to all noiseless potential outcomes; no clipping.",
+  "comparisons":["standard AIPW on oracle-reference eta","standard AIPW on biased but pre-treatment predicted-reference eta","meter-only wrapper using the same standard AIPW","shared-auxiliary Plugin for all three"],
+  "validation":"Independent interval integral and potential-contrast algebra; wrapper vs direct standard AIPW point agreement; synchronous auxiliary shift identity; invalid/missing/bool/string/grid/duplicate/mixed-task/no-predeclaration/sparse-support cases. Observational assignment uses only supplied X. Deterministic support refusal retained.",
+  "inference":"20 independent seed blocks; four paired scenarios, three paired outcomes. Existing999 user Gaussian multipliers and95% simultaneous bands; report observed coverage denominators, not proof of exact95% coverage. Group users, not repeated events.",
+  "adoption":"Optional input functionality only if contract tests and algebra/direct-baseline checks pass and independent review finds no target mistake. Numerical superiority is not required or asserted. One frozen experiment, no tuning to beat AIPW.",
+  "stop":"No process model retuning, no new reference correction, no real-data claim, no report. New runtime source only under B1算法 after validation; experimental source stays work."
+}

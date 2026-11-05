@@ -1,0 +1,100 @@
+{
+  "review_date": "2026-11-03",
+  "scope": "Targeted primary-source update for the authorized part-3 smoothing-spline pilot. No algorithm edits, fitting or installation performed by this review.",
+  "recommended_hypothesis": "Keeping the current Kennedy DR nuisance fits and exactly the same cross-fitted pseudo-outcomes xi, replacing only final Gaussian local-linear smoothing by cubic smoothing spline may reduce finite-sample level-curve error. This is an empirical task adaptation, not a new causal estimator or a complete Bonvini-Kennedy reproduction.",
+  "sources": [
+    {
+      "id": "BK2026_v2",
+      "title": "Fast convergence rates for dose-response estimation",
+      "authors": ["Matteo Bonvini", "Edward H. Kennedy"],
+      "dates": {"first_arxiv": "2022-07-24", "latest_arxiv": "2026-04-12 v2"},
+      "publication": "Author research page lists Electronic Journal of Statistics, to appear, 2026. No Fisher coauthor; not first proposed in 2026.",
+      "urls": ["https://arxiv.org/abs/2207.11825", "https://arxiv.org/html/2207.11825v2", "https://www.matteobonvini.com/research.html"],
+      "evidence_location": "Sections 2.1-2.2, Algorithm 1. In the HTML, lines 162-170 discuss independent samples and cross-fitting variants; lines 195-214 give ERM/linear-smoothing final regressions and explicitly list smoothing splines.",
+      "supports": "The continuous-treatment DR pseudo-outcome can be followed by a different regression/smoothing learner, including a smoothing spline. Global ERM and linear-smoother error analysis justify this as a principled candidate family.",
+      "does_not_support": "It does not establish that this candidate will improve the present sample, that the current clustered cross-fitting inherits all iid rates, or that level-curve improvement implies derivative/threshold improvement.",
+      "replication_boundary": "The paper analyzes a three-independent-sample construction, discusses alternative leave-one-out and multi-split constructions, and includes higher-order influence-function estimators. This pilot shares the existing Kennedy xi and changes only its last smoother. It does not reproduce the full BK estimator or experiments.",
+      "author_code": "No replication repository for this specific paper was located in targeted searches or its author research page. The GitHub Job Corps link in its application is a data source from Colangelo-Lee, not BK software. No unverified license assigned.",
+      "why_not_higher_order_now": "Higher-order correction requires projection-basis and Gram-matrix choices and extra estimation. The paper discusses singular Gram matrices and empirically used pseudoinverses. That is a separate multi-parameter research change rather than an isolated final-smoother comparison."
+    },
+    {
+      "id": "scipy_reuse",
+      "urls": ["https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.make_smoothing_spline.html", "https://github.com/scipy/scipy/blob/v1.18.0/scipy/interpolate/_bsplines.py", "https://github.com/scipy/scipy/blob/main/LICENSE.txt", "https://github.com/scipy/scipy"],
+      "official_api_checked": "make_smoothing_spline(x,y,w=None,lam=None) returns a cubic BSpline. Its documented loss is sum_i w_i*(y_i-f(x_i))^2 + lam*integral(f''(u)^2 du). lam=None invokes ordinary GCV; an explicit nonnegative lam fixes the smoothing penalty. The documentation describes a clean-room implementation of the historical algorithm.",
+      "license": "BSD-3-Clause verified from the repository license text and repository license label. Reuse the maintained SciPy implementation rather than copying an unlicensed author package.",
+      "maintenance": "Current official API documentation and the active public SciPy repository were checked. The docs-linked source is version v1.18.0. This does not assert that v1.18.0 is installed locally or require upgrading the environment.",
+      "conditions": "Univariate amounts need ordered distinct abscissas for the smoother implementation and at least the API's required number of usable knots/points. If there are duplicate observed amounts, exact weighted collapse within the fitted training sample can preserve squared-loss contributions; do not remove observations or aggregate across validation boundaries.",
+      "not_claimed": "Ordinary observation-level GCV does not establish user-cluster-aware tuning or causal inference. No CPU runtime or new effect improvement measured by this literature task."
+    },
+    {
+      "id": "TW2025_backup",
+      "title": "Debiased inference for a covariate-adjusted regression function",
+      "authors": ["Kenta Takatsu", "Ted Westling"],
+      "publication": "JRSS Series B 87(1), February 2025, 33-55; DOI 10.1093/jrsssb/qkae041; online 2024-05-30. The primary arXiv version checked is v3 revised 2023-12-15, first posted 2022-10-12.",
+      "urls": ["https://academic.oup.com/jrsssb/article/87/1/33/7685277", "https://arxiv.org/abs/2210.06448", "https://github.com/Kenta426/sim-debiased-inference", "https://github.com/Kenta426/DebiasedDoseResponse/blob/main/DESCRIPTION"],
+      "purpose": "Debiased local-linear point estimates, pointwise intervals and uniform bands without undersmoothing under its smoothness/nuisance/positivity assumptions.",
+      "code": "The author simulation repo describes exact numerical studies and depends on DebiasedDoseResponse. No explicit license located on the visible simulation-repository root. Package DESCRIPTION still contains the placeholder license-selection template. Do not call it MIT or copy its source under an assumed license.",
+      "why_not_first": "The immediate research question is whether final smoothing improves point-curve accuracy. TW changes bias correction and inference; it can increase variance. Reproducing its uncertainty procedure and adapting repeated-user inference would confound this small final-smoother experiment. Keep it for a dedicated later inference/threshold study."
+    },
+    {
+      "id": "proximal2026_not_applicable_yet",
+      "title": "Debiased inference for proximal dose-response function",
+      "authors": ["Daeyoung Ham", "Sihan Wu", "Yifan Cui"],
+      "dates": {"first_arxiv": "2026-08-01", "latest_arxiv": "2026-10-07 v2"},
+      "urls": ["https://arxiv.org/abs/2608.00404", "https://arxiv.org/pdf/2608.00404"],
+      "evidence_location": "Original PDF pages 6-8, section 2, Assumptions A and B; page 29 data availability.",
+      "required_data_and_assumptions": ["Observed baseline X plus a treatment-inducing confounding proxy Z and outcome-inducing proxy W.", "Y conditionally independent of Z given U,X,A, and W conditionally independent of Z,A given U,X; exchangeability and positive treatment density conditional on U,X.", "Completeness/injectivity conditions for proxy conditional-expectation operators.", "Existence and square-integrability of outcome/treatment bridge functions satisfying its bridge equations."],
+      "why_not_first": "Existing ordinary factors have not been scientifically established as this pair of valid proxies. A newly generated hidden-confounding scenario alone does not supply such proxies or validate completeness. Simply renaming two existing factors as Z and W would not implement the identification assumptions.",
+      "code_status": "The paper's data availability points to https://github.com/yuchen-zhu/kernel_proxies for the earlier Mastouri et al. benchmark data. This is not evidence of a licensed implementation of this 2026 estimator. No new author implementation was established in the targeted title/code search.",
+      "relevance": "Useful future route only if actual proxy measurements and their scientific roles can be established. Its presence does not justify claiming that smoother replacement fixes unmeasured confounding."
+    }
+  ],
+  "formula_to_code_checks_C3": [
+    {
+      "item": "Summed versus average loss",
+      "equation": "SciPy: sum_i (xi_i-f(a_i))^2 + lambda_sum*integral(f''(a)^2 da). If the protocol uses mean_i squared error + lambda_mean*roughness, pass lambda_sum=n*lambda_mean for unit weights.",
+      "reason": "A fixed numeric summed-loss lambda implies a different relative penalty when sample size changes. Record which convention is used; for nonuniform weights explicitly fix their normalization."
+    },
+    {
+      "item": "Amount and outcome scaling",
+      "equation": "For u=(a-a_min)/L and z=xi/T, f(a)=T*g(u), roughness in amount units equals T^2/L^3 times roughness in u. A summed-loss lambda_a becomes lambda_u=lambda_a/L^3 in the scaled objective; prediction derivative is (T/L)*g'(u).",
+      "reason": "Fix L and T before fitting so tuning and reported seconds/amount derivatives match the implemented objective. Outcome rescaling alone cancels from both quadratic terms; amount rescaling does not."
+    },
+    {
+      "item": "Same pseudo-outcomes",
+      "equation": "Candidate fit uses the exact same observed-dose xi values as the retained final smoother.",
+      "reason": "No new nuisance fits, GPS, hidden truncation, marginalization definition, reference dose, or weighting change inside the candidate. Any such change would alter the research question."
+    },
+    {
+      "item": "Effect contrast target",
+      "equation": "Estimated effect at a relative to a0 is f_hat(a)-f_hat(a0), compared with theta(a)-theta(a0).",
+      "reason": "Level-curve error and effect-contrast error differ because reference-dose error also enters. Predeclare the primary target and evaluate it identically."
+    },
+    {
+      "item": "Unbounded DR signal",
+      "equation": "Bounded observed Y does not imply xi is in [0,T].",
+      "reason": "Do not clip xi or final contrast to [0,T] merely to make the spline appear plausible; it changes the target/estimator. Preserve the baseline output contract."
+    },
+    {
+      "item": "Continuous curve and support",
+      "equation": "Query the fitted BSpline at arbitrary a; derivative queries use the analytic spline derivative with the scaling chain rule.",
+      "reason": "No binned-dose regression or grid interpolation. Retain the same eligibility/support interval for both methods; global spline extrapolation does not establish unsupported causal effects."
+    }
+  ],
+  "statistical_design_issues": [
+    "Use whole-user folds. Two events from one user are dependent; dense query points, paired scenarios and repeated events do not create independent sample-size blocks.",
+    "Cross-fitted pseudo-outcomes can share trained nuisance models across folds and are not iid independent regression responses in the exact theoretical sense. A paired empirical comparison is appropriate; do not claim the full BK iid guarantee for this implementation.",
+    "Freeze the lambda-selection policy on new development before accessing the fixed final truth/output. Ordinary GCV may be a baseline selector, but it must not be described as cluster-aware. A fixed development-selected lambda is clearer for this pilot.",
+    "If only the spline gets a new tuning search, any improvement is over the frozen current baseline, not a proof of superiority over every optimally tuned local-linear learner. State that comparison target correctly.",
+    "Curvature regularization can reduce variance and also flatten real saturation or nonmonotone structure. Report dose-wise errors and mechanism-specific results in addition to pooled RMSE.",
+    "Level or contrast RMSE improvement does not guarantee derivative RMSE, target crossing accuracy or subgroup support improves. These are independent downstream scores.",
+    "Global empirical risk is weighted by observed dose density, whereas a uniform query-grid RMSE weights the evaluation range differently. Selection loss and primary evaluation weighting must be declared; do not assume one guarantees the other.",
+    "User versus event target populations coincide in the present two-event-per-user design but may differ with uneven event counts later. Do not silently change target weights.",
+    "No confidence band based only on fixed cached nuisance fits should be described as complete causal uncertainty. This pilot can focus on point estimates without claiming new uncertainty coverage."
+  ],
+  "evidence_reporting_B6": {
+    "performance_numbers": "No new performance result in this review. All new gains must point to actual new development/final metrics and independent verification, not literature abstract rates.",
+    "scientific_claim": "The chosen smoother is a mature numerical/statistical method motivated by a recent continuous-DR framework. Its task-specific improvement, if any, must be established by this project's paired new-data experiment.",
+    "source_rule_E": "Technical claims above use the original articles, author repositories, and official SciPy documentation/license. Search aggregators were not used to establish method assumptions or reusable licenses."
+  }
+}

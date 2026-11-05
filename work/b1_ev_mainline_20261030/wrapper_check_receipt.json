@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "events": 400,
+  "full_public_entry_equal_to_two_stage_chain": true,
+  "same_inputs_and_outputs_as_saved_CPOP_events": true,
+  "main_results_overwritten": false,
+  "purpose": "functional replay only; no new independent performance evidence"
+}

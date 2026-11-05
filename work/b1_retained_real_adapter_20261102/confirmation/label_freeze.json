@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-11-02T15:50:34.679797+00:00",
+  "before_new_window_model_outputs": true,
+  "files": {
+    "annotate.py": "d315e6e9123e1f77f0e474fcc1af610a2b44ae9e7751c6d923ccf4afb31e823f",
+    "annotations.json": "eb28f7f89607d3967dda5dcb5bc48e810948c765436623af57cb4bc5694e814e",
+    "inputs.json": "20d511a2e6b239a3f174b029b5fcf2f13994ed362aa1dac6fe88414cf20ea7d2"
+  },
+  "provisional_single_assistant_not_physical_gold": true
+}

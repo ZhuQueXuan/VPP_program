@@ -1,0 +1,10 @@
+{
+  "word_version": "16.0",
+  "renderer": "Microsoft Word native PDF export",
+  "pdf_sha256": "bbdc6854fb2ceac4a74d81c8f6ea803a62d780109d319d197f8c1f80f91b1ca0",
+  "status": "success",
+  "page_count": 11,
+  "input": "D:\\myDocu\\project_postg\\VPP_program\\outputs\\课题一B1至B3算法阶段研究报告_20261029.docx",
+  "pdf": "D:\\myDocu\\project_postg\\VPP_program\\outputs\\课题一B1至B3算法阶段研究报告_20261029.pdf",
+  "input_sha256": "12efe9ab1b80b16a39538156872a83a0879975a018246ef4c473193a8f1ad7af"
+}

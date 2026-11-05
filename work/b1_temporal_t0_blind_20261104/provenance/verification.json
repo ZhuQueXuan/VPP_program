@@ -1,0 +1,181 @@
+{
+  "audit_source_sha256": "9d4541e5cdc5fe377172d6e12a12471787da05e08e70e2abd0b070339ece0d6b",
+  "blind_frozen_files": 75,
+  "heat_stage_checks": 1148,
+  "heat_point_source_rows_checked": 3298,
+  "heat_source_duplicate_hh_original_time_extra_rows": 7,
+  "acn_reused_csv_verified": 24,
+  "acn_reused_points": 9913,
+  "heat_issue_case_counts": {
+    "zero_duration": 34,
+    "utc_duration_discrepancy": 5,
+    "other_intervention": 1,
+    "other_post_intervention": 1,
+    "before.empty": 1,
+    "before.source_left_censored": 0,
+    "before.source_right_censored": 0,
+    "before.left_edge_undercovered": 4,
+    "before.right_edge_undercovered": 1,
+    "before.duplicate_source_rows": 0,
+    "before.long_gaps": 1,
+    "before.missing.hp_p": 12,
+    "before.missing.t_in": 1,
+    "before.missing.t_out": 1,
+    "before.missing.t_dhw": 1,
+    "before.missing.t_set": 1,
+    "before.missing.intervention_dummy": 0,
+    "during.empty": 0,
+    "during.source_left_censored": 0,
+    "during.source_right_censored": 0,
+    "during.left_edge_undercovered": 0,
+    "during.right_edge_undercovered": 0,
+    "during.duplicate_source_rows": 0,
+    "during.long_gaps": 15,
+    "during.missing.hp_p": 13,
+    "during.missing.t_in": 9,
+    "during.missing.t_out": 9,
+    "during.missing.t_dhw": 9,
+    "during.missing.t_set": 9,
+    "during.missing.intervention_dummy": 0,
+    "after.empty": 1,
+    "after.source_left_censored": 0,
+    "after.source_right_censored": 0,
+    "after.left_edge_undercovered": 2,
+    "after.right_edge_undercovered": 3,
+    "after.duplicate_source_rows": 0,
+    "after.long_gaps": 6,
+    "after.missing.hp_p": 12,
+    "after.missing.t_in": 3,
+    "after.missing.t_out": 3,
+    "after.missing.t_dhw": 3,
+    "after.missing.t_set": 3,
+    "after.missing.intervention_dummy": 0,
+    "entire.empty": 0,
+    "entire.source_left_censored": 0,
+    "entire.source_right_censored": 0,
+    "entire.left_edge_undercovered": 4,
+    "entire.right_edge_undercovered": 3,
+    "entire.duplicate_source_rows": 0,
+    "entire.long_gaps": 21,
+    "entire.missing.hp_p": 17,
+    "entire.missing.t_in": 12,
+    "entire.missing.t_out": 12,
+    "entire.missing.t_dhw": 12,
+    "entire.missing.t_set": 12,
+    "entire.missing.intervention_dummy": 0
+  },
+  "heat_positive_metadata_coverage": {
+    "full_window": {
+      "events": 218,
+      "households": 9
+    },
+    "before_and_during": {
+      "events": 226,
+      "households": 9
+    },
+    "post_window_no_new_control": {
+      "events": 233,
+      "households": 9
+    }
+  },
+  "first_review_sha256": "e30e9ec8b85861ad3e14917f0960631c8cfaffb08277dd68a983da1fc5602eab",
+  "first_review_summary": {
+    "EV": {
+      "cases": 24,
+      "objects": 24,
+      "interruption": {
+        "case_counts": {
+          "未见": 17,
+          "不可判": 7
+        },
+        "objects_per_category": {
+          "未见": 17,
+          "不可判": 7
+        },
+        "assessable_cases": 17,
+        "assessable_objects": 17
+      },
+      "order": {
+        "case_counts": {
+          "相近": 11,
+          "不可判": 9,
+          "先高后低": 3,
+          "中低": 1
+        },
+        "objects_per_category": {
+          "相近": 11,
+          "不可判": 9,
+          "先高后低": 3,
+          "中低": 1
+        },
+        "assessable_cases": 15,
+        "assessable_objects": 15
+      },
+      "rise": {
+        "case_counts": {
+          "不适用": 13,
+          "不可判": 8,
+          "早回升": 3
+        },
+        "objects_per_category": {
+          "不适用": 13,
+          "不可判": 8,
+          "早回升": 3
+        },
+        "assessable_cases": 3,
+        "assessable_objects": 3
+      }
+    },
+    "HP": {
+      "cases": 12,
+      "objects": 9,
+      "interruption": {
+        "case_counts": {
+          "未见": 8,
+          "不适用": 1,
+          "不可判": 3
+        },
+        "objects_per_category": {
+          "未见": 7,
+          "不适用": 1,
+          "不可判": 3
+        },
+        "assessable_cases": 8,
+        "assessable_objects": 7
+      },
+      "order": {
+        "case_counts": {
+          "相近": 8,
+          "不适用": 1,
+          "不可判": 3
+        },
+        "objects_per_category": {
+          "相近": 7,
+          "不适用": 1,
+          "不可判": 3
+        },
+        "assessable_cases": 8,
+        "assessable_objects": 7
+      },
+      "rise": {
+        "case_counts": {
+          "晚回升": 5,
+          "早回升": 4,
+          "不适用": 1,
+          "不可判": 2
+        },
+        "objects_per_category": {
+          "晚回升": 4,
+          "早回升": 3,
+          "不适用": 1,
+          "不可判": 2
+        },
+        "assessable_cases": 9,
+        "assessable_objects": 7
+      }
+    }
+  },
+  "independent_second_review_available": false,
+  "models_fitted": 0,
+  "prior_confirmation_opened": false
+}

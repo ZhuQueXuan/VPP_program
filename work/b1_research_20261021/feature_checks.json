@@ -1,0 +1,572 @@
+{
+  "identity": "development_constructed_checks_only",
+  "main_study_test_read": false,
+  "cases": 16,
+  "checks": 77,
+  "passed": true,
+  "details": [
+    {
+      "case": "refusal",
+      "field": "coverage",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "case": "refusal",
+      "field": "Y",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "case": "refusal",
+      "field": "stage",
+      "actual": "no_response",
+      "expected": "no_response",
+      "passed": true
+    },
+    {
+      "case": "refusal",
+      "field": "onset_interval_s",
+      "actual": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "case": "refusal",
+      "field": "onset_delay_interval_s",
+      "actual": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "case": "refusal",
+      "field": "onset_confirmation_s",
+      "actual": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "case": "refusal",
+      "field": "power_recovery_time_s",
+      "actual": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "case": "refusal",
+      "field": "energy_recovery_time_s",
+      "actual": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "case": "refusal",
+      "field": "power_recovery_status",
+      "actual": "not_applicable",
+      "expected": "not_applicable",
+      "passed": true
+    },
+    {
+      "case": "refusal",
+      "field": "energy_recovery_status",
+      "actual": "not_applicable",
+      "expected": "not_applicable",
+      "passed": true
+    },
+    {
+      "case": "rectangle",
+      "field": "coverage",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "case": "rectangle",
+      "field": "Y",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "case": "rectangle",
+      "field": "energy",
+      "actual": 0.5,
+      "expected": 0.5,
+      "passed": true
+    },
+    {
+      "case": "rectangle",
+      "field": "stage",
+      "actual": "response",
+      "expected": "response",
+      "passed": true
+    },
+    {
+      "case": "rectangle",
+      "field": "onset bracket",
+      "actual": [
+        600.0,
+        600.0
+      ],
+      "expected": [
+        600,
+        600
+      ],
+      "passed": true
+    },
+    {
+      "case": "rectangle",
+      "field": "onset confirm",
+      "actual": 630.0,
+      "expected": 630,
+      "passed": true
+    },
+    {
+      "case": "rectangle",
+      "field": "power recovery",
+      "actual": 1800.0,
+      "expected": 1800,
+      "passed": true
+    },
+    {
+      "case": "rectangle",
+      "field": "power confirm",
+      "actual": 1830.0,
+      "expected": 1830,
+      "passed": true
+    },
+    {
+      "case": "rectangle",
+      "field": "energy status",
+      "actual": "right_censored",
+      "expected": "right_censored",
+      "passed": true
+    },
+    {
+      "case": "rectangle",
+      "field": "energy time",
+      "actual": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "case": "rectangle",
+      "field": "debt",
+      "actual": 0.5,
+      "expected": 0.5,
+      "passed": true
+    },
+    {
+      "case": "delayed",
+      "field": "coverage",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "case": "delayed",
+      "field": "Y",
+      "actual": 0.95,
+      "expected": 0.95,
+      "passed": true
+    },
+    {
+      "case": "delayed",
+      "field": "onset bracket",
+      "actual": [
+        650.0,
+        660.0
+      ],
+      "expected": [
+        650,
+        660
+      ],
+      "passed": true
+    },
+    {
+      "case": "delayed",
+      "field": "delay bracket",
+      "actual": [
+        50.0,
+        60.0
+      ],
+      "expected": [
+        50,
+        60
+      ],
+      "passed": true
+    },
+    {
+      "case": "delayed",
+      "field": "onset confirm",
+      "actual": 690.0,
+      "expected": 690,
+      "passed": true
+    },
+    {
+      "case": "delayed",
+      "field": "energy recovered",
+      "actual": 2940.0,
+      "expected": 2940.0,
+      "passed": true
+    },
+    {
+      "case": "delayed",
+      "field": "power recovered",
+      "actual": 2940.0,
+      "expected": 2940,
+      "passed": true
+    },
+    {
+      "case": "partial",
+      "field": "coverage",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "case": "partial",
+      "field": "Y",
+      "actual": 0.5,
+      "expected": 0.5,
+      "passed": true
+    },
+    {
+      "case": "partial",
+      "field": "stage",
+      "actual": "partial",
+      "expected": "partial",
+      "passed": true
+    },
+    {
+      "case": "partial",
+      "field": "target",
+      "actual": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "case": "partial",
+      "field": "energy",
+      "actual": 0.25,
+      "expected": 0.25,
+      "passed": true
+    },
+    {
+      "case": "partial",
+      "field": "rebound",
+      "actual": 0.25,
+      "expected": 0.25,
+      "passed": true
+    },
+    {
+      "case": "partial",
+      "field": "remaining debt",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "case": "full_rebound",
+      "field": "coverage",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "case": "full_rebound",
+      "field": "request energy",
+      "actual": 0.5,
+      "expected": 0.5,
+      "passed": true
+    },
+    {
+      "case": "full_rebound",
+      "field": "rebound energy",
+      "actual": 0.5,
+      "expected": 0.5,
+      "passed": true
+    },
+    {
+      "case": "full_rebound",
+      "field": "Y excludes rebound",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "case": "full_rebound",
+      "field": "power status",
+      "actual": "recovered",
+      "expected": "recovered",
+      "passed": true
+    },
+    {
+      "case": "full_rebound",
+      "field": "energy status",
+      "actual": "recovered",
+      "expected": "recovered",
+      "passed": true
+    },
+    {
+      "case": "full_rebound",
+      "field": "energy time",
+      "actual": 3000.0,
+      "expected": 3000.0,
+      "passed": true
+    },
+    {
+      "case": "short_post",
+      "field": "coverage",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "case": "short_post",
+      "field": "Y",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "case": "short_post",
+      "field": "power_recovery_status",
+      "actual": "right_censored",
+      "expected": "right_censored",
+      "passed": true
+    },
+    {
+      "case": "short_post",
+      "field": "energy_recovery_status",
+      "actual": "right_censored",
+      "expected": "right_censored",
+      "passed": true
+    },
+    {
+      "case": "short_post",
+      "field": "remaining debt",
+      "actual": 0.375,
+      "expected": 0.375,
+      "passed": true
+    },
+    {
+      "case": "short_post",
+      "field": "power time",
+      "actual": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "case": "short_post",
+      "field": "energy time",
+      "actual": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "case": "no_post",
+      "field": "coverage",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "case": "no_post",
+      "field": "power status",
+      "actual": "right_censored",
+      "expected": "right_censored",
+      "passed": true
+    },
+    {
+      "case": "no_post",
+      "field": "energy status",
+      "actual": "right_censored",
+      "expected": "right_censored",
+      "passed": true
+    },
+    {
+      "case": "missing_request",
+      "field": "Y",
+      "actual": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "case": "missing_request",
+      "field": "stage",
+      "actual": "unavailable",
+      "expected": "unavailable",
+      "passed": true
+    },
+    {
+      "case": "missing_request",
+      "field": "coverage",
+      "actual": 0.9916666666666667,
+      "expected": 0.9916666666666667,
+      "passed": true
+    },
+    {
+      "case": "missing_request",
+      "field": "energy status",
+      "actual": "unavailable",
+      "expected": "unavailable",
+      "passed": true
+    },
+    {
+      "case": "missing_post",
+      "field": "Y still computable",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "case": "missing_post",
+      "field": "energy status",
+      "actual": "unavailable",
+      "expected": "unavailable",
+      "passed": true
+    },
+    {
+      "case": "missing_post",
+      "field": "rebound",
+      "actual": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "case": "negative_Y",
+      "field": "coverage",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "case": "negative_Y",
+      "field": "Y",
+      "actual": -0.5,
+      "expected": -0.5,
+      "passed": true
+    },
+    {
+      "case": "negative_Y",
+      "field": "negative energy",
+      "actual": -0.25,
+      "expected": -0.25,
+      "passed": true
+    },
+    {
+      "case": "negative_Y",
+      "field": "stage",
+      "actual": "no_response",
+      "expected": "no_response",
+      "passed": true
+    },
+    {
+      "case": "overdelivery",
+      "field": "coverage",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "case": "overdelivery",
+      "field": "Y",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "case": "overdelivery",
+      "field": "energy",
+      "actual": 0.75,
+      "expected": 0.75,
+      "passed": true
+    },
+    {
+      "case": "short_spike",
+      "field": "coverage",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "case": "short_spike",
+      "field": "Y not thresholded",
+      "actual": 0.016666666666666666,
+      "expected": 0.016666666666666666,
+      "passed": true
+    },
+    {
+      "case": "short_spike",
+      "field": "stage",
+      "actual": "no_response",
+      "expected": "no_response",
+      "passed": true
+    },
+    {
+      "case": "short_spike",
+      "field": "delay",
+      "actual": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "case": "below_threshold",
+      "field": "coverage",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "case": "below_threshold",
+      "field": "Y preserved",
+      "actual": 0.06666666666666668,
+      "expected": 0.06666666666666667,
+      "passed": true
+    },
+    {
+      "case": "below_threshold",
+      "field": "stage",
+      "actual": "no_response",
+      "expected": "no_response",
+      "passed": true
+    },
+    {
+      "case": "irregular_grid",
+      "field": "Y by actual duration",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "case": "irregular_grid",
+      "field": "energy",
+      "actual": 0.5,
+      "expected": 0.5,
+      "passed": true
+    },
+    {
+      "case": "mismatched",
+      "field": "reject invalid input",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "case": "unordered",
+      "field": "reject invalid input",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Threshold no_response does not identify true refusal.",
+    "Energy recovery is cumulative relative-reference debt, not an independently measured service state.",
+    "Dwell covers full intervals, confirmation is the third interval end.",
+    "These constructed arithmetic checks do not establish real EV performance."
+  ]
+}

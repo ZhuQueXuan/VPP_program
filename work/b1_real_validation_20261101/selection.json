@@ -1,0 +1,277 @@
+[
+  {
+    "case_id": "dortmund-000",
+    "member": "Fiat 500e/Fiat_500e_empty_charging_AC_22kW_1_202308150939_e.csv",
+    "analysis_start_minute": 180,
+    "task_start_minute": 195,
+    "history1_minutes": [
+      0,
+      60
+    ],
+    "history2_minutes": [
+      60,
+      120
+    ],
+    "prefix_minutes": [
+      120,
+      180
+    ],
+    "analysis_minutes": [
+      180,
+      240
+    ],
+    "first_history_source_line": 3,
+    "last_analysis_source_line": 28396,
+    "raw_samples_in_all240min": 28394
+  },
+  {
+    "case_id": "dortmund-001",
+    "member": "Hyundai Ioniq 5/Hyundai_Ioniq5_empty_charging_AC_22kW_1_202308310825_e.csv",
+    "analysis_start_minute": 231,
+    "task_start_minute": 246,
+    "history1_minutes": [
+      51,
+      111
+    ],
+    "history2_minutes": [
+      111,
+      171
+    ],
+    "prefix_minutes": [
+      171,
+      231
+    ],
+    "analysis_minutes": [
+      231,
+      291
+    ],
+    "first_history_source_line": 6015,
+    "last_analysis_source_line": 34539,
+    "raw_samples_in_all240min": 28525
+  },
+  {
+    "case_id": "dortmund-002",
+    "member": "Hyundai Ioniq 5/Hyundai_Ioniq5_empty_charging_AC_22kW_1_202308310825_e.csv",
+    "analysis_start_minute": 291,
+    "task_start_minute": 306,
+    "history1_minutes": [
+      111,
+      171
+    ],
+    "history2_minutes": [
+      171,
+      231
+    ],
+    "prefix_minutes": [
+      231,
+      291
+    ],
+    "analysis_minutes": [
+      291,
+      351
+    ],
+    "first_history_source_line": 13135,
+    "last_analysis_source_line": 41675,
+    "raw_samples_in_all240min": 28541
+  },
+  {
+    "case_id": "dortmund-003",
+    "member": "Hyundai Ioniq 5/Hyundai_Ioniq5_empty_charging_AC_22kW_2_202309070833_e.csv",
+    "analysis_start_minute": 180,
+    "task_start_minute": 195,
+    "history1_minutes": [
+      0,
+      60
+    ],
+    "history2_minutes": [
+      60,
+      120
+    ],
+    "prefix_minutes": [
+      120,
+      180
+    ],
+    "analysis_minutes": [
+      180,
+      240
+    ],
+    "first_history_source_line": 3,
+    "last_analysis_source_line": 28280,
+    "raw_samples_in_all240min": 28278
+  },
+  {
+    "case_id": "dortmund-004",
+    "member": "Hyundai Ioniq 5/Hyundai_Ioniq5_empty_charging_AC_22kW_2_202309070833_e.csv",
+    "analysis_start_minute": 240,
+    "task_start_minute": 255,
+    "history1_minutes": [
+      60,
+      120
+    ],
+    "history2_minutes": [
+      120,
+      180
+    ],
+    "prefix_minutes": [
+      180,
+      240
+    ],
+    "analysis_minutes": [
+      240,
+      300
+    ],
+    "first_history_source_line": 7076,
+    "last_analysis_source_line": 35353,
+    "raw_samples_in_all240min": 28278
+  },
+  {
+    "case_id": "dortmund-005",
+    "member": "Opel Corsa-e/OpelCorsa_e_empty_charging_AC_22kW_1_202308171034_e.csv",
+    "analysis_start_minute": 180,
+    "task_start_minute": 195,
+    "history1_minutes": [
+      0,
+      60
+    ],
+    "history2_minutes": [
+      60,
+      120
+    ],
+    "prefix_minutes": [
+      120,
+      180
+    ],
+    "analysis_minutes": [
+      180,
+      240
+    ],
+    "first_history_source_line": 3,
+    "last_analysis_source_line": 28277,
+    "raw_samples_in_all240min": 28275
+  },
+  {
+    "case_id": "dortmund-006",
+    "member": "Opel Corsa-e/OpelCorsa_e_empty_charging_AC_22kW_1_202308171034_e.csv",
+    "analysis_start_minute": 240,
+    "task_start_minute": 255,
+    "history1_minutes": [
+      60,
+      120
+    ],
+    "history2_minutes": [
+      120,
+      180
+    ],
+    "prefix_minutes": [
+      180,
+      240
+    ],
+    "analysis_minutes": [
+      240,
+      300
+    ],
+    "first_history_source_line": 7066,
+    "last_analysis_source_line": 35358,
+    "raw_samples_in_all240min": 28293
+  },
+  {
+    "case_id": "dortmund-007",
+    "member": "Tesla Model Y/TeslaModel_Y_empty_charging_AC_22kW_1_202309120915_e.csv",
+    "analysis_start_minute": 180,
+    "task_start_minute": 195,
+    "history1_minutes": [
+      0,
+      60
+    ],
+    "history2_minutes": [
+      60,
+      120
+    ],
+    "prefix_minutes": [
+      120,
+      180
+    ],
+    "analysis_minutes": [
+      180,
+      240
+    ],
+    "first_history_source_line": 3,
+    "last_analysis_source_line": 28244,
+    "raw_samples_in_all240min": 28242
+  },
+  {
+    "case_id": "dortmund-008",
+    "member": "Tesla Model Y/TeslaModel_Y_empty_charging_AC_22kW_1_202309120915_e.csv",
+    "analysis_start_minute": 240,
+    "task_start_minute": 255,
+    "history1_minutes": [
+      60,
+      120
+    ],
+    "history2_minutes": [
+      120,
+      180
+    ],
+    "prefix_minutes": [
+      180,
+      240
+    ],
+    "analysis_minutes": [
+      240,
+      300
+    ],
+    "first_history_source_line": 7062,
+    "last_analysis_source_line": 35308,
+    "raw_samples_in_all240min": 28247
+  },
+  {
+    "case_id": "dortmund-009",
+    "member": "VW ID4/VW_ID4_empty_charging_AC_22kW_1_202307270824_e.csv",
+    "analysis_start_minute": 180,
+    "task_start_minute": 195,
+    "history1_minutes": [
+      0,
+      60
+    ],
+    "history2_minutes": [
+      60,
+      120
+    ],
+    "prefix_minutes": [
+      120,
+      180
+    ],
+    "analysis_minutes": [
+      180,
+      240
+    ],
+    "first_history_source_line": 3,
+    "last_analysis_source_line": 28590,
+    "raw_samples_in_all240min": 28588
+  },
+  {
+    "case_id": "dortmund-010",
+    "member": "VW ID4/VW_ID4_empty_charging_AC_22kW_1_202307270824_e.csv",
+    "analysis_start_minute": 240,
+    "task_start_minute": 255,
+    "history1_minutes": [
+      60,
+      120
+    ],
+    "history2_minutes": [
+      120,
+      180
+    ],
+    "prefix_minutes": [
+      180,
+      240
+    ],
+    "analysis_minutes": [
+      240,
+      300
+    ],
+    "first_history_source_line": 7144,
+    "last_analysis_source_line": 35735,
+    "raw_samples_in_all240min": 28592
+  }
+]

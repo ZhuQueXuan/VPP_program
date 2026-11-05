@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "reviewer": "unknown_reference_design",
+  "n_checks": 14,
+  "checks": [
+    "one-minute and coarse defaults bypass R configuration entirely",
+    "mixed missing R affects native fine route only",
+    "mixed batch keeps template curves identical to singles",
+    "all routes retain independent common raw energy",
+    "coarse curve explicitly assumption-sensitive and physical timing unknown",
+    "raw and selected features and raw accounting remain separate",
+    "optimizer convergence and LR limitations are explicit",
+    "actual solver exception degrades explicitly to raw F0",
+    "genuine M0 stays ok and differs from failure",
+    "explicit CPOP runs actual native baseline",
+    "legacy coarse raw route remains explicit",
+    "new fixed policy declares post-comparison selection",
+    "all vendored original solver definitions remain AST exact",
+    "source unchanged during independent review"
+  ],
+  "source_sha256": {
+    "B1算法\\b1_algorithm\\api.py": "3a6ee5d6a3c4192738f050627dcb4afcd5aac505265ec7d2f14bc11226e6410b",
+    "B1算法\\b1_algorithm\\metered_effects.py": "77cdd96bb59859dd1a79dacc247d98bf781a1af91716c6baea2672f5dae345de",
+    "B1算法\\b1_algorithm\\process\\api.py": "5e7f5a92d1e864175161adf0ba915d285325dc08d923e77d2ac2e3c00bc845d3",
+    "B1算法\\b1_algorithm\\process\\batch.py": "a0c422d66ccff89b0e3387bd4c9e5076a9ac46ffe9fe5c63f3354887fd688fc1",
+    "B1算法\\b1_algorithm\\process\\_ride_fit.py": "dd7f5f85e7486f45f910e60654e77f2c0bd2bf60127b8340941fef0d18b6ee48",
+    "B1算法\\b1_algorithm\\process\\_ride_identify.py": "dbc6a8a2d4d2844ce550a035565caf4592f8f3427f8366744ff63601342ee458",
+    "B1算法\\b1_algorithm\\process\\_policy.json": "4652c8b9141b6e43cc6059585dc14a7ce9e5a4cb17cb75eab47861ce4e3c721f"
+  },
+  "excluded_original_non_runtime_helpers": [
+    "build_inputs",
+    "calibrate_lr",
+    "identify_all",
+    "pseudo_inputs_from"
+  ],
+  "adoption_judgment": "acceptable resolution-based default with stated RMSE objective and coarse/model/optimizer limitations",
+  "review_harness_note": "Initial full-module AST comparison included four intentionally unvendored batch/calibration helpers; exact-math check scoped to all vendored definitions without source changes.",
+  "scope": "independent source and routing regression only; existing comparisons informed policy selection; not new untouched performance validation"
+}

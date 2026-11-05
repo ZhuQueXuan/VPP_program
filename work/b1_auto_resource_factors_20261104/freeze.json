@@ -1,0 +1,5 @@
+{
+  "rule_sha256": "988de09dd57bde04cb5a438662ba2e4ddab54680096052f058f7c23768b30bf9",
+  "ev_result_sha256": "a51a268050e4aabe52354286c81673c2453db31221a8dd295e418483aa43a1e7",
+  "ev_cutoff": "connection plus 30 minutes, an analysis anchor"
+}

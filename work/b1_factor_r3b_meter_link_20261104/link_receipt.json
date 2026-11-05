@@ -1,0 +1,13 @@
+{
+  "access_receipt": "source_access_curl.json",
+  "selected": {},
+  "acquired_source_scope": {
+    "full_range_dToU_available": 0,
+    "dynamic_houses_in_members": 0
+  },
+  "windows": 14,
+  "linked_rows": 0,
+  "confirmations_read": 0,
+  "models_fitted": 0,
+  "effect_estimates": 0
+}

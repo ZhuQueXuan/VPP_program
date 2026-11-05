@@ -1,0 +1,70 @@
+{
+  "kind": "deterministic_argument_checks_not_performance_evidence",
+  "reference_error_example": {
+    "q_kw": 1.5,
+    "bias_kw": 0.15,
+    "ratio_error": 0.09999999999999999
+  },
+  "crossing_bin": {
+    "average": [
+      0.125
+    ],
+    "midpoint": [
+      0.0
+    ]
+  },
+  "coarse_nonidentifiability": {
+    "theta_a": [
+      1.0,
+      2.0,
+      1.0,
+      3.0,
+      2.0,
+      0.0,
+      0.0
+    ],
+    "theta_b": [
+      2.0,
+      2.0,
+      1.0,
+      3.0,
+      2.0,
+      0.0,
+      0.0
+    ],
+    "starts_minutes": [
+      -15.0,
+      0.0,
+      15.0
+    ],
+    "ends_minutes": [
+      0.0,
+      15.0,
+      30.0
+    ],
+    "observations_a": [
+      0.0,
+      0.3333333333333333,
+      0.0
+    ],
+    "observations_b": [
+      0.0,
+      0.3333333333333333,
+      0.0
+    ],
+    "timings_a": {
+      "t_start": 1.0,
+      "t90": 2.8,
+      "t_rec": 8.0
+    },
+    "timings_b": {
+      "t_start": 2.0,
+      "t90": 3.8,
+      "t_rec": 9.0
+    },
+    "same_observations": true,
+    "different_physical_timings": true
+  },
+  "common_reference_cancellation_verified": true,
+  "all_assertions_passed": true
+}

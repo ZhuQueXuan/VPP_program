@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    "two independent held-out users selected using declared conditions only",
+    "historical priors precede target notice; fit precedes query notice",
+    "training and test users isolated",
+    "candidate uses only complete15 bins before notice; changing process observations cannot change correction",
+    "four paired interval targets are feasible; truth excluded from practical method preparation",
+    "actual native CPOP and unchanged guarded path execute",
+    "common raw integral independent of fitted curve"
+  ],
+  "n_checks": 7,
+  "scope": "small separate seed, no development or test selection"
+}

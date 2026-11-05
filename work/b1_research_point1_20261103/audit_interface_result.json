@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "direct60 accepted although structural threshold integral50",
+    "legacy selected_curve still requires its structural integral",
+    "direct-feature echo mismatch rejected",
+    "off-meter-grid65 seconds rejected",
+    "longest80 exceeding cumulative60 rejected",
+    "legitimate legacy curve50 remains accepted"
+  ],
+  "model_fit": false,
+  "data": "new hand-constructed API contract fixtures, not physical accuracy evidence"
+}

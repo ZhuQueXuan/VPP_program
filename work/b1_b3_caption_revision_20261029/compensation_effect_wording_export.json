@@ -1,0 +1,9 @@
+{
+  "pdf_sha256": "1f8ca3f44a85bf784881c96e0e53abbfc511819aae4bb595fcaea971f9720bcb",
+  "status": "success",
+  "input_sha256": "bb3f470de11bbfe5f7bdc63b0188d5e9cce80dd2340a70d180eb32186542b082",
+  "page_count": 14,
+  "input": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_caption_revision_20261029\\compensation_effect_wording_staged.docx",
+  "pdf": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_caption_revision_20261029\\compensation_effect_wording_preview.pdf",
+  "renderer": "Microsoft Word native PDF export"
+}

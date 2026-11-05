@@ -1,0 +1,15 @@
+{
+  "scope": "phase-two optional existing-estimator configuration selection; main validation/test not yet invoked",
+  "module": "B1算法/b1_algorithm/effects/tuning.py",
+  "module_sha256": "6fddf4e3a44bad3cde55e7f9c6c2199b38a208958e6a50a08a731e3a4bb2cf4c",
+  "formal_existing_source_files_modified": [],
+  "new_formal_source_files": ["B1算法/b1_algorithm/effects/tuning.py"],
+  "small_controls": "work/b1_reliability_20261031/effects/control4/receipt.json",
+  "small_control_checks_passed": 46,
+  "validation_test_main_seeds_consumed": false,
+  "entrypoint_gate_check": "run.py --stage select without --start refuses before opening main measurements",
+  "contract": ["strict inherited numeric/task/assumption validators", "complete four nuisance plus four smoothing candidate records", "one original user held out with every event excluded", "same entire grid and reference support checked without deleting points", "positive-only validation selection shared by positive and zero main test", "all validation user IDs excluded from test", "ordered X schema and physical task/units/domain/reference/grid frozen", "bandwidth multiplier transported using each test cohort's original rule", "predeclared evaluation seed affects only folds/bootstrap, not configuration search", "immutable finite JSON plus integrity checksum and exclusive create save", "existing core/frozen mean/contrast/band exact equivalence on small controls"],
+  "new_causal_estimator": false,
+  "development_failure": "control1/checker_failure.json records expected overwrite rejection that initially escaped the checker's exception allowlist; no algorithm correction was needed",
+  "limitations": ["small numerical controls do not establish empirical improvement", "fixed-pseudo-outcome smoothing risk is not a nested full-pipeline validation risk", "original inference does not propagate tuning/nuisance/reference/process uncertainty", "no real EV deployment or 90-percent project acceptance claim"]
+}

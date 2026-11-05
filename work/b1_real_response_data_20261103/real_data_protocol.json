@@ -1,0 +1,83 @@
+{
+  "scope": "Real household price-path auxiliary validation dataset, not a replacement for EV continuous incentive/duration target",
+  "source": "https://zenodo.org/records/8248802",
+  "license": "CC-BY-4.0",
+  "phase": "Phase_2",
+  "selection_basis": "assignment metadata only; no consumption outcome or algorithm output used to choose cohort or dates",
+  "pure_P_groups": [
+    "H2",
+    "Os_2",
+    "Trom_2"
+  ],
+  "observed_price_signals": [
+    "P_2",
+    "P_5",
+    "P_10",
+    "P_15"
+  ],
+  "assigned_group_days": 59,
+  "assigned_dates": 30,
+  "full_price_path": "24 hours; original Hour17/18 vary, other22 identical",
+  "time_semantics": "Preserve original Date/Hour keys and explicitly UTC From; no reinterpretation or rounding of samples",
+  "notice": "Previous source Date at18:00 Europe/Oslo; phase2 event dates before DST switch =>17:00UTC",
+  "outcomes": [
+    "sum of measured Demand_kWh at original source Hour17 and18",
+    "sum of measured24 source Date hours"
+  ],
+  "no_truth_labels": "Actual consumption only. No individual no-incentive counterfactual, physical effective duration, or gold continuous effect curve.",
+  "pre_notice_features": [
+    "completed preceding24h actual consumption and temperature",
+    "completed preceding168h actual consumption",
+    "region, group, calendar and full assigned price path"
+  ],
+  "forbidden_as_pre_features": [
+    "target-day actual consumption",
+    "target-day actual temperature or rolling Temperature24/48/72",
+    "survey3 collected after treatment",
+    "realized reward or synthetic compensation"
+  ],
+  "splits_by_whole_date": {
+    "2020-12-16": "train",
+    "2020-12-17": "train",
+    "2021-01-05": "train",
+    "2021-01-08": "train",
+    "2021-01-11": "train",
+    "2021-01-13": "train",
+    "2021-01-14": "train",
+    "2021-01-18": "train",
+    "2021-01-21": "train",
+    "2021-01-22": "train",
+    "2021-01-27": "train",
+    "2021-01-28": "train",
+    "2021-01-29": "train",
+    "2021-02-01": "train",
+    "2021-02-02": "train",
+    "2021-02-04": "train",
+    "2021-02-09": "train",
+    "2021-02-10": "train",
+    "2021-02-11": "train",
+    "2021-02-12": "train",
+    "2021-02-15": "validation",
+    "2021-02-16": "validation",
+    "2021-02-17": "validation",
+    "2021-02-22": "validation",
+    "2021-03-05": "validation",
+    "2021-03-08": "test",
+    "2021-03-11": "test",
+    "2021-03-12": "test",
+    "2021-03-17": "test",
+    "2021-03-22": "test"
+  },
+  "split_counts": {
+    "train_dates": 20,
+    "validation_dates": 5,
+    "test_dates": 5
+  },
+  "independence": "group-date assignment and repeated households; hourly records or household-days are not independent randomized prices",
+  "split_claim": "future-date evaluation for known household population; users can recur across time, not unseen-user generalization",
+  "quality": "Keep every designed household event with availability/missing/duplicate/nonfinite flags; do not set missing to zero or select only responders",
+  "current_stage": "Data preparation and design/support audit only; no new model fit, continuous method comparison or causal effect claim.",
+  "continuous_eligibility": false,
+  "why_not": "Four actual randomized path intensities, not a continuous scalar-dose experiment. Numeric hourly jitter cannot fill unsupported price gaps.",
+  "first_part_and_other_algorithms_unchanged": true
+}

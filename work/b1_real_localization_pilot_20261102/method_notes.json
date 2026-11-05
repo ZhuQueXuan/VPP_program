@@ -1,0 +1,31 @@
+{
+  "purpose": "Evidence for next development direction after a failed raw-rescue localization pilot; not new implementation or evidence of EV accuracy.",
+  "sources": [
+    {
+      "title": "Decision Fusion-Based Non-Intrusive Load Identification Involving Adaptive Threshold Event Detection",
+      "year": 2024,
+      "doi": "10.1109/TIM.2024.3413152",
+      "primary_bibliographic_record": "https://researchprofiles.herts.ac.uk/en/publications/decision-fusion-based-non-intrusive-load-identification-involving/",
+      "primary_author_manuscript": "https://uhra.herts.ac.uk/id/eprint/11165/1/TIM-24-01008_Manuscript_Final.pdf",
+      "read": "Abstract and methods text, especially locally partitioned means/variances and previous-subinterval thresholds in adaptive CUSUM.",
+      "useful_idea": "Thresholds based on local operating-state variability instead of one global fixed band. This motivates testing a better observed-return criterion.",
+      "limits": "The paper concerns residential appliance event/identity detection and PLAID, not these EV recovery-completion labels. Its normal-based Pauta thresholds do not provide a risk guarantee here. No CUSUM/Softmax/UI-waveform implementation or claimed reproduction in this pilot."
+    },
+    {
+      "title": "Adaptive Event Detection for Representative Load Signature Extraction",
+      "year": 2021,
+      "primary_author_preprint": "https://arxiv.org/abs/2107.11287",
+      "read": "Author abstract describing WAMMA adaptive windows, margins and thresholds and separate transient/steady periods.",
+      "useful_idea": "Treat a transition and the next steady state explicitly rather than a single level-crossing time.",
+      "limits": "Older methodological source, not presented as the latest paper. Evaluated above1Hz on20/50/60Hz data; these EV windows are mostly about4-second reports, so direct transfer is unproven and no implementation/adoption has occurred."
+    }
+  ],
+  "recent_lead_not_used_as_implementation_authority": {
+    "title": "A multi-window CUSUM method with adaptive threshold and variable-length window for nonintrusive load monitoring",
+    "doi": "10.1088/1361-6501/adbe93",
+    "year": 2025,
+    "primary_url": "https://iopscience.iop.org/article/10.1088/1361-6501/adbe93",
+    "status": "Primary publisher fetch unavailable; bibliographic search lead only, not used to assert verified algorithm details or reproduce results."
+  },
+  "independent_judgment": "Adding a larger neural or tree model is not justified by62 resolved training anchor labels and18 validation labels. First change the recovery/state definition in a small prospectively specified candidate, then expand reliable references and evaluate without test feedback."
+}

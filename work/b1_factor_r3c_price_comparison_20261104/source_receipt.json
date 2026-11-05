@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-04",
+  "bounded_lookup": "限官方公开发布、作者论文设计、公开 UKDS 文档和历史假日。按四个 C17 日期查发布方对应字段及作者精确日期记录；未找到可下载的逐半小时 SF 标签或实发日志。UKDS 登录数据未请求。作者图 4.10 的公开文字可核图例及墙上时钟，网页工具未取得图像，不据其认定逐日标签。",
+  "protocol_frozen_utc": "2026-11-04T08:57:55.9954338Z",
+  "protocol_sha256": "f5b033f62101e89741e8b02753de73d85ab6ad2f5f627231efa58c5b659e9011",
+  "sources": {
+    "public_release": {
+      "url": "https://data.london.gov.uk/dataset/smartmeter-energy-consumption-data-in-london-households-vqm0d",
+      "workbook_url": "https://data.london.gov.uk/download/vqm0d/14855047-44c2-4856-8a48-e5649200e6ce/Tariffs.xlsx",
+      "source": "../b1_factor_r3a_price_admission_20261104/original/Tariffs.xlsx",
+      "observation": "本地原件17,520条，只有 TariffDateTime、Tariff，给出名义费率轨迹，缺事件类别、版本交叉表及送达证据。发布页未明确同版动态组的时间标签为GMT半小时末。"
+    },
+    "author_design": {
+      "url": "https://spiral.imperial.ac.uk/bitstreams/30455c4f-b2c5-45bf-ad5d-abcfa7a9a22c/download",
+      "sections": "§4.2.3、§4.6.3、§4.7.2、§4.8、表4.4、表4.5、图4.9和4.10图注",
+      "observation": "作者描述区组排期、SF 每种价档/时长/起点组合三次、每周最多三个高低价日及一组CM、CM后填入可行日期并避免换钟。图4.9定义 H3_17/L3_17 形状，图4.10说明是当地时钟的费率排期。表4.5有逐日CM计划而非SF实发，部分与工作簿冲突。无完整候选集、分配概率、实际改派记录、发送/计费校验或住户接收记录。"
+    },
+    "ukds_dictionary": {
+      "url": "https://doc.ukdataservice.ac.uk/doc/7857/mrdoc/pdf/7857_userguide.pdf",
+      "collection": "https://doi.org/10.5255/UKDA-SN-7857-2",
+      "source": "../b1_factor_r3a_price_admission_20261104/original/7857_userguide.pdf",
+      "observation": "另一发行的 consumption_d.csv 和 tariff_d.csv 定义 GMT 半小时期末。后者定义 Event_tags 的 Hnn、Lnn、CM 字段含义，字典不含实际值。未取得受保护数据或可校验的跨发行映射。"
+    },
+    "standard_refactoring": {
+      "url": "https://research.tudelft.nl/en/datasets/low-carbon-london-smart-meter-data-refactored/",
+      "observation": "同源标准费率组整理说明，明确 GMT 半小时期末。与 R3-B 春秋键核对互补，不能直接认证公开版动态组。"
+    },
+    "bank_holidays": {
+      "url": "https://committees.bolsover.gov.uk/Data/Joint%20ICT%20Committee/20150622/Agenda/agenda1677.pdf",
+      "observation": "原地方政府档案附英格兰及威尔士2013年八个日期。"
+    }
+  },
+  "evidence_gates": {
+    "public_tariff_local_start": "strong_indirect_19_of_21_cm_matches",
+    "same_release_dynamic_meter_gmt_end": "unverified_cross_release_and_sample_key_support_only",
+    "actual_SF_tags_for_C17": "zero_of_four_verified",
+    "date_randomization": "author_design_description_only",
+    "individual_notification_and_participation": "unobserved"
+  },
+  "new_meter_download_bytes": 0
+}

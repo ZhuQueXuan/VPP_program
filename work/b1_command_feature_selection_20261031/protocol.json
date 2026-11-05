@@ -1,0 +1,32 @@
+{
+  "schema":"b1.command-feature-selection.v1",
+  "date":"2026-10-31",
+  "scope":"Actual small comparison of whole-process extractors; no forecasting models, second-block effects or report work",
+  "methods":["raw_features","ride_original","ride_revised","tf_standard","tf_gls","cpop","labs_2026"],
+  "shared_conditions":{"resource":"single EV AC simulation","unit":"kW and minutes","W_min":30,"q_kw":1.5,"delta_min":1,"pre_min":15,"post_min":15,"max_charge_kw":7.2,"sigma_kw":0.05,"reference":"explicit known simulation baseline, never the command or a fitted predictor","threshold_fraction":0.1,"target_fraction":0.9,"recovery_fraction":0.1,"dwell_seconds":30},
+  "simulation":{
+    "noise_development":{"seed":7621000,"users":128,"events_per_user":1,"non_event":true},
+    "validation":{"seeds":[7621100,7621101],"per_kind":4},
+    "test":{"seeds":[7621200,7621201,7621202,7621203,7621204,7621205],"per_kind":4},
+    "kinds":["smooth_strong","smooth_weak","brief_weak","interrupted","early_exit","oscillatory","delayed_rebound","null"],
+    "mechanism":"Independent fine-grid first/second-order controlled dynamics, delayed changes, interruptions, rebound; native minute interval averaging. No inverse RIDE, TF, LABS or CPOP generation.",
+    "independence":"New seeds and users; one event/user; no old test tuning. Test generated only after validation freeze. Within-block observations correlated; six seeds are descriptive limited evidence."
+  },
+  "settings":{
+    "ride_original":"Unchanged existing production function and configured profile, n_starts minimum3; no oracle initialization",
+    "ride_revised":"Unchanged existing revised function, fixed starts and max_nfev250; same declared_headroom profile and physical data",
+    "tf_standard":{"penalty":4,"covariance":"mean uncentered squared residual of independent128 non-events; no predictor error exists"},
+    "tf_gls":{"penalty":2,"covariance":"LedoitWolf centered residual covariance from same128 independent non-events; no new covariance tuning"},
+    "tf_interpretation":"Existing estimator implementations, penalties fixed from prior pilot. Measurement-only noise recalibration for this new known-reference domain, not a replay of old unknown-reference freezes; std/GLS are bounded internal configurations.",
+    "cpop":"Unchanged native CRAN1.0.10, sd0.05, beta2log(n), minseglen0, exact prune, midpoint native grid",
+    "labs_2026":{"repository":"https://github.com/pfryz/LABS","commit":"0bb0524dec39336a2e0d032287ce092e2968145a","initial_test":true,"M":5,"retest_M":2,"multipliers":"0.50 to1.50 by0.05","alpha":1.01,"selection":"Author sSIC solution path unchanged; internally estimates sigma, no task truth supplied"}
+  },
+  "feature_definition":"Shared production _features/_frozen_f0 for fitted and evaluator clean minute curves. Cumulative/longest threshold duration, onset interval, target interval and missing category, first postwindow recovery-band entrance, curve, task/post energy. Recovery is first dwell entrance, not permanent physical completion.",
+  "primary_selection_metric":"Mean over all validation tasks of 0.5*(absolute cumulative-duration error+absolute longest-duration error), seconds. Incomplete methods cannot be selected by deleting failed rows.",
+  "selection_rule":"Among non-control candidate ride_original/ride_revised/tf_standard/tf_gls/labs_2026 with 100% available validation, select smallest primary error, tie within1e-9 then smaller mean solver time. Raw and CPOP are formal feature-block controls; both always reported. Freeze this choice before test; no test-based switching.",
+  "recommendation_gate":"For a positive improvement recommendation selected candidate must reduce primary test error at least10% versus existing ride_revised; pooled curve RMSE must not increase; null raw-duration false tasks cannot exceed ride_revised by more than1 of24; all outputs retained. CPOP superiority remains visible. No automatic global-default replacement even if gate passes.",
+  "secondary_metrics":["cumulative and longest error separately","mean/peak and curve errors","false and missed threshold minutes","onset/target finite timing error and absent-status disagreement across all tasks","first postwindow recovery timing/status","raw accounting eta identical across methods","runtime and unavailable count"],
+  "real_data":"Separate fixed KIT command/current sample prepared by real_preparation_protocol; seconds/A dimensionless tracking, not production minute/kW RIDE. Raw/TFstd/CP/LABS share same aggregation. Original-record agreement and injected-corruption preservation are robustness diagnostics, not latent-clean or causal truth; no new predictor.",
+  "limits":["Known simulation baseline cannot validate unknown-baseline field performance","KIT current command is not untreated power","No calibrated5% detection claim from this study","No claim one continuous-piecewise-linear model handles all discontinuities","No existing mature method renamed as innovation"],
+  "stop":"One fixed comparison; preserve all negative results; no parameter enlargement, new dependencies, GPU, report, other resources, second-block algorithms, deletion, upload or commit."
+}

@@ -1,0 +1,22 @@
+{
+  "name": "B1 unknown-reference process robustness v1",
+  "date": "2026-10-30",
+  "question": "Does the frozen guarded process improve on native CPOP when every method receives the same predicted reference? Can one pre-notice level adjustment improve the practical chain?",
+  "development_seeds": [4431100,4431101,4431102,4431103],
+  "test_seeds": [4431200,4431201,4431202,4431203,4431204,4431205,4431206,4431207,4431208,4431209,4431210,4431211,4431212,4431213,4431214,4431215,4431216,4431217,4431218,4431219],
+  "context_generator": {"n_users":80,"events_per_user":2,"ev_share":1.0,"n_hist_days":10,"dt0_min":1,"window_choices_min":[30,30],"L_post_min":90,"n_donors":1,"hot_concentration":true},
+  "selection": "Fixed user split 50/20/15/15 using seed+5; eligible held-out contexts have lead15; ascending event ID, at most one per user, first2. No selection on power, response, latent baseline or error. Retain shortfalls and use equal seed weights; stop without replacing a seed if a block has zero contexts.",
+  "task": {"W_min":30,"q_kw":1.5,"notice_relative_min":-15,"observation_min":[-15,45],"sigma_kw":0.15},
+  "training": "Current formal fit_reference, unchanged hyperparameters. Only training users' completed historical days j>=2; prior for day j uses strictly earlier days0..j-1. Historical day j starts100000+1440*j, fit cutoff120000. Query starts300000+1440*context_index; all model inputs and prior sources available before notice. Explicit synthetic availability declarations, not real source provenance.",
+  "stress_shapes": ["none","partial","slow","multiplateau"],
+  "stress_definition": "Reuse frozen shape/truth_average evaluator. Interval reduction=min(desired interval reduction, true interval baseline), so noiseless power is nonnegative. Paired independent Gaussian meter noise across methods/references/shapes within each context. Evaluation targets are one-minute interval quantities; no latent physical timing claim.",
+  "references": ["oracle_diagnostic","fixed_gbdt","gbdt_pre15_shift"],
+  "candidate": "One fixed candidate: mean(observed power - GBDT reference) on complete[-30,-15] relative minutes, strictly at/before notice; add same shift to reference then floor at0. No offset tuning, no post-notice input. Window residual calibration is not pointwise sigma.",
+  "comparators": ["native_CPOP_default","frozen_guarded","original_RIDE_template_3starts"],
+  "fairness": "Same reference, same meter observations, same declared sigma, task and evaluation target for all methods. Oracle is a separate diagnostic branch that intentionally supplies true baseline to every method; practical branches never receive it. RIDE uses the existing frozen3-start no-CI/BIC candidate adapter, not its entire default pipeline.",
+  "metrics": ["task curve RMSE kW","no-action onset false-positive fraction under common F0 observed-threshold rule","onset/recovery conditional MAE with jointly available denominator and missed/extra detections","raw eta error shared across process methods","reference window bias","unavailable fraction"],
+  "development_admission": "For BOTH native CPOP and guarded: all4 paired seed mean curve RMSE differences <=0; aggregate relative improvement >=5%; no-action false-positive fraction increase <=0.05. This is a finite heuristic, not a population error-rate guarantee.",
+  "test_adoption": "Candidate can enter source as opt-in only if development admitted and BOTH CPOP and guarded paired20-seed mean curve-error difference MC95 upper<0 and no-action false-positive fraction increase<=0.05. Preserve existing default and all negative findings. No retuning on this test.",
+  "inference": "Seed blocks are independent units; contexts, shapes, references and methods are paired variants. Student-t MC95 for mean paired seed differences, not exact population coverage. At most40 no-action contexts in test; cannot establish a5% false-positive guarantee.",
+  "stop": "One candidate, one development admission, one fresh test. No expanding resources, networks, thresholds or sample to force gain. No reports, no changes to old experiments. Causal AIPW performance is a separate subsequent question; eta error alone does not prove incentive contrast bias."
+}

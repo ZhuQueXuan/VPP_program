@@ -1,0 +1,61 @@
+{
+  "review_date":"2026-11-05",
+  "scope":"方法原论文和作者代码的定向核查；不再搜索真实数据",
+  "candidate_count":1,
+  "sources":[
+    {
+      "id":"Kennedy2017",
+      "paper":"https://arxiv.org/html/1507.00747v3",
+      "published_doi":"10.1111/rssb.12212",
+      "author_code":"https://github.com/ehkennedy/npcausal",
+      "code_formula":"https://raw.githubusercontent.com/ehkennedy/npcausal/56a5ac117a29258b67b94874be662a171b5131f7/R/ctseff.R",
+      "licence":"作者DESCRIPTION仅写GPL，未指定版本",
+      "licence_source":"https://raw.githubusercontent.com/ehkennedy/npcausal/master/DESCRIPTION",
+      "visible_maintenance":"公开历史最新可见2021-02-25；ctseff可见更新2020-09-30；固定提交56a5ac117a29258b67b94874be662a171b5131f7",
+      "maintenance_source":"https://github.com/ehkennedy/npcausal/commits/master/",
+      "adoption":"保留DR映射和原局部线性；按目标组重新边缘化是目标人口公式的条件组适配，并非作者发表的新分组估计器",
+      "reuse":"不复制或安装GPL R源码。基于论文独立实现，复用项目已有Python模型/核函数。原作者SuperLearner/earth/gam/ranger/KernSmooth和本项目Ridge及整用户分折不同。",
+      "cost":"小型Ridge，无新包/GPU。新增工作为跨组训练范围、组内边缘化、完整用户隔离和等条件消融，不以代码改动本身当研究创新。"
+    },
+    {
+      "id":"BonviniKennedy2026revision",
+      "paper":"https://arxiv.org/html/2207.11825v2",
+      "version":"v2 2026-04-12，首版2022；非2026新发明",
+      "role":"Algorithm1两阶段DR估计与分样本说明支持区分条件辅助和最终学习",
+      "author_code":"未在原论文及既有核查的作者主页确定完整许可复现库",
+      "decision":"不复现高阶影响函数/Gram矩阵估计；不把iid理论速率或置信结论直接扩展到重复用户。"
+    },
+    {
+      "id":"ColangeloLee",
+      "paper":"https://doi.org/10.1080/07350015.2025.2505487",
+      "author_code":"https://github.com/KColangelo/Double-ML-Continuous-Treatment",
+      "licence":"MIT；LICENSE copyright仍为模板YOUR NAME",
+      "maintenance":"既有主源核查最后可见2025-02-03；本轮复核作者库和MIT原件，未重新断言精确最新提交。",
+      "previous_result":"旧开发选DML；新确认同批DR46.4382/DML49.9670/两部49.3324秒。DML与两部均未采用。",
+      "decision":"不重新提出DML替换或零/正两部。旧共享模型缓存更正属于正确复现，不算创新。"
+    },
+    {
+      "id":"retained_spline",
+      "implementation":"https://docs.scipy.org/doc/scipy-1.15.3/reference/generated/scipy.interpolate.make_smoothing_spline.html",
+      "author_repository":"https://github.com/scipy/scipy",
+      "licence":"SciPy BSD-3-Clause；复用已装1.15.3，不升级",
+      "previous_result":"前48曲线样条79.3209对原86.0649秒；后96曲线样条91.8560对原88.8242秒。新批未稳定占优。",
+      "decision":"仅固定lambda_mean1e-4作保留参照，不换样条/调参求新收益。"
+    },
+    {
+      "id":"previous_nested_combination",
+      "author_code":"https://github.com/ecpolley/SuperLearner",
+      "licence":"GPL-3（既有核验）；本轮不复制或安装",
+      "role":"原试验已按整用户嵌套风险学凸组合",
+      "previous_result":"96曲线新组合91.8715对保留样条91.8560秒，6/12块胜，未采用；双峰真值最优组合诊断也几乎不能修补。",
+      "decision":"不重试凸组合、收缩权重或换风险名字。唯一候选改跨组条件辅助训练；最终平滑不改。"
+    },
+    {
+      "id":"screened_continuous_R_learner",
+      "paper":"https://arxiv.org/abs/2208.00872",
+      "author_code":"https://github.com/yichistat/Continuous-treatment-R-learner",
+      "decision":"只作检索排查，不列第二候选。连续R学习另有非识别和Tikhonov约束，不为本轮一个分组借样问题增加新估计框架；作者代码许可本轮未核定，不复制。"
+    }
+  ],
+  "interpretation":"旧错误表说明现象，不单独证明其来自抽样噪声、GPS、参考点或辅助偏差。新候选性能未知。"
+}

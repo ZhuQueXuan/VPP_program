@@ -1,0 +1,288 @@
+{
+  "status": "passed",
+  "example_selection": "first fixed seed, slow mechanism, 1min,.15kW; not best-case selection",
+  "process": {
+    "task_template": {
+      "method": "ride_task_template_average_v1",
+      "template_assumptions": "delay-ramp-hold-release model; optional rectangular dropout and rebound; BIC detection, no calibrated LR or CI claim",
+      "reduction_interval_kw": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0321853449221204,
+        0.16628337320709297,
+        0.3078970414475117,
+        0.4495107096879305,
+        0.5911243779283493,
+        0.7327380461687677,
+        0.8743517144091872,
+        1.0159653826496051,
+        1.157579050890023,
+        1.2991927191304435,
+        1.4358041845315244,
+        1.4739733412213076,
+        1.4739733412213063,
+        1.4739733412213076,
+        1.4739733412213063,
+        1.4739733412213063,
+        1.4739733412213063,
+        1.4739733412213063,
+        1.4739733412213063,
+        1.4739733412213063,
+        1.4739733412213063,
+        1.4739733412213063,
+        1.4739733412213063,
+        1.4739733412213063,
+        1.4739733412213063,
+        1.4739733412213063,
+        1.4739733412213063,
+        1.2040757374616682,
+        0.6642805299424026,
+        0.1440712054291211,
+        -5.275779813018744e-13,
+        -5.222489107836736e-13,
+        -5.222489107836736e-13,
+        -5.222489107836736e-13,
+        -5.275779813018744e-13,
+        -5.222489107836736e-13,
+        -5.222489107836736e-13,
+        -5.222489107836736e-13,
+        -5.222489107836736e-13,
+        -5.275779813018744e-13,
+        -5.222489107836736e-13,
+        -5.222489107836736e-13
+      ],
+      "observed_features": {
+        "onset_s": 240.0,
+        "target_s": 780.0,
+        "recovery_s": 1920.0,
+        "stage": "response"
+      },
+      "eta_raw": 0.7028953299630909,
+      "reference_status": "provided_reference_or_estimate; validity_not_inferred",
+      "physical_timing": null,
+      "physical_timing_status": "not_identified_by_this_API",
+      "uncertainty_status": "no_process_confidence_interval_claim",
+      "request_kw": 1.5,
+      "request_minutes": [
+        0,
+        30
+      ],
+      "model": {
+        "ride_structure": 1
+      },
+      "research_status": "finite_simulation_candidate; no universal superiority or real-resource validation"
+    },
+    "grid_average": {
+      "method": "finite_grid_interval_average_v1",
+      "template_assumptions": "continuous piecewise-linear curve; frozen finite candidate grid and at-most-four slope changes",
+      "reduction_interval_kw": [
+        -0.06474173911604945,
+        -0.06053289811020025,
+        -0.05632405710435105,
+        -0.05211521609850185,
+        -0.04790637509265265,
+        -0.04369753408680345,
+        -0.03948869308095424,
+        -0.03527985207510504,
+        -0.03107101106925584,
+        -0.02686217006340664,
+        -0.022653329057557438,
+        -0.01844448805170823,
+        -0.014235647045859029,
+        -0.010026806040009828,
+        -0.005817965034160627,
+        -0.0016091240283114122,
+        0.0025997169775377887,
+        0.00680855798338699,
+        0.018166346944694378,
+        0.14231864809211997,
+        0.3053929992192624,
+        0.4684673503464048,
+        0.6315417014735472,
+        0.7946160526006898,
+        0.957690403727832,
+        1.1207647548549746,
+        1.2771769392107253,
+        1.3284749367289381,
+        1.3435011373806804,
+        1.3585273380324212,
+        1.3735535386841633,
+        1.3885797393359034,
+        1.4036059399876444,
+        1.4186321406393883,
+        1.4336583412911252,
+        1.4486845419428716,
+        1.4637107425946116,
+        1.4787369432463495,
+        1.4937631438980943,
+        1.5087893445498366,
+        1.5238155452015734,
+        1.538841745853313,
+        1.5441635738415431,
+        1.3963719664720016,
+        1.1957454412677455,
+        0.9951189160634931,
+        0.7944923908592237,
+        0.593865865654976,
+        0.39323934045072373,
+        0.19261281524646767,
+        0.0013740250417062505,
+        -0.04174716850379978,
+        -0.03375736038527699,
+        -0.025767552266732663,
+        -0.017777744148164132,
+        -0.009787936029646449,
+        -0.0017981279110859116,
+        0.006191680207437544,
+        0.014181488326012515,
+        0.022171296444532418
+      ],
+      "observed_features": {
+        "onset_s": 300.0,
+        "target_s": 840.0,
+        "recovery_s": 2100.0,
+        "stage": "response"
+      },
+      "eta_raw": 0.7028953299630909,
+      "reference_status": "provided_reference_or_estimate; validity_not_inferred",
+      "physical_timing": null,
+      "physical_timing_status": "not_identified_by_this_API",
+      "uncertainty_status": "no_process_confidence_interval_claim",
+      "request_kw": 1.5,
+      "request_minutes": [
+        0,
+        30
+      ],
+      "model": {
+        "knots": [
+          3.7,
+          11.7,
+          27.7,
+          35.7
+        ],
+        "coefficients": [
+          -0.06684615961897405,
+          0.2525304603509521,
+          9.531930607277594,
+          -8.882889028524067,
+          -12.939163551359862,
+          12.516979999367972
+        ],
+        "cost": 129.69388139721963,
+        "rss": 2.1811303102374637,
+        "enumerated_models": 1471,
+        "averaging": true
+      },
+      "research_status": "finite_simulation_candidate; no universal superiority or real-resource validation"
+    }
+  },
+  "causal": {
+    "identified": true,
+    "diagnostics": {
+      "passed": true,
+      "reasons": [],
+      "counts": [
+        544,
+        483,
+        465,
+        494,
+        446,
+        552,
+        616
+      ],
+      "min_pi": 0.012921544057413102,
+      "fraction_below_clip": 0.0,
+      "min_ess_fraction": 0.6145488494662474,
+      "max_smd": 0.06704000880112888,
+      "smd_limit": 0.2
+    },
+    "curve": {
+      "tau": [
+        0.0,
+        0.03084411131835143,
+        0.0733450201144159,
+        0.11832820677179283,
+        0.1505395807886582,
+        0.19994066450596076,
+        0.2278377199280388
+      ],
+      "se": [
+        0.0,
+        0.009401510871344686,
+        0.009508627453593682,
+        0.009520640390209226,
+        0.009237063582218335,
+        0.009694669655842087,
+        0.009687531727571608
+      ],
+      "critical": 2.50532243099305,
+      "lower": [
+        0.0,
+        0.007290295247146573,
+        0.04952284246697132,
+        0.09447593284478323,
+        0.1273977581996176,
+        0.17565239115611192,
+        0.2035673293899968
+      ],
+      "upper": [
+        0.0,
+        0.05439792738955629,
+        0.09716719776186049,
+        0.14218048069880243,
+        0.1736814033776988,
+        0.2242289378558096,
+        0.25210811046608084
+      ],
+      "n_clusters": 600,
+      "n_events": 3600,
+      "n_boot": 999,
+      "alpha": 0.05
+    },
+    "threshold": {
+      "indices": [
+        3,
+        4
+      ],
+      "brackets": [
+        [
+          0.8,
+          1.2
+        ],
+        [
+          1.2,
+          1.6
+        ]
+      ],
+      "not_reached": false,
+      "kappa": 0.1,
+      "shape_constraint": "none"
+    },
+    "identification_assumptions_status": "requires substantive verification; diagnostics cannot establish ignorability",
+    "uncertainty_scope": "user-cluster band conditional on supplied outcome; no full reference/process uncertainty guarantee"
+  },
+  "boundary_checks_passed": [
+    "request_out_of_domain",
+    "missing_power",
+    "boolean_noise",
+    "invalid_bootstrap",
+    "invalid_alpha"
+  ],
+  "scope": "component API demonstration; causal example is separate from the one-event process example"
+}

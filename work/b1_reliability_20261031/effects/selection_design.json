@@ -1,0 +1,16 @@
+{
+  "schema": "b1.reliability-continuous-selection-design.v1",
+  "central_protocol_sha256": "d095a56114f34f6d827e708a8f063b4dd758c5b113abc222f73f259e72cf3749",
+  "sequence": "Do not invoke main selection or test fitting until root confirms phase-one reference/error/evidence comparison is complete.",
+  "validation": {"seed": 7520200, "users": 256, "events_per_user": 2, "scenario": "positive", "outcome": "completed measured cumulative response seconds from new frozen reference plus original CPOP", "truth_file_read": false},
+  "test": {"seeds": [7520300, 7520301, 7520302, 7520303, 7520304, 7520305, 7520306, 7520307], "users_per_block": 128, "events_per_user": 2, "scenarios": ["positive", "zero"], "selection": "one global positive-validation selection used identically in both scenarios", "scenario_specific_configuration": false},
+  "protocol_scenarios_interpretation": "continuous_after_reliability.scenarios lists paired test scenarios; validation is positive only, as directed by root before any main selection/test consumption.",
+  "candidate_protocol": {
+    "nuisance": {"ridge_alpha": [0.1, 10.0], "spline_knots": [4, 6], "risk": "original-core OOF measured outcome prediction MSE", "tie": "fewer knots, then stronger ridge", "GPS_alpha": "linked to the same Ridge alpha by the original core"},
+    "bandwidth": {"scale": [0.75, 1.0, 1.5, 2.0], "risk": "leave-one-original-user-out MSE of the fixed selected cross-fitted pseudo-outcome", "heldout": "remove every event belonging to each held-out original user", "tie": "larger bandwidth", "same_grid_support_required": true, "same_grid_support_for_every_heldout_training_cohort": true, "oversized_or_unsupported_candidates": "preserve complete records and reasons; never clip bandwidth or delete query points"}
+  },
+  "fixed_context": {"W_min": 30, "q_kw": 1.5, "meter_min": 1, "outcome_unit": "seconds", "incentive_unit": "元/千瓦时", "domain": [0.0, 2.4], "grid": [0.4, 0.6, 0.8, 1.0, 1.2, 1.4, 1.6, 1.8, 2.0], "reference_dose": 0.8, "covariates": ["deadline_slack", "demand_urgency"], "users": "all invited events, including no physical response; no evidence-decision filtering"},
+  "application": "test keeps selected ridge/knots/scale; bandwidth is selected_scale times that cohort's original rule bandwidth, never validation's absolute bandwidth; evaluation_seed is the predeclared block seed for identical baseline/selected fold and bootstrap randomness, never searched",
+  "freeze": ["immutable selection JSON and SHA256", "complete candidate risks and failures", "validation data digest and canonical user IDs", "validation completion and selection cutoff", "task, units, population, ordered X columns, dose domain, reference and entire grid", "source identity"],
+  "limitations": ["shared established Kennedy DR estimator configuration; new_causal_estimator=false", "validation selected only on the positive mechanism; zero-effect results are held-out transfer evidence", "smoothing CV conditions on selected cross-fitted pseudo-outcomes and is not an independently nested full-pipeline risk", "existing conditional sampling bands do not propagate selection, nuisance, reference or process uncertainty", "array timestamps and covariate provenance are declarations; the runner additionally audits event/factor identities and availability times"]
+}

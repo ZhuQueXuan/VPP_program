@@ -1,0 +1,17 @@
+{
+  "iflex_zenodo_record.json": {
+    "url": "https://zenodo.org/api/records/8248802",
+    "status": "failed",
+    "error": "URLError(PermissionError(13, '以一种访问权限不允许的方式做了一个访问套接字的尝试。', None, 10013, None))"
+  },
+  "iflex_price_signals.csv": {
+    "url": "https://zenodo.org/records/8248802/files/price_signals.csv?download=1",
+    "status": "failed",
+    "error": "URLError(PermissionError(13, '以一种访问权限不允许的方式做了一个访问套接字的尝试。', None, 10013, None))"
+  },
+  "iflex_experiment_days.csv": {
+    "url": "https://zenodo.org/records/8248802/files/experiment_days.csv?download=1",
+    "status": "failed",
+    "error": "URLError(PermissionError(13, '以一种访问权限不允许的方式做了一个访问套接字的尝试。', None, 10013, None))"
+  }
+}

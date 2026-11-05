@@ -1,0 +1,2709 @@
+{
+  "summary": {
+    "cpop": {
+      "localized_miss": 0,
+      "short_truth": 16,
+      "short_location_miss": 0
+    },
+    "labs": {
+      "localized_miss": 10,
+      "short_truth": 16,
+      "short_location_miss": 9
+    },
+    "retained": {
+      "localized_miss": 0,
+      "short_truth": 16,
+      "short_location_miss": 0
+    }
+  },
+  "rows": [
+    {
+      "task_id": "command-sim-8813000-smooth_strong-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-smooth_strong-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-smooth_strong-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-smooth_strong-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-smooth_strong-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-smooth_strong-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-smooth_weak-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-smooth_weak-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-smooth_weak-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-smooth_weak-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-smooth_weak-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-smooth_weak-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-brief_weak-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-brief_weak-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-brief_weak-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-brief_weak-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-brief_weak-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-brief_weak-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-interrupted-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-interrupted-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-interrupted-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-interrupted-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-interrupted-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-interrupted-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-early_exit-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-early_exit-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-early_exit-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-early_exit-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-early_exit-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-early_exit-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-oscillatory-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-oscillatory-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-oscillatory-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-oscillatory-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-oscillatory-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-oscillatory-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-delayed_rebound-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-delayed_rebound-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-delayed_rebound-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-delayed_rebound-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-delayed_rebound-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-delayed_rebound-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-null-0-gaussian",
+      "method": "cpop",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-null-0-gaussian",
+      "method": "labs",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-null-0-gaussian",
+      "method": "retained",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-null-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-null-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813000-null-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813000-one_bin_response-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813000-one_bin_response-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": true,
+      "short_truth": true,
+      "short_location_miss": true
+    },
+    {
+      "task_id": "cpop-short-8813000-one_bin_response-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813000-one_bin_response-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813000-one_bin_response-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": true,
+      "short_truth": true,
+      "short_location_miss": true
+    },
+    {
+      "task_id": "cpop-short-8813000-one_bin_response-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813000-one_bin_gap-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813000-one_bin_gap-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813000-one_bin_gap-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813000-one_bin_gap-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813000-one_bin_gap-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813000-one_bin_gap-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-smooth_strong-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-smooth_strong-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-smooth_strong-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-smooth_strong-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-smooth_strong-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-smooth_strong-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-smooth_weak-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-smooth_weak-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-smooth_weak-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-smooth_weak-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-smooth_weak-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-smooth_weak-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-brief_weak-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-brief_weak-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-brief_weak-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-brief_weak-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-brief_weak-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": true,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-brief_weak-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-interrupted-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-interrupted-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-interrupted-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-interrupted-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-interrupted-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-interrupted-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-early_exit-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-early_exit-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-early_exit-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-early_exit-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-early_exit-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-early_exit-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-oscillatory-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-oscillatory-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-oscillatory-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-oscillatory-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-oscillatory-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-oscillatory-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-delayed_rebound-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-delayed_rebound-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-delayed_rebound-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-delayed_rebound-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-delayed_rebound-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-delayed_rebound-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-null-0-gaussian",
+      "method": "cpop",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-null-0-gaussian",
+      "method": "labs",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-null-0-gaussian",
+      "method": "retained",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-null-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-null-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "command-sim-8813001-null-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813001-one_bin_response-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813001-one_bin_response-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": true,
+      "short_truth": true,
+      "short_location_miss": true
+    },
+    {
+      "task_id": "cpop-short-8813001-one_bin_response-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813001-one_bin_response-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813001-one_bin_response-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": true,
+      "short_truth": true,
+      "short_location_miss": true
+    },
+    {
+      "task_id": "cpop-short-8813001-one_bin_response-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813001-one_bin_gap-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813001-one_bin_gap-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813001-one_bin_gap-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813001-one_bin_gap-0-gaussian_plus_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813001-one_bin_gap-0-gaussian_plus_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "cpop-short-8813001-one_bin_gap-0-gaussian_plus_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_strong-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_strong-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_strong-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_strong-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_strong-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_strong-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_strong-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_strong-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_strong-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_weak-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_weak-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_weak-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_weak-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_weak-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_weak-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_weak-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_weak-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-smooth_weak-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-brief_weak-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-brief_weak-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-brief_weak-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-brief_weak-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-brief_weak-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-brief_weak-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-brief_weak-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-brief_weak-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-brief_weak-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-interrupted-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-interrupted-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-interrupted-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-interrupted-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-interrupted-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-interrupted-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-interrupted-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-interrupted-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-interrupted-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-early_exit-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-early_exit-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-early_exit-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-early_exit-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-early_exit-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-early_exit-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-early_exit-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-early_exit-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-early_exit-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-oscillatory-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-oscillatory-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-oscillatory-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-oscillatory-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-oscillatory-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-oscillatory-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-oscillatory-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-oscillatory-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-oscillatory-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-delayed_rebound-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-delayed_rebound-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-delayed_rebound-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-delayed_rebound-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-delayed_rebound-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-delayed_rebound-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-delayed_rebound-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-delayed_rebound-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-delayed_rebound-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-null-0-gaussian",
+      "method": "cpop",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-null-0-gaussian",
+      "method": "labs",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-null-0-gaussian",
+      "method": "retained",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-null-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-null-0-single_sample_spikes",
+      "method": "labs",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-null-0-single_sample_spikes",
+      "method": "retained",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-null-0-persistent_bursts",
+      "method": "cpop",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-null-0-persistent_bursts",
+      "method": "labs",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-null-0-persistent_bursts",
+      "method": "retained",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_response-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_response-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_response-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_response-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_response-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_response-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_response-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_response-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_response-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_gap-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_gap-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_gap-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_gap-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_gap-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_gap-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_gap-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_gap-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_minute_gap-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_response-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_response-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": true,
+      "short_truth": true,
+      "short_location_miss": true
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_response-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_response-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_response-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": true,
+      "short_truth": true,
+      "short_location_miss": true
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_response-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_response-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_response-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": true,
+      "short_truth": true,
+      "short_location_miss": true
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_response-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_gap-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_gap-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_gap-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_gap-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_gap-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_gap-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_gap-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_gap-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813000-one_finebin_gap-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_strong-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_strong-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_strong-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_strong-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_strong-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_strong-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_strong-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_strong-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_strong-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_weak-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_weak-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_weak-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_weak-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_weak-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_weak-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_weak-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_weak-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-smooth_weak-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-brief_weak-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-brief_weak-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-brief_weak-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-brief_weak-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-brief_weak-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-brief_weak-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-brief_weak-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-brief_weak-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-brief_weak-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-interrupted-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-interrupted-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-interrupted-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-interrupted-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-interrupted-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-interrupted-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-interrupted-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-interrupted-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-interrupted-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-early_exit-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-early_exit-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-early_exit-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-early_exit-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-early_exit-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-early_exit-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-early_exit-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-early_exit-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-early_exit-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-oscillatory-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-oscillatory-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-oscillatory-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-oscillatory-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-oscillatory-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-oscillatory-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-oscillatory-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-oscillatory-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-oscillatory-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-delayed_rebound-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-delayed_rebound-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-delayed_rebound-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-delayed_rebound-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-delayed_rebound-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-delayed_rebound-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-delayed_rebound-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-delayed_rebound-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-delayed_rebound-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-null-0-gaussian",
+      "method": "cpop",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-null-0-gaussian",
+      "method": "labs",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-null-0-gaussian",
+      "method": "retained",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-null-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-null-0-single_sample_spikes",
+      "method": "labs",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-null-0-single_sample_spikes",
+      "method": "retained",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-null-0-persistent_bursts",
+      "method": "cpop",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-null-0-persistent_bursts",
+      "method": "labs",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-null-0-persistent_bursts",
+      "method": "retained",
+      "positive": false,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_response-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_response-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_response-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_response-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_response-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_response-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_response-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_response-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_response-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_gap-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_gap-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_gap-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_gap-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_gap-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_gap-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_gap-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_gap-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_minute_gap-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_response-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_response-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": true,
+      "short_truth": true,
+      "short_location_miss": true
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_response-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_response-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_response-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": true,
+      "short_truth": true,
+      "short_location_miss": true
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_response-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_response-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_response-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_response-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": true,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_gap-0-gaussian",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_gap-0-gaussian",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_gap-0-gaussian",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_gap-0-single_sample_spikes",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_gap-0-single_sample_spikes",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_gap-0-single_sample_spikes",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_gap-0-persistent_bursts",
+      "method": "cpop",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_gap-0-persistent_bursts",
+      "method": "labs",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    },
+    {
+      "task_id": "fine-8813001-one_finebin_gap-0-persistent_bursts",
+      "method": "retained",
+      "positive": true,
+      "localized_miss": false,
+      "short_truth": false,
+      "short_location_miss": false
+    }
+  ]
+}

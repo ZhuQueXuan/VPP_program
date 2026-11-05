@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "all960_native_events_present": true,
+  "original_empty_segments": 28,
+  "affected_events": 28,
+  "n_independent_rmse_recomputations": 1920,
+  "max_rmse_delta": 1.1102230246251565e-16,
+  "frozen_main_inputs_and_outputs_unchanged": true,
+  "default_fit_no_rerun": true
+}

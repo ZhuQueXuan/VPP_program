@@ -1,0 +1,30 @@
+{
+  "repository": "https://api.github.com/repos/pfryz/LABS",
+  "default_branch": "main",
+  "commit": "0bb0524dec39336a2e0d032287ce092e2968145a",
+  "commit_date": "2026-08-21T13:33:27Z",
+  "pushed_at": "2026-08-21T13:43:36Z",
+  "execution": false,
+  "downloads": {
+    "LABS_functions.R": {
+      "url": "https://raw.githubusercontent.com/pfryz/LABS/0bb0524dec39336a2e0d032287ce092e2968145a/code/LABS_functions.R",
+      "bytes": 43990,
+      "sha256": "eb59d7e18c69bbbaac1382700f1707428cd846046cc4227e5f6e4788ecb30084"
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/pfryz/LABS/0bb0524dec39336a2e0d032287ce092e2968145a/LICENSE",
+      "bytes": 1455,
+      "sha256": "712eae0e75da5243421e17ed3342eb755111a4016871ac4485e4d6c5461eb967"
+    },
+    "CITATION.cff": {
+      "url": "https://raw.githubusercontent.com/pfryz/LABS/0bb0524dec39336a2e0d032287ce092e2968145a/CITATION.cff",
+      "bytes": 478,
+      "sha256": "7f2f57aa9a7300847cd0b3577a9866ccf28d42357df57fe73c3a3c1fe3361d18"
+    },
+    "README.md": {
+      "url": "https://raw.githubusercontent.com/pfryz/LABS/0bb0524dec39336a2e0d032287ce092e2968145a/README.md",
+      "bytes": 4840,
+      "sha256": "545be81896627fb93cebc8854ff5d507451110a8de50a1e659905624391e831b"
+    }
+  }
+}

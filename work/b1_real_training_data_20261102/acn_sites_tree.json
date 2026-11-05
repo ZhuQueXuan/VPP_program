@@ -1,0 +1,36 @@
+{
+  "sha": "67f5b682d5cdf194a58b0888f441c610803142ee",
+  "url": "https://api.github.com/repos/tongxin-li/ACN-Data-Static/git/trees/67f5b682d5cdf194a58b0888f441c610803142ee",
+  "tree": [
+    {
+      "path": ".DS_Store",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "285217c88b4901b83c06c3e538e8c0f53885f70d",
+      "size": 10244,
+      "url": "https://api.github.com/repos/tongxin-li/ACN-Data-Static/git/blobs/285217c88b4901b83c06c3e538e8c0f53885f70d"
+    },
+    {
+      "path": "caltech",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b63d503bdeb43029add6a149d03dec1b693cf04",
+      "url": "https://api.github.com/repos/tongxin-li/ACN-Data-Static/git/trees/6b63d503bdeb43029add6a149d03dec1b693cf04"
+    },
+    {
+      "path": "jpl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a205ccaa987d565d0f0ebf67c1b5829a6b1155c6",
+      "url": "https://api.github.com/repos/tongxin-li/ACN-Data-Static/git/trees/a205ccaa987d565d0f0ebf67c1b5829a6b1155c6"
+    },
+    {
+      "path": "office_01",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "559f6cc0b88e482bc4fd23f2e12d2c82b5a23608",
+      "url": "https://api.github.com/repos/tongxin-li/ACN-Data-Static/git/trees/559f6cc0b88e482bc4fd23f2e12d2c82b5a23608"
+    }
+  ],
+  "truncated": false
+}

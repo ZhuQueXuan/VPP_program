@@ -1,0 +1,19 @@
+{
+  "schema": "b1.gap-duration.v1",
+  "configuration": {
+    "leaves": 31,
+    "head": "absolute",
+    "mix": 1.0
+  },
+  "features": 426,
+  "model_files": {
+    "cumulative.json": "78783f386ff021d7da042971fe97c9bbf4c1d61608a89867fc0ab93950023589",
+    "longest.json": "f7b52a9a39aa5e97de9d5761e8422f12ec46d7174b42dc9b0c77820798f21aba"
+  },
+  "method": "Gap-aware direct cumulative/longest feature calibration with feasible joint bounds; standard HGB, no new solver claim.",
+  "selected_head": "absolute",
+  "validation_scope": "Known-reference controlled EV ODE simulations,30min,q1.5,sigma.05,10s/1min,15minpre/post; no field claim.",
+  "classification_localization_and_raw_energy_unchanged": true,
+  "default_policy_unchanged": true,
+  "final_assessment_sha256": "e8d278ac3d36b98c433185a9d9a24e7ab950f324e15e6b76ae96f9157cf05f27"
+}

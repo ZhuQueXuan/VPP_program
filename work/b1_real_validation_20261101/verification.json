@@ -1,0 +1,160 @@
+{
+  "passed": true,
+  "raw_minute_means_recomputed": 55,
+  "public_events_replayed": 11,
+  "prior_notice_reference_and_raw_energy_unchanged": true,
+  "tracking_does_not_read_task_or_rebound": true,
+  "models_and_raw_sources_SHA_unchanged": true,
+  "new_background_positive_windows": [
+    "dortmund-001",
+    "dortmund-008",
+    "dortmund-009"
+  ],
+  "command_context": [
+    {
+      "case_id": "dortmund-000",
+      "member": "Fiat 500e/Fiat_500e_empty_charging_AC_22kW_1_202308150939_e.csv",
+      "command_columns": {},
+      "logged_command_context_available": false,
+      "all_logged_command_fields_constant": false
+    },
+    {
+      "case_id": "dortmund-001",
+      "member": "Hyundai Ioniq 5/Hyundai_Ioniq5_empty_charging_AC_22kW_1_202308310825_e.csv",
+      "command_columns": {
+        "I_Setpoint_WL_H": {
+          "min": 16.0,
+          "max": 16.0,
+          "n": 7137,
+          "constant": true
+        },
+        "ChargingEnabled_WL_H": {
+          "min": 1.0,
+          "max": 1.0,
+          "n": 7137,
+          "constant": true
+        }
+      },
+      "logged_command_context_available": true,
+      "all_logged_command_fields_constant": true
+    },
+    {
+      "case_id": "dortmund-002",
+      "member": "Hyundai Ioniq 5/Hyundai_Ioniq5_empty_charging_AC_22kW_1_202308310825_e.csv",
+      "command_columns": {
+        "I_Setpoint_WL_H": {
+          "min": 16.0,
+          "max": 16.0,
+          "n": 7136,
+          "constant": true
+        },
+        "ChargingEnabled_WL_H": {
+          "min": 1.0,
+          "max": 1.0,
+          "n": 7136,
+          "constant": true
+        }
+      },
+      "logged_command_context_available": true,
+      "all_logged_command_fields_constant": true
+    },
+    {
+      "case_id": "dortmund-003",
+      "member": "Hyundai Ioniq 5/Hyundai_Ioniq5_empty_charging_AC_22kW_2_202309070833_e.csv",
+      "command_columns": {
+        "AC_Power_set_ID4": {
+          "min": 22.0,
+          "max": 22.0,
+          "n": 7071,
+          "constant": true
+        }
+      },
+      "logged_command_context_available": true,
+      "all_logged_command_fields_constant": true
+    },
+    {
+      "case_id": "dortmund-004",
+      "member": "Hyundai Ioniq 5/Hyundai_Ioniq5_empty_charging_AC_22kW_2_202309070833_e.csv",
+      "command_columns": {
+        "AC_Power_set_ID4": {
+          "min": 22.0,
+          "max": 22.0,
+          "n": 7073,
+          "constant": true
+        }
+      },
+      "logged_command_context_available": true,
+      "all_logged_command_fields_constant": true
+    },
+    {
+      "case_id": "dortmund-005",
+      "member": "Opel Corsa-e/OpelCorsa_e_empty_charging_AC_22kW_1_202308171034_e.csv",
+      "command_columns": {},
+      "logged_command_context_available": false,
+      "all_logged_command_fields_constant": false
+    },
+    {
+      "case_id": "dortmund-006",
+      "member": "Opel Corsa-e/OpelCorsa_e_empty_charging_AC_22kW_1_202308171034_e.csv",
+      "command_columns": {},
+      "logged_command_context_available": false,
+      "all_logged_command_fields_constant": false
+    },
+    {
+      "case_id": "dortmund-007",
+      "member": "Tesla Model Y/TeslaModel_Y_empty_charging_AC_22kW_1_202309120915_e.csv",
+      "command_columns": {
+        "I_Setpoint_WL_H": {
+          "min": 31.0,
+          "max": 31.0,
+          "n": 7061,
+          "constant": true
+        },
+        "ChargingEnabled_WL_H": {
+          "min": 1.0,
+          "max": 1.0,
+          "n": 7061,
+          "constant": true
+        }
+      },
+      "logged_command_context_available": true,
+      "all_logged_command_fields_constant": true
+    },
+    {
+      "case_id": "dortmund-008",
+      "member": "Tesla Model Y/TeslaModel_Y_empty_charging_AC_22kW_1_202309120915_e.csv",
+      "command_columns": {
+        "I_Setpoint_WL_H": {
+          "min": 31.0,
+          "max": 31.0,
+          "n": 7064,
+          "constant": true
+        },
+        "ChargingEnabled_WL_H": {
+          "min": 1.0,
+          "max": 1.0,
+          "n": 7064,
+          "constant": true
+        }
+      },
+      "logged_command_context_available": true,
+      "all_logged_command_fields_constant": true
+    },
+    {
+      "case_id": "dortmund-009",
+      "member": "VW ID4/VW_ID4_empty_charging_AC_22kW_1_202307270824_e.csv",
+      "command_columns": {},
+      "logged_command_context_available": false,
+      "all_logged_command_fields_constant": false
+    },
+    {
+      "case_id": "dortmund-010",
+      "member": "VW ID4/VW_ID4_empty_charging_AC_22kW_1_202307270824_e.csv",
+      "command_columns": {},
+      "logged_command_context_available": false,
+      "all_logged_command_fields_constant": false
+    }
+  ],
+  "real_response_truth_invented": false,
+  "no_retraining_or_test_selection": true
+}

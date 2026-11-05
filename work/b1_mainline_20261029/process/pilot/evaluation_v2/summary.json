@@ -1,0 +1,12 @@
+{
+  "n_variants": 96,
+  "n_methods": 6,
+  "n_metric_rows": 576,
+  "independent_blocks": 2,
+  "all_outputs_finite": true,
+  "common_raw_energy_agrees_at_1e12": true,
+  "common_raw_energy_max_range": 1.1102230246251565e-16,
+  "protocol_sha256": "f2dc36dc1b8852cb3150a8bde6f850f5af5a870daaca33c36146455327f46a7d",
+  "all_metrics_sha256": "2dfcb3b4326c8033b68b0b98e5cd63aa58bd4ce0a452d2b5d4ed4b332a06fbd8",
+  "cpop_segments_sha256": "f69896d48303dc25043065d9156f500555f693dd92298fb769d6b5c254b18549"
+}

@@ -1,0 +1,234 @@
+{
+  "schema_version": "b1.effects.v1",
+  "component": "effects",
+  "method": "standard_multivalued_AIPW",
+  "status": "causal",
+  "reasons": [],
+  "task": {
+    "task_id": "common_task_definition",
+    "outcome_name": "eta_raw",
+    "outcome_unit": "ratio",
+    "target_population": "supplied_event_population",
+    "window_minutes": [
+      0.0,
+      30.0
+    ],
+    "q_kw": 1.5,
+    "task_pre_treatment": true,
+    "reference_status": "provided",
+    "reference_uncertainty": "not_propagated"
+  },
+  "levels": [
+    0.0,
+    1.0
+  ],
+  "estimand": "event_weighted_mean_contrast_relative_to_first_level",
+  "support_pass": true,
+  "causal_assumptions_confirmed": true,
+  "declared_assumptions": {
+    "pre_treatment_X": true,
+    "consistent_treatment": true,
+    "no_interference": true,
+    "same_outcome_definition": true,
+    "conditional_exchangeability": null,
+    "randomized_assignment": true
+  },
+  "unconfirmed_assumptions": [],
+  "causal_curve": {
+    "levels": [
+      0.0,
+      1.0
+    ],
+    "reference_level": 0.0,
+    "mean_outcomes": [
+      0.10034636061064009,
+      0.30111068307110356
+    ],
+    "contrasts": [
+      0.0,
+      0.20076432246046347
+    ],
+    "outcome_unit": "ratio",
+    "weighting": "event_equal_weight",
+    "new_causal_estimator": false
+  },
+  "standardized_association": null,
+  "threshold_set": {
+    "first_grid_crossing_indices": [
+      1
+    ],
+    "adjacent_level_brackets": [
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "not_reached_possible": false,
+    "target_increment": 0.1,
+    "shape_constraint": "none",
+    "continuous_between_level_threshold_identified": false
+  },
+  "comparators": {
+    "plugin_shared_auxiliary": {
+      "levels": [
+        0.0,
+        1.0
+      ],
+      "reference_level": 0.0,
+      "mean_outcomes": [
+        0.10033359309396014,
+        0.30110824711551915
+      ],
+      "contrasts": [
+        0.0,
+        0.200774654021559
+      ],
+      "outcome_unit": "ratio",
+      "weighting": "event_equal_weight",
+      "new_causal_estimator": false
+    },
+    "ipw_shared_auxiliary": {
+      "levels": [
+        0.0,
+        1.0
+      ],
+      "reference_level": 0.0,
+      "mean_outcomes": [
+        0.10034636061064009,
+        0.3011106830711039
+      ],
+      "contrasts": [
+        0.0,
+        0.2007643224604638
+      ],
+      "outcome_unit": "ratio",
+      "weighting": "event_equal_weight",
+      "new_causal_estimator": false,
+      "normalization": "Horvitz_Thompson_not_Hajek"
+    },
+    "arm_mean_randomized": {
+      "levels": [
+        0.0,
+        1.0
+      ],
+      "reference_level": 0.0,
+      "mean_outcomes": [
+        0.10034636061064006,
+        0.30111068307110384
+      ],
+      "contrasts": [
+        0.0,
+        0.20076432246046377
+      ],
+      "outcome_unit": "ratio",
+      "weighting": "event_equal_weight",
+      "new_causal_estimator": false
+    }
+  },
+  "diagnostics": {
+    "passed": true,
+    "reasons": [],
+    "arm_counts": [
+      300,
+      300
+    ],
+    "min_pi": 0.5,
+    "fraction_below_clip": 0.0,
+    "observed_arm_ess_fractions": [
+      1.0,
+      1.0
+    ],
+    "weighted_smd_by_arm": [
+      6.0628942252480166e-18,
+      6.0628942252480166e-18
+    ],
+    "max_weighted_smd": 6.0628942252480166e-18,
+    "smd_limit": 0.2,
+    "propensity_clip": 0.01,
+    "diagnostic_is_not_identification_proof": true,
+    "training_counts": [
+      {
+        "fold": 0,
+        "training_arm_counts": [
+          200,
+          200
+        ]
+      },
+      {
+        "fold": 1,
+        "training_arm_counts": [
+          200,
+          200
+        ]
+      },
+      {
+        "fold": 2,
+        "training_arm_counts": [
+          200,
+          200
+        ]
+      }
+    ],
+    "original_user_fold_integrity": true,
+    "events": 600,
+    "users": 300
+  },
+  "inference": {
+    "contrasts": [
+      0.0,
+      0.20076432246046372
+    ],
+    "standard_errors": [
+      0.0,
+      0.0007909355783631667
+    ],
+    "lower": [
+      0.0,
+      0.19916760215740634
+    ],
+    "upper": [
+      0.0,
+      0.2023610427635211
+    ],
+    "critical": 2.0187741539731854,
+    "nominal_level": 0.95,
+    "bootstrap_draws": 199,
+    "cluster_count": 300,
+    "inference_unit": "original_user",
+    "uncertainty_scope": "sampling_conditional_on_supplied_outcome_and_nuisance_method",
+    "reference_process_uncertainty_propagated": false
+  },
+  "uncertainty": {
+    "scope": "conditional_on_supplied_outcome",
+    "reference_process_uncertainty_propagated": false,
+    "reference_status": "provided",
+    "declared_reference_uncertainty": "not_propagated"
+  },
+  "audit": null,
+  "configuration": {
+    "n_folds": 3,
+    "n_boot": 199,
+    "alpha": 0.05,
+    "kappa": 0.1,
+    "propensity_clip": 0.01,
+    "max_fraction_below_clip": 0.01,
+    "min_ess_fraction": 0.1,
+    "smd_limit": 0.2,
+    "min_train_per_arm": 10,
+    "min_events_per_arm": 10,
+    "outcome_degree": 2,
+    "ridge_alpha": 1.0,
+    "propensity_C": 1.0,
+    "seed": 885101,
+    "return_audit": false
+  },
+  "algorithm_version": "1.0.0",
+  "pipeline": {
+    "input_events": 600,
+    "input_users": 300,
+    "failed_events_dropped": 0,
+    "outcome_from_raw_event_integrals": true,
+    "process_fit_used_in_energy": false,
+    "reference_process_uncertainty_propagated": false
+  }
+}

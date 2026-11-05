@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-11-03T06:11:08.932888+00:00",
+  "status": "literature_review_and_concrete_reproduction_plan_complete",
+  "primary_baseline_candidate": "Colangelo-Lee continuous-treatment DML",
+  "method_adopted": false,
+  "performance_comparison_run": false,
+  "research_model_fitted": false,
+  "diagnostic_only": "small synthetic object-aliasing behavior check, not method accuracy experiment",
+  "existing_continuous_DR_retained": true,
+  "one_proposed_change": "soft two-part outcome nuisance for zero/positive bounded response time",
+  "new_estimator_or_novelty_claimed": false,
+  "first_block_frozen": true,
+  "old_final_tests_not_reopened": true,
+  "files_deleted": false,
+  "dependencies_installed": false,
+  "external_messages_sent": false,
+  "committed_or_uploaded": false,
+  "checks": {
+    "formal_algorithm_and_model_files_unchanged": 58,
+    "previous_closed_stage_artifacts_unchanged": 149,
+    "structured_source_records": 8,
+    "diagnostic_shared_cache_confirmed": true
+  },
+  "artifact_sha256": {
+    "work/b1_response_method_review_20261103/cache_audit.json": "3ecd98186ffe470e56bf31502a8c9a85a9544c8d0d259fa07b0e1e93d5cb6b2e",
+    "work/b1_response_method_review_20261103/cache_audit.py": "6dd3cdfacf3325dbcadeba347d8a1dcc89ccf1d8454f6a68d682b782c16c5bc3",
+    "work/b1_response_method_review_20261103/README.md": "21badc50600b78602cb53bbea9b01197ce38c936e8f3a7b6bdab461cad9de012",
+    "work/b1_response_method_review_20261103/reproduction_plan.json": "fcbb25072fb5491fd26cd948e1bce27db5c863c5366087e21a3797b4fee37897",
+    "work/b1_response_method_review_20261103/sources.json": "c9c1d442ecc30ac256991dc057257491ad95dd2a42646d63a7199e11e812a381",
+    ".review/2026-11-03-continuous-response-methods.md": "1285230b4bb407d427dcd7c88dbb8422dee0e88aaffe987e9d93b55126402085"
+  }
+}

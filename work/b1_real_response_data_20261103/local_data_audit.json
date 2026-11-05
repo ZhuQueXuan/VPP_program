@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-03",
+  "scope": "Read-only local source/schema/development-history audit for real part3 response research",
+  "operations": {"model_fit": false, "algorithm_modified": false, "old_data_modified": false, "installed": false, "deleted": false, "ACN_consumed_test_observations_opened": false, "ACN_external_raw_opened": false, "real_response_rows_newly_parsed": false, "design_metadata_tables_parsed": ["iFlex experiment_days.csv", "iFlex price_signals.csv"], "other_CSV_reads": "SGSC headers only; no response rows parsed"},
+  "main_conclusion": "Local data include genuine price-response material, strongest iFlex and Swiss residential tariffs; genuine EV waveforms alone do not supply ex-ante compensation. No currently prepared local dataset directly provides a validated continuously randomized scalar EV compensation-to-physical-duration gold curve. Real-data work can proceed using an explicit price-path or factual prediction target, without manufacturing prices or causal truth.",
+  "sources": [
+    {
+      "id": "iflex",
+      "location": "data/public_datasets/挪威_iFlex_动态电价试验",
+      "real_price_and_response": "Yes: experiment_days maps phase/date/group to assigned Price_signal; price_signals maps Price_signal/hour to real trial price; hourly household demand can be matched through phase/group/date/hour and anonymous household ID. Prior component already checked these joins on its Phase1 sample.",
+      "design_metadata_independently_rechecked_this_audit": {"experiment_rows": 267, "unique_dates": 55, "phases": 2, "groups": 13, "price_signals": 14, "duplicate_phase_date_group_keys": 0, "price_table_rows": 336, "hours_per_path": 24, "distinct_numeric_prices": 55, "profiles": 5, "price_levels": 6, "phase1": {"group_days": 13, "dates": 11, "groups": 2, "signals": 7, "date_min": "2020-02-11", "date_max": "2020-03-09"}, "phase2": {"group_days": 254, "dates": 44, "groups": 13, "signals": 14, "date_min": "2020-12-16", "date_max": "2021-03-25"}},
+      "archive_independently_rechecked": {"file": "iFlex_dataset.RData", "bytes": 40332391, "md5": "7547c0931b0cda997609d9e7df70fdd2", "archive_response_content_parsed_this_audit": false, "earlier_receipt_says_official_MD5_match": true},
+      "previous_actual_response_sample": {"households": 245, "price_households": 153, "control_households": 92, "hour_rows": 441000, "price_hour_rows": 23832, "household_days": 993, "group_days": 13, "independent_dates": 11, "source": "work/resource_regulation_behavior_causal_decomposition/stage1_20261012/behavior/audit.json", "status": "Historical Phase1 convenience segment; retrospective test already examined, not a fresh blind holdout"},
+      "next_feasible_action": "Recover existing full RData using available R runtime; first inspect object schema/dimensions and match Phase2 observed demand to the254 design group-days/44 dates. Metadata availability is not proof that all Phase2 response observations are complete or previously unused. Establish prior-use manifest before choosing new holdouts.",
+      "appropriate_real_target": "Assigned24-hour price-path ITT or conditional household-load/energy response; price-path and group-day are intervention units. Use all households and retain negative changes.",
+      "not_directly_supported": ["EV effective-duration or per-vehicle willingness outcome", "independently randomized arbitrary scalar price at each hour", "true individual untreated load", "gold continuous causal curve RMSE", "treating55 numeric prices as55 independent continuous random treatment levels"],
+      "identification_notes": ["14 designed24h paths form a finite intervention menu; hourly prices correlate with hour, adjacent prices, anticipation and shifting", "Group assignment and day/path selection require separate design audit; prior study reports cold-weather date selection and balancing adjustments", "Use protocol notification cutoff before treatment: previous-local-day15h Phase1 or18h Phase2, while actual delivery records are absent", "Do not use target-hour temperature or Temperature24/48/72 including event information as ex-ante predictors"],
+      "source_records": ["work/b1_factors_nonlinear_research_20261103/data_feasibility.json", "work/resource_regulation_behavior_causal_decomposition/stage1_20261012/behavior/核查与复算记录.md", "data/public_datasets/挪威_iFlex_动态电价试验/experiment_days.csv", "data/public_datasets/挪威_iFlex_动态电价试验/price_signals.csv"]
+    },
+    {
+      "id": "ACN",
+      "location": "data/ACN_real_user_benchmark_v1_20261102",
+      "existing_scale": {"sessions": 1878, "anonymous_users": 195, "train": {"users": 129, "sessions": 1169}, "validation": {"users": 27, "sessions": 254}, "original_main_test": {"users": 27, "sessions": 212}, "external": {"users": 12, "sessions": 243}},
+      "contains": "Real measured charging power/current, received ActualPilot upper limit, timestamps and official anonymous-user associations; development metadata/some provisional observed edge annotations.",
+      "can_validate": "First-part observed change localization and technical tracking after suitable reviewed labels; real measurement transfer.",
+      "missing_for_part3": "No matched ex-ante offered compensation/tariff assignment or randomized price rule; ActualPilot is a control limit rather than compensation, and command change is not success or untreated-reference truth.",
+      "holdout_status": "README is historical. FINAL_STAGE_STATUS_20261103 explicitly says48 main-test windows were consumed by first-part final acceptance. External observations remain unopened. This audit opened neither role's raw data.",
+      "prohibition": "Do not attach generated prices to ACN and call it real compensation evidence; do not reopen consumed first-part test to tune part3.",
+      "source_records": ["data/ACN_real_user_benchmark_v1_20261102/README.md", "data/ACN_real_user_benchmark_v1_20261102/FINAL_STAGE_STATUS_20261103.md", "work/b1_real_training_data_20261102/sources_catalog.json"]
+    },
+    {
+      "id": "SGSC",
+      "location": "data/public_datasets/澳大利亚_SGSC_需求响应",
+      "schema_headers_rechecked": {"events": ["EVENT_KEY", "PEAK_EVENT_TYPE", "EVENT_DATE", "START_TIMESTAMP", "END_TIMESTAMP", "HALF_HOUR_START_CD", "HALF_HOUR_END_CD"], "response": ["CUSTOMER_KEY", "EVENT_KEY", "ACTUAL_KWH", "BASELINE_KWH", "REBATE_AMOUNT"], "offers": "Customer/campaign/product/contact/acceptance/withdrawal fields, with no explicit per-event offered amount/rate in inspected header"},
+      "previous_analysis_scale": {"customer_event_rows": 12024, "customers": 1256, "events": 13},
+      "can_validate": "Real event-linked baseline-minus-actual energy/power arithmetic and factual customer/event associations; full event holdout.",
+      "part3_limit": "REBATE_AMOUNT is post-event realized settlement and can depend mechanically on observed reduction. Present local tables do not establish a complete ex-ante incentive rate per event/customer. Do not substitute it for A or invert it to create an offer.",
+      "source_records": ["resource_regulation_behavior_causal_decomposition/results/australia_real_data/澳大利亚公开真实数据分析报告.md", "data/public_datasets/澳大利亚_SGSC_需求响应/高峰调节事件.csv", "data/public_datasets/澳大利亚_SGSC_需求响应/高峰调节事件响应.csv", "data/public_datasets/澳大利亚_SGSC_需求响应/优惠方案及接受情况.csv"]
+    },
+    {
+      "id": "Swiss_ETH_EKZ_residential",
+      "location": "data/public_datasets/瑞士_住宅动态电价与自动控制",
+      "existing_archive_metadata": {"file": "dataset.zip", "bytes_from_existing_README": 904206916, "MD5_from_existing_README": "dd40d5e24aee2a3563bc36285b463dbd", "MD5_recomputed_this_audit": false, "pilot_meters_from_previous_records": 606},
+      "contains": "Real residential consumption/injection, tariff metadata and periods; device-presence and pilot-wide control flags; prior processed hourly sample exists.",
+      "can_support": "Real price/control association and factual load prediction after timing/assignment audit; alternative broader-data route.",
+      "part3_limit": "Dynamic prices depend on system/load policy and later reinforcement learning, not declared exogenous individual compensation. Pilot-wide EV_control is not per-event dispatch. Weather, installation timing, adoption and temporal confounding require work before causal interpretation.",
+      "source_records": ["data/public_datasets/瑞士_住宅动态电价与自动控制/README.md", "work/b1_factors_nonlinear_research_20261103/data_feasibility.json"]
+    },
+    {
+      "id": "UrbanEV",
+      "location": "data/六类资源研究数据/03_电动汽车充电设施/补充资料/UrbanEV",
+      "previous_verified_scale": "4344 hours x275 regions of released electricity/service quotes and occupancy;1362 stations/17532 piles in metadata",
+      "real_price_and_behavior": "Yes at released regional/hourly quotation-occupancy level; local originals and provenance are catalogued.",
+      "can_support": "EV charging-market quote/occupancy association or factual forecasting with station/region and whole-time-period splits.",
+      "part3_limit": "Regional aggregation lacks individual users/notification timing; released data have author cleaning/filling and no original missingness mask. Volume is rated-power-based estimation, not metered delivered energy. Price variation is absent for many regions. Not EV physical-duration or identified personal compensation effects.",
+      "source_records": ["work/six_resource_economic_data_20261018/六类资源补充数据与已有资料重叠核查.md", "data/六类资源研究数据/03_电动汽车充电设施/补充资料/UrbanEV/URBAN_PROVENANCE_01/urban_ev_readme.md"]
+    },
+    {
+      "id": "EPFL_KIT_Dortmund",
+      "contains": "Genuine EV charging waveforms/control setpoints and selected state variables in separate experiments; command and response can be time-linked within each source.",
+      "can_support": "Technical command-following and feature extraction transfer, keeping each experiment/session separate.",
+      "part3_limit": "No jointly matched ex-ante monetary compensation trial in reviewed local schemas; cannot merge their waveforms with UrbanEV or iFlex prices as if same participants.",
+      "source_records": ["work/b1_real_training_data_20261102/sources_catalog.json", "resource_regulation_behavior_causal_decomposition/results/switzerland_ev_technical_response/瑞士公开充电站技术响应能力分析报告.md", "data/六类资源研究数据/03_电动汽车充电设施/README.md"]
+    },
+    {
+      "id": "other_resource_economic_candidates",
+      "local_evidence": ["Elexon: one settlement-period same-BMU bid/offer, plan, acceptance and settlement field chain exists; self-selected bids and sparse period do not identify a response curve", "Dingle: real PV/battery measurements but documented controller price is virtual, not actual paid incentive", "Air conditioning CPP: source paper/appendix and access route located; local review says raw replication/field minute data not obtained", "Water heater: laboratory records and noncontemporaneous/virtual price inputs do not form household price-response records;16-household field trial raw data pending"],
+      "source_records": ["work/six_resource_economic_data_20261018/六类资源补充数据与已有资料重叠核查.md", "data/六类资源研究数据/04_空调/README.md", "data/六类资源研究数据/06_储热式电热水器/README.md"]
+    }
+  ],
+  "minimum_feasible_real_validation": {
+    "priority": "Recover iFlex Phase2 response archive and prove source joins/design support before fitting. Keep trial-path outcomes distinct from EV-duration simulation outcomes.",
+    "target_first": "All assigned eligible households' factual hourly/daily load or energy under a declared full-day price path, plus design-supported discrete-path ITT/controlled aggregate effects. State unit and price-path assignment rather than rename household demand as EV response seconds.",
+    "split": ["First create prior-use inventory; Phase1 retrospective results remain development knowledge", "Freeze truly unused whole dates/periods and households before outcomes/model outputs are examined; prefer separate new-user and later-period evaluations, with a crossed holdout if adequately supported", "Keep a shared assigned group-day/24h path wholly inside one fold; never randomly split its hours or label households sharing that intervention as independent randomizations", "Use only pre-notification history. Fit scalers/feature selection/weather/load nuisance models on training folds; personal pre-event history for new users is allowed only if explicitly declared and genuinely available", "Use sufficient separation or purging for overlapping outcome windows; do not use heldout outcome hours in baseline construction. Respect phase-specific notification cutoff and future information", "Cluster uncertainty by actual assignment/date dependence; household and time dependence may both matter. Report independent date/group-day counts, not hourly row count as N"],
+    "metrics": [
+      {"name": "Factual out-of-sample load/energy MAE and RMSE", "reference": "Actual measured heldout outcome, kW/kWh", "meaning": "Prediction/generalization error under assigned observed conditions, not continuous causal-curve gold error"},
+      {"name": "Assigned-path/group-day aggregate calibration", "reference": "Heldout observed means or design-based randomized group contrasts, with control adjustment and sampling uncertainty", "meaning": "Agreement at supported randomized/discrete interventions; group means are noisy references, not exact individual counterfactual truth"},
+      {"name": "Comparison with calendar/history baseline and price-free predictor", "reference": "Same heldout households/whole periods and same coverage", "meaning": "Incremental predictive value of legally available price/state information"},
+      {"name": "Support and output coverage", "reference": "Designed households, group-days, dates, price paths, matched meters and missingness", "meaning": "Whether effects/curves can be estimated in the declared domain, separate from accuracy"},
+      {"name": "Predeclared control/non-event placebo and baseline sensitivity", "reference": "Real comparison periods and alternative legal baseline definitions", "meaning": "Detect spurious patterns and baseline sensitivity; absence of placebo significance does not prove no confounding"},
+      {"name": "Effect estimates, clustered intervals and period stability", "reference": "Trial design and independent date blocks", "meaning": "Real supported treatment contrasts; cannot report interval coverage without known true effects"}
+    ],
+    "do_not_use": ["RMSE against an invented real counterfactual mean curve", "Percent causal accuracy from prediction R2/MAE", "Realized rebate or realized electricity bill as ex-ante treatment", "Independently learned model as gold truth", "Forced zero or deleted negative/weak response", "Synthetic price attached to real waveforms", "Treating finite price paths or repeated tariffs as pure continuous-dose density"],
+    "continuous_extension_gate": "If the actual design is14 discrete24h paths, first use its appropriate discrete/path analysis. A smooth scalar curve may be exploratory conditional association or interpolation at supported design points, but does not validate the present pure-continuous scalar DR estimand. Establish a defensible scalar intervention/conditioning set and overlap before reusing continuous-density claims.",
+    "what_current_simulation_still_does": "Known-truth continuous contrast/derivative RMSE remains a separate algorithm benchmark. Real factual prediction and trial contrasts complement it; do not merge their metrics into one accuracy."
+  }
+}

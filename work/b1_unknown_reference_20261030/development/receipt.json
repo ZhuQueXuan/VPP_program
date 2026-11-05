@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "phase": "development",
+  "independent_seed_blocks": 4,
+  "contexts": 8,
+  "physical_context_shape_variants": 32,
+  "reference_variants": 96,
+  "method_rows": 288,
+  "native_cases": 576,
+  "context_shortfalls": {},
+  "candidate_admitted": false,
+  "default_changed": false,
+  "raw_eta_identical_across_methods": true,
+  "protected_hashes_unchanged": true,
+  "elapsed_seconds": 70.1163702000049,
+  "scope": "controlled interval-response stress panel on RIDE EV load backgrounds; not full author pipeline, real validation, or causal effect evaluation"
+}
