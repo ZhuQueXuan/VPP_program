@@ -1,8 +1,0 @@
-{
-  "draws": 99,
-  "seed_offset": 90335000,
-  "scope": "all16savednewfinalcohorts",
-  "fixed_bandwidth": true,
-  "selection": "no tuning; all success/failure and all grids retained",
-  "coverage": "empirical finite-grid observation, only4independentseedblocks; not formal guarantee"
-}

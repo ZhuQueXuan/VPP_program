@@ -1,9 +1,0 @@
-{
-  "url": "https://data.london.gov.uk/download/2y5k8/c869f8ac-33d3-4cf9-bf28-d89c61bbc7a2/EV%20Load%20Profiles.zip",
-  "length": 121006788,
-  "etag": "\"66f6c8c234730c875c7b33c7dc4db2db\"",
-  "network_byte_limit": 3000000,
-  "ranges": [],
-  "samples": [],
-  "error": "BadZipFile: File is not a zip file"
-}

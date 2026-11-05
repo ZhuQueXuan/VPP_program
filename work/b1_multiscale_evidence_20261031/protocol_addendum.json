@@ -1,9 +1,0 @@
-{
-  "reason": "Initial17 inherited >=6A historic steady-charging filter; include all zero-command returns to answer user evidence question without discarding stop/start.",
-  "selection": "All command returns within10s, |step|>=2A; no current-response selection or new tuning.",
-  "all_returns": 162,
-  "zero_command_returns": 145,
-  "recordings": 10,
-  "subset17_kept": true,
-  "source": "Same frozen command ledger and same original Parquet; auxiliary observational scope, not a new independent validation cohort."
-}

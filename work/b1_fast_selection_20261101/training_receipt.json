@@ -1,1 +1,0 @@
-{"cases":1792,"rows":453120,"features":42,"models":[{"model":"model_l15.json","leaves":15,"l2":10.0,"training_seconds":7.633840499998769,"export_max_difference":0.0},{"model":"model_l31.json","leaves":31,"l2":20.0,"training_seconds":8.120791900000768,"export_max_difference":0.0}],"seeds":[7660000,7660001,7660002,7660003,7660004,7660005,7660006,7660007],"no_field_truth_used":true}

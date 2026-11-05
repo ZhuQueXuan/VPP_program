@@ -1,1 +1,0 @@
-{"model":"model_l31.json","weight":1.0,"band_sigma":1.0,"zone":"below","beta":3.0,"offset_sigma":0.0,"method_name":"segment_boost","domain":{"task_minutes":30.0,"request_kw":1.5,"noise_sigma_kw":0.05,"pre_minutes":15.0,"post_minutes":15.0,"meter_minutes":[0.16666666666666666,1.0]}}

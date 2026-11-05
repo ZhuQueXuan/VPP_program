@@ -1,15 +1,2 @@
-# Research receipts hash exact on-disk bytes; preserve them across platforms.
-/resource_research_results/** -text
-/work/resource_sample_selection_20261013/** -text
-/work/photovoltaic_research_20261015/** -text
-/work/ev_charging_research_20261016/** -text
-/work/air_conditioning_research_20261016/** -text
-/work/wind_power_research_20261016/** -text
-/work/electric_water_heating_research_20261016/** -text
-/work/vpp_dml_review_20261017/** -text
-/work/vpp_dml_project_trial_20261017/** -text
-
-# Formal research v1: source freezes and audit receipts refer to exact bytes.
-/B1算法/** -text
-/work/b1_*/** -text
-/releases/research-v1/** -text
+# Preserve model and source bytes across platforms.
+* -text

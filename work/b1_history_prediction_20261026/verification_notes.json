@@ -1,4 +1,0 @@
-{
-  "reason": "verifier required normalized-dose floating result <=6 exactly; valid index6 gave6.000000000000001",
-  "fix": "check rounded integer index within0..6 plus numerical distance<1e-12; scientific sources/data/predictions unchanged"
-}

@@ -1,9 +1,0 @@
-{
-  "passed": true,
-  "checks": 7236,
-  "scope": "Saved-output arithmetic/provenance only; not independent scientific trials",
-  "decomposition_points": 2304,
-  "protected_files": 378,
-  "original_sources_unchanged": true,
-  "code_sha256": "88d8fde81a13476da9d6ae99937c82b8888e6c1c5e29f8c4cb812b52aefc6543"
-}

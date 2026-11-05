@@ -1,8 +1,0 @@
-{
-  "purpose": "Official source identity/files/dictionary before model preparation. Domestic resistive150L source is not a verified industrial boiler.",
-  "files": [
-    {"name":"dataset.json","url":"https://data.mendeley.com/public-api/datasets/ddmv4w434g","limit_bytes":5000000},
-    {"name":"data_paper_registry.json","url":"https://api.crossref.org/works/10.1016/j.dib.2024.110082","limit_bytes":1000000},
-    {"name":"model_paper_registry.json","url":"https://api.crossref.org/works/10.1016/j.applthermaleng.2024.122851","limit_bytes":1000000}
-  ]
-}

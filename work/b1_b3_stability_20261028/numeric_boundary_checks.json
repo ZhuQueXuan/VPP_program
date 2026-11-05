@@ -1,7 +1,0 @@
-{
-  "status": "passed",
-  "checks": 13,
-  "numpy_real_inputs_accepted": true,
-  "strings_boolean_nonfinite_still_rejected": true,
-  "primary_outputs_unchanged": true
-}

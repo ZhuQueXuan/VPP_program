@@ -1,8 +1,0 @@
-﻿dataset_id,evidence_value,evidence_unit,parameter_id,operator,rule_value,rule_unit,region,rule_gate_result,interpretation,source_document,source_clause
-m5bat_manifest_2017,0.24,MW,vpp.storage.min_aggregate_capacity,>=,1,MW,CN-SD,fail_as_single_unit,单台240 kW储能低于1 MW聚合单元门槛；可与其他资源聚合后重新判断。,山东电力市场规则（试行）,第2.3.20条第（二）款第3项
-m5bat_manifest_2017,0.75,h,vpp.storage.spot.min_continuous_duration,>=,2,h,CN-SD,fail,180 kWh/240 kW得到额定时长0.75 h，低于电能量市场2 h门槛。,山东电力市场规则（试行）,第2.3.20条第（二）款第3项
-m5bat_manifest_2017,45.0,min,vpp.storage.aux.min_continuous_duration,>=,15,min,CN-SD,pass_nominal_duration,额定时长45 min超过15 min，但仍需山东主体注册、测试、计量通信等证据。,山东电力市场规则（试行）,第2.3.20条第（二）款第3项
-m5bat_manifest_2017,0.23592500000000002,MW_observed_abs_p95,frequency.reserve.storage_power_ratio_each_direction,=,10,percent_of_rated_power,CN-SD,supporting_evidence_only,按额定功率计算单方向预留要求为0.024 MW；实测值较高，但未证明同一运行点上下双向均可用。,山东电力市场规则（试行）,附件6第（二）项第2点
-epfl_level3_ev,0.174846,MW_observed_charging_power,vpp.adjustable_load.min_adjustable_capacity,>=,1,MW,CN-SD,not_computable,最大充电功率不等于经测试认定的可调节能力，不能据此判断1 MW门槛。,山东电力市场规则（试行）,第2.3.20条第（二）款第4项
-australia_sgsc,0.764412,MW_event_median,vpp.adjustable_load.min_adjustable_capacity,>=,1,MW,CN-SD,partial_pass_by_event,13次事件中有4次达到1 MW；不能视为稳定通过。,山东电力市场规则（试行）,第2.3.20条第（二）款第4项
-australia_sgsc,4.0,h_event_median,vpp.adjustable_load.min_continuous_duration,>=,1,h,CN-SD,pass_duration_evidence,事件持续时间中位数4 h，高于山东1 h门槛；仍不能替代山东调节能力认定。,山东电力市场规则（试行）,第2.3.20条第（二）款第4项

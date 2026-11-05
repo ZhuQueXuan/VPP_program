@@ -1,9 +1,0 @@
-{
-  "id": "PVDAQ_METRICS_LAYOUT_01",
-  "files": [
-    {
-      "name": "metric_files.xml",
-      "url": "https://oedi-data-lake.s3.amazonaws.com/?list-type=2&prefix=pvdaq%2Fparquet%2Fmetrics%2F&max-keys=10"
-    }
-  ]
-}

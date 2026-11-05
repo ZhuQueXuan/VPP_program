@@ -1,8 +1,0 @@
-{
-  "files": {
-    "acn_split_plan.json": "7fb7566c56e7eaafccc53588b00d6c2ef7079d0bd5416bd9bb8c31b53ca8d3b0",
-    "acn_split_all.json": "da2510e69d361fdd44e9d2933b11dbf77d41bcb6ce64298de3bd20edfe724975",
-    "acn_download_selection.json": "acb8c251c690798af0d3f11324f0b6ea46ddcf31cf820fbd159ea07b53892638"
-  },
-  "before_bulk_download": true
-}

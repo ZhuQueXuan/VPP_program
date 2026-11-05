@@ -1,8 +1,0 @@
-{
-  "analysis_only": true,
-  "new_fitting": false,
-  "frozen_main_unchanged": true,
-  "n_template_subgroup_rows": 45,
-  "n_amplitude_rows": 960,
-  "caveat": "posthoc diagnostic and secondary subgroup comparisons; no simultaneous guarantee"
-}

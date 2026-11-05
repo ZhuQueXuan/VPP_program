@@ -1,8 +1,0 @@
-{
-  "applies_to": "home_capacity_crossperiod_protocol_v2.json",
-  "actual_file_sha256": "a028be269a00e40b9b6934af0beb3ecbf150191f7a0f375edbb5ca4ffb8ef82c",
-  "scope": "metadata wording clarification only; frozen dates, source members, thresholds, pairing, integrals and evaluation unchanged",
-  "design_status": "The inherited v1 design_status phrase full-month quality already inspected refers to v1 June 2017 only. February/March 2018 raw files had NOT been acquired or inspected when v2 was frozen. Published reference values for all four ID01 tests had previously been seen.",
-  "baseline_reference": "The inherited baseline.reference phrase first controlled test is v1 wording. In v2 the unique reference key is 43165.683738425927, system 1, next chronological controlled test 2018-03-06 16:24:35, as explicitly frozen in the outer reference object.",
-  "fingerprints": "freeze_receipt_01.json records canonical JSON LF serialization hash; freeze_file_fingerprint_01.json records actual CRLF file bytes. Contents are unchanged; this is not threshold revision or a new trial."
-}

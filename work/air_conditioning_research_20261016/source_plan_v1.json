@@ -1,8 +1,0 @@
-{
-  "date":"2026-10-16",
-  "purpose":"User selected air conditioning. Inspect exact published source, object boundary, license and original file sizes before downloading raw data or modelling.",
-  "files":[
-    {"name":"pleia_record.json","url":"https://zenodo.org/api/records/7620136","limit_bytes":2000000},
-    {"name":"pleia_article.html","url":"https://www.nature.com/articles/s41597-023-02023-3","limit_bytes":3000000}
-  ]
-}

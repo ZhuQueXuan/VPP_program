@@ -1,8 +1,0 @@
-{
-  "seed": 2810190000,
-  "distinct_from_main": true,
-  "events": 14400,
-  "power_min": 0.0,
-  "power_max": 7.194098272229687,
-  "energy_max": 5.329070518200751e-15
-}

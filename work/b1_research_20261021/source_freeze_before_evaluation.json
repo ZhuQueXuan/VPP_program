@@ -1,7 +1,0 @@
-{
-  "simulation.py": "47499ae2bd6dcbc091edf9bca9ee5cac319c522aa7dd2aa440b570ab0cbb9bb1",
-  "estimators.py": "1e8c3e01b1b019e3dbe7de0435bcef709a787a6eb63a4df9d4af0571f4d4843d",
-  "run_research.py": "277ab75db4d643c93226e53c60309af8ed1944ef5cd23c088bfd31795f6e91b7",
-  "evaluate.py": "f26fd7efa05af5dbcef1f79ed97757e90f269e7d1d51d513a198ff177ee144f4",
-  "protocol.json": "ea0e64740dba617cc01c3a217523f82caced5a80b48baf39bf27a51f6957767b"
-}

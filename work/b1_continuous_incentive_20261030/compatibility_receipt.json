@@ -1,9 +1,0 @@
-{
-  "passed": true,
-  "checks": 8,
-  "discrete_events": 480,
-  "old_discrete_scores_difference": 0.0,
-  "old_curve_and_inference_equal": true,
-  "plot_ratio_outcomes_labeled_by_actual_meaning": true,
-  "source_changes_since_study": "plot axis label only, no estimation changes"
-}

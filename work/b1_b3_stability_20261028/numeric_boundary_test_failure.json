@@ -1,3 +1,0 @@
-{
-  "reason": "Initial fixture assigned positive debt to an actor without actual control acceptance. Current and original query correctly agreed on terminal_unrecoverable_best_effort; test wrongly required feasible. Correct fixture enables all4 already-consented actors. No production algorithm change."
-}

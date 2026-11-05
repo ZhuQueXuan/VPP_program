@@ -1,9 +1,0 @@
-{
-  "purpose": "Prospective additional DEVELOPMENT validation of the frozen retained-method real-observation adapter. Not final-test unlocking, independent reviewer or physical gold.",
-  "size": 32,
-  "selection": "Only original validation-role sources,8 per short_limit/small_step/ordinary_step/quiet_limit. Deterministic hash order, prefer users not in the previous128 windows, one user per stratum, exclude any same-session window overlapping an earlier selected window. Pilot/time/user metadata only; not actual response or model output. Already-profiled validation users may recur; report users not independent vehicle counts.",
-  "review": "Inspect raw power/current/pilot plots and source rows and assign the same observational labels before any model output for these new windows. Single assistant and provisional, not independent human adjudication. Keep unknown/NA and all selected cases.",
-  "freeze": "Parent event model, V2 recovery model and source SHA are frozen before selection and review. No fitting, changed threshold or source edits after seeing these new outcomes.",
-  "comparison": "Same native power sequence for original CPOP/LABS and adapted retained chain; CPOP structural curve shared exactly. Map positions to original seconds, no resampling/filling. Same prior scoring policy180s missing penalty; no effective0.15kW or fault truth claimed.",
-  "scope": "No test/external observation reading, original data edits, old-model replacement, production adoption, prediction, report, second-block changes or new dependency."
-}

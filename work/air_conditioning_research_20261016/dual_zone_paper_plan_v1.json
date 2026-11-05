@@ -1,5 +1,0 @@
-{"purpose":"Identify paired journal paper from primary registry/author and inspect accessible preprint, no performance transfer.","files":[
-{"name":"crossref.json","url":"https://api.crossref.org/works?query.title=Experimental%20demonstration%20of%20penalty-based%20distributed%20MPC%20for%20peak%20load%20and%20cost%20reduction&rows=3","limit_bytes":1000000},
-{"name":"author_research.html","url":"https://sites.google.com/view/inhasbsg/research","limit_bytes":2000000},
-{"name":"ssrn.html","url":"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6828065","limit_bytes":1000000}
-]}

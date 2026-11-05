@@ -1,8 +1,0 @@
-{
-  "created_utc": "2026-11-02T18:01:14.795908+00:00",
-  "reason": "Independent gate review found0<=.95*0 was incorrectly treated as a5percent gain. Preregistered fewer-error criterion requires a strict positive reduction. Correct only decision logic; do not rerun inference or change predictions. acceptance_decision.json supersedes preserved real_test/decision.json.",
-  "corrected_evaluate_real_sha256": "299182ff85a2afe977bf2b3106dd867161e8e5f49a17a6740ddc27e30024b424",
-  "predictions_preserved_sha256": "20f999d98abdc86be778193328e342a0460fb0c804d6c6647605a52612bcf06a",
-  "scores_preserved_sha256": "09a947cafc783215d2fdfabd6168a08105c71b6112389ed5aa2bd6398b941d26",
-  "new_model_not_adopted_for_equal_score": true
-}

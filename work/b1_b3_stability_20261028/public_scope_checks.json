@@ -1,6 +1,0 @@
-{
-  "status": "passed",
-  "supported_start0": true,
-  "unsupported_start15_blocked": true,
-  "prior_fixture_note": "First test selected a tight-recovery case and incorrectly expected admission; original gate correctly rejected. Corrected positive fixture uses pre-existing loose case18, no algorithm/output changes."
-}

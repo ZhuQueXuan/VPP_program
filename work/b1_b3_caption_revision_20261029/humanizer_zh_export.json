@@ -1,9 +1,0 @@
-{
-  "pdf_sha256": "2675ed5e17eb8e6ff009c8929271b960ed6d4973c1cde834a6c102523abe4dc1",
-  "renderer": "Microsoft Word native PDF export",
-  "input_sha256": "88c1a500e496452dc633c2add74ecba346afe4c2e193187c190372072543d956",
-  "input": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_caption_revision_20261029\\humanizer_zh_staged.docx",
-  "status": "success",
-  "page_count": 14,
-  "pdf": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_caption_revision_20261029\\humanizer_zh_preview.pdf"
-}

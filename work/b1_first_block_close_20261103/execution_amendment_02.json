@@ -1,8 +1,0 @@
-{
-  "created_utc": "2026-11-02T17:56:26.493419+00:00",
-  "reason": "Original LABS helper returns JSON lists but internal process.complete requires numpy arrays. Both original native curves are now converted to numpy without numerical change. Resume already generated identical facts/native output; no redraw/refit or changed model/metrics.",
-  "original_sha256": "beac9ea0ef2fba461e18d652b32d09317741526a620db316550a48b1c8564a33",
-  "corrected_sha256": "a35071e6835d3a4a9fa8eb0108738e369dc349ffe228ca192011c567e63675de",
-  "preserved_native_output_sha256": "a778c32b525226b9fcd6ddce024efdda26ad70e39fd8a9c23494bef6cb259a6e",
-  "before_any_successful_feature_scoring": true
-}

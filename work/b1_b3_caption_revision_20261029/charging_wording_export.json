@@ -1,9 +1,0 @@
-{
-  "input_sha256": "0732e97a705d6fe0b1d4ef089ae14100bfb0de0883b332ac92bdc8c5d548f036",
-  "status": "success",
-  "pdf_sha256": "0a65e7e3f3cc7a463a79a12eca80887a325ab3f2844033c9ab7b5363f86fd778",
-  "input": "D:\\myDocu\\project_postg\\VPP_program\\04_汇报与调研资料\\课题一B1至B3算法阶段研究报告_20261029.docx",
-  "page_count": 11,
-  "pdf": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_caption_revision_20261029\\charging_wording_preview.pdf",
-  "renderer": "Microsoft Word native PDF export"
-}

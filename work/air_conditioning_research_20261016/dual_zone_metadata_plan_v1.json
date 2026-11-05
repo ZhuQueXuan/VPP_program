@@ -1,4 +1,0 @@
-{"purpose":"Official dataset file manifest and version metadata, no model/score yet.","files":[
-{"name":"files.json","url":"https://data.mendeley.com/public-api/datasets/7tzkdhgpfs/files?folder_id=root&version=1","limit_bytes":1000000},
-{"name":"dataset.json","url":"https://data.mendeley.com/public-api/datasets/7tzkdhgpfs","limit_bytes":1000000}
-]}

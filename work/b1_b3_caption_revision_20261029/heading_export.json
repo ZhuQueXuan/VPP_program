@@ -1,9 +1,0 @@
-{
-  "renderer": "Microsoft Word native PDF export",
-  "input_sha256": "7f639c8ed0dedbd75fce70885a6ca01b70a3adffd7370759b415e82b6d39347f",
-  "input": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_caption_revision_20261029\\heading_numbering_staged.docx",
-  "status": "success",
-  "pdf_sha256": "a536da895a36e8b7c4f52adb7469fa54c4c59861c43496ea4a3f4baca5133fe6",
-  "pdf": "D:\\myDocu\\project_postg\\VPP_program\\work\\b1_b3_caption_revision_20261029\\heading_numbering_preview.pdf",
-  "page_count": 11
-}

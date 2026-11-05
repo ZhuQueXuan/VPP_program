@@ -1,7 +1,0 @@
-{
-  "decision": "D067",
-  "created_utc": "2026-10-16T13:27:28.794760+00:00",
-  "scope": "Post-score description of all16751source-minute anchors across7whole files, localthermostat/top/bottom observedtemperature andgap. All3testfiles andall7331originalpredictions atTARGETlabel plusobservedB0upper/lowerband. Not new blind test, no newfit/prediction or energy/capacity inference.",
-  "curve_protocol_sha256": "5f75213a7d757989ee3f73e47194a4098827bc80bb5bf6aa5d240776e131bfa0",
-  "checks": "Independent allplotrows/quantiles/targetalignment; no picking goodsegment, no inferred source seconds or dates. Preserve missing/sentinel points as gaps, never fill."
-}

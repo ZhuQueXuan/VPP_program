@@ -1,0 +1,31 @@
+{
+  "study": {
+    "study_id": "ev-study",
+    "incentive_unit": "yuan/kWh",
+    "covariates": [
+      "deadline_slack",
+      "demand_urgency"
+    ],
+    "assignment": "observational",
+    "outcome_source": "duration_estimates"
+  },
+  "fit_options": {
+    "dose_domain": [
+      0.0,
+      2.4
+    ],
+    "reference_dose": 0.4,
+    "config": {
+      "seed": 0,
+      "n_boot": 399
+    },
+    "assumptions": {
+      "pre_treatment_X": true,
+      "consistent_treatment": true,
+      "no_interference": true,
+      "same_outcome_definition": true,
+      "conditional_exchangeability": false,
+      "randomized_assignment": false
+    }
+  }
+}

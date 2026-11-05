@@ -1,5 +1,0 @@
-{
-  "status": "failed",
-  "url": "https://thesis.library.caltech.edu/14191/1/Lee_Zachary_J_2021_Thesis.pdf",
-  "error": "HTTPSConnectionPool(host='thesis.library.caltech.edu', port=443): Max retries exceeded with url: /14191/1/Lee_Zachary_J_2021_Thesis.pdf (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
-}

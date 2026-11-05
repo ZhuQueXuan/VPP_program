@@ -1,9 +1,0 @@
-{
-  "beta_unconstrained": 0.6219249796583536,
-  "beta": 0.6219249796583536,
-  "boundary_hit": false,
-  "fit_current_pq_samples": 396240,
-  "denominator_kw_squared": 401341654.0,
-  "fit_partition_only": true,
-  "interpretation": "declared blending coefficient; no physical time-constant/causality claim"
-}

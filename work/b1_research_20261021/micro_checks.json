@@ -1,8 +1,0 @@
-{
-  "stage": "micro",
-  "identity": "synthetic_method_research_only",
-  "cases": 54,
-  "passed": true,
-  "protocol_sha256": "ea0e64740dba617cc01c3a217523f82caced5a80b48baf39bf27a51f6957767b",
-  "python": "3.10.6"
-}

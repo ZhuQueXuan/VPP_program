@@ -1,5 +1,0 @@
-{"purpose":"Resolve primary subset metadata and author paper links. Existing collection403 not retried; no claim that control data already admitted.","files":[
-{"name":"michigan_datacite.json","url":"https://api.datacite.org/dois/10.7302/vmwh-ek70","limit_bytes":1000000},
-{"name":"collection_datacite.json","url":"https://api.datacite.org/dois/10.7302/15pv-zt79","limit_bytes":1000000},
-{"name":"author_publications.html","url":"https://mathieu.engin.umich.edu/publications/","limit_bytes":2000000}
-]}

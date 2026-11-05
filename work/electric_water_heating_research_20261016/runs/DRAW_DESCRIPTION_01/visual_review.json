@@ -1,7 +1,0 @@
-{
-  "date": "2026-10-17",
-  "review": "PNG viewed in tool at full plot layout; titles, legends and units readable; all two full time ranges shown; missing temperature values plotted as gaps, no interpolation; no visible text collision or data clipping. SVG exported same figure, not separately rendered.",
-  "png_sha256": "d8fd56141e51631255a4ce2a1701f7b9ec912e3f77db2314c0cb4e967c615737",
-  "scientific_rows_sha256": "170fd56d0ee64ab2c0f9169c99821022e84b74945b7495f34c93bf4eb9f7796c",
-  "plot_input02_rows_equal_current04": true
-}

@@ -1,5 +1,0 @@
-{"purpose":"Official record identity/licence/file checksums and primary methodological paper; no data or model admitted yet.","files":[
-{"name":"zenodo_metadata.json","url":"https://zenodo.org/api/records/16807551","limit_bytes":1500000},
-{"name":"curve_paper.html","url":"https://www.mdpi.com/1996-1073/14/4/1105","limit_bytes":2000000},
-{"name":"status_paper.html","url":"https://onlinelibrary.wiley.com/doi/10.1002/we.70012","limit_bytes":3000000}
-]}

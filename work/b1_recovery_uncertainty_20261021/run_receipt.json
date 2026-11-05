@@ -1,9 +1,0 @@
-{
-  "protocol_sha256": "dbc927b5edf78c778f85039f7c12f47f934e74daaeb8f54908683c099ec99461",
-  "raw_sha256": "0a372d89412a39b6dc5da7d2d42efd1474f8eebc3e0cb7ddee98fda6e7bf978f",
-  "intervals_sha256": "9e4077ffa850daa923e94fe8f099e90c459d28aa5bc3ebb1c0c7dab233ce3640",
-  "truth_existed_before_estimation": false,
-  "seconds": 3.7233943939208984,
-  "factual_observation_variants": 20000,
-  "base_mechanism_noise_draws": 4000
-}

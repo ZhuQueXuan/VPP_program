@@ -1,2 +1,0 @@
-﻿portfolio_id,portfolio_name,simultaneous_markets,requested_up_power_mw,credible_up_power_low_mw,feasible,shortfall_mw,result,reserve_treatment,scenario_source
-pv_storage_ev_demo,模拟光储充聚合组合,frequency+ramping,1.0,0.78,False,0.22,不可同时履约，存在容量重复占用,山东备用当前未正式开放，仅评价准备度，不作为实际同时承诺。,simulation_assumption

@@ -1,7 +1,0 @@
-{
-  "status": "passed",
-  "checks": 2,
-  "existing_directory_refused": true,
-  "outside_work_refused": true,
-  "existing_receipt_sha_unchanged": "9bc08e3be47f0d0ffe60342ee271c47794dd7baacb5e198c54eae86b3bfe2bef"
-}

@@ -1,9 +1,0 @@
-{
-  "created_utc": "2026-11-02T17:55:30.185718+00:00",
-  "reason": "Imported legacy generator resolved this experiments common module; NameError load_module before any simulated draw/output. Isolate legacy common module for generation. No model,seed,data,metric,threshold or label rule changed.",
-  "file": "work/b1_first_block_close_20261103/evaluate_known.py",
-  "original_sha256": "f19af8af75712afd5da79af5fbdfaa33814d24dacef48d4c28c8e1a964c68da2",
-  "corrected_sha256": "beac9ea0ef2fba461e18d652b32d09317741526a620db316550a48b1c8564a33",
-  "before_any_model_output_on_final_test": true,
-  "old_artifacts_untouched": true
-}
